@@ -6,11 +6,11 @@
   "max_peak_mw": 468,
   "total_interruption_minutes": 10490,
   "total_block_outage_minutes": {
-    "1": 3772,
-    "2": 3850,
-    "3": 3322,
-    "4": 2421,
-    "5": 3085,
+    "1": 2752,
+    "2": 3967,
+    "3": 3462,
+    "4": 2436,
+    "5": 3205,
     "6": 2738
   },
   "total_emergency_mw_sum": 939,
@@ -35,5 +35,11 @@
     "Habana Vieja": 1
   },
   "averias_total": 134,
-  "daf_total": 85
+  "daf_total": 85,
+  "sen_collapse_total": 0,
+  "sen_outage_days": 10,
+  "sen_outage_minutes_total": 5202,
+  "cte_offline_minutes_total": {
+    "felton": 803
+  }
 }

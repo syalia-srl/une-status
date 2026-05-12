@@ -15,9 +15,12 @@
   },
   "total_block_outage_minutes": 3012,
   "daf_count": 6,
-  "sen_outage_minutes": 585,
-  "sen_outage": true,
-  "cte_offline_minutes": {},
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {
+    "felton": 803
+  },
   "averias_count_by_municipio": {
     "Arroyo Naranjo": 1,
     "San Miguel Del Padrón": 1,

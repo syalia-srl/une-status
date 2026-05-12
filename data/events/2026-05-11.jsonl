@@ -29,7 +29,7 @@
 {"id": 61749, "ts": "2026-05-11T13:59:30+00:00", "type": "via_libre", "has_photo": false}
 {"id": 61750, "ts": "2026-05-11T14:04:09+00:00", "type": "transferencia_bloque", "has_photo": false}
 {"id": 61751, "ts": "2026-05-11T14:18:35+00:00", "type": "daf", "has_photo": false}
-{"id": 61752, "ts": "2026-05-11T14:36:09+00:00", "type": "unidad_termoelectrica", "has_photo": true}
+{"id": 61752, "ts": "2026-05-11T14:36:09+00:00", "type": "unidad_termoelectrica", "has_photo": true, "unidad": 1, "planta": "Lidio Ramón Pérez \"Felton\"", "state": "offline", "cte_id": "felton", "cte_name": "Lidio Ramón Pérez (Felton)"}
 {"id": 61753, "ts": "2026-05-11T15:03:01+00:00", "type": "averias", "has_photo": false}
 {"id": 61754, "ts": "2026-05-11T15:11:54+00:00", "type": "corto", "has_photo": true}
 {"id": 61755, "ts": "2026-05-11T15:14:48+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
@@ -86,7 +86,7 @@
 {"id": 61808, "ts": "2026-05-12T01:59:01+00:00", "type": "otro", "has_photo": false}
 {"id": 61809, "ts": "2026-05-12T02:00:24+00:00", "type": "otro", "has_photo": false}
 {"id": 61811, "ts": "2026-05-12T02:20:37+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 10, "minutes_off": 23}, {"bloque": 4, "hours_off": 9, "minutes_off": 16}, {"bloque": 6, "hours_off": 6, "minutes_off": 51}, {"bloque": 1, "hours_off": 6, "minutes_off": 30}, {"bloque": 2, "hours_off": 6, "minutes_off": 3}, {"bloque": 5, "hours_off": 5, "minutes_off": 9}], "total_mw": 447}
-{"id": 61812, "ts": "2026-05-12T02:30:46+00:00", "type": "unidad_termoelectrica", "has_photo": true}
+{"id": 61812, "ts": "2026-05-12T02:30:46+00:00", "type": "unidad_termoelectrica", "has_photo": true, "unidad": 1, "planta": "Lidio Ramón Pérez \"Felton\"", "state": "offline", "cte_id": "felton", "cte_name": "Lidio Ramón Pérez (Felton)"}
 {"id": 61813, "ts": "2026-05-12T02:31:11+00:00", "type": "corto", "has_photo": true}
 {"id": 61814, "ts": "2026-05-12T02:56:10+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": ": 65 / 190 y 192", "severity": "secundaria"}]}
 {"id": 61815, "ts": "2026-05-12T03:20:05+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 11, "minutes_off": 23}, {"bloque": 4, "hours_off": 10, "minutes_off": 16}, {"bloque": 6, "hours_off": 7, "minutes_off": 51}, {"bloque": 1, "hours_off": 7, "minutes_off": 30}, {"bloque": 2, "hours_off": 7, "minutes_off": 3}, {"bloque": 5, "hours_off": 6, "minutes_off": 9}], "total_mw": 468}

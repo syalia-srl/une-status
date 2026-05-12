@@ -6,15 +6,19 @@
   "interruption_minutes": 1440,
   "emergency_mw": 122,
   "block_outage_minutes": {
-    "1": 1020,
-    "2": 963,
-    "3": 180,
-    "4": 0,
-    "5": 840,
+    "1": 0,
+    "2": 1080,
+    "3": 320,
+    "4": 15,
+    "5": 960,
     "6": 0
   },
-  "total_block_outage_minutes": 3003,
+  "total_block_outage_minutes": 2375,
   "daf_count": 3,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Habana Del Este": 2,
     "Guanabacoa": 1,
@@ -22,18 +26,19 @@
     "Arroyo Naranjo": 1
   },
   "averias_total": 5,
-  "source_msg_count": 32,
+  "source_msg_count": 38,
   "by_type_counts": {
     "otro": 2,
-    "actualizacion_bloques": 9,
+    "actualizacion_bloques": 10,
     "averias": 7,
     "disparo_circuito": 1,
-    "restablecimiento": 4,
+    "restablecimiento": 7,
     "daf": 3,
     "restablecimiento_daf": 2,
-    "inicio_afectacion": 1,
+    "inicio_afectacion": 2,
     "nota_diaria": 1,
     "sen_update": 1,
-    "empty": 1
+    "empty": 1,
+    "mantenimiento": 1
   }
 }
