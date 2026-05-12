@@ -7,10 +7,10 @@
   "total_interruption_minutes": 10490,
   "total_block_outage_minutes": {
     "1": 2752,
-    "2": 3967,
-    "3": 3462,
-    "4": 2436,
-    "5": 3205,
+    "2": 4027,
+    "3": 3502,
+    "4": 2456,
+    "5": 3265,
     "6": 2738
   },
   "total_emergency_mw_sum": 939,
@@ -35,7 +35,7 @@
     "Habana Vieja": 1
   },
   "averias_total": 135,
-  "daf_total": 85,
+  "daf_total": 86,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,

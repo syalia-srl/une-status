@@ -13,18 +13,21 @@ RE_BLOQUE_HORAS = re.compile(r"bloque\s+\d.*?\d+\s*horas?\s+y", re.IGNORECASE)
 RE_DAF = re.compile(r"disparo autom[áa]tico|\bDAF\b", re.IGNORECASE)
 # Full SEN collapse — explicit national-blackout markers
 RE_SEN_COLLAPSE = re.compile(
-    r"desconex[ií]on\s+total\s+del\s+(?:sen|sistema)"
+    r"desconex[ií][oó]n\s+total\s+del\s+(?:sen|sistema)"
     r"|salida\s+total\s+del\s+(?:sen|sistema)"
     r"|colaps[oó]\s+(?:total\s+)?(?:del\s+)?(?:sen|sistema\s+electroenerg)"
     r"|afectaci[oó]n\s+(?:del\s+)?100\s*%"
     r"|100\s*%\s+del\s+pa[ií]s"
     r"|se\s+perdi[oó]\s+(?:todo\s+)?el\s+(?:sen|sistema)"
-    r"|se\s+desconect[oó]\s+(?:todo\s+)?el\s+(?:sen|sistema)",
+    r"|se\s+desconect[oó]\s+(?:todo\s+)?el\s+(?:sen|sistema)"
+    r"|cero\s+(?:total\s+)?(?:del\s+)?sen"
+    r"|apag[oó]n\s+(?:total\s+)?nacional",
     re.IGNORECASE,
 )
 RE_SEN_RECOVER = re.compile(
     r"recuperaci[oó]n\s+(?:total\s+)?del\s+(?:sen|sistema)"
     r"|restablecimiento\s+(?:total\s+)?del\s+(?:sen|sistema)"
+    r"|restablec\w*\s+(?:total\s+)?(?:el\s+)?(?:sen|sistema\s+electroenerg)"
     r"|se\s+recuper[oó]\s+(?:todo\s+)?el\s+(?:sen|sistema)"
     r"|sincronizaci[oó]n\s+(?:total\s+)?del\s+sen",
     re.IGNORECASE,

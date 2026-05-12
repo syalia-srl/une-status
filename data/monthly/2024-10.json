@@ -44,8 +44,8 @@
   },
   "averias_total": 74,
   "daf_total": 7,
-  "sen_collapse_total": 0,
-  "sen_outage_days": 0,
-  "sen_outage_minutes_total": 0,
+  "sen_collapse_total": 2,
+  "sen_outage_days": 2,
+  "sen_outage_minutes_total": 1711,
   "cte_offline_minutes_total": {}
 }

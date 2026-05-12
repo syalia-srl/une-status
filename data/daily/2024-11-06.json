@@ -15,9 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 1,
-  "sen_collapse_count": 0,
-  "sen_outage_minutes": 0,
-  "sen_outage": false,
+  "sen_collapse_count": 3,
+  "sen_outage_minutes": 468,
+  "sen_outage": true,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
@@ -25,10 +25,11 @@
   "by_type_counts": {
     "via_libre": 1,
     "restablecimiento": 7,
-    "otro": 31,
+    "otro": 28,
     "corto": 5,
     "nota_diaria": 2,
     "empty": 9,
-    "daf": 1
+    "daf": 1,
+    "desconexion_total_sen": 3
   }
 }

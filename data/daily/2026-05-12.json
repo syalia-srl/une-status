@@ -7,14 +7,14 @@
   "emergency_mw": 122,
   "block_outage_minutes": {
     "1": 0,
-    "2": 1080,
-    "3": 320,
-    "4": 15,
-    "5": 960,
+    "2": 1140,
+    "3": 360,
+    "4": 35,
+    "5": 1020,
     "6": 0
   },
-  "total_block_outage_minutes": 2375,
-  "daf_count": 3,
+  "total_block_outage_minutes": 2555,
+  "daf_count": 4,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -27,19 +27,20 @@
     "Playa": 1
   },
   "averias_total": 6,
-  "source_msg_count": 40,
+  "source_msg_count": 44,
   "by_type_counts": {
-    "otro": 2,
-    "actualizacion_bloques": 10,
+    "otro": 3,
+    "actualizacion_bloques": 11,
     "averias": 8,
     "disparo_circuito": 1,
     "restablecimiento": 8,
-    "daf": 3,
+    "daf": 4,
     "restablecimiento_daf": 2,
     "inicio_afectacion": 2,
     "nota_diaria": 1,
     "sen_update": 1,
     "empty": 1,
-    "mantenimiento": 1
+    "mantenimiento": 1,
+    "corto": 1
   }
 }
