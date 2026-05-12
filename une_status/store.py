@@ -89,3 +89,7 @@ def daily_path(date_str: str) -> Path:
 
 def monthly_path(month_str: str) -> Path:
     return data_dir() / "monthly" / f"{month_str}.json"
+
+
+def cte_state_path() -> Path:
+    return data_dir() / "cte_state.json"

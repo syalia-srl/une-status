@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-12T16:22:45+00:00",
+  "generated_at": "2026-05-12T17:16:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-12T16:22:20+00:00",
+    "as_of": "2026-05-12T16:35:29+00:00",
     "bloques": [
       {
         "id": 1,
@@ -17,9 +17,8 @@
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-05-12T09:09:28+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-12T16:30:19+00:00"
       },
       {
         "id": 4,
@@ -39,8 +38,8 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 167,
-    "current_mw_affected_at": "2026-05-12T15:27:07+00:00",
+    "current_mw_affected": 138,
+    "current_mw_affected_at": "2026-05-12T16:35:29+00:00",
     "active_averias": {
       "ts": "2026-05-12T13:14:19+00:00",
       "averias": [
@@ -120,6 +119,11 @@
         "id": "felton",
         "name": "Lidio Ramón Pérez (Felton)",
         "state": "offline",
+        "assumed": false,
+        "last_seen_at": "2026-05-12T02:30:46+00:00",
+        "last_online_at": "2026-02-06T02:21:31+00:00",
+        "last_offline_at": "2026-05-12T02:30:46+00:00",
+        "last_change_at": "2026-05-11T14:36:09+00:00",
         "units": [
           {
             "unidad": 1,
@@ -128,8 +132,178 @@
           }
         ],
         "online_units": 0,
-        "offline_units": 1,
-        "last_change_at": "2026-05-12T02:30:46+00:00"
+        "offline_units": 1
+      },
+      {
+        "id": "guiteras",
+        "name": "Antonio Guiteras",
+        "state": "assumed_online",
+        "assumed": true,
+        "last_seen_at": "2026-04-10T14:55:42+00:00",
+        "last_online_at": "2026-04-10T14:55:42+00:00",
+        "last_offline_at": "2025-12-29T16:21:54+00:00",
+        "last_change_at": "2026-01-30T03:39:27+00:00",
+        "units": [
+          {
+            "unidad": 1,
+            "state": "online",
+            "since": "2026-04-10T14:55:42+00:00"
+          }
+        ],
+        "online_units": 1,
+        "offline_units": 0
+      },
+      {
+        "id": "maximo-gomez",
+        "name": "Máximo Gómez (Mariel)",
+        "state": "partial",
+        "assumed": false,
+        "last_seen_at": "2026-04-21T00:06:12+00:00",
+        "last_online_at": "2026-04-09T02:16:36+00:00",
+        "last_offline_at": "2026-04-21T00:06:12+00:00",
+        "last_change_at": "2026-04-21T00:06:12+00:00",
+        "units": [
+          {
+            "unidad": 3,
+            "state": "online",
+            "since": "2026-01-16T01:28:05+00:00"
+          },
+          {
+            "unidad": 5,
+            "state": "offline",
+            "since": "2026-02-25T03:14:50+00:00"
+          },
+          {
+            "unidad": 6,
+            "state": "offline",
+            "since": "2026-04-13T21:52:43+00:00"
+          },
+          {
+            "unidad": 8,
+            "state": "offline",
+            "since": "2026-04-21T00:06:12+00:00"
+          }
+        ],
+        "online_units": 1,
+        "offline_units": 3
+      },
+      {
+        "id": "cespedes",
+        "name": "Carlos M. de Céspedes (Cienfuegos)",
+        "state": "online",
+        "assumed": false,
+        "last_seen_at": "2026-05-02T00:35:29+00:00",
+        "last_online_at": "2026-05-02T00:35:29+00:00",
+        "last_offline_at": "2026-04-26T01:01:22+00:00",
+        "last_change_at": "2026-05-02T00:35:29+00:00",
+        "units": [
+          {
+            "unidad": 3,
+            "state": "online",
+            "since": "2026-04-22T00:29:35+00:00"
+          },
+          {
+            "unidad": 4,
+            "state": "online",
+            "since": "2026-05-02T00:35:29+00:00"
+          }
+        ],
+        "online_units": 2,
+        "offline_units": 0
+      },
+      {
+        "id": "nuevitas",
+        "name": "10 de Octubre (Nuevitas)",
+        "state": "partial",
+        "assumed": false,
+        "last_seen_at": "2026-05-07T00:24:49+00:00",
+        "last_online_at": "2026-05-07T00:24:49+00:00",
+        "last_offline_at": "2026-03-08T01:16:03+00:00",
+        "last_change_at": "2026-03-12T00:37:41+00:00",
+        "units": [
+          {
+            "unidad": 5,
+            "state": "offline",
+            "since": "2026-01-22T17:54:09+00:00"
+          },
+          {
+            "unidad": 6,
+            "state": "online",
+            "since": "2026-05-07T00:24:49+00:00"
+          }
+        ],
+        "online_units": 1,
+        "offline_units": 1
+      },
+      {
+        "id": "tallapiedra",
+        "name": "Otto Parellada (Tallapiedra)",
+        "state": "assumed_online",
+        "assumed": true,
+        "last_seen_at": null,
+        "last_online_at": null,
+        "last_offline_at": null,
+        "units": [],
+        "online_units": 0,
+        "offline_units": 0
+      },
+      {
+        "id": "guevara",
+        "name": "Ernesto Guevara (Santa Cruz)",
+        "state": "online",
+        "assumed": false,
+        "last_seen_at": "2026-04-30T00:36:25+00:00",
+        "last_online_at": "2026-04-30T00:36:25+00:00",
+        "last_offline_at": "2026-04-08T01:10:57+00:00",
+        "last_change_at": "2026-04-20T00:54:23+00:00",
+        "units": [
+          {
+            "unidad": 1,
+            "state": "online",
+            "since": "2026-04-20T21:35:10+00:00"
+          },
+          {
+            "unidad": 2,
+            "state": "online",
+            "since": "2026-04-30T00:36:25+00:00"
+          },
+          {
+            "unidad": 3,
+            "state": "online",
+            "since": "2026-03-08T01:08:25+00:00"
+          }
+        ],
+        "online_units": 3,
+        "offline_units": 0
+      },
+      {
+        "id": "rente",
+        "name": "Antonio Maceo (Renté)",
+        "state": "online",
+        "assumed": false,
+        "last_seen_at": "2026-04-27T00:50:33+00:00",
+        "last_online_at": "2026-04-27T00:50:33+00:00",
+        "last_offline_at": "2026-03-03T00:59:50+00:00",
+        "last_change_at": "2026-04-19T00:04:41+00:00",
+        "units": [
+          {
+            "unidad": 3,
+            "state": "online",
+            "since": "2026-04-27T00:50:33+00:00"
+          },
+          {
+            "unidad": 5,
+            "state": "online",
+            "since": "2026-03-31T00:16:22+00:00"
+          },
+          {
+            "unidad": 6,
+            "state": "online",
+            "since": "2026-02-01T19:47:21+00:00"
+          }
+        ],
+        "online_units": 3,
+        "offline_units": 0
       }
     ]
   },
@@ -142,13 +316,13 @@
     "emergency_mw": 122,
     "block_outage_minutes": {
       "1": 0,
-      "2": 1140,
-      "3": 360,
-      "4": 35,
-      "5": 1020,
-      "6": 0
+      "2": 0,
+      "3": 0,
+      "4": 120,
+      "5": 0,
+      "6": 15
     },
-    "total_block_outage_minutes": 2555,
+    "total_block_outage_minutes": 135,
     "daf_count": 4,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -162,13 +336,13 @@
       "Playa": 1
     },
     "averias_total": 6,
-    "source_msg_count": 48,
+    "source_msg_count": 50,
     "by_type_counts": {
       "otro": 4,
-      "actualizacion_bloques": 11,
+      "actualizacion_bloques": 12,
       "averias": 8,
       "disparo_circuito": 1,
-      "restablecimiento": 9,
+      "restablecimiento": 10,
       "daf": 4,
       "restablecimiento_daf": 2,
       "inicio_afectacion": 4,
@@ -238,11 +412,11 @@
     "total_interruption_minutes": 8570,
     "total_block_outage_minutes": {
       "1": 2176,
-      "2": 3582,
-      "3": 2457,
-      "4": 1746,
-      "5": 3040,
-      "6": 2008
+      "2": 2442,
+      "3": 2097,
+      "4": 1831,
+      "5": 2020,
+      "6": 2023
     },
     "total_emergency_mw_sum": 754,
     "averias_count_by_municipio": {
@@ -281,11 +455,11 @@
     "total_interruption_minutes": 10490,
     "total_block_outage_minutes": {
       "1": 2752,
-      "2": 4027,
-      "3": 3502,
-      "4": 2456,
-      "5": 3265,
-      "6": 2738
+      "2": 2887,
+      "3": 3142,
+      "4": 2541,
+      "5": 2245,
+      "6": 2753
     },
     "total_emergency_mw_sum": 939,
     "averias_count_by_municipio": {
@@ -323,11 +497,11 @@
     "total_interruption_minutes": 52570,
     "total_block_outage_minutes": {
       "1": 57246,
-      "2": 62106,
-      "3": 49226,
-      "4": 54688,
-      "5": 53436,
-      "6": 53040
+      "2": 60966,
+      "3": 48866,
+      "4": 54773,
+      "5": 52416,
+      "6": 53055
     },
     "averias_total": 3076,
     "averias_top_municipios": {
@@ -603,7 +777,7 @@
       },
       {
         "date": "2026-05-12",
-        "minutes": 2555
+        "minutes": 135
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1697,7 +1871,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 18740
+        "minutes": 16320
       }
     ],
     "sen_outage_days_total": 7,

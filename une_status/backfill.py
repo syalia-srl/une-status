@@ -20,12 +20,14 @@ from .aggregate import (
     daily_rollup,
     havana_date,
     monthly_rollup,
+    update_cte_state,
 )
 from .fetch import fetch_backward, fetch_page, make_client
 from .parse import to_event
 from .prune import prune_old_raw
 from .store import (
     append_jsonl,
+    cte_state_path,
     daily_path,
     events_path,
     main_data_path,
@@ -110,7 +112,17 @@ def backfill(start_before: int | None = None, sleep_s: float = 0.3) -> None:
         write_json(monthly_path(month), roll)
     print(f"monthly rollups: {len(months)}", flush=True)
 
-    # Step 5: build data.json
+    # Step 5a: seed cte_state.json from all events before pruning
+    print("seeding cte_state.json...", flush=True)
+    cte_state: dict = {}
+    for d in days:
+        evs = read_jsonl(events_path(d))
+        cte_state = update_cte_state(cte_state, evs)
+    write_json(cte_state_path(), cte_state)
+    plant_count = len(cte_state.get("ctes") or {})
+    print(f"cte_state: {plant_count} plants seen across history", flush=True)
+
+    # Step 5b: build data.json
     write_json(main_data_path(), build_data_blob())
 
     # Step 6: prune raw/events older than 2 days

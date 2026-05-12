@@ -49,6 +49,15 @@
 .dark .bloque-card.unk {
   border-color: rgb(30 41 59); background: rgb(15 23 42);
 }
+/* Assumed-online: same hue as ON but desaturated, dashed border. */
+.bloque-card.on-assumed {
+  border: 1px dashed rgb(167 243 208); background: rgb(247 254 251);
+}
+.dark .bloque-card.on-assumed {
+  border-color: rgb(6 78 59); background: rgb(6 23 19);
+}
+.bloque-card.on-assumed .state { color: rgb(16 185 129); opacity: 0.85; }
+.dark .bloque-card.on-assumed .state { color: rgb(110 231 183); opacity: 0.7; }
 .bloque-card .num {
   font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
   letter-spacing: 0.05em; color: rgb(100 116 139);

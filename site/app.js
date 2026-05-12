@@ -148,26 +148,43 @@ function renderCtes(cur) {
   const empty = $("#ctes-empty");
   grid.innerHTML = "";
   empty.classList.add("hidden");
-  const byId = {};
-  for (const c of (cur?.ctes || [])) byId[c.id] = c;
-  for (const id of CTE_REGISTRY) {
-    const c = byId[id];
+  const ctes = cur?.ctes || [];
+  for (const c of ctes) {
     let klass, label, meta1, meta2;
-    if (!c) {
+    if (c.state === "assumed_online") {
+      klass = "on-assumed";
+      label = "🟢 ONLINE (asumido)";
+      meta1 = c.last_seen_at
+        ? `último reporte ${fmt.relative(c.last_seen_at)}`
+        : "sin reportes registrados";
+      meta2 = c.last_online_at ? `ON desde ${fmt.dt(c.last_online_at)}` : "";
+    } else if (c.state === "online") {
+      klass = "on";
+      label = "🟢 ONLINE";
+      meta1 = `${c.online_units} en línea · ${c.offline_units} fuera`;
+      meta2 = c.last_online_at ? `ON desde ${fmt.dt(c.last_online_at)}` : "";
+    } else if (c.state === "offline") {
+      klass = "off";
+      label = "🔴 OFFLINE";
+      meta1 = `${c.online_units} en línea · ${c.offline_units} fuera`;
+      meta2 = c.last_online_at
+        ? `último ON ${fmt.relative(c.last_online_at)}`
+        : (c.last_offline_at ? `OFF desde ${fmt.dt(c.last_offline_at)}` : "");
+    } else if (c.state === "partial") {
       klass = "unk";
-      label = "⚪ SIN DATOS";
-      meta1 = "sin reportes recientes";
-      meta2 = "";
-    } else {
-      klass = c.state === "online" ? "on" : c.state === "offline" ? "off" : "unk";
-      label = c.state === "online" ? "🟢 ONLINE" : c.state === "offline" ? "🔴 OFFLINE" : "🟡 PARCIAL";
+      label = "🟡 PARCIAL";
       meta1 = `${c.online_units} en línea · ${c.offline_units} fuera`;
       meta2 = c.last_change_at ? `cambio: ${fmt.relative(c.last_change_at)}` : "";
+    } else {
+      klass = "unk";
+      label = "⚪ SIN DATOS";
+      meta1 = "sin reportes";
+      meta2 = "";
     }
     const card = document.createElement("div");
     card.className = `bloque-card ${klass} text-left`;
     card.innerHTML = `
-      <div class="num text-xs">${escapeHtml(cteLabel(id))}</div>
+      <div class="num text-xs">${escapeHtml(c.name)}</div>
       <div class="state text-base">${label}</div>
       <div class="meta">${meta1}</div>
       ${meta2 ? `<div class="meta">${meta2}</div>` : ""}

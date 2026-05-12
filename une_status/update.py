@@ -23,16 +23,19 @@ from .aggregate import (
     TZ_HAV,
     all_time,
     bucket_events_by_day,
+    build_ctes_view,
     current_state,
     daily_rollup,
     havana_date,
     monthly_rollup,
+    update_cte_state,
 )
 from .fetch import fetch_latest
 from .parse import to_event
 from .prune import prune_old_raw
 from .store import (
     append_jsonl,
+    cte_state_path,
     data_dir,
     daily_path,
     events_path,
@@ -95,10 +98,16 @@ def update() -> dict:
     if new_raw:
         # bucket by Havana date and append
         by_day = _bucket_msgs_by_day(new_raw)
+        all_new_events: list[dict] = []
         for day, msgs in by_day.items():
             append_jsonl(raw_path(day), msgs)
             events = [to_event(m) for m in msgs]
             append_jsonl(events_path(day), events)
+            all_new_events.extend(events)
+        # Merge new unidad_termoelectrica events into the persistent CTE map.
+        prior = read_json(cte_state_path(), default={})
+        merged = update_cte_state(prior, all_new_events)
+        write_json(cte_state_path(), merged)
 
     # Recompute affected dailies (today + yesterday always, plus any backdated)
     today = _today_hav()
@@ -189,6 +198,9 @@ def build_data_blob() -> dict:
     # current state
     recent_events = _recent_events_for_state(days=2)
     cur = current_state(recent_events)
+    # Replace the ctes view with the persistent + assumed-on-after-30d version.
+    cte_state = read_json(cte_state_path(), default={})
+    cur["ctes"] = build_ctes_view(cte_state, now_iso=cur.get("as_of"))
 
     # Stamp the most authoritative "last SEN outage" timestamp by looking
     # back through dailies: take the latest day with sen_outage flag and use

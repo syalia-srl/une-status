@@ -267,6 +267,142 @@ def all_time(monthlies: list[dict]) -> dict:
     }
 
 
+CTE_REGISTRY_IDS: list[tuple[str, str]] = [
+    ("felton", "Lidio Ramón Pérez (Felton)"),
+    ("guiteras", "Antonio Guiteras"),
+    ("maximo-gomez", "Máximo Gómez (Mariel)"),
+    ("cespedes", "Carlos M. de Céspedes (Cienfuegos)"),
+    ("nuevitas", "10 de Octubre (Nuevitas)"),
+    ("tallapiedra", "Otto Parellada (Tallapiedra)"),
+    ("guevara", "Ernesto Guevara (Santa Cruz)"),
+    ("rente", "Antonio Maceo (Renté)"),
+]
+
+
+def update_cte_state(prior: dict, events: Iterable[dict]) -> dict:
+    """Merge unidad_termoelectrica events into the persistent CTE state map.
+
+    Keeps per-unit latest state and per-plant timestamps of the latest event,
+    online event, offline event, and aggregate state. Idempotent: replaying
+    the same events leaves the map unchanged.
+    """
+    state = dict((prior or {}).get("ctes") or {})
+    for e in events:
+        if e.get("type") != "unidad_termoelectrica":
+            continue
+        cte = e.get("cte_id")
+        unit = e.get("unidad")
+        st = e.get("state")
+        ts = e.get("ts")
+        if not (cte and unit is not None and st and ts):
+            continue
+        entry = state.setdefault(cte, {
+            "name": e.get("cte_name") or cte,
+            "units": {},
+            "last_seen_at": None,
+            "last_online_at": None,
+            "last_offline_at": None,
+            "last_change_at": None,
+            "state": None,
+        })
+        if e.get("cte_name"):
+            entry["name"] = e["cte_name"]
+        u_key = str(unit)
+        u = entry["units"].setdefault(u_key, {"state": None, "since": None})
+        if u["since"] is None or ts >= u["since"]:
+            prev = u["state"]
+            u["state"] = st
+            u["since"] = ts
+            if prev != st:
+                if not entry.get("last_change_at") or ts > entry["last_change_at"]:
+                    entry["last_change_at"] = ts
+        if not entry["last_seen_at"] or ts > entry["last_seen_at"]:
+            entry["last_seen_at"] = ts
+        if st == "online" and (not entry.get("last_online_at") or ts > entry["last_online_at"]):
+            entry["last_online_at"] = ts
+        if st == "offline" and (not entry.get("last_offline_at") or ts > entry["last_offline_at"]):
+            entry["last_offline_at"] = ts
+
+    for entry in state.values():
+        online = sum(1 for u in entry["units"].values() if u["state"] == "online")
+        offline = sum(1 for u in entry["units"].values() if u["state"] == "offline")
+        if online > 0 and offline == 0:
+            entry["state"] = "online"
+        elif offline > 0 and online == 0:
+            entry["state"] = "offline"
+        elif online > 0 and offline > 0:
+            entry["state"] = "partial"
+        else:
+            entry["state"] = None
+    return {"ctes": state}
+
+
+def build_ctes_view(cte_state: dict, now_iso: str | None = None, assume_after_days: int = 30) -> list[dict]:
+    """Return the public-facing CTEs list. For each plant in the canonical
+    registry: use the observed state if last_seen_at is within
+    `assume_after_days`; otherwise mark `assumed_online` with lighter color.
+    Plants we have never heard of also fall through to `assumed_online`.
+    """
+    now = _parse_ts(now_iso) if now_iso else datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=assume_after_days)
+    state = (cte_state or {}).get("ctes") or {}
+    seen_ids: set[str] = set()
+    out: list[dict] = []
+    for cte_id, default_name in CTE_REGISTRY_IDS:
+        entry = state.get(cte_id)
+        view = _cte_view(cte_id, entry, default_name, cutoff)
+        out.append(view)
+        seen_ids.add(cte_id)
+    # tail: any other CTE that appeared in messages but isn't in the registry
+    for cte_id, entry in state.items():
+        if cte_id in seen_ids:
+            continue
+        out.append(_cte_view(cte_id, entry, entry.get("name") or cte_id.title(), cutoff))
+    return out
+
+
+def _cte_view(cte_id: str, entry: dict | None, default_name: str, cutoff: datetime) -> dict:
+    if not entry or not entry.get("last_seen_at"):
+        return {
+            "id": cte_id,
+            "name": default_name,
+            "state": "assumed_online",
+            "assumed": True,
+            "last_seen_at": None,
+            "last_online_at": None,
+            "last_offline_at": None,
+            "units": [],
+            "online_units": 0,
+            "offline_units": 0,
+        }
+    last_seen = _parse_ts(entry["last_seen_at"])
+    observed = entry.get("state")
+    if last_seen < cutoff:
+        state = "assumed_online"
+        assumed = True
+    else:
+        state = observed or "assumed_online"
+        assumed = (state == "assumed_online")
+    units = [
+        {"unidad": int(k), "state": v.get("state"), "since": v.get("since")}
+        for k, v in (entry.get("units") or {}).items()
+    ]
+    units.sort(key=lambda u: u["unidad"])
+    return {
+        "id": cte_id,
+        "name": entry.get("name") or default_name,
+        "state": state,
+        "assumed": assumed,
+        "last_seen_at": entry.get("last_seen_at"),
+        "last_online_at": entry.get("last_online_at"),
+        "last_offline_at": entry.get("last_offline_at"),
+        "last_change_at": entry.get("last_change_at"),
+        "units": units,
+        "online_units": sum(1 for u in units if u["state"] == "online"),
+        "offline_units": sum(1 for u in units if u["state"] == "offline"),
+    }
+
+
 def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
     """Compute live state from the most recent events.
 
