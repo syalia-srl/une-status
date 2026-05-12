@@ -1,0 +1,27 @@
+{
+  "month": "2023-09",
+  "finalized": true,
+  "dailies_count": 30,
+  "avg_peak_mw": 391.0,
+  "max_peak_mw": 391,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "De Playa Se Encuentra En Un Disparo Del Circuito Por Una Posible Avería": 1,
+    "Playa": 1,
+    "Arroyo Naranjo La Zona Del Calvario Y El Eléctrico Se Encuentran Con El Circuito Disparado": 1,
+    "De Boyeros En Los Repartos Panamérica": 1,
+    "Habana Vieja": 1,
+    "Arroyo Naranjo Se Encuentran Afectadas Por Disparo Del Circuito": 1
+  },
+  "averias_total": 6,
+  "daf_total": 2
+}

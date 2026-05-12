@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-17",
+  "finalized": true,
+  "peak_mw_affected": 352,
+  "peak_time": "18:21",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 705,
+    "2": 486,
+    "3": 467,
+    "4": 404,
+    "5": 440,
+    "6": 630
+  },
+  "total_block_outage_minutes": 3132,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "Playa": 2,
+    "Arroyo Naranjo": 2,
+    "Lisa Que": 1,
+    "Boyeros": 1,
+    "Marianao": 1,
+    "Habana Del Este": 1
+  },
+  "averias_total": 8,
+  "source_msg_count": 101,
+  "by_type_counts": {
+    "empty": 9,
+    "inicio_afectacion": 17,
+    "restablecimiento": 18,
+    "actualizacion_bloques": 26,
+    "averias": 5,
+    "sen_update": 1,
+    "otro": 7,
+    "mantenimiento": 3,
+    "daf": 6,
+    "corto": 2,
+    "disparo_circuito": 5,
+    "via_libre": 1,
+    "unidad_termoelectrica": 1
+  }
+}

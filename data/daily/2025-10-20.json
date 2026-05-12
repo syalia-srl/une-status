@@ -1,0 +1,44 @@
+{
+  "date": "2025-10-20",
+  "finalized": true,
+  "peak_mw_affected": 50,
+  "peak_time": "19:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 2,
+    "Boyeros": 1,
+    "Guanabacoa": 1,
+    "Plaza": 1,
+    "Lisa": 1,
+    "San Miguel Del Padrón": 1,
+    "Arroyo Naranjo": 1,
+    "Playa": 1
+  },
+  "averias_total": 9,
+  "source_msg_count": 56,
+  "by_type_counts": {
+    "empty": 11,
+    "via_libre": 3,
+    "restablecimiento": 8,
+    "averias": 8,
+    "nota_diaria": 3,
+    "sen_update": 1,
+    "mantenimiento": 7,
+    "corto": 2,
+    "otro": 5,
+    "disparo_circuito": 3,
+    "servicio_cliente": 4,
+    "unidad_termoelectrica": 1
+  }
+}

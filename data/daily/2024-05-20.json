@@ -1,0 +1,41 @@
+{
+  "date": "2024-05-20",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Plaza De La Revolución": 1,
+    "Marianao En El Reparto Los Quemados": 1,
+    "Playa": 1,
+    "Cotorro Los Repartos Cruz Verde": 1,
+    "San Miguel": 1,
+    "Cotorro": 1,
+    "Lisa": 1,
+    "Plaza": 1,
+    "Marianao": 1
+  },
+  "averias_total": 11,
+  "source_msg_count": 55,
+  "by_type_counts": {
+    "restablecimiento": 12,
+    "averias": 13,
+    "otro": 17,
+    "daf": 1,
+    "nota_diaria": 1,
+    "disparo_circuito": 10,
+    "mantenimiento": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-04-04",
+  "finalized": true,
+  "peak_mw_affected": 265,
+  "peak_time": "19:10",
+  "interruption_minutes": 1047,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 290,
+    "2": 280,
+    "3": 265,
+    "4": 245,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 1080,
+  "daf_count": 8,
+  "averias_count_by_municipio": {
+    "Boyeros": 4,
+    "Playa": 1,
+    "Habana Del Este": 1,
+    "Lisa": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 8,
+  "source_msg_count": 80,
+  "by_type_counts": {
+    "averias": 8,
+    "restablecimiento": 13,
+    "restablecimiento_daf": 6,
+    "actualizacion_bloques": 10,
+    "empty": 1,
+    "mantenimiento": 9,
+    "sen_update": 1,
+    "corto": 2,
+    "nota_diaria": 1,
+    "via_libre": 3,
+    "disparo_circuito": 5,
+    "otro": 5,
+    "pinned": 3,
+    "daf": 8,
+    "inicio_afectacion": 5
+  }
+}

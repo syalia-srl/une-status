@@ -1,0 +1,35 @@
+{
+  "date": "2023-05-28",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "De Arroyo Naranjo Afectando": 1,
+    "De Boyeros Están Presentado Avería": 1,
+    "De Boyeros": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 31,
+  "by_type_counts": {
+    "otro": 13,
+    "restablecimiento": 1,
+    "empty": 3,
+    "mantenimiento": 1,
+    "corto": 8,
+    "nota_diaria": 1,
+    "averias": 3,
+    "disparo_circuito": 1
+  }
+}

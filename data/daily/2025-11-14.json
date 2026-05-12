@@ -1,0 +1,40 @@
+{
+  "date": "2025-11-14",
+  "finalized": true,
+  "peak_mw_affected": 226,
+  "peak_time": "18:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 218,
+    "2": 114,
+    "3": 216,
+    "4": 0,
+    "5": 160,
+    "6": 0
+  },
+  "total_block_outage_minutes": 708,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Playa": 4,
+    "Cerro": 1,
+    "Playa Afectados": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 56,
+  "by_type_counts": {
+    "disparo_circuito": 6,
+    "empty": 4,
+    "averias": 3,
+    "nota_diaria": 9,
+    "sen_update": 1,
+    "inicio_afectacion": 4,
+    "corto": 3,
+    "daf": 2,
+    "via_libre": 5,
+    "restablecimiento": 14,
+    "otro": 1,
+    "actualizacion_bloques": 3,
+    "unidad_termoelectrica": 1
+  }
+}

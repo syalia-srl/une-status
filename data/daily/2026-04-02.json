@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-02",
+  "finalized": true,
+  "peak_mw_affected": 205,
+  "peak_time": "20:20",
+  "interruption_minutes": 1440,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 70,
+    "6": 0
+  },
+  "total_block_outage_minutes": 70,
+  "daf_count": 3,
+  "averias_count_by_municipio": {
+    "Lisa": 1,
+    "Cerro Queda Reparada La Avería": 1,
+    "Boyeros": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 63,
+  "by_type_counts": {
+    "restablecimiento": 12,
+    "corto": 1,
+    "daf": 3,
+    "averias": 3,
+    "inicio_afectacion": 12,
+    "actualizacion_bloques": 22,
+    "otro": 3,
+    "empty": 1,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "mantenimiento": 1,
+    "disparo_circuito": 2,
+    "unidad_termoelectrica": 1
+  }
+}

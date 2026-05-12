@@ -1,0 +1,43 @@
+{
+  "date": "2025-09-16",
+  "finalized": true,
+  "peak_mw_affected": 181,
+  "peak_time": "20:10",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Lisa": 3,
+    "Guanabacoa": 3,
+    "Cotorro": 2,
+    "Boyeros": 1,
+    "Regla": 1,
+    "Habana Del Este": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 12,
+  "source_msg_count": 78,
+  "by_type_counts": {
+    "restablecimiento": 14,
+    "otro": 27,
+    "averias": 15,
+    "via_libre": 2,
+    "daf": 4,
+    "empty": 2,
+    "disparo_circuito": 3,
+    "nota_diaria": 2,
+    "mantenimiento": 1,
+    "corto": 4,
+    "restablecimiento_daf": 2,
+    "servicio_cliente": 2
+  }
+}

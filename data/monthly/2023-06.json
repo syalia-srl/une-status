@@ -1,0 +1,39 @@
+{
+  "month": "2023-06",
+  "finalized": true,
+  "dailies_count": 30,
+  "avg_peak_mw": null,
+  "max_peak_mw": null,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Cerro Las Zona Del Reparto Martí Está Presentado Disparo Del Circuito": 2,
+    "Boyeros Está Presentado Disparo Del Circuito Afectado Varias Zonas Como Baluarte": 2,
+    "Cotorro En El Área De La Santa Amelia": 2,
+    "De La Habana Vieja La Zona Del Casco Historico De La Habana Presenta Un Disparo Del Circuito": 1,
+    "Cerro Las Zonas Del Reparto Martí": 1,
+    "Plaza": 1,
+    "La Lisa Están Presentando Disparo Del Circuito Donde Afecta El Servicio En El Reparto Fraga Y Áreas Aledañas": 1,
+    "Guanabacoa La Zona Del Debeche Está En Disparo Del Circuito Del Cual Se Etá Trabajando Para Normalizar El Esquema": 1,
+    "Habana Vieja De La Zona De San Isidro Y Áreas Cercanas Están Presentando Disparo Del Circuito": 1,
+    "La Lisa": 1,
+    "Cerro Del Área De Palatino Y Áreas Cercanas Están Presentando Disparo Del Circuito": 1,
+    "Playa Y Áreas Cercanas Están Presentando Disparo Del Circuito": 1,
+    "Playa Tenemos Disparo Del Circuito Afectado Miramar": 1,
+    "San Miguel Del Padrón En La Zona De Juanelo": 1,
+    "Cotorro Las Zonas De La Portada": 1,
+    "Boyeros Las Zonas Embill": 1,
+    "Cerro La Zona De Las Cañas": 1,
+    "Entre Manuel Pruna Y Rosa Enriquez": 1
+  },
+  "averias_total": 21,
+  "daf_total": 14
+}

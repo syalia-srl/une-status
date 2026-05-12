@@ -1,0 +1,37 @@
+{
+  "date": "2025-07-30",
+  "finalized": true,
+  "peak_mw_affected": 117,
+  "peak_time": "21:50",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 269,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 269,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "La Lisa": 1,
+    "Lisa": 1,
+    "Cerro": 1,
+    "Regla": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 42,
+  "by_type_counts": {
+    "averias": 7,
+    "otro": 12,
+    "corto": 4,
+    "empty": 4,
+    "nota_diaria": 4,
+    "inicio_afectacion": 1,
+    "via_libre": 4,
+    "disparo_circuito": 3,
+    "restablecimiento": 3
+  }
+}

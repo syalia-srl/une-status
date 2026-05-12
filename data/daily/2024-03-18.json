@@ -1,0 +1,37 @@
+{
+  "date": "2024-03-18",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Boyeros": 1,
+    "Playa": 1,
+    "Cerro El Consejo Pilar Atarés Se Encuentra Afectado Por Disparo Del Circuito Por Posible Avería": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 29,
+  "by_type_counts": {
+    "restablecimiento": 6,
+    "otro": 4,
+    "averias": 3,
+    "daf": 2,
+    "disparo_circuito": 3,
+    "mantenimiento": 1,
+    "empty": 6,
+    "corto": 1,
+    "restablecimiento_daf": 2,
+    "via_libre": 1
+  }
+}

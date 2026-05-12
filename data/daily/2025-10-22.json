@@ -1,0 +1,41 @@
+{
+  "date": "2025-10-22",
+  "finalized": true,
+  "peak_mw_affected": 137,
+  "peak_time": "19:50",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 311,
+    "2": 14,
+    "3": 0,
+    "4": 50,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 375,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Lisa": 4,
+    "Arroyo Naranjo": 2,
+    "San Miguel Del Padrón": 2,
+    "Regla": 1
+  },
+  "averias_total": 9,
+  "source_msg_count": 60,
+  "by_type_counts": {
+    "restablecimiento": 13,
+    "corto": 5,
+    "empty": 6,
+    "averias": 8,
+    "nota_diaria": 2,
+    "sen_update": 1,
+    "otro": 8,
+    "mantenimiento": 3,
+    "disparo_circuito": 5,
+    "inicio_afectacion": 5,
+    "daf": 2,
+    "via_libre": 1,
+    "unidad_termoelectrica": 1
+  }
+}

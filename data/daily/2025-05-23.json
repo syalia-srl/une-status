@@ -1,0 +1,40 @@
+{
+  "date": "2025-05-23",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Cerro": 3,
+    "Lisa": 3,
+    "Boyeros": 2,
+    "Plaza": 2,
+    "Cotorro": 1
+  },
+  "averias_total": 11,
+  "source_msg_count": 43,
+  "by_type_counts": {
+    "otro": 10,
+    "via_libre": 3,
+    "restablecimiento": 5,
+    "empty": 5,
+    "averias": 9,
+    "servicio_cliente": 1,
+    "pinned": 1,
+    "disparo_circuito": 6,
+    "nota_diaria": 1,
+    "daf": 1,
+    "pronostico": 1
+  }
+}

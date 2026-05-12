@@ -1,0 +1,33 @@
+{
+  "date": "2023-12-10",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Boyeros Las Zonas Parajón": 1,
+    "Guanabacoa Las Zonas Repollo": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 36,
+  "by_type_counts": {
+    "otro": 20,
+    "empty": 6,
+    "nota_diaria": 1,
+    "disparo_circuito": 2,
+    "restablecimiento": 1,
+    "corto": 4,
+    "daf": 2
+  }
+}

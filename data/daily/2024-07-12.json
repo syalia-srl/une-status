@@ -1,0 +1,37 @@
+{
+  "date": "2024-07-12",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Centro Habana La Zona De Cayo Hueso Se Encontraba Con El Circuito Disparado": 1,
+    "Playa": 1,
+    "Cerro Los Cuadrantes De Las Calles De Boyeros Desde Crucero Armada Hasta Ciudad Deportiva Calle Adyacentes Rpto Martí": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 33,
+  "by_type_counts": {
+    "otro": 11,
+    "via_libre": 2,
+    "averias": 3,
+    "empty": 3,
+    "daf": 2,
+    "restablecimiento": 6,
+    "corto": 1,
+    "nota_diaria": 1,
+    "disparo_circuito": 3,
+    "mantenimiento": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-04-24",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Guanabacoa": 2,
+    "Habana Del Este": 2,
+    "Centro Habana": 2,
+    "Boyeros": 2,
+    "Lisa": 1,
+    "Arroyo Naranjo": 1,
+    "Marianao": 1,
+    "Playa": 1
+  },
+  "averias_total": 12,
+  "source_msg_count": 58,
+  "by_type_counts": {
+    "restablecimiento": 1,
+    "disparo_circuito": 7,
+    "averias": 9,
+    "corto": 6,
+    "sen_update": 2,
+    "via_libre": 4,
+    "nota_diaria": 1,
+    "mantenimiento": 11,
+    "otro": 8,
+    "daf": 4,
+    "restablecimiento_daf": 4,
+    "empty": 1
+  }
+}

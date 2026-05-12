@@ -1,0 +1,40 @@
+{
+  "date": "2025-09-24",
+  "finalized": true,
+  "peak_mw_affected": 173,
+  "peak_time": "20:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 248,
+    "6": 362
+  },
+  "total_block_outage_minutes": 610,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Boyeros": 3,
+    "Centro Habana": 2,
+    "Arroyo Naranjo": 1,
+    "Lisa": 1
+  },
+  "averias_total": 7,
+  "source_msg_count": 58,
+  "by_type_counts": {
+    "restablecimiento": 14,
+    "otro": 11,
+    "averias": 11,
+    "empty": 2,
+    "corto": 3,
+    "nota_diaria": 2,
+    "sen_update": 2,
+    "unidad_termoelectrica": 2,
+    "inicio_afectacion": 2,
+    "disparo_circuito": 2,
+    "mantenimiento": 5,
+    "daf": 2
+  }
+}

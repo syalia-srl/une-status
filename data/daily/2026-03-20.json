@@ -1,0 +1,44 @@
+{
+  "date": "2026-03-20",
+  "finalized": true,
+  "peak_mw_affected": 322,
+  "peak_time": "19:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 254,
+    "2": 285,
+    "3": 404,
+    "4": 312,
+    "5": 333,
+    "6": 179
+  },
+  "total_block_outage_minutes": 1767,
+  "daf_count": 11,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Centro Habana": 1,
+    "Arroyo Naranjo": 1,
+    "Playa": 1,
+    "Marianao": 1,
+    "Cotorro": 1,
+    "Lisa": 1,
+    "Lisa Queda Reparada La Avería": 1
+  },
+  "averias_total": 9,
+  "source_msg_count": 67,
+  "by_type_counts": {
+    "mantenimiento": 3,
+    "restablecimiento": 6,
+    "empty": 2,
+    "daf": 11,
+    "restablecimiento_daf": 9,
+    "disparo_circuito": 2,
+    "otro": 8,
+    "nota_diaria": 1,
+    "inicio_afectacion": 7,
+    "actualizacion_bloques": 8,
+    "averias": 9,
+    "via_libre": 1
+  }
+}

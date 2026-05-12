@@ -1,0 +1,39 @@
+{
+  "date": "2024-05-21",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Playa": 2,
+    "Marianao": 2,
+    "Plaza De La Revolución": 1,
+    "De Boyeros": 1,
+    "Lisa": 1
+  },
+  "averias_total": 7,
+  "source_msg_count": 35,
+  "by_type_counts": {
+    "averias": 4,
+    "otro": 8,
+    "mantenimiento": 1,
+    "corto": 4,
+    "nota_diaria": 1,
+    "empty": 8,
+    "pinned": 1,
+    "restablecimiento": 4,
+    "via_libre": 1,
+    "disparo_circuito": 3
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "month": "2023-12",
+  "finalized": true,
+  "dailies_count": 31,
+  "avg_peak_mw": 424.0,
+  "max_peak_mw": 534,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Guanabacoa": 2,
+    "Boyeros Se Encuentra Afectado Por Un Disparo Del Circuito": 2,
+    "Boyeros Reparto Santiago De Las Vegas Y Por Arroyo Naranjo En El Eléctrico Se Encuentran Afectados Por Un Disparo Del Circuito": 1,
+    "Habana Del Este": 1,
+    "De Marianao La Zona De Pogolotti Y Áreas Cercanas Están Presentando Disparo Del Circuito": 1,
+    "Arroyo Naranjo Está Presentando Disparo Del Circuito Del Cual No Se Sostiene Y Está Causando La Falla En Los Pinos Y Áreas Cercanas": 1,
+    "Boyeros Las Zonas Parajón": 1,
+    "Guanabacoa Las Zonas Repollo": 1,
+    "Arroyo Naranjo": 1,
+    "De Boyeros Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "De Arroyo Naranjo Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "De Cerro Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "De Boyero Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "De Boyeros Se Encuentra Afectado Por Disparo Del Circuito": 1,
+    "Lisa Se Encuentra Afectado Por Disparo Del Circuito": 1,
+    "Plaza Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "Habana Del Este Se Encuentra En Presencia De Un Disparo Del Circuito": 1,
+    "Habana Del Este Se Encuentra Afectada Por Un Disparo Del Circuito": 1,
+    "Guanabacoa En La Dirección Maceo Entre Albuquerque Y Perdomo": 1,
+    "Playa Están Presentando Disparo Del Circuito": 1,
+    "Playa Están Presentando Disparo Del Circuito Afectando Buena Vista": 1
+  },
+  "averias_total": 25,
+  "daf_total": 14
+}

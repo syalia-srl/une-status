@@ -1,0 +1,44 @@
+{
+  "date": "2025-10-16",
+  "finalized": true,
+  "peak_mw_affected": 190,
+  "peak_time": "01:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Cerro": 2,
+    "San Miguel Del Padrón": 1,
+    "Marianao": 1,
+    "Plaza": 1,
+    "Mariano": 1,
+    "Centro Habana": 1,
+    "Playa": 1,
+    "Boyeros": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 44,
+  "by_type_counts": {
+    "corto": 4,
+    "empty": 6,
+    "disparo_circuito": 5,
+    "otro": 5,
+    "averias": 8,
+    "nota_diaria": 2,
+    "sen_update": 2,
+    "via_libre": 3,
+    "restablecimiento": 2,
+    "daf": 1,
+    "mantenimiento": 6
+  }
+}

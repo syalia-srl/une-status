@@ -1,0 +1,42 @@
+{
+  "month": "2024-07",
+  "finalized": true,
+  "dailies_count": 31,
+  "avg_peak_mw": null,
+  "max_peak_mw": null,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 8,
+    "Guanabacoa": 5,
+    "Plaza": 4,
+    "Habana Del Este": 4,
+    "Cotorro": 3,
+    "Marianao": 3,
+    "Cerro": 3,
+    "Arroyo Naranjo": 2,
+    "San Miguel Del Padrón": 2,
+    "Playa": 2,
+    "Lisa": 2,
+    "Boyero": 1,
+    "Centro Habana La Zona De Cayo Hueso Se Encontraba Con El Circuito Disparado": 1,
+    "Cerro Los Cuadrantes De Las Calles De Boyeros Desde Crucero Armada Hasta Ciudad Deportiva Calle Adyacentes Rpto Martí": 1,
+    "De Playa": 1,
+    "De Plaza": 1,
+    "Del Cotorro": 1,
+    "Lisa En El Reparto Concepción Y": 1,
+    "La Lisa": 1,
+    "Guanabacoa En Avenida Monumental": 1,
+    "Guanabacoa En El Reparto Peñalver": 1
+  },
+  "averias_total": 48,
+  "daf_total": 12
+}

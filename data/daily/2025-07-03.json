@@ -1,0 +1,38 @@
+{
+  "date": "2025-07-03",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 276,
+    "2": 574,
+    "3": 816,
+    "4": 101,
+    "5": 161,
+    "6": 0
+  },
+  "total_block_outage_minutes": 1928,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "De Plaza": 2,
+    "Guanabacoa": 1,
+    "Cotorro": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 64,
+  "by_type_counts": {
+    "restablecimiento": 26,
+    "disparo_circuito": 3,
+    "inicio_afectacion": 5,
+    "otro": 14,
+    "averias": 6,
+    "nota_diaria": 3,
+    "empty": 4,
+    "corto": 1,
+    "mantenimiento": 1,
+    "daf": 1
+  }
+}

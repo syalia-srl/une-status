@@ -1,0 +1,37 @@
+{
+  "date": "2025-04-09",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Habana Del Este": 1,
+    "Lisa": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 31,
+  "by_type_counts": {
+    "otro": 12,
+    "empty": 2,
+    "servicio_cliente": 1,
+    "corto": 3,
+    "restablecimiento": 4,
+    "nota_diaria": 1,
+    "averias": 2,
+    "via_libre": 2,
+    "disparo_circuito": 3,
+    "mantenimiento": 1
+  }
+}

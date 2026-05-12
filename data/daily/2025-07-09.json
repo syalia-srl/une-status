@@ -1,0 +1,36 @@
+{
+  "date": "2025-07-09",
+  "finalized": true,
+  "peak_mw_affected": 130,
+  "peak_time": "23:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 563,
+    "4": 804,
+    "5": 33,
+    "6": 0
+  },
+  "total_block_outage_minutes": 1400,
+  "daf_count": 5,
+  "averias_count_by_municipio": {
+    "Guanabacoa": 1,
+    "Arroyo Naranjo": 1,
+    "Cerro": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 51,
+  "by_type_counts": {
+    "otro": 17,
+    "daf": 5,
+    "averias": 4,
+    "disparo_circuito": 3,
+    "corto": 4,
+    "restablecimiento": 13,
+    "nota_diaria": 2,
+    "inicio_afectacion": 3
+  }
+}

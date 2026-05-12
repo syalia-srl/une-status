@@ -1,0 +1,36 @@
+{
+  "date": "2025-11-30",
+  "finalized": true,
+  "peak_mw_affected": 287,
+  "peak_time": "18:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 178,
+    "2": 0,
+    "3": 355,
+    "4": 500,
+    "5": 457,
+    "6": 378
+  },
+  "total_block_outage_minutes": 1868,
+  "daf_count": 10,
+  "averias_count_by_municipio": {
+    "Boyeros": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 69,
+  "by_type_counts": {
+    "empty": 5,
+    "daf": 10,
+    "nota_diaria": 1,
+    "averias": 4,
+    "otro": 7,
+    "sen_update": 1,
+    "restablecimiento": 16,
+    "corto": 8,
+    "inicio_afectacion": 5,
+    "actualizacion_bloques": 8,
+    "via_libre": 4
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-07",
+  "finalized": true,
+  "peak_mw_affected": 403,
+  "peak_time": "23:10",
+  "interruption_minutes": 1440,
+  "emergency_mw": 105,
+  "block_outage_minutes": {
+    "1": 492,
+    "2": 639,
+    "3": 286,
+    "4": 304,
+    "5": 500,
+    "6": 417
+  },
+  "total_block_outage_minutes": 2638,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 1,
+    "Cerro": 1,
+    "Playa": 1,
+    "Guanabacoa": 1,
+    "Cotorro": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 80,
+  "by_type_counts": {
+    "actualizacion_bloques": 19,
+    "restablecimiento": 16,
+    "corto": 6,
+    "daf": 2,
+    "restablecimiento_daf": 2,
+    "averias": 12,
+    "otro": 12,
+    "disparo_circuito": 2,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "via_libre": 2,
+    "transferencia_bloque": 1,
+    "mantenimiento": 3
+  }
+}

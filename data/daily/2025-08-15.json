@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-15",
+  "finalized": true,
+  "peak_mw_affected": 65,
+  "peak_time": "22:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 271,
+    "6": 0
+  },
+  "total_block_outage_minutes": 271,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Playa": 3,
+    "Boyeros": 1,
+    "Arroyo Naranjo": 1,
+    "Habana Vieja": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 48,
+  "by_type_counts": {
+    "otro": 18,
+    "empty": 5,
+    "restablecimiento": 9,
+    "averias": 11,
+    "nota_diaria": 2,
+    "corto": 1,
+    "inicio_afectacion": 1,
+    "via_libre": 1
+  }
+}

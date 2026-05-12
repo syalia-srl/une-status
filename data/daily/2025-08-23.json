@@ -1,0 +1,37 @@
+{
+  "date": "2025-08-23",
+  "finalized": true,
+  "peak_mw_affected": 59,
+  "peak_time": "20:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 51,
+    "3": 0,
+    "4": 0,
+    "5": 231,
+    "6": 0
+  },
+  "total_block_outage_minutes": 282,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "De Habana Del Este": 1,
+    "Lisa": 1,
+    "Marianao": 1,
+    "Playa": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 61,
+  "by_type_counts": {
+    "restablecimiento": 9,
+    "otro": 37,
+    "disparo_circuito": 1,
+    "via_libre": 2,
+    "averias": 4,
+    "nota_diaria": 2,
+    "empty": 2,
+    "corto": 2,
+    "inicio_afectacion": 2
+  }
+}

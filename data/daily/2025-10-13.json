@@ -1,0 +1,37 @@
+{
+  "date": "2025-10-13",
+  "finalized": true,
+  "peak_mw_affected": 161,
+  "peak_time": "19:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 221,
+    "3": 0,
+    "4": 0,
+    "5": 266,
+    "6": 0
+  },
+  "total_block_outage_minutes": 487,
+  "daf_count": 8,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "San Miguel Del Padrón": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 56,
+  "by_type_counts": {
+    "averias": 5,
+    "restablecimiento": 24,
+    "via_libre": 2,
+    "empty": 5,
+    "corto": 2,
+    "nota_diaria": 4,
+    "sen_update": 1,
+    "otro": 2,
+    "daf": 8,
+    "inicio_afectacion": 2,
+    "unidad_termoelectrica": 1
+  }
+}

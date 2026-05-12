@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-03",
+  "finalized": true,
+  "peak_mw_affected": 325,
+  "peak_time": "20:30",
+  "interruption_minutes": 375,
+  "emergency_mw": 95,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 5,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 5,
+    "San Miguel Del Padrón": 4,
+    "Lisa": 2,
+    "Arroyo Naranjo": 2,
+    "Plaza": 2,
+    "Centro Habana": 1,
+    "Regla": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 18,
+  "source_msg_count": 74,
+  "by_type_counts": {
+    "actualizacion_bloques": 5,
+    "disparo_circuito": 6,
+    "averias": 25,
+    "restablecimiento": 10,
+    "inicio_afectacion": 1,
+    "otro": 13,
+    "mantenimiento": 2,
+    "sen_update": 1,
+    "nota_diaria": 1,
+    "daf": 5,
+    "restablecimiento_daf": 3,
+    "empty": 1,
+    "via_libre": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2025-11-15",
+  "finalized": true,
+  "peak_mw_affected": 200,
+  "peak_time": "18:10",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 176,
+    "2": 0,
+    "3": 0,
+    "4": 559,
+    "5": 0,
+    "6": 783
+  },
+  "total_block_outage_minutes": 1518,
+  "daf_count": 5,
+  "averias_count_by_municipio": {
+    "Habana Vieja": 1,
+    "Marianao": 1,
+    "Arroyo Naranjo": 1,
+    "Lisa": 1,
+    "Playa": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 41,
+  "by_type_counts": {
+    "empty": 5,
+    "restablecimiento": 7,
+    "daf": 5,
+    "nota_diaria": 2,
+    "sen_update": 2,
+    "averias": 6,
+    "mantenimiento": 6,
+    "disparo_circuito": 2,
+    "corto": 2,
+    "inicio_afectacion": 3,
+    "actualizacion_bloques": 1
+  }
+}

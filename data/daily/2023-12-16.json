@@ -1,0 +1,42 @@
+{
+  "date": "2023-12-16",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Boyeros Se Encuentra Afectado Por Un Disparo Del Circuito": 2,
+    "De Boyeros Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "De Arroyo Naranjo Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "De Cerro Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "De Boyero Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "De Boyeros Se Encuentra Afectado Por Disparo Del Circuito": 1,
+    "Lisa Se Encuentra Afectado Por Disparo Del Circuito": 1,
+    "Plaza Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "Habana Del Este Se Encuentra En Presencia De Un Disparo Del Circuito": 1,
+    "Habana Del Este Se Encuentra Afectada Por Un Disparo Del Circuito": 1
+  },
+  "averias_total": 11,
+  "source_msg_count": 60,
+  "by_type_counts": {
+    "otro": 33,
+    "empty": 2,
+    "disparo_circuito": 12,
+    "mantenimiento": 4,
+    "servicio_cliente": 1,
+    "restablecimiento": 6,
+    "via_libre": 1,
+    "averias": 1
+  }
+}

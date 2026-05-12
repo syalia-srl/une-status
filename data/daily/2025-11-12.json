@@ -1,0 +1,42 @@
+{
+  "date": "2025-11-12",
+  "finalized": true,
+  "peak_mw_affected": 213,
+  "peak_time": "18:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Guanabacoa Quedan Afectados": 2,
+    "Guanabacoa": 2,
+    "Habana Del Este": 1,
+    "San Miguel Del Padrón Quedan Afectados": 1,
+    "Lisa Quedan Afectados": 1,
+    "Playa Quedan Afectados": 1,
+    "Lisa Afectado": 1,
+    "Cotorro": 1,
+    "Playa": 1,
+    "Habana Del Este Afectados": 1
+  },
+  "averias_total": 12,
+  "source_msg_count": 73,
+  "by_type_counts": {
+    "mantenimiento": 4,
+    "averias": 17,
+    "corto": 5,
+    "nota_diaria": 7,
+    "sen_update": 2,
+    "otro": 12,
+    "restablecimiento": 9,
+    "actualizacion_bloques": 17
+  }
+}

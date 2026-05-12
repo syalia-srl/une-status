@@ -1,0 +1,41 @@
+{
+  "date": "2025-09-18",
+  "finalized": true,
+  "peak_mw_affected": 155,
+  "peak_time": "18:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Plaza": 3,
+    "Guanabacoa": 1,
+    "Playa Quedan Afectados": 1,
+    "Lisa Quedan Afectados": 1,
+    "Arroyo Naranjo Quedan Afectados": 1,
+    "Boyeros": 1,
+    "Marianao": 1,
+    "Centro Habana": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 65,
+  "by_type_counts": {
+    "otro": 27,
+    "servicio_cliente": 3,
+    "disparo_circuito": 5,
+    "empty": 4,
+    "corto": 3,
+    "averias": 14,
+    "nota_diaria": 2,
+    "via_libre": 3,
+    "restablecimiento": 4
+  }
+}

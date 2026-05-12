@@ -1,0 +1,36 @@
+{
+  "date": "2025-09-19",
+  "finalized": true,
+  "peak_mw_affected": 129,
+  "peak_time": "20:10",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo": 2,
+    "De Arroyo Naranjo Con": 2,
+    "De La Lisa Con": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 61,
+  "by_type_counts": {
+    "restablecimiento": 22,
+    "averias": 8,
+    "otro": 15,
+    "via_libre": 3,
+    "corto": 3,
+    "nota_diaria": 2,
+    "empty": 3,
+    "daf": 2,
+    "servicio_cliente": 3
+  }
+}

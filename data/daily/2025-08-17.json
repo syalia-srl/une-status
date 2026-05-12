@@ -1,0 +1,39 @@
+{
+  "date": "2025-08-17",
+  "finalized": true,
+  "peak_mw_affected": 145,
+  "peak_time": "21:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Marianao Se Encuentran Afectados Por Disparo Del Circuito": 2,
+    "Plaza Queda Con": 1,
+    "Plaza": 1,
+    "Lisa Se Encuentran Afectados Por Disparo Del Circuito": 1,
+    "Boyeros Se Encuentran Afectados Por Disparo Del Circuito": 1,
+    "Boyeros": 1,
+    "Arroyo Naranjo Se Encuentran Afectados Por Un Disparo Del Circuito": 1
+  },
+  "averias_total": 8,
+  "source_msg_count": 46,
+  "by_type_counts": {
+    "otro": 24,
+    "averias": 3,
+    "nota_diaria": 2,
+    "disparo_circuito": 7,
+    "via_libre": 4,
+    "daf": 2,
+    "corto": 3,
+    "restablecimiento": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2025-05-18",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 5,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 1,
+    "Cerro": 1,
+    "Habana Del Este": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 44,
+  "by_type_counts": {
+    "averias": 4,
+    "otro": 15,
+    "empty": 11,
+    "mantenimiento": 1,
+    "daf": 5,
+    "via_libre": 1,
+    "restablecimiento": 5,
+    "corto": 1,
+    "servicio_cliente": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2025-08-19",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 568,
+    "2": 0,
+    "3": 839,
+    "4": 792,
+    "5": 0,
+    "6": 547
+  },
+  "total_block_outage_minutes": 2746,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Playa": 4,
+    "Plaza": 3,
+    "Centro Habana": 2,
+    "San Miguel Del Padrón": 2,
+    "Cotorro": 1,
+    "Boyeros": 1,
+    "Lisa": 1,
+    "Marianao": 1
+  },
+  "averias_total": 15,
+  "source_msg_count": 74,
+  "by_type_counts": {
+    "disparo_circuito": 11,
+    "otro": 20,
+    "daf": 2,
+    "averias": 10,
+    "empty": 5,
+    "mantenimiento": 2,
+    "corto": 4,
+    "nota_diaria": 3,
+    "via_libre": 4,
+    "inicio_afectacion": 4,
+    "restablecimiento": 9
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2025-11-22",
+  "finalized": true,
+  "peak_mw_affected": 291,
+  "peak_time": "18:10",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 87,
+    "4": 0,
+    "5": 306,
+    "6": 0
+  },
+  "total_block_outage_minutes": 393,
+  "daf_count": 13,
+  "averias_count_by_municipio": {
+    "Habana Vieja En Estos Momentos": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 64,
+  "by_type_counts": {
+    "daf": 13,
+    "otro": 6,
+    "empty": 5,
+    "averias": 2,
+    "nota_diaria": 2,
+    "restablecimiento": 11,
+    "mantenimiento": 1,
+    "via_libre": 1,
+    "inicio_afectacion": 4,
+    "corto": 11,
+    "disparo_circuito": 1,
+    "unidad_termoelectrica": 2,
+    "actualizacion_bloques": 5
+  }
+}

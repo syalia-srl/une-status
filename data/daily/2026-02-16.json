@@ -1,0 +1,41 @@
+{
+  "date": "2026-02-16",
+  "finalized": true,
+  "peak_mw_affected": 305,
+  "peak_time": "19:26",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 470,
+    "2": 703,
+    "3": 634,
+    "4": 646,
+    "5": 428,
+    "6": 515
+  },
+  "total_block_outage_minutes": 3396,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Lisa": 2,
+    "Guanabacoa": 1,
+    "Habana Del Este": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 87,
+  "by_type_counts": {
+    "empty": 18,
+    "mantenimiento": 2,
+    "disparo_circuito": 3,
+    "daf": 2,
+    "inicio_afectacion": 14,
+    "actualizacion_bloques": 16,
+    "corto": 4,
+    "restablecimiento_daf": 1,
+    "restablecimiento": 12,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "via_libre": 1,
+    "averias": 5,
+    "otro": 6
+  }
+}

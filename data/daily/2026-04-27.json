@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-27",
+  "finalized": true,
+  "peak_mw_affected": 64,
+  "peak_time": "20:30",
+  "interruption_minutes": 238,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 202,
+    "4": 146,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 348,
+  "daf_count": 9,
+  "averias_count_by_municipio": {
+    "Playa": 1,
+    "Lisa": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 68,
+  "by_type_counts": {
+    "mantenimiento": 1,
+    "empty": 2,
+    "averias": 4,
+    "nota_diaria": 1,
+    "corto": 3,
+    "sen_update": 1,
+    "restablecimiento": 19,
+    "daf": 9,
+    "otro": 10,
+    "restablecimiento_daf": 5,
+    "via_libre": 1,
+    "inicio_afectacion": 4,
+    "actualizacion_bloques": 8
+  }
+}

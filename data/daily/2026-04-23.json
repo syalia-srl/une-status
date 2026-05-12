@@ -1,0 +1,36 @@
+{
+  "date": "2026-04-23",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 11,
+  "averias_count_by_municipio": {
+    "Centro Habana": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 69,
+  "by_type_counts": {
+    "empty": 2,
+    "daf": 11,
+    "nota_diaria": 1,
+    "restablecimiento_daf": 8,
+    "sen_update": 2,
+    "corto": 3,
+    "restablecimiento": 22,
+    "averias": 1,
+    "disparo_circuito": 2,
+    "otro": 15,
+    "mantenimiento": 2
+  }
+}

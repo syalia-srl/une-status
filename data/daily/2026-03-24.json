@@ -1,0 +1,41 @@
+{
+  "date": "2026-03-24",
+  "finalized": true,
+  "peak_mw_affected": 380,
+  "peak_time": "20:00",
+  "interruption_minutes": 837,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 265,
+    "2": 674,
+    "3": 882,
+    "4": 744,
+    "5": 717,
+    "6": 495
+  },
+  "total_block_outage_minutes": 3777,
+  "daf_count": 9,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 2,
+    "Guanabacoa": 1,
+    "Cerro": 1,
+    "Centro Habana": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 84,
+  "by_type_counts": {
+    "actualizacion_bloques": 15,
+    "inicio_afectacion": 17,
+    "daf": 9,
+    "restablecimiento_daf": 6,
+    "restablecimiento": 15,
+    "mantenimiento": 2,
+    "corto": 3,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "averias": 6,
+    "otro": 6,
+    "via_libre": 2,
+    "disparo_circuito": 1
+  }
+}

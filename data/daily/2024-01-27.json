@@ -1,0 +1,32 @@
+{
+  "date": "2024-01-27",
+  "finalized": true,
+  "peak_mw_affected": 1032,
+  "peak_time": "18:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Guanabacoa La Zona De Azotea": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 30,
+  "by_type_counts": {
+    "otro": 16,
+    "empty": 2,
+    "restablecimiento": 5,
+    "daf": 2,
+    "disparo_circuito": 1,
+    "nota_diaria": 1,
+    "corto": 3
+  }
+}

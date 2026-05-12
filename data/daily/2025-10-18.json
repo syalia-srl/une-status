@@ -1,0 +1,42 @@
+{
+  "date": "2025-10-18",
+  "finalized": true,
+  "peak_mw_affected": 52,
+  "peak_time": "18:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 102,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 102,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Marianao": 2,
+    "Arroyo Naranjo": 1,
+    "Guanabacoa": 1,
+    "Cerro": 1,
+    "Playa": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 46,
+  "by_type_counts": {
+    "averias": 8,
+    "restablecimiento": 10,
+    "empty": 7,
+    "nota_diaria": 2,
+    "sen_update": 2,
+    "corto": 1,
+    "inicio_afectacion": 1,
+    "otro": 1,
+    "pinned": 1,
+    "daf": 4,
+    "via_libre": 2,
+    "disparo_circuito": 4,
+    "mantenimiento": 3
+  }
+}

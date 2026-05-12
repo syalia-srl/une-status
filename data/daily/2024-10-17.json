@@ -1,0 +1,38 @@
+{
+  "date": "2024-10-17",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "De Playa": 3,
+    "De La Lisa": 1,
+    "De Habana Del Este": 1,
+    "De Arroyo Naranjo": 1,
+    "De Plaza": 1,
+    "Cerro": 1,
+    "Plaza Se Encuentra Afectado Por Disparo Del Circuito En Camino De La Tropical Desde El Rio Hasta San Antonio": 1,
+    "Lisa Se Encuentra Afectado Por Disparo Del Circuito En El Reparto San Agustín": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 43,
+  "by_type_counts": {
+    "restablecimiento": 15,
+    "otro": 10,
+    "disparo_circuito": 8,
+    "averias": 8,
+    "nota_diaria": 1,
+    "empty": 1
+  }
+}

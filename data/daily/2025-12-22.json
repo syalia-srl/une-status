@@ -1,0 +1,39 @@
+{
+  "date": "2025-12-22",
+  "finalized": true,
+  "peak_mw_affected": 206,
+  "peak_time": "18:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 441,
+    "2": 336,
+    "3": 315,
+    "4": 282,
+    "5": 254,
+    "6": 295
+  },
+  "total_block_outage_minutes": 1923,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Plaza": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 97,
+  "by_type_counts": {
+    "mantenimiento": 5,
+    "empty": 20,
+    "corto": 12,
+    "otro": 4,
+    "averias": 7,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "via_libre": 9,
+    "unidad_termoelectrica": 3,
+    "inicio_afectacion": 7,
+    "actualizacion_bloques": 23,
+    "restablecimiento": 4,
+    "disparo_circuito": 1
+  }
+}

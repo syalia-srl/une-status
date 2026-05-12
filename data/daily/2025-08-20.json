@@ -1,0 +1,37 @@
+{
+  "date": "2025-08-20",
+  "finalized": true,
+  "peak_mw_affected": 119,
+  "peak_time": "21:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 1278,
+    "2": 1130,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 2408,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Guanabacoa": 2,
+    "Marianao": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 62,
+  "by_type_counts": {
+    "otro": 29,
+    "via_libre": 4,
+    "restablecimiento": 4,
+    "inicio_afectacion": 2,
+    "averias": 7,
+    "empty": 6,
+    "nota_diaria": 3,
+    "corto": 2,
+    "mantenimiento": 2,
+    "daf": 1,
+    "disparo_circuito": 2
+  }
+}

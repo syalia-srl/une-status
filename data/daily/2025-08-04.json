@@ -1,0 +1,40 @@
+{
+  "date": "2025-08-04",
+  "finalized": true,
+  "peak_mw_affected": 76,
+  "peak_time": "20:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1159,
+    "6": 0
+  },
+  "total_block_outage_minutes": 1159,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Playa": 5,
+    "Plaza": 1,
+    "De Arroyo Naranjo": 1,
+    "Marianao": 1,
+    "Arroyo Naranjo": 1,
+    "De Playa": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 57,
+  "by_type_counts": {
+    "restablecimiento": 10,
+    "empty": 3,
+    "otro": 21,
+    "inicio_afectacion": 1,
+    "averias": 11,
+    "nota_diaria": 1,
+    "via_libre": 2,
+    "mantenimiento": 2,
+    "corto": 1,
+    "disparo_circuito": 5
+  }
+}

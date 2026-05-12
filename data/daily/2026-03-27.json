@@ -1,0 +1,40 @@
+{
+  "date": "2026-03-27",
+  "finalized": true,
+  "peak_mw_affected": 403,
+  "peak_time": "20:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 600,
+    "2": 870,
+    "3": 552,
+    "4": 552,
+    "5": 453,
+    "6": 381
+  },
+  "total_block_outage_minutes": 3408,
+  "daf_count": 16,
+  "averias_count_by_municipio": {
+    "Cerro": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 91,
+  "by_type_counts": {
+    "restablecimiento_daf": 13,
+    "daf": 16,
+    "actualizacion_bloques": 16,
+    "restablecimiento": 18,
+    "inicio_afectacion": 12,
+    "sen_update": 1,
+    "corto": 4,
+    "nota_diaria": 1,
+    "via_libre": 3,
+    "mantenimiento": 1,
+    "averias": 1,
+    "otro": 3,
+    "disparo_circuito": 1,
+    "pinned": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2025-07-15",
+  "finalized": true,
+  "peak_mw_affected": 53,
+  "peak_time": "22:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo": 2,
+    "Lisa": 1,
+    "Plaza": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 53,
+  "by_type_counts": {
+    "otro": 21,
+    "averias": 7,
+    "restablecimiento": 10,
+    "corto": 3,
+    "nota_diaria": 2,
+    "disparo_circuito": 2,
+    "via_libre": 2,
+    "daf": 2,
+    "empty": 4
+  }
+}

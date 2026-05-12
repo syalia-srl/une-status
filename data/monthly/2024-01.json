@@ -1,0 +1,38 @@
+{
+  "month": "2024-01",
+  "finalized": true,
+  "dailies_count": 31,
+  "avg_peak_mw": 454.8,
+  "max_peak_mw": 1032,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 4,
+    "Playa": 3,
+    "Lisa": 2,
+    "Habana Del Este": 2,
+    "Boyeros La Zona De Aldabó Se Encontraba Afectada Por Disparo Del Circuito": 1,
+    "De Guanabacoa Se Encuentra Gran Parte Afectada Con El Circuito Disparado Por Posible Avería": 1,
+    "De Playa Las Zonas De Querejeta": 1,
+    "Habana Del Este Las Zonas De Altura De Marbella": 1,
+    "Marianao": 1,
+    "Plaza": 1,
+    "Cojimar": 1,
+    "Plaza De La Revolución": 1,
+    "Boyeros La Zona De Baluarte": 1,
+    "Marianao La Zona Del Palmar Y Áreas Cercanas Presentan Disparo Del Circuito": 1,
+    "Arroyo Naranjo La Zona De Párraga Se Encuentra Afectado Por Disparo Del Circuito": 1,
+    "Guanabacoa La Zona De Azotea": 1,
+    "Boyeros La Zona De Altahabana Está Presentando Disparo Del Circuito": 1
+  },
+  "averias_total": 24,
+  "daf_total": 11
+}

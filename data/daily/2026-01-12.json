@@ -1,0 +1,43 @@
+{
+  "date": "2026-01-12",
+  "finalized": true,
+  "peak_mw_affected": 225,
+  "peak_time": "18:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo": 3,
+    "Lisa": 2,
+    "Marianao": 2,
+    "Centro Habana": 2,
+    "Cotorro": 1,
+    "Boyeros": 1,
+    "Regla": 1
+  },
+  "averias_total": 12,
+  "source_msg_count": 97,
+  "by_type_counts": {
+    "empty": 11,
+    "otro": 18,
+    "restablecimiento": 10,
+    "averias": 12,
+    "nota_diaria": 1,
+    "daf": 1,
+    "disparo_circuito": 4,
+    "sen_update": 2,
+    "mantenimiento": 7,
+    "actualizacion_bloques": 20,
+    "via_libre": 3,
+    "corto": 8
+  }
+}

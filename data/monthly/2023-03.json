@@ -1,0 +1,25 @@
+{
+  "month": "2023-03",
+  "finalized": true,
+  "dailies_count": 31,
+  "avg_peak_mw": null,
+  "max_peak_mw": null,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Playa De Una Parte De Jaimanita Y El Punto De Control": 1,
+    "Regla La Zona Está Presentando Disparo Del Circuito": 1,
+    "Boyeros Los Repartos Santiago De Las Vegas Y Sierra Maestra": 1,
+    "Guanabacoa Los Repartos El Roble Y Centro De Guanabacoa": 1
+  },
+  "averias_total": 4,
+  "daf_total": 17
+}

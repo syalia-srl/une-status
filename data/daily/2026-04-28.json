@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-28",
+  "finalized": true,
+  "peak_mw_affected": 171,
+  "peak_time": "21:00",
+  "interruption_minutes": 375,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 65,
+    "3": 220,
+    "4": 160,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 445,
+  "daf_count": 11,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 4,
+    "Lisa": 1,
+    "Plaza": 1,
+    "Boyeros": 1,
+    "Arroyo Naranjo": 1,
+    "Cerro": 1
+  },
+  "averias_total": 9,
+  "source_msg_count": 85,
+  "by_type_counts": {
+    "restablecimiento": 11,
+    "inicio_afectacion": 6,
+    "actualizacion_bloques": 7,
+    "averias": 10,
+    "daf": 11,
+    "restablecimiento_daf": 10,
+    "otro": 4,
+    "empty": 2,
+    "corto": 6,
+    "nota_diaria": 1,
+    "via_libre": 5,
+    "mantenimiento": 6,
+    "sen_update": 1,
+    "disparo_circuito": 4,
+    "pinned": 1
+  }
+}

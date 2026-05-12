@@ -1,0 +1,39 @@
+{
+  "date": "2026-03-28",
+  "finalized": true,
+  "peak_mw_affected": 284,
+  "peak_time": "19:20",
+  "interruption_minutes": 1343,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 361,
+    "2": 473,
+    "3": 419,
+    "4": 358,
+    "5": 440,
+    "6": 417
+  },
+  "total_block_outage_minutes": 2468,
+  "daf_count": 10,
+  "averias_count_by_municipio": {
+    "Cotorro": 1,
+    "Playa": 1,
+    "Boyeros Quedan Afectados": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 80,
+  "by_type_counts": {
+    "actualizacion_bloques": 16,
+    "daf": 10,
+    "restablecimiento": 17,
+    "mantenimiento": 4,
+    "averias": 5,
+    "restablecimiento_daf": 6,
+    "inicio_afectacion": 14,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "otro": 4,
+    "via_libre": 2
+  }
+}

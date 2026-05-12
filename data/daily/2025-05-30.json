@@ -1,0 +1,34 @@
+{
+  "date": "2025-05-30",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Lisa": 1,
+    "De Boyeros": 1,
+    "De Playa": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 52,
+  "by_type_counts": {
+    "otro": 16,
+    "restablecimiento": 17,
+    "empty": 8,
+    "disparo_circuito": 4,
+    "averias": 3,
+    "daf": 4
+  }
+}

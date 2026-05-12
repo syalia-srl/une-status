@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-30",
+  "finalized": true,
+  "peak_mw_affected": 210,
+  "peak_time": "19:40",
+  "interruption_minutes": 853,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 588,
+    "2": 840,
+    "3": 736,
+    "4": 757,
+    "5": 251,
+    "6": 745
+  },
+  "total_block_outage_minutes": 3917,
+  "daf_count": 17,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 112,
+  "by_type_counts": {
+    "actualizacion_bloques": 23,
+    "mantenimiento": 1,
+    "inicio_afectacion": 17,
+    "otro": 5,
+    "restablecimiento": 27,
+    "empty": 2,
+    "daf": 17,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "via_libre": 1,
+    "corto": 2,
+    "restablecimiento_daf": 13,
+    "unidad_termoelectrica": 2
+  }
+}

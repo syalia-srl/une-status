@@ -1,0 +1,39 @@
+{
+  "month": "2025-03",
+  "finalized": true,
+  "dailies_count": 31,
+  "avg_peak_mw": 1472.7,
+  "max_peak_mw": 1749,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Playa": 4,
+    "Arroyo Naranjo": 4,
+    "Boyeros": 4,
+    "Cerro": 4,
+    "Habana Del Este": 3,
+    "Lisa": 2,
+    "Plaza": 2,
+    "Guanabacoa": 2,
+    "De Boyeros": 2,
+    "Habana Vieja": 2,
+    "De Guanabacoa": 2,
+    "Marianao": 2,
+    "San Miguel El Padrón": 1,
+    "De La Lisa": 1,
+    "De Boyero": 1,
+    "De Playa": 1,
+    "De San Miguel Del Padrón": 1,
+    "Boyeros Santiago De Las Vegas Se Encuentran Afectados Por Disparo Del Circuito": 1
+  },
+  "averias_total": 39,
+  "daf_total": 10
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-30",
+  "finalized": true,
+  "peak_mw_affected": 96,
+  "peak_time": "22:40",
+  "interruption_minutes": 388,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 260,
+    "6": 0
+  },
+  "total_block_outage_minutes": 260,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 2,
+    "Arroyo Naranjo": 1,
+    "Cotorro": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 69,
+  "by_type_counts": {
+    "restablecimiento": 12,
+    "disparo_circuito": 4,
+    "actualizacion_bloques": 16,
+    "empty": 3,
+    "daf": 6,
+    "restablecimiento_daf": 1,
+    "inicio_afectacion": 8,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "corto": 1,
+    "otro": 4,
+    "mantenimiento": 9,
+    "averias": 2,
+    "via_libre": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2025-09-22",
+  "finalized": true,
+  "peak_mw_affected": 227,
+  "peak_time": "19:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Marianao": 2,
+    "Cotorro": 2,
+    "Playa": 1,
+    "Arroyo Naranjo": 1,
+    "Plaza": 1,
+    "Lisa": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 52,
+  "by_type_counts": {
+    "servicio_cliente": 4,
+    "otro": 24,
+    "averias": 7,
+    "restablecimiento": 7,
+    "nota_diaria": 2,
+    "disparo_circuito": 6,
+    "corto": 1,
+    "via_libre": 1
+  }
+}

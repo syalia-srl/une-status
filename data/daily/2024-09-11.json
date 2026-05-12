@@ -1,0 +1,39 @@
+{
+  "date": "2024-09-11",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "De Guanabacoa": 4,
+    "De Arroyo Naranjo": 2,
+    "De Plaza": 2,
+    "De Habana De Este": 1,
+    "De Boyeros": 1,
+    "De Centro Habana": 1
+  },
+  "averias_total": 11,
+  "source_msg_count": 45,
+  "by_type_counts": {
+    "otro": 12,
+    "averias": 12,
+    "empty": 5,
+    "restablecimiento": 9,
+    "via_libre": 1,
+    "nota_diaria": 1,
+    "mantenimiento": 1,
+    "corto": 1,
+    "disparo_circuito": 3
+  }
+}

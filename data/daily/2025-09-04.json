@@ -1,0 +1,37 @@
+{
+  "date": "2025-09-04",
+  "finalized": true,
+  "peak_mw_affected": 113,
+  "peak_time": "20:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 838,
+    "6": 0
+  },
+  "total_block_outage_minutes": 838,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Lisa": 2,
+    "Guanabacoa": 1,
+    "Centro Habana": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 54,
+  "by_type_counts": {
+    "empty": 5,
+    "via_libre": 1,
+    "otro": 25,
+    "restablecimiento": 7,
+    "averias": 7,
+    "mantenimiento": 1,
+    "nota_diaria": 3,
+    "corto": 2,
+    "inicio_afectacion": 1,
+    "disparo_circuito": 2
+  }
+}

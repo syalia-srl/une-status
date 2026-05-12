@@ -1,0 +1,39 @@
+{
+  "date": "2026-01-27",
+  "finalized": true,
+  "peak_mw_affected": 353,
+  "peak_time": "18:14",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 333,
+    "2": 214,
+    "3": 236,
+    "4": 325,
+    "5": 335,
+    "6": 376
+  },
+  "total_block_outage_minutes": 1819,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Lisa": 2,
+    "San Miguel Del Padrón": 1,
+    "Cerro": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 102,
+  "by_type_counts": {
+    "averias": 6,
+    "restablecimiento": 16,
+    "mantenimiento": 7,
+    "daf": 1,
+    "corto": 16,
+    "actualizacion_bloques": 18,
+    "restablecimiento_daf": 1,
+    "empty": 17,
+    "inicio_afectacion": 8,
+    "otro": 7,
+    "via_libre": 4,
+    "sen_update": 1
+  }
+}

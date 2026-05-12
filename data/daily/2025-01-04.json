@@ -1,0 +1,38 @@
+{
+  "date": "2025-01-04",
+  "finalized": true,
+  "peak_mw_affected": 777,
+  "peak_time": "18:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "De Arroyo Naranjo": 2,
+    "De Playa": 2,
+    "De Regla": 1,
+    "De Marianao": 1,
+    "Del Cerro": 1,
+    "De La Lisa": 1
+  },
+  "averias_total": 8,
+  "source_msg_count": 45,
+  "by_type_counts": {
+    "otro": 10,
+    "empty": 12,
+    "corto": 2,
+    "nota_diaria": 1,
+    "disparo_circuito": 5,
+    "averias": 3,
+    "restablecimiento": 10,
+    "via_libre": 2
+  }
+}

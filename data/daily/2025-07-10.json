@@ -1,0 +1,37 @@
+{
+  "date": "2025-07-10",
+  "finalized": true,
+  "peak_mw_affected": 52,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 265,
+    "2": 198,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 463,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Plaza De La Revolución": 1,
+    "Habana Del Este": 1,
+    "Playa": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 62,
+  "by_type_counts": {
+    "restablecimiento": 16,
+    "averias": 9,
+    "otro": 19,
+    "via_libre": 5,
+    "corto": 4,
+    "nota_diaria": 3,
+    "inicio_afectacion": 2,
+    "disparo_circuito": 3,
+    "restablecimiento_daf": 1
+  }
+}

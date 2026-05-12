@@ -1,0 +1,29 @@
+{
+  "date": "2025-03-30",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 25,
+  "by_type_counts": {
+    "empty": 10,
+    "corto": 1,
+    "otro": 11,
+    "averias": 1,
+    "servicio_cliente": 1,
+    "via_libre": 1
+  }
+}

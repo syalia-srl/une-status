@@ -1,0 +1,40 @@
+{
+  "date": "2025-06-13",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "De Guanabacoa": 2,
+    "Playa": 1,
+    "Arroyo Naranjo": 1,
+    "De Habana Del Este": 1,
+    "De Boyeros": 1,
+    "De La Lisa": 1,
+    "De Playa": 1
+  },
+  "averias_total": 8,
+  "source_msg_count": 51,
+  "by_type_counts": {
+    "averias": 12,
+    "otro": 15,
+    "empty": 8,
+    "corto": 2,
+    "nota_diaria": 2,
+    "restablecimiento": 7,
+    "via_libre": 2,
+    "disparo_circuito": 2,
+    "daf": 1
+  }
+}

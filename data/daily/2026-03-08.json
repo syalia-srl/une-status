@@ -1,0 +1,39 @@
+{
+  "date": "2026-03-08",
+  "finalized": true,
+  "peak_mw_affected": 226,
+  "peak_time": "02:03",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 481,
+    "2": 466,
+    "3": 517,
+    "4": 130,
+    "5": 109,
+    "6": 329
+  },
+  "total_block_outage_minutes": 2032,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "Cotorro": 2,
+    "Plaza": 1,
+    "Playa Reparada La Avería": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 68,
+  "by_type_counts": {
+    "actualizacion_bloques": 19,
+    "inicio_afectacion": 9,
+    "daf": 6,
+    "restablecimiento": 6,
+    "restablecimiento_daf": 4,
+    "empty": 4,
+    "averias": 9,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "disparo_circuito": 2,
+    "otro": 5,
+    "corto": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2025-10-21",
+  "finalized": true,
+  "peak_mw_affected": 158,
+  "peak_time": "19:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 548,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 259
+  },
+  "total_block_outage_minutes": 807,
+  "daf_count": 3,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 3,
+    "Arroyo Naranjo": 1,
+    "De La Lisa": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 53,
+  "by_type_counts": {
+    "restablecimiento": 21,
+    "averias": 9,
+    "servicio_cliente": 1,
+    "corto": 4,
+    "empty": 4,
+    "nota_diaria": 1,
+    "unidad_termoelectrica": 3,
+    "sen_update": 1,
+    "inicio_afectacion": 2,
+    "daf": 3,
+    "otro": 3,
+    "via_libre": 1
+  }
+}

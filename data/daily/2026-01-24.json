@@ -1,0 +1,42 @@
+{
+  "date": "2026-01-24",
+  "finalized": true,
+  "peak_mw_affected": 303,
+  "peak_time": "18:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Plaza": 2,
+    "Marianao": 2,
+    "San Miguel": 1,
+    "Playa": 1,
+    "Regla": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 8,
+  "source_msg_count": 99,
+  "by_type_counts": {
+    "empty": 7,
+    "otro": 14,
+    "actualizacion_bloques": 25,
+    "restablecimiento": 22,
+    "averias": 10,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "via_libre": 7,
+    "disparo_circuito": 5,
+    "mantenimiento": 1,
+    "daf": 4,
+    "servicio_cliente": 1
+  }
+}

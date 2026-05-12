@@ -1,0 +1,32 @@
+{
+  "date": "2023-03-13",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Regla La Zona Está Presentando Disparo Del Circuito": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 38,
+  "by_type_counts": {
+    "otro": 13,
+    "empty": 6,
+    "corto": 13,
+    "nota_diaria": 1,
+    "disparo_circuito": 1,
+    "via_libre": 2,
+    "daf": 2
+  }
+}

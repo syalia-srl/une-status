@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-09",
+  "finalized": true,
+  "peak_mw_affected": 442,
+  "peak_time": "22:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": 100,
+  "block_outage_minutes": {
+    "1": 294,
+    "2": 170,
+    "3": 138,
+    "4": 36,
+    "5": 66,
+    "6": 0
+  },
+  "total_block_outage_minutes": 704,
+  "daf_count": 10,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo": 2,
+    "Habana Del Este": 2,
+    "Plaza De La Revolución": 2,
+    "Plaza": 1,
+    "Cotorro": 1,
+    "Boyeros": 1,
+    "Lisa": 1,
+    "Marianao": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 12,
+  "source_msg_count": 117,
+  "by_type_counts": {
+    "restablecimiento": 34,
+    "actualizacion_bloques": 14,
+    "otro": 29,
+    "daf": 10,
+    "restablecimiento_daf": 9,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "disparo_circuito": 2,
+    "mantenimiento": 2,
+    "averias": 12,
+    "via_libre": 1,
+    "inicio_afectacion": 1
+  }
+}

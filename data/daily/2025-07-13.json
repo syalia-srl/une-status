@@ -1,0 +1,37 @@
+{
+  "date": "2025-07-13",
+  "finalized": true,
+  "peak_mw_affected": 60,
+  "peak_time": "22:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 236,
+    "2": 534,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 770,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Plaza": 1,
+    "Marianao": 1,
+    "De Boyeros": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 50,
+  "by_type_counts": {
+    "averias": 4,
+    "otro": 17,
+    "via_libre": 4,
+    "empty": 3,
+    "nota_diaria": 2,
+    "corto": 2,
+    "restablecimiento": 13,
+    "inicio_afectacion": 2,
+    "disparo_circuito": 1,
+    "daf": 2
+  }
+}

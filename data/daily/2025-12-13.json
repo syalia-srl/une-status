@@ -1,0 +1,42 @@
+{
+  "date": "2025-12-13",
+  "finalized": true,
+  "peak_mw_affected": 243,
+  "peak_time": "18:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 237,
+    "2": 367,
+    "3": 0,
+    "4": 0,
+    "5": 209,
+    "6": 178
+  },
+  "total_block_outage_minutes": 991,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "Playa": 5,
+    "Cerro": 3,
+    "Boyeros": 3,
+    "Habana Del Este": 1
+  },
+  "averias_total": 12,
+  "source_msg_count": 76,
+  "by_type_counts": {
+    "empty": 10,
+    "via_libre": 1,
+    "restablecimiento": 4,
+    "averias": 5,
+    "otro": 9,
+    "daf": 6,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "mantenimiento": 9,
+    "corto": 4,
+    "restablecimiento_daf": 1,
+    "disparo_circuito": 9,
+    "inicio_afectacion": 6,
+    "actualizacion_bloques": 9
+  }
+}

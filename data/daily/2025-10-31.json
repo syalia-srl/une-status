@@ -1,0 +1,39 @@
+{
+  "date": "2025-10-31",
+  "finalized": true,
+  "peak_mw_affected": 158,
+  "peak_time": "19:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón Quedan Afectados": 1,
+    "Capitalino": 1,
+    "Lisa": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 57,
+  "by_type_counts": {
+    "empty": 9,
+    "averias": 5,
+    "restablecimiento": 11,
+    "mantenimiento": 2,
+    "nota_diaria": 3,
+    "otro": 9,
+    "sen_update": 2,
+    "corto": 2,
+    "via_libre": 2,
+    "actualizacion_bloques": 7,
+    "daf": 4,
+    "disparo_circuito": 1
+  }
+}

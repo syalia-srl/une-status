@@ -1,0 +1,42 @@
+{
+  "date": "2025-08-31",
+  "finalized": true,
+  "peak_mw_affected": 43,
+  "peak_time": "22:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 474,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 474,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Lisa": 2,
+    "Guanabacoa": 2,
+    "Cerro": 1,
+    "Playa": 1,
+    "San Miguel Del Padrón": 1,
+    "Boyeros": 1,
+    "Habana Del Este": 1,
+    "Marianao": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 55,
+  "by_type_counts": {
+    "restablecimiento": 15,
+    "disparo_circuito": 4,
+    "empty": 3,
+    "otro": 12,
+    "via_libre": 2,
+    "averias": 11,
+    "nota_diaria": 2,
+    "corto": 2,
+    "inicio_afectacion": 2,
+    "daf": 2
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-06",
+  "finalized": true,
+  "peak_mw_affected": 273,
+  "peak_time": "20:30",
+  "interruption_minutes": 882,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 420,
+    "2": 405,
+    "3": 0,
+    "4": 0,
+    "5": 540,
+    "6": 480
+  },
+  "total_block_outage_minutes": 1845,
+  "daf_count": 5,
+  "averias_count_by_municipio": {
+    "Playa": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 86,
+  "by_type_counts": {
+    "daf": 5,
+    "restablecimiento_daf": 1,
+    "restablecimiento": 13,
+    "actualizacion_bloques": 33,
+    "inicio_afectacion": 13,
+    "otro": 4,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "averias": 5,
+    "mantenimiento": 6,
+    "empty": 2,
+    "unidad_termoelectrica": 1,
+    "corto": 1
+  }
+}

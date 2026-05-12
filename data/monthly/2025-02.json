@@ -1,0 +1,33 @@
+{
+  "month": "2025-02",
+  "finalized": true,
+  "dailies_count": 28,
+  "avg_peak_mw": 1570.5,
+  "max_peak_mw": 1719,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 3,
+    "Playa": 3,
+    "Boyeros": 3,
+    "De Habana Del Este": 2,
+    "San Miguel Del Padrón": 2,
+    "Cerro": 2,
+    "De Boyeros": 2,
+    "Lisa": 2,
+    "De Marianao": 1,
+    "De Playa": 1,
+    "De San Miguel Del Padrón": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 23,
+  "daf_total": 29
+}

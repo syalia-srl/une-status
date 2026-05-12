@@ -1,0 +1,43 @@
+{
+  "date": "2025-08-18",
+  "finalized": true,
+  "peak_mw_affected": 58,
+  "peak_time": "20:50",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 46,
+    "3": 18,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 64,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Cerro": 2,
+    "Marianao": 2,
+    "De Centro Habana": 1,
+    "De Playa": 1,
+    "Playa": 1,
+    "Boyeros": 1,
+    "Arroyo Naranjo": 1,
+    "Centro Habana": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 56,
+  "by_type_counts": {
+    "averias": 5,
+    "otro": 15,
+    "disparo_circuito": 16,
+    "empty": 2,
+    "corto": 2,
+    "nota_diaria": 3,
+    "restablecimiento": 8,
+    "via_libre": 1,
+    "daf": 1,
+    "mantenimiento": 1,
+    "inicio_afectacion": 2
+  }
+}

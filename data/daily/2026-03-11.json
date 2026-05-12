@@ -1,0 +1,47 @@
+{
+  "date": "2026-03-11",
+  "finalized": true,
+  "peak_mw_affected": 333,
+  "peak_time": "19:14",
+  "interruption_minutes": 1347,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 723,
+    "2": 745,
+    "3": 712,
+    "4": 844,
+    "5": 771,
+    "6": 921
+  },
+  "total_block_outage_minutes": 4716,
+  "daf_count": 26,
+  "averias_count_by_municipio": {
+    "Lisa": 3,
+    "Playa": 2,
+    "Cerro": 1,
+    "Centro Habana": 1,
+    "Boyeros": 1,
+    "Cotorro": 1,
+    "Marianao": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 11,
+  "source_msg_count": 109,
+  "by_type_counts": {
+    "daf": 26,
+    "restablecimiento": 14,
+    "actualizacion_bloques": 23,
+    "averias": 3,
+    "disparo_circuito": 8,
+    "inicio_afectacion": 9,
+    "nota_diaria": 1,
+    "corto": 5,
+    "sen_update": 2,
+    "restablecimiento_daf": 10,
+    "otro": 3,
+    "pinned": 1,
+    "via_libre": 2,
+    "mantenimiento": 1,
+    "unidad_termoelectrica": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-04-15",
+  "finalized": true,
+  "peak_mw_affected": 374,
+  "peak_time": "21:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 413,
+    "2": 400,
+    "3": 304,
+    "4": 0,
+    "5": 685,
+    "6": 700
+  },
+  "total_block_outage_minutes": 2502,
+  "daf_count": 7,
+  "averias_count_by_municipio": {
+    "Guanabacoa": 3
+  },
+  "averias_total": 3,
+  "source_msg_count": 84,
+  "by_type_counts": {
+    "actualizacion_bloques": 24,
+    "restablecimiento": 25,
+    "inicio_afectacion": 11,
+    "empty": 1,
+    "daf": 7,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "corto": 3,
+    "restablecimiento_daf": 5,
+    "otro": 2,
+    "averias": 3,
+    "via_libre": 1
+  }
+}

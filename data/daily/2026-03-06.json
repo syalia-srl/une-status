@@ -1,0 +1,37 @@
+{
+  "date": "2026-03-06",
+  "finalized": true,
+  "peak_mw_affected": 433,
+  "peak_time": "22:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 834,
+    "2": 776,
+    "3": 635,
+    "4": 0,
+    "5": 571,
+    "6": 736
+  },
+  "total_block_outage_minutes": 3552,
+  "daf_count": 18,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 89,
+  "by_type_counts": {
+    "actualizacion_bloques": 28,
+    "restablecimiento": 26,
+    "averias": 3,
+    "otro": 4,
+    "disparo_circuito": 1,
+    "corto": 1,
+    "unidad_termoelectrica": 1,
+    "sen_update": 1,
+    "inicio_afectacion": 5,
+    "daf": 18,
+    "nota_diaria": 1
+  }
+}

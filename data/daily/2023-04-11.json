@@ -1,0 +1,32 @@
+{
+  "date": "2023-04-11",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 41,
+  "by_type_counts": {
+    "otro": 12,
+    "empty": 9,
+    "corto": 9,
+    "daf": 6,
+    "nota_diaria": 1,
+    "disparo_circuito": 2,
+    "restablecimiento": 2
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-01-20",
+  "finalized": true,
+  "peak_mw_affected": 363,
+  "peak_time": "18:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 643,
+    "2": 742,
+    "3": 788,
+    "4": 568,
+    "5": 721,
+    "6": 235
+  },
+  "total_block_outage_minutes": 3697,
+  "daf_count": 5,
+  "averias_count_by_municipio": {
+    "Plaza": 2,
+    "Playa": 2,
+    "San Miguel Del Padrón": 2,
+    "Guanabacoa": 1,
+    "Cerro": 1,
+    "Habana Del Este": 1
+  },
+  "averias_total": 9,
+  "source_msg_count": 111,
+  "by_type_counts": {
+    "empty": 9,
+    "otro": 8,
+    "averias": 9,
+    "restablecimiento_daf": 1,
+    "restablecimiento": 14,
+    "inicio_afectacion": 10,
+    "actualizacion_bloques": 26,
+    "nota_diaria": 1,
+    "unidad_termoelectrica": 2,
+    "sen_update": 1,
+    "corto": 15,
+    "via_libre": 1,
+    "mantenimiento": 6,
+    "daf": 5,
+    "disparo_circuito": 3
+  }
+}

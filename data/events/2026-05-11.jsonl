@@ -1,0 +1,95 @@
+{"id": 61721, "ts": "2026-05-11T04:05:37+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 5, "minutes_off": 55}, {"bloque": 2, "hours_off": 4, "minutes_off": 15}, {"bloque": 3, "hours_off": 4, "minutes_off": 15}, {"bloque": 5, "hours_off": 3, "minutes_off": 50}], "total_mw": 266}
+{"id": 61722, "ts": "2026-05-11T04:34:28+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
+{"id": 61723, "ts": "2026-05-11T04:58:53+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": "Calzada de Vieja Linda entre Calzada de Bejucal y Lindero, Vieja Linda ✅", "severity": "secundaria"}]}
+{"id": 61724, "ts": "2026-05-11T05:04:43+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "San Miguel Del Padrón"}
+{"id": 61725, "ts": "2026-05-11T05:08:00+00:00", "type": "otro", "has_photo": false}
+{"id": 61726, "ts": "2026-05-11T05:10:01+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 2}
+{"id": 61727, "ts": "2026-05-11T05:10:32+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 5, "minutes_off": 15}, {"bloque": 5, "hours_off": 4, "minutes_off": 50}], "total_mw": 224}
+{"id": 61728, "ts": "2026-05-11T05:22:40+00:00", "type": "daf", "has_photo": false}
+{"id": 61729, "ts": "2026-05-11T05:49:28+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 61730, "ts": "2026-05-11T06:06:03+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 6, "minutes_off": 15}, {"bloque": 5, "hours_off": 5, "minutes_off": 50}], "total_mw": 174}
+{"id": 61731, "ts": "2026-05-11T06:23:41+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 3}
+{"id": 61732, "ts": "2026-05-11T06:26:10+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
+{"id": 61733, "ts": "2026-05-11T06:31:18+00:00", "type": "otro", "has_photo": false}
+{"id": 61734, "ts": "2026-05-11T07:50:50+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61735, "ts": "2026-05-11T08:43:06+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}
+{"id": 61736, "ts": "2026-05-11T09:21:03+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 6, "emergency": true}
+{"id": 61737, "ts": "2026-05-11T09:23:08+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 1, "emergency": true}
+{"id": 61738, "ts": "2026-05-11T10:01:07+00:00", "type": "averias", "has_photo": false}
+{"id": 61739, "ts": "2026-05-11T10:16:38+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 1, "minutes_off": 40}, {"bloque": 6, "hours_off": 1, "minutes_off": 25}, {"bloque": 1, "hours_off": 0, "minutes_off": 55}], "total_mw": 140}
+{"id": 61740, "ts": "2026-05-11T10:28:44+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
+{"id": 61741, "ts": "2026-05-11T11:03:29+00:00", "type": "corto", "has_photo": true}
+{"id": 61742, "ts": "2026-05-11T11:31:02+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 2, "minutes_off": 36}, {"bloque": 6, "hours_off": 2, "minutes_off": 25}, {"bloque": 1, "hours_off": 2, "minutes_off": 2}, {"bloque": 2, "hours_off": 0, "minutes_off": 52}], "total_mw": 162}
+{"id": 61743, "ts": "2026-05-11T11:39:28+00:00", "type": "nota_diaria", "has_photo": true, "interruption_minutes": 1440, "max_affected_mw": 407, "max_affected_clock": "22:00", "emergency_mw": 110, "closing_affected_mw": 163, "closing_affected_blocks": 4}
+{"id": 61744, "ts": "2026-05-11T11:45:26+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
+{"id": 61745, "ts": "2026-05-11T11:55:05+00:00", "type": "mantenimiento", "has_photo": false}
+{"id": 61746, "ts": "2026-05-11T12:22:07+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 3, "minutes_off": 23}, {"bloque": 6, "hours_off": 3, "minutes_off": 8}, {"bloque": 1, "hours_off": 2, "minutes_off": 45}, {"bloque": 2, "hours_off": 1, "minutes_off": 35}], "total_mw": 136}
+{"id": 61747, "ts": "2026-05-11T13:00:41+00:00", "type": "sen_update", "has_photo": true}
+{"id": 61748, "ts": "2026-05-11T13:34:42+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Cerro", "direccion": ": Calzada de Buenos Aires / Cerezo y Buenos Aires", "severity": "secundaria"}]}
+{"id": 61749, "ts": "2026-05-11T13:59:30+00:00", "type": "via_libre", "has_photo": false}
+{"id": 61750, "ts": "2026-05-11T14:04:09+00:00", "type": "transferencia_bloque", "has_photo": false}
+{"id": 61751, "ts": "2026-05-11T14:18:35+00:00", "type": "daf", "has_photo": false}
+{"id": 61752, "ts": "2026-05-11T14:36:09+00:00", "type": "unidad_termoelectrica", "has_photo": true}
+{"id": 61753, "ts": "2026-05-11T15:03:01+00:00", "type": "averias", "has_photo": false}
+{"id": 61754, "ts": "2026-05-11T15:11:54+00:00", "type": "corto", "has_photo": true}
+{"id": 61755, "ts": "2026-05-11T15:14:48+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
+{"id": 61756, "ts": "2026-05-11T15:32:02+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 5, "minutes_off": 17}, {"bloque": 2, "hours_off": 4, "minutes_off": 47}, {"bloque": 5, "hours_off": 0, "minutes_off": 2}], "total_mw": 127}
+{"id": 61757, "ts": "2026-05-11T15:37:44+00:00", "type": "via_libre", "has_photo": false}
+{"id": 61758, "ts": "2026-05-11T15:37:57+00:00", "type": "daf", "has_photo": false}
+{"id": 61759, "ts": "2026-05-11T15:53:42+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
+{"id": 61760, "ts": "2026-05-11T15:55:40+00:00", "type": "otro", "has_photo": false}
+{"id": 61761, "ts": "2026-05-11T16:04:32+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 2, "hours_off": 5, "minutes_off": 27}, {"bloque": 5, "hours_off": 0, "minutes_off": 46}, {"bloque": 3, "hours_off": 0, "minutes_off": 0}], "total_mw": 130}
+{"id": 61762, "ts": "2026-05-11T16:10:23+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 61764, "ts": "2026-05-11T16:18:51+00:00", "type": "daf", "has_photo": false}
+{"id": 61765, "ts": "2026-05-11T16:58:42+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}
+{"id": 61766, "ts": "2026-05-11T17:13:02+00:00", "type": "averias", "has_photo": false}
+{"id": 61767, "ts": "2026-05-11T17:15:12+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 61768, "ts": "2026-05-11T17:15:18+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 2, "hours_off": 6, "minutes_off": 35}, {"bloque": 5, "hours_off": 1, "minutes_off": 55}, {"bloque": 3, "hours_off": 1, "minutes_off": 15}, {"bloque": 4, "hours_off": 0, "minutes_off": 0}], "total_mw": 174}
+{"id": 61769, "ts": "2026-05-11T17:29:33+00:00", "type": "averias", "has_photo": false}
+{"id": 61770, "ts": "2026-05-11T17:37:40+00:00", "type": "inicio_afectacion", "has_photo": false, "emergency": true}
+{"id": 61771, "ts": "2026-05-11T17:48:13+00:00", "type": "daf", "has_photo": false}
+{"id": 61772, "ts": "2026-05-11T17:50:58+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 2}
+{"id": 61773, "ts": "2026-05-11T18:07:44+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 2, "hours_off": 7, "minutes_off": 27}, {"bloque": 5, "hours_off": 2, "minutes_off": 49}, {"bloque": 3, "hours_off": 2, "minutes_off": 10}, {"bloque": 4, "hours_off": 1, "minutes_off": 3}], "total_mw": 202}
+{"id": 61774, "ts": "2026-05-11T18:14:13+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 61775, "ts": "2026-05-11T19:22:41+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 6, "emergency": true}
+{"id": 61776, "ts": "2026-05-11T19:24:13+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Marianao"}
+{"id": 61777, "ts": "2026-05-11T19:27:40+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61778, "ts": "2026-05-11T19:29:39+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Plaza"}
+{"id": 61779, "ts": "2026-05-11T19:36:37+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 5, "hours_off": 4, "minutes_off": 13}, {"bloque": 3, "hours_off": 3, "minutes_off": 39}, {"bloque": 4, "hours_off": 2, "minutes_off": 32}, {"bloque": 6, "hours_off": 0, "minutes_off": 0}], "total_mw": 217}
+{"id": 61780, "ts": "2026-05-11T19:45:03+00:00", "type": "transferencia_bloque", "has_photo": false}
+{"id": 61781, "ts": "2026-05-11T19:48:22+00:00", "type": "otro", "has_photo": false}
+{"id": 61782, "ts": "2026-05-11T19:49:08+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 1, "emergency": true}
+{"id": 61783, "ts": "2026-05-11T19:56:52+00:00", "type": "otro", "has_photo": false}
+{"id": 61784, "ts": "2026-05-11T20:08:30+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
+{"id": 61785, "ts": "2026-05-11T20:20:34+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 5, "hours_off": 4, "minutes_off": 49}, {"bloque": 3, "hours_off": 4, "minutes_off": 14}, {"bloque": 4, "hours_off": 3, "minutes_off": 7}, {"bloque": 6, "hours_off": 0, "minutes_off": 42}, {"bloque": 1, "hours_off": 0, "minutes_off": 18}, {"bloque": 2, "hours_off": 0, "minutes_off": 0}], "total_mw": 370}
+{"id": 61786, "ts": "2026-05-11T20:27:16+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
+{"id": 61787, "ts": "2026-05-11T20:31:34+00:00", "type": "otro", "has_photo": false}
+{"id": 61788, "ts": "2026-05-11T20:38:17+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 3}
+{"id": 61789, "ts": "2026-05-11T20:49:02+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61790, "ts": "2026-05-11T21:13:40+00:00", "type": "averias", "has_photo": false}
+{"id": 61791, "ts": "2026-05-11T21:16:49+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61792, "ts": "2026-05-11T21:21:10+00:00", "type": "otro", "has_photo": false}
+{"id": 61793, "ts": "2026-05-11T21:36:22+00:00", "type": "otro", "has_photo": false}
+{"id": 61794, "ts": "2026-05-11T21:41:17+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 61795, "ts": "2026-05-11T21:53:55+00:00", "type": "daf", "has_photo": false}
+{"id": 61796, "ts": "2026-05-11T22:02:33+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 5, "emergency": true}
+{"id": 61797, "ts": "2026-05-11T22:14:45+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61798, "ts": "2026-05-11T22:19:10+00:00", "type": "otro", "has_photo": false}
+{"id": 61799, "ts": "2026-05-11T22:25:55+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 6, "minutes_off": 26}, {"bloque": 4, "hours_off": 5, "minutes_off": 19}, {"bloque": 6, "hours_off": 2, "minutes_off": 54}, {"bloque": 1, "hours_off": 2, "minutes_off": 33}, {"bloque": 2, "hours_off": 2, "minutes_off": 6}, {"bloque": 5, "hours_off": 0, "minutes_off": 0}], "total_mw": 380}
+{"id": 61801, "ts": "2026-05-11T23:40:29+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 61802, "ts": "2026-05-12T00:02:28+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61803, "ts": "2026-05-12T00:15:34+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 61804, "ts": "2026-05-12T00:20:12+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 8, "minutes_off": 23}, {"bloque": 4, "hours_off": 7, "minutes_off": 16}, {"bloque": 6, "hours_off": 4, "minutes_off": 51}, {"bloque": 1, "hours_off": 4, "minutes_off": 30}, {"bloque": 2, "hours_off": 4, "minutes_off": 3}, {"bloque": 5, "hours_off": 2, "minutes_off": 9}], "total_mw": 414}
+{"id": 61805, "ts": "2026-05-12T00:32:58+00:00", "type": "otro", "has_photo": false}
+{"id": 61806, "ts": "2026-05-12T00:35:07+00:00", "type": "otro", "has_photo": false}
+{"id": 61807, "ts": "2026-05-12T01:00:02+00:00", "type": "averias", "has_photo": false}
+{"id": 61808, "ts": "2026-05-12T01:59:01+00:00", "type": "otro", "has_photo": false}
+{"id": 61809, "ts": "2026-05-12T02:00:24+00:00", "type": "otro", "has_photo": false}
+{"id": 61811, "ts": "2026-05-12T02:20:37+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 10, "minutes_off": 23}, {"bloque": 4, "hours_off": 9, "minutes_off": 16}, {"bloque": 6, "hours_off": 6, "minutes_off": 51}, {"bloque": 1, "hours_off": 6, "minutes_off": 30}, {"bloque": 2, "hours_off": 6, "minutes_off": 3}, {"bloque": 5, "hours_off": 5, "minutes_off": 9}], "total_mw": 447}
+{"id": 61812, "ts": "2026-05-12T02:30:46+00:00", "type": "unidad_termoelectrica", "has_photo": true}
+{"id": 61813, "ts": "2026-05-12T02:31:11+00:00", "type": "corto", "has_photo": true}
+{"id": 61814, "ts": "2026-05-12T02:56:10+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": ": 65 / 190 y 192", "severity": "secundaria"}]}
+{"id": 61815, "ts": "2026-05-12T03:20:05+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 11, "minutes_off": 23}, {"bloque": 4, "hours_off": 10, "minutes_off": 16}, {"bloque": 6, "hours_off": 7, "minutes_off": 51}, {"bloque": 1, "hours_off": 7, "minutes_off": 30}, {"bloque": 2, "hours_off": 7, "minutes_off": 3}, {"bloque": 5, "hours_off": 6, "minutes_off": 9}], "total_mw": 468}
+{"id": 61816, "ts": "2026-05-12T03:33:04+00:00", "type": "otro", "has_photo": false}
+{"id": 61817, "ts": "2026-05-12T03:37:12+00:00", "type": "averias", "has_photo": false}
+{"id": 61818, "ts": "2026-05-12T03:54:15+00:00", "type": "otro", "has_photo": false}

@@ -1,0 +1,32 @@
+{
+  "date": "2024-06-10",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Cerro": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 28,
+  "by_type_counts": {
+    "disparo_circuito": 1,
+    "otro": 4,
+    "averias": 3,
+    "corto": 6,
+    "empty": 12,
+    "nota_diaria": 1,
+    "via_libre": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2025-07-28",
+  "finalized": true,
+  "peak_mw_affected": 123,
+  "peak_time": "20:10",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 3,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 2,
+    "Guanabacoa": 2,
+    "Cerro": 2,
+    "Lisa": 2,
+    "Marianao": 1,
+    "Arroyo Naranjo": 1,
+    "Habana Del Este": 1
+  },
+  "averias_total": 11,
+  "source_msg_count": 51,
+  "by_type_counts": {
+    "mantenimiento": 1,
+    "restablecimiento": 7,
+    "otro": 16,
+    "averias": 8,
+    "nota_diaria": 2,
+    "corto": 4,
+    "via_libre": 4,
+    "disparo_circuito": 6,
+    "daf": 3
+  }
+}

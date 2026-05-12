@@ -1,0 +1,39 @@
+{
+  "date": "2025-09-28",
+  "finalized": true,
+  "peak_mw_affected": 146,
+  "peak_time": "20:50",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 51,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 51,
+  "daf_count": 12,
+  "averias_count_by_municipio": {
+    "Playa": 3,
+    "Lisa": 1,
+    "Regla": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 64,
+  "by_type_counts": {
+    "restablecimiento": 14,
+    "inicio_afectacion": 1,
+    "otro": 8,
+    "corto": 5,
+    "empty": 3,
+    "nota_diaria": 1,
+    "averias": 10,
+    "mantenimiento": 4,
+    "sen_update": 2,
+    "daf": 12,
+    "via_libre": 3,
+    "unidad_termoelectrica": 1
+  }
+}

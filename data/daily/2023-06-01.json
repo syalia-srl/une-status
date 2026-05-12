@@ -1,0 +1,35 @@
+{
+  "date": "2023-06-01",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Cerro Las Zona Del Reparto Martí Está Presentado Disparo Del Circuito": 2,
+    "De La Habana Vieja La Zona Del Casco Historico De La Habana Presenta Un Disparo Del Circuito": 1,
+    "Cerro Las Zonas Del Reparto Martí": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 37,
+  "by_type_counts": {
+    "averias": 4,
+    "restablecimiento": 1,
+    "mantenimiento": 2,
+    "otro": 19,
+    "empty": 3,
+    "nota_diaria": 1,
+    "corto": 3,
+    "disparo_circuito": 4
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2023-06-25",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón En La Zona De Juanelo": 1,
+    "Cotorro Las Zonas De La Portada": 1,
+    "Boyeros Las Zonas Embill": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 45,
+  "by_type_counts": {
+    "restablecimiento": 8,
+    "averias": 2,
+    "otro": 18,
+    "nota_diaria": 1,
+    "corto": 8,
+    "via_libre": 5,
+    "disparo_circuito": 3
+  }
+}

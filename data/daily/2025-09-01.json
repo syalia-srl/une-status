@@ -1,0 +1,41 @@
+{
+  "date": "2025-09-01",
+  "finalized": true,
+  "peak_mw_affected": 130,
+  "peak_time": "21:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 2,
+    "Arroyo Naranjo": 2,
+    "Cotorro": 2,
+    "Cerro": 1,
+    "Plaza": 1,
+    "Boyeros": 1,
+    "Lisa": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 69,
+  "by_type_counts": {
+    "restablecimiento": 13,
+    "otro": 28,
+    "disparo_circuito": 4,
+    "empty": 3,
+    "averias": 13,
+    "corto": 1,
+    "nota_diaria": 3,
+    "mantenimiento": 1,
+    "via_libre": 1,
+    "daf": 2
+  }
+}

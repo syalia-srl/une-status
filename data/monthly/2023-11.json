@@ -1,0 +1,41 @@
+{
+  "month": "2023-11",
+  "finalized": true,
+  "dailies_count": 30,
+  "avg_peak_mw": 280.0,
+  "max_peak_mw": 369,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo": 3,
+    "Playa": 2,
+    "Boyeros": 2,
+    "Boyeros La Zona Santiago Las Vegas Y Áreas Cercanas Están Presentando Disparo Del Circuito": 1,
+    "Marianao La Zona De Hornos": 1,
+    "La Lisa Las Zonas De La Coronela": 1,
+    "Marianao De Las Zonas De Puentes Nuevos": 1,
+    "Guanabacoa": 1,
+    "Playa La Zona De Flores": 1,
+    "Arroyo Naranjo En El Eléctrico Más El Municipio De San Miguel En California Y Áreas Cercanas Presentando Disparo Del Circuito": 1,
+    "San Miguel Del Padrón La Zona Está Presentando Disparo Del Circuito": 1,
+    "Plaza La Zona Del Vedado Se Encuentra Con El Circuito Disparado": 1,
+    "Boyeros En Santiago De Las Vegas Y En Arroyo Naranjo En El Eléctrico Y Áreas Cercanas Están Presentando Disparo Del Circuito": 1,
+    "Habana Del Este La Zona Del Camilo Cienfuegos": 1,
+    "San Miguel Del Padrón": 1,
+    "Cerro": 1,
+    "Boyeros La Zona Del Trigal": 1,
+    "Playa La Zona De Buenavista": 1,
+    "Habana Del Este Se Encuentra Presentando Disparo Del Circuito Afectando La Zona Del Camilo Cienfuegos": 1,
+    "Boyeros Y Arroyo Naranjo Está Presentando Disparo Del Circuito En Varias Zonas": 1
+  },
+  "averias_total": 24,
+  "daf_total": 8
+}

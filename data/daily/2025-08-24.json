@@ -1,0 +1,35 @@
+{
+  "date": "2025-08-24",
+  "finalized": true,
+  "peak_mw_affected": 57,
+  "peak_time": "20:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Arroyo Naranjo": 1,
+    "San Miguel Del Padrón": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 59,
+  "by_type_counts": {
+    "otro": 34,
+    "nota_diaria": 1,
+    "corto": 5,
+    "empty": 7,
+    "averias": 6,
+    "via_libre": 4,
+    "mantenimiento": 1,
+    "restablecimiento": 1
+  }
+}

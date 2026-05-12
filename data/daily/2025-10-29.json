@@ -1,0 +1,38 @@
+{
+  "date": "2025-10-29",
+  "finalized": true,
+  "peak_mw_affected": 240,
+  "peak_time": "22:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 33,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 243,
+    "6": 0
+  },
+  "total_block_outage_minutes": 276,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Playa": 2,
+    "Guanabacoa": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 66,
+  "by_type_counts": {
+    "restablecimiento": 33,
+    "otro": 8,
+    "disparo_circuito": 3,
+    "averias": 1,
+    "empty": 1,
+    "nota_diaria": 2,
+    "unidad_termoelectrica": 4,
+    "corto": 4,
+    "mantenimiento": 2,
+    "inicio_afectacion": 3,
+    "daf": 4,
+    "via_libre": 1
+  }
+}

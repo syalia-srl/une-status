@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-16",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 1,
+    "De Playa": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 28,
+  "by_type_counts": {
+    "otro": 9,
+    "averias": 2,
+    "empty": 10,
+    "disparo_circuito": 1,
+    "servicio_cliente": 1,
+    "corto": 1,
+    "nota_diaria": 1,
+    "restablecimiento": 2,
+    "mantenimiento": 1
+  }
+}

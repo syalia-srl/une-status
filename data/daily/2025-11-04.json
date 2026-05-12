@@ -1,0 +1,43 @@
+{
+  "date": "2025-11-04",
+  "finalized": true,
+  "peak_mw_affected": 137,
+  "peak_time": "18:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 11,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 2,
+    "Arroyo Naranjo": 2,
+    "Habana Vieja": 1,
+    "Plaza": 1,
+    "Guanabacoa": 1,
+    "Playa": 1,
+    "Arroyo Naranjo Quedan Afectados": 1
+  },
+  "averias_total": 9,
+  "source_msg_count": 79,
+  "by_type_counts": {
+    "averias": 9,
+    "restablecimiento": 20,
+    "corto": 3,
+    "disparo_circuito": 7,
+    "empty": 3,
+    "daf": 11,
+    "otro": 8,
+    "nota_diaria": 5,
+    "sen_update": 1,
+    "servicio_cliente": 10,
+    "mantenimiento": 1,
+    "unidad_termoelectrica": 1
+  }
+}

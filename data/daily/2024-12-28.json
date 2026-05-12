@@ -1,0 +1,33 @@
+{
+  "date": "2024-12-28",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "De Playa": 1,
+    "De Guanabacoa Se Encuentran Afectados Por Un Disparo Del Circuito": 1,
+    "De Boyero Se Encuentran Afectados Por Un Disparo Del Circuito": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 37,
+  "by_type_counts": {
+    "empty": 8,
+    "otro": 19,
+    "restablecimiento": 2,
+    "disparo_circuito": 5,
+    "averias": 2,
+    "nota_diaria": 1
+  }
+}

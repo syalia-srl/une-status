@@ -1,0 +1,37 @@
+{
+  "date": "2025-12-01",
+  "finalized": true,
+  "peak_mw_affected": 281,
+  "peak_time": "19:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 125,
+    "3": 0,
+    "4": 1117,
+    "5": 276,
+    "6": 751
+  },
+  "total_block_outage_minutes": 2269,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Plaza": 1,
+    "Marianao": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 64,
+  "by_type_counts": {
+    "actualizacion_bloques": 24,
+    "corto": 5,
+    "inicio_afectacion": 5,
+    "restablecimiento": 14,
+    "averias": 6,
+    "daf": 1,
+    "nota_diaria": 2,
+    "via_libre": 1,
+    "otro": 3,
+    "sen_update": 2,
+    "mantenimiento": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2025-12-14",
+  "finalized": true,
+  "peak_mw_affected": 210,
+  "peak_time": "18:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Playa": 2,
+    "Lisa": 2,
+    "Cerro": 2,
+    "Boyeros": 2,
+    "Guanabacoa": 2,
+    "Cerro Se Encuentra El Circuito Disparado Y No Se Sostiene En Calzada Del Cerro Desde Cruz Del Padre Hasta San Carlos": 1,
+    "Guanabacoa Se Encuentra El Circuito Disparado En Chivás": 1,
+    "Arroyo Naranjo": 1,
+    "Guanabacoa Se Encuentra El Circuito Disparado En Mañana": 1,
+    "Guanabacoa Se Encuentra El Circuito Disparado En Debeche": 1
+  },
+  "averias_total": 15,
+  "source_msg_count": 99,
+  "by_type_counts": {
+    "otro": 22,
+    "averias": 16,
+    "empty": 5,
+    "disparo_circuito": 10,
+    "unidad_termoelectrica": 2,
+    "nota_diaria": 1,
+    "corto": 10,
+    "restablecimiento": 9,
+    "mantenimiento": 5,
+    "actualizacion_bloques": 17,
+    "sen_update": 1,
+    "via_libre": 1
+  }
+}

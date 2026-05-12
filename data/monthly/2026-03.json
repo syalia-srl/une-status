@@ -1,0 +1,40 @@
+{
+  "month": "2026-03",
+  "finalized": true,
+  "dailies_count": 31,
+  "avg_peak_mw": 329.4,
+  "max_peak_mw": 433,
+  "total_interruption_minutes": 18700,
+  "total_block_outage_minutes": {
+    "1": 16700,
+    "2": 17323,
+    "3": 15783,
+    "4": 14546,
+    "5": 15119,
+    "6": 14289
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 15,
+    "San Miguel Del Padrón": 14,
+    "Playa": 13,
+    "Cotorro": 11,
+    "Lisa": 11,
+    "Plaza": 10,
+    "Marianao": 10,
+    "Cerro": 9,
+    "Guanabacoa": 7,
+    "Centro Habana": 7,
+    "Arroyo Naranjo": 6,
+    "Habana Del Este": 5,
+    "Regla": 4,
+    "Habana Vieja": 2,
+    "Plaza De La Revolución": 1,
+    "Playa Reparada La Avería": 1,
+    "San Miguel Del Padrón Reparada La Avería": 1,
+    "Lisa Queda Reparada La Avería": 1,
+    "Boyeros Quedan Afectados": 1
+  },
+  "averias_total": 129,
+  "daf_total": 421
+}

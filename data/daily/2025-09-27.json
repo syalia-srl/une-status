@@ -1,0 +1,41 @@
+{
+  "date": "2025-09-27",
+  "finalized": true,
+  "peak_mw_affected": 237,
+  "peak_time": "22:20",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 221,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 221,
+  "daf_count": 11,
+  "averias_count_by_municipio": {
+    "Guanabacoa": 1,
+    "Playa": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 64,
+  "by_type_counts": {
+    "restablecimiento": 24,
+    "servicio_cliente": 4,
+    "otro": 5,
+    "daf": 11,
+    "averias": 7,
+    "disparo_circuito": 1,
+    "sen_update": 1,
+    "nota_diaria": 1,
+    "empty": 3,
+    "inicio_afectacion": 1,
+    "via_libre": 2,
+    "mantenimiento": 2,
+    "unidad_termoelectrica": 1,
+    "corto": 1
+  }
+}

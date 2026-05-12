@@ -1,0 +1,35 @@
+{
+  "date": "2024-09-26",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 1,
+    "Cerro": 1,
+    "Playa": 1,
+    "De Habana Del Este": 1,
+    "De Boyeros": 1,
+    "De Arroyo Naranjo": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 29,
+  "by_type_counts": {
+    "averias": 5,
+    "restablecimiento": 2,
+    "otro": 11,
+    "disparo_circuito": 4,
+    "empty": 7
+  }
+}

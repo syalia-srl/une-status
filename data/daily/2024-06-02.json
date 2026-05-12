@@ -1,0 +1,36 @@
+{
+  "date": "2024-06-02",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Cerro": 1,
+    "De Boyeros": 1,
+    "De Arroyo Naranjo": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 33,
+  "by_type_counts": {
+    "averias": 7,
+    "via_libre": 3,
+    "otro": 8,
+    "empty": 7,
+    "nota_diaria": 1,
+    "corto": 3,
+    "disparo_circuito": 1,
+    "restablecimiento": 3
+  }
+}

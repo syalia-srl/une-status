@@ -1,0 +1,39 @@
+{
+  "date": "2025-07-29",
+  "finalized": true,
+  "peak_mw_affected": 126,
+  "peak_time": "23:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "Plaza": 3,
+    "San Miguel Del Padrón": 2,
+    "Marianao": 2,
+    "Arroyo Naranjo": 1,
+    "De Playa": 1,
+    "De Guanabacoa": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 74,
+  "by_type_counts": {
+    "averias": 10,
+    "disparo_circuito": 5,
+    "otro": 16,
+    "via_libre": 3,
+    "restablecimiento": 25,
+    "empty": 1,
+    "corto": 4,
+    "nota_diaria": 4,
+    "daf": 6
+  }
+}

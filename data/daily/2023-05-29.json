@@ -1,0 +1,35 @@
+{
+  "date": "2023-05-29",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Cerro Está Presentado Disparo Del Circuito": 1,
+    "Playa Está Presentado Disparo Del Circuito Afectando La Zona De Querejetas Y Áreas Aledañas": 1,
+    "Boyeros Está Presentado Disparo Del Circuito Afectando Las Zonas De Trigal": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 34,
+  "by_type_counts": {
+    "otro": 10,
+    "disparo_circuito": 3,
+    "corto": 7,
+    "restablecimiento": 5,
+    "empty": 6,
+    "nota_diaria": 1,
+    "via_libre": 1,
+    "mantenimiento": 1
+  }
+}

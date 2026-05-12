@@ -1,0 +1,33 @@
+{
+  "date": "2025-09-10",
+  "finalized": true,
+  "peak_mw_affected": 135,
+  "peak_time": "20:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 2,
+    "Playa": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 33,
+  "by_type_counts": {
+    "averias": 6,
+    "restablecimiento": 11,
+    "empty": 7,
+    "otro": 5,
+    "nota_diaria": 2,
+    "disparo_circuito": 2
+  }
+}

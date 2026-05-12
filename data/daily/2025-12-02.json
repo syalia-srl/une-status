@@ -1,0 +1,37 @@
+{
+  "date": "2025-12-02",
+  "finalized": true,
+  "peak_mw_affected": 499,
+  "peak_time": "18:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 526,
+    "2": 498,
+    "3": 520,
+    "4": 542,
+    "5": 423,
+    "6": 806
+  },
+  "total_block_outage_minutes": 3315,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Lisa": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 66,
+  "by_type_counts": {
+    "actualizacion_bloques": 32,
+    "restablecimiento": 4,
+    "inicio_afectacion": 11,
+    "corto": 7,
+    "nota_diaria": 1,
+    "empty": 3,
+    "sen_update": 1,
+    "averias": 1,
+    "unidad_termoelectrica": 3,
+    "daf": 1,
+    "disparo_circuito": 1,
+    "otro": 1
+  }
+}

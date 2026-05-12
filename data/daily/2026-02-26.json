@@ -1,0 +1,38 @@
+{
+  "date": "2026-02-26",
+  "finalized": true,
+  "peak_mw_affected": 345,
+  "peak_time": "18:54",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 651,
+    "2": 639,
+    "3": 635,
+    "4": 536,
+    "5": 369,
+    "6": 366
+  },
+  "total_block_outage_minutes": 3196,
+  "daf_count": 37,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo": 1,
+    "Marianao": 1,
+    "Playa": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 109,
+  "by_type_counts": {
+    "averias": 2,
+    "daf": 37,
+    "mantenimiento": 2,
+    "empty": 2,
+    "otro": 3,
+    "disparo_circuito": 1,
+    "inicio_afectacion": 17,
+    "actualizacion_bloques": 15,
+    "restablecimiento": 27,
+    "sen_update": 1,
+    "corto": 2
+  }
+}

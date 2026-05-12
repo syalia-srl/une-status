@@ -1,0 +1,43 @@
+{
+  "date": "2025-09-03",
+  "finalized": true,
+  "peak_mw_affected": 117,
+  "peak_time": "20:50",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 239,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 239,
+  "daf_count": 3,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 2,
+    "Playa Queda Con": 2,
+    "Boyeros": 1,
+    "Playa": 1,
+    "Cerro": 1,
+    "Habana Del Este": 1,
+    "De Arroyo Naranjo Con": 1,
+    "De Playa Con": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 78,
+  "by_type_counts": {
+    "otro": 19,
+    "via_libre": 4,
+    "restablecimiento": 28,
+    "disparo_circuito": 6,
+    "averias": 9,
+    "mantenimiento": 2,
+    "empty": 3,
+    "nota_diaria": 2,
+    "corto": 1,
+    "inicio_afectacion": 1,
+    "daf": 3
+  }
+}

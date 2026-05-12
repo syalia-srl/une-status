@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-03",
+  "finalized": true,
+  "peak_mw_affected": 111,
+  "peak_time": "22:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 264,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 264,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 3,
+    "Arroyo Naranjo": 3,
+    "Lisa": 2,
+    "Cerro": 2,
+    "De Guanabacoa": 1,
+    "De Habana Del Este": 1,
+    "De Arroyo Naranjo": 1,
+    "Guanabacoa": 1,
+    "Regla": 1,
+    "Playa": 1,
+    "Plaza": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 18,
+  "source_msg_count": 67,
+  "by_type_counts": {
+    "nota_diaria": 3,
+    "averias": 18,
+    "restablecimiento": 10,
+    "otro": 20,
+    "empty": 3,
+    "corto": 5,
+    "inicio_afectacion": 1,
+    "disparo_circuito": 6,
+    "via_libre": 1
+  }
+}

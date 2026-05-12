@@ -1,0 +1,45 @@
+{
+  "date": "2026-02-01",
+  "finalized": true,
+  "peak_mw_affected": 391,
+  "peak_time": "19:07",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 819,
+    "2": 821,
+    "3": 866,
+    "4": 99,
+    "5": 116,
+    "6": 923
+  },
+  "total_block_outage_minutes": 3644,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Boyeros": 3,
+    "Cerro": 2,
+    "Lisa": 1,
+    "Habana Del Este": 1,
+    "Arroyo Naranjo": 1,
+    "San Miguel Del Padrón": 1,
+    "Playa": 1,
+    "Centro Habana": 1,
+    "Playa Que": 1
+  },
+  "averias_total": 12,
+  "source_msg_count": 119,
+  "by_type_counts": {
+    "empty": 10,
+    "restablecimiento": 20,
+    "otro": 20,
+    "via_libre": 4,
+    "averias": 16,
+    "inicio_afectacion": 11,
+    "actualizacion_bloques": 25,
+    "disparo_circuito": 3,
+    "sen_update": 1,
+    "daf": 4,
+    "mantenimiento": 1,
+    "unidad_termoelectrica": 4
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2024-11-20",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 36,
+  "by_type_counts": {
+    "restablecimiento": 3,
+    "otro": 12,
+    "empty": 3,
+    "restablecimiento_daf": 6,
+    "corto": 3,
+    "nota_diaria": 2,
+    "via_libre": 2,
+    "averias": 2,
+    "daf": 1,
+    "mantenimiento": 2
+  }
+}

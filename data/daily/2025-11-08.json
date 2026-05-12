@@ -1,0 +1,43 @@
+{
+  "date": "2025-11-08",
+  "finalized": true,
+  "peak_mw_affected": 155,
+  "peak_time": "19:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 77,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 77,
+  "daf_count": 12,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 1,
+    "Guanabacoa": 1,
+    "Habana Del Este": 1,
+    "Boyeros": 1,
+    "Cotorro Quedan Afectados": 1,
+    "Arroyo Naranjo Quedan Afectados": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 79,
+  "by_type_counts": {
+    "restablecimiento": 18,
+    "otro": 12,
+    "daf": 12,
+    "disparo_circuito": 1,
+    "inicio_afectacion": 1,
+    "averias": 6,
+    "via_libre": 4,
+    "nota_diaria": 5,
+    "sen_update": 2,
+    "corto": 2,
+    "empty": 2,
+    "actualizacion_bloques": 13,
+    "mantenimiento": 1
+  }
+}

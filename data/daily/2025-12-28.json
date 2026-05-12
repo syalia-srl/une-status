@@ -1,0 +1,39 @@
+{
+  "date": "2025-12-28",
+  "finalized": true,
+  "peak_mw_affected": 274,
+  "peak_time": "18:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 357,
+    "2": 39,
+    "3": 0,
+    "4": 0,
+    "5": 251,
+    "6": 250
+  },
+  "total_block_outage_minutes": 897,
+  "daf_count": 13,
+  "averias_count_by_municipio": {
+    "Lisa": 2,
+    "Boyeros": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 71,
+  "by_type_counts": {
+    "empty": 7,
+    "otro": 9,
+    "nota_diaria": 1,
+    "disparo_circuito": 1,
+    "sen_update": 1,
+    "daf": 13,
+    "restablecimiento": 6,
+    "averias": 2,
+    "actualizacion_bloques": 15,
+    "corto": 7,
+    "inicio_afectacion": 5,
+    "unidad_termoelectrica": 3,
+    "mantenimiento": 1
+  }
+}

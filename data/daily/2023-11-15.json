@@ -1,0 +1,32 @@
+{
+  "date": "2023-11-15",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Plaza La Zona Del Vedado Se Encuentra Con El Circuito Disparado": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 25,
+  "by_type_counts": {
+    "otro": 7,
+    "servicio_cliente": 1,
+    "empty": 3,
+    "restablecimiento": 7,
+    "corto": 4,
+    "via_libre": 1,
+    "disparo_circuito": 2
+  }
+}

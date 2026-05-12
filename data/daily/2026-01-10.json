@@ -1,0 +1,41 @@
+{
+  "date": "2026-01-10",
+  "finalized": true,
+  "peak_mw_affected": 242,
+  "peak_time": "18:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 158,
+    "2": 167,
+    "3": 206,
+    "4": 197,
+    "5": 0,
+    "6": 141
+  },
+  "total_block_outage_minutes": 869,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo": 2,
+    "Habana Del Este": 1,
+    "Lisa": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 57,
+  "by_type_counts": {
+    "empty": 8,
+    "disparo_circuito": 3,
+    "restablecimiento": 8,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "via_libre": 2,
+    "corto": 6,
+    "daf": 4,
+    "mantenimiento": 3,
+    "averias": 4,
+    "inicio_afectacion": 5,
+    "actualizacion_bloques": 8,
+    "unidad_termoelectrica": 4
+  }
+}

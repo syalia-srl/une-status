@@ -1,0 +1,33 @@
+{
+  "date": "2025-03-17",
+  "finalized": true,
+  "peak_mw_affected": 1601,
+  "peak_time": "19:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "De Guanabacoa": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 25,
+  "by_type_counts": {
+    "otro": 6,
+    "restablecimiento": 3,
+    "corto": 3,
+    "servicio_cliente": 1,
+    "empty": 9,
+    "nota_diaria": 1,
+    "disparo_circuito": 1,
+    "daf": 1
+  }
+}

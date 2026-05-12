@@ -1,0 +1,38 @@
+{
+  "date": "2025-06-02",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Habana Del Este": 2,
+    "Guanabacoa": 1,
+    "Lisa": 1,
+    "Plaza": 1,
+    "Marianao": 1,
+    "Cotorro": 1,
+    "San Miguel Del Padrón": 1
+  },
+  "averias_total": 8,
+  "source_msg_count": 46,
+  "by_type_counts": {
+    "otro": 16,
+    "averias": 8,
+    "restablecimiento": 11,
+    "empty": 3,
+    "nota_diaria": 1,
+    "restablecimiento_daf": 1,
+    "disparo_circuito": 6
+  }
+}

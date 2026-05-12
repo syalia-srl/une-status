@@ -1,0 +1,31 @@
+{
+  "date": "2023-04-04",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Plaza": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 30,
+  "by_type_counts": {
+    "otro": 5,
+    "empty": 13,
+    "averias": 1,
+    "nota_diaria": 1,
+    "corto": 6,
+    "restablecimiento": 4
+  }
+}

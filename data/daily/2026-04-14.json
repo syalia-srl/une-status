@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-14",
+  "finalized": true,
+  "peak_mw_affected": 319,
+  "peak_time": "19:40",
+  "interruption_minutes": 1021,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 540,
+    "2": 395,
+    "3": 375,
+    "4": 360,
+    "5": 0,
+    "6": 345
+  },
+  "total_block_outage_minutes": 2015,
+  "daf_count": 4,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 66,
+  "by_type_counts": {
+    "otro": 1,
+    "daf": 4,
+    "inicio_afectacion": 11,
+    "actualizacion_bloques": 30,
+    "restablecimiento": 12,
+    "transferencia_bloque": 2,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "via_libre": 2,
+    "corto": 2
+  }
+}

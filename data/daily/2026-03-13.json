@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-13",
+  "finalized": true,
+  "peak_mw_affected": 406,
+  "peak_time": "20:00",
+  "interruption_minutes": 1343,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 540,
+    "2": 574,
+    "3": 465,
+    "4": 527,
+    "5": 477,
+    "6": 483
+  },
+  "total_block_outage_minutes": 3066,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "Regla": 2,
+    "Lisa": 1,
+    "Cerro": 1,
+    "Cotorro": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 74,
+  "by_type_counts": {
+    "actualizacion_bloques": 25,
+    "averias": 6,
+    "via_libre": 2,
+    "inicio_afectacion": 11,
+    "sen_update": 1,
+    "restablecimiento": 10,
+    "daf": 6,
+    "nota_diaria": 1,
+    "corto": 2,
+    "otro": 6,
+    "disparo_circuito": 1,
+    "mantenimiento": 1,
+    "empty": 1,
+    "unidad_termoelectrica": 1
+  }
+}

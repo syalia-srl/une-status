@@ -1,0 +1,40 @@
+{
+  "date": "2025-09-25",
+  "finalized": true,
+  "peak_mw_affected": 119,
+  "peak_time": "20:50",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Cerro": 2,
+    "Boyeros": 2,
+    "Marianao": 1,
+    "Playa": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 7,
+  "source_msg_count": 55,
+  "by_type_counts": {
+    "restablecimiento": 4,
+    "otro": 16,
+    "averias": 9,
+    "disparo_circuito": 1,
+    "nota_diaria": 3,
+    "corto": 8,
+    "sen_update": 2,
+    "via_libre": 4,
+    "empty": 3,
+    "servicio_cliente": 4,
+    "daf": 1
+  }
+}

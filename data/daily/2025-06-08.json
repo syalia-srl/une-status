@@ -1,0 +1,35 @@
+{
+  "date": "2025-06-08",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Playa": 2,
+    "Lisa": 1,
+    "Plaza": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 27,
+  "by_type_counts": {
+    "otro": 12,
+    "averias": 2,
+    "nota_diaria": 1,
+    "empty": 2,
+    "via_libre": 2,
+    "corto": 2,
+    "disparo_circuito": 4,
+    "restablecimiento": 2
+  }
+}

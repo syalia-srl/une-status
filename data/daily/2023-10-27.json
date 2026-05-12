@@ -1,0 +1,32 @@
+{
+  "date": "2023-10-27",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Playa La Zona De Jaimanita Está Presentado Disparo Del Circuito": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 35,
+  "by_type_counts": {
+    "empty": 5,
+    "otro": 14,
+    "corto": 6,
+    "nota_diaria": 1,
+    "via_libre": 5,
+    "mantenimiento": 3,
+    "disparo_circuito": 1
+  }
+}

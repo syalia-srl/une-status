@@ -1,0 +1,38 @@
+{
+  "date": "2026-03-25",
+  "finalized": true,
+  "peak_mw_affected": 330,
+  "peak_time": "20:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 564,
+    "2": 559,
+    "3": 542,
+    "4": 454,
+    "5": 474,
+    "6": 401
+  },
+  "total_block_outage_minutes": 2994,
+  "daf_count": 8,
+  "averias_count_by_municipio": {
+    "Plaza": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 76,
+  "by_type_counts": {
+    "actualizacion_bloques": 26,
+    "restablecimiento": 13,
+    "otro": 3,
+    "averias": 1,
+    "inicio_afectacion": 13,
+    "daf": 8,
+    "restablecimiento_daf": 1,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "mantenimiento": 3,
+    "empty": 2,
+    "via_libre": 3,
+    "corto": 1
+  }
+}

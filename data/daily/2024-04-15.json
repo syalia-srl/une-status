@@ -1,0 +1,35 @@
+{
+  "date": "2024-04-15",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Lisa El Reparto La Coronela": 2,
+    "Centro Habana": 2,
+    "La Lisa": 1,
+    "Cerro": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 40,
+  "by_type_counts": {
+    "corto": 2,
+    "otro": 10,
+    "averias": 2,
+    "empty": 7,
+    "restablecimiento": 9,
+    "via_libre": 4,
+    "disparo_circuito": 6
+  }
+}

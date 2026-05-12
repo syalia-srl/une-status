@@ -1,0 +1,31 @@
+{
+  "date": "2025-04-13",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Lisa": 2
+  },
+  "averias_total": 2,
+  "source_msg_count": 29,
+  "by_type_counts": {
+    "otro": 15,
+    "restablecimiento": 1,
+    "empty": 7,
+    "corto": 2,
+    "mantenimiento": 1,
+    "averias": 3
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-03-04",
+  "finalized": true,
+  "peak_mw_affected": 325,
+  "peak_time": "19:10",
+  "interruption_minutes": 1160,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 1071,
+    "2": 826,
+    "3": 773,
+    "4": 1101,
+    "5": 1109,
+    "6": 235
+  },
+  "total_block_outage_minutes": 5115,
+  "daf_count": 8,
+  "averias_count_by_municipio": {
+    "Habana Vieja": 1,
+    "Marianao": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 70,
+  "by_type_counts": {
+    "daf": 8,
+    "restablecimiento": 16,
+    "restablecimiento_daf": 5,
+    "actualizacion_bloques": 13,
+    "inicio_afectacion": 7,
+    "nota_diaria": 1,
+    "corto": 1,
+    "empty": 11,
+    "otro": 5,
+    "sen_update": 1,
+    "averias": 2
+  }
+}

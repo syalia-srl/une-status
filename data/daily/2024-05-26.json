@@ -1,0 +1,33 @@
+{
+  "date": "2024-05-26",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "De Centro Habana": 1,
+    "De Cerro": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 29,
+  "by_type_counts": {
+    "empty": 6,
+    "otro": 14,
+    "restablecimiento": 3,
+    "disparo_circuito": 2,
+    "daf": 2,
+    "corto": 1,
+    "via_libre": 1
+  }
+}

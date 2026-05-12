@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-11",
+  "finalized": true,
+  "peak_mw_affected": 407,
+  "peak_time": "22:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": 110,
+  "block_outage_minutes": {
+    "1": 450,
+    "2": 423,
+    "3": 683,
+    "4": 616,
+    "5": 369,
+    "6": 471
+  },
+  "total_block_outage_minutes": 3012,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo": 1,
+    "San Miguel Del Padrón": 1,
+    "Cerro": 1,
+    "Marianao": 1,
+    "Plaza": 1,
+    "Lisa": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 95,
+  "by_type_counts": {
+    "actualizacion_bloques": 16,
+    "restablecimiento": 16,
+    "averias": 10,
+    "disparo_circuito": 6,
+    "otro": 15,
+    "daf": 6,
+    "restablecimiento_daf": 4,
+    "inicio_afectacion": 10,
+    "corto": 3,
+    "nota_diaria": 1,
+    "mantenimiento": 1,
+    "sen_update": 1,
+    "via_libre": 2,
+    "transferencia_bloque": 2,
+    "unidad_termoelectrica": 2
+  }
+}

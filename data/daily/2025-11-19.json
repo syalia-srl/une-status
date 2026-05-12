@@ -1,0 +1,42 @@
+{
+  "date": "2025-11-19",
+  "finalized": true,
+  "peak_mw_affected": 337,
+  "peak_time": "17:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 1009,
+    "2": 441,
+    "3": 0,
+    "4": 456,
+    "5": 448,
+    "6": 452
+  },
+  "total_block_outage_minutes": 2806,
+  "daf_count": 3,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Cerro": 1,
+    "San Miguel Del Padrón": 1,
+    "Cotorro": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 67,
+  "by_type_counts": {
+    "restablecimiento": 15,
+    "empty": 2,
+    "inicio_afectacion": 10,
+    "actualizacion_bloques": 8,
+    "averias": 6,
+    "daf": 3,
+    "corto": 3,
+    "nota_diaria": 2,
+    "mantenimiento": 6,
+    "otro": 6,
+    "disparo_circuito": 4,
+    "via_libre": 1,
+    "sen_update": 1
+  }
+}

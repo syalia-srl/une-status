@@ -1,0 +1,44 @@
+{
+  "date": "2025-10-26",
+  "finalized": true,
+  "peak_mw_affected": 243,
+  "peak_time": "21:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 829,
+    "3": 0,
+    "4": 116,
+    "5": 775,
+    "6": 81
+  },
+  "total_block_outage_minutes": 1801,
+  "daf_count": 5,
+  "averias_count_by_municipio": {
+    "Regla": 2,
+    "Arroyo Naranjo": 1,
+    "Cerro": 1,
+    "Lisa": 1,
+    "Guanabacoa": 1,
+    "Playa": 1
+  },
+  "averias_total": 7,
+  "source_msg_count": 74,
+  "by_type_counts": {
+    "restablecimiento": 25,
+    "otro": 8,
+    "averias": 6,
+    "servicio_cliente": 3,
+    "inicio_afectacion": 5,
+    "corto": 4,
+    "empty": 2,
+    "unidad_termoelectrica": 2,
+    "nota_diaria": 1,
+    "sen_update": 1,
+    "mantenimiento": 6,
+    "disparo_circuito": 5,
+    "daf": 5,
+    "via_libre": 1
+  }
+}

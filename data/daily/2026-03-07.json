@@ -1,0 +1,43 @@
+{
+  "date": "2026-03-07",
+  "finalized": true,
+  "peak_mw_affected": 309,
+  "peak_time": "16:59",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 761,
+    "2": 569,
+    "3": 697,
+    "4": 658,
+    "5": 0,
+    "6": 928
+  },
+  "total_block_outage_minutes": 3613,
+  "daf_count": 43,
+  "averias_count_by_municipio": {
+    "Boyeros": 2,
+    "Habana Del Este": 2,
+    "Habana Vieja": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 126,
+  "by_type_counts": {
+    "daf": 43,
+    "restablecimiento": 18,
+    "actualizacion_bloques": 25,
+    "inicio_afectacion": 7,
+    "sen_update": 2,
+    "corto": 2,
+    "nota_diaria": 1,
+    "mantenimiento": 3,
+    "restablecimiento_daf": 7,
+    "averias": 2,
+    "disparo_circuito": 5,
+    "otro": 5,
+    "pinned": 3,
+    "via_libre": 1,
+    "unidad_termoelectrica": 2
+  }
+}

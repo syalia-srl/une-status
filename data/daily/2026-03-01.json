@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-01",
+  "finalized": true,
+  "peak_mw_affected": 181,
+  "peak_time": "18:30",
+  "interruption_minutes": 572,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 476,
+    "2": 495,
+    "3": 561,
+    "4": 138,
+    "5": 185,
+    "6": 240
+  },
+  "total_block_outage_minutes": 2095,
+  "daf_count": 4,
+  "averias_count_by_municipio": {
+    "Cotorro": 2,
+    "Playa": 2,
+    "San Miguel Del Padrón": 1,
+    "Guanabacoa": 1,
+    "Lisa": 1,
+    "Plaza": 1
+  },
+  "averias_total": 8,
+  "source_msg_count": 72,
+  "by_type_counts": {
+    "empty": 8,
+    "averias": 5,
+    "inicio_afectacion": 9,
+    "daf": 4,
+    "actualizacion_bloques": 21,
+    "restablecimiento": 10,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "mantenimiento": 4,
+    "otro": 2,
+    "disparo_circuito": 5,
+    "corto": 1
+  }
+}

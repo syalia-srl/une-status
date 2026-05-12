@@ -1,0 +1,39 @@
+{
+  "date": "2026-03-18",
+  "finalized": true,
+  "peak_mw_affected": 407,
+  "peak_time": "18:30",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 608,
+    "2": 621,
+    "3": 631,
+    "4": 386,
+    "5": 762,
+    "6": 736
+  },
+  "total_block_outage_minutes": 3744,
+  "daf_count": 25,
+  "averias_count_by_municipio": {
+    "Playa": 2,
+    "San Miguel Del Padrón": 1,
+    "Centro Habana": 1,
+    "Plaza": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 85,
+  "by_type_counts": {
+    "otro": 3,
+    "actualizacion_bloques": 22,
+    "disparo_circuito": 2,
+    "averias": 4,
+    "daf": 25,
+    "inicio_afectacion": 9,
+    "unidad_termoelectrica": 1,
+    "restablecimiento": 15,
+    "nota_diaria": 1,
+    "corto": 2,
+    "sen_update": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2024-09-15",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Lisa": 1,
+    "De Guanabacoa": 1,
+    "De Boyeros": 1,
+    "Arroyo Naranjo": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 49,
+  "by_type_counts": {
+    "empty": 16,
+    "disparo_circuito": 1,
+    "otro": 9,
+    "restablecimiento": 10,
+    "averias": 9,
+    "via_libre": 2,
+    "nota_diaria": 1,
+    "corto": 1
+  }
+}

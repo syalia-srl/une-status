@@ -1,0 +1,39 @@
+{
+  "date": "2026-02-24",
+  "finalized": true,
+  "peak_mw_affected": 193,
+  "peak_time": "19:13",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 162,
+    "2": 130,
+    "3": 127,
+    "4": 142,
+    "5": 59,
+    "6": 257
+  },
+  "total_block_outage_minutes": 877,
+  "daf_count": 6,
+  "averias_count_by_municipio": {
+    "Boyeros": 2
+  },
+  "averias_total": 2,
+  "source_msg_count": 65,
+  "by_type_counts": {
+    "restablecimiento": 10,
+    "restablecimiento_daf": 4,
+    "daf": 6,
+    "disparo_circuito": 1,
+    "averias": 5,
+    "inicio_afectacion": 7,
+    "actualizacion_bloques": 8,
+    "empty": 15,
+    "sen_update": 1,
+    "nota_diaria": 1,
+    "via_libre": 1,
+    "otro": 3,
+    "corto": 2,
+    "unidad_termoelectrica": 1
+  }
+}

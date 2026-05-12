@@ -1,0 +1,37 @@
+{
+  "date": "2024-06-11",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "De Arroyo Naranjo La Zona De Guinera": 1,
+    "Marianao La Zona De Hospital Militar": 1,
+    "Cotorro Las Áreas De Alberro": 1,
+    "Guanabacoa Las Zonas De Chibas Y Áreas Cercanas Presentaron Disparo Del Circuito": 1,
+    "Cerro La Zona Del Casino Deportivo Y Áreas Cercanas Está Presentando Disparo Del Circuito": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 39,
+  "by_type_counts": {
+    "empty": 6,
+    "otro": 14,
+    "averias": 4,
+    "corto": 5,
+    "nota_diaria": 1,
+    "via_libre": 2,
+    "disparo_circuito": 6,
+    "restablecimiento": 1
+  }
+}

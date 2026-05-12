@@ -1,0 +1,38 @@
+{
+  "date": "2025-06-29",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "De Arroyo Naranjo": 2,
+    "Habana De Este": 1,
+    "De Marianao": 1,
+    "De La Lisa": 1,
+    "De Boyeros": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 52,
+  "by_type_counts": {
+    "otro": 16,
+    "restablecimiento": 14,
+    "disparo_circuito": 4,
+    "nota_diaria": 4,
+    "averias": 5,
+    "daf": 2,
+    "empty": 4,
+    "corto": 2,
+    "pinned": 1
+  }
+}

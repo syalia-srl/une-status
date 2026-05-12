@@ -1,0 +1,43 @@
+{
+  "date": "2025-07-31",
+  "finalized": true,
+  "peak_mw_affected": 102,
+  "peak_time": "21:40",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Lisa": 5,
+    "Guanabacoa": 3,
+    "Plaza": 2,
+    "Arroyo Naranjo": 2,
+    "Cotorro": 1,
+    "San Miguel": 1,
+    "Playa": 1,
+    "San Miguel Del Padrón": 1,
+    "Cerro": 1,
+    "Boyeros": 1,
+    "Marianao": 1
+  },
+  "averias_total": 19,
+  "source_msg_count": 66,
+  "by_type_counts": {
+    "disparo_circuito": 3,
+    "otro": 24,
+    "averias": 22,
+    "restablecimiento": 8,
+    "empty": 1,
+    "corto": 4,
+    "nota_diaria": 2,
+    "via_libre": 2
+  }
+}

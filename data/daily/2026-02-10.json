@@ -1,0 +1,37 @@
+{
+  "date": "2026-02-10",
+  "finalized": true,
+  "peak_mw_affected": 387,
+  "peak_time": "19:38",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 628,
+    "2": 604,
+    "3": 529,
+    "4": 564,
+    "5": 575,
+    "6": 615
+  },
+  "total_block_outage_minutes": 3515,
+  "daf_count": 16,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón De Los Repartos Barrio Obrero": 1,
+    "San Miguel Del Padrón": 1,
+    "Marianao": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 87,
+  "by_type_counts": {
+    "actualizacion_bloques": 13,
+    "empty": 3,
+    "inicio_afectacion": 14,
+    "averias": 3,
+    "otro": 5,
+    "restablecimiento": 27,
+    "corto": 3,
+    "sen_update": 1,
+    "daf": 16,
+    "unidad_termoelectrica": 2
+  }
+}

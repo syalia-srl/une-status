@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-15",
+  "finalized": true,
+  "peak_mw_affected": 343,
+  "peak_time": "19:10",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 760,
+    "2": 695,
+    "3": 576,
+    "4": 539,
+    "5": 828,
+    "6": 829
+  },
+  "total_block_outage_minutes": 4227,
+  "daf_count": 24,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 6,
+    "Marianao": 1,
+    "Boyeros": 1,
+    "Habana Del Este": 1,
+    "Playa": 1
+  },
+  "averias_total": 10,
+  "source_msg_count": 118,
+  "by_type_counts": {
+    "restablecimiento": 23,
+    "actualizacion_bloques": 20,
+    "daf": 24,
+    "inicio_afectacion": 14,
+    "otro": 5,
+    "restablecimiento_daf": 13,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "averias": 5,
+    "disparo_circuito": 6,
+    "corto": 2,
+    "mantenimiento": 2,
+    "via_libre": 1
+  }
+}

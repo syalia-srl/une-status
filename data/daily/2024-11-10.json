@@ -1,0 +1,32 @@
+{
+  "date": "2024-11-10",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Playa Se Encuentra Afectada La Zona De Kholy Por Un Disparo Del Circuito": 1,
+    "Playa Se Encuentra Afectada La Zona De Sierra Por Un Disparo Del Circuito": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 31,
+  "by_type_counts": {
+    "otro": 14,
+    "restablecimiento": 12,
+    "empty": 1,
+    "corto": 1,
+    "via_libre": 1,
+    "disparo_circuito": 2
+  }
+}

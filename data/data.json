@@ -1,0 +1,1557 @@
+{
+  "generated_at": "2026-05-12T13:24:32+00:00",
+  "source_channel": "EmpresaElectricaDeLaHabana",
+  "timezone": "America/Havana",
+  "current": {
+    "as_of": "2026-05-12T12:58:08+00:00",
+    "bloques": [
+      {
+        "id": 1,
+        "state": "apagado",
+        "since": "2026-05-11T19:49:08+00:00",
+        "emergency": true
+      },
+      {
+        "id": 2,
+        "state": "apagado",
+        "since": "2026-05-11T20:08:30+00:00",
+        "emergency": true
+      },
+      {
+        "id": 3,
+        "state": "apagado",
+        "since": "2026-05-12T09:09:28+00:00",
+        "emergency": true
+      },
+      {
+        "id": 4,
+        "state": "encendido",
+        "since": "2026-05-12T08:01:11+00:00"
+      },
+      {
+        "id": 5,
+        "state": "apagado",
+        "since": "2026-05-11T22:02:33+00:00",
+        "emergency": true
+      },
+      {
+        "id": 6,
+        "state": "apagado",
+        "since": "2026-05-11T19:22:41+00:00",
+        "emergency": true
+      }
+    ],
+    "current_mw_affected": 346,
+    "current_mw_affected_at": "2026-05-12T12:58:08+00:00",
+    "active_averias": {
+      "ts": "2026-05-12T12:45:33+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": "Pinar del Rio e/ Cervantes y San Juan",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "last_daf": {
+      "ts": "2026-05-12T07:31:41+00:00",
+      "type": "restablecimiento_daf"
+    },
+    "last_pronostico": null
+  },
+  "day": {
+    "date": "2026-05-12",
+    "finalized": false,
+    "peak_mw_affected": 468,
+    "peak_time": "23:00",
+    "interruption_minutes": 1440,
+    "emergency_mw": 122,
+    "block_outage_minutes": {
+      "1": 1020,
+      "2": 963,
+      "3": 180,
+      "4": 0,
+      "5": 840,
+      "6": 1020
+    },
+    "total_block_outage_minutes": 4023,
+    "daf_count": 2,
+    "averias_count_by_municipio": {
+      "Habana Del Este": 2,
+      "Guanabacoa": 1,
+      "San Miguel Del Padrón": 1,
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 5,
+    "source_msg_count": 28,
+    "by_type_counts": {
+      "otro": 2,
+      "actualizacion_bloques": 8,
+      "averias": 7,
+      "disparo_circuito": 1,
+      "restablecimiento": 4,
+      "daf": 2,
+      "restablecimiento_daf": 2,
+      "inicio_afectacion": 1,
+      "nota_diaria": 1
+    }
+  },
+  "yesterday": {
+    "date": "2026-05-11",
+    "finalized": true,
+    "peak_mw_affected": 407,
+    "peak_time": "22:00",
+    "interruption_minutes": 1440,
+    "emergency_mw": 110,
+    "block_outage_minutes": {
+      "1": 450,
+      "2": 423,
+      "3": 683,
+      "4": 616,
+      "5": 369,
+      "6": 471
+    },
+    "total_block_outage_minutes": 3012,
+    "daf_count": 6,
+    "averias_count_by_municipio": {
+      "Arroyo Naranjo": 1,
+      "San Miguel Del Padrón": 1,
+      "Cerro": 1,
+      "Marianao": 1,
+      "Plaza": 1,
+      "Lisa": 1
+    },
+    "averias_total": 6,
+    "source_msg_count": 95,
+    "by_type_counts": {
+      "actualizacion_bloques": 16,
+      "restablecimiento": 16,
+      "averias": 10,
+      "disparo_circuito": 6,
+      "otro": 15,
+      "daf": 6,
+      "restablecimiento_daf": 4,
+      "inicio_afectacion": 10,
+      "corto": 3,
+      "nota_diaria": 1,
+      "mantenimiento": 1,
+      "sen_update": 1,
+      "via_libre": 2,
+      "transferencia_bloque": 2,
+      "unidad_termoelectrica": 2
+    }
+  },
+  "week": {
+    "finalized": false,
+    "dailies_count": 7,
+    "avg_peak_mw": 411.1,
+    "max_peak_mw": 468,
+    "total_interruption_minutes": 8570,
+    "total_block_outage_minutes": {
+      "1": 3196,
+      "2": 3405,
+      "3": 2277,
+      "4": 1711,
+      "5": 2860,
+      "6": 3028
+    },
+    "total_emergency_mw_sum": 754,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 8,
+      "Habana Del Este": 7,
+      "Lisa": 6,
+      "San Miguel Del Padrón": 6,
+      "Arroyo Naranjo": 6,
+      "Cerro": 5,
+      "Playa": 3,
+      "Plaza": 3,
+      "Boyeros": 3,
+      "Marianao": 3,
+      "Cotorro": 2,
+      "Plaza De La Revolución": 2,
+      "Centro Habana": 1,
+      "Arroyo Naranjo Queda Reparada La Avería": 1,
+      "Habana Vieja": 1
+    },
+    "averias_total": 57,
+    "daf_total": 51,
+    "window": "7d"
+  },
+  "month": {
+    "month": "2026-05",
+    "finalized": false,
+    "dailies_count": 12,
+    "avg_peak_mw": 331.6,
+    "max_peak_mw": 468,
+    "total_interruption_minutes": 10490,
+    "total_block_outage_minutes": {
+      "1": 3772,
+      "2": 3850,
+      "3": 3322,
+      "4": 2421,
+      "5": 3085,
+      "6": 3758
+    },
+    "total_emergency_mw_sum": 939,
+    "averias_count_by_municipio": {
+      "Habana Del Este": 22,
+      "Lisa": 16,
+      "Arroyo Naranjo": 15,
+      "San Miguel Del Padrón": 14,
+      "Guanabacoa": 12,
+      "Plaza": 10,
+      "Cerro": 8,
+      "Playa": 8,
+      "Marianao": 6,
+      "Boyeros": 6,
+      "Cotorro": 5,
+      "Plaza De La Revolución": 4,
+      "Centro Habana": 2,
+      "Regla": 2,
+      "Mariano": 1,
+      "San Miguel Del Padron": 1,
+      "Arroyo Naranjo Queda Reparada La Avería": 1,
+      "Habana Vieja": 1
+    },
+    "averias_total": 134,
+    "daf_total": 84
+  },
+  "all_time": {
+    "months_count": 41,
+    "max_peak_mw": 1749,
+    "total_interruption_minutes": 52570,
+    "total_block_outage_minutes": {
+      "1": 58266,
+      "2": 61929,
+      "3": 49046,
+      "4": 54653,
+      "5": 53256,
+      "6": 54060
+    },
+    "averias_total": 2967,
+    "averias_top_municipios": {
+      "Boyeros": 310,
+      "Playa": 271,
+      "Arroyo Naranjo": 234,
+      "Lisa": 217,
+      "Habana Del Este": 204,
+      "Guanabacoa": 196,
+      "Cerro": 176,
+      "San Miguel Del Padrón": 172,
+      "Plaza": 171,
+      "Marianao": 135,
+      "Cotorro": 90,
+      "Centro Habana": 64,
+      "De Playa": 49,
+      "De Boyeros": 48,
+      "Regla": 36
+    },
+    "daf_total": 2159
+  },
+  "history": {
+    "daily_peak_mw_last_30d": [
+      {
+        "date": "2026-04-13",
+        "peak_mw": 245
+      },
+      {
+        "date": "2026-04-14",
+        "peak_mw": 319
+      },
+      {
+        "date": "2026-04-15",
+        "peak_mw": 374
+      },
+      {
+        "date": "2026-04-16",
+        "peak_mw": 270
+      },
+      {
+        "date": "2026-04-17",
+        "peak_mw": 406
+      },
+      {
+        "date": "2026-04-18",
+        "peak_mw": 299
+      },
+      {
+        "date": "2026-04-19",
+        "peak_mw": 30
+      },
+      {
+        "date": "2026-04-20",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-21",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-22",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-23",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-24",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-25",
+        "peak_mw": 77
+      },
+      {
+        "date": "2026-04-26",
+        "peak_mw": 79
+      },
+      {
+        "date": "2026-04-27",
+        "peak_mw": 64
+      },
+      {
+        "date": "2026-04-28",
+        "peak_mw": 171
+      },
+      {
+        "date": "2026-04-29",
+        "peak_mw": 167
+      },
+      {
+        "date": "2026-04-30",
+        "peak_mw": 96
+      },
+      {
+        "date": "2026-05-01",
+        "peak_mw": 384
+      },
+      {
+        "date": "2026-05-02",
+        "peak_mw": 186
+      },
+      {
+        "date": "2026-05-03",
+        "peak_mw": 325
+      },
+      {
+        "date": "2026-05-04",
+        "peak_mw": 101
+      },
+      {
+        "date": "2026-05-05",
+        "peak_mw": 105
+      },
+      {
+        "date": "2026-05-06",
+        "peak_mw": 294
+      },
+      {
+        "date": "2026-05-07",
+        "peak_mw": 403
+      },
+      {
+        "date": "2026-05-08",
+        "peak_mw": 434
+      },
+      {
+        "date": "2026-05-09",
+        "peak_mw": 442
+      },
+      {
+        "date": "2026-05-10",
+        "peak_mw": 430
+      },
+      {
+        "date": "2026-05-11",
+        "peak_mw": 407
+      },
+      {
+        "date": "2026-05-12",
+        "peak_mw": 468
+      }
+    ],
+    "daily_outage_minutes_last_30d": [
+      {
+        "date": "2026-04-13",
+        "minutes": 1403
+      },
+      {
+        "date": "2026-04-14",
+        "minutes": 2015
+      },
+      {
+        "date": "2026-04-15",
+        "minutes": 2502
+      },
+      {
+        "date": "2026-04-16",
+        "minutes": 3482
+      },
+      {
+        "date": "2026-04-17",
+        "minutes": 0
+      },
+      {
+        "date": "2026-04-18",
+        "minutes": 85
+      },
+      {
+        "date": "2026-04-19",
+        "minutes": 0
+      },
+      {
+        "date": "2026-04-20",
+        "minutes": 0
+      },
+      {
+        "date": "2026-04-21",
+        "minutes": 0
+      },
+      {
+        "date": "2026-04-22",
+        "minutes": 0
+      },
+      {
+        "date": "2026-04-23",
+        "minutes": 0
+      },
+      {
+        "date": "2026-04-24",
+        "minutes": 0
+      },
+      {
+        "date": "2026-04-25",
+        "minutes": 135
+      },
+      {
+        "date": "2026-04-26",
+        "minutes": 180
+      },
+      {
+        "date": "2026-04-27",
+        "minutes": 348
+      },
+      {
+        "date": "2026-04-28",
+        "minutes": 445
+      },
+      {
+        "date": "2026-04-29",
+        "minutes": 23
+      },
+      {
+        "date": "2026-04-30",
+        "minutes": 260
+      },
+      {
+        "date": "2026-05-01",
+        "minutes": 194
+      },
+      {
+        "date": "2026-05-02",
+        "minutes": 1545
+      },
+      {
+        "date": "2026-05-03",
+        "minutes": 0
+      },
+      {
+        "date": "2026-05-04",
+        "minutes": 434
+      },
+      {
+        "date": "2026-05-05",
+        "minutes": 1558
+      },
+      {
+        "date": "2026-05-06",
+        "minutes": 2670
+      },
+      {
+        "date": "2026-05-07",
+        "minutes": 2638
+      },
+      {
+        "date": "2026-05-08",
+        "minutes": 1800
+      },
+      {
+        "date": "2026-05-09",
+        "minutes": 704
+      },
+      {
+        "date": "2026-05-10",
+        "minutes": 1630
+      },
+      {
+        "date": "2026-05-11",
+        "minutes": 3012
+      },
+      {
+        "date": "2026-05-12",
+        "minutes": 4023
+      }
+    ],
+    "daily_peak_mw_last_180d": [
+      {
+        "date": "2025-11-14",
+        "peak_mw": 226
+      },
+      {
+        "date": "2025-11-15",
+        "peak_mw": 200
+      },
+      {
+        "date": "2025-11-16",
+        "peak_mw": 140
+      },
+      {
+        "date": "2025-11-17",
+        "peak_mw": 256
+      },
+      {
+        "date": "2025-11-18",
+        "peak_mw": 270
+      },
+      {
+        "date": "2025-11-19",
+        "peak_mw": 337
+      },
+      {
+        "date": "2025-11-20",
+        "peak_mw": 431
+      },
+      {
+        "date": "2025-11-21",
+        "peak_mw": 294
+      },
+      {
+        "date": "2025-11-22",
+        "peak_mw": 291
+      },
+      {
+        "date": "2025-11-23",
+        "peak_mw": 164
+      },
+      {
+        "date": "2025-11-24",
+        "peak_mw": 232
+      },
+      {
+        "date": "2025-11-25",
+        "peak_mw": 226
+      },
+      {
+        "date": "2025-11-26",
+        "peak_mw": 262
+      },
+      {
+        "date": "2025-11-27",
+        "peak_mw": 256
+      },
+      {
+        "date": "2025-11-28",
+        "peak_mw": 290
+      },
+      {
+        "date": "2025-11-29",
+        "peak_mw": 234
+      },
+      {
+        "date": "2025-11-30",
+        "peak_mw": 287
+      },
+      {
+        "date": "2025-12-01",
+        "peak_mw": 281
+      },
+      {
+        "date": "2025-12-02",
+        "peak_mw": 499
+      },
+      {
+        "date": "2025-12-03",
+        "peak_mw": 204
+      },
+      {
+        "date": "2025-12-04",
+        "peak_mw": 318
+      },
+      {
+        "date": "2025-12-05",
+        "peak_mw": 271
+      },
+      {
+        "date": "2025-12-06",
+        "peak_mw": 355
+      },
+      {
+        "date": "2025-12-07",
+        "peak_mw": 339
+      },
+      {
+        "date": "2025-12-08",
+        "peak_mw": 404
+      },
+      {
+        "date": "2025-12-09",
+        "peak_mw": 485
+      },
+      {
+        "date": "2025-12-10",
+        "peak_mw": 328
+      },
+      {
+        "date": "2025-12-11",
+        "peak_mw": 237
+      },
+      {
+        "date": "2025-12-12",
+        "peak_mw": 154
+      },
+      {
+        "date": "2025-12-13",
+        "peak_mw": 243
+      },
+      {
+        "date": "2025-12-14",
+        "peak_mw": 210
+      },
+      {
+        "date": "2025-12-15",
+        "peak_mw": 217
+      },
+      {
+        "date": "2025-12-16",
+        "peak_mw": 386
+      },
+      {
+        "date": "2025-12-17",
+        "peak_mw": 408
+      },
+      {
+        "date": "2025-12-18",
+        "peak_mw": 282
+      },
+      {
+        "date": "2025-12-19",
+        "peak_mw": 334
+      },
+      {
+        "date": "2025-12-20",
+        "peak_mw": 321
+      },
+      {
+        "date": "2025-12-21",
+        "peak_mw": 273
+      },
+      {
+        "date": "2025-12-22",
+        "peak_mw": 206
+      },
+      {
+        "date": "2025-12-23",
+        "peak_mw": 249
+      },
+      {
+        "date": "2025-12-24",
+        "peak_mw": 435
+      },
+      {
+        "date": "2025-12-25",
+        "peak_mw": 218
+      },
+      {
+        "date": "2025-12-26",
+        "peak_mw": 419
+      },
+      {
+        "date": "2025-12-27",
+        "peak_mw": 154
+      },
+      {
+        "date": "2025-12-28",
+        "peak_mw": 274
+      },
+      {
+        "date": "2025-12-29",
+        "peak_mw": 397
+      },
+      {
+        "date": "2025-12-30",
+        "peak_mw": 317
+      },
+      {
+        "date": "2025-12-31",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-01-01",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-01-02",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-01-03",
+        "peak_mw": 223
+      },
+      {
+        "date": "2026-01-04",
+        "peak_mw": 238
+      },
+      {
+        "date": "2026-01-05",
+        "peak_mw": 189
+      },
+      {
+        "date": "2026-01-06",
+        "peak_mw": 222
+      },
+      {
+        "date": "2026-01-07",
+        "peak_mw": 196
+      },
+      {
+        "date": "2026-01-08",
+        "peak_mw": 196
+      },
+      {
+        "date": "2026-01-09",
+        "peak_mw": 243
+      },
+      {
+        "date": "2026-01-10",
+        "peak_mw": 242
+      },
+      {
+        "date": "2026-01-11",
+        "peak_mw": 215
+      },
+      {
+        "date": "2026-01-12",
+        "peak_mw": 225
+      },
+      {
+        "date": "2026-01-13",
+        "peak_mw": 268
+      },
+      {
+        "date": "2026-01-14",
+        "peak_mw": 303
+      },
+      {
+        "date": "2026-01-15",
+        "peak_mw": 277
+      },
+      {
+        "date": "2026-01-16",
+        "peak_mw": 353
+      },
+      {
+        "date": "2026-01-17",
+        "peak_mw": 388
+      },
+      {
+        "date": "2026-01-18",
+        "peak_mw": 412
+      },
+      {
+        "date": "2026-01-19",
+        "peak_mw": 359
+      },
+      {
+        "date": "2026-01-20",
+        "peak_mw": 363
+      },
+      {
+        "date": "2026-01-21",
+        "peak_mw": 334
+      },
+      {
+        "date": "2026-01-22",
+        "peak_mw": 346
+      },
+      {
+        "date": "2026-01-23",
+        "peak_mw": 388
+      },
+      {
+        "date": "2026-01-24",
+        "peak_mw": 303
+      },
+      {
+        "date": "2026-01-25",
+        "peak_mw": 448
+      },
+      {
+        "date": "2026-01-26",
+        "peak_mw": 383
+      },
+      {
+        "date": "2026-01-27",
+        "peak_mw": 353
+      },
+      {
+        "date": "2026-01-28",
+        "peak_mw": 297
+      },
+      {
+        "date": "2026-01-29",
+        "peak_mw": 387
+      },
+      {
+        "date": "2026-01-30",
+        "peak_mw": 380
+      },
+      {
+        "date": "2026-01-31",
+        "peak_mw": 354
+      },
+      {
+        "date": "2026-02-01",
+        "peak_mw": 391
+      },
+      {
+        "date": "2026-02-02",
+        "peak_mw": 376
+      },
+      {
+        "date": "2026-02-03",
+        "peak_mw": 393
+      },
+      {
+        "date": "2026-02-04",
+        "peak_mw": 386
+      },
+      {
+        "date": "2026-02-05",
+        "peak_mw": 387
+      },
+      {
+        "date": "2026-02-06",
+        "peak_mw": 147
+      },
+      {
+        "date": "2026-02-07",
+        "peak_mw": 91
+      },
+      {
+        "date": "2026-02-08",
+        "peak_mw": 269
+      },
+      {
+        "date": "2026-02-09",
+        "peak_mw": 382
+      },
+      {
+        "date": "2026-02-10",
+        "peak_mw": 387
+      },
+      {
+        "date": "2026-02-11",
+        "peak_mw": 364
+      },
+      {
+        "date": "2026-02-12",
+        "peak_mw": 256
+      },
+      {
+        "date": "2026-02-13",
+        "peak_mw": 279
+      },
+      {
+        "date": "2026-02-14",
+        "peak_mw": 286
+      },
+      {
+        "date": "2026-02-15",
+        "peak_mw": 218
+      },
+      {
+        "date": "2026-02-16",
+        "peak_mw": 305
+      },
+      {
+        "date": "2026-02-17",
+        "peak_mw": 352
+      },
+      {
+        "date": "2026-02-18",
+        "peak_mw": 332
+      },
+      {
+        "date": "2026-02-19",
+        "peak_mw": 350
+      },
+      {
+        "date": "2026-02-20",
+        "peak_mw": 261
+      },
+      {
+        "date": "2026-02-21",
+        "peak_mw": 146
+      },
+      {
+        "date": "2026-02-22",
+        "peak_mw": 210
+      },
+      {
+        "date": "2026-02-23",
+        "peak_mw": 273
+      },
+      {
+        "date": "2026-02-24",
+        "peak_mw": 193
+      },
+      {
+        "date": "2026-02-25",
+        "peak_mw": 359
+      },
+      {
+        "date": "2026-02-26",
+        "peak_mw": 345
+      },
+      {
+        "date": "2026-02-27",
+        "peak_mw": 345
+      },
+      {
+        "date": "2026-02-28",
+        "peak_mw": 234
+      },
+      {
+        "date": "2026-03-01",
+        "peak_mw": 181
+      },
+      {
+        "date": "2026-03-02",
+        "peak_mw": 191
+      },
+      {
+        "date": "2026-03-03",
+        "peak_mw": 360
+      },
+      {
+        "date": "2026-03-04",
+        "peak_mw": 325
+      },
+      {
+        "date": "2026-03-05",
+        "peak_mw": 433
+      },
+      {
+        "date": "2026-03-06",
+        "peak_mw": 433
+      },
+      {
+        "date": "2026-03-07",
+        "peak_mw": 309
+      },
+      {
+        "date": "2026-03-08",
+        "peak_mw": 226
+      },
+      {
+        "date": "2026-03-09",
+        "peak_mw": 357
+      },
+      {
+        "date": "2026-03-10",
+        "peak_mw": 359
+      },
+      {
+        "date": "2026-03-11",
+        "peak_mw": 333
+      },
+      {
+        "date": "2026-03-12",
+        "peak_mw": 333
+      },
+      {
+        "date": "2026-03-13",
+        "peak_mw": 406
+      },
+      {
+        "date": "2026-03-14",
+        "peak_mw": 343
+      },
+      {
+        "date": "2026-03-15",
+        "peak_mw": 343
+      },
+      {
+        "date": "2026-03-16",
+        "peak_mw": 339
+      },
+      {
+        "date": "2026-03-17",
+        "peak_mw": 393
+      },
+      {
+        "date": "2026-03-18",
+        "peak_mw": 407
+      },
+      {
+        "date": "2026-03-19",
+        "peak_mw": 326
+      },
+      {
+        "date": "2026-03-20",
+        "peak_mw": 322
+      },
+      {
+        "date": "2026-03-21",
+        "peak_mw": 290
+      },
+      {
+        "date": "2026-03-22",
+        "peak_mw": 199
+      },
+      {
+        "date": "2026-03-23",
+        "peak_mw": 350
+      },
+      {
+        "date": "2026-03-24",
+        "peak_mw": 380
+      },
+      {
+        "date": "2026-03-25",
+        "peak_mw": 330
+      },
+      {
+        "date": "2026-03-26",
+        "peak_mw": 432
+      },
+      {
+        "date": "2026-03-27",
+        "peak_mw": 403
+      },
+      {
+        "date": "2026-03-28",
+        "peak_mw": 284
+      },
+      {
+        "date": "2026-03-29",
+        "peak_mw": 235
+      },
+      {
+        "date": "2026-03-30",
+        "peak_mw": 210
+      },
+      {
+        "date": "2026-03-31",
+        "peak_mw": 379
+      },
+      {
+        "date": "2026-04-01",
+        "peak_mw": 426
+      },
+      {
+        "date": "2026-04-02",
+        "peak_mw": 205
+      },
+      {
+        "date": "2026-04-03",
+        "peak_mw": 237
+      },
+      {
+        "date": "2026-04-04",
+        "peak_mw": 265
+      },
+      {
+        "date": "2026-04-05",
+        "peak_mw": 224
+      },
+      {
+        "date": "2026-04-06",
+        "peak_mw": 273
+      },
+      {
+        "date": "2026-04-07",
+        "peak_mw": 358
+      },
+      {
+        "date": "2026-04-08",
+        "peak_mw": 312
+      },
+      {
+        "date": "2026-04-09",
+        "peak_mw": 361
+      },
+      {
+        "date": "2026-04-10",
+        "peak_mw": 353
+      },
+      {
+        "date": "2026-04-11",
+        "peak_mw": 305
+      },
+      {
+        "date": "2026-04-12",
+        "peak_mw": 149
+      },
+      {
+        "date": "2026-04-13",
+        "peak_mw": 245
+      },
+      {
+        "date": "2026-04-14",
+        "peak_mw": 319
+      },
+      {
+        "date": "2026-04-15",
+        "peak_mw": 374
+      },
+      {
+        "date": "2026-04-16",
+        "peak_mw": 270
+      },
+      {
+        "date": "2026-04-17",
+        "peak_mw": 406
+      },
+      {
+        "date": "2026-04-18",
+        "peak_mw": 299
+      },
+      {
+        "date": "2026-04-19",
+        "peak_mw": 30
+      },
+      {
+        "date": "2026-04-20",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-21",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-22",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-23",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-24",
+        "peak_mw": null
+      },
+      {
+        "date": "2026-04-25",
+        "peak_mw": 77
+      },
+      {
+        "date": "2026-04-26",
+        "peak_mw": 79
+      },
+      {
+        "date": "2026-04-27",
+        "peak_mw": 64
+      },
+      {
+        "date": "2026-04-28",
+        "peak_mw": 171
+      },
+      {
+        "date": "2026-04-29",
+        "peak_mw": 167
+      },
+      {
+        "date": "2026-04-30",
+        "peak_mw": 96
+      },
+      {
+        "date": "2026-05-01",
+        "peak_mw": 384
+      },
+      {
+        "date": "2026-05-02",
+        "peak_mw": 186
+      },
+      {
+        "date": "2026-05-03",
+        "peak_mw": 325
+      },
+      {
+        "date": "2026-05-04",
+        "peak_mw": 101
+      },
+      {
+        "date": "2026-05-05",
+        "peak_mw": 105
+      },
+      {
+        "date": "2026-05-06",
+        "peak_mw": 294
+      },
+      {
+        "date": "2026-05-07",
+        "peak_mw": 403
+      },
+      {
+        "date": "2026-05-08",
+        "peak_mw": 434
+      },
+      {
+        "date": "2026-05-09",
+        "peak_mw": 442
+      },
+      {
+        "date": "2026-05-10",
+        "peak_mw": 430
+      },
+      {
+        "date": "2026-05-11",
+        "peak_mw": 407
+      },
+      {
+        "date": "2026-05-12",
+        "peak_mw": 468
+      }
+    ],
+    "monthly_max_peak_mw": [
+      {
+        "month": "2023-01",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2023-02",
+        "max_peak_mw": 1413
+      },
+      {
+        "month": "2023-03",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2023-04",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2023-05",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2023-06",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2023-07",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2023-08",
+        "max_peak_mw": 238
+      },
+      {
+        "month": "2023-09",
+        "max_peak_mw": 391
+      },
+      {
+        "month": "2023-10",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2023-11",
+        "max_peak_mw": 369
+      },
+      {
+        "month": "2023-12",
+        "max_peak_mw": 534
+      },
+      {
+        "month": "2024-01",
+        "max_peak_mw": 1032
+      },
+      {
+        "month": "2024-02",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-03",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-04",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-05",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-06",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-07",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-08",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-09",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-10",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-11",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2024-12",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2025-01",
+        "max_peak_mw": 777
+      },
+      {
+        "month": "2025-02",
+        "max_peak_mw": 1719
+      },
+      {
+        "month": "2025-03",
+        "max_peak_mw": 1749
+      },
+      {
+        "month": "2025-04",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2025-05",
+        "max_peak_mw": null
+      },
+      {
+        "month": "2025-06",
+        "max_peak_mw": 1684
+      },
+      {
+        "month": "2025-07",
+        "max_peak_mw": 165
+      },
+      {
+        "month": "2025-08",
+        "max_peak_mw": 159
+      },
+      {
+        "month": "2025-09",
+        "max_peak_mw": 384
+      },
+      {
+        "month": "2025-10",
+        "max_peak_mw": 410
+      },
+      {
+        "month": "2025-11",
+        "max_peak_mw": 431
+      },
+      {
+        "month": "2025-12",
+        "max_peak_mw": 499
+      },
+      {
+        "month": "2026-01",
+        "max_peak_mw": 448
+      },
+      {
+        "month": "2026-02",
+        "max_peak_mw": 393
+      },
+      {
+        "month": "2026-03",
+        "max_peak_mw": 433
+      },
+      {
+        "month": "2026-04",
+        "max_peak_mw": 426
+      },
+      {
+        "month": "2026-05",
+        "max_peak_mw": 468
+      }
+    ],
+    "monthly_total_outage_minutes": [
+      {
+        "month": "2023-01",
+        "minutes": 0
+      },
+      {
+        "month": "2023-02",
+        "minutes": 0
+      },
+      {
+        "month": "2023-03",
+        "minutes": 0
+      },
+      {
+        "month": "2023-04",
+        "minutes": 0
+      },
+      {
+        "month": "2023-05",
+        "minutes": 0
+      },
+      {
+        "month": "2023-06",
+        "minutes": 0
+      },
+      {
+        "month": "2023-07",
+        "minutes": 0
+      },
+      {
+        "month": "2023-08",
+        "minutes": 0
+      },
+      {
+        "month": "2023-09",
+        "minutes": 0
+      },
+      {
+        "month": "2023-10",
+        "minutes": 0
+      },
+      {
+        "month": "2023-11",
+        "minutes": 0
+      },
+      {
+        "month": "2023-12",
+        "minutes": 0
+      },
+      {
+        "month": "2024-01",
+        "minutes": 0
+      },
+      {
+        "month": "2024-02",
+        "minutes": 0
+      },
+      {
+        "month": "2024-03",
+        "minutes": 0
+      },
+      {
+        "month": "2024-04",
+        "minutes": 0
+      },
+      {
+        "month": "2024-05",
+        "minutes": 0
+      },
+      {
+        "month": "2024-06",
+        "minutes": 0
+      },
+      {
+        "month": "2024-07",
+        "minutes": 0
+      },
+      {
+        "month": "2024-08",
+        "minutes": 0
+      },
+      {
+        "month": "2024-09",
+        "minutes": 0
+      },
+      {
+        "month": "2024-10",
+        "minutes": 0
+      },
+      {
+        "month": "2024-11",
+        "minutes": 0
+      },
+      {
+        "month": "2024-12",
+        "minutes": 0
+      },
+      {
+        "month": "2025-01",
+        "minutes": 0
+      },
+      {
+        "month": "2025-02",
+        "minutes": 0
+      },
+      {
+        "month": "2025-03",
+        "minutes": 0
+      },
+      {
+        "month": "2025-04",
+        "minutes": 0
+      },
+      {
+        "month": "2025-05",
+        "minutes": 0
+      },
+      {
+        "month": "2025-06",
+        "minutes": 0
+      },
+      {
+        "month": "2025-07",
+        "minutes": 7684
+      },
+      {
+        "month": "2025-08",
+        "minutes": 9140
+      },
+      {
+        "month": "2025-09",
+        "minutes": 4181
+      },
+      {
+        "month": "2025-10",
+        "minutes": 9738
+      },
+      {
+        "month": "2025-11",
+        "minutes": 23672
+      },
+      {
+        "month": "2025-12",
+        "minutes": 48047
+      },
+      {
+        "month": "2026-01",
+        "minutes": 32613
+      },
+      {
+        "month": "2026-02",
+        "minutes": 58873
+      },
+      {
+        "month": "2026-03",
+        "minutes": 93760
+      },
+      {
+        "month": "2026-04",
+        "minutes": 23294
+      },
+      {
+        "month": "2026-05",
+        "minutes": 20208
+      }
+    ]
+  },
+  "meta": {
+    "daily_count": 1211,
+    "monthly_count": 41,
+    "earliest_date": "2023-01-18",
+    "latest_date": "2026-05-12"
+  }
+}

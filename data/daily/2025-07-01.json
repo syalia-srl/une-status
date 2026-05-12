@@ -1,0 +1,39 @@
+{
+  "date": "2025-07-01",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "averias_count_by_municipio": {
+    "Plaza": 1,
+    "De Regla": 1,
+    "Cerro": 1,
+    "De Plaza": 1,
+    "Habana Del Este": 1,
+    "De Playa": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 46,
+  "by_type_counts": {
+    "otro": 15,
+    "averias": 2,
+    "disparo_circuito": 5,
+    "restablecimiento": 18,
+    "empty": 1,
+    "nota_diaria": 2,
+    "corto": 1,
+    "servicio_cliente": 1,
+    "daf": 1
+  }
+}

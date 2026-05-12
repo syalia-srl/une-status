@@ -1,0 +1,40 @@
+{
+  "date": "2026-02-08",
+  "finalized": true,
+  "peak_mw_affected": 269,
+  "peak_time": "18:19",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 129,
+    "2": 127,
+    "3": 151,
+    "4": 151,
+    "5": 157,
+    "6": 158
+  },
+  "total_block_outage_minutes": 873,
+  "daf_count": 2,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 2,
+    "Plaza": 2,
+    "Marianao": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 77,
+  "by_type_counts": {
+    "empty": 19,
+    "otro": 7,
+    "averias": 8,
+    "restablecimiento": 13,
+    "nota_diaria": 1,
+    "sen_update": 2,
+    "daf": 2,
+    "restablecimiento_daf": 1,
+    "via_libre": 1,
+    "mantenimiento": 5,
+    "inicio_afectacion": 6,
+    "actualizacion_bloques": 10,
+    "corto": 2
+  }
+}

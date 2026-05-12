@@ -1,0 +1,38 @@
+{
+  "date": "2025-08-30",
+  "finalized": true,
+  "peak_mw_affected": 66,
+  "peak_time": "20:50",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 267,
+    "6": 0
+  },
+  "total_block_outage_minutes": 267,
+  "daf_count": 0,
+  "averias_count_by_municipio": {
+    "Cotorro": 3,
+    "Boyeros": 1,
+    "Lisa": 1,
+    "Cerro": 1,
+    "Habana Del Este": 1
+  },
+  "averias_total": 7,
+  "source_msg_count": 63,
+  "by_type_counts": {
+    "otro": 23,
+    "restablecimiento": 18,
+    "averias": 5,
+    "nota_diaria": 2,
+    "via_libre": 5,
+    "inicio_afectacion": 1,
+    "corto": 1,
+    "empty": 1,
+    "disparo_circuito": 7
+  }
+}
