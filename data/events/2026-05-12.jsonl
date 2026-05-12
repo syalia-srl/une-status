@@ -60,3 +60,8 @@
 {"id": 61880, "ts": "2026-05-12T18:50:10+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Habana Del Este"}
 {"id": 61881, "ts": "2026-05-12T18:50:54+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 4, "minutes_off": 15}, {"bloque": 6, "hours_off": 2, "minutes_off": 20}, {"bloque": 1, "hours_off": 0, "minutes_off": 10}], "total_mw": 176}
 {"id": 61882, "ts": "2026-05-12T18:54:16+00:00", "type": "daf", "has_photo": false}
+{"id": 61883, "ts": "2026-05-12T19:46:33+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 5, "minutes_off": 15}, {"bloque": 6, "hours_off": 3, "minutes_off": 20}, {"bloque": 1, "hours_off": 1, "minutes_off": 10}], "total_mw": 240}
+{"id": 61884, "ts": "2026-05-12T19:50:08+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
+{"id": 61885, "ts": "2026-05-12T19:59:10+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 5, "emergency": true}
+{"id": 61886, "ts": "2026-05-12T20:16:16+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 5, "minutes_off": 0}, {"bloque": 6, "hours_off": 4, "minutes_off": 0}, {"bloque": 1, "hours_off": 1, "minutes_off": 40}, {"bloque": 2, "hours_off": 0, "minutes_off": 20}, {"bloque": 5, "hours_off": 0, "minutes_off": 10}], "total_mw": 337}
+{"id": 61887, "ts": "2026-05-12T20:25:37+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 3, "emergency": true}

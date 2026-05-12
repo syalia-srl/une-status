@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-12T19:27:46+00:00",
+  "generated_at": "2026-05-12T20:58:31+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-12T18:54:16+00:00",
+    "as_of": "2026-05-12T20:25:37+00:00",
     "bloques": [
       {
         "id": 1,
@@ -13,13 +13,15 @@
       },
       {
         "id": 2,
-        "state": "encendido",
-        "since": "2026-05-12T14:47:06+00:00"
+        "state": "apagado",
+        "since": "2026-05-12T19:50:08+00:00",
+        "emergency": true
       },
       {
         "id": 3,
-        "state": "encendido",
-        "since": "2026-05-12T16:30:19+00:00"
+        "state": "apagado",
+        "since": "2026-05-12T20:25:37+00:00",
+        "emergency": true
       },
       {
         "id": 4,
@@ -29,8 +31,9 @@
       },
       {
         "id": 5,
-        "state": "encendido",
-        "since": "2026-05-12T16:15:04+00:00"
+        "state": "apagado",
+        "since": "2026-05-12T19:59:10+00:00",
+        "emergency": true
       },
       {
         "id": 6,
@@ -39,8 +42,8 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 176,
-    "current_mw_affected_at": "2026-05-12T18:50:54+00:00",
+    "current_mw_affected": 337,
+    "current_mw_affected_at": "2026-05-12T20:16:16+00:00",
     "active_averias": {
       "ts": "2026-05-12T18:06:03+00:00",
       "averias": [
@@ -101,16 +104,6 @@
         "municipio": "Lisa",
         "direccion": ": 65 / 190 y 192",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-11T19:29:39+00:00",
-        "municipio": "Plaza",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-11T19:24:13+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -325,14 +318,14 @@
     "interruption_minutes": 1440,
     "emergency_mw": 122,
     "block_outage_minutes": {
-      "1": 10,
-      "2": 0,
+      "1": 100,
+      "2": 20,
       "3": 0,
-      "4": 255,
-      "5": 0,
-      "6": 140
+      "4": 300,
+      "5": 10,
+      "6": 240
     },
-    "total_block_outage_minutes": 405,
+    "total_block_outage_minutes": 670,
     "daf_count": 6,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -346,16 +339,16 @@
       "Playa": 1
     },
     "averias_total": 8,
-    "source_msg_count": 62,
+    "source_msg_count": 67,
     "by_type_counts": {
       "otro": 4,
-      "actualizacion_bloques": 14,
+      "actualizacion_bloques": 16,
       "averias": 10,
       "disparo_circuito": 4,
       "restablecimiento": 10,
       "daf": 6,
       "restablecimiento_daf": 2,
-      "inicio_afectacion": 5,
+      "inicio_afectacion": 8,
       "nota_diaria": 1,
       "sen_update": 1,
       "empty": 1,
@@ -421,12 +414,12 @@
     "max_peak_mw": 468,
     "total_interruption_minutes": 8570,
     "total_block_outage_minutes": {
-      "1": 2186,
-      "2": 2442,
+      "1": 2276,
+      "2": 2462,
       "3": 2097,
-      "4": 1966,
-      "5": 2020,
-      "6": 2148
+      "4": 2011,
+      "5": 2030,
+      "6": 2248
     },
     "total_emergency_mw_sum": 754,
     "averias_count_by_municipio": {
@@ -464,12 +457,12 @@
     "max_peak_mw": 468,
     "total_interruption_minutes": 10490,
     "total_block_outage_minutes": {
-      "1": 2762,
-      "2": 2887,
+      "1": 2852,
+      "2": 2907,
       "3": 3142,
-      "4": 2676,
-      "5": 2245,
-      "6": 2878
+      "4": 2721,
+      "5": 2255,
+      "6": 2978
     },
     "total_emergency_mw_sum": 939,
     "averias_count_by_municipio": {
@@ -506,12 +499,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 52570,
     "total_block_outage_minutes": {
-      "1": 57256,
-      "2": 60966,
+      "1": 57346,
+      "2": 60986,
       "3": 48866,
-      "4": 54908,
-      "5": 52416,
-      "6": 53180
+      "4": 54953,
+      "5": 52426,
+      "6": 53280
     },
     "averias_total": 3078,
     "averias_top_municipios": {
@@ -787,7 +780,7 @@
       },
       {
         "date": "2026-05-12",
-        "minutes": 405
+        "minutes": 670
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1881,7 +1874,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 16590
+        "minutes": 16855
       }
     ],
     "sen_outage_days_total": 7,
