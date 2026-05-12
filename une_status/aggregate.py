@@ -72,6 +72,13 @@ def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
 
     daf_count = by_type.get("daf", 0)
 
+    # SEN outage minutes: time spent between daf and restablecimiento_daf events
+    sen_outage_minutes = _sen_outage_minutes(events, day)
+    sen_outage = sen_outage_minutes > 0 or daf_count > 0
+
+    # CTE offline minutes per canonical id
+    cte_offline_minutes = _cte_offline_minutes(events, day)
+
     return {
         "date": day,
         "finalized": finalized,
@@ -82,11 +89,62 @@ def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
         "block_outage_minutes": block_minutes,
         "total_block_outage_minutes": sum(block_minutes.values()),
         "daf_count": daf_count,
+        "sen_outage_minutes": sen_outage_minutes,
+        "sen_outage": sen_outage,
+        "cte_offline_minutes": cte_offline_minutes,
         "averias_count_by_municipio": dict(municipios.most_common()),
         "averias_total": sum(municipios.values()),
         "source_msg_count": len(events),
         "by_type_counts": dict(by_type),
     }
+
+
+def _sen_outage_minutes(events: list[dict], day: str) -> int:
+    """Greedy pair `daf` with the next `restablecimiento_daf`. Open intervals
+    by end of Havana day count up to midnight.
+    """
+    total = 0
+    open_start: datetime | None = None
+    end_of_day = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV) + timedelta(days=1)
+    for e in sorted(events, key=lambda x: x["id"]):
+        ts = _parse_ts(e["ts"]).astimezone(TZ_HAV)
+        if e["type"] == "daf" and open_start is None:
+            open_start = ts
+        elif e["type"] == "restablecimiento_daf" and open_start is not None:
+            total += int(max(0, (ts - open_start).total_seconds() / 60))
+            open_start = None
+    if open_start is not None:
+        total += int(max(0, (end_of_day - open_start).total_seconds() / 60))
+    return total
+
+
+def _cte_offline_minutes(events: list[dict], day: str) -> dict[str, int]:
+    """Per-CTE total offline minutes for `day`. Greedy pair unit on/off.
+    Track by (cte_id, unidad). Open intervals count to end-of-day.
+    """
+    out: dict[str, int] = {}
+    open_intervals: dict[tuple[str, int], datetime] = {}
+    end_of_day = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV) + timedelta(days=1)
+    for e in sorted(events, key=lambda x: x["id"]):
+        if e.get("type") != "unidad_termoelectrica":
+            continue
+        cte = e.get("cte_id")
+        unit = e.get("unidad")
+        state = e.get("state")
+        if not cte or unit is None or not state:
+            continue
+        ts = _parse_ts(e["ts"]).astimezone(TZ_HAV)
+        key = (cte, unit)
+        if state == "offline" and key not in open_intervals:
+            open_intervals[key] = ts
+        elif state == "online" and key in open_intervals:
+            delta = int(max(0, (ts - open_intervals[key]).total_seconds() / 60))
+            out[cte] = out.get(cte, 0) + delta
+            del open_intervals[key]
+    for (cte, _), start in open_intervals.items():
+        delta = int(max(0, (end_of_day - start).total_seconds() / 60))
+        out[cte] = out.get(cte, 0) + delta
+    return out
 
 
 def _block_outage_from_latest_actualizacion(events: list[dict]) -> dict[str, int]:
@@ -148,6 +206,11 @@ def monthly_rollup(month: str, dailies: list[dict]) -> dict:
         for m, n in (d.get("averias_count_by_municipio") or {}).items():
             mun_totals[m] += n
 
+    cte_totals: Counter = Counter()
+    for d in dailies:
+        for cte, m in (d.get("cte_offline_minutes") or {}).items():
+            cte_totals[cte] += m
+
     return {
         "month": month,
         "finalized": all(d.get("finalized") for d in dailies),
@@ -160,6 +223,9 @@ def monthly_rollup(month: str, dailies: list[dict]) -> dict:
         "averias_count_by_municipio": dict(mun_totals.most_common()),
         "averias_total": sum(mun_totals.values()),
         "daf_total": sum(d.get("daf_count", 0) for d in dailies),
+        "sen_outage_days": sum(1 for d in dailies if d.get("sen_outage")),
+        "sen_outage_minutes_total": sum(d.get("sen_outage_minutes", 0) for d in dailies),
+        "cte_offline_minutes_total": dict(cte_totals),
     }
 
 
@@ -175,6 +241,11 @@ def all_time(monthlies: list[dict]) -> dict:
     for m in monthlies:
         for mn, n in (m.get("averias_count_by_municipio") or {}).items():
             mun_totals[mn] += n
+    cte_totals: Counter = Counter()
+    for m in monthlies:
+        for cte, mins in (m.get("cte_offline_minutes_total") or {}).items():
+            cte_totals[cte] += mins
+
     return {
         "months_count": len(monthlies),
         "max_peak_mw": max(peak_mws, default=None),
@@ -183,6 +254,9 @@ def all_time(monthlies: list[dict]) -> dict:
         "averias_total": sum(mun_totals.values()),
         "averias_top_municipios": dict(mun_totals.most_common(15)),
         "daf_total": sum(m.get("daf_total", 0) for m in monthlies),
+        "sen_outage_days_total": sum(m.get("sen_outage_days", 0) for m in monthlies),
+        "sen_outage_minutes_total": sum(m.get("sen_outage_minutes_total", 0) for m in monthlies),
+        "cte_offline_minutes_total": dict(cte_totals),
     }
 
 
@@ -200,6 +274,11 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
     last_averias = None
     last_daf = None
     last_pronostico = None
+    # SEN: latest daf / restablecimiento_daf events in chronological order
+    sen_events: list[dict] = []
+    # CTE: per (cte_id, unidad) the most recent state
+    cte_units: dict[tuple[str, int], dict] = {}
+    cte_meta: dict[str, str] = {}  # cte_id -> display name
 
     as_of = events[0]["ts"] if events else None
 
@@ -221,8 +300,18 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             }
         if t == "averias" and last_averias is None:
             last_averias = {"ts": e["ts"], "averias": e.get("averias", [])}
-        if t in ("daf", "restablecimiento_daf") and last_daf is None:
-            last_daf = {"ts": e["ts"], "type": t}
+        if t in ("daf", "restablecimiento_daf"):
+            sen_events.append(e)
+            if last_daf is None:
+                last_daf = {"ts": e["ts"], "type": t}
+        if t == "unidad_termoelectrica":
+            cte = e.get("cte_id")
+            unit = e.get("unidad")
+            state = e.get("state")
+            if cte and unit is not None and state and (cte, unit) not in cte_units:
+                cte_units[(cte, unit)] = {"state": state, "since": e["ts"]}
+                if cte not in cte_meta and e.get("cte_name"):
+                    cte_meta[cte] = e["cte_name"]
         if t == "pronostico" and last_pronostico is None:
             cutoff = _parse_ts(as_of) - timedelta(hours=pronostico_recent_h) if as_of else None
             if not cutoff or _parse_ts(e["ts"]) >= cutoff:
@@ -247,6 +336,54 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             entry = {"id": bn, "state": "desconocido"}
         bloques_view.append(entry)
 
+    # SEN view — chronological order, infer current state from latest event
+    sen_events_chrono = sorted(sen_events, key=lambda x: x["id"])
+    sen_state = "online"
+    sen_since = None
+    sen_last_outage_at = None
+    sen_last_recovered_at = None
+    for ev in sen_events_chrono:
+        if ev["type"] == "daf":
+            sen_state = "offline"
+            sen_since = ev["ts"]
+            sen_last_outage_at = ev["ts"]
+        elif ev["type"] == "restablecimiento_daf":
+            sen_state = "online"
+            sen_since = ev["ts"]
+            sen_last_recovered_at = ev["ts"]
+    sen_view = {
+        "state": sen_state,
+        "since": sen_since,
+        "last_outage_at": sen_last_outage_at,
+        "last_recovered_at": sen_last_recovered_at,
+    }
+
+    # CTE view — aggregate units per plant
+    ctes_view: list[dict] = []
+    by_plant: dict[str, list[dict]] = {}
+    for (cte, unit), info in cte_units.items():
+        by_plant.setdefault(cte, []).append({"unidad": unit, **info})
+    for cte_id, units in sorted(by_plant.items()):
+        units.sort(key=lambda u: u["unidad"])
+        online = sum(1 for u in units if u["state"] == "online")
+        offline = sum(1 for u in units if u["state"] == "offline")
+        if online > 0 and offline == 0:
+            plant_state = "online"
+        elif offline > 0 and online == 0:
+            plant_state = "offline"
+        else:
+            plant_state = "partial"
+        last_change = max(u["since"] for u in units)
+        ctes_view.append({
+            "id": cte_id,
+            "name": cte_meta.get(cte_id, cte_id.title()),
+            "state": plant_state,
+            "units": units,
+            "online_units": online,
+            "offline_units": offline,
+            "last_change_at": last_change,
+        })
+
     return {
         "as_of": as_of,
         "bloques": bloques_view,
@@ -255,4 +392,6 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
         "active_averias": last_averias,
         "last_daf": last_daf,
         "last_pronostico": last_pronostico,
+        "sen": sen_view,
+        "ctes": ctes_view,
     }

@@ -190,6 +190,16 @@ def build_data_blob() -> dict:
     recent_events = _recent_events_for_state(days=2)
     cur = current_state(recent_events)
 
+    # Stamp the most authoritative "last SEN outage" timestamp by looking
+    # back through dailies: take the latest day with sen_outage flag and use
+    # its date. If current state already has a last_outage_at (within last 2d),
+    # prefer that (more precise).
+    if not cur.get("sen", {}).get("last_outage_at"):
+        for d in reversed(dailies):
+            if d.get("sen_outage"):
+                cur.setdefault("sen", {})["last_outage_at"] = d["date"]
+                break
+
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source_channel": CHANNEL,
@@ -213,6 +223,17 @@ def build_data_blob() -> dict:
 def _history_series(dailies: list[dict], monthlies: list[dict]) -> dict:
     last_30 = dailies[-30:]
     last_180 = dailies[-180:]
+
+    # Per-CTE all-time offline-days breakdown
+    from collections import Counter
+    cte_offline_min: Counter = Counter()
+    cte_outage_days: Counter = Counter()
+    for d in dailies:
+        for cte, m in (d.get("cte_offline_minutes") or {}).items():
+            cte_offline_min[cte] += m
+            if m > 0:
+                cte_outage_days[cte] += 1
+
     return {
         "daily_peak_mw_last_30d": [
             {"date": d["date"], "peak_mw": d.get("peak_mw_affected")}
@@ -234,6 +255,10 @@ def _history_series(dailies: list[dict], monthlies: list[dict]) -> dict:
             {"month": m["month"], "minutes": sum((m.get("total_block_outage_minutes") or {}).values())}
             for m in monthlies
         ],
+        "sen_outage_days_total": sum(1 for d in dailies if d.get("sen_outage")),
+        "sen_outage_days_last_30d": sum(1 for d in last_30 if d.get("sen_outage")),
+        "cte_offline_minutes_total": dict(cte_offline_min),
+        "cte_offline_days_total": dict(cte_outage_days),
     }
 
 

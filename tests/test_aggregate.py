@@ -74,6 +74,40 @@ def test_monthly_rollup_aggregates():
     assert m["daf_total"] == 1
 
 
+def test_daily_rollup_sen_outage_and_cte_minutes():
+    events = [
+        {"id": 1, "ts": "2026-05-12T10:00:00+00:00", "type": "daf"},
+        {"id": 2, "ts": "2026-05-12T10:30:00+00:00", "type": "restablecimiento_daf"},
+        {"id": 3, "ts": "2026-05-12T11:00:00+00:00", "type": "unidad_termoelectrica",
+         "cte_id": "felton", "cte_name": "Felton", "unidad": 1, "state": "offline"},
+        {"id": 4, "ts": "2026-05-12T13:00:00+00:00", "type": "unidad_termoelectrica",
+         "cte_id": "felton", "cte_name": "Felton", "unidad": 1, "state": "online"},
+    ]
+    r = daily_rollup("2026-05-12", events, finalized=True)
+    assert r["sen_outage"] is True
+    assert r["sen_outage_minutes"] == 30
+    assert r["daf_count"] == 1
+    assert r["cte_offline_minutes"]["felton"] == 120
+
+
+def test_current_state_sen_and_cte():
+    events = [
+        {"id": 1, "ts": "2026-05-12T10:00:00+00:00", "type": "daf"},
+        {"id": 2, "ts": "2026-05-12T10:30:00+00:00", "type": "restablecimiento_daf"},
+        {"id": 3, "ts": "2026-05-12T11:00:00+00:00", "type": "unidad_termoelectrica",
+         "cte_id": "guiteras", "cte_name": "Antonio Guiteras", "unidad": 1, "state": "online"},
+        {"id": 4, "ts": "2026-05-12T11:00:00+00:00", "type": "unidad_termoelectrica",
+         "cte_id": "felton", "cte_name": "Felton", "unidad": 1, "state": "offline"},
+    ]
+    cs = current_state(events)
+    assert cs["sen"]["state"] == "online"
+    assert cs["sen"]["last_outage_at"] == "2026-05-12T10:00:00+00:00"
+    assert cs["sen"]["last_recovered_at"] == "2026-05-12T10:30:00+00:00"
+    by_id = {c["id"]: c for c in cs["ctes"]}
+    assert by_id["guiteras"]["state"] == "online"
+    assert by_id["felton"]["state"] == "offline"
+
+
 def test_current_state_picks_latest_per_block():
     events = [
         {"id": 5, "ts": "2026-05-12T12:00:00+00:00", "type": "inicio_afectacion", "bloque": 4, "emergency": False},

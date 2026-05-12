@@ -45,8 +45,8 @@
 
   <nav class="border-b border-slate-200 dark:border-slate-800 sticky top-0 bg-slate-50/95 dark:bg-slate-950/95 backdrop-blur z-10">
     <div class="max-w-5xl mx-auto px-4 flex gap-1 overflow-x-auto text-sm">
-      <a href="#ahora" class="px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-900 whitespace-nowrap">Ahora</a>
       <a href="#hoy" class="px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-900 whitespace-nowrap">Hoy</a>
+      <a href="#ahora" class="px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-900 whitespace-nowrap">Bloques</a>
       <a href="#semana" class="px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-900 whitespace-nowrap">Semana</a>
       <a href="#mes" class="px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-900 whitespace-nowrap">Mes</a>
       <a href="#historico" class="px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-900 whitespace-nowrap">Histórico</a>
@@ -55,21 +55,23 @@
 
   <main class="max-w-5xl mx-auto px-4 py-6 space-y-10">
 
-    <section id="ahora" class="space-y-4">
-      <div class="flex items-baseline justify-between">
-        <h2 class="text-2xl font-bold">Ahora</h2>
-        <div class="text-sm text-slate-500 dark:text-slate-400" id="ahora-mw">— MW afectados</div>
-      </div>
-      <div id="bloques-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3"></div>
-      <div id="averias-card" class="rounded-lg border border-slate-200 dark:border-slate-800 p-4">
-        <h3 class="font-semibold mb-2 flex items-center gap-2"><span>🚨</span>Averías recientes</h3>
-        <div id="averias-list" class="text-sm space-y-1 text-slate-700 dark:text-slate-300"></div>
-      </div>
-      <div id="extras" class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm"></div>
-    </section>
-
     <section id="hoy" class="space-y-4">
       <h2 class="text-2xl font-bold">Hoy</h2>
+
+      <div id="sen-banner" class="rounded-xl border-2 p-6 text-center transition-colors">
+        <div class="text-sm uppercase tracking-wider opacity-70">Estado del SEN</div>
+        <div id="sen-state" class="text-5xl sm:text-6xl font-extrabold tracking-tight mt-1">—</div>
+        <div id="sen-sub" class="text-sm mt-2 opacity-80"></div>
+        <div id="sen-counter-wrap" class="mt-4 text-xs uppercase tracking-wider opacity-60">Tiempo desde la última caída del SEN</div>
+        <div id="sen-counter" class="font-mono text-2xl sm:text-3xl mt-1 tabular-nums">—</div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-2">Centrales termoeléctricas (CTEs)</h3>
+        <div id="ctes-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3"></div>
+        <div id="ctes-empty" class="text-sm text-slate-500 hidden">Sin reportes recientes de unidades.</div>
+      </div>
+
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="hoy-kpis"></div>
       <div class="rounded-lg border border-slate-200 dark:border-slate-800 p-4">
         <h3 class="font-semibold mb-2">Horas apagado por bloque (hoy)</h3>
@@ -79,6 +81,19 @@
         <h3 class="font-semibold mb-2">Averías por municipio (hoy)</h3>
         <div id="hoy-municipios" class="text-sm space-y-1"></div>
       </div>
+    </section>
+
+    <section id="ahora" class="space-y-4">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-2xl font-bold">Bloques</h2>
+        <div class="text-sm text-slate-500 dark:text-slate-400" id="ahora-mw">— MW afectados</div>
+      </div>
+      <div id="bloques-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3"></div>
+      <div id="averias-card" class="rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+        <h3 class="font-semibold mb-2 flex items-center gap-2"><span>🚨</span>Averías recientes</h3>
+        <div id="averias-list" class="text-sm space-y-1 text-slate-700 dark:text-slate-300"></div>
+      </div>
+      <div id="extras" class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm"></div>
     </section>
 
     <section id="semana" class="space-y-4">
@@ -106,6 +121,10 @@
     <section id="historico" class="space-y-4">
       <h2 class="text-2xl font-bold">Histórico</h2>
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="historico-kpis"></div>
+      <div class="rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+        <h3 class="font-semibold mb-2">Días fuera de línea por CTE (histórico)</h3>
+        <div id="cte-historico" class="text-sm space-y-1"></div>
+      </div>
       <div class="rounded-lg border border-slate-200 dark:border-slate-800 p-4">
         <h3 class="font-semibold mb-2">Pico máximo mensual (MW)</h3>
         <div class="h-56"><canvas id="chart-monthly-peak"></canvas></div>

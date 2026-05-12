@@ -53,10 +53,16 @@ async function load() {
   }
 }
 
+let lastData = null;
+let counterInterval = null;
+
 function render(data) {
+  lastData = data;
   $("#generated-at").textContent = fmt.relative(data.generated_at);
   $("#as-of").textContent = data.current?.as_of ? fmt.relative(data.current.as_of) : "—";
 
+  renderSen(data.current);
+  renderCtes(data.current);
   renderBloques(data.current);
   renderAverias(data.current);
   renderExtras(data.current);
@@ -64,6 +70,95 @@ function render(data) {
   renderSemana(data.week, data.history);
   renderMes(data.month, data.history);
   renderHistorico(data.all_time, data.history);
+  startSenCounter();
+}
+
+function renderSen(cur) {
+  const banner = $("#sen-banner");
+  const stateEl = $("#sen-state");
+  const subEl = $("#sen-sub");
+  const sen = cur?.sen;
+  banner.classList.remove("bg-emerald-50","border-emerald-500","text-emerald-900","dark:bg-emerald-950","dark:border-emerald-600","dark:text-emerald-100",
+                         "bg-red-50","border-red-500","text-red-900","dark:bg-red-950","dark:border-red-600","dark:text-red-100",
+                         "bg-slate-50","border-slate-300","text-slate-700","dark:bg-slate-900","dark:border-slate-700","dark:text-slate-200");
+  if (!sen || !sen.state) {
+    banner.classList.add("bg-slate-50","border-slate-300","text-slate-700","dark:bg-slate-900","dark:border-slate-700","dark:text-slate-200");
+    stateEl.textContent = "DESCONOCIDO";
+    subEl.textContent = "Sin reportes recientes de DAF.";
+    return;
+  }
+  if (sen.state === "offline") {
+    banner.classList.add("bg-red-50","border-red-500","text-red-900","dark:bg-red-950","dark:border-red-600","dark:text-red-100");
+    stateEl.textContent = "OFFLINE";
+    subEl.textContent = sen.since ? `Caída desde ${fmt.dt(sen.since)} (${fmt.relative(sen.since)})` : "Disparo Automático por Frecuencia activo.";
+  } else {
+    banner.classList.add("bg-emerald-50","border-emerald-500","text-emerald-900","dark:bg-emerald-950","dark:border-emerald-600","dark:text-emerald-100");
+    stateEl.textContent = "ONLINE";
+    if (sen.last_recovered_at) {
+      subEl.textContent = `Restablecido ${fmt.dt(sen.last_recovered_at)} (${fmt.relative(sen.last_recovered_at)})`;
+    } else if (sen.last_outage_at) {
+      subEl.textContent = `Última caída: ${fmt.dt(sen.last_outage_at)}`;
+    } else {
+      subEl.textContent = "Sin caídas registradas recientemente.";
+    }
+  }
+}
+
+function startSenCounter() {
+  if (counterInterval) clearInterval(counterInterval);
+  const tick = () => {
+    const sen = lastData?.current?.sen;
+    const el = $("#sen-counter");
+    const wrap = $("#sen-counter-wrap");
+    if (!el) return;
+    // Anchor point: prefer last_outage_at (most precise); otherwise sen.since.
+    const anchor = sen?.last_outage_at || sen?.since;
+    if (!anchor) {
+      el.textContent = "—";
+      wrap.textContent = "Tiempo desde la última caída del SEN";
+      return;
+    }
+    if (sen.state === "offline") {
+      wrap.textContent = "Tiempo en curso de esta caída";
+    } else {
+      wrap.textContent = "Tiempo desde la última caída del SEN";
+    }
+    // anchor may be a YYYY-MM-DD (fallback from dailies) — normalize.
+    const ts = anchor.length === 10 ? `${anchor}T00:00:00` : anchor;
+    const diff = Math.max(0, Math.floor((Date.now() - new Date(ts).getTime()) / 1000));
+    const d = Math.floor(diff / 86400);
+    const h = Math.floor((diff % 86400) / 3600);
+    const m = Math.floor((diff % 3600) / 60);
+    const s = diff % 60;
+    el.textContent = `${d}d ${String(h).padStart(2,"0")}h ${String(m).padStart(2,"0")}m ${String(s).padStart(2,"0")}s`;
+  };
+  tick();
+  counterInterval = setInterval(tick, 1000);
+}
+
+function renderCtes(cur) {
+  const grid = $("#ctes-grid");
+  const empty = $("#ctes-empty");
+  grid.innerHTML = "";
+  const ctes = cur?.ctes || [];
+  if (!ctes.length) {
+    empty.classList.remove("hidden");
+    return;
+  }
+  empty.classList.add("hidden");
+  for (const c of ctes) {
+    const klass = c.state === "online" ? "on" : c.state === "offline" ? "off" : "unk";
+    const label = c.state === "online" ? "🟢 ONLINE" : c.state === "offline" ? "🔴 OFFLINE" : "🟡 PARCIAL";
+    const card = document.createElement("div");
+    card.className = `bloque-card ${klass} text-left`;
+    card.innerHTML = `
+      <div class="num text-xs">${escapeHtml(c.name)}</div>
+      <div class="state text-base">${label}</div>
+      <div class="meta">${c.online_units} en línea · ${c.offline_units} fuera</div>
+      ${c.last_change_at ? `<div class="meta">cambio: ${fmt.relative(c.last_change_at)}</div>` : ""}
+    `;
+    grid.appendChild(card);
+  }
 }
 
 function renderBloques(cur) {
@@ -207,12 +302,37 @@ function renderMes(month, history) {
 
 function renderHistorico(at, history) {
   if (!at) { $("#historico-kpis").innerHTML = `<div class="text-slate-500">Sin datos históricos.</div>`; return; }
+  const senDays = at.sen_outage_days_total ?? history?.sen_outage_days_total ?? 0;
+  const senHrs = at.sen_outage_minutes_total != null ? (at.sen_outage_minutes_total / 60).toFixed(1) : "—";
   $("#historico-kpis").innerHTML = kpiRow([
+    { label: "Caídas del SEN", value: fmt.int(at.daf_total), sub: `${senDays} días con caídas` },
+    { label: "Horas caídas SEN", value: senHrs === "—" ? "—" : `${senHrs} h`, sub: "tiempo acumulado" },
     { label: "Récord pico", value: fmt.mw(at.max_peak_mw), sub: "MW máximo registrado" },
     { label: "Total interrumpido", value: fmt.hours(at.total_interruption_minutes), sub: "todo el histórico" },
     { label: "Averías totales", value: fmt.int(at.averias_total), sub: "" },
     { label: "Meses con datos", value: fmt.int(at.months_count), sub: "" },
   ]);
+
+  // Per-CTE historical offline breakdown
+  const cteEl = $("#cte-historico");
+  if (cteEl) {
+    const mins = history?.cte_offline_minutes_total || at.cte_offline_minutes_total || {};
+    const days = history?.cte_offline_days_total || {};
+    const entries = Object.entries(mins).sort((a,b) => b[1] - a[1]);
+    cteEl.innerHTML = "";
+    if (!entries.length) {
+      cteEl.innerHTML = `<div class="text-slate-500">Sin datos históricos de unidades termoeléctricas.</div>`;
+    } else {
+      for (const [cte, m] of entries) {
+        const d = (m / 1440).toFixed(1);
+        const offlineDays = days[cte] ?? 0;
+        const row = document.createElement("div");
+        row.className = "flex justify-between";
+        row.innerHTML = `<span>${escapeHtml(cteLabel(cte))}</span><span class="tabular-nums"><span class="font-semibold">${d}</span> d <span class="text-slate-500">· ${offlineDays} días con reporte</span></span>`;
+        cteEl.appendChild(row);
+      }
+    }
+  }
   const monthly = history?.monthly_max_peak_mw || [];
   drawChart("chart-monthly-peak", "line",
     monthly.map(m => m.month),
@@ -267,6 +387,22 @@ function drawChart(canvasId, type, labels, values, datasetLabel) {
       },
     },
   });
+}
+
+const CTE_DISPLAY = {
+  felton: "Lidio Ramón Pérez (Felton)",
+  guiteras: "Antonio Guiteras",
+  "maximo-gomez": "Máximo Gómez (Mariel)",
+  cespedes: "Carlos M. de Céspedes (Cienfuegos)",
+  nuevitas: "10 de Octubre (Nuevitas)",
+  tallapiedra: "Otto Parellada (Tallapiedra)",
+  guevara: "Ernesto Guevara (Santa Cruz)",
+  rente: "Antonio Maceo (Renté)",
+};
+function cteLabel(id) {
+  const fromCur = lastData?.current?.ctes?.find(c => c.id === id);
+  if (fromCur?.name) return fromCur.name;
+  return CTE_DISPLAY[id] || id;
 }
 
 function escapeHtml(s) {

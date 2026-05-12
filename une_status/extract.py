@@ -49,11 +49,57 @@ RE_DIRECCION = re.compile(
 )
 
 # unidad_termoelectrica: "🟢 20:15 || En línea la Unidad 4 de la CTE Carlos Manuel de Céspedes."
+# Also matches: 'Fuera de línea la Unidad 1 de la CTE Lidio Ramón Pérez "Felton"'
 RE_UNIDAD_ESTADO = re.compile(
-    r"(en l[íi]nea|fuera de l[íi]nea|sincroniz\w*|dispar[oó]|sali[oó])\s+(?:la\s+)?unidad\s+(?:nro\.?\s*)?(\d+)\s+de\s+la\s+cte\s+([A-Za-záéíóúñÁÉÍÓÚÑ\.\s]+?)(?:[\.\n]|$)",
+    r"(en l[íi]nea|fuera de l[íi]nea|sali[oó] de l[íi]nea|sincroniz\w*|dispar[oó]|sali[oó])\s+(?:la\s+)?unidad\s+(?:nro\.?\s*)?(\d+)\s+de\s+la\s+cte\s+(.+?)(?:[\.,;]|\s+por\s+|\s+debido|\s+desde|$)",
     re.IGNORECASE,
 )
 RE_UNIDAD_TIME = re.compile(r"(\d{1,2}:\d{2})\s*\|\|")
+
+
+# Canonical CTE registry. Maps raw plant-name fragments (lowercase, accent-stripped)
+# to a stable id + display name. Order matters: longer/more-specific aliases first.
+CTE_REGISTRY: list[tuple[str, str, str]] = [
+    # alias-substring, canonical id, display name
+    ("lidio ramon perez", "felton", "Lidio Ramón Pérez (Felton)"),
+    ("felton", "felton", "Lidio Ramón Pérez (Felton)"),
+    ("antonio guiteras", "guiteras", "Antonio Guiteras"),
+    ("guiteras", "guiteras", "Antonio Guiteras"),
+    ("maximo gomez", "maximo-gomez", "Máximo Gómez (Mariel)"),
+    ("mariel", "maximo-gomez", "Máximo Gómez (Mariel)"),
+    ("carlos manuel de cespedes", "cespedes", "Carlos M. de Céspedes (Cienfuegos)"),
+    ("cespedes", "cespedes", "Carlos M. de Céspedes (Cienfuegos)"),
+    ("cienfuegos", "cespedes", "Carlos M. de Céspedes (Cienfuegos)"),
+    ("diez de octubre", "nuevitas", "10 de Octubre (Nuevitas)"),
+    ("10 de octubre", "nuevitas", "10 de Octubre (Nuevitas)"),
+    ("nuevitas", "nuevitas", "10 de Octubre (Nuevitas)"),
+    ("otto parellada", "tallapiedra", "Otto Parellada (Tallapiedra)"),
+    ("tallapiedra", "tallapiedra", "Otto Parellada (Tallapiedra)"),
+    ("ernesto guevara", "guevara", "Ernesto Guevara (Santa Cruz)"),
+    ("santa cruz", "guevara", "Ernesto Guevara (Santa Cruz)"),
+    ("renté", "rente", "Antonio Maceo (Renté)"),
+    ("rente", "rente", "Antonio Maceo (Renté)"),
+    ("antonio maceo", "rente", "Antonio Maceo (Renté)"),
+]
+
+
+def _strip_accents(s: str) -> str:
+    repl = str.maketrans("áéíóúüñÁÉÍÓÚÜÑ", "aeiouunAEIOUUN")
+    return s.translate(repl)
+
+
+def normalize_cte(raw: str) -> tuple[str, str] | None:
+    """Return (id, display_name) for a raw CTE name fragment, or None."""
+    if not raw:
+        return None
+    key = _strip_accents(raw).lower()
+    # strip surrounding quotes/punctuation
+    key = re.sub(r'[\"\'“”«»\(\)]', " ", key)
+    key = " ".join(key.split())
+    for alias, cid, display in CTE_REGISTRY:
+        if alias in key:
+            return cid, display
+    return None
 
 
 def _parse_clock(s: str) -> str:
@@ -157,15 +203,17 @@ def extract(msg_type: str, text: str) -> dict:
 
     elif msg_type == "unidad_termoelectrica":
         if m := RE_UNIDAD_ESTADO.search(t):
-            event, unit, plant = m.group(1), m.group(2), m.group(3)
+            event, unit, plant_raw = m.group(1), m.group(2), m.group(3)
             event_l = event.lower()
             if "en línea" in event_l or "en linea" in event_l or "sincroniz" in event_l:
                 state = "online"
             else:
                 state = "offline"
             out["unidad"] = int(unit)
-            out["planta"] = plant.strip().rstrip(".,").title()
+            out["planta"] = plant_raw.strip().rstrip(".,;").title()
             out["state"] = state
+            if norm := normalize_cte(plant_raw):
+                out["cte_id"], out["cte_name"] = norm
         if m := RE_UNIDAD_TIME.search(t):
             out["clock"] = m.group(1)
 
