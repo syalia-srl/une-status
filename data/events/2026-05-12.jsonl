@@ -26,3 +26,7 @@
 {"id": 61844, "ts": "2026-05-12T12:37:02+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "severity": "primaria"}]}
 {"id": 61845, "ts": "2026-05-12T12:45:33+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": "Pinar del Rio e/ Cervantes y San Juan", "severity": "secundaria"}]}
 {"id": 61846, "ts": "2026-05-12T12:58:08+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 17, "minutes_off": 0}, {"bloque": 1, "hours_off": 17, "minutes_off": 0}, {"bloque": 2, "hours_off": 16, "minutes_off": 3}, {"bloque": 5, "hours_off": 14, "minutes_off": 0}, {"bloque": 3, "hours_off": 3, "minutes_off": 0}], "total_mw": 346}
+{"id": 61849, "ts": "2026-05-12T13:24:37+00:00", "type": "sen_update", "has_photo": true}
+{"id": 61850, "ts": "2026-05-12T13:30:05+00:00", "type": "daf", "has_photo": false}
+{"id": 61851, "ts": "2026-05-12T13:52:31+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 17, "minutes_off": 0}, {"bloque": 2, "hours_off": 16, "minutes_off": 3}, {"bloque": 5, "hours_off": 14, "minutes_off": 0}, {"bloque": 3, "hours_off": 3, "minutes_off": 0}], "total_mw": 205}
+{"id": 61852, "ts": "2026-05-12T14:21:49+00:00", "type": "empty", "has_photo": true}

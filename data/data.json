@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-12T13:24:32+00:00",
+  "generated_at": "2026-05-12T14:31:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-12T12:58:08+00:00",
+    "as_of": "2026-05-12T14:21:49+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,8 +41,8 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 346,
-    "current_mw_affected_at": "2026-05-12T12:58:08+00:00",
+    "current_mw_affected": 205,
+    "current_mw_affected_at": "2026-05-12T13:52:31+00:00",
     "active_averias": {
       "ts": "2026-05-12T12:45:33+00:00",
       "averias": [
@@ -54,8 +54,8 @@
       ]
     },
     "last_daf": {
-      "ts": "2026-05-12T07:31:41+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-12T13:30:05+00:00",
+      "type": "daf"
     },
     "last_pronostico": null
   },
@@ -72,10 +72,10 @@
       "3": 180,
       "4": 0,
       "5": 840,
-      "6": 1020
+      "6": 0
     },
-    "total_block_outage_minutes": 4023,
-    "daf_count": 2,
+    "total_block_outage_minutes": 3003,
+    "daf_count": 3,
     "averias_count_by_municipio": {
       "Habana Del Este": 2,
       "Guanabacoa": 1,
@@ -83,17 +83,19 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 5,
-    "source_msg_count": 28,
+    "source_msg_count": 32,
     "by_type_counts": {
       "otro": 2,
-      "actualizacion_bloques": 8,
+      "actualizacion_bloques": 9,
       "averias": 7,
       "disparo_circuito": 1,
       "restablecimiento": 4,
-      "daf": 2,
+      "daf": 3,
       "restablecimiento_daf": 2,
       "inicio_afectacion": 1,
-      "nota_diaria": 1
+      "nota_diaria": 1,
+      "sen_update": 1,
+      "empty": 1
     }
   },
   "yesterday": {
@@ -153,7 +155,7 @@
       "3": 2277,
       "4": 1711,
       "5": 2860,
-      "6": 3028
+      "6": 2008
     },
     "total_emergency_mw_sum": 754,
     "averias_count_by_municipio": {
@@ -174,7 +176,7 @@
       "Habana Vieja": 1
     },
     "averias_total": 57,
-    "daf_total": 51,
+    "daf_total": 52,
     "window": "7d"
   },
   "month": {
@@ -190,7 +192,7 @@
       "3": 3322,
       "4": 2421,
       "5": 3085,
-      "6": 3758
+      "6": 2738
     },
     "total_emergency_mw_sum": 939,
     "averias_count_by_municipio": {
@@ -214,7 +216,7 @@
       "Habana Vieja": 1
     },
     "averias_total": 134,
-    "daf_total": 84
+    "daf_total": 85
   },
   "all_time": {
     "months_count": 41,
@@ -226,7 +228,7 @@
       "3": 49046,
       "4": 54653,
       "5": 53256,
-      "6": 54060
+      "6": 53040
     },
     "averias_total": 2967,
     "averias_top_municipios": {
@@ -246,7 +248,7 @@
       "De Boyeros": 48,
       "Regla": 36
     },
-    "daf_total": 2159
+    "daf_total": 2160
   },
   "history": {
     "daily_peak_mw_last_30d": [
@@ -490,7 +492,7 @@
       },
       {
         "date": "2026-05-12",
-        "minutes": 4023
+        "minutes": 3003
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1544,7 +1546,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 20208
+        "minutes": 19188
       }
     ]
   },

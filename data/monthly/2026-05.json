@@ -11,7 +11,7 @@
     "3": 3322,
     "4": 2421,
     "5": 3085,
-    "6": 3758
+    "6": 2738
   },
   "total_emergency_mw_sum": 939,
   "averias_count_by_municipio": {
@@ -35,5 +35,5 @@
     "Habana Vieja": 1
   },
   "averias_total": 134,
-  "daf_total": 84
+  "daf_total": 85
 }
