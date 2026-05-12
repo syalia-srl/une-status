@@ -41,5 +41,12 @@
     "Arroyo Naranjo Reparada La Avería": 1
   },
   "averias_total": 161,
-  "daf_total": 231
+  "daf_total": 231,
+  "sen_outage_days": 30,
+  "sen_outage_minutes_total": 17119,
+  "cte_offline_minutes_total": {
+    "guevara": 169,
+    "maximo-gomez": 600,
+    "cespedes": 520
+  }
 }

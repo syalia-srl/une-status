@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Del Cotorro Esta Presentando Disparo Del Circuito": 1,
     "Boyeros El Área De Capdevila Está Presentando Disparo Del Circuito Del Cual No Se Sostiene Y Se Realiza Las Gestiones Pertinentes Para Dar Solución": 1,

@@ -40,5 +40,8 @@
     "De Boyeros En El Muestrario Del Bobino Del Plan De Villena Y Sus Alrededores": 1
   },
   "averias_total": 58,
-  "daf_total": 5
+  "daf_total": 5,
+  "sen_outage_days": 4,
+  "sen_outage_minutes_total": 3052,
+  "cte_offline_minutes_total": {}
 }

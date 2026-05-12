@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Habana Del Este El Área De Alamar En Varias De Sus Zonas Presentan Disparo Del Circuito Del Cual No Se Sostiene": 1,
     "Centro Habana La Zona De Oquendo Entre Sitios Y Maloja Presenta Avería": 1

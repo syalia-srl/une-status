@@ -47,5 +47,13 @@
     "Habana Del Este Se Encuentra Afectado Por Un Disparo Del Circuito El Cual No Se Sostiene Afectando El Reparto Cojimar": 1
   },
   "averias_total": 150,
-  "daf_total": 134
+  "daf_total": 134,
+  "sen_outage_days": 26,
+  "sen_outage_minutes_total": 22081,
+  "cte_offline_minutes_total": {
+    "maximo-gomez": 499,
+    "rente": 240,
+    "felton": 718,
+    "guevara": 547
+  }
 }

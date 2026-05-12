@@ -57,5 +57,8 @@
     "Lisa Se Encuentran Afectados Por Un Disparo Del Circuito": 1
   },
   "averias_total": 267,
-  "daf_total": 62
+  "daf_total": 62,
+  "sen_outage_days": 21,
+  "sen_outage_minutes_total": 14561,
+  "cte_offline_minutes_total": {}
 }

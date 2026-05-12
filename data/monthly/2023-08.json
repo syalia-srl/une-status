@@ -31,5 +31,8 @@
     "De Playa Se Encuentra Disparado Por Avería Afectando Las Zonas De Sierra": 1
   },
   "averias_total": 17,
-  "daf_total": 0
+  "daf_total": 0,
+  "sen_outage_days": 0,
+  "sen_outage_minutes_total": 0,
+  "cte_offline_minutes_total": {}
 }

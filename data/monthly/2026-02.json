@@ -2,21 +2,21 @@
   "month": "2026-02",
   "finalized": true,
   "dailies_count": 28,
-  "avg_peak_mw": 297.0,
+  "avg_peak_mw": 294.3,
   "max_peak_mw": 393,
   "total_interruption_minutes": 1926,
   "total_block_outage_minutes": {
     "1": 10090,
-    "2": 10110,
-    "3": 9990,
-    "4": 9329,
+    "2": 10353,
+    "3": 9744,
+    "4": 9115,
     "5": 9381,
     "6": 9973
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
     "Boyeros": 17,
-    "San Miguel Del Padrón": 14,
+    "San Miguel Del Padrón": 13,
     "Habana Del Este": 11,
     "Plaza": 11,
     "Marianao": 10,
@@ -35,6 +35,15 @@
     "Marianao Que": 1,
     "Guanabacoa De Los Repartos Mañana": 1
   },
-  "averias_total": 116,
-  "daf_total": 271
+  "averias_total": 115,
+  "daf_total": 268,
+  "sen_outage_days": 25,
+  "sen_outage_minutes_total": 19701,
+  "cte_offline_minutes_total": {
+    "guevara": 2520,
+    "felton": 154,
+    "maximo-gomez": 343,
+    "cespedes": 144,
+    "rente": 189
+  }
 }

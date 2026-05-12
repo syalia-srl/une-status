@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 12,
+  "sen_outage_minutes": 1073,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "rente": 219
+  },
   "averias_count_by_municipio": {
     "Arroyo Naranjo": 2,
     "Habana Del Este": 1,

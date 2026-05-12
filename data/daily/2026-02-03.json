@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 2464,
   "daf_count": 12,
+  "sen_outage_minutes": 1323,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "guevara": 411
+  },
   "averias_count_by_municipio": {
     "Regla": 2,
     "Boyeros": 1,

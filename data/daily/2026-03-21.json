@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 3575,
   "daf_count": 3,
+  "sen_outage_minutes": 1031,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Plaza": 1,
     "Arroyo Naranjo": 1,

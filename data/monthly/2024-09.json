@@ -45,5 +45,8 @@
     "De Cerro": 1
   },
   "averias_total": 102,
-  "daf_total": 3
+  "daf_total": 3,
+  "sen_outage_days": 2,
+  "sen_outage_minutes_total": 2457,
+  "cte_offline_minutes_total": {}
 }

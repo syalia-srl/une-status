@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 77,
   "daf_count": 12,
+  "sen_outage_minutes": 1275,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "San Miguel Del Padrón": 1,
     "Guanabacoa": 1,

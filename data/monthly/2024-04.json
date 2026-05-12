@@ -40,5 +40,8 @@
     "Boyeros Las Zonas De Valle Grande": 1
   },
   "averias_total": 37,
-  "daf_total": 13
+  "daf_total": 13,
+  "sen_outage_days": 10,
+  "sen_outage_minutes_total": 5957,
+  "cte_offline_minutes_total": {}
 }

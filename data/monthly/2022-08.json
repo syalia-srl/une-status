@@ -1,0 +1,40 @@
+{
+  "month": "2022-08",
+  "finalized": true,
+  "dailies_count": 31,
+  "avg_peak_mw": null,
+  "max_peak_mw": null,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Boyeros": 3,
+    "Arroyo Naranjo Está Afectado": 1,
+    "Habana Del Este": 1,
+    "De Guanabacoa": 1,
+    "De Marianao": 1,
+    "Arroyo Naranjo Está Afectado Por Un Disparo Del Circuito Por Posible Avería": 1,
+    "Boyeros Se Encuentra El Circuito Disparado": 1,
+    "La Lisa Presentan Un Disparo Del Circuito Por Posible Avería": 1,
+    "Boyeros El Reparto Aldabó El Área Del Boulevard": 1,
+    "Boyeros Barrio Dinora Está Notificado Con Disparo Del Circuito": 1,
+    "Arroyo Naranjo": 1,
+    "Plaza Está Presentando Disparo Del Circuito Donde Se Está Tratando De Indagar Para Verificar Sus Causas": 1,
+    "Cotorro Las Zonas De La Portada": 1,
+    "Plaza La Zona Del Vedado Está Presentando Disparo Del Circuito": 1,
+    "San Miguel Del Padrón Se Encuentran Disparado Porque La Demanda Del Área Se Encuentra Por Encima De La Generación Existente": 1,
+    "Boyeros Reparto María Del Carmen": 1
+  },
+  "averias_total": 18,
+  "daf_total": 2,
+  "sen_outage_days": 2,
+  "sen_outage_minutes_total": 722,
+  "cte_offline_minutes_total": {}
+}

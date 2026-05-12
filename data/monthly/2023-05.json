@@ -30,5 +30,8 @@
     "Boyeros Está Presentado Disparo Del Circuito Afectando Las Zonas De Trigal": 1
   },
   "averias_total": 14,
-  "daf_total": 12
+  "daf_total": 12,
+  "sen_outage_days": 9,
+  "sen_outage_minutes_total": 5802,
+  "cte_offline_minutes_total": {}
 }

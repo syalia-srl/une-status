@@ -15,6 +15,12 @@
   },
   "total_block_outage_minutes": 417,
   "daf_count": 6,
+  "sen_outage_minutes": 1045,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "nuevitas": 665,
+    "maximo-gomez": 720
+  },
   "averias_count_by_municipio": {
     "Marianao": 1,
     "Plaza De La Revolución": 1,

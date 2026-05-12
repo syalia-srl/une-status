@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Boyeros Está Presentado Disparo Del Circuito Afectado Varias Zonas Como Baluarte": 2,
     "Guanabacoa La Zona Del Debeche Está En Disparo Del Circuito Del Cual Se Etá Trabajando Para Normalizar El Esquema": 1

@@ -35,5 +35,8 @@
     "Arroyo Naranjo": 1
   },
   "averias_total": 30,
-  "daf_total": 9
+  "daf_total": 9,
+  "sen_outage_days": 8,
+  "sen_outage_minutes_total": 5852,
+  "cte_offline_minutes_total": {}
 }

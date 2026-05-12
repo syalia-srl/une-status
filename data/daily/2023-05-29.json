@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Cerro Está Presentado Disparo Del Circuito": 1,
     "Playa Está Presentado Disparo Del Circuito Afectando La Zona De Querejetas Y Áreas Aledañas": 1,

@@ -39,5 +39,14 @@
     "Habana De Este": 1
   },
   "averias_total": 117,
-  "daf_total": 120
+  "daf_total": 120,
+  "sen_outage_days": 24,
+  "sen_outage_minutes_total": 22143,
+  "cte_offline_minutes_total": {
+    "felton": 479,
+    "guevara": 193,
+    "maximo-gomez": 2052,
+    "rente": 625,
+    "guiteras": 758
+  }
 }

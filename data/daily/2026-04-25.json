@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 135,
   "daf_count": 4,
+  "sen_outage_minutes": 142,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "cespedes": 178
+  },
   "averias_count_by_municipio": {
     "San Miguel Del Padrón": 2,
     "Plaza": 1,

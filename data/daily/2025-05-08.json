@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 1,
+  "sen_outage_minutes": 371,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "San Miguel Del Padrón": 1,
     "De Guanabacoa Se Encuentran Afectados Por Un Disparo Del Circuito Ya Que No Se Sostiene En La Subestación Planta De Herrajes": 1

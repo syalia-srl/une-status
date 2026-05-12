@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 9,
+  "sen_outage_minutes": 341,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "cespedes": 342
+  },
   "averias_count_by_municipio": {
     "Arroyo Naranjo": 1
   },

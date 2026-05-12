@@ -20,5 +20,8 @@
     "Boyeros": 1
   },
   "averias_total": 3,
-  "daf_total": 25
+  "daf_total": 25,
+  "sen_outage_days": 13,
+  "sen_outage_minutes_total": 9939,
+  "cte_offline_minutes_total": {}
 }

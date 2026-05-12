@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 877,
   "daf_count": 6,
+  "sen_outage_minutes": 865,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "maximo-gomez": 105
+  },
   "averias_count_by_municipio": {
     "Boyeros": 2
   },

@@ -45,5 +45,11 @@
     "Plaza Quedan Afectados": 1
   },
   "averias_total": 218,
-  "daf_total": 98
+  "daf_total": 98,
+  "sen_outage_days": 20,
+  "sen_outage_minutes_total": 13004,
+  "cte_offline_minutes_total": {
+    "rente": 595,
+    "maximo-gomez": 866
+  }
 }

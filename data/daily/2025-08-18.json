@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 64,
   "daf_count": 1,
+  "sen_outage_minutes": 532,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Cerro": 2,
     "Marianao": 2,

@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 1861,
   "daf_count": 15,
+  "sen_outage_minutes": 1356,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "guevara": 118
+  },
   "averias_count_by_municipio": {
     "San Miguel Del Padrón": 1,
     "Playa": 1

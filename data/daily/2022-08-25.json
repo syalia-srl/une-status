@@ -1,0 +1,31 @@
+{
+  "date": "2022-08-25",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 11,
+  "by_type_counts": {
+    "via_libre": 3,
+    "restablecimiento": 1,
+    "otro": 5,
+    "nota_diaria": 1,
+    "pinned": 1
+  }
+}

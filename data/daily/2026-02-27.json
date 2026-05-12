@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 2218,
   "daf_count": 16,
+  "sen_outage_minutes": 1037,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Boyeros": 2,
     "Guanabacoa": 1,

@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 3683,
   "daf_count": 3,
+  "sen_outage_minutes": 713,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "guevara": 101
+  },
   "averias_count_by_municipio": {
     "Boyeros": 2,
     "Habana Del Este": 2,

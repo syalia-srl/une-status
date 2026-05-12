@@ -28,5 +28,8 @@
     "Cotorro Zona De Lotería Está Presentando Disparo Del Circuito": 1
   },
   "averias_total": 17,
-  "daf_total": 10
+  "daf_total": 10,
+  "sen_outage_days": 6,
+  "sen_outage_minutes_total": 3741,
+  "cte_offline_minutes_total": {}
 }

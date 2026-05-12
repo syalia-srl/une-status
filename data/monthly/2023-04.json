@@ -30,5 +30,8 @@
     "La Lisa La Zona De Arroyo Arenas": 1
   },
   "averias_total": 13,
-  "daf_total": 39
+  "daf_total": 39,
+  "sen_outage_days": 15,
+  "sen_outage_minutes_total": 10279,
+  "cte_offline_minutes_total": {}
 }

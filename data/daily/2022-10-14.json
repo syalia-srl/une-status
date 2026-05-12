@@ -1,0 +1,38 @@
+{
+  "date": "2022-10-14",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "sen_outage_minutes": 597,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Regla": 1,
+    "Guanabacoa En El Reparto Santa Fe": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 33,
+  "by_type_counts": {
+    "restablecimiento": 9,
+    "otro": 10,
+    "empty": 3,
+    "corto": 4,
+    "via_libre": 1,
+    "nota_diaria": 1,
+    "averias": 2,
+    "mantenimiento": 2,
+    "daf": 1
+  }
+}

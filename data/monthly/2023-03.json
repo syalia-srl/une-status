@@ -21,5 +21,8 @@
     "Guanabacoa Los Repartos El Roble Y Centro De Guanabacoa": 1
   },
   "averias_total": 4,
-  "daf_total": 17
+  "daf_total": 17,
+  "sen_outage_days": 11,
+  "sen_outage_minutes_total": 5917,
+  "cte_offline_minutes_total": {}
 }

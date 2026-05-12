@@ -41,5 +41,8 @@
     "De Habana Del Este": 1
   },
   "averias_total": 127,
-  "daf_total": 23
+  "daf_total": 23,
+  "sen_outage_days": 11,
+  "sen_outage_minutes_total": 10325,
+  "cte_offline_minutes_total": {}
 }

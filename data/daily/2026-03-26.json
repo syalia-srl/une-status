@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 4515,
   "daf_count": 14,
+  "sen_outage_minutes": 702,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "guevara": 658
+  },
   "averias_count_by_municipio": {
     "Marianao": 1
   },

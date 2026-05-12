@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Boyeros La Zona De Baluarte": 1,
     "Marianao La Zona Del Palmar Y Áreas Cercanas Presentan Disparo Del Circuito": 1

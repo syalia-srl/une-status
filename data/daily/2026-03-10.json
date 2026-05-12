@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 3302,
   "daf_count": 23,
+  "sen_outage_minutes": 1178,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "guevara": 451
+  },
   "averias_count_by_municipio": {},
   "averias_total": 0,
   "source_msg_count": 92,

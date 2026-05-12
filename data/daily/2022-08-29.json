@@ -1,0 +1,37 @@
+{
+  "date": "2022-08-29",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Boyeros Barrio Dinora Está Notificado Con Disparo Del Circuito": 1,
+    "Arroyo Naranjo": 1,
+    "Plaza Está Presentando Disparo Del Circuito Donde Se Está Tratando De Indagar Para Verificar Sus Causas": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 36,
+  "by_type_counts": {
+    "otro": 20,
+    "corto": 1,
+    "restablecimiento": 4,
+    "averias": 2,
+    "disparo_circuito": 4,
+    "via_libre": 4,
+    "empty": 1
+  }
+}

@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 3552,
   "daf_count": 18,
+  "sen_outage_minutes": 896,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Boyeros": 2,
     "Arroyo Naranjo": 1

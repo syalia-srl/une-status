@@ -1,0 +1,38 @@
+{
+  "date": "2022-08-30",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Cotorro Las Zonas De La Portada": 1,
+    "Plaza La Zona Del Vedado Está Presentando Disparo Del Circuito": 1,
+    "San Miguel Del Padrón Se Encuentran Disparado Porque La Demanda Del Área Se Encuentra Por Encima De La Generación Existente": 1,
+    "Boyeros Reparto María Del Carmen": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 69,
+  "by_type_counts": {
+    "otro": 54,
+    "corto": 2,
+    "disparo_circuito": 4,
+    "empty": 2,
+    "via_libre": 5,
+    "mantenimiento": 1,
+    "averias": 1
+  }
+}

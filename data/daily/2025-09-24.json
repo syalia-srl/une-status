@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 610,
   "daf_count": 2,
+  "sen_outage_minutes": 538,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "rente": 304
+  },
   "averias_count_by_municipio": {
     "Boyeros": 3,
     "Centro Habana": 2,

@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 3563,
   "daf_count": 1,
+  "sen_outage_minutes": 979,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "guevara": 1012
+  },
   "averias_count_by_municipio": {
     "Lisa": 3,
     "Playa": 3,

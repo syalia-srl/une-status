@@ -15,12 +15,18 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 11,
+  "source_msg_count": 30,
   "by_type_counts": {
-    "corto": 4,
-    "empty": 6,
-    "otro": 1
+    "otro": 7,
+    "corto": 9,
+    "empty": 11,
+    "restablecimiento": 1,
+    "nota_diaria": 1,
+    "via_libre": 1
   }
 }

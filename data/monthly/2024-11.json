@@ -33,5 +33,8 @@
     "Del Plaza": 1
   },
   "averias_total": 26,
-  "daf_total": 4
+  "daf_total": 4,
+  "sen_outage_days": 3,
+  "sen_outage_minutes_total": 1444,
+  "cte_offline_minutes_total": {}
 }

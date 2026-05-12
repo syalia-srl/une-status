@@ -1,0 +1,43 @@
+{
+  "month": "2022-11",
+  "finalized": true,
+  "dailies_count": 30,
+  "avg_peak_mw": null,
+  "max_peak_mw": null,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Arroyo Naranjo Del Barrio Las Guásimas Se Encuentra Notificada Con Disparo Del Circuito Del Cual Se Está Recorriendo El Área": 1,
+    "Arroyo Naranjo Está Presentando Disparo Del Circuito": 1,
+    "Centro Habana Se Encuentra Con El Circuito Disparado": 1,
+    "Arroyo Naranjo Se Encuentra Con El Circuito Disparado": 1,
+    "Boyeros Del Barrio De Wajay": 1,
+    "Marianao Para La Zona Del Lido": 1,
+    "Lisa": 1,
+    "Habana Del Este": 1,
+    "De San Miguel Padrón Del Barrio Del Diezmero Está Afectado": 1,
+    "Playa": 1,
+    "Guanabacoa La Zona Del Reparto Mañana Y Azotea Se Encontraban Afectado Debido A Un Disparo Del Circuito": 1,
+    "Boyeros Tenemos Notificada El Área De Aldabo Con Transformador Dañado En La Zona De Larcada Y Cidre": 1,
+    "San Miguel Del Padrón": 1,
+    "Plaza De La Revolución El Área Del Vedado": 1,
+    "Playa En El Barrio La Ceiba Está Presentando Disparo Del Circuito": 1,
+    "De San Miguel Del Padrón Está Presentando Disparo Del Circuito": 1,
+    "Boyeros Se Está Presentando Un Disparo Del Circuito Afectando Fontanar": 1,
+    "Playa De La Zona De Miramar": 1,
+    "Boyeros Del Barrio De Río Verde Y Zonas Aledañas Están Presentando Disparo Del Circuito": 1
+  },
+  "averias_total": 19,
+  "daf_total": 24,
+  "sen_outage_days": 15,
+  "sen_outage_minutes_total": 8123,
+  "cte_offline_minutes_total": {}
+}

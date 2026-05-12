@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 3472,
   "daf_count": 2,
+  "sen_outage_minutes": 744,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "guevara": 241
+  },
   "averias_count_by_municipio": {
     "Guanabacoa": 1,
     "Habana Del Este": 1

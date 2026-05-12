@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 393,
   "daf_count": 13,
+  "sen_outage_minutes": 1435,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "felton": 718
+  },
   "averias_count_by_municipio": {
     "Habana Vieja En Estos Momentos": 1
   },

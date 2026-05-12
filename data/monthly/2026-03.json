@@ -36,5 +36,12 @@
     "Boyeros Quedan Afectados": 1
   },
   "averias_total": 129,
-  "daf_total": 421
+  "daf_total": 421,
+  "sen_outage_days": 30,
+  "sen_outage_minutes_total": 25458,
+  "cte_offline_minutes_total": {
+    "rente": 240,
+    "nuevitas": 223,
+    "guevara": 1109
+  }
 }

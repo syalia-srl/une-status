@@ -15,6 +15,12 @@
   },
   "total_block_outage_minutes": 806,
   "daf_count": 6,
+  "sen_outage_minutes": 612,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "maximo-gomez": 670,
+    "rente": 246
+  },
   "averias_count_by_municipio": {
     "Playa": 3,
     "Cerro": 1,

@@ -1,0 +1,31 @@
+{
+  "month": "2022-12",
+  "finalized": true,
+  "dailies_count": 31,
+  "avg_peak_mw": null,
+  "max_peak_mw": null,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Habana Del Este Está Presentado Disparo Del Circuito En El Área De Guanabo": 1,
+    "Cerro Del Área Del Casino Deportivo Está Presentando Disparo Del Circuito": 1,
+    "La Lisa En El Área De La Coronela La Zona Está Presentando Disparo Del Circuito": 1,
+    "Guanabacoa La Zona De Habana Nueva Se Encontraba Con El Circuito Disparado": 1,
+    "Plaza La Zona De Zapata": 1,
+    "Plaza Boyero La Zona De Capdevila": 1,
+    "Playa Del Área De Ampliación De Almendares Y Zonas Aledañas Presentan Disparo Del Circuito": 1
+  },
+  "averias_total": 7,
+  "daf_total": 19,
+  "sen_outage_days": 14,
+  "sen_outage_minutes_total": 8905,
+  "cte_offline_minutes_total": {}
+}

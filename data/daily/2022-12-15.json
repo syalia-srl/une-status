@@ -1,0 +1,40 @@
+{
+  "date": "2022-12-15",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 2,
+  "sen_outage_minutes": 393,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Habana Del Este Está Presentado Disparo Del Circuito En El Área De Guanabo": 1,
+    "Cerro Del Área Del Casino Deportivo Está Presentando Disparo Del Circuito": 1,
+    "La Lisa En El Área De La Coronela La Zona Está Presentando Disparo Del Circuito": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 56,
+  "by_type_counts": {
+    "otro": 25,
+    "empty": 8,
+    "restablecimiento": 8,
+    "nota_diaria": 1,
+    "averias": 1,
+    "via_libre": 1,
+    "corto": 6,
+    "mantenimiento": 1,
+    "disparo_circuito": 3,
+    "daf": 2
+  }
+}

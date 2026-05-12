@@ -1,0 +1,41 @@
+{
+  "date": "2022-09-18",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
+  "sen_outage_minutes": 499,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Cotorro La Zona De Cuatro Camino Se Encuentra Con El Circuito Disparado": 1,
+    "San Miguel Padrón Está Presentado Disparo Del Circuito Afectando El Área De La Rosita": 1,
+    "Cotorro De Los Repartos": 1,
+    "De Guanabacoa": 1,
+    "Boyeros Están Presentando Circuito Disparado": 1
+  },
+  "averias_total": 5,
+  "source_msg_count": 74,
+  "by_type_counts": {
+    "otro": 51,
+    "restablecimiento": 7,
+    "disparo_circuito": 5,
+    "via_libre": 4,
+    "nota_diaria": 1,
+    "corto": 2,
+    "empty": 1,
+    "daf": 1,
+    "averias": 2
+  }
+}

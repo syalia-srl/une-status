@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 17,
+  "sen_outage_minutes": 1032,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "cespedes": 961
+  },
   "averias_count_by_municipio": {
     "Lisa": 1,
     "Lisa Que": 1

@@ -43,5 +43,8 @@
     "Marianao Se Encuentran Afectados Por Un Disparo Del Circuito": 1
   },
   "averias_total": 201,
-  "daf_total": 63
+  "daf_total": 63,
+  "sen_outage_days": 16,
+  "sen_outage_minutes_total": 10962,
+  "cte_offline_minutes_total": {}
 }

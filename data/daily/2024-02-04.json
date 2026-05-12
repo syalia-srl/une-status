@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 1,
+  "sen_outage_minutes": 1207,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Marianao Las Zonas De Santa Felicia": 1,
     "La Lisa La Zona De San Agustin Y Áreas Cercanas Presentan Disparo Del Circuito": 1

@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 2,
+  "sen_outage_minutes": 642,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Habana Del Este En La Zona De Cojimar": 1,
     "Habana Del Este Ya Fue Aislado La Zona De Cojimar Solo Está Afectado": 1,

@@ -40,5 +40,15 @@
     "Plaza De La Revolución": 1
   },
   "averias_total": 152,
-  "daf_total": 183
+  "daf_total": 183,
+  "sen_outage_days": 27,
+  "sen_outage_minutes_total": 24592,
+  "cte_offline_minutes_total": {
+    "rente": 454,
+    "nuevitas": 1589,
+    "felton": 896,
+    "cespedes": 961,
+    "maximo-gomez": 1522,
+    "guevara": 2141
+  }
 }

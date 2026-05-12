@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Cerro Las Zona Del Reparto Martí Está Presentado Disparo Del Circuito": 2,
     "De La Habana Vieja La Zona Del Casco Historico De La Habana Presenta Un Disparo Del Circuito": 1,

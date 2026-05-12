@@ -44,5 +44,8 @@
     "La Lisa": 1
   },
   "averias_total": 57,
-  "daf_total": 26
+  "daf_total": 26,
+  "sen_outage_days": 16,
+  "sen_outage_minutes_total": 11083,
+  "cte_offline_minutes_total": {}
 }

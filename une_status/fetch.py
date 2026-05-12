@@ -81,11 +81,25 @@ def fetch_latest() -> list[RawMessage]:
 
 
 def fetch_backward(start_before: int, max_pages: int = 10_000, sleep_s: float = 0.3) -> Iterable[RawMessage]:
-    """Generator: paginate backward starting from `before=start_before`."""
+    """Generator: paginate backward starting from `before=start_before`.
+
+    Retries transient network errors with exponential backoff (up to 5 attempts
+    per page) before giving up. Long backfills against t.me/s/ regularly hit
+    `ConnectionReset`-style failures partway through.
+    """
     with make_client() as client:
         oldest = start_before
         for _ in range(max_pages):
-            page = fetch_page(client, before=oldest)
+            page = None
+            for attempt in range(5):
+                try:
+                    page = fetch_page(client, before=oldest)
+                    break
+                except (httpx.HTTPError, httpx.RequestError) as e:
+                    wait = sleep_s * (2 ** attempt) + 1.0
+                    time.sleep(wait)
+                    if attempt == 4:
+                        raise
             if not page:
                 return
             new_oldest = page[0].id

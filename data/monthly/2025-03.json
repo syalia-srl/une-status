@@ -35,5 +35,8 @@
     "Boyeros Santiago De Las Vegas Se Encuentran Afectados Por Disparo Del Circuito": 1
   },
   "averias_total": 39,
-  "daf_total": 10
+  "daf_total": 10,
+  "sen_outage_days": 7,
+  "sen_outage_minutes_total": 3464,
+  "cte_offline_minutes_total": {}
 }

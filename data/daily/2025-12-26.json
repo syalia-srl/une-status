@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 2141,
   "daf_count": 2,
+  "sen_outage_minutes": 1056,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "maximo-gomez": 63
+  },
   "averias_count_by_municipio": {},
   "averias_total": 0,
   "source_msg_count": 93,

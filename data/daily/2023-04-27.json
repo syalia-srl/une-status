@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 1,
+  "sen_outage_minutes": 538,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Arroyo Naranjo De La Zona La Lira Está Presentando Una Afectación De Transformador Dañado En El Área De Calle Cisnero Entre Cortes Y Arnao": 1
   },

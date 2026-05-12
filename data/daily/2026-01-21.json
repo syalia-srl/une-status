@@ -15,6 +15,11 @@
   },
   "total_block_outage_minutes": 4046,
   "daf_count": 18,
+  "sen_outage_minutes": 1367,
+  "sen_outage": true,
+  "cte_offline_minutes": {
+    "guevara": 699
+  },
   "averias_count_by_municipio": {
     "Cerro": 1,
     "Arroyo Naranjo": 1,

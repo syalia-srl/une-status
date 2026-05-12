@@ -34,5 +34,8 @@
     "Boyeros La Zona De Altahabana Está Presentando Disparo Del Circuito": 1
   },
   "averias_total": 24,
-  "daf_total": 11
+  "daf_total": 11,
+  "sen_outage_days": 9,
+  "sen_outage_minutes_total": 4092,
+  "cte_offline_minutes_total": {}
 }

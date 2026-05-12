@@ -15,6 +15,9 @@
   },
   "total_block_outage_minutes": 253,
   "daf_count": 9,
+  "sen_outage_minutes": 1229,
+  "sen_outage": true,
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Cotorro": 2,
     "De Arroyo Naranjo Con": 1,
