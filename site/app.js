@@ -84,13 +84,13 @@ function renderSen(cur) {
   if (!sen || !sen.state) {
     banner.classList.add("bg-slate-50","border-slate-300","text-slate-700","dark:bg-slate-900","dark:border-slate-700","dark:text-slate-200");
     stateEl.textContent = "DESCONOCIDO";
-    subEl.textContent = "Sin reportes recientes de DAF.";
+    subEl.textContent = "Sin reportes recientes.";
     return;
   }
   if (sen.state === "offline") {
     banner.classList.add("bg-red-50","border-red-500","text-red-900","dark:bg-red-950","dark:border-red-600","dark:text-red-100");
     stateEl.textContent = "OFFLINE";
-    subEl.textContent = sen.since ? `Caída desde ${fmt.dt(sen.since)} (${fmt.relative(sen.since)})` : "Disparo Automático por Frecuencia activo.";
+    subEl.textContent = sen.since ? `Caída total del SEN desde ${fmt.dt(sen.since)} (${fmt.relative(sen.since)})` : "Desconexión total del SEN.";
   } else {
     banner.classList.add("bg-emerald-50","border-emerald-500","text-emerald-900","dark:bg-emerald-950","dark:border-emerald-600","dark:text-emerald-100");
     stateEl.textContent = "ONLINE";
@@ -303,10 +303,13 @@ function renderMes(month, history) {
 function renderHistorico(at, history) {
   if (!at) { $("#historico-kpis").innerHTML = `<div class="text-slate-500">Sin datos históricos.</div>`; return; }
   const senDays = at.sen_outage_days_total ?? history?.sen_outage_days_total ?? 0;
+  const senCollapses = at.sen_collapse_total ?? history?.sen_collapse_total ?? 0;
   const senHrs = at.sen_outage_minutes_total != null ? (at.sen_outage_minutes_total / 60).toFixed(1) : "—";
+  const dafTotal = at.daf_total ?? history?.daf_total ?? 0;
   $("#historico-kpis").innerHTML = kpiRow([
-    { label: "Caídas del SEN", value: fmt.int(at.daf_total), sub: `${senDays} días con caídas` },
+    { label: "Caídas totales del SEN", value: fmt.int(senCollapses), sub: `${senDays} días con caídas` },
     { label: "Horas caídas SEN", value: senHrs === "—" ? "—" : `${senHrs} h`, sub: "tiempo acumulado" },
+    { label: "Eventos DAF", value: fmt.int(dafTotal), sub: "disparos por frecuencia (parciales)" },
     { label: "Récord pico", value: fmt.mw(at.max_peak_mw), sub: "MW máximo registrado" },
     { label: "Total interrumpido", value: fmt.hours(at.total_interruption_minutes), sub: "todo el histórico" },
     { label: "Averías totales", value: fmt.int(at.averias_total), sub: "" },

@@ -71,10 +71,12 @@ def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
                 municipios[mun] += 1
 
     daf_count = by_type.get("daf", 0)
+    sen_collapse_count = by_type.get("desconexion_total_sen", 0)
 
-    # SEN outage minutes: time spent between daf and restablecimiento_daf events
+    # SEN outage minutes: ONLY full-grid collapse events count. DAF is a
+    # partial freq event and does not constitute a SEN outage.
     sen_outage_minutes = _sen_outage_minutes(events, day)
-    sen_outage = sen_outage_minutes > 0 or daf_count > 0
+    sen_outage = sen_collapse_count > 0
 
     # CTE offline minutes per canonical id
     cte_offline_minutes = _cte_offline_minutes(events, day)
@@ -89,6 +91,7 @@ def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
         "block_outage_minutes": block_minutes,
         "total_block_outage_minutes": sum(block_minutes.values()),
         "daf_count": daf_count,
+        "sen_collapse_count": sen_collapse_count,
         "sen_outage_minutes": sen_outage_minutes,
         "sen_outage": sen_outage,
         "cte_offline_minutes": cte_offline_minutes,
@@ -100,17 +103,19 @@ def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
 
 
 def _sen_outage_minutes(events: list[dict], day: str) -> int:
-    """Greedy pair `daf` with the next `restablecimiento_daf`. Open intervals
-    by end of Havana day count up to midnight.
+    """Greedy pair `desconexion_total_sen` with the next `restablecimiento_sen`.
+    Open intervals at end of Havana day count up to midnight. DAF events are
+    explicitly NOT included — a DAF is a partial frequency trip, not a
+    national blackout.
     """
     total = 0
     open_start: datetime | None = None
     end_of_day = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV) + timedelta(days=1)
     for e in sorted(events, key=lambda x: x["id"]):
         ts = _parse_ts(e["ts"]).astimezone(TZ_HAV)
-        if e["type"] == "daf" and open_start is None:
+        if e["type"] == "desconexion_total_sen" and open_start is None:
             open_start = ts
-        elif e["type"] == "restablecimiento_daf" and open_start is not None:
+        elif e["type"] == "restablecimiento_sen" and open_start is not None:
             total += int(max(0, (ts - open_start).total_seconds() / 60))
             open_start = None
     if open_start is not None:
@@ -223,6 +228,7 @@ def monthly_rollup(month: str, dailies: list[dict]) -> dict:
         "averias_count_by_municipio": dict(mun_totals.most_common()),
         "averias_total": sum(mun_totals.values()),
         "daf_total": sum(d.get("daf_count", 0) for d in dailies),
+        "sen_collapse_total": sum(d.get("sen_collapse_count", 0) for d in dailies),
         "sen_outage_days": sum(1 for d in dailies if d.get("sen_outage")),
         "sen_outage_minutes_total": sum(d.get("sen_outage_minutes", 0) for d in dailies),
         "cte_offline_minutes_total": dict(cte_totals),
@@ -254,6 +260,7 @@ def all_time(monthlies: list[dict]) -> dict:
         "averias_total": sum(mun_totals.values()),
         "averias_top_municipios": dict(mun_totals.most_common(15)),
         "daf_total": sum(m.get("daf_total", 0) for m in monthlies),
+        "sen_collapse_total": sum(m.get("sen_collapse_total", 0) for m in monthlies),
         "sen_outage_days_total": sum(m.get("sen_outage_days", 0) for m in monthlies),
         "sen_outage_minutes_total": sum(m.get("sen_outage_minutes_total", 0) for m in monthlies),
         "cte_offline_minutes_total": dict(cte_totals),
@@ -300,10 +307,10 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             }
         if t == "averias" and last_averias is None:
             last_averias = {"ts": e["ts"], "averias": e.get("averias", [])}
-        if t in ("daf", "restablecimiento_daf"):
+        if t in ("desconexion_total_sen", "restablecimiento_sen"):
             sen_events.append(e)
-            if last_daf is None:
-                last_daf = {"ts": e["ts"], "type": t}
+        if t in ("daf", "restablecimiento_daf") and last_daf is None:
+            last_daf = {"ts": e["ts"], "type": t}
         if t == "unidad_termoelectrica":
             cte = e.get("cte_id")
             unit = e.get("unidad")
@@ -336,18 +343,19 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             entry = {"id": bn, "state": "desconocido"}
         bloques_view.append(entry)
 
-    # SEN view — chronological order, infer current state from latest event
+    # SEN view — chronological order, infer current state from latest event.
+    # Default ONLINE unless an unrecovered collapse is in the recent window.
     sen_events_chrono = sorted(sen_events, key=lambda x: x["id"])
     sen_state = "online"
     sen_since = None
     sen_last_outage_at = None
     sen_last_recovered_at = None
     for ev in sen_events_chrono:
-        if ev["type"] == "daf":
+        if ev["type"] == "desconexion_total_sen":
             sen_state = "offline"
             sen_since = ev["ts"]
             sen_last_outage_at = ev["ts"]
-        elif ev["type"] == "restablecimiento_daf":
+        elif ev["type"] == "restablecimiento_sen":
             sen_state = "online"
             sen_since = ev["ts"]
             sen_last_recovered_at = ev["ts"]

@@ -257,6 +257,10 @@ def _history_series(dailies: list[dict], monthlies: list[dict]) -> dict:
         ],
         "sen_outage_days_total": sum(1 for d in dailies if d.get("sen_outage")),
         "sen_outage_days_last_30d": sum(1 for d in last_30 if d.get("sen_outage")),
+        "sen_collapse_total": sum(d.get("sen_collapse_count", 0) for d in dailies),
+        "sen_collapse_last_30d": sum(d.get("sen_collapse_count", 0) for d in last_30),
+        "daf_total": sum(d.get("daf_count", 0) for d in dailies),
+        "daf_last_30d": sum(d.get("daf_count", 0) for d in last_30),
         "cte_offline_minutes_total": dict(cte_offline_min),
         "cte_offline_days_total": dict(cte_outage_days),
     }

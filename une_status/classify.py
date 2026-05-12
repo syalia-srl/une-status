@@ -11,6 +11,24 @@ import re
 # Pre-compiled patterns; tested against the playground sample.
 RE_BLOQUE_HORAS = re.compile(r"bloque\s+\d.*?\d+\s*horas?\s+y", re.IGNORECASE)
 RE_DAF = re.compile(r"disparo autom[áa]tico|\bDAF\b", re.IGNORECASE)
+# Full SEN collapse — explicit national-blackout markers
+RE_SEN_COLLAPSE = re.compile(
+    r"desconex[ií]on\s+total\s+del\s+(?:sen|sistema)"
+    r"|salida\s+total\s+del\s+(?:sen|sistema)"
+    r"|colaps[oó]\s+(?:total\s+)?(?:del\s+)?(?:sen|sistema\s+electroenerg)"
+    r"|afectaci[oó]n\s+(?:del\s+)?100\s*%"
+    r"|100\s*%\s+del\s+pa[ií]s"
+    r"|se\s+perdi[oó]\s+(?:todo\s+)?el\s+(?:sen|sistema)"
+    r"|se\s+desconect[oó]\s+(?:todo\s+)?el\s+(?:sen|sistema)",
+    re.IGNORECASE,
+)
+RE_SEN_RECOVER = re.compile(
+    r"recuperaci[oó]n\s+(?:total\s+)?del\s+(?:sen|sistema)"
+    r"|restablecimiento\s+(?:total\s+)?del\s+(?:sen|sistema)"
+    r"|se\s+recuper[oó]\s+(?:todo\s+)?el\s+(?:sen|sistema)"
+    r"|sincronizaci[oó]n\s+(?:total\s+)?del\s+sen",
+    re.IGNORECASE,
+)
 RE_INICIO_BLOQUE = re.compile(
     r"informamos.*?clientes asociados.*?(?:bloque|circuitos?\s+(?:de\s+)?emergen).*?inicia (?:la )?afect",
     re.IGNORECASE | re.DOTALL,
@@ -49,7 +67,17 @@ def classify(text: str) -> str:
     ):
         return "nota_diaria"
 
-    # DAF restoration vs DAF event
+    # Full-grid collapse signals — these are RARE, must run before DAF check.
+    # A DAF is partial; a "desconexión total" / "salida total" / "afectación
+    # del 100% del país" is a national blackout (the real "SEN caído").
+    if RE_SEN_COLLAPSE.search(tl):
+        if RE_SEN_RECOVER.search(tl):
+            return "restablecimiento_sen"
+        return "desconexion_total_sen"
+    if RE_SEN_RECOVER.search(tl):
+        return "restablecimiento_sen"
+
+    # DAF restoration vs DAF event (partial frequency event, NOT a SEN collapse)
     if RE_DAF.search(tl):
         if "restablec" in tl:
             return "restablecimiento_daf"
