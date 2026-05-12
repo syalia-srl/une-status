@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-05-12T17:52:38+00:00",
+  "generated_at": "2026-05-12T19:27:46+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-12T17:41:44+00:00",
+    "as_of": "2026-05-12T18:54:16+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido",
-        "since": "2026-05-12T14:33:15+00:00"
+        "state": "apagado",
+        "since": "2026-05-12T18:33:21+00:00",
+        "emergency": true
       },
       {
         "id": 2,
@@ -38,13 +39,28 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 138,
-    "current_mw_affected_at": "2026-05-12T17:41:44+00:00",
+    "current_mw_affected": 176,
+    "current_mw_affected_at": "2026-05-12T18:50:54+00:00",
     "active_averias": {
-      "ts": "2026-05-12T17:17:43+00:00",
-      "averias": []
+      "ts": "2026-05-12T18:06:03+00:00",
+      "averias": [
+        {
+          "municipio": "Habana Del Este",
+          "severity": "primaria"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-12T18:50:10+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-12T18:06:03+00:00",
+        "municipio": "Habana Del Este",
+        "severity": "primaria"
+      },
       {
         "ts": "2026-05-12T13:14:19+00:00",
         "municipio": "Playa",
@@ -98,7 +114,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-12T15:15:38+00:00",
+      "ts": "2026-05-12T18:54:16+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -309,41 +325,41 @@
     "interruption_minutes": 1440,
     "emergency_mw": 122,
     "block_outage_minutes": {
-      "1": 0,
+      "1": 10,
       "2": 0,
       "3": 0,
-      "4": 180,
+      "4": 255,
       "5": 0,
-      "6": 80
+      "6": 140
     },
-    "total_block_outage_minutes": 260,
-    "daf_count": 4,
+    "total_block_outage_minutes": 405,
+    "daf_count": 6,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 2,
+      "Habana Del Este": 4,
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
       "Arroyo Naranjo": 1,
       "Playa": 1
     },
-    "averias_total": 6,
-    "source_msg_count": 54,
+    "averias_total": 8,
+    "source_msg_count": 62,
     "by_type_counts": {
       "otro": 4,
-      "actualizacion_bloques": 13,
-      "averias": 9,
-      "disparo_circuito": 3,
+      "actualizacion_bloques": 14,
+      "averias": 10,
+      "disparo_circuito": 4,
       "restablecimiento": 10,
-      "daf": 4,
+      "daf": 6,
       "restablecimiento_daf": 2,
-      "inicio_afectacion": 4,
+      "inicio_afectacion": 5,
       "nota_diaria": 1,
       "sen_update": 1,
       "empty": 1,
-      "mantenimiento": 1,
+      "mantenimiento": 3,
       "corto": 1
     }
   },
@@ -405,17 +421,17 @@
     "max_peak_mw": 468,
     "total_interruption_minutes": 8570,
     "total_block_outage_minutes": {
-      "1": 2176,
+      "1": 2186,
       "2": 2442,
       "3": 2097,
-      "4": 1891,
+      "4": 1966,
       "5": 2020,
-      "6": 2088
+      "6": 2148
     },
     "total_emergency_mw_sum": 754,
     "averias_count_by_municipio": {
+      "Habana Del Este": 9,
       "Guanabacoa": 8,
-      "Habana Del Este": 7,
       "Lisa": 6,
       "San Miguel Del Padrón": 6,
       "Arroyo Naranjo": 6,
@@ -430,8 +446,8 @@
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1
     },
-    "averias_total": 58,
-    "daf_total": 53,
+    "averias_total": 60,
+    "daf_total": 55,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -448,16 +464,16 @@
     "max_peak_mw": 468,
     "total_interruption_minutes": 10490,
     "total_block_outage_minutes": {
-      "1": 2752,
+      "1": 2762,
       "2": 2887,
       "3": 3142,
-      "4": 2601,
+      "4": 2676,
       "5": 2245,
-      "6": 2818
+      "6": 2878
     },
     "total_emergency_mw_sum": 939,
     "averias_count_by_municipio": {
-      "Habana Del Este": 22,
+      "Habana Del Este": 24,
       "Lisa": 16,
       "Arroyo Naranjo": 15,
       "San Miguel Del Padrón": 14,
@@ -476,8 +492,8 @@
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1
     },
-    "averias_total": 135,
-    "daf_total": 86,
+    "averias_total": 137,
+    "daf_total": 88,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -490,20 +506,20 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 52570,
     "total_block_outage_minutes": {
-      "1": 57246,
+      "1": 57256,
       "2": 60966,
       "3": 48866,
-      "4": 54833,
+      "4": 54908,
       "5": 52416,
-      "6": 53120
+      "6": 53180
     },
-    "averias_total": 3076,
+    "averias_total": 3078,
     "averias_top_municipios": {
       "Boyeros": 314,
       "Playa": 275,
       "Arroyo Naranjo": 237,
       "Lisa": 218,
-      "Habana Del Este": 207,
+      "Habana Del Este": 209,
       "Guanabacoa": 196,
       "Cerro": 178,
       "San Miguel Del Padrón": 173,
@@ -515,7 +531,7 @@
       "De Boyeros": 48,
       "Regla": 38
     },
-    "daf_total": 2235,
+    "daf_total": 2237,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -771,7 +787,7 @@
       },
       {
         "date": "2026-05-12",
-        "minutes": 260
+        "minutes": 405
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1865,15 +1881,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 16445
+        "minutes": 16590
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2235,
-    "daf_last_30d": 207,
+    "daf_total": 2237,
+    "daf_last_30d": 209,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

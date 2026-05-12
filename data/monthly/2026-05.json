@@ -6,16 +6,16 @@
   "max_peak_mw": 468,
   "total_interruption_minutes": 10490,
   "total_block_outage_minutes": {
-    "1": 2752,
+    "1": 2762,
     "2": 2887,
     "3": 3142,
-    "4": 2601,
+    "4": 2676,
     "5": 2245,
-    "6": 2818
+    "6": 2878
   },
   "total_emergency_mw_sum": 939,
   "averias_count_by_municipio": {
-    "Habana Del Este": 22,
+    "Habana Del Este": 24,
     "Lisa": 16,
     "Arroyo Naranjo": 15,
     "San Miguel Del Padrón": 14,
@@ -34,8 +34,8 @@
     "Arroyo Naranjo Queda Reparada La Avería": 1,
     "Habana Vieja": 1
   },
-  "averias_total": 135,
-  "daf_total": 86,
+  "averias_total": 137,
+  "daf_total": 88,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
