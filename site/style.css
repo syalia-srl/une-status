@@ -1,0 +1,67 @@
+/* Plain CSS overrides — Tailwind CDN doesn't process @apply. */
+:root { color-scheme: light dark; }
+
+.kpi {
+  border: 1px solid rgb(226 232 240);
+  background: white;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+.dark .kpi {
+  border-color: rgb(30 41 59);
+  background: rgb(15 23 42);
+}
+.kpi .label {
+  font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em;
+  color: rgb(100 116 139);
+}
+.dark .kpi .label { color: rgb(148 163 184); }
+.kpi .value {
+  font-size: 1.5rem; font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.kpi .sub {
+  font-size: 0.7rem;
+  color: rgb(100 116 139);
+  margin-top: 0.125rem;
+}
+
+.bloque-card {
+  border: 1px solid; border-radius: 0.5rem; padding: 0.75rem;
+  display: flex; flex-direction: column; gap: 0.25rem;
+  transition: background-color 0.2s;
+}
+.bloque-card.on {
+  border-color: rgb(110 231 183); background: rgb(236 253 245);
+}
+.dark .bloque-card.on {
+  border-color: rgb(6 78 59); background: rgb(2 44 34);
+}
+.bloque-card.off {
+  border-color: rgb(252 165 165); background: rgb(254 242 242);
+}
+.dark .bloque-card.off {
+  border-color: rgb(127 29 29); background: rgb(69 10 10);
+}
+.bloque-card.unk {
+  border-color: rgb(203 213 225); background: rgb(241 245 249);
+}
+.dark .bloque-card.unk {
+  border-color: rgb(30 41 59); background: rgb(15 23 42);
+}
+.bloque-card .num {
+  font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.05em; color: rgb(100 116 139);
+}
+.dark .bloque-card .num { color: rgb(148 163 184); }
+.bloque-card .state { font-size: 1.125rem; font-weight: 700; }
+.bloque-card.on .state { color: rgb(4 120 87); }
+.dark .bloque-card.on .state { color: rgb(110 231 183); }
+.bloque-card.off .state { color: rgb(185 28 28); }
+.dark .bloque-card.off .state { color: rgb(252 165 165); }
+.bloque-card.unk .state { color: rgb(71 85 105); }
+.dark .bloque-card.unk .state { color: rgb(148 163 184); }
+.bloque-card .meta {
+  font-size: 0.75rem; color: rgb(71 85 105);
+}
+.dark .bloque-card .meta { color: rgb(148 163 184); }

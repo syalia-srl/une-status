@@ -1,0 +1,258 @@
+"""Rollup events into daily, monthly, all-time, and current-state structures.
+
+Daily rollups are immutable once finalized; monthly are derived from dailies.
+Current state is computed each run from the most recent events.
+"""
+from __future__ import annotations
+
+from collections import Counter, defaultdict
+from datetime import date, datetime, timezone, timedelta
+from typing import Iterable
+from zoneinfo import ZoneInfo
+
+from . import HAVANA_TZ
+
+TZ_HAV = ZoneInfo(HAVANA_TZ)
+
+
+def _parse_ts(s: str) -> datetime:
+    """Parse ISO 8601 with Z or offset."""
+    return datetime.fromisoformat(s.replace("Z", "+00:00"))
+
+
+def havana_date(ts: str) -> str:
+    """Map a UTC ISO timestamp to its Havana civil date (YYYY-MM-DD)."""
+    return _parse_ts(ts).astimezone(TZ_HAV).date().isoformat()
+
+
+def bucket_events_by_day(events: Iterable[dict]) -> dict[str, list[dict]]:
+    out: dict[str, list[dict]] = defaultdict(list)
+    for e in events:
+        out[havana_date(e["ts"])].append(e)
+    return out
+
+
+def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
+    """Build the daily rollup for `day` from its events (sorted by id)."""
+    events = sorted(events, key=lambda e: e["id"])
+    by_type = Counter(e["type"] for e in events)
+
+    # peak MW + time: prefer nota_diaria, fallback to actualizacion_bloques
+    peak_mw = 0
+    peak_time = None
+    notas = [e for e in events if e["type"] == "nota_diaria"]
+    for n in notas:
+        if "max_affected_mw" in n and n["max_affected_mw"] > peak_mw:
+            peak_mw = n["max_affected_mw"]
+            peak_time = n.get("max_affected_clock")
+    # fallback: max of actualizacion_bloques.total_mw
+    if peak_mw == 0:
+        for e in events:
+            if e["type"] == "actualizacion_bloques" and "total_mw" in e:
+                if e["total_mw"] > peak_mw:
+                    peak_mw = e["total_mw"]
+                    peak_time = _parse_ts(e["ts"]).astimezone(TZ_HAV).strftime("%H:%M")
+
+    interruption_minutes = sum(n.get("interruption_minutes", 0) for n in notas)
+    emergency_mw = max((n.get("emergency_mw", 0) for n in notas), default=0)
+
+    # block outage minutes: prefer the latest actualizacion_bloques of the day
+    # (which carries running cumulative totals), fall back to greedy event pairing.
+    block_minutes = _block_outage_from_latest_actualizacion(events) or _block_outage_minutes(events, day)
+
+    # averias by municipio
+    municipios: Counter = Counter()
+    for e in events:
+        if e["type"] == "averias":
+            for a in e.get("averias", []):
+                municipios[a.get("municipio", "Desconocido")] += 1
+        elif e["type"] == "disparo_circuito":
+            if mun := e.get("municipio"):
+                municipios[mun] += 1
+
+    daf_count = by_type.get("daf", 0)
+
+    return {
+        "date": day,
+        "finalized": finalized,
+        "peak_mw_affected": peak_mw or None,
+        "peak_time": peak_time,
+        "interruption_minutes": interruption_minutes or None,
+        "emergency_mw": emergency_mw or None,
+        "block_outage_minutes": block_minutes,
+        "total_block_outage_minutes": sum(block_minutes.values()),
+        "daf_count": daf_count,
+        "averias_count_by_municipio": dict(municipios.most_common()),
+        "averias_total": sum(municipios.values()),
+        "source_msg_count": len(events),
+        "by_type_counts": dict(by_type),
+    }
+
+
+def _block_outage_from_latest_actualizacion(events: list[dict]) -> dict[str, int]:
+    """Read the latest actualizacion_bloques of the day; its hours_off/minutes_off
+    fields are running cumulative totals per bloque.
+    """
+    actualizaciones = [e for e in events if e["type"] == "actualizacion_bloques" and e.get("blocks")]
+    if not actualizaciones:
+        return {}
+    latest = max(actualizaciones, key=lambda e: e["id"])
+    out = {str(b): 0 for b in range(1, 7)}
+    for blk in latest.get("blocks", []):
+        bn = str(blk["bloque"])
+        out[bn] = blk["hours_off"] * 60 + blk["minutes_off"]
+    return out
+
+
+def _block_outage_minutes(events: list[dict], day: str) -> dict[str, int]:
+    """For each bloque (1–6), sum minutes between inicio_afectacion and
+    restablecimiento events on `day`. If a bloque starts off mid-day with no
+    matching restablecimiento by day end (Havana midnight), count to midnight.
+    """
+    minutes: dict[str, int] = {str(b): 0 for b in range(1, 7)}
+    state: dict[int, datetime] = {}  # bloque -> start_ts
+    end_of_day = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV) + timedelta(days=1)
+
+    for e in sorted(events, key=lambda x: x["id"]):
+        b = e.get("bloque")
+        if not b or b < 1 or b > 6:
+            continue
+        ts = _parse_ts(e["ts"]).astimezone(TZ_HAV)
+        if e["type"] == "inicio_afectacion":
+            state[b] = ts
+        elif e["type"] == "restablecimiento":
+            if b in state:
+                delta = (ts - state[b]).total_seconds() / 60
+                minutes[str(b)] += int(max(0, delta))
+                del state[b]
+    # any block still off at end of day
+    for b, start in state.items():
+        delta = (end_of_day - start).total_seconds() / 60
+        minutes[str(b)] += int(max(0, delta))
+    return minutes
+
+
+def monthly_rollup(month: str, dailies: list[dict]) -> dict:
+    """Aggregate a list of daily rollups into a month."""
+    if not dailies:
+        return {"month": month, "finalized": False, "dailies_count": 0}
+
+    peak_mws = [d["peak_mw_affected"] for d in dailies if d.get("peak_mw_affected")]
+    interruptions = [d.get("interruption_minutes") or 0 for d in dailies]
+    block_totals: Counter = Counter()
+    for d in dailies:
+        for b, m in (d.get("block_outage_minutes") or {}).items():
+            block_totals[b] += m
+    mun_totals: Counter = Counter()
+    for d in dailies:
+        for m, n in (d.get("averias_count_by_municipio") or {}).items():
+            mun_totals[m] += n
+
+    return {
+        "month": month,
+        "finalized": all(d.get("finalized") for d in dailies),
+        "dailies_count": len(dailies),
+        "avg_peak_mw": round(sum(peak_mws) / len(peak_mws), 1) if peak_mws else None,
+        "max_peak_mw": max(peak_mws, default=None),
+        "total_interruption_minutes": sum(interruptions),
+        "total_block_outage_minutes": dict(block_totals),
+        "total_emergency_mw_sum": sum(d.get("emergency_mw") or 0 for d in dailies),
+        "averias_count_by_municipio": dict(mun_totals.most_common()),
+        "averias_total": sum(mun_totals.values()),
+        "daf_total": sum(d.get("daf_count", 0) for d in dailies),
+    }
+
+
+def all_time(monthlies: list[dict]) -> dict:
+    if not monthlies:
+        return {"finalized": False}
+    peak_mws = [m["max_peak_mw"] for m in monthlies if m.get("max_peak_mw")]
+    block_totals: Counter = Counter()
+    for m in monthlies:
+        for b, mi in (m.get("total_block_outage_minutes") or {}).items():
+            block_totals[b] += mi
+    mun_totals: Counter = Counter()
+    for m in monthlies:
+        for mn, n in (m.get("averias_count_by_municipio") or {}).items():
+            mun_totals[mn] += n
+    return {
+        "months_count": len(monthlies),
+        "max_peak_mw": max(peak_mws, default=None),
+        "total_interruption_minutes": sum(m.get("total_interruption_minutes", 0) for m in monthlies),
+        "total_block_outage_minutes": dict(block_totals),
+        "averias_total": sum(mun_totals.values()),
+        "averias_top_municipios": dict(mun_totals.most_common(15)),
+        "daf_total": sum(m.get("daf_total", 0) for m in monthlies),
+    }
+
+
+def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
+    """Compute live state from the most recent events.
+
+    `events` is the buffer of recent events (typically last 24-48h). We scan
+    from newest to oldest, taking the first authoritative signal per block.
+    """
+    events = sorted(events, key=lambda e: e["id"], reverse=True)
+    blocks: dict[int, dict] = {}  # bloque -> {state, since, source_id}
+    last_total_mw = None
+    last_total_mw_ts = None
+    last_actualizacion_blocks: dict[int, dict] = {}
+    last_averias = None
+    last_daf = None
+    last_pronostico = None
+
+    as_of = events[0]["ts"] if events else None
+
+    for e in events:
+        t = e["type"]
+        b = e.get("bloque")
+        if t == "actualizacion_bloques" and last_total_mw is None:
+            last_total_mw = e.get("total_mw")
+            last_total_mw_ts = e["ts"]
+            for blk in e.get("blocks", []):
+                bn = blk["bloque"]
+                if bn not in last_actualizacion_blocks:
+                    last_actualizacion_blocks[bn] = blk
+        if t in ("inicio_afectacion", "restablecimiento") and b and b not in blocks:
+            blocks[b] = {
+                "state": "apagado" if t == "inicio_afectacion" else "encendido",
+                "since": e["ts"],
+                "emergency": e.get("emergency", False),
+            }
+        if t == "averias" and last_averias is None:
+            last_averias = {"ts": e["ts"], "averias": e.get("averias", [])}
+        if t in ("daf", "restablecimiento_daf") and last_daf is None:
+            last_daf = {"ts": e["ts"], "type": t}
+        if t == "pronostico" and last_pronostico is None:
+            cutoff = _parse_ts(as_of) - timedelta(hours=pronostico_recent_h) if as_of else None
+            if not cutoff or _parse_ts(e["ts"]) >= cutoff:
+                last_pronostico = {"ts": e["ts"]}
+
+    # Build bloques view 1..6
+    bloques_view = []
+    for bn in range(1, 7):
+        b = blocks.get(bn)
+        actual = last_actualizacion_blocks.get(bn)
+        if b:
+            entry = {"id": bn, "state": b["state"], "since": b["since"]}
+            if b["state"] == "apagado" and b.get("emergency"):
+                entry["emergency"] = True
+        elif actual:
+            # infer from latest schedule: any hours_off > 0 → currently off (approx)
+            off = (actual["hours_off"] * 60 + actual["minutes_off"]) > 0
+            entry = {"id": bn, "state": "apagado" if off else "encendido"}
+            if actual:
+                entry["hours_off_today"] = actual["hours_off"] + actual["minutes_off"] / 60
+        else:
+            entry = {"id": bn, "state": "desconocido"}
+        bloques_view.append(entry)
+
+    return {
+        "as_of": as_of,
+        "bloques": bloques_view,
+        "current_mw_affected": last_total_mw,
+        "current_mw_affected_at": last_total_mw_ts,
+        "active_averias": last_averias,
+        "last_daf": last_daf,
+        "last_pronostico": last_pronostico,
+    }

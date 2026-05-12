@@ -1,0 +1,36 @@
+name: update
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+      - name: install
+        run: uv sync
+      - name: run update
+        run: uv run python -m une_status.update
+      - name: run tests
+        run: uv run pytest -q
+      - name: commit & push
+        run: |
+          git config user.name "une-status-bot"
+          git config user.email "bot@syalia.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
