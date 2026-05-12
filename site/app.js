@@ -136,26 +136,41 @@ function startSenCounter() {
   counterInterval = setInterval(tick, 1000);
 }
 
+// Canonical CTE registry — every plant we know how to recognize, even if no
+// recent event has been observed. Order matches the dashboard reading order.
+const CTE_REGISTRY = [
+  "felton", "guiteras", "maximo-gomez", "cespedes",
+  "nuevitas", "tallapiedra", "guevara", "rente",
+];
+
 function renderCtes(cur) {
   const grid = $("#ctes-grid");
   const empty = $("#ctes-empty");
   grid.innerHTML = "";
-  const ctes = cur?.ctes || [];
-  if (!ctes.length) {
-    empty.classList.remove("hidden");
-    return;
-  }
   empty.classList.add("hidden");
-  for (const c of ctes) {
-    const klass = c.state === "online" ? "on" : c.state === "offline" ? "off" : "unk";
-    const label = c.state === "online" ? "🟢 ONLINE" : c.state === "offline" ? "🔴 OFFLINE" : "🟡 PARCIAL";
+  const byId = {};
+  for (const c of (cur?.ctes || [])) byId[c.id] = c;
+  for (const id of CTE_REGISTRY) {
+    const c = byId[id];
+    let klass, label, meta1, meta2;
+    if (!c) {
+      klass = "unk";
+      label = "⚪ SIN DATOS";
+      meta1 = "sin reportes recientes";
+      meta2 = "";
+    } else {
+      klass = c.state === "online" ? "on" : c.state === "offline" ? "off" : "unk";
+      label = c.state === "online" ? "🟢 ONLINE" : c.state === "offline" ? "🔴 OFFLINE" : "🟡 PARCIAL";
+      meta1 = `${c.online_units} en línea · ${c.offline_units} fuera`;
+      meta2 = c.last_change_at ? `cambio: ${fmt.relative(c.last_change_at)}` : "";
+    }
     const card = document.createElement("div");
     card.className = `bloque-card ${klass} text-left`;
     card.innerHTML = `
-      <div class="num text-xs">${escapeHtml(c.name)}</div>
+      <div class="num text-xs">${escapeHtml(cteLabel(id))}</div>
       <div class="state text-base">${label}</div>
-      <div class="meta">${c.online_units} en línea · ${c.offline_units} fuera</div>
-      ${c.last_change_at ? `<div class="meta">cambio: ${fmt.relative(c.last_change_at)}</div>` : ""}
+      <div class="meta">${meta1}</div>
+      ${meta2 ? `<div class="meta">${meta2}</div>` : ""}
     `;
     grid.appendChild(card);
   }
@@ -187,26 +202,36 @@ function renderBloques(cur) {
 function renderAverias(cur) {
   const list = $("#averias-list");
   list.innerHTML = "";
-  const av = cur?.active_averias;
-  if (!av || !av.averias?.length) {
-    list.innerHTML = `<div class="text-slate-500">Sin averías reportadas recientemente.</div>`;
+  const items = cur?.averias_24h || [];
+  if (!items.length) {
+    list.innerHTML = `<div class="text-slate-500">Sin averías reportadas en las últimas 24 h.</div>`;
     return;
   }
-  for (const a of av.averias.slice(0, 20)) {
+  // Group by municipio for compactness; preserve newest ts per group.
+  const groups = new Map();
+  for (const a of items) {
+    const key = a.municipio || "?";
+    if (!groups.has(key)) groups.set(key, { count: 0, latest_ts: a.ts, samples: [] });
+    const g = groups.get(key);
+    g.count += 1;
+    if (a.ts > g.latest_ts) g.latest_ts = a.ts;
+    if (g.samples.length < 2 && a.direccion) g.samples.push(a.direccion);
+  }
+  const sorted = [...groups.entries()].sort((a, b) => b[1].count - a[1].count);
+  for (const [mun, g] of sorted) {
     const row = document.createElement("div");
+    row.className = "flex justify-between gap-2";
+    const direcciones = g.samples.length ? ` — ${escapeHtml(g.samples.join(" · "))}` : "";
     row.innerHTML = `
-      <span class="font-semibold">${escapeHtml(a.municipio || "?")}</span>
-      ${a.direccion ? `<span class="text-slate-500"> — ${escapeHtml(a.direccion)}</span>` : ""}
-      ${a.severity ? `<span class="text-xs text-slate-500"> [${a.severity}]</span>` : ""}
+      <span><span class="font-semibold">${escapeHtml(mun)}</span><span class="text-slate-500">${direcciones}</span></span>
+      <span class="tabular-nums text-slate-500 text-xs whitespace-nowrap">${g.count}× · ${fmt.relative(g.latest_ts)}</span>
     `;
     list.appendChild(row);
   }
-  if (av.ts) {
-    const ts = document.createElement("div");
-    ts.className = "text-xs text-slate-500 mt-2";
-    ts.textContent = `Última actualización: ${fmt.relative(av.ts)} (${fmt.dt(av.ts)})`;
-    list.appendChild(ts);
-  }
+  const tot = document.createElement("div");
+  tot.className = "text-xs text-slate-500 mt-2 pt-2 border-t border-slate-200 dark:border-slate-800";
+  tot.textContent = `${items.length} reportes en ${sorted.length} municipios (últimas 24 h)`;
+  list.appendChild(tot);
 }
 
 function renderExtras(cur) {

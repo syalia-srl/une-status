@@ -392,12 +392,26 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             "last_change_at": last_change,
         })
 
+    # Averías últimas 24h — aggregate every averías/disparo_circuito event in window
+    cutoff = _parse_ts(as_of) - timedelta(hours=24) if as_of else None
+    averias_24h: list[dict] = []
+    for e in events:
+        if cutoff and _parse_ts(e["ts"]) < cutoff:
+            continue
+        if e["type"] == "averias":
+            for a in e.get("averias", []) or []:
+                averias_24h.append({"ts": e["ts"], **a})
+        elif e["type"] == "disparo_circuito" and e.get("municipio"):
+            averias_24h.append({"ts": e["ts"], "municipio": e["municipio"], "kind": "disparo_circuito"})
+    averias_24h.sort(key=lambda x: x["ts"], reverse=True)
+
     return {
         "as_of": as_of,
         "bloques": bloques_view,
         "current_mw_affected": last_total_mw,
         "current_mw_affected_at": last_total_mw_ts,
         "active_averias": last_averias,
+        "averias_24h": averias_24h,
         "last_daf": last_daf,
         "last_pronostico": last_pronostico,
         "sen": sen_view,

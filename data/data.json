@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-12T16:11:58+00:00",
+  "generated_at": "2026-05-12T16:22:45+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-12T15:27:07+00:00",
+    "as_of": "2026-05-12T16:22:20+00:00",
     "bloques": [
       {
         "id": 1,
@@ -29,14 +29,14 @@
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-05-11T22:02:33+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-12T16:15:04+00:00"
       },
       {
         "id": 6,
-        "state": "encendido",
-        "since": "2026-05-12T12:59:21+00:00"
+        "state": "apagado",
+        "since": "2026-05-12T16:22:20+00:00",
+        "emergency": true
       }
     ],
     "current_mw_affected": 167,
@@ -51,6 +51,59 @@
         }
       ]
     },
+    "averias_24h": [
+      {
+        "ts": "2026-05-12T13:14:19+00:00",
+        "municipio": "Playa",
+        "direccion": "9na A/5ta y 150",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-12T12:45:33+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "Pinar del Rio e/ Cervantes y San Juan",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-12T12:37:02+00:00",
+        "municipio": "Habana Del Este",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-05-12T06:39:15+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": ": Calle G / 2da y 3ra , Sibarimar 📍 🔴",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-12T06:14:16+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": ": Calzada de San Miguel / Balear y San Francisca 📍 🔴",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-12T06:12:19+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": ": Versalles / Máximo Gómez y Cadena, Villa 1",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-12T02:56:10+00:00",
+        "municipio": "Lisa",
+        "direccion": ": 65 / 190 y 192",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-11T19:29:39+00:00",
+        "municipio": "Plaza",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-11T19:24:13+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": {
       "ts": "2026-05-12T15:15:38+00:00",
       "type": "daf"
@@ -109,16 +162,16 @@
       "Playa": 1
     },
     "averias_total": 6,
-    "source_msg_count": 44,
+    "source_msg_count": 48,
     "by_type_counts": {
-      "otro": 3,
+      "otro": 4,
       "actualizacion_bloques": 11,
       "averias": 8,
       "disparo_circuito": 1,
-      "restablecimiento": 8,
+      "restablecimiento": 9,
       "daf": 4,
       "restablecimiento_daf": 2,
-      "inicio_afectacion": 2,
+      "inicio_afectacion": 4,
       "nota_diaria": 1,
       "sen_update": 1,
       "empty": 1,
