@@ -1,5 +1,6 @@
 {
-  "last_msg_id": 61870,
-  "last_run_at": "2026-05-12T17:16:17+00:00",
-  "backfill_completed_at": "2026-05-12T17:16:17+00:00"
+  "last_msg_id": 61874,
+  "last_run_at": "2026-05-12T17:52:38+00:00",
+  "new_msgs": 4,
+  "pruned_files": []
 }
