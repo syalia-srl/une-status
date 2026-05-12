@@ -15,7 +15,7 @@
   },
   "total_emergency_mw_sum": 939,
   "averias_count_by_municipio": {
-    "Habana Del Este": 24,
+    "Habana Del Este": 25,
     "Lisa": 16,
     "Arroyo Naranjo": 15,
     "San Miguel Del Padrón": 14,
@@ -34,7 +34,7 @@
     "Arroyo Naranjo Queda Reparada La Avería": 1,
     "Habana Vieja": 1
   },
-  "averias_total": 137,
+  "averias_total": 138,
   "daf_total": 88,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
