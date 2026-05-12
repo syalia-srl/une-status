@@ -15,6 +15,7 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "cte_offline_minutes": {},
@@ -26,8 +27,9 @@
   "by_type_counts": {
     "otro": 10,
     "empty": 7,
-    "restablecimiento": 6,
+    "restablecimiento": 5,
     "averias": 2,
+    "restablecimiento_sen": 1,
     "via_libre": 1,
     "corto": 1
   }

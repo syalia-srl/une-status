@@ -15,8 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 1,
-  "sen_outage_minutes": 1375,
-  "sen_outage": true,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Arroyo Naranjo Del Barrio Las Guásimas Se Encuentra Notificada Con Disparo Del Circuito Del Cual Se Está Recorriendo El Área": 1

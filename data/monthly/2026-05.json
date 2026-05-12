@@ -21,8 +21,8 @@
     "San Miguel Del Padrón": 14,
     "Guanabacoa": 12,
     "Plaza": 10,
+    "Playa": 9,
     "Cerro": 8,
-    "Playa": 8,
     "Marianao": 6,
     "Boyeros": 6,
     "Cotorro": 5,
@@ -34,11 +34,11 @@
     "Arroyo Naranjo Queda Reparada La Avería": 1,
     "Habana Vieja": 1
   },
-  "averias_total": 134,
+  "averias_total": 135,
   "daf_total": 85,
   "sen_collapse_total": 0,
-  "sen_outage_days": 10,
-  "sen_outage_minutes_total": 5202,
+  "sen_outage_days": 0,
+  "sen_outage_minutes_total": 0,
   "cte_offline_minutes_total": {
     "felton": 803
   }

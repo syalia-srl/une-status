@@ -15,8 +15,9 @@
   },
   "total_block_outage_minutes": 4046,
   "daf_count": 18,
-  "sen_outage_minutes": 1367,
-  "sen_outage": true,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
   "cte_offline_minutes": {
     "guevara": 699
   },

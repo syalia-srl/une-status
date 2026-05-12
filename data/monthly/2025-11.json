@@ -48,8 +48,9 @@
   },
   "averias_total": 150,
   "daf_total": 134,
-  "sen_outage_days": 26,
-  "sen_outage_minutes_total": 22081,
+  "sen_collapse_total": 0,
+  "sen_outage_days": 0,
+  "sen_outage_minutes_total": 0,
   "cte_offline_minutes_total": {
     "maximo-gomez": 499,
     "rente": 240,

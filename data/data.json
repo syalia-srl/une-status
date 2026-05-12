@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T15:01:38+00:00",
+  "generated_at": "2026-05-12T15:35:09+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
@@ -35,19 +35,18 @@
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-05-11T19:22:41+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-12T12:59:21+00:00"
       }
     ],
     "current_mw_affected": 169,
     "current_mw_affected_at": "2026-05-12T14:51:48+00:00",
     "active_averias": {
-      "ts": "2026-05-12T12:45:33+00:00",
+      "ts": "2026-05-12T13:14:19+00:00",
       "averias": [
         {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "Pinar del Rio e/ Cervantes y San Juan",
+          "municipio": "Playa",
+          "direccion": "9na A/5ta y 150",
           "severity": "secundaria"
         }
       ]
@@ -60,7 +59,7 @@
     "sen": {
       "state": "online",
       "since": null,
-      "last_outage_at": "2026-05-10",
+      "last_outage_at": "2025-09-10",
       "last_recovered_at": null
     },
     "ctes": [
@@ -106,16 +105,17 @@
       "Habana Del Este": 2,
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 1,
+      "Playa": 1
     },
-    "averias_total": 5,
-    "source_msg_count": 38,
+    "averias_total": 6,
+    "source_msg_count": 40,
     "by_type_counts": {
       "otro": 2,
       "actualizacion_bloques": 10,
-      "averias": 7,
+      "averias": 8,
       "disparo_circuito": 1,
-      "restablecimiento": 7,
+      "restablecimiento": 8,
       "daf": 3,
       "restablecimiento_daf": 2,
       "inicio_afectacion": 2,
@@ -198,7 +198,7 @@
       "San Miguel Del Padrón": 6,
       "Arroyo Naranjo": 6,
       "Cerro": 5,
-      "Playa": 3,
+      "Playa": 4,
       "Plaza": 3,
       "Boyeros": 3,
       "Marianao": 3,
@@ -208,11 +208,11 @@
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1
     },
-    "averias_total": 57,
+    "averias_total": 58,
     "daf_total": 52,
     "sen_collapse_total": 0,
-    "sen_outage_days": 5,
-    "sen_outage_minutes_total": 1867,
+    "sen_outage_days": 0,
+    "sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
       "felton": 803
     },
@@ -241,8 +241,8 @@
       "San Miguel Del Padrón": 14,
       "Guanabacoa": 12,
       "Plaza": 10,
+      "Playa": 9,
       "Cerro": 8,
-      "Playa": 8,
       "Marianao": 6,
       "Boyeros": 6,
       "Cotorro": 5,
@@ -254,11 +254,11 @@
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1
     },
-    "averias_total": 134,
+    "averias_total": 135,
     "daf_total": 85,
     "sen_collapse_total": 0,
-    "sen_outage_days": 10,
-    "sen_outage_minutes_total": 5202,
+    "sen_outage_days": 0,
+    "sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
       "felton": 803
     }
@@ -269,22 +269,22 @@
     "total_interruption_minutes": 52570,
     "total_block_outage_minutes": {
       "1": 57246,
-      "2": 62289,
-      "3": 48940,
-      "4": 54454,
+      "2": 62046,
+      "3": 49186,
+      "4": 54668,
       "5": 53376,
       "6": 53040
     },
-    "averias_total": 3074,
+    "averias_total": 3076,
     "averias_top_municipios": {
       "Boyeros": 314,
-      "Playa": 274,
+      "Playa": 275,
       "Arroyo Naranjo": 237,
       "Lisa": 218,
       "Habana Del Este": 207,
       "Guanabacoa": 196,
       "Cerro": 178,
-      "San Miguel Del Padrón": 172,
+      "San Miguel Del Padrón": 173,
       "Plaza": 171,
       "Marianao": 138,
       "Cotorro": 90,
@@ -293,10 +293,10 @@
       "De Boyeros": 48,
       "Regla": 38
     },
-    "daf_total": 2231,
-    "sen_collapse_total": 0,
-    "sen_outage_days_total": 555,
-    "sen_outage_minutes_total": 398003,
+    "daf_total": 2234,
+    "sen_collapse_total": 1,
+    "sen_outage_days_total": 1,
+    "sen_outage_minutes_total": 172,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -887,7 +887,7 @@
       },
       {
         "date": "2026-02-05",
-        "peak_mw": 311
+        "peak_mw": 387
       },
       {
         "date": "2026-02-06",
@@ -1631,7 +1631,7 @@
       },
       {
         "month": "2026-02",
-        "minutes": 58656
+        "minutes": 58873
       },
       {
         "month": "2026-03",
@@ -1646,11 +1646,11 @@
         "minutes": 18560
       }
     ],
-    "sen_outage_days_total": 555,
-    "sen_outage_days_last_30d": 28,
-    "sen_collapse_total": 0,
+    "sen_outage_days_total": 1,
+    "sen_outage_days_last_30d": 0,
+    "sen_collapse_total": 1,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2231,
+    "daf_total": 2234,
     "daf_last_30d": 206,
     "cte_offline_minutes_total": {
       "rente": 3274,

@@ -15,8 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 1,
-  "sen_outage_minutes": 337,
-  "sen_outage": true,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Playa La Zona De Flores": 1

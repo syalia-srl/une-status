@@ -15,6 +15,7 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "cte_offline_minutes": {},
@@ -26,7 +27,8 @@
   "by_type_counts": {
     "otro": 7,
     "empty": 3,
-    "restablecimiento": 9,
+    "restablecimiento": 7,
+    "restablecimiento_sen": 2,
     "pronostico": 1,
     "corto": 2,
     "pinned": 3,

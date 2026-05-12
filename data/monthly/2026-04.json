@@ -42,8 +42,9 @@
   },
   "averias_total": 161,
   "daf_total": 231,
-  "sen_outage_days": 30,
-  "sen_outage_minutes_total": 17119,
+  "sen_collapse_total": 0,
+  "sen_outage_days": 0,
+  "sen_outage_minutes_total": 0,
   "cte_offline_minutes_total": {
     "guevara": 169,
     "maximo-gomez": 600,

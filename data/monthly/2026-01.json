@@ -41,8 +41,9 @@
   },
   "averias_total": 152,
   "daf_total": 183,
-  "sen_outage_days": 27,
-  "sen_outage_minutes_total": 24592,
+  "sen_collapse_total": 0,
+  "sen_outage_days": 0,
+  "sen_outage_minutes_total": 0,
   "cte_offline_minutes_total": {
     "rente": 454,
     "nuevitas": 1589,

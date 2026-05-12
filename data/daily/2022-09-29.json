@@ -15,6 +15,7 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
+  "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "cte_offline_minutes": {},
@@ -23,7 +24,8 @@
   "source_msg_count": 34,
   "by_type_counts": {
     "otro": 13,
-    "restablecimiento": 11,
+    "restablecimiento_sen": 4,
+    "restablecimiento": 7,
     "empty": 6,
     "corto": 4
   }

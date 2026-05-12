@@ -15,6 +15,7 @@
   },
   "total_block_outage_minutes": 477,
   "daf_count": 0,
+  "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "cte_offline_minutes": {},

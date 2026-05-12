@@ -15,8 +15,9 @@
   },
   "total_block_outage_minutes": 5115,
   "daf_count": 8,
-  "sen_outage_minutes": 1015,
-  "sen_outage": true,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Habana Vieja": 1,
@@ -26,7 +27,7 @@
   "source_msg_count": 70,
   "by_type_counts": {
     "daf": 8,
-    "restablecimiento": 16,
+    "restablecimiento": 14,
     "restablecimiento_daf": 5,
     "actualizacion_bloques": 13,
     "inicio_afectacion": 7,
@@ -35,6 +36,7 @@
     "empty": 11,
     "otro": 5,
     "sen_update": 1,
-    "averias": 2
+    "averias": 2,
+    "restablecimiento_sen": 2
   }
 }

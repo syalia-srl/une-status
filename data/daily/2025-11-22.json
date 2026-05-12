@@ -15,8 +15,9 @@
   },
   "total_block_outage_minutes": 393,
   "daf_count": 13,
-  "sen_outage_minutes": 1435,
-  "sen_outage": true,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
   "cte_offline_minutes": {
     "felton": 718
   },

@@ -15,8 +15,9 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 1,
-  "sen_outage_minutes": 1301,
-  "sen_outage": true,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Lisa": 1,
@@ -27,7 +28,8 @@
   "averias_total": 4,
   "source_msg_count": 33,
   "by_type_counts": {
-    "restablecimiento": 11,
+    "restablecimiento": 9,
+    "restablecimiento_sen": 2,
     "daf": 1,
     "disparo_circuito": 4,
     "averias": 5,
