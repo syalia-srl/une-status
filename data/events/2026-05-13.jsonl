@@ -69,3 +69,4 @@
 {"id": 61977, "ts": "2026-05-13T19:01:04+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 61978, "ts": "2026-05-13T19:04:11+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 3, "emergency": true}
 {"id": 61979, "ts": "2026-05-13T19:06:24+00:00", "type": "otro", "has_photo": false}
+{"id": 61980, "ts": "2026-05-13T19:17:08+00:00", "type": "daf", "has_photo": false}
