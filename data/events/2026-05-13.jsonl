@@ -18,3 +18,4 @@
 {"id": 61925, "ts": "2026-05-13T11:06:29+00:00", "type": "nota_diaria", "has_photo": true, "interruption_minutes": 1440, "max_affected_mw": 495, "max_affected_clock": "20:10", "emergency_mw": 145, "closing_affected_mw": 419, "closing_affected_blocks": 6}
 {"id": 61926, "ts": "2026-05-13T11:43:58+00:00", "type": "sen_update", "has_photo": true}
 {"id": 61927, "ts": "2026-05-13T11:45:17+00:00", "type": "daf", "has_photo": false}
+{"id": 61928, "ts": "2026-05-13T12:02:05+00:00", "type": "restablecimiento", "has_photo": false}
