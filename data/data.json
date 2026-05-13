@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T02:47:24+00:00",
+  "generated_at": "2026-05-13T03:02:44+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T02:21:09+00:00",
+    "as_of": "2026-05-13T02:53:22+00:00",
     "bloques": [
       {
         "id": 1,
@@ -25,9 +25,8 @@
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-05-12T14:36:40+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-13T02:52:52+00:00"
       },
       {
         "id": 5,
@@ -55,6 +54,11 @@
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T02:53:22+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-12T23:51:44+00:00",
         "municipio": "Habana Del Este",
@@ -343,16 +347,17 @@
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
       "Arroyo Naranjo": 1,
-      "Playa": 1
+      "Playa": 1,
+      "Marianao": 1
     },
-    "averias_total": 9,
-    "source_msg_count": 79,
+    "averias_total": 10,
+    "source_msg_count": 82,
     "by_type_counts": {
       "otro": 6,
       "actualizacion_bloques": 21,
       "averias": 11,
-      "disparo_circuito": 4,
-      "restablecimiento": 11,
+      "disparo_circuito": 6,
+      "restablecimiento": 12,
       "daf": 6,
       "restablecimiento_daf": 2,
       "inicio_afectacion": 8,
@@ -437,16 +442,16 @@
       "Arroyo Naranjo": 6,
       "Cerro": 5,
       "Playa": 4,
+      "Marianao": 4,
       "Plaza": 3,
       "Boyeros": 3,
-      "Marianao": 3,
       "Cotorro": 2,
       "Plaza De La Revolución": 2,
       "Centro Habana": 1,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1
     },
-    "averias_total": 61,
+    "averias_total": 62,
     "daf_total": 55,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -481,7 +486,7 @@
       "Plaza": 10,
       "Playa": 9,
       "Cerro": 8,
-      "Marianao": 6,
+      "Marianao": 7,
       "Boyeros": 6,
       "Cotorro": 5,
       "Plaza De La Revolución": 4,
@@ -492,7 +497,7 @@
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1
     },
-    "averias_total": 138,
+    "averias_total": 139,
     "daf_total": 88,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -513,7 +518,7 @@
       "5": 52776,
       "6": 53580
     },
-    "averias_total": 3079,
+    "averias_total": 3080,
     "averias_top_municipios": {
       "Boyeros": 314,
       "Playa": 275,
@@ -524,7 +529,7 @@
       "Cerro": 178,
       "San Miguel Del Padrón": 173,
       "Plaza": 171,
-      "Marianao": 138,
+      "Marianao": 139,
       "Cotorro": 90,
       "Centro Habana": 64,
       "De Playa": 49,

@@ -77,3 +77,6 @@
 {"id": 61898, "ts": "2026-05-13T01:48:48+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 61899, "ts": "2026-05-13T02:01:35+00:00", "type": "otro", "has_photo": false}
 {"id": 61900, "ts": "2026-05-13T02:21:09+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 9, "minutes_off": 0}, {"bloque": 1, "hours_off": 7, "minutes_off": 0}, {"bloque": 2, "hours_off": 6, "minutes_off": 0}, {"bloque": 5, "hours_off": 6, "minutes_off": 0}, {"bloque": 3, "hours_off": 5, "minutes_off": 0}], "total_mw": 482}
+{"id": 61901, "ts": "2026-05-13T02:51:19+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 61902, "ts": "2026-05-13T02:52:52+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
+{"id": 61903, "ts": "2026-05-13T02:53:22+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Marianao"}

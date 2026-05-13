@@ -24,16 +24,17 @@
     "Guanabacoa": 1,
     "San Miguel Del Padrón": 1,
     "Arroyo Naranjo": 1,
-    "Playa": 1
+    "Playa": 1,
+    "Marianao": 1
   },
-  "averias_total": 9,
-  "source_msg_count": 79,
+  "averias_total": 10,
+  "source_msg_count": 82,
   "by_type_counts": {
     "otro": 6,
     "actualizacion_bloques": 21,
     "averias": 11,
-    "disparo_circuito": 4,
-    "restablecimiento": 11,
+    "disparo_circuito": 6,
+    "restablecimiento": 12,
     "daf": 6,
     "restablecimiento_daf": 2,
     "inicio_afectacion": 8,

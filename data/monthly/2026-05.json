@@ -23,7 +23,7 @@
     "Plaza": 10,
     "Playa": 9,
     "Cerro": 8,
-    "Marianao": 6,
+    "Marianao": 7,
     "Boyeros": 6,
     "Cotorro": 5,
     "Plaza De La Revolución": 4,
@@ -34,7 +34,7 @@
     "Arroyo Naranjo Queda Reparada La Avería": 1,
     "Habana Vieja": 1
   },
-  "averias_total": 138,
+  "averias_total": 139,
   "daf_total": 88,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
