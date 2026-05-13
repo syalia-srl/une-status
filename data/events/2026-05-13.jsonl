@@ -64,3 +64,5 @@
 {"id": 61972, "ts": "2026-05-13T18:15:47+00:00", "type": "daf", "has_photo": false}
 {"id": 61973, "ts": "2026-05-13T18:40:03+00:00", "type": "otro", "has_photo": false}
 {"id": 61974, "ts": "2026-05-13T18:43:24+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61975, "ts": "2026-05-13T18:51:09+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 12, "minutes_off": 8}, {"bloque": 6, "hours_off": 10, "minutes_off": 52}, {"bloque": 1, "hours_off": 8, "minutes_off": 57}, {"bloque": 2, "hours_off": 2, "minutes_off": 13}, {"bloque": 5, "hours_off": 0, "minutes_off": 36}], "total_mw": 327}
+{"id": 61976, "ts": "2026-05-13T18:54:39+00:00", "type": "otro", "has_photo": false}
