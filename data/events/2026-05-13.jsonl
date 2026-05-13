@@ -72,3 +72,5 @@
 {"id": 61980, "ts": "2026-05-13T19:17:08+00:00", "type": "daf", "has_photo": false}
 {"id": 61981, "ts": "2026-05-13T19:27:26+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 61982, "ts": "2026-05-13T19:29:47+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Boyeros", "direccion": "la siguiente dirección: 4ta e/ A y B, Miraflores", "severity": "secundaria"}]}
+{"id": 61984, "ts": "2026-05-13T19:33:24+00:00", "type": "otro", "has_photo": true}
+{"id": 61985, "ts": "2026-05-13T19:43:46+00:00", "type": "daf", "has_photo": false}
