@@ -6,14 +6,14 @@
   "interruption_minutes": 1440,
   "emergency_mw": 145,
   "block_outage_minutes": {
-    "1": 900,
-    "2": 840,
-    "3": 780,
-    "4": 180,
-    "5": 840,
-    "6": 120
+    "1": 175,
+    "2": 1003,
+    "3": 965,
+    "4": 366,
+    "5": 1002,
+    "6": 261
   },
-  "total_block_outage_minutes": 3660,
+  "total_block_outage_minutes": 3772,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -24,12 +24,12 @@
     "San Miguel Del Padrón": 1
   },
   "averias_total": 3,
-  "source_msg_count": 23,
+  "source_msg_count": 24,
   "by_type_counts": {
     "otro": 2,
     "averias": 4,
     "inicio_afectacion": 2,
-    "actualizacion_bloques": 6,
+    "actualizacion_bloques": 7,
     "restablecimiento": 4,
     "disparo_circuito": 1,
     "nota_diaria": 1,
