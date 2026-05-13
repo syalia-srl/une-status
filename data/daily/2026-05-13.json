@@ -26,9 +26,9 @@
     "Centro Habana": 1
   },
   "averias_total": 5,
-  "source_msg_count": 52,
+  "source_msg_count": 53,
   "by_type_counts": {
-    "otro": 5,
+    "otro": 6,
     "averias": 6,
     "inicio_afectacion": 4,
     "actualizacion_bloques": 10,
