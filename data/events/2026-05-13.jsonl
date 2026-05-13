@@ -59,3 +59,4 @@
 {"id": 61967, "ts": "2026-05-13T17:08:15+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 10, "minutes_off": 19}, {"bloque": 6, "hours_off": 8, "minutes_off": 34}, {"bloque": 1, "hours_off": 7, "minutes_off": 8}, {"bloque": 2, "hours_off": 0, "minutes_off": 46}], "total_mw": 273}
 {"id": 61968, "ts": "2026-05-13T17:14:02+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Boyeros"}
 {"id": 61969, "ts": "2026-05-13T17:27:42+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61970, "ts": "2026-05-13T17:56:44+00:00", "type": "restablecimiento", "has_photo": false}
