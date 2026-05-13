@@ -75,3 +75,4 @@
 {"id": 61896, "ts": "2026-05-13T00:53:17+00:00", "type": "sen_update", "has_photo": true}
 {"id": 61897, "ts": "2026-05-13T01:39:14+00:00", "type": "corto", "has_photo": true}
 {"id": 61898, "ts": "2026-05-13T01:48:48+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61899, "ts": "2026-05-13T02:01:35+00:00", "type": "otro", "has_photo": false}
