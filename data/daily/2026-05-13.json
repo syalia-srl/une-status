@@ -28,13 +28,13 @@
     "Lisa": 1
   },
   "averias_total": 9,
-  "source_msg_count": 95,
+  "source_msg_count": 96,
   "by_type_counts": {
     "otro": 12,
     "averias": 11,
     "inicio_afectacion": 6,
     "actualizacion_bloques": 14,
-    "restablecimiento": 25,
+    "restablecimiento": 26,
     "disparo_circuito": 3,
     "nota_diaria": 1,
     "sen_update": 1,
