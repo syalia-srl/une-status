@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T04:35:22+00:00",
+  "generated_at": "2026-05-13T04:50:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T04:11:41+00:00",
+    "as_of": "2026-05-13T04:38:44+00:00",
     "bloques": [
       {
         "id": 1,
@@ -44,16 +44,20 @@
     "current_mw_affected": 426,
     "current_mw_affected_at": "2026-05-13T03:54:05+00:00",
     "active_averias": {
-      "ts": "2026-05-12T23:51:44+00:00",
+      "ts": "2026-05-13T04:37:04+00:00",
       "averias": [
         {
-          "municipio": "Habana Del Este",
-          "direccion": "Zona 17 Alamar Edif 644 y 646",
-          "severity": "secundaria"
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "la siguiente dirección: Calzada de San Miguel esquina calle C"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T04:37:04+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "la siguiente dirección: Calzada de San Miguel esquina calle C"
+      },
       {
         "ts": "2026-05-13T03:53:54+00:00",
         "municipio": "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito",
@@ -341,11 +345,15 @@
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 2,
+    "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "otro": 2
+      "otro": 2,
+      "averias": 1,
+      "inicio_afectacion": 1
     }
   },
   "yesterday": {
@@ -414,8 +422,8 @@
     "averias_count_by_municipio": {
       "Habana Del Este": 9,
       "Guanabacoa": 8,
+      "San Miguel Del Padrón": 6,
       "Arroyo Naranjo": 6,
-      "San Miguel Del Padrón": 5,
       "Cerro": 5,
       "Lisa": 5,
       "Marianao": 4,
@@ -429,7 +437,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 58,
+    "averias_total": 59,
     "daf_total": 45,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -459,7 +467,7 @@
       "Habana Del Este": 25,
       "Lisa": 16,
       "Arroyo Naranjo": 15,
-      "San Miguel Del Padrón": 14,
+      "San Miguel Del Padrón": 15,
       "Guanabacoa": 12,
       "Plaza": 10,
       "Playa": 9,
@@ -476,7 +484,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 140,
+    "averias_total": 141,
     "daf_total": 88,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -497,7 +505,7 @@
       "5": 52896,
       "6": 53700
     },
-    "averias_total": 3081,
+    "averias_total": 3082,
     "averias_top_municipios": {
       "Boyeros": 314,
       "Playa": 275,
@@ -506,7 +514,7 @@
       "Habana Del Este": 210,
       "Guanabacoa": 196,
       "Cerro": 178,
-      "San Miguel Del Padrón": 173,
+      "San Miguel Del Padrón": 174,
       "Plaza": 171,
       "Marianao": 139,
       "Cotorro": 90,
