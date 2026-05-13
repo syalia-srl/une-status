@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T15:54:39+00:00",
+  "generated_at": "2026-05-13T16:09:52+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T15:50:37+00:00",
+    "as_of": "2026-05-13T16:09:18+00:00",
     "bloques": [
       {
         "id": 1,
@@ -12,8 +12,9 @@
       },
       {
         "id": 2,
-        "state": "encendido",
-        "since": "2026-05-13T12:14:32+00:00"
+        "state": "apagado",
+        "since": "2026-05-13T16:09:18+00:00",
+        "emergency": true
       },
       {
         "id": 3,
@@ -37,18 +38,18 @@
         "since": "2026-05-13T06:31:04+00:00"
       }
     ],
-    "current_mw_affected": 234,
-    "current_mw_affected_at": "2026-05-13T15:31:43+00:00",
+    "current_mw_affected": 247,
+    "current_mw_affected_at": "2026-05-13T16:08:01+00:00",
     "active_averias": {
-      "ts": "2026-05-13T15:42:04+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": "la siguiente dirección: 420 / 19 y 21(Peñas Altas), se encuentran afectados por una AVERÍA por un TRANSFORMADOR DAÑADO"
-        }
-      ]
+      "ts": "2026-05-13T16:06:19+00:00",
+      "averias": []
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T16:04:13+00:00",
+        "municipio": "Centro Habana",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-13T15:42:04+00:00",
         "municipio": "Habana Del Este",
@@ -308,14 +309,14 @@
     "interruption_minutes": 1440,
     "emergency_mw": 145,
     "block_outage_minutes": {
-      "1": 329,
+      "1": 370,
       "2": 0,
-      "3": 1118,
-      "4": 528,
+      "3": 1160,
+      "4": 561,
       "5": 0,
-      "6": 422
+      "6": 455
     },
-    "total_block_outage_minutes": 2397,
+    "total_block_outage_minutes": 2546,
     "daf_count": 6,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -324,17 +325,18 @@
     "averias_count_by_municipio": {
       "Boyeros": 2,
       "San Miguel Del Padrón": 1,
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Centro Habana": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 47,
+    "averias_total": 5,
+    "source_msg_count": 52,
     "by_type_counts": {
-      "otro": 4,
-      "averias": 5,
-      "inicio_afectacion": 3,
-      "actualizacion_bloques": 9,
+      "otro": 5,
+      "averias": 6,
+      "inicio_afectacion": 4,
+      "actualizacion_bloques": 10,
       "restablecimiento": 12,
-      "disparo_circuito": 1,
+      "disparo_circuito": 2,
       "nota_diaria": 1,
       "sen_update": 1,
       "daf": 6,
@@ -397,12 +399,12 @@
     "max_peak_mw": 495,
     "total_interruption_minutes": 9520,
     "total_block_outage_minutes": {
-      "1": 2640,
+      "1": 2681,
       "2": 2327,
-      "3": 3320,
-      "4": 1879,
+      "3": 3362,
+      "4": 1912,
       "5": 1945,
-      "6": 2650
+      "6": 2683
     },
     "total_emergency_mw_sum": 792,
     "averias_count_by_municipio": {
@@ -416,14 +418,14 @@
       "Marianao": 4,
       "Playa": 3,
       "Cotorro": 2,
+      "Centro Habana": 2,
       "Plaza De La Revolución": 2,
       "Plaza": 2,
-      "Centro Habana": 1,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 62,
+    "averias_total": 63,
     "daf_total": 51,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -441,12 +443,12 @@
     "max_peak_mw": 495,
     "total_interruption_minutes": 11930,
     "total_block_outage_minutes": {
-      "1": 3621,
+      "1": 3662,
       "2": 3367,
-      "3": 4680,
-      "4": 2949,
+      "3": 4722,
+      "4": 2982,
       "5": 2725,
-      "6": 3820
+      "6": 3853
     },
     "total_emergency_mw_sum": 1084,
     "averias_count_by_municipio": {
@@ -462,7 +464,7 @@
       "Marianao": 7,
       "Cotorro": 5,
       "Plaza De La Revolución": 4,
-      "Centro Habana": 2,
+      "Centro Habana": 3,
       "Regla": 2,
       "Mariano": 1,
       "San Miguel Del Padron": 1,
@@ -470,7 +472,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 144,
+    "averias_total": 145,
     "daf_total": 94,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -484,14 +486,14 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 54010,
     "total_block_outage_minutes": {
-      "1": 58115,
+      "1": 58156,
       "2": 61446,
-      "3": 50404,
-      "4": 55181,
+      "3": 50446,
+      "4": 55214,
       "5": 52896,
-      "6": 54122
+      "6": 54155
     },
-    "averias_total": 3085,
+    "averias_total": 3086,
     "averias_top_municipios": {
       "Boyeros": 316,
       "Playa": 275,
@@ -504,7 +506,7 @@
       "Plaza": 171,
       "Marianao": 139,
       "Cotorro": 90,
-      "Centro Habana": 64,
+      "Centro Habana": 65,
       "De Playa": 49,
       "De Boyeros": 48,
       "Regla": 38
@@ -765,7 +767,7 @@
       },
       {
         "date": "2026-05-13",
-        "minutes": 2397
+        "minutes": 2546
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1859,7 +1861,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 21162
+        "minutes": 21311
       }
     ],
     "sen_outage_days_total": 7,

@@ -45,3 +45,8 @@
 {"id": 61952, "ts": "2026-05-13T15:42:04+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": "la siguiente dirección: 420 / 19 y 21(Peñas Altas), se encuentran afectados por una AVERÍA por un TRANSFORMADOR DAÑADO"}]}
 {"id": 61953, "ts": "2026-05-13T15:45:01+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 61954, "ts": "2026-05-13T15:50:37+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61955, "ts": "2026-05-13T16:00:31+00:00", "type": "otro", "has_photo": false}
+{"id": 61956, "ts": "2026-05-13T16:04:13+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Centro Habana"}
+{"id": 61957, "ts": "2026-05-13T16:06:19+00:00", "type": "averias", "has_photo": false}
+{"id": 61958, "ts": "2026-05-13T16:08:01+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 19, "minutes_off": 20}, {"bloque": 4, "hours_off": 9, "minutes_off": 21}, {"bloque": 6, "hours_off": 7, "minutes_off": 35}, {"bloque": 1, "hours_off": 6, "minutes_off": 10}], "total_mw": 247}
+{"id": 61959, "ts": "2026-05-13T16:09:18+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
