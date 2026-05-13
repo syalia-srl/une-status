@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T11:00:31+00:00",
+  "generated_at": "2026-05-13T11:15:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T10:35:03+00:00",
+    "as_of": "2026-05-13T11:06:29+00:00",
     "bloques": [
       {
         "id": 1,
@@ -318,10 +318,10 @@
   "day": {
     "date": "2026-05-13",
     "finalized": false,
-    "peak_mw_affected": 448,
-    "peak_time": "00:55",
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 495,
+    "peak_time": "20:10",
+    "interruption_minutes": 1440,
+    "emergency_mw": 145,
     "block_outage_minutes": {
       "1": 900,
       "2": 840,
@@ -341,14 +341,15 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 3,
-    "source_msg_count": 17,
+    "source_msg_count": 18,
     "by_type_counts": {
       "otro": 2,
       "averias": 4,
       "inicio_afectacion": 2,
       "actualizacion_bloques": 6,
       "restablecimiento": 2,
-      "disparo_circuito": 1
+      "disparo_circuito": 1,
+      "nota_diaria": 1
     }
   },
   "yesterday": {
@@ -402,9 +403,9 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 433.1,
-    "max_peak_mw": 468,
-    "total_interruption_minutes": 8080,
+    "avg_peak_mw": 439.9,
+    "max_peak_mw": 495,
+    "total_interruption_minutes": 9520,
     "total_block_outage_minutes": {
       "1": 3211,
       "2": 3167,
@@ -413,7 +414,7 @@
       "5": 2785,
       "6": 2348
     },
-    "total_emergency_mw_sum": 647,
+    "total_emergency_mw_sum": 792,
     "averias_count_by_municipio": {
       "Habana Del Este": 9,
       "Guanabacoa": 8,
@@ -446,9 +447,9 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 340.5,
-    "max_peak_mw": 468,
-    "total_interruption_minutes": 10490,
+    "avg_peak_mw": 344.2,
+    "max_peak_mw": 495,
+    "total_interruption_minutes": 11930,
     "total_block_outage_minutes": {
       "1": 4192,
       "2": 4207,
@@ -457,7 +458,7 @@
       "5": 3565,
       "6": 3518
     },
-    "total_emergency_mw_sum": 939,
+    "total_emergency_mw_sum": 1084,
     "averias_count_by_municipio": {
       "Habana Del Este": 25,
       "Lisa": 16,
@@ -491,7 +492,7 @@
   "all_time": {
     "months_count": 46,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 52570,
+    "total_interruption_minutes": 54010,
     "total_block_outage_minutes": {
       "1": 58686,
       "2": 62286,
@@ -652,7 +653,7 @@
       },
       {
         "date": "2026-05-13",
-        "peak_mw": 448
+        "peak_mw": 495
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1496,7 +1497,7 @@
       },
       {
         "date": "2026-05-13",
-        "peak_mw": 448
+        "peak_mw": 495
       }
     ],
     "monthly_max_peak_mw": [
@@ -1682,7 +1683,7 @@
       },
       {
         "month": "2026-05",
-        "max_peak_mw": 468
+        "max_peak_mw": 495
       }
     ],
     "monthly_total_outage_minutes": [
