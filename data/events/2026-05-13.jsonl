@@ -6,3 +6,5 @@
 {"id": 61913, "ts": "2026-05-13T05:25:54+00:00", "type": "averias", "has_photo": false}
 {"id": 61914, "ts": "2026-05-13T06:29:41+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}
 {"id": 61915, "ts": "2026-05-13T06:31:04+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
+{"id": 61916, "ts": "2026-05-13T06:44:37+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Boyeros"}
+{"id": 61917, "ts": "2026-05-13T06:49:40+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 14, "minutes_off": 0}, {"bloque": 1, "hours_off": 12, "minutes_off": 0}, {"bloque": 2, "hours_off": 10, "minutes_off": 0}, {"bloque": 5, "hours_off": 10, "minutes_off": 0}, {"bloque": 3, "hours_off": 10, "minutes_off": 0}, {"bloque": 4, "hours_off": 0, "minutes_off": 0}], "total_mw": 386}

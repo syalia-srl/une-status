@@ -6,29 +6,31 @@
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 600,
-    "2": 540,
-    "3": 480,
+    "1": 720,
+    "2": 600,
+    "3": 600,
     "4": 0,
-    "5": 540,
-    "6": 720
+    "5": 600,
+    "6": 840
   },
-  "total_block_outage_minutes": 2880,
+  "total_block_outage_minutes": 3360,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "San Miguel Del Padrón": 1
+    "San Miguel Del Padrón": 1,
+    "Boyeros": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 8,
+  "averias_total": 2,
+  "source_msg_count": 10,
   "by_type_counts": {
     "otro": 2,
     "averias": 2,
     "inicio_afectacion": 2,
-    "actualizacion_bloques": 1,
-    "restablecimiento": 1
+    "actualizacion_bloques": 2,
+    "restablecimiento": 1,
+    "disparo_circuito": 1
   }
 }
