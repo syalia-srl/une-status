@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T04:50:53+00:00",
+  "generated_at": "2026-05-13T05:01:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T04:38:44+00:00",
+    "as_of": "2026-05-13T04:55:55+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,8 +41,8 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 426,
-    "current_mw_affected_at": "2026-05-13T03:54:05+00:00",
+    "current_mw_affected": 448,
+    "current_mw_affected_at": "2026-05-13T04:55:55+00:00",
     "active_averias": {
       "ts": "2026-05-13T04:37:04+00:00",
       "averias": [
@@ -327,19 +327,19 @@
   "day": {
     "date": "2026-05-13",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 448,
+    "peak_time": "00:55",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
+      "1": 600,
+      "2": 540,
+      "3": 480,
       "4": 0,
-      "5": 0,
-      "6": 0
+      "5": 540,
+      "6": 720
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 2880,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -349,11 +349,12 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 1,
-    "source_msg_count": 4,
+    "source_msg_count": 5,
     "by_type_counts": {
       "otro": 2,
       "averias": 1,
-      "inicio_afectacion": 1
+      "inicio_afectacion": 1,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -407,16 +408,16 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 430.7,
+    "avg_peak_mw": 433.1,
     "max_peak_mw": 468,
     "total_interruption_minutes": 8080,
     "total_block_outage_minutes": {
-      "1": 2311,
-      "2": 2327,
-      "3": 2202,
+      "1": 2911,
+      "2": 2867,
+      "3": 2682,
       "4": 1351,
-      "5": 1945,
-      "6": 2228
+      "5": 2485,
+      "6": 2948
     },
     "total_emergency_mw_sum": 647,
     "averias_count_by_municipio": {
@@ -451,16 +452,16 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 331.6,
+    "avg_peak_mw": 340.5,
     "max_peak_mw": 468,
     "total_interruption_minutes": 10490,
     "total_block_outage_minutes": {
-      "1": 3292,
-      "2": 3367,
-      "3": 3562,
+      "1": 3892,
+      "2": 3907,
+      "3": 4042,
       "4": 2421,
-      "5": 2725,
-      "6": 3398
+      "5": 3265,
+      "6": 4118
     },
     "total_emergency_mw_sum": 939,
     "averias_count_by_municipio": {
@@ -498,12 +499,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 52570,
     "total_block_outage_minutes": {
-      "1": 57786,
-      "2": 61446,
-      "3": 49286,
+      "1": 58386,
+      "2": 61986,
+      "3": 49766,
       "4": 54653,
-      "5": 52896,
-      "6": 53700
+      "5": 53436,
+      "6": 54420
     },
     "averias_total": 3082,
     "averias_top_municipios": {
@@ -657,7 +658,7 @@
       },
       {
         "date": "2026-05-13",
-        "peak_mw": null
+        "peak_mw": 448
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -779,7 +780,7 @@
       },
       {
         "date": "2026-05-13",
-        "minutes": 0
+        "minutes": 2880
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1501,7 +1502,7 @@
       },
       {
         "date": "2026-05-13",
-        "peak_mw": null
+        "peak_mw": 448
       }
     ],
     "monthly_max_peak_mw": [
@@ -1873,7 +1874,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 18765
+        "minutes": 21645
       }
     ],
     "sen_outage_days_total": 7,
