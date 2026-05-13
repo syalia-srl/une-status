@@ -4,3 +4,5 @@
 {"id": 61911, "ts": "2026-05-13T04:38:44+00:00", "type": "inicio_afectacion", "has_photo": false, "emergency": true}
 {"id": 61912, "ts": "2026-05-13T04:55:55+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 12, "minutes_off": 0}, {"bloque": 1, "hours_off": 10, "minutes_off": 0}, {"bloque": 2, "hours_off": 9, "minutes_off": 0}, {"bloque": 5, "hours_off": 9, "minutes_off": 0}, {"bloque": 3, "hours_off": 8, "minutes_off": 0}], "total_mw": 448}
 {"id": 61913, "ts": "2026-05-13T05:25:54+00:00", "type": "averias", "has_photo": false}
+{"id": 61914, "ts": "2026-05-13T06:29:41+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}
+{"id": 61915, "ts": "2026-05-13T06:31:04+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}

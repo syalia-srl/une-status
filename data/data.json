@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T06:23:24+00:00",
+  "generated_at": "2026-05-13T06:38:39+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T05:25:54+00:00",
+    "as_of": "2026-05-13T06:31:04+00:00",
     "bloques": [
       {
         "id": 1,
@@ -25,8 +25,9 @@
       },
       {
         "id": 4,
-        "state": "encendido",
-        "since": "2026-05-13T02:52:52+00:00"
+        "state": "apagado",
+        "since": "2026-05-13T06:29:41+00:00",
+        "emergency": true
       },
       {
         "id": 5,
@@ -36,9 +37,8 @@
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-05-12T16:22:20+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-13T06:31:04+00:00"
       }
     ],
     "current_mw_affected": 448,
@@ -100,18 +100,6 @@
         "ts": "2026-05-12T06:39:15+00:00",
         "municipio": "Habana Del Este",
         "direccion": ": Calle G / 2da y 3ra , Sibarimar 📍 🔴",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-12T06:14:16+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": ": Calzada de San Miguel / Balear y San Francisca 📍 🔴",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-12T06:12:19+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": ": Versalles / Máximo Gómez y Cadena, Villa 1",
         "severity": "secundaria"
       }
     ],
@@ -344,12 +332,13 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 1,
-    "source_msg_count": 6,
+    "source_msg_count": 8,
     "by_type_counts": {
       "otro": 2,
       "averias": 2,
-      "inicio_afectacion": 1,
-      "actualizacion_bloques": 1
+      "inicio_afectacion": 2,
+      "actualizacion_bloques": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {

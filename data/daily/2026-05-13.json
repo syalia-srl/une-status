@@ -23,11 +23,12 @@
     "San Miguel Del Padrón": 1
   },
   "averias_total": 1,
-  "source_msg_count": 6,
+  "source_msg_count": 8,
   "by_type_counts": {
     "otro": 2,
     "averias": 2,
-    "inicio_afectacion": 1,
-    "actualizacion_bloques": 1
+    "inicio_afectacion": 2,
+    "actualizacion_bloques": 1,
+    "restablecimiento": 1
   }
 }
