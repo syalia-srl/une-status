@@ -80,3 +80,4 @@
 {"id": 61901, "ts": "2026-05-13T02:51:19+00:00", "type": "disparo_circuito", "has_photo": false}
 {"id": 61902, "ts": "2026-05-13T02:52:52+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
 {"id": 61903, "ts": "2026-05-13T02:53:22+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Marianao"}
+{"id": 61904, "ts": "2026-05-13T03:48:30+00:00", "type": "mantenimiento", "has_photo": false}
