@@ -14,32 +14,32 @@
     "6": 772
   },
   "total_block_outage_minutes": 2960,
-  "daf_count": 14,
+  "daf_count": 16,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Boyeros": 4,
+    "Habana Del Este": 2,
     "San Miguel Del Padrón": 1,
-    "Habana Del Este": 1,
     "Centro Habana": 1,
     "Regla": 1,
     "Lisa": 1
   },
-  "averias_total": 9,
-  "source_msg_count": 99,
+  "averias_total": 10,
+  "source_msg_count": 104,
   "by_type_counts": {
-    "otro": 13,
-    "averias": 11,
+    "otro": 14,
+    "averias": 12,
     "inicio_afectacion": 6,
     "actualizacion_bloques": 14,
     "restablecimiento": 26,
     "disparo_circuito": 3,
     "nota_diaria": 1,
     "sen_update": 1,
-    "daf": 14,
-    "restablecimiento_daf": 9,
+    "daf": 16,
+    "restablecimiento_daf": 10,
     "corto": 1
   }
 }

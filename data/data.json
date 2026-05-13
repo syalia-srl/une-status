@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T23:08:19+00:00",
+  "generated_at": "2026-05-13T23:23:29+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T23:02:56+00:00",
+    "as_of": "2026-05-13T23:22:01+00:00",
     "bloques": [
       {
         "id": 1,
@@ -42,10 +42,20 @@
     "current_mw_affected": 368,
     "current_mw_affected_at": "2026-05-13T21:26:40+00:00",
     "active_averias": {
-      "ts": "2026-05-13T21:30:02+00:00",
-      "averias": []
+      "ts": "2026-05-13T23:19:50+00:00",
+      "averias": [
+        {
+          "municipio": "Habana Del Este",
+          "direccion": "la siguiente dirección: Enrique Hart / Lazo y Campo Florido"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T23:19:50+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "la siguiente dirección: Enrique Hart / Lazo y Campo Florido"
+      },
       {
         "ts": "2026-05-13T21:15:32+00:00",
         "municipio": "Lisa",
@@ -112,7 +122,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-13T22:54:28+00:00",
+      "ts": "2026-05-13T23:22:01+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -331,32 +341,32 @@
       "6": 772
     },
     "total_block_outage_minutes": 2960,
-    "daf_count": 14,
+    "daf_count": 16,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Boyeros": 4,
+      "Habana Del Este": 2,
       "San Miguel Del Padrón": 1,
-      "Habana Del Este": 1,
       "Centro Habana": 1,
       "Regla": 1,
       "Lisa": 1
     },
-    "averias_total": 9,
-    "source_msg_count": 99,
+    "averias_total": 10,
+    "source_msg_count": 104,
     "by_type_counts": {
-      "otro": 13,
-      "averias": 11,
+      "otro": 14,
+      "averias": 12,
       "inicio_afectacion": 6,
       "actualizacion_bloques": 14,
       "restablecimiento": 26,
       "disparo_circuito": 3,
       "nota_diaria": 1,
       "sen_update": 1,
-      "daf": 14,
-      "restablecimiento_daf": 9,
+      "daf": 16,
+      "restablecimiento_daf": 10,
       "corto": 1
     }
   },
@@ -424,7 +434,7 @@
     },
     "total_emergency_mw_sum": 792,
     "averias_count_by_municipio": {
-      "Habana Del Este": 10,
+      "Habana Del Este": 11,
       "Guanabacoa": 8,
       "Boyeros": 7,
       "San Miguel Del Padrón": 6,
@@ -442,8 +452,8 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Regla": 1
     },
-    "averias_total": 67,
-    "daf_total": 59,
+    "averias_total": 68,
+    "daf_total": 61,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -469,7 +479,7 @@
     },
     "total_emergency_mw_sum": 1084,
     "averias_count_by_municipio": {
-      "Habana Del Este": 26,
+      "Habana Del Este": 27,
       "Lisa": 17,
       "Arroyo Naranjo": 15,
       "San Miguel Del Padrón": 15,
@@ -489,8 +499,8 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 149,
-    "daf_total": 102,
+    "averias_total": 150,
+    "daf_total": 104,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -510,13 +520,13 @@
       "5": 53082,
       "6": 54472
     },
-    "averias_total": 3090,
+    "averias_total": 3091,
     "averias_top_municipios": {
       "Boyeros": 318,
       "Playa": 275,
       "Arroyo Naranjo": 237,
       "Lisa": 219,
-      "Habana Del Este": 211,
+      "Habana Del Este": 212,
       "Guanabacoa": 196,
       "Cerro": 178,
       "San Miguel Del Padrón": 174,
@@ -528,7 +538,7 @@
       "De Boyeros": 48,
       "Regla": 39
     },
-    "daf_total": 2251,
+    "daf_total": 2253,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1885,8 +1895,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2251,
-    "daf_last_30d": 216,
+    "daf_total": 2253,
+    "daf_last_30d": 218,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
