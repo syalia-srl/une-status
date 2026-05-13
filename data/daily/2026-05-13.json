@@ -6,14 +6,14 @@
   "interruption_minutes": 1440,
   "emergency_mw": 145,
   "block_outage_minutes": {
-    "1": 606,
-    "2": 224,
-    "3": 47,
-    "4": 797,
-    "5": 103,
-    "6": 692
+    "1": 687,
+    "2": 305,
+    "3": 132,
+    "4": 878,
+    "5": 186,
+    "6": 772
   },
-  "total_block_outage_minutes": 2469,
+  "total_block_outage_minutes": 2960,
   "daf_count": 11,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -28,12 +28,12 @@
     "Lisa": 1
   },
   "averias_total": 9,
-  "source_msg_count": 88,
+  "source_msg_count": 91,
   "by_type_counts": {
     "otro": 12,
-    "averias": 9,
+    "averias": 11,
     "inicio_afectacion": 6,
-    "actualizacion_bloques": 13,
+    "actualizacion_bloques": 14,
     "restablecimiento": 23,
     "disparo_circuito": 3,
     "nota_diaria": 1,

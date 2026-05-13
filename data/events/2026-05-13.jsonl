@@ -86,3 +86,6 @@
 {"id": 61995, "ts": "2026-05-13T21:15:32+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "la siguiente dirección: 95 e/ 226 y 240, Bello 26", "severity": "secundaria"}]}
 {"id": 61996, "ts": "2026-05-13T21:16:48+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 61997, "ts": "2026-05-13T21:17:38+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 61998, "ts": "2026-05-13T21:23:41+00:00", "type": "averias", "has_photo": false}
+{"id": 61999, "ts": "2026-05-13T21:26:40+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 14, "minutes_off": 38}, {"bloque": 6, "hours_off": 12, "minutes_off": 52}, {"bloque": 1, "hours_off": 11, "minutes_off": 27}, {"bloque": 2, "hours_off": 5, "minutes_off": 5}, {"bloque": 5, "hours_off": 3, "minutes_off": 6}, {"bloque": 3, "hours_off": 2, "minutes_off": 12}], "total_mw": 368}
+{"id": 62001, "ts": "2026-05-13T21:30:02+00:00", "type": "averias", "has_photo": false}
