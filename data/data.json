@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T21:04:26+00:00",
+  "generated_at": "2026-05-13T21:20:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T20:57:22+00:00",
+    "as_of": "2026-05-13T21:17:38+00:00",
     "bloques": [
       {
         "id": 1,
@@ -42,16 +42,22 @@
     "current_mw_affected": 384,
     "current_mw_affected_at": "2026-05-13T20:03:43+00:00",
     "active_averias": {
-      "ts": "2026-05-13T20:20:59+00:00",
+      "ts": "2026-05-13T21:15:32+00:00",
       "averias": [
         {
-          "municipio": "Regla",
-          "direccion": "la siguiente dirección: 10 de Octubre e/ Caridad y Refugio",
+          "municipio": "Lisa",
+          "direccion": "la siguiente dirección: 95 e/ 226 y 240, Bello 26",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T21:15:32+00:00",
+        "municipio": "Lisa",
+        "direccion": "la siguiente dirección: 95 e/ 226 y 240, Bello 26",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-13T20:20:59+00:00",
         "municipio": "Regla",
@@ -112,8 +118,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-13T20:57:22+00:00",
-      "type": "daf"
+      "ts": "2026-05-13T21:16:48+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -341,21 +347,22 @@
       "San Miguel Del Padrón": 1,
       "Habana Del Este": 1,
       "Centro Habana": 1,
-      "Regla": 1
+      "Regla": 1,
+      "Lisa": 1
     },
-    "averias_total": 8,
-    "source_msg_count": 84,
+    "averias_total": 9,
+    "source_msg_count": 88,
     "by_type_counts": {
       "otro": 12,
-      "averias": 8,
+      "averias": 9,
       "inicio_afectacion": 6,
       "actualizacion_bloques": 13,
-      "restablecimiento": 21,
+      "restablecimiento": 23,
       "disparo_circuito": 3,
       "nota_diaria": 1,
       "sen_update": 1,
       "daf": 11,
-      "restablecimiento_daf": 7,
+      "restablecimiento_daf": 8,
       "corto": 1
     }
   },
@@ -427,9 +434,9 @@
       "Guanabacoa": 8,
       "Boyeros": 7,
       "San Miguel Del Padrón": 6,
+      "Lisa": 6,
       "Arroyo Naranjo": 6,
       "Cerro": 5,
-      "Lisa": 5,
       "Marianao": 4,
       "Playa": 3,
       "Cotorro": 2,
@@ -441,7 +448,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Regla": 1
     },
-    "averias_total": 66,
+    "averias_total": 67,
     "daf_total": 56,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -469,7 +476,7 @@
     "total_emergency_mw_sum": 1084,
     "averias_count_by_municipio": {
       "Habana Del Este": 26,
-      "Lisa": 16,
+      "Lisa": 17,
       "Arroyo Naranjo": 15,
       "San Miguel Del Padrón": 15,
       "Guanabacoa": 12,
@@ -488,7 +495,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 148,
+    "averias_total": 149,
     "daf_total": 99,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -509,12 +516,12 @@
       "5": 52999,
       "6": 54392
     },
-    "averias_total": 3089,
+    "averias_total": 3090,
     "averias_top_municipios": {
       "Boyeros": 318,
       "Playa": 275,
       "Arroyo Naranjo": 237,
-      "Lisa": 218,
+      "Lisa": 219,
       "Habana Del Este": 211,
       "Guanabacoa": 196,
       "Cerro": 178,
