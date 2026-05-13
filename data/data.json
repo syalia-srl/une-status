@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T12:02:26+00:00",
+  "generated_at": "2026-05-13T12:11:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T12:02:05+00:00",
+    "as_of": "2026-05-13T12:10:41+00:00",
     "bloques": [
       {
         "id": 1,
@@ -112,8 +112,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-13T11:45:17+00:00",
-      "type": "daf"
+      "ts": "2026-05-13T12:10:41+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -341,7 +341,7 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 3,
-    "source_msg_count": 21,
+    "source_msg_count": 22,
     "by_type_counts": {
       "otro": 2,
       "averias": 4,
@@ -351,7 +351,8 @@
       "disparo_circuito": 1,
       "nota_diaria": 1,
       "sen_update": 1,
-      "daf": 1
+      "daf": 1,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
