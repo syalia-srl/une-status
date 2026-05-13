@@ -38,3 +38,5 @@
 {"id": 61945, "ts": "2026-05-13T14:42:57+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 61946, "ts": "2026-05-13T14:48:29+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 3}
 {"id": 61947, "ts": "2026-05-13T14:49:28+00:00", "type": "daf", "has_photo": false}
+{"id": 61948, "ts": "2026-05-13T15:15:42+00:00", "type": "inicio_afectacion", "has_photo": false, "emergency": true}
+{"id": 61949, "ts": "2026-05-13T15:21:50+00:00", "type": "otro", "has_photo": false}
