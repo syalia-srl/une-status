@@ -27,7 +27,7 @@
     "Playa": 1
   },
   "averias_total": 9,
-  "source_msg_count": 75,
+  "source_msg_count": 76,
   "by_type_counts": {
     "otro": 5,
     "actualizacion_bloques": 20,
@@ -41,6 +41,6 @@
     "sen_update": 2,
     "empty": 1,
     "mantenimiento": 3,
-    "corto": 2
+    "corto": 3
   }
 }
