@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T17:27:25+00:00",
+  "generated_at": "2026-05-13T17:38:05+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T17:14:02+00:00",
+    "as_of": "2026-05-13T17:27:42+00:00",
     "bloques": [
       {
         "id": 1,
@@ -334,13 +334,13 @@
       "Centro Habana": 1
     },
     "averias_total": 6,
-    "source_msg_count": 60,
+    "source_msg_count": 61,
     "by_type_counts": {
       "otro": 8,
       "averias": 6,
       "inicio_afectacion": 4,
       "actualizacion_bloques": 11,
-      "restablecimiento": 12,
+      "restablecimiento": 13,
       "disparo_circuito": 3,
       "nota_diaria": 1,
       "sen_update": 1,

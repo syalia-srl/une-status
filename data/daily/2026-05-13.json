@@ -26,13 +26,13 @@
     "Centro Habana": 1
   },
   "averias_total": 6,
-  "source_msg_count": 60,
+  "source_msg_count": 61,
   "by_type_counts": {
     "otro": 8,
     "averias": 6,
     "inicio_afectacion": 4,
     "actualizacion_bloques": 11,
-    "restablecimiento": 12,
+    "restablecimiento": 13,
     "disparo_circuito": 3,
     "nota_diaria": 1,
     "sen_update": 1,
