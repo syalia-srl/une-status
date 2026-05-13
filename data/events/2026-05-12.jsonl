@@ -81,3 +81,5 @@
 {"id": 61902, "ts": "2026-05-13T02:52:52+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
 {"id": 61903, "ts": "2026-05-13T02:53:22+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Marianao"}
 {"id": 61904, "ts": "2026-05-13T03:48:30+00:00", "type": "mantenimiento", "has_photo": false}
+{"id": 61905, "ts": "2026-05-13T03:53:54+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito"}
+{"id": 61906, "ts": "2026-05-13T03:54:05+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 11, "minutes_off": 0}, {"bloque": 1, "hours_off": 9, "minutes_off": 0}, {"bloque": 2, "hours_off": 8, "minutes_off": 0}, {"bloque": 5, "hours_off": 8, "minutes_off": 0}, {"bloque": 3, "hours_off": 7, "minutes_off": 0}], "total_mw": 426}

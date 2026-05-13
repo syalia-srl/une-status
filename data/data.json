@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T03:49:21+00:00",
+  "generated_at": "2026-05-13T04:04:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T03:48:30+00:00",
+    "as_of": "2026-05-13T04:02:44+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,8 +41,8 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 482,
-    "current_mw_affected_at": "2026-05-13T02:21:09+00:00",
+    "current_mw_affected": 426,
+    "current_mw_affected_at": "2026-05-13T03:54:05+00:00",
     "active_averias": {
       "ts": "2026-05-12T23:51:44+00:00",
       "averias": [
@@ -54,6 +54,11 @@
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T03:53:54+00:00",
+        "municipio": "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-13T02:53:22+00:00",
         "municipio": "Marianao",
@@ -316,21 +321,49 @@
     ]
   },
   "day": {
-    "date": "2026-05-12",
+    "date": "2026-05-13",
     "finalized": false,
+    "peak_mw_affected": null,
+    "peak_time": null,
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 1,
+    "by_type_counts": {
+      "otro": 1
+    }
+  },
+  "yesterday": {
+    "date": "2026-05-12",
+    "finalized": true,
     "peak_mw_affected": 468,
     "peak_time": "23:00",
     "interruption_minutes": 1440,
     "emergency_mw": 122,
     "block_outage_minutes": {
-      "1": 420,
-      "2": 360,
-      "3": 300,
+      "1": 540,
+      "2": 480,
+      "3": 420,
       "4": 0,
-      "5": 360,
-      "6": 540
+      "5": 480,
+      "6": 660
     },
-    "total_block_outage_minutes": 1980,
+    "total_block_outage_minutes": 2580,
     "daf_count": 6,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -342,15 +375,16 @@
       "San Miguel Del Padrón": 1,
       "Arroyo Naranjo": 1,
       "Playa": 1,
-      "Marianao": 1
+      "Marianao": 1,
+      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 10,
-    "source_msg_count": 83,
+    "averias_total": 11,
+    "source_msg_count": 85,
     "by_type_counts": {
       "otro": 6,
-      "actualizacion_bloques": 21,
+      "actualizacion_bloques": 22,
       "averias": 11,
-      "disparo_circuito": 6,
+      "disparo_circuito": 7,
       "restablecimiento": 12,
       "daf": 6,
       "restablecimiento_daf": 2,
@@ -362,91 +396,41 @@
       "corto": 3
     }
   },
-  "yesterday": {
-    "date": "2026-05-11",
-    "finalized": true,
-    "peak_mw_affected": 407,
-    "peak_time": "22:00",
-    "interruption_minutes": 1440,
-    "emergency_mw": 110,
-    "block_outage_minutes": {
-      "1": 450,
-      "2": 423,
-      "3": 683,
-      "4": 616,
-      "5": 369,
-      "6": 471
-    },
-    "total_block_outage_minutes": 3012,
-    "daf_count": 6,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "cte_offline_minutes": {
-      "felton": 803
-    },
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1,
-      "San Miguel Del Padrón": 1,
-      "Cerro": 1,
-      "Marianao": 1,
-      "Plaza": 1,
-      "Lisa": 1
-    },
-    "averias_total": 6,
-    "source_msg_count": 95,
-    "by_type_counts": {
-      "actualizacion_bloques": 16,
-      "restablecimiento": 16,
-      "averias": 10,
-      "disparo_circuito": 6,
-      "otro": 15,
-      "daf": 6,
-      "restablecimiento_daf": 4,
-      "inicio_afectacion": 10,
-      "corto": 3,
-      "nota_diaria": 1,
-      "mantenimiento": 1,
-      "sen_update": 1,
-      "via_libre": 2,
-      "transferencia_bloque": 2,
-      "unidad_termoelectrica": 2
-    }
-  },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 411.1,
+    "avg_peak_mw": 430.7,
     "max_peak_mw": 468,
-    "total_interruption_minutes": 8570,
+    "total_interruption_minutes": 8080,
     "total_block_outage_minutes": {
-      "1": 2596,
-      "2": 2802,
-      "3": 2397,
-      "4": 1711,
-      "5": 2380,
-      "6": 2548
+      "1": 2311,
+      "2": 2327,
+      "3": 2202,
+      "4": 1351,
+      "5": 1945,
+      "6": 2228
     },
-    "total_emergency_mw_sum": 754,
+    "total_emergency_mw_sum": 647,
     "averias_count_by_municipio": {
-      "Habana Del Este": 10,
+      "Habana Del Este": 9,
       "Guanabacoa": 8,
-      "Lisa": 6,
-      "San Miguel Del Padrón": 6,
       "Arroyo Naranjo": 6,
+      "San Miguel Del Padrón": 5,
       "Cerro": 5,
-      "Playa": 4,
+      "Lisa": 5,
       "Marianao": 4,
-      "Plaza": 3,
+      "Playa": 3,
       "Boyeros": 3,
       "Cotorro": 2,
       "Plaza De La Revolución": 2,
+      "Plaza": 2,
       "Centro Habana": 1,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
-      "Habana Vieja": 1
+      "Habana Vieja": 1,
+      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 62,
-    "daf_total": 55,
+    "averias_total": 58,
+    "daf_total": 45,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -458,17 +442,17 @@
   "month": {
     "month": "2026-05",
     "finalized": false,
-    "dailies_count": 12,
+    "dailies_count": 13,
     "avg_peak_mw": 331.6,
     "max_peak_mw": 468,
     "total_interruption_minutes": 10490,
     "total_block_outage_minutes": {
-      "1": 3172,
-      "2": 3247,
-      "3": 3442,
+      "1": 3292,
+      "2": 3367,
+      "3": 3562,
       "4": 2421,
-      "5": 2605,
-      "6": 3278
+      "5": 2725,
+      "6": 3398
     },
     "total_emergency_mw_sum": 939,
     "averias_count_by_municipio": {
@@ -489,9 +473,10 @@
       "Mariano": 1,
       "San Miguel Del Padron": 1,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
-      "Habana Vieja": 1
+      "Habana Vieja": 1,
+      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 139,
+    "averias_total": 140,
     "daf_total": 88,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -505,14 +490,14 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 52570,
     "total_block_outage_minutes": {
-      "1": 57666,
-      "2": 61326,
-      "3": 49166,
+      "1": 57786,
+      "2": 61446,
+      "3": 49286,
       "4": 54653,
-      "5": 52776,
-      "6": 53580
+      "5": 52896,
+      "6": 53700
     },
-    "averias_total": 3080,
+    "averias_total": 3081,
     "averias_top_municipios": {
       "Boyeros": 314,
       "Playa": 275,
@@ -546,10 +531,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-04-13",
-        "peak_mw": 245
-      },
       {
         "date": "2026-04-14",
         "peak_mw": 319
@@ -665,13 +646,13 @@
       {
         "date": "2026-05-12",
         "peak_mw": 468
+      },
+      {
+        "date": "2026-05-13",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-04-13",
-        "minutes": 1403
-      },
       {
         "date": "2026-04-14",
         "minutes": 2015
@@ -786,14 +767,14 @@
       },
       {
         "date": "2026-05-12",
-        "minutes": 1980
+        "minutes": 2580
+      },
+      {
+        "date": "2026-05-13",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2025-11-14",
-        "peak_mw": 226
-      },
       {
         "date": "2025-11-15",
         "peak_mw": 200
@@ -1509,6 +1490,10 @@
       {
         "date": "2026-05-12",
         "peak_mw": 468
+      },
+      {
+        "date": "2026-05-13",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1880,7 +1865,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 18165
+        "minutes": 18765
       }
     ],
     "sen_outage_days_total": 7,
@@ -1888,7 +1873,7 @@
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
     "daf_total": 2237,
-    "daf_last_30d": 209,
+    "daf_last_30d": 202,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1909,9 +1894,9 @@
     }
   },
   "meta": {
-    "daily_count": 1381,
+    "daily_count": 1382,
     "monthly_count": 46,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-05-12"
+    "latest_date": "2026-05-13"
   }
 }

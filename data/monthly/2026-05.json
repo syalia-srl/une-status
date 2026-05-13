@@ -1,17 +1,17 @@
 {
   "month": "2026-05",
   "finalized": false,
-  "dailies_count": 12,
+  "dailies_count": 13,
   "avg_peak_mw": 331.6,
   "max_peak_mw": 468,
   "total_interruption_minutes": 10490,
   "total_block_outage_minutes": {
-    "1": 3172,
-    "2": 3247,
-    "3": 3442,
+    "1": 3292,
+    "2": 3367,
+    "3": 3562,
     "4": 2421,
-    "5": 2605,
-    "6": 3278
+    "5": 2725,
+    "6": 3398
   },
   "total_emergency_mw_sum": 939,
   "averias_count_by_municipio": {
@@ -32,9 +32,10 @@
     "Mariano": 1,
     "San Miguel Del Padron": 1,
     "Arroyo Naranjo Queda Reparada La Avería": 1,
-    "Habana Vieja": 1
+    "Habana Vieja": 1,
+    "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
   },
-  "averias_total": 139,
+  "averias_total": 140,
   "daf_total": 88,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
