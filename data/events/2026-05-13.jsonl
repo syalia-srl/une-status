@@ -40,3 +40,4 @@
 {"id": 61947, "ts": "2026-05-13T14:49:28+00:00", "type": "daf", "has_photo": false}
 {"id": 61948, "ts": "2026-05-13T15:15:42+00:00", "type": "inicio_afectacion", "has_photo": false, "emergency": true}
 {"id": 61949, "ts": "2026-05-13T15:21:50+00:00", "type": "otro", "has_photo": false}
+{"id": 61950, "ts": "2026-05-13T15:31:43+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 18, "minutes_off": 38}, {"bloque": 4, "hours_off": 8, "minutes_off": 48}, {"bloque": 6, "hours_off": 7, "minutes_off": 2}, {"bloque": 1, "hours_off": 5, "minutes_off": 29}], "total_mw": 234}
