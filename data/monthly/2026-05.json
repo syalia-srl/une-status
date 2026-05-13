@@ -11,7 +11,7 @@
     "3": 4342,
     "4": 2601,
     "5": 3565,
-    "6": 3458
+    "6": 3518
   },
   "total_emergency_mw_sum": 939,
   "averias_count_by_municipio": {
@@ -23,8 +23,8 @@
     "Plaza": 10,
     "Playa": 9,
     "Cerro": 8,
+    "Boyeros": 8,
     "Marianao": 7,
-    "Boyeros": 7,
     "Cotorro": 5,
     "Plaza De La Revolución": 4,
     "Centro Habana": 2,
@@ -35,7 +35,7 @@
     "Habana Vieja": 1,
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
   },
-  "averias_total": 142,
+  "averias_total": 143,
   "daf_total": 88,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,

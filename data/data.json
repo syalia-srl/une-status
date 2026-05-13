@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T10:29:34+00:00",
+  "generated_at": "2026-05-13T10:41:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T10:15:25+00:00",
+    "as_of": "2026-05-13T10:35:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -40,13 +40,23 @@
         "since": "2026-05-13T06:31:04+00:00"
       }
     ],
-    "current_mw_affected": 413,
-    "current_mw_affected_at": "2026-05-13T10:15:25+00:00",
+    "current_mw_affected": 399,
+    "current_mw_affected_at": "2026-05-13T10:35:03+00:00",
     "active_averias": {
-      "ts": "2026-05-13T10:13:06+00:00",
-      "averias": []
+      "ts": "2026-05-13T10:31:17+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "severity": "primaria"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T10:31:17+00:00",
+        "municipio": "Boyeros",
+        "severity": "primaria"
+      },
       {
         "ts": "2026-05-13T06:44:37+00:00",
         "municipio": "Boyeros",
@@ -318,25 +328,25 @@
       "3": 780,
       "4": 180,
       "5": 840,
-      "6": 60
+      "6": 120
     },
-    "total_block_outage_minutes": 3600,
+    "total_block_outage_minutes": 3660,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
-      "Boyeros": 1
+      "Boyeros": 2,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 15,
+    "averias_total": 3,
+    "source_msg_count": 17,
     "by_type_counts": {
       "otro": 2,
-      "averias": 3,
+      "averias": 4,
       "inicio_afectacion": 2,
-      "actualizacion_bloques": 5,
+      "actualizacion_bloques": 6,
       "restablecimiento": 2,
       "disparo_circuito": 1
     }
@@ -401,7 +411,7 @@
       "3": 2982,
       "4": 1531,
       "5": 2785,
-      "6": 2288
+      "6": 2348
     },
     "total_emergency_mw_sum": 647,
     "averias_count_by_municipio": {
@@ -411,7 +421,7 @@
       "Arroyo Naranjo": 6,
       "Cerro": 5,
       "Lisa": 5,
-      "Boyeros": 4,
+      "Boyeros": 5,
       "Marianao": 4,
       "Playa": 3,
       "Cotorro": 2,
@@ -422,7 +432,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 60,
+    "averias_total": 61,
     "daf_total": 45,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -445,7 +455,7 @@
       "3": 4342,
       "4": 2601,
       "5": 3565,
-      "6": 3458
+      "6": 3518
     },
     "total_emergency_mw_sum": 939,
     "averias_count_by_municipio": {
@@ -457,8 +467,8 @@
       "Plaza": 10,
       "Playa": 9,
       "Cerro": 8,
+      "Boyeros": 8,
       "Marianao": 7,
-      "Boyeros": 7,
       "Cotorro": 5,
       "Plaza De La Revolución": 4,
       "Centro Habana": 2,
@@ -469,7 +479,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 142,
+    "averias_total": 143,
     "daf_total": 88,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -488,11 +498,11 @@
       "3": 50066,
       "4": 54833,
       "5": 53736,
-      "6": 53760
+      "6": 53820
     },
-    "averias_total": 3083,
+    "averias_total": 3084,
     "averias_top_municipios": {
-      "Boyeros": 315,
+      "Boyeros": 316,
       "Playa": 275,
       "Arroyo Naranjo": 237,
       "Lisa": 218,
@@ -764,7 +774,7 @@
       },
       {
         "date": "2026-05-13",
-        "minutes": 3600
+        "minutes": 3660
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1858,7 +1868,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 22365
+        "minutes": 22425
       }
     ],
     "sen_outage_days_total": 7,
