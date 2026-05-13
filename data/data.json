@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T05:21:22+00:00",
+  "generated_at": "2026-05-13T05:37:04+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T04:55:55+00:00",
+    "as_of": "2026-05-13T05:25:54+00:00",
     "bloques": [
       {
         "id": 1,
@@ -44,13 +44,8 @@
     "current_mw_affected": 448,
     "current_mw_affected_at": "2026-05-13T04:55:55+00:00",
     "active_averias": {
-      "ts": "2026-05-13T04:37:04+00:00",
-      "averias": [
-        {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "la siguiente dirección: Calzada de San Miguel esquina calle C"
-        }
-      ]
+      "ts": "2026-05-13T05:25:54+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -349,10 +344,10 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 1,
-    "source_msg_count": 5,
+    "source_msg_count": 6,
     "by_type_counts": {
       "otro": 2,
-      "averias": 1,
+      "averias": 2,
       "inicio_afectacion": 1,
       "actualizacion_bloques": 1
     }
