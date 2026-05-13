@@ -23,16 +23,17 @@
     "Boyeros": 4,
     "San Miguel Del Padrón": 1,
     "Habana Del Este": 1,
-    "Centro Habana": 1
+    "Centro Habana": 1,
+    "Regla": 1
   },
-  "averias_total": 7,
-  "source_msg_count": 79,
+  "averias_total": 8,
+  "source_msg_count": 81,
   "by_type_counts": {
     "otro": 12,
-    "averias": 7,
+    "averias": 8,
     "inicio_afectacion": 6,
     "actualizacion_bloques": 13,
-    "restablecimiento": 18,
+    "restablecimiento": 19,
     "disparo_circuito": 3,
     "nota_diaria": 1,
     "sen_update": 1,

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T20:18:14+00:00",
+  "generated_at": "2026-05-13T20:33:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T20:03:43+00:00",
+    "as_of": "2026-05-13T20:28:13+00:00",
     "bloques": [
       {
         "id": 1,
@@ -24,9 +24,8 @@
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-05-13T06:29:41+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-13T20:28:13+00:00"
       },
       {
         "id": 5,
@@ -43,16 +42,22 @@
     "current_mw_affected": 384,
     "current_mw_affected_at": "2026-05-13T20:03:43+00:00",
     "active_averias": {
-      "ts": "2026-05-13T19:29:47+00:00",
+      "ts": "2026-05-13T20:20:59+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
-          "direccion": "la siguiente dirección: 4ta e/ A y B, Miraflores",
+          "municipio": "Regla",
+          "direccion": "la siguiente dirección: 10 de Octubre e/ Caridad y Refugio",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T20:20:59+00:00",
+        "municipio": "Regla",
+        "direccion": "la siguiente dirección: 10 de Octubre e/ Caridad y Refugio",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-13T19:29:47+00:00",
         "municipio": "Boyeros",
@@ -335,16 +340,17 @@
       "Boyeros": 4,
       "San Miguel Del Padrón": 1,
       "Habana Del Este": 1,
-      "Centro Habana": 1
+      "Centro Habana": 1,
+      "Regla": 1
     },
-    "averias_total": 7,
-    "source_msg_count": 79,
+    "averias_total": 8,
+    "source_msg_count": 81,
     "by_type_counts": {
       "otro": 12,
-      "averias": 7,
+      "averias": 8,
       "inicio_afectacion": 6,
       "actualizacion_bloques": 13,
-      "restablecimiento": 18,
+      "restablecimiento": 19,
       "disparo_circuito": 3,
       "nota_diaria": 1,
       "sen_update": 1,
@@ -432,9 +438,10 @@
       "Plaza": 2,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1,
-      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
+      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+      "Regla": 1
     },
-    "averias_total": 65,
+    "averias_total": 66,
     "daf_total": 55,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -474,14 +481,14 @@
       "Cotorro": 5,
       "Plaza De La Revolución": 4,
       "Centro Habana": 3,
-      "Regla": 2,
+      "Regla": 3,
       "Mariano": 1,
       "San Miguel Del Padron": 1,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 147,
+    "averias_total": 148,
     "daf_total": 98,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -502,7 +509,7 @@
       "5": 52999,
       "6": 54392
     },
-    "averias_total": 3088,
+    "averias_total": 3089,
     "averias_top_municipios": {
       "Boyeros": 318,
       "Playa": 275,
@@ -518,7 +525,7 @@
       "Centro Habana": 65,
       "De Playa": 49,
       "De Boyeros": 48,
-      "Regla": 38
+      "Regla": 39
     },
     "daf_total": 2247,
     "sen_collapse_total": 9,
