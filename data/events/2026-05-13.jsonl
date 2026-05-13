@@ -53,3 +53,7 @@
 {"id": 61960, "ts": "2026-05-13T16:34:26+00:00", "type": "otro", "has_photo": false}
 {"id": 61961, "ts": "2026-05-13T16:47:28+00:00", "type": "otro", "has_photo": false}
 {"id": 61962, "ts": "2026-05-13T16:52:22+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 61963, "ts": "2026-05-13T17:01:55+00:00", "type": "daf", "has_photo": false}
+{"id": 61964, "ts": "2026-05-13T17:06:17+00:00", "type": "otro", "has_photo": false}
+{"id": 61965, "ts": "2026-05-13T17:07:23+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 61967, "ts": "2026-05-13T17:08:15+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 10, "minutes_off": 19}, {"bloque": 6, "hours_off": 8, "minutes_off": 34}, {"bloque": 1, "hours_off": 7, "minutes_off": 8}, {"bloque": 2, "hours_off": 0, "minutes_off": 46}], "total_mw": 273}
