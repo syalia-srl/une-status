@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-05-13T07:24:03+00:00",
+  "generated_at": "2026-05-13T07:39:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T06:49:40+00:00",
+    "as_of": "2026-05-13T07:28:33+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-05-12T18:33:21+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-13T07:28:33+00:00"
       },
       {
         "id": 2,
@@ -332,13 +331,13 @@
       "Boyeros": 1
     },
     "averias_total": 2,
-    "source_msg_count": 10,
+    "source_msg_count": 11,
     "by_type_counts": {
       "otro": 2,
       "averias": 2,
       "inicio_afectacion": 2,
       "actualizacion_bloques": 2,
-      "restablecimiento": 1,
+      "restablecimiento": 2,
       "disparo_circuito": 1
     }
   },
