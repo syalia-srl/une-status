@@ -14,7 +14,7 @@
     "6": 514
   },
   "total_block_outage_minutes": 1607,
-  "daf_count": 7,
+  "daf_count": 8,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -26,7 +26,7 @@
     "Centro Habana": 1
   },
   "averias_total": 6,
-  "source_msg_count": 63,
+  "source_msg_count": 64,
   "by_type_counts": {
     "otro": 8,
     "averias": 6,
@@ -36,7 +36,7 @@
     "disparo_circuito": 3,
     "nota_diaria": 1,
     "sen_update": 1,
-    "daf": 7,
+    "daf": 8,
     "restablecimiento_daf": 6,
     "corto": 1
   }
