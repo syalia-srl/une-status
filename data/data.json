@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T15:38:47+00:00",
+  "generated_at": "2026-05-13T15:54:39+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-13T15:35:47+00:00",
+    "as_of": "2026-05-13T15:50:37+00:00",
     "bloques": [
       {
         "id": 1,
@@ -40,15 +40,20 @@
     "current_mw_affected": 234,
     "current_mw_affected_at": "2026-05-13T15:31:43+00:00",
     "active_averias": {
-      "ts": "2026-05-13T10:31:17+00:00",
+      "ts": "2026-05-13T15:42:04+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
-          "severity": "primaria"
+          "municipio": "Habana Del Este",
+          "direccion": "la siguiente dirección: 420 / 19 y 21(Peñas Altas), se encuentran afectados por una AVERÍA por un TRANSFORMADOR DAÑADO"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-13T15:42:04+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "la siguiente dirección: 420 / 19 y 21(Peñas Altas), se encuentran afectados por una AVERÍA por un TRANSFORMADOR DAÑADO"
+      },
       {
         "ts": "2026-05-13T10:31:17+00:00",
         "municipio": "Boyeros",
@@ -318,16 +323,17 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Boyeros": 2,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 44,
+    "averias_total": 4,
+    "source_msg_count": 47,
     "by_type_counts": {
       "otro": 4,
-      "averias": 4,
+      "averias": 5,
       "inicio_afectacion": 3,
       "actualizacion_bloques": 9,
-      "restablecimiento": 10,
+      "restablecimiento": 12,
       "disparo_circuito": 1,
       "nota_diaria": 1,
       "sen_update": 1,
@@ -400,7 +406,7 @@
     },
     "total_emergency_mw_sum": 792,
     "averias_count_by_municipio": {
-      "Habana Del Este": 9,
+      "Habana Del Este": 10,
       "Guanabacoa": 8,
       "San Miguel Del Padrón": 6,
       "Arroyo Naranjo": 6,
@@ -417,7 +423,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 61,
+    "averias_total": 62,
     "daf_total": 51,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -444,7 +450,7 @@
     },
     "total_emergency_mw_sum": 1084,
     "averias_count_by_municipio": {
-      "Habana Del Este": 25,
+      "Habana Del Este": 26,
       "Lisa": 16,
       "Arroyo Naranjo": 15,
       "San Miguel Del Padrón": 15,
@@ -464,7 +470,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 143,
+    "averias_total": 144,
     "daf_total": 94,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -485,13 +491,13 @@
       "5": 52896,
       "6": 54122
     },
-    "averias_total": 3084,
+    "averias_total": 3085,
     "averias_top_municipios": {
       "Boyeros": 316,
       "Playa": 275,
       "Arroyo Naranjo": 237,
       "Lisa": 218,
-      "Habana Del Este": 210,
+      "Habana Del Este": 211,
       "Guanabacoa": 196,
       "Cerro": 178,
       "San Miguel Del Padrón": 174,

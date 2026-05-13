@@ -21,16 +21,17 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Boyeros": 2,
-    "San Miguel Del Padrón": 1
+    "San Miguel Del Padrón": 1,
+    "Habana Del Este": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 44,
+  "averias_total": 4,
+  "source_msg_count": 47,
   "by_type_counts": {
     "otro": 4,
-    "averias": 4,
+    "averias": 5,
     "inicio_afectacion": 3,
     "actualizacion_bloques": 9,
-    "restablecimiento": 10,
+    "restablecimiento": 12,
     "disparo_circuito": 1,
     "nota_diaria": 1,
     "sen_update": 1,

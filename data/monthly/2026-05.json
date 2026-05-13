@@ -15,7 +15,7 @@
   },
   "total_emergency_mw_sum": 1084,
   "averias_count_by_municipio": {
-    "Habana Del Este": 25,
+    "Habana Del Este": 26,
     "Lisa": 16,
     "Arroyo Naranjo": 15,
     "San Miguel Del Padrón": 15,
@@ -35,7 +35,7 @@
     "Habana Vieja": 1,
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
   },
-  "averias_total": 143,
+  "averias_total": 144,
   "daf_total": 94,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
