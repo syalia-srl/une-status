@@ -95,3 +95,5 @@
 {"id": 62006, "ts": "2026-05-13T22:14:15+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62007, "ts": "2026-05-13T22:21:50+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62008, "ts": "2026-05-13T22:39:36+00:00", "type": "daf", "has_photo": false}
+{"id": 62009, "ts": "2026-05-13T22:54:28+00:00", "type": "daf", "has_photo": false}
+{"id": 62010, "ts": "2026-05-13T23:02:56+00:00", "type": "otro", "has_photo": false}
