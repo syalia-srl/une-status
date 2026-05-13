@@ -6,6 +6,12 @@ on:
       - "site/**"
       - "data/data.json"
       - ".github/workflows/pages.yml"
+  # GITHUB_TOKEN pushes don't fire `on: push`, so update.yml's bot commits
+  # never trigger this. workflow_run catches them regardless of pusher.
+  workflow_run:
+    workflows: ["update"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -17,6 +23,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - uses: actions/checkout@v4
       - name: stage site
