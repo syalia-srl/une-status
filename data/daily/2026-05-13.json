@@ -27,13 +27,13 @@
     "Regla": 1
   },
   "averias_total": 8,
-  "source_msg_count": 81,
+  "source_msg_count": 83,
   "by_type_counts": {
     "otro": 12,
     "averias": 8,
     "inicio_afectacion": 6,
     "actualizacion_bloques": 13,
-    "restablecimiento": 19,
+    "restablecimiento": 21,
     "disparo_circuito": 3,
     "nota_diaria": 1,
     "sen_update": 1,
