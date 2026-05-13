@@ -27,3 +27,4 @@
 {"id": 61934, "ts": "2026-05-13T13:17:18+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 61935, "ts": "2026-05-13T13:28:30+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 2, "hours_off": 17, "minutes_off": 23}, {"bloque": 5, "hours_off": 17, "minutes_off": 14}, {"bloque": 3, "hours_off": 16, "minutes_off": 38}, {"bloque": 4, "hours_off": 6, "minutes_off": 39}, {"bloque": 6, "hours_off": 4, "minutes_off": 54}, {"bloque": 1, "hours_off": 3, "minutes_off": 28}], "total_mw": 310}
 {"id": 61936, "ts": "2026-05-13T13:29:21+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 61937, "ts": "2026-05-13T13:41:15+00:00", "type": "daf", "has_photo": false}
