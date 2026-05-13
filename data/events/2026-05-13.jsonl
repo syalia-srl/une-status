@@ -102,3 +102,6 @@
 {"id": 62013, "ts": "2026-05-13T23:16:22+00:00", "type": "otro", "has_photo": false}
 {"id": 62014, "ts": "2026-05-13T23:19:50+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": "la siguiente dirección: Enrique Hart / Lazo y Campo Florido"}]}
 {"id": 62015, "ts": "2026-05-13T23:22:01+00:00", "type": "daf", "has_photo": false}
+{"id": 62016, "ts": "2026-05-13T23:24:06+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62017, "ts": "2026-05-13T23:29:42+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62018, "ts": "2026-05-13T23:36:55+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 16, "minutes_off": 50}, {"bloque": 6, "hours_off": 15, "minutes_off": 5}, {"bloque": 1, "hours_off": 13, "minutes_off": 39}, {"bloque": 2, "hours_off": 7, "minutes_off": 17}, {"bloque": 5, "hours_off": 5, "minutes_off": 18}, {"bloque": 3, "hours_off": 4, "minutes_off": 24}], "total_mw": 443}

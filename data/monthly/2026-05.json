@@ -6,12 +6,12 @@
   "max_peak_mw": 495,
   "total_interruption_minutes": 11930,
   "total_block_outage_minutes": {
-    "1": 3979,
-    "2": 3672,
-    "3": 3694,
-    "4": 3299,
-    "5": 2911,
-    "6": 4170
+    "1": 4111,
+    "2": 3804,
+    "3": 3826,
+    "4": 3431,
+    "5": 3043,
+    "6": 4303
   },
   "total_emergency_mw_sum": 1084,
   "averias_count_by_municipio": {
