@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T20:43:06+00:00",
+  "generated_at": "2026-05-14T20:46:40+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T20:29:03+00:00",
+    "as_of": "2026-05-14T20:44:54+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,10 +41,22 @@
     "current_mw_affected": 223,
     "current_mw_affected_at": "2026-05-14T20:16:02+00:00",
     "active_averias": {
-      "ts": "2026-05-14T19:50:56+00:00",
-      "averias": []
+      "ts": "2026-05-14T20:44:54+00:00",
+      "averias": [
+        {
+          "municipio": "Lisa",
+          "direccion": "220 entre 59 y 61, Balcón Arimao 🚨",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-14T20:44:54+00:00",
+        "municipio": "Lisa",
+        "direccion": "220 entre 59 y 61, Balcón Arimao 🚨",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-14T19:16:38+00:00",
         "municipio": "Lisa",
@@ -389,7 +401,7 @@
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 3,
+      "Lisa": 4,
       "Guanabacoa": 2,
       "Regla": 2,
       "Arroyo Naranjo": 2,
@@ -400,10 +412,10 @@
       "Boyeros": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 18,
-    "source_msg_count": 87,
+    "averias_total": 19,
+    "source_msg_count": 89,
     "by_type_counts": {
-      "averias": 15,
+      "averias": 17,
       "restablecimiento": 21,
       "actualizacion_bloques": 8,
       "restablecimiento_daf": 7,
@@ -481,7 +493,7 @@
     "total_emergency_mw_sum": 827,
     "averias_count_by_municipio": {
       "Habana Del Este": 11,
-      "Lisa": 9,
+      "Lisa": 10,
       "Guanabacoa": 9,
       "Boyeros": 8,
       "Arroyo Naranjo": 8,
@@ -499,7 +511,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 83,
+    "averias_total": 84,
     "daf_total": 75,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -527,7 +539,7 @@
     "total_emergency_mw_sum": 1224,
     "averias_count_by_municipio": {
       "Habana Del Este": 27,
-      "Lisa": 20,
+      "Lisa": 21,
       "Arroyo Naranjo": 17,
       "San Miguel Del Padrón": 17,
       "Guanabacoa": 14,
@@ -547,7 +559,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 170,
+    "averias_total": 171,
     "daf_total": 120,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -568,12 +580,12 @@
       "5": 53419,
       "6": 54990
     },
-    "averias_total": 3111,
+    "averias_total": 3112,
     "averias_top_municipios": {
       "Boyeros": 319,
       "Playa": 277,
       "Arroyo Naranjo": 239,
-      "Lisa": 222,
+      "Lisa": 223,
       "Habana Del Este": 212,
       "Guanabacoa": 198,
       "Cerro": 181,

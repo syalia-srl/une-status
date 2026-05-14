@@ -20,7 +20,7 @@
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Lisa": 3,
+    "Lisa": 4,
     "Guanabacoa": 2,
     "Regla": 2,
     "Arroyo Naranjo": 2,
@@ -31,10 +31,10 @@
     "Boyeros": 1,
     "Cerro Y Centro Habana": 1
   },
-  "averias_total": 18,
-  "source_msg_count": 87,
+  "averias_total": 19,
+  "source_msg_count": 89,
   "by_type_counts": {
-    "averias": 15,
+    "averias": 17,
     "restablecimiento": 21,
     "actualizacion_bloques": 8,
     "restablecimiento_daf": 7,
