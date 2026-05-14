@@ -87,3 +87,5 @@
 {"id": 62134, "ts": "2026-05-14T20:29:03+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62135, "ts": "2026-05-14T20:43:15+00:00", "type": "averias", "has_photo": false}
 {"id": 62136, "ts": "2026-05-14T20:44:54+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "220 entre 59 y 61, Balcón Arimao 🚨", "severity": "secundaria"}]}
+{"id": 62137, "ts": "2026-05-14T20:47:53+00:00", "type": "via_libre", "has_photo": false}
+{"id": 62138, "ts": "2026-05-14T20:51:30+00:00", "type": "restablecimiento", "has_photo": false}
