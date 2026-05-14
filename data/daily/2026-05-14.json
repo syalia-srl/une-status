@@ -20,16 +20,16 @@
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Guanabacoa": 1,
+    "Guanabacoa": 2,
     "Regla": 1,
     "Arroyo Naranjo": 1,
     "San Miguel Del Padrón": 1,
     "Playa": 1
   },
-  "averias_total": 5,
-  "source_msg_count": 25,
+  "averias_total": 6,
+  "source_msg_count": 26,
   "by_type_counts": {
-    "averias": 7,
+    "averias": 8,
     "restablecimiento": 6,
     "actualizacion_bloques": 4,
     "restablecimiento_daf": 1,
