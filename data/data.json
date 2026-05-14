@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T02:13:22+00:00",
+  "generated_at": "2026-05-14T02:28:58+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T01:42:04+00:00",
+    "as_of": "2026-05-14T02:28:26+00:00",
     "bloques": [
       {
         "id": 1,
@@ -42,13 +42,8 @@
     "current_mw_affected": 443,
     "current_mw_affected_at": "2026-05-13T23:36:55+00:00",
     "active_averias": {
-      "ts": "2026-05-14T00:51:38+00:00",
-      "averias": [
-        {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "la siguiente dirección: 112 / 199 y 203 (Residencial San Miguel) 🛑 🚧"
-        }
-      ]
+      "ts": "2026-05-14T02:26:52+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -126,7 +121,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-14T01:35:39+00:00",
+      "ts": "2026-05-14T02:19:10+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -345,7 +340,7 @@
       "6": 905
     },
     "total_block_outage_minutes": 3753,
-    "daf_count": 21,
+    "daf_count": 22,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -360,17 +355,17 @@
       "Cerro": 1
     },
     "averias_total": 12,
-    "source_msg_count": 122,
+    "source_msg_count": 125,
     "by_type_counts": {
       "otro": 18,
-      "averias": 15,
+      "averias": 16,
       "inicio_afectacion": 6,
       "actualizacion_bloques": 15,
-      "restablecimiento": 29,
+      "restablecimiento": 30,
       "disparo_circuito": 3,
       "nota_diaria": 1,
       "sen_update": 1,
-      "daf": 21,
+      "daf": 22,
       "restablecimiento_daf": 12,
       "corto": 1
     }
@@ -458,7 +453,7 @@
       "Regla": 1
     },
     "averias_total": 70,
-    "daf_total": 66,
+    "daf_total": 67,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -505,7 +500,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
     "averias_total": 152,
-    "daf_total": 109,
+    "daf_total": 110,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -543,7 +538,7 @@
       "De Boyeros": 48,
       "Regla": 39
     },
-    "daf_total": 2258,
+    "daf_total": 2259,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1900,8 +1895,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2258,
-    "daf_last_30d": 223,
+    "daf_total": 2259,
+    "daf_last_30d": 224,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
