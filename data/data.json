@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T04:47:32+00:00",
+  "generated_at": "2026-05-14T05:03:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T04:45:21+00:00",
+    "as_of": "2026-05-14T04:59:15+00:00",
     "bloques": [
       {
         "id": 1,
@@ -39,19 +39,25 @@
         "since": "2026-05-13T06:31:04+00:00"
       }
     ],
-    "current_mw_affected": 508,
-    "current_mw_affected_at": "2026-05-14T03:03:08+00:00",
+    "current_mw_affected": 480,
+    "current_mw_affected_at": "2026-05-14T04:59:15+00:00",
     "active_averias": {
-      "ts": "2026-05-14T04:43:50+00:00",
+      "ts": "2026-05-14T04:50:32+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "la siguiente dirección: Versalles e/ Máximo Gómez y Maceo, Villa 1",
+          "municipio": "Regla",
+          "direccion": "la siguiente dirección: 10 de Octubre e/ Caridad y Refugio",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-14T04:50:32+00:00",
+        "municipio": "Regla",
+        "direccion": "la siguiente dirección: 10 de Octubre e/ Caridad y Refugio",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-14T04:43:50+00:00",
         "municipio": "Guanabacoa",
@@ -324,32 +330,34 @@
   "day": {
     "date": "2026-05-14",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 480,
+    "peak_time": "00:59",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 1140,
+      "2": 758,
+      "3": 585,
+      "4": 1331,
+      "5": 639,
+      "6": 1226
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 5679,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Guanabacoa": 1,
+      "Regla": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 2,
+    "averias_total": 2,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento": 1
+      "averias": 3,
+      "restablecimiento": 2,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -401,16 +409,16 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 446.0,
+    "avg_peak_mw": 450.9,
     "max_peak_mw": 495,
     "total_interruption_minutes": 8080,
     "total_block_outage_minutes": {
-      "1": 2843,
-      "2": 2330,
-      "3": 2370,
-      "4": 2262,
-      "5": 1968,
-      "6": 2921
+      "1": 3983,
+      "2": 3088,
+      "3": 2955,
+      "4": 3593,
+      "5": 2607,
+      "6": 4147
     },
     "total_emergency_mw_sum": 687,
     "averias_count_by_municipio": {
@@ -426,13 +434,13 @@
       "Plaza De La Revolución": 2,
       "Plaza": 2,
       "Playa": 2,
+      "Regla": 2,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Cotorro": 1,
       "Habana Vieja": 1,
-      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
-      "Regla": 1
+      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 66,
+    "averias_total": 67,
     "daf_total": 65,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -446,16 +454,16 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 14,
-    "avg_peak_mw": 344.2,
+    "avg_peak_mw": 353.9,
     "max_peak_mw": 495,
     "total_interruption_minutes": 11930,
     "total_block_outage_minutes": {
-      "1": 4316,
-      "2": 4009,
-      "3": 4016,
-      "4": 3636,
-      "5": 3248,
-      "6": 4508
+      "1": 5456,
+      "2": 4767,
+      "3": 4601,
+      "4": 4967,
+      "5": 3887,
+      "6": 5734
     },
     "total_emergency_mw_sum": 1084,
     "averias_count_by_municipio": {
@@ -471,15 +479,15 @@
       "Marianao": 7,
       "Cotorro": 5,
       "Plaza De La Revolución": 4,
+      "Regla": 4,
       "Centro Habana": 3,
-      "Regla": 3,
       "Mariano": 1,
       "San Miguel Del Padron": 1,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 153,
+    "averias_total": 154,
     "daf_total": 110,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -493,14 +501,14 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 54010,
     "total_block_outage_minutes": {
-      "1": 58810,
-      "2": 62088,
-      "3": 49740,
-      "4": 55868,
-      "5": 53419,
-      "6": 54810
+      "1": 59950,
+      "2": 62846,
+      "3": 50325,
+      "4": 57199,
+      "5": 54058,
+      "6": 56036
     },
-    "averias_total": 3094,
+    "averias_total": 3095,
     "averias_top_municipios": {
       "Boyeros": 318,
       "Playa": 275,
@@ -516,7 +524,7 @@
       "Centro Habana": 65,
       "De Playa": 49,
       "De Boyeros": 48,
-      "Regla": 39
+      "Regla": 40
     },
     "daf_total": 2259,
     "sen_collapse_total": 9,
@@ -652,7 +660,7 @@
       },
       {
         "date": "2026-05-14",
-        "peak_mw": null
+        "peak_mw": 480
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -774,7 +782,7 @@
       },
       {
         "date": "2026-05-14",
-        "minutes": 0
+        "minutes": 5679
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1496,7 +1504,7 @@
       },
       {
         "date": "2026-05-14",
-        "peak_mw": null
+        "peak_mw": 480
       }
     ],
     "monthly_max_peak_mw": [
@@ -1868,7 +1876,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 23733
+        "minutes": 29412
       }
     ],
     "sen_outage_days_total": 7,
