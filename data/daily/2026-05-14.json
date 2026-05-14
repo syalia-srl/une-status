@@ -24,14 +24,14 @@
     "Regla": 2,
     "Playa": 2,
     "Lisa": 2,
+    "Cerro": 2,
     "Arroyo Naranjo": 1,
     "San Miguel Del Padrón": 1,
     "Boyeros": 1,
-    "Plaza": 1,
-    "Cerro": 1
+    "Plaza": 1
   },
-  "averias_total": 13,
-  "source_msg_count": 70,
+  "averias_total": 14,
+  "source_msg_count": 71,
   "by_type_counts": {
     "averias": 12,
     "restablecimiento": 14,
@@ -44,7 +44,7 @@
     "corto": 5,
     "nota_diaria": 1,
     "pinned": 1,
-    "disparo_circuito": 4,
+    "disparo_circuito": 5,
     "mantenimiento": 2
   }
 }
