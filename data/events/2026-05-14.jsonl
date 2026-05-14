@@ -97,3 +97,4 @@
 {"id": 62145, "ts": "2026-05-14T21:34:32+00:00", "type": "pinned", "has_photo": false}
 {"id": 62146, "ts": "2026-05-14T21:39:09+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62147, "ts": "2026-05-14T21:43:37+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62148, "ts": "2026-05-14T22:08:10+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 4, "minutes_off": 50}, {"bloque": 1, "hours_off": 4, "minutes_off": 40}], "total_mw": 181}
