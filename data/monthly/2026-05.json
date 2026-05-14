@@ -6,19 +6,19 @@
   "max_peak_mw": 495,
   "total_interruption_minutes": 11930,
   "total_block_outage_minutes": {
-    "1": 5456,
-    "2": 4767,
-    "3": 4601,
-    "4": 4967,
-    "5": 3887,
-    "6": 5734
+    "1": 5518,
+    "2": 4829,
+    "3": 4663,
+    "4": 5029,
+    "5": 3949,
+    "6": 5796
   },
   "total_emergency_mw_sum": 1084,
   "averias_count_by_municipio": {
     "Habana Del Este": 27,
     "Lisa": 17,
-    "San Miguel Del Padrón": 16,
-    "Arroyo Naranjo": 15,
+    "San Miguel Del Padrón": 17,
+    "Arroyo Naranjo": 16,
     "Guanabacoa": 13,
     "Plaza": 10,
     "Boyeros": 10,
@@ -35,7 +35,7 @@
     "Habana Vieja": 1,
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
   },
-  "averias_total": 154,
+  "averias_total": 156,
   "daf_total": 110,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
