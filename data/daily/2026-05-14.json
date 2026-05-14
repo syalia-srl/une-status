@@ -22,18 +22,19 @@
   "averias_count_by_municipio": {
     "Guanabacoa": 2,
     "Regla": 2,
+    "Arroyo Naranjo": 2,
     "Playa": 2,
     "Plaza": 2,
     "Lisa": 2,
     "Cerro": 2,
-    "Arroyo Naranjo": 1,
     "San Miguel Del Padrón": 1,
-    "Boyeros": 1
+    "Boyeros": 1,
+    "Cerro Y Centro Habana": 1
   },
-  "averias_total": 15,
-  "source_msg_count": 73,
+  "averias_total": 17,
+  "source_msg_count": 76,
   "by_type_counts": {
-    "averias": 13,
+    "averias": 14,
     "restablecimiento": 15,
     "actualizacion_bloques": 7,
     "restablecimiento_daf": 6,
@@ -44,7 +45,7 @@
     "corto": 5,
     "nota_diaria": 1,
     "pinned": 1,
-    "disparo_circuito": 5,
+    "disparo_circuito": 7,
     "mantenimiento": 2
   }
 }

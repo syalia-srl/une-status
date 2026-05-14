@@ -17,8 +17,8 @@
   "averias_count_by_municipio": {
     "Habana Del Este": 27,
     "Lisa": 19,
+    "Arroyo Naranjo": 17,
     "San Miguel Del Padrón": 17,
-    "Arroyo Naranjo": 16,
     "Guanabacoa": 14,
     "Plaza": 12,
     "Cerro": 11,
@@ -33,9 +33,10 @@
     "San Miguel Del Padron": 1,
     "Arroyo Naranjo Queda Reparada La Avería": 1,
     "Habana Vieja": 1,
-    "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
+    "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+    "Cerro Y Centro Habana": 1
   },
-  "averias_total": 167,
+  "averias_total": 169,
   "daf_total": 119,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T19:04:04+00:00",
+  "generated_at": "2026-05-14T19:14:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T18:58:24+00:00",
+    "as_of": "2026-05-14T19:14:06+00:00",
     "bloques": [
       {
         "id": 1,
@@ -42,15 +42,20 @@
     "current_mw_affected": 228,
     "current_mw_affected_at": "2026-05-14T18:13:15+00:00",
     "active_averias": {
-      "ts": "2026-05-14T18:58:24+00:00",
-      "averias": [
-        {
-          "municipio": "Plaza",
-          "direccion": "las calles 24 entre 25 y 27 afectando el servicio eléctrico en: 14 desde Zapata hasta 23; 23 desde 14 hasta 26; 23 hasta 38; 26 desde 23 hasta 33 🚨"
-        }
-      ]
+      "ts": "2026-05-14T19:06:40+00:00",
+      "averias": []
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-14T19:14:06+00:00",
+        "municipio": "Arroyo Naranjo",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-14T19:06:10+00:00",
+        "municipio": "Cerro Y Centro Habana",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-14T18:58:24+00:00",
         "municipio": "Plaza",
@@ -394,18 +399,19 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
       "Regla": 2,
+      "Arroyo Naranjo": 2,
       "Playa": 2,
       "Plaza": 2,
       "Lisa": 2,
       "Cerro": 2,
-      "Arroyo Naranjo": 1,
       "San Miguel Del Padrón": 1,
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Cerro Y Centro Habana": 1
     },
-    "averias_total": 15,
-    "source_msg_count": 73,
+    "averias_total": 17,
+    "source_msg_count": 76,
     "by_type_counts": {
-      "averias": 13,
+      "averias": 14,
       "restablecimiento": 15,
       "actualizacion_bloques": 7,
       "restablecimiento_daf": 6,
@@ -416,7 +422,7 @@
       "corto": 5,
       "nota_diaria": 1,
       "pinned": 1,
-      "disparo_circuito": 5,
+      "disparo_circuito": 7,
       "mantenimiento": 2
     }
   },
@@ -486,8 +492,8 @@
       "Guanabacoa": 9,
       "Lisa": 8,
       "Boyeros": 8,
+      "Arroyo Naranjo": 8,
       "Cerro": 7,
-      "Arroyo Naranjo": 7,
       "San Miguel Del Padrón": 7,
       "Plaza": 4,
       "Marianao": 4,
@@ -498,9 +504,10 @@
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Cotorro": 1,
       "Habana Vieja": 1,
-      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
+      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+      "Cerro Y Centro Habana": 1
     },
-    "averias_total": 80,
+    "averias_total": 82,
     "daf_total": 74,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -529,8 +536,8 @@
     "averias_count_by_municipio": {
       "Habana Del Este": 27,
       "Lisa": 19,
+      "Arroyo Naranjo": 17,
       "San Miguel Del Padrón": 17,
-      "Arroyo Naranjo": 16,
       "Guanabacoa": 14,
       "Plaza": 12,
       "Cerro": 11,
@@ -545,9 +552,10 @@
       "San Miguel Del Padron": 1,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1,
-      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
+      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
+      "Cerro Y Centro Habana": 1
     },
-    "averias_total": 167,
+    "averias_total": 169,
     "daf_total": 119,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -568,11 +576,11 @@
       "5": 53419,
       "6": 54865
     },
-    "averias_total": 3108,
+    "averias_total": 3110,
     "averias_top_municipios": {
       "Boyeros": 319,
       "Playa": 277,
-      "Arroyo Naranjo": 238,
+      "Arroyo Naranjo": 239,
       "Lisa": 221,
       "Habana Del Este": 212,
       "Guanabacoa": 198,
