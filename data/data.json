@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T07:06:53+00:00",
+  "generated_at": "2026-05-14T07:22:26+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T05:59:25+00:00",
+    "as_of": "2026-05-14T07:12:18+00:00",
     "bloques": [
       {
         "id": 1,
@@ -128,11 +128,6 @@
         "ts": "2026-05-13T10:31:17+00:00",
         "municipio": "Boyeros",
         "severity": "primaria"
-      },
-      {
-        "ts": "2026-05-13T06:44:37+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -367,10 +362,10 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 4,
-    "source_msg_count": 12,
+    "source_msg_count": 13,
     "by_type_counts": {
       "averias": 5,
-      "restablecimiento": 4,
+      "restablecimiento": 5,
       "actualizacion_bloques": 2,
       "restablecimiento_daf": 1
     }
