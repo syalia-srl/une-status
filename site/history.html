@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <title>statusUNE — Histórico por día</title>
+  <meta name="description" content="Estadísticas históricas por día del servicio eléctrico en La Habana.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='80' font-size='80'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media',
+      theme: {
+        extend: {
+          fontFamily: { sans: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen">
+  <header class="border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">⚡</span>
+        <div>
+          <h1 class="font-bold text-lg leading-tight">statusUNE</h1>
+          <p class="text-xs text-slate-500 dark:text-slate-400">La Habana — Histórico</p>
+        </div>
+      </div>
+      <a href="index.html" class="text-sm text-slate-500 dark:text-slate-400 hover:underline">← Dashboard</a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-6 space-y-6">
+    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3">
+      <label for="date-picker" class="font-semibold text-sm">Seleccionar fecha:</label>
+      <input type="date" id="date-picker"
+             min="2022-08-05"
+             class="rounded border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-3 py-1.5 text-sm">
+    </div>
+
+    <section id="stats" class="hidden space-y-4">
+      <h2 id="stats-date" class="text-xl font-bold"></h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="kpi-grid"></div>
+      <div class="rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+        <h3 class="font-semibold mb-3">Horas apagado por bloque</h3>
+        <div id="block-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3"></div>
+      </div>
+      <div id="municipios-section" class="hidden rounded-lg border border-slate-200 dark:border-slate-800 p-4">
+        <h3 class="font-semibold mb-2">Averías por municipio</h3>
+        <div id="municipios-list" class="text-sm space-y-1"></div>
+      </div>
+    </section>
+
+    <section id="no-data" class="hidden rounded-lg border border-yellow-300 bg-yellow-50 dark:bg-yellow-950 dark:border-yellow-900 p-4 text-yellow-700 dark:text-yellow-300">
+      <p>No hay datos para la fecha seleccionada. El rango disponible es 2022-08-05 a hoy.</p>
+    </section>
+    <section id="loading" class="text-center py-8 text-slate-500">
+      Cargando…
+    </section>
+    <section id="error" class="hidden rounded-lg border border-red-300 bg-red-50 dark:bg-red-950 dark:border-red-900 p-4 text-red-700 dark:text-red-300">
+      <p id="error-msg">Error al cargar los datos.</p>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 dark:border-slate-800 mt-12">
+    <div class="max-w-5xl mx-auto px-4 py-6 text-xs text-slate-500 dark:text-slate-400 space-y-1">
+      <p>
+        Datos públicos recolectados automáticamente del canal de Telegram
+        <a class="underline" href="https://t.me/EmpresaElectricaDeLaHabana" target="_blank" rel="noopener">@EmpresaElectricaDeLaHabana</a>.
+        Procesamiento: regex + heurísticas. Sin IA. Sin afiliación con la EELH o la UNE.
+      </p>
+      <p>
+        Código: <a class="underline" href="https://github.com/syalia-srl/une-status" target="_blank" rel="noopener">syalia-srl/une-status</a>.
+        Actualización cada ~15 min.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const picker   = document.getElementById('date-picker');
+    const statsEl  = document.getElementById('stats');
+    const noDataEl = document.getElementById('no-data');
+    const loadingEl = document.getElementById('loading');
+    const errorEl  = document.getElementById('error');
+    const kpiGrid  = document.getElementById('kpi-grid');
+    const blockGrid = document.getElementById('block-grid');
+    const municipiosList    = document.getElementById('municipios-list');
+    const municipiosSection = document.getElementById('municipios-section');
+
+    const todayStr     = new Date().toISOString().slice(0, 10);
+    const yesterdayObj = new Date();
+    yesterdayObj.setDate(yesterdayObj.getDate() - 1);
+    const yesterdayStr = yesterdayObj.toISOString().slice(0, 10);
+    picker.max   = todayStr;
+    picker.value = yesterdayStr;
+
+    function fmtMw(v)      { return (v !== null && v !== undefined) ? `${v} MW` : '—'; }
+    function fmtTime(v)    { return v || '—'; }
+    function fmtMinutes(v) {
+      if (v === null || v === undefined) return '—';
+      const h = Math.floor(v / 60), m = v % 60;
+      return m === 0 ? `${h}h` : `${h}h ${m}m`;
+    }
+
+    function kpiCard(label, value) {
+      return `<div class="rounded-lg border border-slate-200 dark:border-slate-800 p-3 text-center">
+        <div class="text-xs text-slate-500 dark:text-slate-400">${label}</div>
+        <div class="text-xl font-bold mt-1">${value}</div>
+      </div>`;
+    }
+
+    function blockCard(b, minutes) {
+      let display, color;
+      if (minutes === null || minutes === undefined) {
+        display = '—'; color = 'text-slate-400';
+      } else if (minutes === 0) {
+        display = '0h'; color = 'text-green-600 dark:text-green-400';
+      } else {
+        const h = Math.floor(minutes / 60), m = minutes % 60;
+        display = m === 0 ? `${h}h` : `${h}h ${m}m`;
+        color = 'text-red-500 dark:text-red-400';
+      }
+      return `<div class="rounded-lg border border-slate-200 dark:border-slate-800 p-3 text-center">
+        <div class="text-xs text-slate-500 dark:text-slate-400">Bloque ${b}</div>
+        <div class="text-lg font-bold mt-1 ${color}">${display}</div>
+      </div>`;
+    }
+
+    function hide(...els) { els.forEach(el => el.classList.add('hidden')); }
+    function show(...els) { els.forEach(el => el.classList.remove('hidden')); }
+
+    async function loadDate(dateStr) {
+      hide(statsEl, noDataEl, errorEl);
+      show(loadingEl);
+      try {
+        const resp = await fetch(`data/daily/${dateStr}.json`);
+        hide(loadingEl);
+        if (resp.status === 404) { show(noDataEl); return; }
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        renderStats(await resp.json());
+      } catch (e) {
+        hide(loadingEl);
+        document.getElementById('error-msg').textContent = `Error: ${e.message}`;
+        show(errorEl);
+      }
+    }
+
+    function renderStats(d) {
+      document.getElementById('stats-date').textContent = d.date;
+
+      kpiGrid.innerHTML = [
+        kpiCard('Pico afectación',  fmtMw(d.peak_mw_affected)),
+        kpiCard('Hora del pico',    fmtTime(d.peak_time)),
+        kpiCard('Apagado total',    fmtMinutes(d.interruption_minutes)),
+        kpiCard('Emergencia',       fmtMw(d.emergency_mw)),
+        kpiCard('DAF',              d.daf_count       ?? 0),
+        kpiCard('Averías',          d.averias_total   ?? 0),
+        kpiCard('Colapso SEN',      d.sen_outage ? 'Sí' : 'No'),
+        kpiCard('Mensajes',         d.source_msg_count ?? 0),
+      ].join('');
+
+      const blocks = d.block_outage_minutes || {};
+      blockGrid.innerHTML = ['1','2','3','4','5','6']
+        .map(b => blockCard(b, blocks[b] !== undefined ? blocks[b] : null))
+        .join('');
+
+      const muns = Object.entries(d.averias_count_by_municipio || {}).sort((a,b) => b[1]-a[1]);
+      if (muns.length) {
+        municipiosList.innerHTML = muns.map(([m, c]) =>
+          `<div class="flex justify-between py-0.5"><span>${m}</span><span class="font-mono font-semibold">${c}</span></div>`
+        ).join('');
+        show(municipiosSection);
+      } else {
+        hide(municipiosSection);
+      }
+      show(statsEl);
+    }
+
+    picker.addEventListener('change', () => { if (picker.value) loadDate(picker.value); });
+    loadDate(picker.value);
+  </script>
+</body>
+</html>
