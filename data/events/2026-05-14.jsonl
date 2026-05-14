@@ -53,3 +53,5 @@
 {"id": 62100, "ts": "2026-05-14T14:54:15+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "las calles 182 entre 65 y 69, Alturas de la Lisa 🚨", "severity": "secundaria"}]}
 {"id": 62101, "ts": "2026-05-14T14:56:14+00:00", "type": "daf", "has_photo": false}
 {"id": 62102, "ts": "2026-05-14T15:21:39+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 29, "minutes_off": 35}, {"bloque": 2, "hours_off": 23, "minutes_off": 9}, {"bloque": 5, "hours_off": 21, "minutes_off": 10}, {"bloque": 3, "hours_off": 20, "minutes_off": 20}, {"bloque": 4, "hours_off": 6, "minutes_off": 45}], "total_mw": 242}
+{"id": 62103, "ts": "2026-05-14T15:23:38+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62104, "ts": "2026-05-14T15:28:47+00:00", "type": "daf", "has_photo": false}
