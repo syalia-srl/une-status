@@ -14,7 +14,7 @@
     "6": 905
   },
   "total_block_outage_minutes": 3753,
-  "daf_count": 19,
+  "daf_count": 20,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -29,7 +29,7 @@
     "Cerro": 1
   },
   "averias_total": 12,
-  "source_msg_count": 118,
+  "source_msg_count": 120,
   "by_type_counts": {
     "otro": 17,
     "averias": 15,
@@ -39,8 +39,8 @@
     "disparo_circuito": 3,
     "nota_diaria": 1,
     "sen_update": 1,
-    "daf": 19,
-    "restablecimiento_daf": 11,
+    "daf": 20,
+    "restablecimiento_daf": 12,
     "corto": 1
   }
 }
