@@ -79,3 +79,6 @@
 {"id": 62126, "ts": "2026-05-14T19:50:56+00:00", "type": "averias", "has_photo": false}
 {"id": 62127, "ts": "2026-05-14T19:53:33+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62128, "ts": "2026-05-14T19:58:19+00:00", "type": "daf", "has_photo": false}
+{"id": 62129, "ts": "2026-05-14T20:11:09+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62130, "ts": "2026-05-14T20:12:02+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62131, "ts": "2026-05-14T20:16:02+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 3, "minutes_off": 0}, {"bloque": 1, "hours_off": 2, "minutes_off": 50}], "total_mw": 223}
