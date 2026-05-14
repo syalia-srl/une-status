@@ -6,14 +6,14 @@
   "interruption_minutes": 1440,
   "emergency_mw": 140,
   "block_outage_minutes": {
-    "1": 1775,
-    "2": 1389,
-    "3": 1220,
-    "4": 405,
-    "5": 1270,
-    "6": 0
+    "1": 45,
+    "2": 0,
+    "3": 1370,
+    "4": 570,
+    "5": 0,
+    "6": 55
   },
-  "total_block_outage_minutes": 6059,
+  "total_block_outage_minutes": 2040,
   "daf_count": 9,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,19 +23,19 @@
     "Guanabacoa": 2,
     "Regla": 2,
     "Playa": 2,
+    "Lisa": 2,
     "Arroyo Naranjo": 1,
     "San Miguel Del Padrón": 1,
     "Boyeros": 1,
     "Plaza": 1,
-    "Lisa": 1,
     "Cerro": 1
   },
-  "averias_total": 12,
-  "source_msg_count": 68,
+  "averias_total": 13,
+  "source_msg_count": 70,
   "by_type_counts": {
     "averias": 12,
     "restablecimiento": 14,
-    "actualizacion_bloques": 6,
+    "actualizacion_bloques": 7,
     "restablecimiento_daf": 6,
     "inicio_afectacion": 4,
     "daf": 9,
@@ -44,7 +44,7 @@
     "corto": 5,
     "nota_diaria": 1,
     "pinned": 1,
-    "disparo_circuito": 3,
+    "disparo_circuito": 4,
     "mantenimiento": 2
   }
 }

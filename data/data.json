@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T18:12:57+00:00",
+  "generated_at": "2026-05-14T18:28:26+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T18:07:39+00:00",
+    "as_of": "2026-05-14T18:24:56+00:00",
     "bloques": [
       {
         "id": 1,
@@ -40,8 +40,8 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 242,
-    "current_mw_affected_at": "2026-05-14T15:21:39+00:00",
+    "current_mw_affected": 228,
+    "current_mw_affected_at": "2026-05-14T18:13:15+00:00",
     "active_averias": {
       "ts": "2026-05-14T14:54:15+00:00",
       "averias": [
@@ -53,6 +53,11 @@
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-14T18:24:56+00:00",
+        "municipio": "Lisa",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-14T18:04:12+00:00",
         "municipio": "Cerro",
@@ -365,14 +370,14 @@
     "interruption_minutes": 1440,
     "emergency_mw": 140,
     "block_outage_minutes": {
-      "1": 1775,
-      "2": 1389,
-      "3": 1220,
-      "4": 405,
-      "5": 1270,
-      "6": 0
+      "1": 45,
+      "2": 0,
+      "3": 1370,
+      "4": 570,
+      "5": 0,
+      "6": 55
     },
-    "total_block_outage_minutes": 6059,
+    "total_block_outage_minutes": 2040,
     "daf_count": 9,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -382,19 +387,19 @@
       "Guanabacoa": 2,
       "Regla": 2,
       "Playa": 2,
+      "Lisa": 2,
       "Arroyo Naranjo": 1,
       "San Miguel Del Padrón": 1,
       "Boyeros": 1,
       "Plaza": 1,
-      "Lisa": 1,
       "Cerro": 1
     },
-    "averias_total": 12,
-    "source_msg_count": 68,
+    "averias_total": 13,
+    "source_msg_count": 70,
     "by_type_counts": {
       "averias": 12,
       "restablecimiento": 14,
-      "actualizacion_bloques": 6,
+      "actualizacion_bloques": 7,
       "restablecimiento_daf": 6,
       "inicio_afectacion": 4,
       "daf": 9,
@@ -403,7 +408,7 @@
       "corto": 5,
       "nota_diaria": 1,
       "pinned": 1,
-      "disparo_circuito": 3,
+      "disparo_circuito": 4,
       "mantenimiento": 2
     }
   },
@@ -460,19 +465,19 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 9520,
     "total_block_outage_minutes": {
-      "1": 4618,
-      "2": 3719,
-      "3": 3590,
-      "4": 2667,
-      "5": 3238,
-      "6": 2921
+      "1": 2888,
+      "2": 2330,
+      "3": 3740,
+      "4": 2832,
+      "5": 1968,
+      "6": 2976
     },
     "total_emergency_mw_sum": 827,
     "averias_count_by_municipio": {
       "Habana Del Este": 11,
       "Guanabacoa": 9,
+      "Lisa": 8,
       "Boyeros": 8,
-      "Lisa": 7,
       "Arroyo Naranjo": 7,
       "San Miguel Del Padrón": 7,
       "Cerro": 6,
@@ -487,7 +492,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 77,
+    "averias_total": 78,
     "daf_total": 74,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -505,17 +510,17 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 13370,
     "total_block_outage_minutes": {
-      "1": 6091,
-      "2": 5398,
-      "3": 5236,
-      "4": 4041,
-      "5": 4518,
-      "6": 4508
+      "1": 4361,
+      "2": 4009,
+      "3": 5386,
+      "4": 4206,
+      "5": 3248,
+      "6": 4563
     },
     "total_emergency_mw_sum": 1224,
     "averias_count_by_municipio": {
       "Habana Del Este": 27,
-      "Lisa": 18,
+      "Lisa": 19,
       "San Miguel Del Padrón": 17,
       "Arroyo Naranjo": 16,
       "Guanabacoa": 14,
@@ -534,7 +539,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 164,
+    "averias_total": 165,
     "daf_total": 119,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -548,19 +553,19 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 55450,
     "total_block_outage_minutes": {
-      "1": 60585,
-      "2": 63477,
-      "3": 50960,
-      "4": 56273,
-      "5": 54689,
-      "6": 54810
+      "1": 58855,
+      "2": 62088,
+      "3": 51110,
+      "4": 56438,
+      "5": 53419,
+      "6": 54865
     },
-    "averias_total": 3105,
+    "averias_total": 3106,
     "averias_top_municipios": {
       "Boyeros": 319,
       "Playa": 277,
       "Arroyo Naranjo": 238,
-      "Lisa": 220,
+      "Lisa": 221,
       "Habana Del Este": 212,
       "Guanabacoa": 198,
       "Cerro": 180,
@@ -829,7 +834,7 @@
       },
       {
         "date": "2026-05-14",
-        "minutes": 6059
+        "minutes": 2040
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1923,7 +1928,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 29792
+        "minutes": 25773
       }
     ],
     "sen_outage_days_total": 7,
