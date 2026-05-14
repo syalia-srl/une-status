@@ -25,3 +25,5 @@
 {"id": 62071, "ts": "2026-05-14T10:47:50+00:00", "type": "daf", "has_photo": false}
 {"id": 62072, "ts": "2026-05-14T11:09:38+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa"}]}
 {"id": 62073, "ts": "2026-05-14T11:34:52+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62074, "ts": "2026-05-14T12:08:54+00:00", "type": "daf", "has_photo": false}
+{"id": 62075, "ts": "2026-05-14T12:12:49+00:00", "type": "otro", "has_photo": false}

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T12:00:04+00:00",
+  "generated_at": "2026-05-14T12:15:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T11:34:52+00:00",
+    "as_of": "2026-05-14T12:12:49+00:00",
     "bloques": [
       {
         "id": 1,
@@ -134,8 +134,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-14T11:34:52+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-14T12:08:54+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -353,7 +353,7 @@
       "6": 1529
     },
     "total_block_outage_minutes": 5915,
-    "daf_count": 5,
+    "daf_count": 6,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -366,14 +366,15 @@
       "Playa": 1
     },
     "averias_total": 6,
-    "source_msg_count": 27,
+    "source_msg_count": 29,
     "by_type_counts": {
       "averias": 8,
       "restablecimiento": 6,
       "actualizacion_bloques": 4,
       "restablecimiento_daf": 2,
       "inicio_afectacion": 2,
-      "daf": 5
+      "daf": 6,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -457,7 +458,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
     "averias_total": 71,
-    "daf_total": 70,
+    "daf_total": 71,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -504,7 +505,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
     "averias_total": 158,
-    "daf_total": 115,
+    "daf_total": 116,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -542,7 +543,7 @@
       "De Boyeros": 48,
       "Regla": 40
     },
-    "daf_total": 2264,
+    "daf_total": 2265,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1899,8 +1900,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2264,
-    "daf_last_30d": 225,
+    "daf_total": 2265,
+    "daf_last_30d": 226,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
