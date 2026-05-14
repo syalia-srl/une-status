@@ -30,7 +30,7 @@
     "Lisa": 1
   },
   "averias_total": 10,
-  "source_msg_count": 59,
+  "source_msg_count": 60,
   "by_type_counts": {
     "averias": 12,
     "restablecimiento": 11,
@@ -44,6 +44,6 @@
     "nota_diaria": 1,
     "pinned": 1,
     "disparo_circuito": 1,
-    "mantenimiento": 1
+    "mantenimiento": 2
   }
 }
