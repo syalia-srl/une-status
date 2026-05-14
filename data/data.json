@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T18:43:57+00:00",
+  "generated_at": "2026-05-14T18:59:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T18:43:54+00:00",
+    "as_of": "2026-05-14T18:58:24+00:00",
     "bloques": [
       {
         "id": 1,
@@ -18,9 +18,8 @@
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-05-13T19:04:11+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-14T18:55:19+00:00"
       },
       {
         "id": 4,
@@ -43,16 +42,20 @@
     "current_mw_affected": 228,
     "current_mw_affected_at": "2026-05-14T18:13:15+00:00",
     "active_averias": {
-      "ts": "2026-05-14T14:54:15+00:00",
+      "ts": "2026-05-14T18:58:24+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "las calles 182 entre 65 y 69, Alturas de la Lisa 🚨",
-          "severity": "secundaria"
+          "municipio": "Plaza",
+          "direccion": "las calles 24 entre 25 y 27 afectando el servicio eléctrico en: 14 desde Zapata hasta 23; 23 desde 14 hasta 26; 23 hasta 38; 26 desde 23 hasta 33 🚨"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-14T18:58:24+00:00",
+        "municipio": "Plaza",
+        "direccion": "las calles 24 entre 25 y 27 afectando el servicio eléctrico en: 14 desde Zapata hasta 23; 23 desde 14 hasta 26; 23 hasta 38; 26 desde 23 hasta 33 🚨"
+      },
       {
         "ts": "2026-05-14T18:43:54+00:00",
         "municipio": "Cerro",
@@ -392,18 +395,18 @@
       "Guanabacoa": 2,
       "Regla": 2,
       "Playa": 2,
+      "Plaza": 2,
       "Lisa": 2,
       "Cerro": 2,
       "Arroyo Naranjo": 1,
       "San Miguel Del Padrón": 1,
-      "Boyeros": 1,
-      "Plaza": 1
+      "Boyeros": 1
     },
-    "averias_total": 14,
-    "source_msg_count": 71,
+    "averias_total": 15,
+    "source_msg_count": 73,
     "by_type_counts": {
-      "averias": 12,
-      "restablecimiento": 14,
+      "averias": 13,
+      "restablecimiento": 15,
       "actualizacion_bloques": 7,
       "restablecimiento_daf": 6,
       "inicio_afectacion": 4,
@@ -486,9 +489,9 @@
       "Cerro": 7,
       "Arroyo Naranjo": 7,
       "San Miguel Del Padrón": 7,
+      "Plaza": 4,
       "Marianao": 4,
       "Playa": 4,
-      "Plaza": 3,
       "Regla": 3,
       "Centro Habana": 2,
       "Plaza De La Revolución": 2,
@@ -497,7 +500,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 79,
+    "averias_total": 80,
     "daf_total": 74,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -529,9 +532,9 @@
       "San Miguel Del Padrón": 17,
       "Arroyo Naranjo": 16,
       "Guanabacoa": 14,
+      "Plaza": 12,
       "Cerro": 11,
       "Playa": 11,
-      "Plaza": 11,
       "Boyeros": 11,
       "Marianao": 7,
       "Cotorro": 5,
@@ -544,7 +547,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 166,
+    "averias_total": 167,
     "daf_total": 119,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -565,7 +568,7 @@
       "5": 53419,
       "6": 54865
     },
-    "averias_total": 3107,
+    "averias_total": 3108,
     "averias_top_municipios": {
       "Boyeros": 319,
       "Playa": 277,
@@ -575,7 +578,7 @@
       "Guanabacoa": 198,
       "Cerro": 181,
       "San Miguel Del Padrón": 176,
-      "Plaza": 172,
+      "Plaza": 173,
       "Marianao": 139,
       "Cotorro": 90,
       "Centro Habana": 65,
