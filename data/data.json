@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T12:16:06+00:00",
+  "generated_at": "2026-05-14T12:31:29+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T12:12:49+00:00",
+    "as_of": "2026-05-14T12:29:24+00:00",
     "bloques": [
       {
         "id": 1,
@@ -40,8 +40,8 @@
         "since": "2026-05-13T06:31:04+00:00"
       }
     ],
-    "current_mw_affected": 438,
-    "current_mw_affected_at": "2026-05-14T10:05:19+00:00",
+    "current_mw_affected": 371,
+    "current_mw_affected_at": "2026-05-14T12:28:30+00:00",
     "active_averias": {
       "ts": "2026-05-14T11:09:38+00:00",
       "averias": [
@@ -134,7 +134,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-14T12:08:54+00:00",
+      "ts": "2026-05-14T12:29:24+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -345,15 +345,15 @@
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 1443,
-      "2": 1061,
-      "3": 888,
-      "4": 74,
-      "5": 920,
-      "6": 1529
+      "1": 1595,
+      "2": 1209,
+      "3": 1040,
+      "4": 225,
+      "5": 1090,
+      "6": 1685
     },
-    "total_block_outage_minutes": 5915,
-    "daf_count": 6,
+    "total_block_outage_minutes": 6844,
+    "daf_count": 7,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -366,14 +366,14 @@
       "Playa": 1
     },
     "averias_total": 6,
-    "source_msg_count": 29,
+    "source_msg_count": 32,
     "by_type_counts": {
       "averias": 8,
       "restablecimiento": 6,
-      "actualizacion_bloques": 4,
-      "restablecimiento_daf": 2,
+      "actualizacion_bloques": 5,
+      "restablecimiento_daf": 3,
       "inicio_afectacion": 2,
-      "daf": 6,
+      "daf": 7,
       "otro": 1
     }
   },
@@ -430,12 +430,12 @@
     "max_peak_mw": 495,
     "total_interruption_minutes": 8080,
     "total_block_outage_minutes": {
-      "1": 4286,
-      "2": 3391,
-      "3": 3258,
-      "4": 2336,
-      "5": 2888,
-      "6": 4450
+      "1": 4438,
+      "2": 3539,
+      "3": 3410,
+      "4": 2487,
+      "5": 3058,
+      "6": 4606
     },
     "total_emergency_mw_sum": 687,
     "averias_count_by_municipio": {
@@ -458,7 +458,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
     "averias_total": 71,
-    "daf_total": 71,
+    "daf_total": 72,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -475,12 +475,12 @@
     "max_peak_mw": 495,
     "total_interruption_minutes": 11930,
     "total_block_outage_minutes": {
-      "1": 5759,
-      "2": 5070,
-      "3": 4904,
-      "4": 3710,
-      "5": 4168,
-      "6": 6037
+      "1": 5911,
+      "2": 5218,
+      "3": 5056,
+      "4": 3861,
+      "5": 4338,
+      "6": 6193
     },
     "total_emergency_mw_sum": 1084,
     "averias_count_by_municipio": {
@@ -505,7 +505,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
     "averias_total": 158,
-    "daf_total": 116,
+    "daf_total": 117,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -518,12 +518,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 54010,
     "total_block_outage_minutes": {
-      "1": 60253,
-      "2": 63149,
-      "3": 50628,
-      "4": 55942,
-      "5": 54339,
-      "6": 56339
+      "1": 60405,
+      "2": 63297,
+      "3": 50780,
+      "4": 56093,
+      "5": 54509,
+      "6": 56495
     },
     "averias_total": 3099,
     "averias_top_municipios": {
@@ -543,7 +543,7 @@
       "De Boyeros": 48,
       "Regla": 40
     },
-    "daf_total": 2265,
+    "daf_total": 2266,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -799,7 +799,7 @@
       },
       {
         "date": "2026-05-14",
-        "minutes": 5915
+        "minutes": 6844
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1893,15 +1893,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 29648
+        "minutes": 30577
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2265,
-    "daf_last_30d": 226,
+    "daf_total": 2266,
+    "daf_last_30d": 227,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
