@@ -115,3 +115,4 @@
 {"id": 62027, "ts": "2026-05-14T00:47:53+00:00", "type": "otro", "has_photo": false}
 {"id": 62028, "ts": "2026-05-14T00:50:55+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62029, "ts": "2026-05-14T00:51:38+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "San Miguel Del Padrón", "direccion": "la siguiente dirección: 112 / 199 y 203 (Residencial San Miguel) 🛑 🚧"}]}
+{"id": 62030, "ts": "2026-05-14T01:03:52+00:00", "type": "daf", "has_photo": false}
