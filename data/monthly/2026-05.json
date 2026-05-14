@@ -23,7 +23,7 @@
     "Playa": 11,
     "Plaza": 11,
     "Boyeros": 11,
-    "Cerro": 9,
+    "Cerro": 10,
     "Marianao": 7,
     "Cotorro": 5,
     "Regla": 5,
@@ -35,7 +35,7 @@
     "Habana Vieja": 1,
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
   },
-  "averias_total": 163,
+  "averias_total": 164,
   "daf_total": 119,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,

@@ -63,3 +63,6 @@
 {"id": 62110, "ts": "2026-05-14T17:35:07+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 6, "emergency": true}
 {"id": 62111, "ts": "2026-05-14T17:44:46+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 1, "emergency": true}
 {"id": 62112, "ts": "2026-05-14T17:50:20+00:00", "type": "otro", "has_photo": false}
+{"id": 62113, "ts": "2026-05-14T18:03:32+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 2}
+{"id": 62114, "ts": "2026-05-14T18:04:12+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Cerro"}
+{"id": 62115, "ts": "2026-05-14T18:07:39+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}

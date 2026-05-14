@@ -27,13 +27,14 @@
     "San Miguel Del Padrón": 1,
     "Boyeros": 1,
     "Plaza": 1,
-    "Lisa": 1
+    "Lisa": 1,
+    "Cerro": 1
   },
-  "averias_total": 11,
-  "source_msg_count": 65,
+  "averias_total": 12,
+  "source_msg_count": 68,
   "by_type_counts": {
     "averias": 12,
-    "restablecimiento": 12,
+    "restablecimiento": 14,
     "actualizacion_bloques": 6,
     "restablecimiento_daf": 6,
     "inicio_afectacion": 4,
@@ -43,7 +44,7 @@
     "corto": 5,
     "nota_diaria": 1,
     "pinned": 1,
-    "disparo_circuito": 2,
+    "disparo_circuito": 3,
     "mantenimiento": 2
   }
 }
