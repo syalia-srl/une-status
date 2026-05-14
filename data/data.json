@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T07:38:12+00:00",
+  "generated_at": "2026-05-14T07:53:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T07:12:18+00:00",
+    "as_of": "2026-05-14T07:53:39+00:00",
     "bloques": [
       {
         "id": 1,
@@ -39,19 +39,23 @@
         "since": "2026-05-13T06:31:04+00:00"
       }
     ],
-    "current_mw_affected": 465,
-    "current_mw_affected_at": "2026-05-14T05:59:25+00:00",
+    "current_mw_affected": 365,
+    "current_mw_affected_at": "2026-05-14T07:53:39+00:00",
     "active_averias": {
-      "ts": "2026-05-14T05:57:24+00:00",
+      "ts": "2026-05-14T07:40:35+00:00",
       "averias": [
         {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "la siguiente dirección: Calzada de San Miguel e/ Beltrán y Otero, Jacomino",
-          "severity": "secundaria"
+          "municipio": "Playa",
+          "direccion": "la siguiente dirección: 29 e/ 58 y 60"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-14T07:40:35+00:00",
+        "municipio": "Playa",
+        "direccion": "la siguiente dirección: 29 e/ 58 y 60"
+      },
       {
         "ts": "2026-05-14T05:57:24+00:00",
         "municipio": "San Miguel Del Padrón",
@@ -342,14 +346,14 @@
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 1202,
-      "2": 820,
-      "3": 647,
-      "4": 1393,
-      "5": 701,
-      "6": 1288
+      "1": 1317,
+      "2": 935,
+      "3": 762,
+      "4": 0,
+      "5": 816,
+      "6": 1403
     },
-    "total_block_outage_minutes": 6051,
+    "total_block_outage_minutes": 5233,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -359,14 +363,15 @@
       "Guanabacoa": 1,
       "Regla": 1,
       "Arroyo Naranjo": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Playa": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 13,
+    "averias_total": 5,
+    "source_msg_count": 15,
     "by_type_counts": {
-      "averias": 5,
+      "averias": 6,
       "restablecimiento": 5,
-      "actualizacion_bloques": 2,
+      "actualizacion_bloques": 3,
       "restablecimiento_daf": 1
     }
   },
@@ -423,12 +428,12 @@
     "max_peak_mw": 495,
     "total_interruption_minutes": 8080,
     "total_block_outage_minutes": {
-      "1": 4045,
-      "2": 3150,
-      "3": 3017,
-      "4": 3655,
-      "5": 2669,
-      "6": 4209
+      "1": 4160,
+      "2": 3265,
+      "3": 3132,
+      "4": 2262,
+      "5": 2784,
+      "6": 4324
     },
     "total_emergency_mw_sum": 687,
     "averias_count_by_municipio": {
@@ -440,17 +445,17 @@
       "Lisa": 6,
       "Cerro": 5,
       "Marianao": 4,
+      "Playa": 3,
       "Centro Habana": 2,
       "Plaza De La Revolución": 2,
       "Plaza": 2,
-      "Playa": 2,
       "Regla": 2,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Cotorro": 1,
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 69,
+    "averias_total": 70,
     "daf_total": 65,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -468,12 +473,12 @@
     "max_peak_mw": 495,
     "total_interruption_minutes": 11930,
     "total_block_outage_minutes": {
-      "1": 5518,
-      "2": 4829,
-      "3": 4663,
-      "4": 5029,
-      "5": 3949,
-      "6": 5796
+      "1": 5633,
+      "2": 4944,
+      "3": 4778,
+      "4": 3636,
+      "5": 4064,
+      "6": 5911
     },
     "total_emergency_mw_sum": 1084,
     "averias_count_by_municipio": {
@@ -482,10 +487,10 @@
       "San Miguel Del Padrón": 17,
       "Arroyo Naranjo": 16,
       "Guanabacoa": 13,
+      "Playa": 10,
       "Plaza": 10,
       "Boyeros": 10,
       "Cerro": 9,
-      "Playa": 9,
       "Marianao": 7,
       "Cotorro": 5,
       "Plaza De La Revolución": 4,
@@ -497,7 +502,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 156,
+    "averias_total": 157,
     "daf_total": 110,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -511,17 +516,17 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 54010,
     "total_block_outage_minutes": {
-      "1": 60012,
-      "2": 62908,
-      "3": 50387,
-      "4": 57261,
-      "5": 54120,
-      "6": 56098
+      "1": 60127,
+      "2": 63023,
+      "3": 50502,
+      "4": 55868,
+      "5": 54235,
+      "6": 56213
     },
-    "averias_total": 3097,
+    "averias_total": 3098,
     "averias_top_municipios": {
       "Boyeros": 318,
-      "Playa": 275,
+      "Playa": 276,
       "Arroyo Naranjo": 238,
       "Lisa": 219,
       "Habana Del Este": 212,
@@ -792,7 +797,7 @@
       },
       {
         "date": "2026-05-14",
-        "minutes": 6051
+        "minutes": 5233
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1886,7 +1891,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 29784
+        "minutes": 28966
       }
     ],
     "sen_outage_days_total": 7,
