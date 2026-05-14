@@ -94,3 +94,6 @@
 {"id": 62142, "ts": "2026-05-14T21:24:39+00:00", "type": "daf", "has_photo": false}
 {"id": 62143, "ts": "2026-05-14T21:29:53+00:00", "type": "mantenimiento", "has_photo": false}
 {"id": 62144, "ts": "2026-05-14T21:31:18+00:00", "type": "otro", "has_photo": false}
+{"id": 62145, "ts": "2026-05-14T21:34:32+00:00", "type": "pinned", "has_photo": false}
+{"id": 62146, "ts": "2026-05-14T21:39:09+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62147, "ts": "2026-05-14T21:43:37+00:00", "type": "restablecimiento", "has_photo": false}
