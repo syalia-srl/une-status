@@ -4,3 +4,4 @@
 {"id": 62048, "ts": "2026-05-14T04:50:32+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Regla", "direccion": "la siguiente dirección: 10 de Octubre e/ Caridad y Refugio", "severity": "secundaria"}]}
 {"id": 62049, "ts": "2026-05-14T04:51:54+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62050, "ts": "2026-05-14T04:59:15+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 22, "minutes_off": 11}, {"bloque": 6, "hours_off": 20, "minutes_off": 26}, {"bloque": 1, "hours_off": 19, "minutes_off": 0}, {"bloque": 2, "hours_off": 12, "minutes_off": 38}, {"bloque": 5, "hours_off": 10, "minutes_off": 39}, {"bloque": 3, "hours_off": 9, "minutes_off": 45}], "total_mw": 480}
+{"id": 62051, "ts": "2026-05-14T05:39:51+00:00", "type": "restablecimiento", "has_photo": false}
