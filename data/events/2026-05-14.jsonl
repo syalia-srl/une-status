@@ -32,3 +32,4 @@
 {"id": 62079, "ts": "2026-05-14T12:29:24+00:00", "type": "daf", "has_photo": false}
 {"id": 62080, "ts": "2026-05-14T12:40:27+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62081, "ts": "2026-05-14T12:54:06+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62082, "ts": "2026-05-14T13:03:44+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Boyeros", "direccion": "las calles 3ra entre Norte y Sur, Residencial Almendares 🚨", "severity": "secundaria"}]}

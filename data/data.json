@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T13:02:25+00:00",
+  "generated_at": "2026-05-14T13:17:52+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T12:54:06+00:00",
+    "as_of": "2026-05-14T13:03:44+00:00",
     "bloques": [
       {
         "id": 1,
@@ -43,14 +43,22 @@
     "current_mw_affected": 371,
     "current_mw_affected_at": "2026-05-14T12:28:30+00:00",
     "active_averias": {
-      "ts": "2026-05-14T11:09:38+00:00",
+      "ts": "2026-05-14T13:03:44+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa"
+          "municipio": "Boyeros",
+          "direccion": "las calles 3ra entre Norte y Sur, Residencial Almendares 🚨",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-14T13:03:44+00:00",
+        "municipio": "Boyeros",
+        "direccion": "las calles 3ra entre Norte y Sur, Residencial Almendares 🚨",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-14T11:09:38+00:00",
         "municipio": "Guanabacoa"
@@ -363,12 +371,13 @@
       "Regla": 1,
       "Arroyo Naranjo": 1,
       "San Miguel Del Padrón": 1,
-      "Playa": 1
+      "Playa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 6,
-    "source_msg_count": 34,
+    "averias_total": 7,
+    "source_msg_count": 35,
     "by_type_counts": {
-      "averias": 8,
+      "averias": 9,
       "restablecimiento": 7,
       "actualizacion_bloques": 5,
       "restablecimiento_daf": 4,
@@ -441,7 +450,7 @@
     "averias_count_by_municipio": {
       "Habana Del Este": 11,
       "Guanabacoa": 9,
-      "Boyeros": 7,
+      "Boyeros": 8,
       "Arroyo Naranjo": 7,
       "San Miguel Del Padrón": 7,
       "Lisa": 6,
@@ -457,7 +466,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 71,
+    "averias_total": 72,
     "daf_total": 72,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -489,9 +498,9 @@
       "San Miguel Del Padrón": 17,
       "Arroyo Naranjo": 16,
       "Guanabacoa": 14,
+      "Boyeros": 11,
       "Playa": 10,
       "Plaza": 10,
-      "Boyeros": 10,
       "Cerro": 9,
       "Marianao": 7,
       "Cotorro": 5,
@@ -504,7 +513,7 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
     },
-    "averias_total": 158,
+    "averias_total": 159,
     "daf_total": 117,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -525,9 +534,9 @@
       "5": 54509,
       "6": 56495
     },
-    "averias_total": 3099,
+    "averias_total": 3100,
     "averias_top_municipios": {
-      "Boyeros": 318,
+      "Boyeros": 319,
       "Playa": 276,
       "Arroyo Naranjo": 238,
       "Lisa": 219,
