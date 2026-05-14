@@ -29,13 +29,13 @@
     "Cerro": 1
   },
   "averias_total": 12,
-  "source_msg_count": 130,
+  "source_msg_count": 131,
   "by_type_counts": {
     "otro": 19,
     "averias": 16,
     "inicio_afectacion": 6,
     "actualizacion_bloques": 16,
-    "restablecimiento": 33,
+    "restablecimiento": 34,
     "disparo_circuito": 3,
     "nota_diaria": 1,
     "sen_update": 1,
