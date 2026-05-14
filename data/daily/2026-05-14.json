@@ -30,12 +30,12 @@
     "Lisa": 1
   },
   "averias_total": 10,
-  "source_msg_count": 57,
+  "source_msg_count": 59,
   "by_type_counts": {
     "averias": 12,
-    "restablecimiento": 10,
+    "restablecimiento": 11,
     "actualizacion_bloques": 6,
-    "restablecimiento_daf": 5,
+    "restablecimiento_daf": 6,
     "inicio_afectacion": 2,
     "daf": 9,
     "otro": 3,

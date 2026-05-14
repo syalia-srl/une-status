@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T15:53:43+00:00",
+  "generated_at": "2026-05-14T16:09:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T15:28:47+00:00",
+    "as_of": "2026-05-14T16:07:31+00:00",
     "bloques": [
       {
         "id": 1,
@@ -146,21 +146,11 @@
         "ts": "2026-05-13T17:14:02+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-13T16:04:13+00:00",
-        "municipio": "Centro Habana",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-13T15:42:04+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "la siguiente dirección: 420 / 19 y 21(Peñas Altas), se encuentran afectados por una AVERÍA por un TRANSFORMADOR DAÑADO"
       }
     ],
     "last_daf": {
-      "ts": "2026-05-14T15:28:47+00:00",
-      "type": "daf"
+      "ts": "2026-05-14T16:01:14+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -394,12 +384,12 @@
       "Lisa": 1
     },
     "averias_total": 10,
-    "source_msg_count": 57,
+    "source_msg_count": 59,
     "by_type_counts": {
       "averias": 12,
-      "restablecimiento": 10,
+      "restablecimiento": 11,
       "actualizacion_bloques": 6,
-      "restablecimiento_daf": 5,
+      "restablecimiento_daf": 6,
       "inicio_afectacion": 2,
       "daf": 9,
       "otro": 3,
