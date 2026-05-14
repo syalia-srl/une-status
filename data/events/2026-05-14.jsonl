@@ -47,3 +47,6 @@
 {"id": 62094, "ts": "2026-05-14T14:07:16+00:00", "type": "corto", "has_photo": false}
 {"id": 62095, "ts": "2026-05-14T14:07:26+00:00", "type": "pinned", "has_photo": false}
 {"id": 62096, "ts": "2026-05-14T14:34:22+00:00", "type": "corto", "has_photo": true}
+{"id": 62097, "ts": "2026-05-14T14:35:52+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Regla"}
+{"id": 62098, "ts": "2026-05-14T14:38:06+00:00", "type": "mantenimiento", "has_photo": false}
+{"id": 62099, "ts": "2026-05-14T14:51:15+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Plaza", "direccion": "las calles 24 entre 26 y Ulloa, Puentes Grandes 🚨", "severity": "secundaria"}]}
