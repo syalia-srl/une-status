@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: stage site
         run: |
-          mkdir -p _site
+          mkdir -p _site _site/data
           cp -r site/. _site/
           cp data/data.json _site/data.json
           cp -r data/daily _site/data/daily
