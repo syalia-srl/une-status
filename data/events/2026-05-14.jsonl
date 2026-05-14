@@ -101,3 +101,4 @@
 {"id": 62149, "ts": "2026-05-14T22:27:34+00:00", "type": "averias", "has_photo": false}
 {"id": 62150, "ts": "2026-05-14T22:30:39+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
 {"id": 62151, "ts": "2026-05-14T22:58:10+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Boyeros"}
+{"id": 62152, "ts": "2026-05-14T23:16:48+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 5, "minutes_off": 50}, {"bloque": 1, "hours_off": 5, "minutes_off": 40}, {"bloque": 2, "hours_off": 0, "minutes_off": 45}], "total_mw": 227}
