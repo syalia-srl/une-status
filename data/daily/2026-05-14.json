@@ -25,14 +25,14 @@
     "Regla": 2,
     "Arroyo Naranjo": 2,
     "Playa": 2,
+    "Boyeros": 2,
     "Plaza": 2,
     "Cerro": 2,
     "San Miguel Del Padrón": 1,
-    "Boyeros": 1,
     "Cerro Y Centro Habana": 1
   },
-  "averias_total": 19,
-  "source_msg_count": 102,
+  "averias_total": 20,
+  "source_msg_count": 103,
   "by_type_counts": {
     "averias": 18,
     "restablecimiento": 23,
@@ -45,7 +45,7 @@
     "corto": 5,
     "nota_diaria": 1,
     "pinned": 2,
-    "disparo_circuito": 8,
+    "disparo_circuito": 9,
     "mantenimiento": 3,
     "via_libre": 1
   }
