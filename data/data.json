@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T17:26:29+00:00",
+  "generated_at": "2026-05-14T17:41:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T17:10:18+00:00",
+    "as_of": "2026-05-14T17:35:07+00:00",
     "bloques": [
       {
         "id": 1,
@@ -36,8 +36,9 @@
       },
       {
         "id": 6,
-        "state": "encendido",
-        "since": "2026-05-14T13:37:53+00:00"
+        "state": "apagado",
+        "since": "2026-05-14T17:35:07+00:00",
+        "emergency": true
       }
     ],
     "current_mw_affected": 242,
@@ -146,11 +147,6 @@
         "municipio": "Boyeros",
         "direccion": "la siguiente dirección: 4ta e/ A y B, Miraflores",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-13T17:14:02+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -389,13 +385,13 @@
       "Lisa": 1
     },
     "averias_total": 11,
-    "source_msg_count": 62,
+    "source_msg_count": 63,
     "by_type_counts": {
       "averias": 12,
       "restablecimiento": 12,
       "actualizacion_bloques": 6,
       "restablecimiento_daf": 6,
-      "inicio_afectacion": 2,
+      "inicio_afectacion": 3,
       "daf": 9,
       "otro": 3,
       "unidad_termoelectrica": 1,
