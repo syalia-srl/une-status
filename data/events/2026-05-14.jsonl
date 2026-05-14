@@ -50,3 +50,5 @@
 {"id": 62097, "ts": "2026-05-14T14:35:52+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Regla"}
 {"id": 62098, "ts": "2026-05-14T14:38:06+00:00", "type": "mantenimiento", "has_photo": false}
 {"id": 62099, "ts": "2026-05-14T14:51:15+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Plaza", "direccion": "las calles 24 entre 26 y Ulloa, Puentes Grandes 🚨", "severity": "secundaria"}]}
+{"id": 62100, "ts": "2026-05-14T14:54:15+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "las calles 182 entre 65 y 69, Alturas de la Lisa 🚨", "severity": "secundaria"}]}
+{"id": 62101, "ts": "2026-05-14T14:56:14+00:00", "type": "daf", "has_photo": false}
