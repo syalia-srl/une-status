@@ -111,3 +111,7 @@
 {"id": 62023, "ts": "2026-05-14T00:31:38+00:00", "type": "otro", "has_photo": false}
 {"id": 62024, "ts": "2026-05-14T00:34:30+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Cerro", "direccion": "la siguiente dirección: Primelles y Final, se detectó una AVERÍA por PRIMARIO PARTIDO"}]}
 {"id": 62025, "ts": "2026-05-14T00:36:25+00:00", "type": "otro", "has_photo": false}
+{"id": 62026, "ts": "2026-05-14T00:40:55+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62027, "ts": "2026-05-14T00:47:53+00:00", "type": "otro", "has_photo": false}
+{"id": 62028, "ts": "2026-05-14T00:50:55+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62029, "ts": "2026-05-14T00:51:38+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "San Miguel Del Padrón", "direccion": "la siguiente dirección: 112 / 199 y 203 (Residencial San Miguel) 🛑 🚧"}]}
