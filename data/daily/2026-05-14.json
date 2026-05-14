@@ -22,18 +22,18 @@
   "averias_count_by_municipio": {
     "Guanabacoa": 2,
     "Regla": 2,
+    "Playa": 2,
     "Arroyo Naranjo": 1,
     "San Miguel Del Padrón": 1,
-    "Playa": 1,
     "Boyeros": 1,
     "Plaza": 1,
     "Lisa": 1
   },
-  "averias_total": 10,
-  "source_msg_count": 60,
+  "averias_total": 11,
+  "source_msg_count": 62,
   "by_type_counts": {
     "averias": 12,
-    "restablecimiento": 11,
+    "restablecimiento": 12,
     "actualizacion_bloques": 6,
     "restablecimiento_daf": 6,
     "inicio_afectacion": 2,
@@ -43,7 +43,7 @@
     "corto": 5,
     "nota_diaria": 1,
     "pinned": 1,
-    "disparo_circuito": 1,
+    "disparo_circuito": 2,
     "mantenimiento": 2
   }
 }
