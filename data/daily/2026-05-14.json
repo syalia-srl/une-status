@@ -14,7 +14,7 @@
     "6": 1403
   },
   "total_block_outage_minutes": 5233,
-  "daf_count": 1,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -27,13 +27,13 @@
     "Playa": 1
   },
   "averias_total": 5,
-  "source_msg_count": 17,
+  "source_msg_count": 18,
   "by_type_counts": {
     "averias": 6,
     "restablecimiento": 5,
     "actualizacion_bloques": 3,
     "restablecimiento_daf": 1,
     "inicio_afectacion": 1,
-    "daf": 1
+    "daf": 2
   }
 }
