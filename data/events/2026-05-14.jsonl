@@ -76,3 +76,6 @@
 {"id": 62123, "ts": "2026-05-14T19:14:06+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Arroyo Naranjo"}
 {"id": 62124, "ts": "2026-05-14T19:16:38+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Lisa"}
 {"id": 62125, "ts": "2026-05-14T19:23:25+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
+{"id": 62126, "ts": "2026-05-14T19:50:56+00:00", "type": "averias", "has_photo": false}
+{"id": 62127, "ts": "2026-05-14T19:53:33+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62128, "ts": "2026-05-14T19:58:19+00:00", "type": "daf", "has_photo": false}
