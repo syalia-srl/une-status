@@ -2,9 +2,9 @@
   "month": "2026-05",
   "finalized": false,
   "dailies_count": 14,
-  "avg_peak_mw": 353.9,
-  "max_peak_mw": 495,
-  "total_interruption_minutes": 11930,
+  "avg_peak_mw": 355.2,
+  "max_peak_mw": 499,
+  "total_interruption_minutes": 13370,
   "total_block_outage_minutes": {
     "1": 5911,
     "2": 5218,
@@ -13,7 +13,7 @@
     "5": 4338,
     "6": 6193
   },
-  "total_emergency_mw_sum": 1084,
+  "total_emergency_mw_sum": 1224,
   "averias_count_by_municipio": {
     "Habana Del Este": 27,
     "Lisa": 17,
