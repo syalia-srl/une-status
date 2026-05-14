@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T10:39:44+00:00",
+  "generated_at": "2026-05-14T10:43:03+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-14T10:05:19+00:00",
+    "as_of": "2026-05-14T10:40:13+00:00",
     "bloques": [
       {
         "id": 1,
@@ -43,13 +43,8 @@
     "current_mw_affected": 438,
     "current_mw_affected_at": "2026-05-14T10:05:19+00:00",
     "active_averias": {
-      "ts": "2026-05-14T07:40:35+00:00",
-      "averias": [
-        {
-          "municipio": "Playa",
-          "direccion": "la siguiente dirección: 29 e/ 58 y 60"
-        }
-      ]
+      "ts": "2026-05-14T10:40:13+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -128,11 +123,6 @@
         "ts": "2026-05-13T15:42:04+00:00",
         "municipio": "Habana Del Este",
         "direccion": "la siguiente dirección: 420 / 19 y 21(Peñas Altas), se encuentran afectados por una AVERÍA por un TRANSFORMADOR DAÑADO"
-      },
-      {
-        "ts": "2026-05-13T10:31:17+00:00",
-        "municipio": "Boyeros",
-        "severity": "primaria"
       }
     ],
     "last_daf": {
@@ -368,9 +358,9 @@
       "Playa": 1
     },
     "averias_total": 5,
-    "source_msg_count": 22,
+    "source_msg_count": 23,
     "by_type_counts": {
-      "averias": 6,
+      "averias": 7,
       "restablecimiento": 5,
       "actualizacion_bloques": 4,
       "restablecimiento_daf": 1,
