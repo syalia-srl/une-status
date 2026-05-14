@@ -36,9 +36,19 @@ RE_INICIO_BLOQUE = re.compile(
     r"informamos.*?clientes asociados.*?(?:bloque|circuitos?\s+(?:de\s+)?emergen).*?inicia (?:la )?afect",
     re.IGNORECASE | re.DOTALL,
 )
+RE_AVERIA_REPAIR = re.compile(
+    r"con servicio la aver[íi]a"
+    r"|reparada la aver[íi]a"
+    r"|normalizado el servicio",
+    re.IGNORECASE,
+)
 RE_DISPARO_CIRCUITO = re.compile(
     r"(?:consumidores del municipio|municipio:?)\s.*?(?:disparo del circuito|circuito disparado|disparados? por)",
     re.IGNORECASE | re.DOTALL,
+)
+RE_DISPARO_CIRCUITO_SIMPLE = re.compile(
+    r"\bdisparado el circuito\b",
+    re.IGNORECASE,
 )
 RE_TRABAJOS_OPERATIVOS = re.compile(
     r"por trabajos operativos|por trabajos planificados", re.IGNORECASE,
@@ -96,6 +106,10 @@ def classify(text: str) -> str:
     if RE_INICIO_BLOQUE.search(tl):
         return "inicio_afectacion"
 
+    # Avería repairs without "restablec" — must precede generic restablecimiento check
+    if RE_AVERIA_REPAIR.search(tl):
+        return "restablecimiento"
+
     # Restoration (generic)
     if "restablec" in tl or "recuperación" in tl or "recuperacion" in tl:
         return "restablecimiento"
@@ -107,11 +121,12 @@ def classify(text: str) -> str:
         or "avería primaria" in tl or "averia primaria" in tl
         or "avería secundaria" in tl or "averia secundaria" in tl
         or "se detectó una avería" in tl or "se detecto una averia" in tl
+        or "avería por" in tl or "averia por" in tl  # gap-3
     ):
         return "averias"
 
-    # Municipio + disparo del circuito
-    if RE_DISPARO_CIRCUITO.search(tl):
+    # Municipio + disparo del circuito (or simpler "disparado el circuito" phrase)
+    if RE_DISPARO_CIRCUITO.search(tl) or RE_DISPARO_CIRCUITO_SIMPLE.search(tl):
         return "disparo_circuito"
 
     # Via libre / fin afectación

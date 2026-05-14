@@ -72,6 +72,12 @@ def test_classify_known_strings():
         ("🟢 20:15 || En línea la Unidad 4 de la CTE Carlos Manuel de Céspedes.", "unidad_termoelectrica"),
         ("‼️ 🔔 Informamos a los clientes asociados al Bloque no.5 que a partir de este momento inicia la afectación por déficit", "inicio_afectacion"),
         ("✅ Informamos a los clientes asociados al bloque no.4 ... inicia de forma gradual el restablecimiento del servicio", "restablecimiento"),
+        # gap-1: "DISPARADO EL CIRCUITO" without municipio prefix
+        ("se encuentra DISPARADO EL CIRCUITO 47 en el Municipio Arroyo Naranjo", "disparo_circuito"),
+        # gap-2: avería repair without "restablec"
+        ("Con servicio la AVERÍA por PRIMARIO PARTIDO en el Circuito 47", "restablecimiento"),
+        # gap-3: generic "afectados por avería"
+        ("Se encuentran afectados clientes por una avería por PUENTE PARTIDO en el circuito 47", "averias"),
     ]
     for text, expected in cases:
         got = classify(text)
