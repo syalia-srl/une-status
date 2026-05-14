@@ -1,6 +1,6 @@
 {
   "month": "2026-05",
-  "finalized": false,
+  "finalized": true,
   "dailies_count": 13,
   "avg_peak_mw": 344.2,
   "max_peak_mw": 495,

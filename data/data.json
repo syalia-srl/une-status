@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T03:46:29+00:00",
+  "generated_at": "2026-05-14T04:01:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
@@ -108,11 +108,6 @@
         "ts": "2026-05-13T04:37:04+00:00",
         "municipio": "San Miguel Del Padrón",
         "direccion": "la siguiente dirección: Calzada de San Miguel esquina calle C"
-      },
-      {
-        "ts": "2026-05-13T03:53:54+00:00",
-        "municipio": "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -320,8 +315,12 @@
     ]
   },
   "day": {
+    "date": "2026-05-14",
+    "no_data": true
+  },
+  "yesterday": {
     "date": "2026-05-13",
-    "finalized": false,
+    "finalized": true,
     "peak_mw_affected": 495,
     "peak_time": "20:10",
     "interruption_minutes": 1440,
@@ -365,90 +364,42 @@
       "corto": 1
     }
   },
-  "yesterday": {
-    "date": "2026-05-12",
-    "finalized": true,
-    "peak_mw_affected": 468,
-    "peak_time": "23:00",
-    "interruption_minutes": 1440,
-    "emergency_mw": 122,
-    "block_outage_minutes": {
-      "1": 540,
-      "2": 480,
-      "3": 420,
-      "4": 0,
-      "5": 480,
-      "6": 660
-    },
-    "total_block_outage_minutes": 2580,
-    "daf_count": 6,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Habana Del Este": 5,
-      "Guanabacoa": 1,
-      "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1,
-      "Playa": 1,
-      "Marianao": 1,
-      "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1
-    },
-    "averias_total": 11,
-    "source_msg_count": 85,
-    "by_type_counts": {
-      "otro": 6,
-      "actualizacion_bloques": 22,
-      "averias": 11,
-      "disparo_circuito": 7,
-      "restablecimiento": 12,
-      "daf": 6,
-      "restablecimiento_daf": 2,
-      "inicio_afectacion": 8,
-      "nota_diaria": 1,
-      "sen_update": 2,
-      "empty": 1,
-      "mantenimiento": 4,
-      "corto": 3
-    }
-  },
   "week": {
-    "finalized": false,
-    "dailies_count": 7,
-    "avg_peak_mw": 439.9,
+    "finalized": true,
+    "dailies_count": 6,
+    "avg_peak_mw": 446.0,
     "max_peak_mw": 495,
-    "total_interruption_minutes": 9520,
+    "total_interruption_minutes": 8080,
     "total_block_outage_minutes": {
-      "1": 3335,
-      "2": 2969,
-      "3": 2656,
-      "4": 2566,
-      "5": 2468,
-      "6": 3338
+      "1": 2843,
+      "2": 2330,
+      "3": 2370,
+      "4": 2262,
+      "5": 1968,
+      "6": 2921
     },
-    "total_emergency_mw_sum": 792,
+    "total_emergency_mw_sum": 687,
     "averias_count_by_municipio": {
       "Habana Del Este": 11,
-      "Guanabacoa": 8,
-      "San Miguel Del Padrón": 7,
+      "Guanabacoa": 7,
       "Boyeros": 7,
-      "Cerro": 6,
       "Lisa": 6,
       "Arroyo Naranjo": 6,
+      "San Miguel Del Padrón": 6,
+      "Cerro": 5,
       "Marianao": 4,
-      "Playa": 3,
-      "Cotorro": 2,
       "Centro Habana": 2,
       "Plaza De La Revolución": 2,
       "Plaza": 2,
+      "Playa": 2,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
+      "Cotorro": 1,
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Regla": 1
     },
-    "averias_total": 70,
-    "daf_total": 67,
+    "averias_total": 65,
+    "daf_total": 65,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -459,7 +410,7 @@
   },
   "month": {
     "month": "2026-05",
-    "finalized": false,
+    "finalized": true,
     "dailies_count": 13,
     "avg_peak_mw": 344.2,
     "max_peak_mw": 495,
