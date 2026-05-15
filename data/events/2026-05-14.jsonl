@@ -124,3 +124,6 @@
 {"id": 62174, "ts": "2026-05-15T03:06:40+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62175, "ts": "2026-05-15T03:15:11+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Boyeros", "direccion": "la SE Sierra Maestra que afecta el servicio eléctrico de los repartos: Mulgoba, Jesús Menéndez, Ampliación de Mulgoba 🚨", "severity": "primaria"}]}
 {"id": 62176, "ts": "2026-05-15T03:17:07+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 2, "hours_off": 4, "minutes_off": 45}, {"bloque": 3, "hours_off": 4, "minutes_off": 20}, {"bloque": 5, "hours_off": 3, "minutes_off": 25}, {"bloque": 4, "hours_off": 3, "minutes_off": 0}, {"bloque": 6, "hours_off": 1, "minutes_off": 0}], "total_mw": 341}
+{"id": 62177, "ts": "2026-05-15T03:48:15+00:00", "type": "mantenimiento", "has_photo": false}
+{"id": 62178, "ts": "2026-05-15T03:56:33+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62179, "ts": "2026-05-15T03:57:23+00:00", "type": "averias", "has_photo": false}
