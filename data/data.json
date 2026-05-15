@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T18:41:26+00:00",
+  "generated_at": "2026-05-15T18:56:33+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T18:15:10+00:00",
+    "as_of": "2026-05-15T18:49:24+00:00",
     "bloques": [
       {
         "id": 1,
@@ -25,12 +25,13 @@
       {
         "id": 4,
         "state": "encendido",
-        "since": "2026-05-15T07:19:49+00:00"
+        "since": "2026-05-15T18:49:24+00:00"
       },
       {
         "id": 5,
-        "state": "encendido",
-        "since": "2026-05-15T14:51:51+00:00"
+        "state": "apagado",
+        "since": "2026-05-15T18:41:41+00:00",
+        "emergency": true
       },
       {
         "id": 6,
@@ -194,16 +195,6 @@
         "ts": "2026-05-14T18:58:24+00:00",
         "municipio": "Plaza",
         "direccion": "las calles 24 entre 25 y 27 afectando el servicio eléctrico en: 14 desde Zapata hasta 23; 23 desde 14 hasta 26; 23 hasta 38; 26 desde 23 hasta 33 🚨"
-      },
-      {
-        "ts": "2026-05-14T18:43:54+00:00",
-        "municipio": "Cerro",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-14T18:24:56+00:00",
-        "municipio": "Lisa",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -444,17 +435,17 @@
       "Cerro": 1
     },
     "averias_total": 17,
-    "source_msg_count": 86,
+    "source_msg_count": 88,
     "by_type_counts": {
       "daf": 10,
       "restablecimiento_daf": 8,
-      "restablecimiento": 16,
+      "restablecimiento": 17,
       "actualizacion_bloques": 13,
       "via_libre": 2,
       "averias": 18,
       "disparo_circuito": 7,
       "otro": 2,
-      "inicio_afectacion": 5,
+      "inicio_afectacion": 6,
       "sen_update": 1,
       "nota_diaria": 1,
       "corto": 1,
