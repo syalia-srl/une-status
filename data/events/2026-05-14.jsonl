@@ -114,3 +114,4 @@
 {"id": 62163, "ts": "2026-05-15T01:11:48+00:00", "type": "mantenimiento", "has_photo": false}
 {"id": 62164, "ts": "2026-05-15T01:15:08+00:00", "type": "mantenimiento", "has_photo": false}
 {"id": 62165, "ts": "2026-05-15T01:26:01+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 7, "minutes_off": 40}, {"bloque": 2, "hours_off": 2, "minutes_off": 45}, {"bloque": 5, "hours_off": 2, "minutes_off": 0}, {"bloque": 3, "hours_off": 1, "minutes_off": 20}, {"bloque": 4, "hours_off": 1, "minutes_off": 0}], "total_mw": 336}
+{"id": 62166, "ts": "2026-05-15T01:34:35+00:00", "type": "corto", "has_photo": true}
