@@ -33,7 +33,7 @@
     "Marianao": 1
   },
   "averias_total": 23,
-  "source_msg_count": 112,
+  "source_msg_count": 113,
   "by_type_counts": {
     "daf": 11,
     "restablecimiento_daf": 8,
@@ -42,7 +42,7 @@
     "via_libre": 2,
     "averias": 25,
     "disparo_circuito": 8,
-    "otro": 2,
+    "otro": 3,
     "inicio_afectacion": 7,
     "sen_update": 1,
     "nota_diaria": 1,
