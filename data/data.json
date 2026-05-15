@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T13:01:25+00:00",
+  "generated_at": "2026-05-15T13:17:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T12:53:43+00:00",
+    "as_of": "2026-05-15T13:11:18+00:00",
     "bloques": [
       {
         "id": 1,
@@ -184,17 +184,11 @@
         "ts": "2026-05-14T14:35:52+00:00",
         "municipio": "Regla",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-14T13:03:44+00:00",
-        "municipio": "Boyeros",
-        "direccion": "las calles 3ra entre Norte y Sur, Residencial Almendares 🚨",
-        "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-05-15T12:39:39+00:00",
-      "type": "daf"
+      "ts": "2026-05-15T13:11:18+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -427,10 +421,10 @@
       "Centro Habana": 1
     },
     "averias_total": 10,
-    "source_msg_count": 51,
+    "source_msg_count": 52,
     "by_type_counts": {
       "daf": 9,
-      "restablecimiento_daf": 6,
+      "restablecimiento_daf": 7,
       "restablecimiento": 10,
       "actualizacion_bloques": 8,
       "via_libre": 1,

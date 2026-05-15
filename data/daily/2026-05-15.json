@@ -29,10 +29,10 @@
     "Centro Habana": 1
   },
   "averias_total": 10,
-  "source_msg_count": 51,
+  "source_msg_count": 52,
   "by_type_counts": {
     "daf": 9,
-    "restablecimiento_daf": 6,
+    "restablecimiento_daf": 7,
     "restablecimiento": 10,
     "actualizacion_bloques": 8,
     "via_libre": 1,
