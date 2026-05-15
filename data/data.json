@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T06:03:29+00:00",
+  "generated_at": "2026-05-15T06:18:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T06:02:42+00:00",
+    "as_of": "2026-05-15T06:16:21+00:00",
     "bloques": [
       {
         "id": 1,
@@ -159,8 +159,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-15T05:47:59+00:00",
-      "type": "daf"
+      "ts": "2026-05-15T06:16:21+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -378,7 +378,7 @@
       "6": 200
     },
     "total_block_outage_minutes": 860,
-    "daf_count": 3,
+    "daf_count": 4,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -387,10 +387,10 @@
       "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 14,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "daf": 3,
-      "restablecimiento_daf": 1,
+      "daf": 4,
+      "restablecimiento_daf": 3,
       "restablecimiento": 4,
       "actualizacion_bloques": 2,
       "via_libre": 1,
@@ -486,7 +486,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 80,
-    "daf_total": 74,
+    "daf_total": 75,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -534,7 +534,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 176,
-    "daf_total": 125,
+    "daf_total": 126,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -572,7 +572,7 @@
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2274,
+    "daf_total": 2275,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1929,8 +1929,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2274,
-    "daf_last_30d": 228,
+    "daf_total": 2275,
+    "daf_last_30d": 229,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
