@@ -90,3 +90,6 @@
 {"id": 62274, "ts": "2026-05-15T19:46:20+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": ": Zona 23 ,Alamar", "severity": "secundaria"}]}
 {"id": 62275, "ts": "2026-05-15T20:08:37+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Marianao"}
 {"id": 62276, "ts": "2026-05-15T20:29:12+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 5, "minutes_off": 7}, {"bloque": 1, "hours_off": 3, "minutes_off": 56}, {"bloque": 2, "hours_off": 3, "minutes_off": 0}, {"bloque": 5, "hours_off": 1, "minutes_off": 0}], "total_mw": 175}
+{"id": 62277, "ts": "2026-05-15T20:35:26+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
+{"id": 62278, "ts": "2026-05-15T20:37:46+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62279, "ts": "2026-05-15T20:39:07+00:00", "type": "restablecimiento", "has_photo": false}
