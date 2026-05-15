@@ -72,3 +72,5 @@
 {"id": 62253, "ts": "2026-05-15T16:48:59+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Playa", "direccion": "56 / 29 y 31", "severity": "secundaria"}]}
 {"id": 62254, "ts": "2026-05-15T16:51:30+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62255, "ts": "2026-05-15T16:52:41+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 3}
+{"id": 62256, "ts": "2026-05-15T16:59:33+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Cerro", "direccion": ": Independencia / Victoria y Central , Reparto Martí", "severity": "secundaria"}]}
+{"id": 62257, "ts": "2026-05-15T16:59:47+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
