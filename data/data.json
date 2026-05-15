@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T00:07:53+00:00",
+  "generated_at": "2026-05-15T00:23:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T00:01:29+00:00",
+    "as_of": "2026-05-15T00:13:25+00:00",
     "bloques": [
       {
         "id": 1,
@@ -24,8 +24,9 @@
       },
       {
         "id": 4,
-        "state": "encendido",
-        "since": "2026-05-14T19:23:25+00:00"
+        "state": "apagado",
+        "since": "2026-05-15T00:13:25+00:00",
+        "emergency": true
       },
       {
         "id": 5,
@@ -41,10 +42,22 @@
     "current_mw_affected": 227,
     "current_mw_affected_at": "2026-05-14T23:16:48+00:00",
     "active_averias": {
-      "ts": "2026-05-14T22:27:34+00:00",
-      "averias": []
+      "ts": "2026-05-15T00:09:17+00:00",
+      "averias": [
+        {
+          "municipio": "Lisa",
+          "direccion": "164 entre 69 y 81, Alturas de la Lisa 🚨",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T00:09:17+00:00",
+        "municipio": "Lisa",
+        "direccion": "164 entre 69 y 81, Alturas de la Lisa 🚨",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-14T23:39:08+00:00",
         "municipio": "Plaza De La Revolución",
@@ -169,7 +182,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-14T21:39:09+00:00",
+      "ts": "2026-05-15T00:10:23+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -388,13 +401,13 @@
       "6": 350
     },
     "total_block_outage_minutes": 735,
-    "daf_count": 11,
+    "daf_count": 12,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 4,
+      "Lisa": 5,
       "Guanabacoa": 2,
       "Regla": 2,
       "Arroyo Naranjo": 2,
@@ -406,15 +419,15 @@
       "Cerro Y Centro Habana": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 21,
-    "source_msg_count": 108,
+    "averias_total": 22,
+    "source_msg_count": 112,
     "by_type_counts": {
-      "averias": 18,
+      "averias": 19,
       "restablecimiento": 26,
       "actualizacion_bloques": 11,
-      "restablecimiento_daf": 8,
-      "inicio_afectacion": 5,
-      "daf": 11,
+      "restablecimiento_daf": 9,
+      "inicio_afectacion": 6,
+      "daf": 12,
       "otro": 6,
       "unidad_termoelectrica": 1,
       "corto": 5,
@@ -487,8 +500,8 @@
     },
     "total_emergency_mw_sum": 827,
     "averias_count_by_municipio": {
+      "Lisa": 11,
       "Habana Del Este": 11,
-      "Lisa": 10,
       "Guanabacoa": 9,
       "Boyeros": 9,
       "Arroyo Naranjo": 8,
@@ -506,8 +519,8 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 86,
-    "daf_total": 76,
+    "averias_total": 87,
+    "daf_total": 77,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -534,7 +547,7 @@
     "total_emergency_mw_sum": 1224,
     "averias_count_by_municipio": {
       "Habana Del Este": 27,
-      "Lisa": 21,
+      "Lisa": 22,
       "Arroyo Naranjo": 17,
       "San Miguel Del Padrón": 17,
       "Guanabacoa": 14,
@@ -554,8 +567,8 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 173,
-    "daf_total": 121,
+    "averias_total": 174,
+    "daf_total": 122,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -575,12 +588,12 @@
       "5": 53419,
       "6": 55160
     },
-    "averias_total": 3114,
+    "averias_total": 3115,
     "averias_top_municipios": {
       "Boyeros": 320,
       "Playa": 277,
       "Arroyo Naranjo": 239,
-      "Lisa": 223,
+      "Lisa": 224,
       "Habana Del Este": 212,
       "Guanabacoa": 198,
       "Cerro": 181,
@@ -593,7 +606,7 @@
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2270,
+    "daf_total": 2271,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1950,8 +1963,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2270,
-    "daf_last_30d": 231,
+    "daf_total": 2271,
+    "daf_last_30d": 232,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

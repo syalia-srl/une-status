@@ -106,3 +106,7 @@
 {"id": 62154, "ts": "2026-05-14T23:51:38+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
 {"id": 62155, "ts": "2026-05-14T23:59:53+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62157, "ts": "2026-05-15T00:01:29+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 3}
+{"id": 62158, "ts": "2026-05-15T00:08:21+00:00", "type": "daf", "has_photo": false}
+{"id": 62159, "ts": "2026-05-15T00:09:17+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "164 entre 69 y 81, Alturas de la Lisa 🚨", "severity": "secundaria"}]}
+{"id": 62160, "ts": "2026-05-15T00:10:23+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62161, "ts": "2026-05-15T00:13:25+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}
