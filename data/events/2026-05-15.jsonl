@@ -28,3 +28,6 @@
 {"id": 62207, "ts": "2026-05-15T07:43:31+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Plaza"}
 {"id": 62208, "ts": "2026-05-15T07:47:40+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Cotorro"}
 {"id": 62209, "ts": "2026-05-15T07:56:19+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": "las calles Estela entre Justo y Carlos, Párraga 🚨", "severity": "secundaria"}]}
+{"id": 62210, "ts": "2026-05-15T08:39:24+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 7, "minutes_off": 10}, {"bloque": 6, "hours_off": 5, "minutes_off": 0}, {"bloque": 1, "hours_off": 2, "minutes_off": 20}], "total_mw": 214}
+{"id": 62212, "ts": "2026-05-15T08:43:10+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62213, "ts": "2026-05-15T08:43:53+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "las calles 208 entre 51 y 59, Balcón Arimao 🚨", "severity": "secundaria"}]}
