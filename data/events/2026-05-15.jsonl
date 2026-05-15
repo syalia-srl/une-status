@@ -32,3 +32,5 @@
 {"id": 62212, "ts": "2026-05-15T08:43:10+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62213, "ts": "2026-05-15T08:43:53+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "las calles 208 entre 51 y 59, Balcón Arimao 🚨", "severity": "secundaria"}]}
 {"id": 62214, "ts": "2026-05-15T08:56:08+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62215, "ts": "2026-05-15T09:13:25+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 6, "minutes_off": 55}, {"bloque": 1, "hours_off": 3, "minutes_off": 20}], "total_mw": 224}
+{"id": 62216, "ts": "2026-05-15T09:13:28+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
