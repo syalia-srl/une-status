@@ -46,3 +46,4 @@
 {"id": 62226, "ts": "2026-05-15T11:03:09+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Centro Habana"}
 {"id": 62227, "ts": "2026-05-15T11:18:02+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62228, "ts": "2026-05-15T11:19:26+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62229, "ts": "2026-05-15T12:10:56+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
