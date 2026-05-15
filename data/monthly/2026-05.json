@@ -7,10 +7,10 @@
   "total_interruption_minutes": 14810,
   "total_block_outage_minutes": {
     "1": 4316,
-    "2": 4556,
-    "3": 4336,
+    "2": 4294,
+    "3": 4359,
     "4": 3816,
-    "5": 3664,
+    "5": 3710,
     "6": 4568
   },
   "total_emergency_mw_sum": 1329,
