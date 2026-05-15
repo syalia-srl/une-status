@@ -6,12 +6,12 @@
   "max_peak_mw": 499,
   "total_interruption_minutes": 13370,
   "total_block_outage_minutes": {
-    "1": 4836,
-    "2": 4234,
-    "3": 4216,
-    "4": 3756,
-    "5": 3393,
-    "6": 4508
+    "1": 4316,
+    "2": 4294,
+    "3": 4276,
+    "4": 3816,
+    "5": 3453,
+    "6": 4568
   },
   "total_emergency_mw_sum": 1224,
   "averias_count_by_municipio": {
@@ -20,8 +20,8 @@
     "Arroyo Naranjo": 17,
     "San Miguel Del Padrón": 17,
     "Guanabacoa": 14,
+    "Boyeros": 13,
     "Plaza": 12,
-    "Boyeros": 12,
     "Cerro": 11,
     "Playa": 11,
     "Marianao": 7,
@@ -36,7 +36,7 @@
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
     "Cerro Y Centro Habana": 1
   },
-  "averias_total": 174,
+  "averias_total": 175,
   "daf_total": 122,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,

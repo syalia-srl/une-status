@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T03:13:06+00:00",
+  "generated_at": "2026-05-15T03:28:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T03:06:40+00:00",
+    "as_of": "2026-05-15T03:17:07+00:00",
     "bloques": [
       {
         "id": 1,
@@ -39,19 +39,25 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 316,
-    "current_mw_affected_at": "2026-05-15T02:22:12+00:00",
+    "current_mw_affected": 341,
+    "current_mw_affected_at": "2026-05-15T03:17:07+00:00",
     "active_averias": {
-      "ts": "2026-05-15T00:09:17+00:00",
+      "ts": "2026-05-15T03:15:11+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "164 entre 69 y 81, Alturas de la Lisa 🚨",
-          "severity": "secundaria"
+          "municipio": "Boyeros",
+          "direccion": "la SE Sierra Maestra que afecta el servicio eléctrico de los repartos: Mulgoba, Jesús Menéndez, Ampliación de Mulgoba 🚨",
+          "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T03:15:11+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la SE Sierra Maestra que afecta el servicio eléctrico de los repartos: Mulgoba, Jesús Menéndez, Ampliación de Mulgoba 🚨",
+        "severity": "primaria"
+      },
       {
         "ts": "2026-05-15T00:09:17+00:00",
         "municipio": "Lisa",
@@ -383,14 +389,14 @@
     "interruption_minutes": 1440,
     "emergency_mw": 140,
     "block_outage_minutes": {
-      "1": 520,
-      "2": 225,
-      "3": 200,
-      "4": 120,
-      "5": 145,
-      "6": 0
+      "1": 0,
+      "2": 285,
+      "3": 260,
+      "4": 180,
+      "5": 205,
+      "6": 60
     },
-    "total_block_outage_minutes": 1210,
+    "total_block_outage_minutes": 990,
     "daf_count": 12,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -398,23 +404,23 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Lisa": 5,
+      "Boyeros": 3,
       "Guanabacoa": 2,
       "Regla": 2,
       "Arroyo Naranjo": 2,
       "Playa": 2,
-      "Boyeros": 2,
       "Plaza": 2,
       "Cerro": 2,
       "San Miguel Del Padrón": 1,
       "Cerro Y Centro Habana": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 22,
-    "source_msg_count": 124,
+    "averias_total": 23,
+    "source_msg_count": 126,
     "by_type_counts": {
-      "averias": 19,
+      "averias": 20,
       "restablecimiento": 30,
-      "actualizacion_bloques": 13,
+      "actualizacion_bloques": 14,
       "restablecimiento_daf": 9,
       "inicio_afectacion": 7,
       "daf": 12,
@@ -481,19 +487,19 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 9520,
     "total_block_outage_minutes": {
-      "1": 3363,
-      "2": 2555,
-      "3": 2570,
-      "4": 2382,
-      "5": 2113,
-      "6": 2921
+      "1": 2843,
+      "2": 2615,
+      "3": 2630,
+      "4": 2442,
+      "5": 2173,
+      "6": 2981
     },
     "total_emergency_mw_sum": 827,
     "averias_count_by_municipio": {
       "Lisa": 11,
       "Habana Del Este": 11,
+      "Boyeros": 10,
       "Guanabacoa": 9,
-      "Boyeros": 9,
       "Arroyo Naranjo": 8,
       "Cerro": 7,
       "San Miguel Del Padrón": 7,
@@ -509,7 +515,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 87,
+    "averias_total": 88,
     "daf_total": 77,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -527,12 +533,12 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 13370,
     "total_block_outage_minutes": {
-      "1": 4836,
-      "2": 4234,
-      "3": 4216,
-      "4": 3756,
-      "5": 3393,
-      "6": 4508
+      "1": 4316,
+      "2": 4294,
+      "3": 4276,
+      "4": 3816,
+      "5": 3453,
+      "6": 4568
     },
     "total_emergency_mw_sum": 1224,
     "averias_count_by_municipio": {
@@ -541,8 +547,8 @@
       "Arroyo Naranjo": 17,
       "San Miguel Del Padrón": 17,
       "Guanabacoa": 14,
+      "Boyeros": 13,
       "Plaza": 12,
-      "Boyeros": 12,
       "Cerro": 11,
       "Playa": 11,
       "Marianao": 7,
@@ -557,7 +563,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 174,
+    "averias_total": 175,
     "daf_total": 122,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -571,16 +577,16 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 55450,
     "total_block_outage_minutes": {
-      "1": 59330,
-      "2": 62313,
-      "3": 49940,
-      "4": 55988,
-      "5": 53564,
-      "6": 54810
+      "1": 58810,
+      "2": 62373,
+      "3": 50000,
+      "4": 56048,
+      "5": 53624,
+      "6": 54870
     },
-    "averias_total": 3115,
+    "averias_total": 3116,
     "averias_top_municipios": {
-      "Boyeros": 320,
+      "Boyeros": 321,
       "Playa": 277,
       "Arroyo Naranjo": 239,
       "Lisa": 224,
@@ -852,7 +858,7 @@
       },
       {
         "date": "2026-05-14",
-        "minutes": 1210
+        "minutes": 990
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1946,7 +1952,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 24943
+        "minutes": 24723
       }
     ],
     "sen_outage_days_total": 7,
