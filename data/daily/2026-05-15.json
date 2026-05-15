@@ -14,7 +14,7 @@
     "6": 475
   },
   "total_block_outage_minutes": 735,
-  "daf_count": 6,
+  "daf_count": 7,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,20 +22,20 @@
   "averias_count_by_municipio": {
     "Arroyo Naranjo": 2,
     "Plaza": 2,
+    "Habana Del Este": 2,
     "Boyeros": 1,
     "Cotorro": 1,
-    "Lisa": 1,
-    "Habana Del Este": 1
+    "Lisa": 1
   },
-  "averias_total": 8,
-  "source_msg_count": 40,
+  "averias_total": 9,
+  "source_msg_count": 43,
   "by_type_counts": {
-    "daf": 6,
+    "daf": 7,
     "restablecimiento_daf": 5,
-    "restablecimiento": 7,
+    "restablecimiento": 8,
     "actualizacion_bloques": 7,
     "via_libre": 1,
-    "averias": 6,
+    "averias": 7,
     "disparo_circuito": 5,
     "otro": 2,
     "inicio_afectacion": 1

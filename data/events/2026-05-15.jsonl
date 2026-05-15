@@ -38,3 +38,6 @@
 {"id": 62218, "ts": "2026-05-15T09:46:30+00:00", "type": "otro", "has_photo": false}
 {"id": 62219, "ts": "2026-05-15T09:53:39+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": "las calles: 17 entre 6ta y 2da, Guiteras 🚨", "severity": "secundaria"}]}
 {"id": 62220, "ts": "2026-05-15T10:16:24+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 7, "minutes_off": 55}, {"bloque": 1, "hours_off": 4, "minutes_off": 20}], "total_mw": 269}
+{"id": 62221, "ts": "2026-05-15T10:37:27+00:00", "type": "daf", "has_photo": false}
+{"id": 62222, "ts": "2026-05-15T10:38:06+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
+{"id": 62223, "ts": "2026-05-15T10:40:42+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": "las calles: 20 entre 17A y 19A 🚨", "severity": "secundaria"}]}
