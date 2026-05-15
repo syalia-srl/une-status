@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T19:12:07+00:00",
+  "generated_at": "2026-05-15T19:27:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T18:49:24+00:00",
+    "as_of": "2026-05-15T19:24:27+00:00",
     "bloques": [
       {
         "id": 1,
@@ -39,8 +39,8 @@
         "since": "2026-05-15T10:38:06+00:00"
       }
     ],
-    "current_mw_affected": 196,
-    "current_mw_affected_at": "2026-05-15T18:15:10+00:00",
+    "current_mw_affected": 172,
+    "current_mw_affected_at": "2026-05-15T19:24:27+00:00",
     "active_averias": {
       "ts": "2026-05-15T18:10:33+00:00",
       "averias": [
@@ -175,26 +175,6 @@
         "municipio": "Lisa",
         "direccion": "220 entre 59 y 61, Balcón Arimao 🚨",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-14T19:16:38+00:00",
-        "municipio": "Lisa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-14T19:14:06+00:00",
-        "municipio": "Arroyo Naranjo",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-14T19:06:10+00:00",
-        "municipio": "Cerro Y Centro Habana",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-14T18:58:24+00:00",
-        "municipio": "Plaza",
-        "direccion": "las calles 24 entre 25 y 27 afectando el servicio eléctrico en: 14 desde Zapata hasta 23; 23 desde 14 hasta 26; 23 hasta 38; 26 desde 23 hasta 33 🚨"
       }
     ],
     "last_daf": {
@@ -409,14 +389,14 @@
     "interruption_minutes": 1440,
     "emergency_mw": 105,
     "block_outage_minutes": {
-      "1": 116,
-      "2": 60,
-      "3": 258,
-      "4": 227,
+      "1": 176,
+      "2": 120,
+      "3": 0,
+      "4": 0,
       "5": 0,
-      "6": 187
+      "6": 247
     },
-    "total_block_outage_minutes": 848,
+    "total_block_outage_minutes": 543,
     "daf_count": 10,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -435,12 +415,12 @@
       "Cerro": 1
     },
     "averias_total": 17,
-    "source_msg_count": 88,
+    "source_msg_count": 89,
     "by_type_counts": {
       "daf": 10,
       "restablecimiento_daf": 8,
       "restablecimiento": 17,
-      "actualizacion_bloques": 13,
+      "actualizacion_bloques": 14,
       "via_libre": 2,
       "averias": 18,
       "disparo_circuito": 7,
@@ -513,12 +493,12 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 9520,
     "total_block_outage_minutes": {
-      "1": 2719,
-      "2": 2255,
-      "3": 2408,
-      "4": 2669,
+      "1": 2779,
+      "2": 2315,
+      "3": 2150,
+      "4": 2442,
       "5": 1813,
-      "6": 2868
+      "6": 2928
     },
     "total_emergency_mw_sum": 827,
     "averias_count_by_municipio": {
@@ -558,12 +538,12 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 14810,
     "total_block_outage_minutes": {
-      "1": 4432,
-      "2": 4354,
-      "3": 4534,
-      "4": 4043,
+      "1": 4492,
+      "2": 4414,
+      "3": 4276,
+      "4": 3816,
       "5": 3453,
-      "6": 4755
+      "6": 4815
     },
     "total_emergency_mw_sum": 1329,
     "averias_count_by_municipio": {
@@ -602,12 +582,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 56890,
     "total_block_outage_minutes": {
-      "1": 58926,
-      "2": 62433,
-      "3": 50258,
-      "4": 56275,
+      "1": 58986,
+      "2": 62493,
+      "3": 50000,
+      "4": 56048,
       "5": 53624,
-      "6": 55057
+      "6": 55117
     },
     "averias_total": 3133,
     "averias_top_municipios": {
@@ -883,7 +863,7 @@
       },
       {
         "date": "2026-05-15",
-        "minutes": 848
+        "minutes": 543
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1977,7 +1957,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 25571
+        "minutes": 25266
       }
     ],
     "sen_outage_days_total": 7,
