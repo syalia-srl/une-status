@@ -43,3 +43,4 @@
 {"id": 62223, "ts": "2026-05-15T10:40:42+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": "las calles: 20 entre 17A y 19A 🚨", "severity": "secundaria"}]}
 {"id": 62224, "ts": "2026-05-15T10:50:06+00:00", "type": "averias", "has_photo": false}
 {"id": 62225, "ts": "2026-05-15T10:56:28+00:00", "type": "daf", "has_photo": false}
+{"id": 62226, "ts": "2026-05-15T11:03:09+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Centro Habana"}
