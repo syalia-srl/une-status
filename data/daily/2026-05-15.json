@@ -14,7 +14,7 @@
     "6": 475
   },
   "total_block_outage_minutes": 735,
-  "daf_count": 8,
+  "daf_count": 9,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -29,9 +29,9 @@
     "Centro Habana": 1
   },
   "averias_total": 10,
-  "source_msg_count": 49,
+  "source_msg_count": 50,
   "by_type_counts": {
-    "daf": 8,
+    "daf": 9,
     "restablecimiento_daf": 6,
     "restablecimiento": 10,
     "actualizacion_bloques": 7,

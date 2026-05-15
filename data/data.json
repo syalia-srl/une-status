@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T12:30:27+00:00",
+  "generated_at": "2026-05-15T12:46:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T12:10:56+00:00",
+    "as_of": "2026-05-15T12:39:39+00:00",
     "bloques": [
       {
         "id": 1,
@@ -193,8 +193,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-15T11:18:02+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-15T12:39:39+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -412,7 +412,7 @@
       "6": 475
     },
     "total_block_outage_minutes": 735,
-    "daf_count": 8,
+    "daf_count": 9,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -427,9 +427,9 @@
       "Centro Habana": 1
     },
     "averias_total": 10,
-    "source_msg_count": 49,
+    "source_msg_count": 50,
     "by_type_counts": {
-      "daf": 8,
+      "daf": 9,
       "restablecimiento_daf": 6,
       "restablecimiento": 10,
       "actualizacion_bloques": 7,
@@ -528,7 +528,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 89,
-    "daf_total": 79,
+    "daf_total": 80,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -576,7 +576,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 185,
-    "daf_total": 130,
+    "daf_total": 131,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -614,7 +614,7 @@
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2279,
+    "daf_total": 2280,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1971,8 +1971,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2279,
-    "daf_last_30d": 233,
+    "daf_total": 2280,
+    "daf_last_30d": 234,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
