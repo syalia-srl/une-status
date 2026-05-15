@@ -6,14 +6,14 @@
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
+    "1": 30,
     "2": 0,
-    "3": 335,
-    "4": 325,
+    "3": 0,
+    "4": 360,
     "5": 0,
-    "6": 200
+    "6": 235
   },
-  "total_block_outage_minutes": 860,
+  "total_block_outage_minutes": 625,
   "daf_count": 4,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,12 +23,12 @@
     "Boyeros": 1
   },
   "averias_total": 1,
-  "source_msg_count": 17,
+  "source_msg_count": 18,
   "by_type_counts": {
     "daf": 4,
     "restablecimiento_daf": 3,
     "restablecimiento": 4,
-    "actualizacion_bloques": 2,
+    "actualizacion_bloques": 3,
     "via_libre": 1,
     "averias": 1,
     "disparo_circuito": 2
