@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T19:58:22+00:00",
+  "generated_at": "2026-05-15T20:13:58+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T19:46:20+00:00",
+    "as_of": "2026-05-15T20:08:37+00:00",
     "bloques": [
       {
         "id": 1,
@@ -52,6 +52,11 @@
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T20:08:37+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-15T19:46:20+00:00",
         "municipio": "Habana Del Este",
@@ -419,10 +424,11 @@
       "Lisa": 1,
       "Centro Habana": 1,
       "Playa": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "Marianao": 1
     },
-    "averias_total": 18,
-    "source_msg_count": 90,
+    "averias_total": 19,
+    "source_msg_count": 91,
     "by_type_counts": {
       "daf": 10,
       "restablecimiento_daf": 8,
@@ -430,7 +436,7 @@
       "actualizacion_bloques": 14,
       "via_libre": 2,
       "averias": 19,
-      "disparo_circuito": 7,
+      "disparo_circuito": 8,
       "otro": 2,
       "inicio_afectacion": 6,
       "sen_update": 1,
@@ -517,8 +523,8 @@
       "San Miguel Del Padrón": 7,
       "Cerro": 7,
       "Plaza": 6,
+      "Marianao": 5,
       "Playa": 5,
-      "Marianao": 4,
       "Plaza De La Revolución": 3,
       "Regla": 3,
       "Cotorro": 2,
@@ -527,7 +533,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 97,
+    "averias_total": 98,
     "daf_total": 81,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -563,7 +569,7 @@
       "Plaza": 14,
       "Cerro": 12,
       "Playa": 12,
-      "Marianao": 7,
+      "Marianao": 8,
       "Cotorro": 6,
       "Plaza De La Revolución": 5,
       "Regla": 5,
@@ -575,7 +581,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 193,
+    "averias_total": 194,
     "daf_total": 132,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -596,7 +602,7 @@
       "5": 53624,
       "6": 55117
     },
-    "averias_total": 3134,
+    "averias_total": 3135,
     "averias_top_municipios": {
       "Boyeros": 323,
       "Playa": 278,
@@ -607,7 +613,7 @@
       "Cerro": 182,
       "San Miguel Del Padrón": 176,
       "Plaza": 175,
-      "Marianao": 139,
+      "Marianao": 140,
       "Cotorro": 91,
       "Centro Habana": 66,
       "De Playa": 49,
