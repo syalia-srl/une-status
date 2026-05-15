@@ -7,10 +7,10 @@
   "total_interruption_minutes": 14810,
   "total_block_outage_minutes": {
     "1": 4316,
-    "2": 4496,
-    "3": 4276,
+    "2": 4556,
+    "3": 4336,
     "4": 3816,
-    "5": 3604,
+    "5": 3664,
     "6": 4568
   },
   "total_emergency_mw_sum": 1329,
@@ -18,7 +18,7 @@
     "Habana Del Este": 31,
     "Lisa": 23,
     "Arroyo Naranjo": 21,
-    "Guanabacoa": 18,
+    "Guanabacoa": 19,
     "San Miguel Del Padrón": 17,
     "Boyeros": 15,
     "Plaza": 14,
@@ -36,7 +36,7 @@
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
     "Cerro Y Centro Habana": 1
   },
-  "averias_total": 197,
+  "averias_total": 198,
   "daf_total": 133,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
