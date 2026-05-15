@@ -21,22 +21,23 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Arroyo Naranjo": 2,
+    "Plaza": 2,
     "Boyeros": 1,
-    "Plaza": 1,
     "Cotorro": 1,
-    "Lisa": 1
+    "Lisa": 1,
+    "Habana Del Este": 1
   },
-  "averias_total": 6,
-  "source_msg_count": 36,
+  "averias_total": 8,
+  "source_msg_count": 39,
   "by_type_counts": {
     "daf": 6,
     "restablecimiento_daf": 5,
     "restablecimiento": 7,
     "actualizacion_bloques": 6,
     "via_libre": 1,
-    "averias": 5,
-    "disparo_circuito": 4,
-    "otro": 1,
+    "averias": 6,
+    "disparo_circuito": 5,
+    "otro": 2,
     "inicio_afectacion": 1
   }
 }

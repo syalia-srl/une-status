@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T09:40:24+00:00",
+  "generated_at": "2026-05-15T09:56:03+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T09:13:28+00:00",
+    "as_of": "2026-05-15T09:53:39+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,16 +41,27 @@
     "current_mw_affected": 224,
     "current_mw_affected_at": "2026-05-15T09:13:25+00:00",
     "active_averias": {
-      "ts": "2026-05-15T08:43:53+00:00",
+      "ts": "2026-05-15T09:53:39+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "las calles 208 entre 51 y 59, Balcón Arimao 🚨",
+          "municipio": "Habana Del Este",
+          "direccion": "las calles: 17 entre 6ta y 2da, Guiteras 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T09:53:39+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "las calles: 17 entre 6ta y 2da, Guiteras 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-15T09:43:57+00:00",
+        "municipio": "Plaza",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-15T08:43:53+00:00",
         "municipio": "Lisa",
@@ -408,22 +419,23 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 2,
+      "Plaza": 2,
       "Boyeros": 1,
-      "Plaza": 1,
       "Cotorro": 1,
-      "Lisa": 1
+      "Lisa": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 6,
-    "source_msg_count": 36,
+    "averias_total": 8,
+    "source_msg_count": 39,
     "by_type_counts": {
       "daf": 6,
       "restablecimiento_daf": 5,
       "restablecimiento": 7,
       "actualizacion_bloques": 6,
       "via_libre": 1,
-      "averias": 5,
-      "disparo_circuito": 4,
-      "otro": 1,
+      "averias": 6,
+      "disparo_circuito": 5,
+      "otro": 2,
       "inicio_afectacion": 1
     }
   },
@@ -496,14 +508,14 @@
     },
     "total_emergency_mw_sum": 722,
     "averias_count_by_municipio": {
+      "Habana Del Este": 11,
       "Arroyo Naranjo": 10,
-      "Habana Del Este": 10,
       "Boyeros": 10,
       "Lisa": 10,
       "Guanabacoa": 7,
       "San Miguel Del Padrón": 7,
+      "Plaza": 6,
       "Cerro": 6,
-      "Plaza": 5,
       "Marianao": 4,
       "Playa": 4,
       "Plaza De La Revolución": 3,
@@ -514,7 +526,7 @@
       "Centro Habana": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 85,
+    "averias_total": 87,
     "daf_total": 77,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -541,13 +553,13 @@
     },
     "total_emergency_mw_sum": 1224,
     "averias_count_by_municipio": {
-      "Habana Del Este": 27,
+      "Habana Del Este": 28,
       "Lisa": 23,
       "Arroyo Naranjo": 19,
       "San Miguel Del Padrón": 17,
+      "Plaza": 14,
       "Boyeros": 14,
       "Guanabacoa": 14,
-      "Plaza": 13,
       "Cerro": 11,
       "Playa": 11,
       "Marianao": 7,
@@ -562,7 +574,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 181,
+    "averias_total": 183,
     "daf_total": 128,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -583,17 +595,17 @@
       "5": 53624,
       "6": 55285
     },
-    "averias_total": 3122,
+    "averias_total": 3124,
     "averias_top_municipios": {
       "Boyeros": 322,
       "Playa": 277,
       "Arroyo Naranjo": 241,
       "Lisa": 225,
-      "Habana Del Este": 212,
+      "Habana Del Este": 213,
       "Guanabacoa": 198,
       "Cerro": 181,
       "San Miguel Del Padrón": 176,
-      "Plaza": 174,
+      "Plaza": 175,
       "Marianao": 139,
       "Cotorro": 91,
       "Centro Habana": 65,
