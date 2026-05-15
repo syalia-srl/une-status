@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T21:55:42+00:00",
+  "generated_at": "2026-05-15T22:02:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T21:26:21+00:00",
+    "as_of": "2026-05-15T21:57:25+00:00",
     "bloques": [
       {
         "id": 1,
@@ -42,10 +42,22 @@
     "current_mw_affected": 171,
     "current_mw_affected_at": "2026-05-15T21:10:11+00:00",
     "active_averias": {
-      "ts": "2026-05-15T20:57:37+00:00",
-      "averias": []
+      "ts": "2026-05-15T21:57:25+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": ": Callejón del Matadero , Guásimas",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T21:57:25+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": ": Callejón del Matadero , Guásimas",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-15T20:47:56+00:00",
         "municipio": "Guanabacoa",
@@ -415,9 +427,9 @@
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 4,
       "Habana Del Este": 4,
       "Guanabacoa": 4,
-      "Arroyo Naranjo": 3,
       "Boyeros": 2,
       "Plaza": 2,
       "Cotorro": 1,
@@ -427,15 +439,15 @@
       "Cerro": 1,
       "Marianao": 1
     },
-    "averias_total": 21,
-    "source_msg_count": 104,
+    "averias_total": 22,
+    "source_msg_count": 106,
     "by_type_counts": {
       "daf": 11,
       "restablecimiento_daf": 8,
-      "restablecimiento": 23,
+      "restablecimiento": 24,
       "actualizacion_bloques": 16,
       "via_libre": 2,
-      "averias": 22,
+      "averias": 23,
       "disparo_circuito": 8,
       "otro": 2,
       "inicio_afectacion": 7,
@@ -516,7 +528,7 @@
     "total_emergency_mw_sum": 827,
     "averias_count_by_municipio": {
       "Habana Del Este": 14,
-      "Arroyo Naranjo": 11,
+      "Arroyo Naranjo": 12,
       "Boyeros": 11,
       "Guanabacoa": 11,
       "Lisa": 10,
@@ -533,7 +545,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 100,
+    "averias_total": 101,
     "daf_total": 82,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -562,7 +574,7 @@
     "averias_count_by_municipio": {
       "Habana Del Este": 31,
       "Lisa": 23,
-      "Arroyo Naranjo": 20,
+      "Arroyo Naranjo": 21,
       "Guanabacoa": 18,
       "San Miguel Del Padrón": 17,
       "Boyeros": 15,
@@ -581,7 +593,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 196,
+    "averias_total": 197,
     "daf_total": 133,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -602,11 +614,11 @@
       "5": 53775,
       "6": 54870
     },
-    "averias_total": 3137,
+    "averias_total": 3138,
     "averias_top_municipios": {
       "Boyeros": 323,
       "Playa": 278,
-      "Arroyo Naranjo": 242,
+      "Arroyo Naranjo": 243,
       "Lisa": 225,
       "Habana Del Este": 216,
       "Guanabacoa": 202,
