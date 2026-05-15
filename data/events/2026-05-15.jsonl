@@ -6,3 +6,5 @@
 {"id": 62185, "ts": "2026-05-15T04:43:30+00:00", "type": "via_libre", "has_photo": false}
 {"id": 62186, "ts": "2026-05-15T04:45:50+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 2}
 {"id": 62187, "ts": "2026-05-15T05:12:43+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Boyeros", "direccion": "Carretera de Santiago a Rincón, reparto la Incubadora 🚨", "severity": "secundaria"}]}
+{"id": 62188, "ts": "2026-05-15T05:34:00+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
+{"id": 62189, "ts": "2026-05-15T05:35:06+00:00", "type": "disparo_circuito", "has_photo": false}
