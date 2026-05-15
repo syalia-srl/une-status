@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T05:01:34+00:00",
+  "generated_at": "2026-05-15T05:17:03+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T04:45:50+00:00",
+    "as_of": "2026-05-15T05:12:43+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,10 +41,22 @@
     "current_mw_affected": 310,
     "current_mw_affected_at": "2026-05-15T04:32:50+00:00",
     "active_averias": {
-      "ts": "2026-05-15T03:57:23+00:00",
-      "averias": []
+      "ts": "2026-05-15T05:12:43+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "Carretera de Santiago a Rincón, reparto la Incubadora 🚨",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T05:12:43+00:00",
+        "municipio": "Boyeros",
+        "direccion": "Carretera de Santiago a Rincón, reparto la Incubadora 🚨",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-15T03:15:11+00:00",
         "municipio": "Boyeros",
@@ -155,12 +167,6 @@
         "ts": "2026-05-14T05:54:22+00:00",
         "municipio": "Arroyo Naranjo",
         "direccion": "la siguiente dirección: Hernán Benn e/ Kessel y San Leonardo, Víbora Park",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-14T04:50:32+00:00",
-        "municipio": "Regla",
-        "direccion": "la siguiente dirección: 10 de Octubre e/ Caridad y Refugio",
         "severity": "secundaria"
       }
     ],
@@ -389,15 +395,18 @@
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {
+      "Boyeros": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 8,
     "by_type_counts": {
       "daf": 2,
       "restablecimiento_daf": 1,
       "restablecimiento": 2,
       "actualizacion_bloques": 1,
-      "via_libre": 1
+      "via_libre": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -470,7 +479,7 @@
     "total_emergency_mw_sum": 722,
     "averias_count_by_municipio": {
       "Habana Del Este": 10,
-      "Boyeros": 9,
+      "Boyeros": 10,
       "Lisa": 9,
       "Arroyo Naranjo": 8,
       "Guanabacoa": 7,
@@ -487,7 +496,7 @@
       "Centro Habana": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 79,
+    "averias_total": 80,
     "daf_total": 73,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -518,8 +527,8 @@
       "Lisa": 22,
       "Arroyo Naranjo": 17,
       "San Miguel Del Padrón": 17,
+      "Boyeros": 14,
       "Guanabacoa": 14,
-      "Boyeros": 13,
       "Plaza": 12,
       "Cerro": 11,
       "Playa": 11,
@@ -535,7 +544,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 175,
+    "averias_total": 176,
     "daf_total": 124,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -556,9 +565,9 @@
       "5": 53944,
       "6": 55005
     },
-    "averias_total": 3116,
+    "averias_total": 3117,
     "averias_top_municipios": {
-      "Boyeros": 321,
+      "Boyeros": 322,
       "Playa": 277,
       "Arroyo Naranjo": 239,
       "Lisa": 224,

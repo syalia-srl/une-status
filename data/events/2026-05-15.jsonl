@@ -5,3 +5,4 @@
 {"id": 62184, "ts": "2026-05-15T04:32:50+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 2, "hours_off": 5, "minutes_off": 45}, {"bloque": 5, "hours_off": 5, "minutes_off": 20}, {"bloque": 3, "hours_off": 4, "minutes_off": 25}, {"bloque": 4, "hours_off": 4, "minutes_off": 0}, {"bloque": 6, "hours_off": 2, "minutes_off": 15}], "total_mw": 310}
 {"id": 62185, "ts": "2026-05-15T04:43:30+00:00", "type": "via_libre", "has_photo": false}
 {"id": 62186, "ts": "2026-05-15T04:45:50+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 2}
+{"id": 62187, "ts": "2026-05-15T05:12:43+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Boyeros", "direccion": "Carretera de Santiago a Rincón, reparto la Incubadora 🚨", "severity": "secundaria"}]}
