@@ -70,15 +70,15 @@
       "name": "Lidio Ramón Pérez (Felton)",
       "units": {
         "1": {
-          "state": "offline",
-          "since": "2026-05-12T02:30:46+00:00"
+          "state": "online",
+          "since": "2026-05-15T15:26:47+00:00"
         }
       },
-      "last_seen_at": "2026-05-12T02:30:46+00:00",
-      "last_online_at": "2026-02-06T02:21:31+00:00",
+      "last_seen_at": "2026-05-15T15:26:47+00:00",
+      "last_online_at": "2026-05-15T15:26:47+00:00",
       "last_offline_at": "2026-05-12T02:30:46+00:00",
-      "last_change_at": "2026-05-11T14:36:09+00:00",
-      "state": "offline"
+      "last_change_at": "2026-05-15T15:26:47+00:00",
+      "state": "online"
     },
     "guevara": {
       "name": "Ernesto Guevara (Santa Cruz)",

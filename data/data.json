@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T15:20:24+00:00",
+  "generated_at": "2026-05-15T15:35:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T14:51:51+00:00",
+    "as_of": "2026-05-15T15:26:47+00:00",
     "bloques": [
       {
         "id": 1,
@@ -40,7 +40,7 @@
     "current_mw_affected": 132,
     "current_mw_affected_at": "2026-05-15T14:24:49+00:00",
     "active_averias": {
-      "ts": "2026-05-15T13:58:48+00:00",
+      "ts": "2026-05-15T15:21:34+00:00",
       "averias": []
     },
     "averias_24h": [
@@ -173,12 +173,6 @@
         "ts": "2026-05-14T17:10:18+00:00",
         "municipio": "Playa",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-14T14:54:15+00:00",
-        "municipio": "Lisa",
-        "direccion": "las calles 182 entre 65 y 69, Alturas de la Lisa 🚨",
-        "severity": "secundaria"
       }
     ],
     "last_daf": {
@@ -196,21 +190,21 @@
       {
         "id": "felton",
         "name": "Lidio Ramón Pérez (Felton)",
-        "state": "offline",
+        "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-05-12T02:30:46+00:00",
-        "last_online_at": "2026-02-06T02:21:31+00:00",
+        "last_seen_at": "2026-05-15T15:26:47+00:00",
+        "last_online_at": "2026-05-15T15:26:47+00:00",
         "last_offline_at": "2026-05-12T02:30:46+00:00",
-        "last_change_at": "2026-05-11T14:36:09+00:00",
+        "last_change_at": "2026-05-15T15:26:47+00:00",
         "units": [
           {
             "unidad": 1,
-            "state": "offline",
-            "since": "2026-05-12T02:30:46+00:00"
+            "state": "online",
+            "since": "2026-05-15T15:26:47+00:00"
           }
         ],
-        "online_units": 0,
-        "offline_units": 1
+        "online_units": 1,
+        "offline_units": 0
       },
       {
         "id": "guiteras",
@@ -417,20 +411,21 @@
       "Guanabacoa": 1
     },
     "averias_total": 11,
-    "source_msg_count": 63,
+    "source_msg_count": 66,
     "by_type_counts": {
       "daf": 9,
       "restablecimiento_daf": 7,
-      "restablecimiento": 13,
+      "restablecimiento": 14,
       "actualizacion_bloques": 10,
       "via_libre": 1,
-      "averias": 10,
+      "averias": 11,
       "disparo_circuito": 6,
       "otro": 2,
       "inicio_afectacion": 2,
       "sen_update": 1,
       "nota_diaria": 1,
-      "corto": 1
+      "corto": 1,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
