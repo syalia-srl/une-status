@@ -32,14 +32,14 @@
     "Cerro": 1
   },
   "averias_total": 14,
-  "source_msg_count": 80,
+  "source_msg_count": 81,
   "by_type_counts": {
     "daf": 10,
     "restablecimiento_daf": 8,
     "restablecimiento": 16,
     "actualizacion_bloques": 12,
     "via_libre": 2,
-    "averias": 14,
+    "averias": 15,
     "disparo_circuito": 7,
     "otro": 2,
     "inicio_afectacion": 5,
