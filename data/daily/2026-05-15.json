@@ -14,25 +14,27 @@
     "6": 295
   },
   "total_block_outage_minutes": 795,
-  "daf_count": 5,
+  "daf_count": 6,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
+    "Arroyo Naranjo": 2,
     "Boyeros": 1,
-    "Arroyo Naranjo": 1
+    "Plaza": 1,
+    "Cotorro": 1
   },
-  "averias_total": 2,
-  "source_msg_count": 25,
+  "averias_total": 5,
+  "source_msg_count": 30,
   "by_type_counts": {
-    "daf": 5,
-    "restablecimiento_daf": 3,
+    "daf": 6,
+    "restablecimiento_daf": 4,
     "restablecimiento": 6,
     "actualizacion_bloques": 4,
     "via_libre": 1,
-    "averias": 3,
-    "disparo_circuito": 2,
+    "averias": 4,
+    "disparo_circuito": 4,
     "otro": 1
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T07:36:54+00:00",
+  "generated_at": "2026-05-15T08:07:46+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T07:22:49+00:00",
+    "as_of": "2026-05-15T07:56:19+00:00",
     "bloques": [
       {
         "id": 1,
@@ -40,16 +40,32 @@
     "current_mw_affected": 255,
     "current_mw_affected_at": "2026-05-15T07:18:58+00:00",
     "active_averias": {
-      "ts": "2026-05-15T07:08:57+00:00",
+      "ts": "2026-05-15T07:56:19+00:00",
       "averias": [
         {
           "municipio": "Arroyo Naranjo",
-          "direccion": "Calzada de Bejucal y Güinera 🚨",
+          "direccion": "las calles Estela entre Justo y Carlos, Párraga 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T07:56:19+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "las calles Estela entre Justo y Carlos, Párraga 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-15T07:47:40+00:00",
+        "municipio": "Cotorro",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-15T07:43:31+00:00",
+        "municipio": "Plaza",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-15T07:08:57+00:00",
         "municipio": "Arroyo Naranjo",
@@ -156,15 +172,10 @@
       {
         "ts": "2026-05-14T11:09:38+00:00",
         "municipio": "Guanabacoa"
-      },
-      {
-        "ts": "2026-05-14T07:40:35+00:00",
-        "municipio": "Playa",
-        "direccion": "la siguiente dirección: 29 e/ 58 y 60"
       }
     ],
     "last_daf": {
-      "ts": "2026-05-15T07:21:18+00:00",
+      "ts": "2026-05-15T07:43:21+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -383,25 +394,27 @@
       "6": 295
     },
     "total_block_outage_minutes": 795,
-    "daf_count": 5,
+    "daf_count": 6,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 2,
       "Boyeros": 1,
-      "Arroyo Naranjo": 1
+      "Plaza": 1,
+      "Cotorro": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 25,
+    "averias_total": 5,
+    "source_msg_count": 30,
     "by_type_counts": {
-      "daf": 5,
-      "restablecimiento_daf": 3,
+      "daf": 6,
+      "restablecimiento_daf": 4,
       "restablecimiento": 6,
       "actualizacion_bloques": 4,
       "via_libre": 1,
-      "averias": 3,
-      "disparo_circuito": 2,
+      "averias": 4,
+      "disparo_circuito": 4,
       "otro": 1
     }
   },
@@ -474,26 +487,26 @@
     },
     "total_emergency_mw_sum": 722,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 10,
       "Habana Del Este": 10,
       "Boyeros": 10,
-      "Arroyo Naranjo": 9,
       "Lisa": 9,
       "Guanabacoa": 7,
       "San Miguel Del Padrón": 7,
       "Cerro": 6,
-      "Plaza": 4,
+      "Plaza": 5,
       "Marianao": 4,
       "Playa": 4,
       "Plaza De La Revolución": 3,
       "Regla": 3,
-      "Cotorro": 1,
+      "Cotorro": 2,
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Centro Habana": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 81,
-    "daf_total": 76,
+    "averias_total": 84,
+    "daf_total": 77,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -521,15 +534,15 @@
     "averias_count_by_municipio": {
       "Habana Del Este": 27,
       "Lisa": 22,
-      "Arroyo Naranjo": 18,
+      "Arroyo Naranjo": 19,
       "San Miguel Del Padrón": 17,
       "Boyeros": 14,
       "Guanabacoa": 14,
-      "Plaza": 12,
+      "Plaza": 13,
       "Cerro": 11,
       "Playa": 11,
       "Marianao": 7,
-      "Cotorro": 5,
+      "Cotorro": 6,
       "Plaza De La Revolución": 5,
       "Regla": 5,
       "Centro Habana": 3,
@@ -540,8 +553,8 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 177,
-    "daf_total": 127,
+    "averias_total": 180,
+    "daf_total": 128,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -561,25 +574,25 @@
       "5": 53624,
       "6": 55165
     },
-    "averias_total": 3118,
+    "averias_total": 3121,
     "averias_top_municipios": {
       "Boyeros": 322,
       "Playa": 277,
-      "Arroyo Naranjo": 240,
+      "Arroyo Naranjo": 241,
       "Lisa": 224,
       "Habana Del Este": 212,
       "Guanabacoa": 198,
       "Cerro": 181,
       "San Miguel Del Padrón": 176,
-      "Plaza": 173,
+      "Plaza": 174,
       "Marianao": 139,
-      "Cotorro": 90,
+      "Cotorro": 91,
       "Centro Habana": 65,
       "De Playa": 49,
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2276,
+    "daf_total": 2277,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1936,8 +1949,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2276,
-    "daf_last_30d": 230,
+    "daf_total": 2277,
+    "daf_last_30d": 231,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

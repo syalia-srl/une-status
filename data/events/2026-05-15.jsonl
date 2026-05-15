@@ -23,3 +23,8 @@
 {"id": 62202, "ts": "2026-05-15T07:19:49+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
 {"id": 62203, "ts": "2026-05-15T07:21:18+00:00", "type": "daf", "has_photo": false}
 {"id": 62204, "ts": "2026-05-15T07:22:49+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62205, "ts": "2026-05-15T07:40:53+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62206, "ts": "2026-05-15T07:43:21+00:00", "type": "daf", "has_photo": false}
+{"id": 62207, "ts": "2026-05-15T07:43:31+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Plaza"}
+{"id": 62208, "ts": "2026-05-15T07:47:40+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Cotorro"}
+{"id": 62209, "ts": "2026-05-15T07:56:19+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": "las calles Estela entre Justo y Carlos, Párraga 🚨", "severity": "secundaria"}]}
