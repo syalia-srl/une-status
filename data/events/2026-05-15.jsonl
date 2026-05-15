@@ -64,3 +64,4 @@
 {"id": 62245, "ts": "2026-05-15T15:21:34+00:00", "type": "averias", "has_photo": false}
 {"id": 62246, "ts": "2026-05-15T15:24:39+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62247, "ts": "2026-05-15T15:26:47+00:00", "type": "unidad_termoelectrica", "has_photo": false, "unidad": 1, "planta": "Lidio Ramón Pérez \"Felton\"", "state": "online", "cte_id": "felton", "cte_name": "Lidio Ramón Pérez (Felton)", "clock": "10:42"}
+{"id": 62248, "ts": "2026-05-15T15:48:44+00:00", "type": "daf", "has_photo": false}
