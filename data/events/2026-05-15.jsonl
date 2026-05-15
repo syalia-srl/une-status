@@ -41,3 +41,5 @@
 {"id": 62221, "ts": "2026-05-15T10:37:27+00:00", "type": "daf", "has_photo": false}
 {"id": 62222, "ts": "2026-05-15T10:38:06+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
 {"id": 62223, "ts": "2026-05-15T10:40:42+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": "las calles: 20 entre 17A y 19A 🚨", "severity": "secundaria"}]}
+{"id": 62224, "ts": "2026-05-15T10:50:06+00:00", "type": "averias", "has_photo": false}
+{"id": 62225, "ts": "2026-05-15T10:56:28+00:00", "type": "daf", "has_photo": false}

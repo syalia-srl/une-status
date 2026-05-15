@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T10:42:00+00:00",
+  "generated_at": "2026-05-15T10:57:30+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T10:40:42+00:00",
+    "as_of": "2026-05-15T10:56:28+00:00",
     "bloques": [
       {
         "id": 1,
@@ -40,14 +40,8 @@
     "current_mw_affected": 269,
     "current_mw_affected_at": "2026-05-15T10:16:24+00:00",
     "active_averias": {
-      "ts": "2026-05-15T10:40:42+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": "las calles: 20 entre 17A y 19A 🚨",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-05-15T10:50:06+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -198,7 +192,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-15T10:37:27+00:00",
+      "ts": "2026-05-15T10:56:28+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -417,7 +411,7 @@
       "6": 475
     },
     "total_block_outage_minutes": 735,
-    "daf_count": 7,
+    "daf_count": 8,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -431,14 +425,14 @@
       "Lisa": 1
     },
     "averias_total": 9,
-    "source_msg_count": 43,
+    "source_msg_count": 45,
     "by_type_counts": {
-      "daf": 7,
+      "daf": 8,
       "restablecimiento_daf": 5,
       "restablecimiento": 8,
       "actualizacion_bloques": 7,
       "via_libre": 1,
-      "averias": 7,
+      "averias": 8,
       "disparo_circuito": 5,
       "otro": 2,
       "inicio_afectacion": 1
@@ -532,7 +526,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 88,
-    "daf_total": 78,
+    "daf_total": 79,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -580,7 +574,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 184,
-    "daf_total": 129,
+    "daf_total": 130,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -618,7 +612,7 @@
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2278,
+    "daf_total": 2279,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1975,8 +1969,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2278,
-    "daf_last_30d": 232,
+    "daf_total": 2279,
+    "daf_last_30d": 233,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
