@@ -1,6 +1,6 @@
 {
   "date": "2026-05-14",
-  "finalized": false,
+  "finalized": true,
   "peak_mw_affected": 499,
   "peak_time": "21:30",
   "interruption_minutes": 1440,
