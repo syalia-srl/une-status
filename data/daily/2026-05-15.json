@@ -6,31 +6,32 @@
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 30,
+    "1": 80,
     "2": 0,
     "3": 0,
-    "4": 360,
+    "4": 420,
     "5": 0,
-    "6": 235
+    "6": 295
   },
-  "total_block_outage_minutes": 625,
+  "total_block_outage_minutes": 795,
   "daf_count": 4,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 1
+    "Boyeros": 1,
+    "Arroyo Naranjo": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 19,
+  "averias_total": 2,
+  "source_msg_count": 23,
   "by_type_counts": {
     "daf": 4,
     "restablecimiento_daf": 3,
-    "restablecimiento": 4,
-    "actualizacion_bloques": 3,
+    "restablecimiento": 5,
+    "actualizacion_bloques": 4,
     "via_libre": 1,
-    "averias": 1,
+    "averias": 3,
     "disparo_circuito": 2,
     "otro": 1
   }

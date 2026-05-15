@@ -17,3 +17,7 @@
 {"id": 62196, "ts": "2026-05-15T06:16:21+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62197, "ts": "2026-05-15T06:20:56+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 6, "minutes_off": 0}, {"bloque": 6, "hours_off": 3, "minutes_off": 55}, {"bloque": 1, "hours_off": 0, "minutes_off": 30}], "total_mw": 255}
 {"id": 62198, "ts": "2026-05-15T06:39:51+00:00", "type": "otro", "has_photo": false}
+{"id": 62199, "ts": "2026-05-15T07:06:40+00:00", "type": "averias", "has_photo": false}
+{"id": 62200, "ts": "2026-05-15T07:08:57+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": "Calzada de Bejucal y Güinera 🚨", "severity": "secundaria"}]}
+{"id": 62201, "ts": "2026-05-15T07:18:58+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 7, "minutes_off": 0}, {"bloque": 6, "hours_off": 4, "minutes_off": 55}, {"bloque": 1, "hours_off": 1, "minutes_off": 20}], "total_mw": 255}
+{"id": 62202, "ts": "2026-05-15T07:19:49+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
