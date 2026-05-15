@@ -20,8 +20,8 @@
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
+    "Habana Del Este": 4,
     "Arroyo Naranjo": 3,
-    "Habana Del Este": 3,
     "Boyeros": 2,
     "Plaza": 2,
     "Guanabacoa": 2,
@@ -31,15 +31,15 @@
     "Playa": 1,
     "Cerro": 1
   },
-  "averias_total": 17,
-  "source_msg_count": 89,
+  "averias_total": 18,
+  "source_msg_count": 90,
   "by_type_counts": {
     "daf": 10,
     "restablecimiento_daf": 8,
     "restablecimiento": 17,
     "actualizacion_bloques": 14,
     "via_libre": 2,
-    "averias": 18,
+    "averias": 19,
     "disparo_circuito": 7,
     "otro": 2,
     "inicio_afectacion": 6,
