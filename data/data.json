@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-05-15T20:45:25+00:00",
+  "generated_at": "2026-05-15T20:57:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T20:39:07+00:00",
+    "as_of": "2026-05-15T20:54:30+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-05-15T16:07:25+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-15T20:54:30+00:00"
       },
       {
         "id": 2,
@@ -42,16 +41,28 @@
     "current_mw_affected": 175,
     "current_mw_affected_at": "2026-05-15T20:29:12+00:00",
     "active_averias": {
-      "ts": "2026-05-15T19:46:20+00:00",
+      "ts": "2026-05-15T20:47:56+00:00",
       "averias": [
         {
-          "municipio": "Habana Del Este",
-          "direccion": ": Zona 23 ,Alamar",
+          "municipio": "Guanabacoa",
+          "direccion": ": E / 3ra y 5ta, Reparto Mañana",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T20:47:56+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": ": E / 3ra y 5ta, Reparto Mañana",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-15T20:46:52+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": ": Sergio Gonz y Lidia Esther",
+        "severity": "secundaria"
+      },
       {
         "ts": "2026-05-15T20:08:37+00:00",
         "municipio": "Marianao",
@@ -181,12 +192,6 @@
         "ts": "2026-05-14T22:58:10+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-14T20:44:54+00:00",
-        "municipio": "Lisa",
-        "direccion": "220 entre 59 y 61, Balcón Arimao 🚨",
-        "severity": "secundaria"
       }
     ],
     "last_daf": {
@@ -416,10 +421,10 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Habana Del Este": 4,
+      "Guanabacoa": 4,
       "Arroyo Naranjo": 3,
       "Boyeros": 2,
       "Plaza": 2,
-      "Guanabacoa": 2,
       "Cotorro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
@@ -427,15 +432,15 @@
       "Cerro": 1,
       "Marianao": 1
     },
-    "averias_total": 19,
-    "source_msg_count": 95,
+    "averias_total": 21,
+    "source_msg_count": 98,
     "by_type_counts": {
       "daf": 10,
       "restablecimiento_daf": 8,
-      "restablecimiento": 20,
+      "restablecimiento": 21,
       "actualizacion_bloques": 15,
       "via_libre": 2,
-      "averias": 19,
+      "averias": 21,
       "disparo_circuito": 8,
       "otro": 2,
       "inicio_afectacion": 6,
@@ -518,8 +523,8 @@
       "Habana Del Este": 14,
       "Arroyo Naranjo": 11,
       "Boyeros": 11,
+      "Guanabacoa": 11,
       "Lisa": 10,
-      "Guanabacoa": 9,
       "San Miguel Del Padrón": 7,
       "Cerro": 7,
       "Plaza": 6,
@@ -533,7 +538,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 98,
+    "averias_total": 100,
     "daf_total": 81,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -563,8 +568,8 @@
       "Habana Del Este": 31,
       "Lisa": 23,
       "Arroyo Naranjo": 20,
+      "Guanabacoa": 18,
       "San Miguel Del Padrón": 17,
-      "Guanabacoa": 16,
       "Boyeros": 15,
       "Plaza": 14,
       "Cerro": 12,
@@ -581,7 +586,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 194,
+    "averias_total": 196,
     "daf_total": 132,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -602,14 +607,14 @@
       "5": 53684,
       "6": 55177
     },
-    "averias_total": 3135,
+    "averias_total": 3137,
     "averias_top_municipios": {
       "Boyeros": 323,
       "Playa": 278,
       "Arroyo Naranjo": 242,
       "Lisa": 225,
       "Habana Del Este": 216,
-      "Guanabacoa": 200,
+      "Guanabacoa": 202,
       "Cerro": 182,
       "San Miguel Del Padrón": 176,
       "Plaza": 175,

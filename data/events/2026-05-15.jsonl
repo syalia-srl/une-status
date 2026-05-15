@@ -93,3 +93,6 @@
 {"id": 62277, "ts": "2026-05-15T20:35:26+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
 {"id": 62278, "ts": "2026-05-15T20:37:46+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62279, "ts": "2026-05-15T20:39:07+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62280, "ts": "2026-05-15T20:46:52+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": Sergio Gonz y Lidia Esther", "severity": "secundaria"}]}
+{"id": 62281, "ts": "2026-05-15T20:47:56+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": E / 3ra y 5ta, Reparto Mañana", "severity": "secundaria"}]}
+{"id": 62282, "ts": "2026-05-15T20:54:30+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
