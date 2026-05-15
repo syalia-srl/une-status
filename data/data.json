@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T13:32:36+00:00",
+  "generated_at": "2026-05-15T13:48:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T13:11:18+00:00",
+    "as_of": "2026-05-15T13:40:12+00:00",
     "bloques": [
       {
         "id": 1,
@@ -18,8 +18,9 @@
       },
       {
         "id": 3,
-        "state": "encendido",
-        "since": "2026-05-15T05:49:10+00:00"
+        "state": "apagado",
+        "since": "2026-05-15T13:36:09+00:00",
+        "emergency": true
       },
       {
         "id": 4,
@@ -40,10 +41,22 @@
     "current_mw_affected": 90,
     "current_mw_affected_at": "2026-05-15T12:53:43+00:00",
     "active_averias": {
-      "ts": "2026-05-15T10:50:06+00:00",
-      "averias": []
+      "ts": "2026-05-15T13:35:34+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": ": Debeche",
+          "severity": "primaria"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-15T13:35:34+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": ": Debeche",
+        "severity": "primaria"
+      },
       {
         "ts": "2026-05-15T11:03:09+00:00",
         "municipio": "Centro Habana",
@@ -393,10 +406,10 @@
   "day": {
     "date": "2026-05-15",
     "finalized": false,
-    "peak_mw_affected": 310,
-    "peak_time": "00:32",
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 341,
+    "peak_time": "23:00",
+    "interruption_minutes": 1440,
+    "emergency_mw": 105,
     "block_outage_minutes": {
       "1": 406,
       "2": 203,
@@ -418,20 +431,24 @@
       "Boyeros": 1,
       "Cotorro": 1,
       "Lisa": 1,
-      "Centro Habana": 1
+      "Centro Habana": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 10,
-    "source_msg_count": 52,
+    "averias_total": 11,
+    "source_msg_count": 57,
     "by_type_counts": {
       "daf": 9,
       "restablecimiento_daf": 7,
       "restablecimiento": 10,
       "actualizacion_bloques": 8,
       "via_libre": 1,
-      "averias": 8,
+      "averias": 9,
       "disparo_circuito": 6,
       "otro": 2,
-      "inicio_afectacion": 1
+      "inicio_afectacion": 2,
+      "sen_update": 1,
+      "nota_diaria": 1,
+      "corto": 1
     }
   },
   "yesterday": {
@@ -490,9 +507,9 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 435.9,
+    "avg_peak_mw": 440.3,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 8080,
+    "total_interruption_minutes": 9520,
     "total_block_outage_minutes": {
       "1": 3009,
       "2": 2398,
@@ -501,13 +518,13 @@
       "5": 1958,
       "6": 2681
     },
-    "total_emergency_mw_sum": 722,
+    "total_emergency_mw_sum": 827,
     "averias_count_by_municipio": {
       "Habana Del Este": 12,
       "Arroyo Naranjo": 10,
       "Boyeros": 10,
       "Lisa": 10,
-      "Guanabacoa": 7,
+      "Guanabacoa": 8,
       "San Miguel Del Padrón": 7,
       "Plaza": 6,
       "Cerro": 6,
@@ -521,7 +538,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 89,
+    "averias_total": 90,
     "daf_total": 80,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -535,9 +552,9 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 15,
-    "avg_peak_mw": 352.2,
+    "avg_peak_mw": 354.3,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 13370,
+    "total_interruption_minutes": 14810,
     "total_block_outage_minutes": {
       "1": 4722,
       "2": 4497,
@@ -546,15 +563,15 @@
       "5": 3598,
       "6": 4568
     },
-    "total_emergency_mw_sum": 1224,
+    "total_emergency_mw_sum": 1329,
     "averias_count_by_municipio": {
       "Habana Del Este": 29,
       "Lisa": 23,
       "Arroyo Naranjo": 19,
       "San Miguel Del Padrón": 17,
+      "Guanabacoa": 15,
       "Plaza": 14,
       "Boyeros": 14,
-      "Guanabacoa": 14,
       "Cerro": 11,
       "Playa": 11,
       "Marianao": 7,
@@ -569,7 +586,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 185,
+    "averias_total": 186,
     "daf_total": 131,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -581,7 +598,7 @@
   "all_time": {
     "months_count": 46,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 55450,
+    "total_interruption_minutes": 56890,
     "total_block_outage_minutes": {
       "1": 59216,
       "2": 62576,
@@ -590,14 +607,14 @@
       "5": 53769,
       "6": 54870
     },
-    "averias_total": 3126,
+    "averias_total": 3127,
     "averias_top_municipios": {
       "Boyeros": 322,
       "Playa": 277,
       "Arroyo Naranjo": 241,
       "Lisa": 225,
       "Habana Del Este": 214,
-      "Guanabacoa": 198,
+      "Guanabacoa": 199,
       "Cerro": 181,
       "San Miguel Del Padrón": 176,
       "Plaza": 175,
@@ -742,7 +759,7 @@
       },
       {
         "date": "2026-05-15",
-        "peak_mw": 310
+        "peak_mw": 341
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1586,7 +1603,7 @@
       },
       {
         "date": "2026-05-15",
-        "peak_mw": 310
+        "peak_mw": 341
       }
     ],
     "monthly_max_peak_mw": [

@@ -50,3 +50,8 @@
 {"id": 62230, "ts": "2026-05-15T12:39:39+00:00", "type": "daf", "has_photo": false}
 {"id": 62231, "ts": "2026-05-15T12:53:43+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 6, "minutes_off": 46}, {"bloque": 2, "hours_off": 3, "minutes_off": 23}, {"bloque": 5, "hours_off": 2, "minutes_off": 25}], "total_mw": 90}
 {"id": 62232, "ts": "2026-05-15T13:11:18+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62233, "ts": "2026-05-15T13:32:46+00:00", "type": "sen_update", "has_photo": true}
+{"id": 62234, "ts": "2026-05-15T13:32:47+00:00", "type": "nota_diaria", "has_photo": true, "interruption_minutes": 1440, "max_affected_mw": 341, "max_affected_clock": "23:00", "emergency_mw": 105, "closing_affected_mw": 138, "closing_affected_blocks": 3}
+{"id": 62235, "ts": "2026-05-15T13:35:34+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": Debeche", "severity": "primaria"}]}
+{"id": 62236, "ts": "2026-05-15T13:36:09+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 3, "emergency": true}
+{"id": 62237, "ts": "2026-05-15T13:40:12+00:00", "type": "corto", "has_photo": true}
