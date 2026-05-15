@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T00:38:56+00:00",
+  "generated_at": "2026-05-15T00:54:24+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T00:13:25+00:00",
+    "as_of": "2026-05-15T00:43:17+00:00",
     "bloques": [
       {
         "id": 1,
@@ -174,11 +174,6 @@
         "ts": "2026-05-14T00:51:38+00:00",
         "municipio": "San Miguel Del Padrón",
         "direccion": "la siguiente dirección: 112 / 199 y 203 (Residencial San Miguel) 🛑 🚧"
-      },
-      {
-        "ts": "2026-05-14T00:34:30+00:00",
-        "municipio": "Cerro",
-        "direccion": "la siguiente dirección: Primelles y Final, se detectó una AVERÍA por PRIMARIO PARTIDO"
       }
     ],
     "last_daf": {
@@ -420,7 +415,7 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 22,
-    "source_msg_count": 112,
+    "source_msg_count": 113,
     "by_type_counts": {
       "averias": 19,
       "restablecimiento": 26,
@@ -433,7 +428,7 @@
       "corto": 5,
       "nota_diaria": 1,
       "pinned": 2,
-      "disparo_circuito": 10,
+      "disparo_circuito": 11,
       "mantenimiento": 3,
       "via_libre": 1
     }

@@ -33,7 +33,7 @@
     "Plaza De La Revolución": 1
   },
   "averias_total": 22,
-  "source_msg_count": 112,
+  "source_msg_count": 113,
   "by_type_counts": {
     "averias": 19,
     "restablecimiento": 26,
@@ -46,7 +46,7 @@
     "corto": 5,
     "nota_diaria": 1,
     "pinned": 2,
-    "disparo_circuito": 10,
+    "disparo_circuito": 11,
     "mantenimiento": 3,
     "via_libre": 1
   }

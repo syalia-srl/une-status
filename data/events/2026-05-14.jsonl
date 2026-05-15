@@ -110,3 +110,4 @@
 {"id": 62159, "ts": "2026-05-15T00:09:17+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "164 entre 69 y 81, Alturas de la Lisa 🚨", "severity": "secundaria"}]}
 {"id": 62160, "ts": "2026-05-15T00:10:23+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62161, "ts": "2026-05-15T00:13:25+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}
+{"id": 62162, "ts": "2026-05-15T00:43:17+00:00", "type": "disparo_circuito", "has_photo": false}
