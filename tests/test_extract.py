@@ -33,7 +33,7 @@ def test_classifier_coverage():
         text_count += 1
         counts[classify(m["text"])] += 1
     otro_pct = counts.get("otro", 0) * 100 / text_count
-    assert otro_pct < 20, f"too much in 'otro': {otro_pct:.1f}%"
+    assert otro_pct < 8, f"too much in 'otro': {otro_pct:.1f}%"
 
 
 def test_actualizacion_bloques_extracts_blocks():
@@ -78,6 +78,14 @@ def test_classify_known_strings():
         ("Con servicio la AVERÍA por PRIMARIO PARTIDO en el Circuito 47", "restablecimiento"),
         # gap-3: generic "afectados por avería"
         ("Se encuentran afectados clientes por una avería por PUENTE PARTIDO en el circuito 47", "averias"),
+        # gap-4: "DISPARO de CIRCUITO" (without "del" article) — dominant variant since 2026-05
+        ("Consumidores del municipio Habana del Este, por DISPARO de CIRCUITO se afecta el servicio eléctrico en Colina Villa Real.", "disparo_circuito"),
+        # gap-5: plural "Consumidores de los municipios" preamble
+        ("Consumidores de los municipios Boyeros y Lisa, por disparo del circuito se afecta el servicio eléctrico en el Morado, Valle Grande.", "disparo_circuito"),
+        # gap-6: "disparo en la Subestación" — substation trip
+        ("Consumidores del municipio Habana del Este, por disparo en la Subestación Guanabo, se afecta el servicio eléctrico en los repartos: Rincón Guanabo.", "disparo_circuito"),
+        # gap-7: "transferida temporalmente la carga al Bloque" — non-pinned form
+        ("Informamos a los consumidores del municipio Lisa asociados al Bloque 5, que se encuentra transferida temporalmente la carga al Bloque 6 de los siguientes cuadrantes.", "transferencia_bloque"),
     ]
     for text, expected in cases:
         got = classify(text)

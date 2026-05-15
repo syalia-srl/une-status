@@ -43,11 +43,22 @@ RE_AVERIA_REPAIR = re.compile(
     re.IGNORECASE,
 )
 RE_DISPARO_CIRCUITO = re.compile(
-    r"(?:consumidores del municipio|municipio:?)\s.*?(?:disparo del circuito|circuito disparado|disparados? por)",
+    r"(?:consumidores\s+de(?:l|\s+los)\s+municipios?|municipio:?)\s.*?(?:disparo\s+de[l]?\s+circuitos?|circuito\s+disparado|disparados?\s+por)",
     re.IGNORECASE | re.DOTALL,
 )
 RE_DISPARO_CIRCUITO_SIMPLE = re.compile(
     r"\bdisparado el circuito\b",
+    re.IGNORECASE,
+)
+# "DISPARO de CIRCUITO" / "DISPARO del CIRCUITO" phrase without requiring municipio preamble;
+# catches messages where the phrase appears in any position.
+RE_DISPARO_CIRCUITO_GENERIC = re.compile(
+    r"\bdisparo\s+de[l]?\s+circuitos?\b",
+    re.IGNORECASE,
+)
+# "disparo en la Subestación" — substation trip, treated as circuit-level event.
+RE_DISPARO_SUBESTACION = re.compile(
+    r"\bdisparo en la subestaci[oó]n\b",
     re.IGNORECASE,
 )
 RE_TRABAJOS_OPERATIVOS = re.compile(
@@ -57,7 +68,10 @@ RE_SEN_UPDATE = re.compile(
     r"actualizaci[oó]n del sistema electroenerg[eé]tico nacional", re.IGNORECASE,
 )
 RE_TRANSFERIDOS_BLOQUE = re.compile(
-    r"se han transferido temporalmente al bloque", re.IGNORECASE,
+    r"se han transferido temporalmente al bloque"
+    r"|transferid[ao]\s+temporalmente\s+la\s+carga\s+al\s+bloque"
+    r"|se\s+transfiere\s+temporalmente\s+la\s+carga\s+al\s+bloque",
+    re.IGNORECASE,
 )
 RE_PINNED = re.compile(r"pinned\s+«", re.IGNORECASE)
 RE_VIA_LIBRE = re.compile(r"v[íi]a libre", re.IGNORECASE)
@@ -126,7 +140,12 @@ def classify(text: str) -> str:
         return "averias"
 
     # Municipio + disparo del circuito (or simpler "disparado el circuito" phrase)
-    if RE_DISPARO_CIRCUITO.search(tl) or RE_DISPARO_CIRCUITO_SIMPLE.search(tl):
+    if (
+        RE_DISPARO_CIRCUITO.search(tl)
+        or RE_DISPARO_CIRCUITO_SIMPLE.search(tl)
+        or RE_DISPARO_CIRCUITO_GENERIC.search(tl)
+        or RE_DISPARO_SUBESTACION.search(tl)
+    ):
         return "disparo_circuito"
 
     # Via libre / fin afectación
