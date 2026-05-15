@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T20:57:23+00:00",
+  "generated_at": "2026-05-15T21:00:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-15T20:54:30+00:00",
+    "as_of": "2026-05-15T20:57:37+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,14 +41,8 @@
     "current_mw_affected": 175,
     "current_mw_affected_at": "2026-05-15T20:29:12+00:00",
     "active_averias": {
-      "ts": "2026-05-15T20:47:56+00:00",
-      "averias": [
-        {
-          "municipio": "Guanabacoa",
-          "direccion": ": E / 3ra y 5ta, Reparto Mañana",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-05-15T20:57:37+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -433,14 +427,14 @@
       "Marianao": 1
     },
     "averias_total": 21,
-    "source_msg_count": 98,
+    "source_msg_count": 99,
     "by_type_counts": {
       "daf": 10,
       "restablecimiento_daf": 8,
       "restablecimiento": 21,
       "actualizacion_bloques": 15,
       "via_libre": 2,
-      "averias": 21,
+      "averias": 22,
       "disparo_circuito": 8,
       "otro": 2,
       "inicio_afectacion": 6,
