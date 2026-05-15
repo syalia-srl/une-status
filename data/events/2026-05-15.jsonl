@@ -80,3 +80,5 @@
 {"id": 62262, "ts": "2026-05-15T17:07:04+00:00", "type": "via_libre", "has_photo": false}
 {"id": 62263, "ts": "2026-05-15T17:19:18+00:00", "type": "averias", "has_photo": false}
 {"id": 62264, "ts": "2026-05-15T17:38:10+00:00", "type": "transferencia_bloque", "has_photo": false}
+{"id": 62265, "ts": "2026-05-15T17:40:23+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": ": 78 A y 19 A, Guiteras", "severity": "secundaria"}]}
+{"id": 62266, "ts": "2026-05-15T17:41:25+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": Carretera Vieja de Guanabacoa y Línea del Ferrocarril , Reparto Valero", "severity": "secundaria"}]}
