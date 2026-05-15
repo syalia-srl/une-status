@@ -97,3 +97,5 @@
 {"id": 62281, "ts": "2026-05-15T20:47:56+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": E / 3ra y 5ta, Reparto Mañana", "severity": "secundaria"}]}
 {"id": 62282, "ts": "2026-05-15T20:54:30+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
 {"id": 62283, "ts": "2026-05-15T20:57:37+00:00", "type": "averias", "has_photo": false}
+{"id": 62284, "ts": "2026-05-15T21:10:11+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 2, "hours_off": 3, "minutes_off": 22}, {"bloque": 5, "hours_off": 2, "minutes_off": 31}], "total_mw": 171}
+{"id": 62285, "ts": "2026-05-15T21:12:13+00:00", "type": "daf", "has_photo": false}

@@ -6,15 +6,15 @@
   "interruption_minutes": 1440,
   "emergency_mw": 105,
   "block_outage_minutes": {
-    "1": 236,
-    "2": 180,
+    "1": 0,
+    "2": 202,
     "3": 0,
     "4": 0,
-    "5": 60,
-    "6": 307
+    "5": 151,
+    "6": 0
   },
-  "total_block_outage_minutes": 783,
-  "daf_count": 10,
+  "total_block_outage_minutes": 353,
+  "daf_count": 11,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -33,12 +33,12 @@
     "Marianao": 1
   },
   "averias_total": 21,
-  "source_msg_count": 99,
+  "source_msg_count": 101,
   "by_type_counts": {
-    "daf": 10,
+    "daf": 11,
     "restablecimiento_daf": 8,
     "restablecimiento": 21,
-    "actualizacion_bloques": 15,
+    "actualizacion_bloques": 16,
     "via_libre": 2,
     "averias": 22,
     "disparo_circuito": 8,
