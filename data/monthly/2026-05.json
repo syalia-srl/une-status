@@ -2,16 +2,16 @@
   "month": "2026-05",
   "finalized": false,
   "dailies_count": 15,
-  "avg_peak_mw": 355.2,
+  "avg_peak_mw": 352.2,
   "max_peak_mw": 499,
   "total_interruption_minutes": 13370,
   "total_block_outage_minutes": {
     "1": 4316,
-    "2": 4294,
-    "3": 4276,
-    "4": 3816,
-    "5": 3453,
-    "6": 4568
+    "2": 4639,
+    "3": 4541,
+    "4": 4056,
+    "5": 3773,
+    "6": 4703
   },
   "total_emergency_mw_sum": 1224,
   "averias_count_by_municipio": {
