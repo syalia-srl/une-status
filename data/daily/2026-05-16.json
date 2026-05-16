@@ -25,12 +25,12 @@
     "Boyeros": 1
   },
   "averias_total": 3,
-  "source_msg_count": 53,
+  "source_msg_count": 54,
   "by_type_counts": {
     "restablecimiento": 14,
     "averias": 5,
     "disparo_circuito": 5,
-    "actualizacion_bloques": 11,
+    "actualizacion_bloques": 12,
     "inicio_afectacion": 10,
     "daf": 2,
     "otro": 1,
