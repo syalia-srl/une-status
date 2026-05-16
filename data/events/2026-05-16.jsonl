@@ -53,3 +53,4 @@
 {"id": 62376, "ts": "2026-05-16T18:27:35+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 5, "minutes_off": 0}, {"bloque": 5, "hours_off": 3, "minutes_off": 0}, {"bloque": 3, "hours_off": 2, "minutes_off": 0}, {"bloque": 4, "hours_off": 1, "minutes_off": 0}, {"bloque": 6, "hours_off": 0, "minutes_off": 0}], "total_mw": 234}
 {"id": 62377, "ts": "2026-05-16T18:56:42+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 5, "minutes_off": 0}, {"bloque": 5, "hours_off": 3, "minutes_off": 0}, {"bloque": 3, "hours_off": 2, "minutes_off": 0}, {"bloque": 4, "hours_off": 1, "minutes_off": 0}, {"bloque": 6, "hours_off": 0, "minutes_off": 0}], "total_mw": 224}
 {"id": 62378, "ts": "2026-05-16T19:36:09+00:00", "type": "otro", "has_photo": false}
+{"id": 62379, "ts": "2026-05-16T19:56:00+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Boyeros"}]}

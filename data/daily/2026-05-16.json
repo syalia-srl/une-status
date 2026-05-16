@@ -20,15 +20,15 @@
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
+    "Boyeros": 2,
     "Arroyo Naranjo": 1,
-    "Plaza": 1,
-    "Boyeros": 1
+    "Plaza": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 55,
+  "averias_total": 4,
+  "source_msg_count": 56,
   "by_type_counts": {
     "restablecimiento": 14,
-    "averias": 5,
+    "averias": 6,
     "disparo_circuito": 5,
     "actualizacion_bloques": 12,
     "inicio_afectacion": 10,
