@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 555,
-  "daf_count": 1,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -24,14 +24,14 @@
     "Plaza": 1
   },
   "averias_total": 2,
-  "source_msg_count": 44,
+  "source_msg_count": 47,
   "by_type_counts": {
     "restablecimiento": 13,
     "averias": 4,
-    "disparo_circuito": 3,
+    "disparo_circuito": 4,
     "actualizacion_bloques": 9,
-    "inicio_afectacion": 8,
-    "daf": 1,
+    "inicio_afectacion": 9,
+    "daf": 2,
     "otro": 1,
     "via_libre": 1,
     "sen_update": 1,
