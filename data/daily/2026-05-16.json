@@ -20,14 +20,15 @@
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 1
+    "Arroyo Naranjo": 1,
+    "Plaza": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 38,
+  "averias_total": 2,
+  "source_msg_count": 40,
   "by_type_counts": {
     "restablecimiento": 12,
     "averias": 4,
-    "disparo_circuito": 2,
+    "disparo_circuito": 3,
     "actualizacion_bloques": 7,
     "inicio_afectacion": 7,
     "daf": 1,
@@ -35,6 +36,6 @@
     "via_libre": 1,
     "sen_update": 1,
     "nota_diaria": 1,
-    "mantenimiento": 1
+    "mantenimiento": 2
   }
 }
