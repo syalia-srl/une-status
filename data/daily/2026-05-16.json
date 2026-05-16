@@ -23,13 +23,14 @@
     "Arroyo Naranjo": 1
   },
   "averias_total": 1,
-  "source_msg_count": 22,
+  "source_msg_count": 23,
   "by_type_counts": {
     "restablecimiento": 10,
     "averias": 3,
     "disparo_circuito": 2,
     "actualizacion_bloques": 3,
     "inicio_afectacion": 3,
-    "daf": 1
+    "daf": 1,
+    "otro": 1
   }
 }

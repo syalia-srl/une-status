@@ -20,3 +20,4 @@
 {"id": 62343, "ts": "2026-05-16T10:07:32+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 5, "hours_off": 4, "minutes_off": 46}, {"bloque": 3, "hours_off": 2, "minutes_off": 25}, {"bloque": 4, "hours_off": 0, "minutes_off": 0}], "total_mw": 211}
 {"id": 62344, "ts": "2026-05-16T10:17:13+00:00", "type": "averias", "has_photo": false}
 {"id": 62345, "ts": "2026-05-16T10:30:38+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 62346, "ts": "2026-05-16T10:43:30+00:00", "type": "otro", "has_photo": false}
