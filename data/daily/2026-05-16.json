@@ -24,9 +24,9 @@
     "Plaza": 1
   },
   "averias_total": 2,
-  "source_msg_count": 48,
+  "source_msg_count": 49,
   "by_type_counts": {
-    "restablecimiento": 13,
+    "restablecimiento": 14,
     "averias": 4,
     "disparo_circuito": 4,
     "actualizacion_bloques": 10,
