@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T23:34:44+00:00",
+  "generated_at": "2026-05-16T23:50:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-16T23:31:02+00:00",
+    "as_of": "2026-05-16T23:45:05+00:00",
     "bloques": [
       {
         "id": 1,
@@ -102,7 +102,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-16T22:06:41+00:00",
+      "ts": "2026-05-16T23:45:05+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -321,7 +321,7 @@
       "6": 300
     },
     "total_block_outage_minutes": 2340,
-    "daf_count": 4,
+    "daf_count": 5,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -333,19 +333,19 @@
       "Habana Del Este": 1
     },
     "averias_total": 5,
-    "source_msg_count": 65,
+    "source_msg_count": 68,
     "by_type_counts": {
-      "restablecimiento": 14,
+      "restablecimiento": 15,
       "averias": 7,
       "disparo_circuito": 5,
       "actualizacion_bloques": 15,
       "inicio_afectacion": 12,
-      "daf": 4,
+      "daf": 5,
       "otro": 3,
       "via_libre": 1,
       "sen_update": 1,
       "nota_diaria": 1,
-      "mantenimiento": 2
+      "mantenimiento": 3
     }
   },
   "yesterday": {
@@ -436,7 +436,7 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 99,
-    "daf_total": 76,
+    "daf_total": 77,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -484,7 +484,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 207,
-    "daf_total": 137,
+    "daf_total": 138,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -522,7 +522,7 @@
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2286,
+    "daf_total": 2287,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1879,8 +1879,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2286,
-    "daf_last_30d": 226,
+    "daf_total": 2287,
+    "daf_last_30d": 227,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
