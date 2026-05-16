@@ -18,7 +18,7 @@
     "Habana Del Este": 31,
     "Lisa": 23,
     "Arroyo Naranjo": 21,
-    "Guanabacoa": 19,
+    "Guanabacoa": 20,
     "San Miguel Del Padrón": 17,
     "Boyeros": 15,
     "Plaza": 14,
@@ -36,7 +36,7 @@
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
     "Cerro Y Centro Habana": 1
   },
-  "averias_total": 198,
+  "averias_total": 199,
   "daf_total": 133,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
