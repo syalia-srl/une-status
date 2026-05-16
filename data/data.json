@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T17:40:32+00:00",
+  "generated_at": "2026-05-16T17:53:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-16T17:21:08+00:00",
+    "as_of": "2026-05-16T17:52:55+00:00",
     "bloques": [
       {
         "id": 1,
@@ -36,17 +36,26 @@
       },
       {
         "id": 6,
-        "state": "encendido",
-        "since": "2026-05-16T16:04:08+00:00"
+        "state": "apagado",
+        "since": "2026-05-16T17:46:03+00:00",
+        "emergency": true
       }
     ],
     "current_mw_affected": 232,
     "current_mw_affected_at": "2026-05-16T16:59:30+00:00",
     "active_averias": {
-      "ts": "2026-05-16T13:36:49+00:00",
-      "averias": []
+      "ts": "2026-05-16T17:43:40+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-16T17:43:40+00:00",
+        "municipio": "Boyeros"
+      },
       {
         "ts": "2026-05-16T15:34:23+00:00",
         "municipio": "Plaza",
@@ -121,18 +130,6 @@
         "ts": "2026-05-15T18:10:33+00:00",
         "municipio": "Boyeros",
         "severity": "primaria"
-      },
-      {
-        "ts": "2026-05-15T17:41:25+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": ": Carretera Vieja de Guanabacoa y Línea del Ferrocarril , Reparto Valero",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-15T17:40:23+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": ": 78 A y 19 A, Guiteras",
-        "severity": "secundaria"
       }
     ],
     "last_daf": {
@@ -362,16 +359,17 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Boyeros": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 49,
+    "averias_total": 3,
+    "source_msg_count": 52,
     "by_type_counts": {
       "restablecimiento": 14,
-      "averias": 4,
-      "disparo_circuito": 4,
+      "averias": 5,
+      "disparo_circuito": 5,
       "actualizacion_bloques": 10,
-      "inicio_afectacion": 9,
+      "inicio_afectacion": 10,
       "daf": 2,
       "otro": 1,
       "via_libre": 1,
@@ -452,7 +450,7 @@
       "Guanabacoa": 14,
       "Habana Del Este": 12,
       "Arroyo Naranjo": 11,
-      "Boyeros": 10,
+      "Boyeros": 11,
       "Lisa": 9,
       "San Miguel Del Padrón": 7,
       "Cerro": 7,
@@ -467,7 +465,7 @@
       "Cerro Y Centro Habana": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 96,
+    "averias_total": 97,
     "daf_total": 74,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -499,8 +497,8 @@
       "Arroyo Naranjo": 22,
       "Guanabacoa": 22,
       "San Miguel Del Padrón": 17,
+      "Boyeros": 16,
       "Plaza": 15,
-      "Boyeros": 15,
       "Cerro": 12,
       "Playa": 12,
       "Marianao": 8,
@@ -515,7 +513,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 204,
+    "averias_total": 205,
     "daf_total": 135,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -536,9 +534,9 @@
       "5": 53744,
       "6": 55092
     },
-    "averias_total": 3145,
+    "averias_total": 3146,
     "averias_top_municipios": {
-      "Boyeros": 323,
+      "Boyeros": 324,
       "Playa": 278,
       "Arroyo Naranjo": 244,
       "Lisa": 225,
