@@ -23,9 +23,9 @@
     "Arroyo Naranjo": 1
   },
   "averias_total": 1,
-  "source_msg_count": 9,
+  "source_msg_count": 10,
   "by_type_counts": {
-    "restablecimiento": 4,
+    "restablecimiento": 5,
     "averias": 2,
     "disparo_circuito": 1,
     "actualizacion_bloques": 1,

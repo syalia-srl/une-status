@@ -7,3 +7,4 @@
 {"id": 62330, "ts": "2026-05-16T05:18:13+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
 {"id": 62331, "ts": "2026-05-16T05:48:32+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
 {"id": 62332, "ts": "2026-05-16T05:54:26+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": Esperanza y Woodbury, Callejas", "severity": "secundaria"}]}
+{"id": 62333, "ts": "2026-05-16T06:15:28+00:00", "type": "restablecimiento", "has_photo": false}

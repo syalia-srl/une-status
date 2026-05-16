@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T06:02:12+00:00",
+  "generated_at": "2026-05-16T06:17:24+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-16T05:54:26+00:00",
+    "as_of": "2026-05-16T06:15:28+00:00",
     "bloques": [
       {
         "id": 1,
@@ -438,9 +438,9 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 9,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "restablecimiento": 4,
+      "restablecimiento": 5,
       "averias": 2,
       "disparo_circuito": 1,
       "actualizacion_bloques": 1,
