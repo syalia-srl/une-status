@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T06:48:24+00:00",
+  "generated_at": "2026-05-16T07:03:44+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-16T06:15:28+00:00",
+    "as_of": "2026-05-16T06:56:23+00:00",
     "bloques": [
       {
         "id": 1,
@@ -39,8 +39,8 @@
         "since": "2026-05-16T05:48:32+00:00"
       }
     ],
-    "current_mw_affected": 245,
-    "current_mw_affected_at": "2026-05-16T04:56:03+00:00",
+    "current_mw_affected": 218,
+    "current_mw_affected_at": "2026-05-16T06:56:23+00:00",
     "active_averias": {
       "ts": "2026-05-16T05:54:26+00:00",
       "averias": [
@@ -210,7 +210,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-15T21:12:13+00:00",
+      "ts": "2026-05-16T06:51:22+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -421,15 +421,15 @@
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 243,
-      "2": 120,
-      "3": 420,
-      "4": 339,
-      "5": 0,
-      "6": 282
+      "1": 363,
+      "2": 240,
+      "3": 0,
+      "4": 0,
+      "5": 60,
+      "6": 402
     },
-    "total_block_outage_minutes": 1404,
-    "daf_count": 0,
+    "total_block_outage_minutes": 1065,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -438,13 +438,14 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 10,
+    "source_msg_count": 13,
     "by_type_counts": {
       "restablecimiento": 5,
       "averias": 2,
       "disparo_circuito": 1,
-      "actualizacion_bloques": 1,
-      "inicio_afectacion": 1
+      "actualizacion_bloques": 2,
+      "inicio_afectacion": 2,
+      "daf": 1
     }
   },
   "yesterday": {
@@ -507,12 +508,12 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 8080,
     "total_block_outage_minutes": {
-      "1": 2735,
-      "2": 2205,
-      "3": 2792,
-      "4": 3024,
-      "5": 1747,
-      "6": 3185
+      "1": 2855,
+      "2": 2325,
+      "3": 2372,
+      "4": 2685,
+      "5": 1807,
+      "6": 3305
     },
     "total_emergency_mw_sum": 727,
     "averias_count_by_municipio": {
@@ -535,7 +536,7 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 95,
-    "daf_total": 72,
+    "daf_total": 73,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -552,12 +553,12 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 14810,
     "total_block_outage_minutes": {
-      "1": 4742,
-      "2": 4474,
-      "3": 5056,
-      "4": 4434,
-      "5": 3453,
-      "6": 5072
+      "1": 4862,
+      "2": 4594,
+      "3": 4636,
+      "4": 4095,
+      "5": 3513,
+      "6": 5192
     },
     "total_emergency_mw_sum": 1329,
     "averias_count_by_municipio": {
@@ -583,7 +584,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 203,
-    "daf_total": 133,
+    "daf_total": 134,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -596,12 +597,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 56890,
     "total_block_outage_minutes": {
-      "1": 59236,
-      "2": 62553,
-      "3": 50780,
-      "4": 56666,
-      "5": 53624,
-      "6": 55374
+      "1": 59356,
+      "2": 62673,
+      "3": 50360,
+      "4": 56327,
+      "5": 53684,
+      "6": 55494
     },
     "averias_total": 3144,
     "averias_top_municipios": {
@@ -621,7 +622,7 @@
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2282,
+    "daf_total": 2283,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -877,7 +878,7 @@
       },
       {
         "date": "2026-05-16",
-        "minutes": 1404
+        "minutes": 1065
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1971,15 +1972,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 27231
+        "minutes": 26892
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2282,
-    "daf_last_30d": 222,
+    "daf_total": 2283,
+    "daf_last_30d": 223,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

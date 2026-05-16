@@ -8,3 +8,6 @@
 {"id": 62331, "ts": "2026-05-16T05:48:32+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
 {"id": 62332, "ts": "2026-05-16T05:54:26+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": Esperanza y Woodbury, Callejas", "severity": "secundaria"}]}
 {"id": 62333, "ts": "2026-05-16T06:15:28+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62334, "ts": "2026-05-16T06:50:11+00:00", "type": "inicio_afectacion", "has_photo": false, "emergency": true}
+{"id": 62335, "ts": "2026-05-16T06:51:22+00:00", "type": "daf", "has_photo": false}
+{"id": 62336, "ts": "2026-05-16T06:56:23+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 6, "minutes_off": 42}, {"bloque": 1, "hours_off": 6, "minutes_off": 3}, {"bloque": 2, "hours_off": 4, "minutes_off": 0}, {"bloque": 5, "hours_off": 1, "minutes_off": 0}], "total_mw": 218}
