@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T05:15:22+00:00",
+  "generated_at": "2026-05-16T05:31:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-16T04:58:20+00:00",
+    "as_of": "2026-05-16T05:18:13+00:00",
     "bloques": [
       {
         "id": 1,
@@ -25,7 +25,7 @@
       {
         "id": 4,
         "state": "encendido",
-        "since": "2026-05-15T18:49:24+00:00"
+        "since": "2026-05-16T05:18:13+00:00"
       },
       {
         "id": 5,
@@ -194,12 +194,6 @@
         "ts": "2026-05-15T07:08:57+00:00",
         "municipio": "Arroyo Naranjo",
         "direccion": "Calzada de Bejucal y Güinera 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-15T05:12:43+00:00",
-        "municipio": "Boyeros",
-        "direccion": "Carretera de Santiago a Rincón, reparto la Incubadora 🚨",
         "severity": "secundaria"
       }
     ],
@@ -430,9 +424,9 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 6,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 2,
+      "restablecimiento": 3,
       "averias": 1,
       "disparo_circuito": 1,
       "actualizacion_bloques": 1,
