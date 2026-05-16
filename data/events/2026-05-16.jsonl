@@ -58,3 +58,4 @@
 {"id": 62381, "ts": "2026-05-16T20:23:32+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este"}]}
 {"id": 62382, "ts": "2026-05-16T21:01:39+00:00", "type": "daf", "has_photo": false}
 {"id": 62383, "ts": "2026-05-16T21:10:43+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 8, "minutes_off": 0}, {"bloque": 5, "hours_off": 6, "minutes_off": 0}, {"bloque": 3, "hours_off": 5, "minutes_off": 0}, {"bloque": 4, "hours_off": 4, "minutes_off": 0}, {"bloque": 6, "hours_off": 3, "minutes_off": 0}, {"bloque": 2, "hours_off": 1, "minutes_off": 0}], "total_mw": 274}
+{"id": 62384, "ts": "2026-05-16T21:15:57+00:00", "type": "inicio_afectacion", "has_photo": false, "emergency": true}

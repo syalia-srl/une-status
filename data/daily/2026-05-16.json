@@ -26,13 +26,13 @@
     "Habana Del Este": 1
   },
   "averias_total": 5,
-  "source_msg_count": 60,
+  "source_msg_count": 61,
   "by_type_counts": {
     "restablecimiento": 14,
     "averias": 7,
     "disparo_circuito": 5,
     "actualizacion_bloques": 13,
-    "inicio_afectacion": 11,
+    "inicio_afectacion": 12,
     "daf": 3,
     "otro": 2,
     "via_libre": 1,
