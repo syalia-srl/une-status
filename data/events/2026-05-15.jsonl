@@ -119,3 +119,7 @@
 {"id": 62303, "ts": "2026-05-16T00:22:27+00:00", "type": "sen_update", "has_photo": true}
 {"id": 62304, "ts": "2026-05-16T00:43:59+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": 2da / 28 y Final, Chivas", "severity": "secundaria"}]}
 {"id": 62305, "ts": "2026-05-16T01:10:05+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 3, "minutes_off": 23}, {"bloque": 4, "hours_off": 2, "minutes_off": 0}, {"bloque": 6, "hours_off": 1, "minutes_off": 0}, {"bloque": 1, "hours_off": 0, "minutes_off": 50}], "total_mw": 247}
+{"id": 62306, "ts": "2026-05-16T01:48:48+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 4, "minutes_off": 0}, {"bloque": 4, "hours_off": 2, "minutes_off": 39}, {"bloque": 6, "hours_off": 1, "minutes_off": 42}, {"bloque": 1, "hours_off": 1, "minutes_off": 3}], "total_mw": 247}
+{"id": 62307, "ts": "2026-05-16T01:50:58+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62308, "ts": "2026-05-16T01:51:59+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62309, "ts": "2026-05-16T01:53:23+00:00", "type": "restablecimiento", "has_photo": false}
