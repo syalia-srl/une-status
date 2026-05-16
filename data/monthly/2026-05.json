@@ -8,10 +8,10 @@
   "total_block_outage_minutes": {
     "1": 4499,
     "2": 4354,
-    "3": 4781,
-    "4": 4095,
-    "5": 3739,
-    "6": 4790
+    "3": 4880,
+    "4": 4177,
+    "5": 3817,
+    "6": 4837
   },
   "total_emergency_mw_sum": 1329,
   "averias_count_by_municipio": {

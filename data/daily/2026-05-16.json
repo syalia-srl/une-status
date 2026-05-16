@@ -8,12 +8,12 @@
   "block_outage_minutes": {
     "1": 0,
     "2": 0,
-    "3": 145,
-    "4": 0,
-    "5": 286,
-    "6": 0
+    "3": 244,
+    "4": 82,
+    "5": 364,
+    "6": 47
   },
-  "total_block_outage_minutes": 431,
+  "total_block_outage_minutes": 737,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,13 +23,13 @@
     "Arroyo Naranjo": 1
   },
   "averias_total": 1,
-  "source_msg_count": 23,
+  "source_msg_count": 25,
   "by_type_counts": {
     "restablecimiento": 10,
     "averias": 3,
     "disparo_circuito": 2,
-    "actualizacion_bloques": 3,
-    "inicio_afectacion": 3,
+    "actualizacion_bloques": 4,
+    "inicio_afectacion": 4,
     "daf": 1,
     "otro": 1
   }
