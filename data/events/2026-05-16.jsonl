@@ -27,3 +27,5 @@
 {"id": 62350, "ts": "2026-05-16T12:00:24+00:00", "type": "via_libre", "has_photo": false}
 {"id": 62351, "ts": "2026-05-16T12:00:52+00:00", "type": "sen_update", "has_photo": true}
 {"id": 62352, "ts": "2026-05-16T12:11:12+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
+{"id": 62353, "ts": "2026-05-16T12:14:29+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62354, "ts": "2026-05-16T12:27:34+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 5, "minutes_off": 0}, {"bloque": 4, "hours_off": 2, "minutes_off": 0}, {"bloque": 6, "hours_off": 1, "minutes_off": 0}, {"bloque": 2, "hours_off": 0, "minutes_off": 0}], "total_mw": 209}
