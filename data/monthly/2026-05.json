@@ -6,12 +6,12 @@
   "max_peak_mw": 499,
   "total_interruption_minutes": 16250,
   "total_block_outage_minutes": {
-    "1": 4979,
-    "2": 4414,
-    "3": 4936,
-    "4": 4335,
-    "5": 3813,
-    "6": 4970
+    "1": 5039,
+    "2": 4474,
+    "3": 4996,
+    "4": 4395,
+    "5": 3873,
+    "6": 5030
   },
   "total_emergency_mw_sum": 1410,
   "averias_count_by_municipio": {
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1
   },
   "averias_total": 207,
-  "daf_total": 136,
+  "daf_total": 137,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
