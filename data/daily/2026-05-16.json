@@ -25,7 +25,7 @@
     "Boyeros": 1
   },
   "averias_total": 3,
-  "source_msg_count": 54,
+  "source_msg_count": 55,
   "by_type_counts": {
     "restablecimiento": 14,
     "averias": 5,
@@ -33,7 +33,7 @@
     "actualizacion_bloques": 12,
     "inicio_afectacion": 10,
     "daf": 2,
-    "otro": 1,
+    "otro": 2,
     "via_libre": 1,
     "sen_update": 1,
     "nota_diaria": 1,
