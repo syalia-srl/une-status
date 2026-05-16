@@ -25,13 +25,13 @@
     "Plaza": 1
   },
   "averias_total": 4,
-  "source_msg_count": 56,
+  "source_msg_count": 57,
   "by_type_counts": {
     "restablecimiento": 14,
     "averias": 6,
     "disparo_circuito": 5,
     "actualizacion_bloques": 12,
-    "inicio_afectacion": 10,
+    "inicio_afectacion": 11,
     "daf": 2,
     "otro": 2,
     "via_libre": 1,
