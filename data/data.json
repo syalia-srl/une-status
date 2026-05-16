@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T09:07:24+00:00",
+  "generated_at": "2026-05-16T09:22:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-16T07:09:09+00:00",
+    "as_of": "2026-05-16T09:12:43+00:00",
     "bloques": [
       {
         "id": 1,
@@ -176,28 +176,6 @@
       },
       {
         "ts": "2026-05-15T09:43:57+00:00",
-        "municipio": "Plaza",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-15T08:43:53+00:00",
-        "municipio": "Lisa",
-        "direccion": "las calles 208 entre 51 y 59, Balcón Arimao 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-15T07:56:19+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las calles Estela entre Justo y Carlos, Párraga 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-15T07:47:40+00:00",
-        "municipio": "Cotorro",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-15T07:43:31+00:00",
         "municipio": "Plaza",
         "kind": "disparo_circuito"
       }
@@ -431,9 +409,9 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 14,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "restablecimiento": 6,
+      "restablecimiento": 9,
       "averias": 2,
       "disparo_circuito": 1,
       "actualizacion_bloques": 2,
