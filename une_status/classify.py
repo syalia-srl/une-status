@@ -85,6 +85,7 @@ def classify(text: str) -> str:
     """Return a short type tag for a raw message text."""
     if not text:
         return "empty"
+    text = re.sub(r'(\w)\n(\w)', r'\1\2', text)
     t = " ".join(text.split())
     tl = t.lower()
 

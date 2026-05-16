@@ -86,6 +86,10 @@ def test_classify_known_strings():
         ("Consumidores del municipio Habana del Este, por disparo en la Subestación Guanabo, se afecta el servicio eléctrico en los repartos: Rincón Guanabo.", "disparo_circuito"),
         # gap-7: "transferida temporalmente la carga al Bloque" — non-pinned form
         ("Informamos a los consumidores del municipio Lisa asociados al Bloque 5, que se encuentra transferida temporalmente la carga al Bloque 6 de los siguientes cuadrantes.", "transferencia_bloque"),
+        # bare-newline split: "B\nloque" → "Bloque" after re.sub
+        ("Informamos a los clientes asociados al B\nloque no.5 que inicia la afectación", "inicio_afectacion"),
+        # bare-newline split: "d\nisparo" → "disparo" after re.sub
+        ("Consumidores del municipio Arroyo Naranjo, por d\nisparo del circuito se afecta el servicio", "disparo_circuito"),
     ]
     for text, expected in cases:
         got = classify(text)
