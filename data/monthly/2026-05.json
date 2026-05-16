@@ -1,7 +1,7 @@
 {
   "month": "2026-05",
-  "finalized": true,
-  "dailies_count": 15,
+  "finalized": false,
+  "dailies_count": 16,
   "avg_peak_mw": 354.3,
   "max_peak_mw": 499,
   "total_interruption_minutes": 14810,
