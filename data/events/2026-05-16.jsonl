@@ -29,3 +29,5 @@
 {"id": 62352, "ts": "2026-05-16T12:11:12+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
 {"id": 62353, "ts": "2026-05-16T12:14:29+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62354, "ts": "2026-05-16T12:27:34+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 5, "minutes_off": 0}, {"bloque": 4, "hours_off": 2, "minutes_off": 0}, {"bloque": 6, "hours_off": 1, "minutes_off": 0}, {"bloque": 2, "hours_off": 0, "minutes_off": 0}], "total_mw": 209}
+{"id": 62355, "ts": "2026-05-16T12:30:09+00:00", "type": "nota_diaria", "has_photo": true, "interruption_minutes": 1440, "max_affected_mw": 251, "max_affected_clock": "22:00", "emergency_mw": 81, "closing_affected_mw": 245, "closing_affected_blocks": 4}
+{"id": 62356, "ts": "2026-05-16T12:39:19+00:00", "type": "mantenimiento", "has_photo": false}
