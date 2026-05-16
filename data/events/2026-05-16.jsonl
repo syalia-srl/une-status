@@ -11,3 +11,4 @@
 {"id": 62334, "ts": "2026-05-16T06:50:11+00:00", "type": "inicio_afectacion", "has_photo": false, "emergency": true}
 {"id": 62335, "ts": "2026-05-16T06:51:22+00:00", "type": "daf", "has_photo": false}
 {"id": 62336, "ts": "2026-05-16T06:56:23+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 6, "minutes_off": 42}, {"bloque": 1, "hours_off": 6, "minutes_off": 3}, {"bloque": 2, "hours_off": 4, "minutes_off": 0}, {"bloque": 5, "hours_off": 1, "minutes_off": 0}], "total_mw": 218}
+{"id": 62337, "ts": "2026-05-16T07:09:09+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
