@@ -31,3 +31,5 @@
 {"id": 62354, "ts": "2026-05-16T12:27:34+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 5, "minutes_off": 0}, {"bloque": 4, "hours_off": 2, "minutes_off": 0}, {"bloque": 6, "hours_off": 1, "minutes_off": 0}, {"bloque": 2, "hours_off": 0, "minutes_off": 0}], "total_mw": 209}
 {"id": 62355, "ts": "2026-05-16T12:30:09+00:00", "type": "nota_diaria", "has_photo": true, "interruption_minutes": 1440, "max_affected_mw": 251, "max_affected_clock": "22:00", "emergency_mw": 81, "closing_affected_mw": 245, "closing_affected_blocks": 4}
 {"id": 62356, "ts": "2026-05-16T12:39:19+00:00", "type": "mantenimiento", "has_photo": false}
+{"id": 62357, "ts": "2026-05-16T13:01:04+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 1, "emergency": true}
+{"id": 62358, "ts": "2026-05-16T13:10:25+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 3, "minutes_off": 0}, {"bloque": 6, "hours_off": 2, "minutes_off": 0}, {"bloque": 2, "hours_off": 1, "minutes_off": 0}, {"bloque": 1, "hours_off": 0, "minutes_off": 0}], "total_mw": 161}
