@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T10:14:54+00:00",
+  "generated_at": "2026-05-16T10:24:52+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-16T10:07:32+00:00",
+    "as_of": "2026-05-16T10:17:13+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,14 +41,8 @@
     "current_mw_affected": 211,
     "current_mw_affected_at": "2026-05-16T10:07:32+00:00",
     "active_averias": {
-      "ts": "2026-05-16T05:54:26+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": ": Esperanza y Woodbury, Callejas",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-05-16T10:17:13+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -398,10 +392,10 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 20,
+    "source_msg_count": 21,
     "by_type_counts": {
       "restablecimiento": 10,
-      "averias": 2,
+      "averias": 3,
       "disparo_circuito": 1,
       "actualizacion_bloques": 3,
       "inicio_afectacion": 3,
