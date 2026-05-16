@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T09:53:52+00:00",
+  "generated_at": "2026-05-16T10:09:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-16T09:24:48+00:00",
+    "as_of": "2026-05-16T10:07:32+00:00",
     "bloques": [
       {
         "id": 1,
@@ -22,8 +22,9 @@
       },
       {
         "id": 4,
-        "state": "encendido",
-        "since": "2026-05-16T05:18:13+00:00"
+        "state": "apagado",
+        "since": "2026-05-16T10:05:05+00:00",
+        "emergency": true
       },
       {
         "id": 5,
@@ -37,8 +38,8 @@
         "since": "2026-05-16T05:48:32+00:00"
       }
     ],
-    "current_mw_affected": 218,
-    "current_mw_affected_at": "2026-05-16T06:56:23+00:00",
+    "current_mw_affected": 211,
+    "current_mw_affected_at": "2026-05-16T10:07:32+00:00",
     "active_averias": {
       "ts": "2026-05-16T05:54:26+00:00",
       "averias": [
@@ -166,17 +167,6 @@
         "municipio": "Habana Del Este",
         "direccion": "las calles: 20 entre 17A y 19A 🚨",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-15T09:53:39+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "las calles: 17 entre 6ta y 2da, Guiteras 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-15T09:43:57+00:00",
-        "municipio": "Plaza",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -391,14 +381,14 @@
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 363,
-      "2": 240,
-      "3": 0,
+      "1": 0,
+      "2": 0,
+      "3": 145,
       "4": 0,
-      "5": 60,
-      "6": 402
+      "5": 286,
+      "6": 0
     },
-    "total_block_outage_minutes": 1065,
+    "total_block_outage_minutes": 431,
     "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -408,13 +398,13 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 18,
+    "source_msg_count": 20,
     "by_type_counts": {
       "restablecimiento": 10,
       "averias": 2,
       "disparo_circuito": 1,
-      "actualizacion_bloques": 2,
-      "inicio_afectacion": 2,
+      "actualizacion_bloques": 3,
+      "inicio_afectacion": 3,
       "daf": 1
     }
   },
@@ -478,12 +468,12 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 8080,
     "total_block_outage_minutes": {
-      "1": 2855,
-      "2": 2325,
-      "3": 2372,
+      "1": 2492,
+      "2": 2085,
+      "3": 2517,
       "4": 2685,
-      "5": 1807,
-      "6": 3305
+      "5": 2033,
+      "6": 2903
     },
     "total_emergency_mw_sum": 727,
     "averias_count_by_municipio": {
@@ -523,12 +513,12 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 14810,
     "total_block_outage_minutes": {
-      "1": 4862,
-      "2": 4594,
-      "3": 4636,
+      "1": 4499,
+      "2": 4354,
+      "3": 4781,
       "4": 4095,
-      "5": 3513,
-      "6": 5192
+      "5": 3739,
+      "6": 4790
     },
     "total_emergency_mw_sum": 1329,
     "averias_count_by_municipio": {
@@ -567,12 +557,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 56890,
     "total_block_outage_minutes": {
-      "1": 59356,
-      "2": 62673,
-      "3": 50360,
+      "1": 58993,
+      "2": 62433,
+      "3": 50505,
       "4": 56327,
-      "5": 53684,
-      "6": 55494
+      "5": 53910,
+      "6": 55092
     },
     "averias_total": 3144,
     "averias_top_municipios": {
@@ -848,7 +838,7 @@
       },
       {
         "date": "2026-05-16",
-        "minutes": 1065
+        "minutes": 431
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1942,7 +1932,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 26892
+        "minutes": 26258
       }
     ],
     "sen_outage_days_total": 7,
