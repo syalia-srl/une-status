@@ -125,3 +125,5 @@
 {"id": 62309, "ts": "2026-05-16T01:53:23+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62310, "ts": "2026-05-16T01:59:44+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62311, "ts": "2026-05-16T02:08:25+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62313, "ts": "2026-05-16T02:29:47+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Cotorro", "direccion": ": Carretera Alberro , afectando : Alturas de Lotería", "severity": "primaria"}]}
+{"id": 62314, "ts": "2026-05-16T02:31:15+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": Carretera de Casablanca Y Carretera Naval, Casablanca", "severity": "secundaria"}]}
