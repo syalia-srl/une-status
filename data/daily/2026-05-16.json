@@ -6,14 +6,14 @@
   "interruption_minutes": 1440,
   "emergency_mw": 81,
   "block_outage_minutes": {
-    "1": 600,
-    "2": 180,
-    "3": 420,
-    "4": 360,
+    "1": 660,
+    "2": 240,
+    "3": 480,
+    "4": 420,
     "5": 480,
-    "6": 300
+    "6": 360
   },
-  "total_block_outage_minutes": 2340,
+  "total_block_outage_minutes": 2640,
   "daf_count": 6,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -26,12 +26,12 @@
     "Habana Del Este": 1
   },
   "averias_total": 5,
-  "source_msg_count": 69,
+  "source_msg_count": 70,
   "by_type_counts": {
     "restablecimiento": 15,
     "averias": 7,
     "disparo_circuito": 5,
-    "actualizacion_bloques": 15,
+    "actualizacion_bloques": 16,
     "inicio_afectacion": 12,
     "daf": 6,
     "otro": 3,
