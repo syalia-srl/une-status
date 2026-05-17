@@ -22,3 +22,4 @@
 {"id": 62472, "ts": "2026-05-17T18:47:41+00:00", "type": "daf", "has_photo": false}
 {"id": 62473, "ts": "2026-05-17T19:06:39+00:00", "type": "daf", "has_photo": false}
 {"id": 62474, "ts": "2026-05-17T19:14:50+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 3, "emergency": true}
+{"id": 62475, "ts": "2026-05-17T19:52:16+00:00", "type": "daf", "has_photo": false}

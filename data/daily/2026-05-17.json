@@ -14,7 +14,7 @@
     "6": 385
   },
   "total_block_outage_minutes": 1097,
-  "daf_count": 10,
+  "daf_count": 11,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -24,10 +24,10 @@
     "Lisa": 1
   },
   "averias_total": 3,
-  "source_msg_count": 24,
+  "source_msg_count": 25,
   "by_type_counts": {
     "averias": 1,
-    "daf": 10,
+    "daf": 11,
     "inicio_afectacion": 4,
     "actualizacion_bloques": 2,
     "disparo_circuito": 3,
