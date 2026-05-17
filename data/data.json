@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T02:08:53+00:00",
+  "generated_at": "2026-05-17T02:24:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-17T01:50:54+00:00",
+    "as_of": "2026-05-17T02:11:46+00:00",
     "bloques": [
       {
         "id": 1,
@@ -337,7 +337,7 @@
       "Habana Del Este": 1
     },
     "averias_total": 7,
-    "source_msg_count": 78,
+    "source_msg_count": 79,
     "by_type_counts": {
       "restablecimiento": 18,
       "averias": 9,
@@ -347,7 +347,7 @@
       "daf": 6,
       "otro": 3,
       "via_libre": 1,
-      "sen_update": 1,
+      "sen_update": 2,
       "nota_diaria": 1,
       "mantenimiento": 3
     }
