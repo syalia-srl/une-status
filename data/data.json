@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T22:13:22+00:00",
+  "generated_at": "2026-05-17T22:28:29+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-17T22:13:15+00:00",
+    "as_of": "2026-05-17T22:26:33+00:00",
     "bloques": [
       {
         "id": 1,
@@ -49,6 +49,11 @@
       "averias": []
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-17T22:26:33+00:00",
+        "municipio": "Guanabacoa",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-17T21:33:48+00:00",
         "municipio": "Boyeros",
@@ -317,16 +322,17 @@
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 2,
       "Lisa": 1,
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 36,
+    "averias_total": 5,
+    "source_msg_count": 37,
     "by_type_counts": {
       "averias": 1,
       "daf": 14,
       "inicio_afectacion": 4,
       "actualizacion_bloques": 4,
-      "disparo_circuito": 4,
+      "disparo_circuito": 5,
       "restablecimiento": 4,
       "restablecimiento_daf": 4,
       "corto": 1
@@ -395,9 +401,9 @@
     "total_emergency_mw_sum": 703,
     "averias_count_by_municipio": {
       "Habana Del Este": 12,
+      "Guanabacoa": 12,
       "Boyeros": 12,
       "Arroyo Naranjo": 11,
-      "Guanabacoa": 11,
       "Lisa": 9,
       "San Miguel Del Padrón": 7,
       "Plaza": 6,
@@ -411,7 +417,7 @@
       "Cerro Y Centro Habana": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 92,
+    "averias_total": 93,
     "daf_total": 77,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -441,7 +447,7 @@
       "Habana Del Este": 32,
       "Arroyo Naranjo": 24,
       "Lisa": 24,
-      "Guanabacoa": 22,
+      "Guanabacoa": 23,
       "San Miguel Del Padrón": 19,
       "Boyeros": 18,
       "Plaza": 15,
@@ -459,7 +465,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 215,
+    "averias_total": 216,
     "daf_total": 153,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -480,14 +486,14 @@
       "5": 54553,
       "6": 56224
     },
-    "averias_total": 3156,
+    "averias_total": 3157,
     "averias_top_municipios": {
       "Boyeros": 326,
       "Playa": 279,
       "Arroyo Naranjo": 246,
       "Lisa": 226,
       "Habana Del Este": 217,
-      "Guanabacoa": 206,
+      "Guanabacoa": 207,
       "Cerro": 182,
       "San Miguel Del Padrón": 178,
       "Plaza": 176,
