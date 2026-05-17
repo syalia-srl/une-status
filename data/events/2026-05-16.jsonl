@@ -74,3 +74,5 @@
 {"id": 62398, "ts": "2026-05-17T01:27:00+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
 {"id": 62399, "ts": "2026-05-17T01:27:32+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
 {"id": 62400, "ts": "2026-05-17T01:31:22+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "San Miguel Del Padrón"}
+{"id": 62401, "ts": "2026-05-17T01:45:41+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
+{"id": 62402, "ts": "2026-05-17T01:50:54+00:00", "type": "disparo_circuito", "has_photo": false}
