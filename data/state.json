@@ -1,6 +1,9 @@
 {
   "last_msg_id": 62409,
-  "last_run_at": "2026-05-17T03:57:12+00:00",
+  "last_run_at": "2026-05-17T04:12:42+00:00",
   "new_msgs": 0,
-  "pruned_files": []
+  "pruned_files": [
+    "raw/2026-05-15.jsonl",
+    "events/2026-05-15.jsonl"
+  ]
 }
