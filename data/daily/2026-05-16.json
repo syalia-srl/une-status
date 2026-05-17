@@ -24,13 +24,14 @@
     "San Miguel Del Padrón": 2,
     "Arroyo Naranjo": 1,
     "Plaza": 1,
-    "Habana Del Este": 1
+    "Habana Del Este": 1,
+    "Marianao": 1
   },
-  "averias_total": 7,
-  "source_msg_count": 80,
+  "averias_total": 8,
+  "source_msg_count": 82,
   "by_type_counts": {
-    "restablecimiento": 18,
-    "averias": 9,
+    "restablecimiento": 19,
+    "averias": 10,
     "disparo_circuito": 7,
     "actualizacion_bloques": 18,
     "inicio_afectacion": 12,
