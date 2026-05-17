@@ -14,7 +14,7 @@
     "6": 592
   },
   "total_block_outage_minutes": 2123,
-  "daf_count": 12,
+  "daf_count": 14,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -25,10 +25,10 @@
     "Boyeros": 1
   },
   "averias_total": 4,
-  "source_msg_count": 34,
+  "source_msg_count": 36,
   "by_type_counts": {
     "averias": 1,
-    "daf": 12,
+    "daf": 14,
     "inicio_afectacion": 4,
     "actualizacion_bloques": 4,
     "disparo_circuito": 4,
