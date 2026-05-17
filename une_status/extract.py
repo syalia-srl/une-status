@@ -38,7 +38,7 @@ RE_TOTAL_MW_ACTUAL = re.compile(
 )
 
 # inicio_afectacion / restablecimiento: "bloque no.X"
-RE_BLOQUE_NUM = re.compile(r"bloque\s+(?:no\.?\s*|n[°º]\.?\s*)?(\d)", re.IGNORECASE)
+RE_BLOQUE_NUM = re.compile(r"b\s?loque\s+(?:no\.?\s*|n[°º]\.?\s*)?(\d)", re.IGNORECASE)
 RE_EMERGENCIA_KEYWORD = re.compile(r"emergencia", re.IGNORECASE)
 
 # averias

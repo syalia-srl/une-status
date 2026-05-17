@@ -32,6 +32,17 @@ RE_SEN_RECOVER = re.compile(
     r"|sincronizaci[oó]n\s+(?:total\s+)?del\s+sen",
     re.IGNORECASE,
 )
+RE_SEN_PARTIAL_COLLAPSE = re.compile(
+    r"ca[ií]da\s+parcial\s+del\s+sistema"
+    r"|desconex[ií][oó]n\s+parcial\s+(?:del\s+)?(?:sen|sistema)"
+    r"|separaci[oó]n\s+parcial\s+(?:del\s+)?(?:sen|sistema)",
+    re.IGNORECASE,
+)
+RE_SEN_RECONNECT = re.compile(
+    r"se\s+logr[oó]\s+enlazar\s+(?:la\s+)?provincia"
+    r"|enlazad[ao]\s+al\s+sen",
+    re.IGNORECASE,
+)
 RE_INICIO_BLOQUE = re.compile(
     r"informamos.*?clientes asociados.*?(?:bloque|circuitos?\s+(?:de\s+)?emergen).*?inicia (?:la )?afect",
     re.IGNORECASE | re.DOTALL,
@@ -120,6 +131,12 @@ def classify(text: str) -> str:
     # Block-level inicio
     if RE_INICIO_BLOQUE.search(tl):
         return "inicio_afectacion"
+
+    # Partial SEN collapse / province reconnect — must run before generic restablecimiento
+    if RE_SEN_PARTIAL_COLLAPSE.search(tl):
+        return "caida_parcial_sen"
+    if RE_SEN_RECONNECT.search(tl):
+        return "reconexion_parcial_sen"
 
     # Avería repairs without "restablec" — must precede generic restablecimiento check
     if RE_AVERIA_REPAIR.search(tl):
