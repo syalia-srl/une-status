@@ -27,3 +27,5 @@
 {"id": 62477, "ts": "2026-05-17T20:27:30+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62478, "ts": "2026-05-17T20:54:36+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62479, "ts": "2026-05-17T21:08:27+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 10, "minutes_off": 53}, {"bloque": 6, "hours_off": 9, "minutes_off": 52}, {"bloque": 2, "hours_off": 5, "minutes_off": 38}, {"bloque": 1, "hours_off": 3, "minutes_off": 46}, {"bloque": 5, "hours_off": 3, "minutes_off": 29}, {"bloque": 3, "hours_off": 1, "minutes_off": 45}], "total_mw": 389}
+{"id": 62481, "ts": "2026-05-17T21:25:14+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62482, "ts": "2026-05-17T21:26:46+00:00", "type": "corto", "has_photo": true}

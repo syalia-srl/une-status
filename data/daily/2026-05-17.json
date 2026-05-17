@@ -24,7 +24,7 @@
     "Lisa": 1
   },
   "averias_total": 3,
-  "source_msg_count": 29,
+  "source_msg_count": 31,
   "by_type_counts": {
     "averias": 1,
     "daf": 11,
@@ -32,6 +32,7 @@
     "actualizacion_bloques": 4,
     "disparo_circuito": 3,
     "restablecimiento": 4,
-    "restablecimiento_daf": 2
+    "restablecimiento_daf": 3,
+    "corto": 1
   }
 }
