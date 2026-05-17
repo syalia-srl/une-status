@@ -40,3 +40,5 @@
 {"id": 62494, "ts": "2026-05-17T23:00:37+00:00", "type": "daf", "has_photo": false}
 {"id": 62495, "ts": "2026-05-17T23:04:12+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62496, "ts": "2026-05-17T23:13:04+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62497, "ts": "2026-05-17T23:20:25+00:00", "type": "daf", "has_photo": false}
+{"id": 62498, "ts": "2026-05-17T23:25:03+00:00", "type": "restablecimiento_daf", "has_photo": false}
