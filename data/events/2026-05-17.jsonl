@@ -1,0 +1,20 @@
+{"id": 62448, "ts": "2026-05-17T14:17:38+00:00", "type": "averias", "has_photo": false}
+{"id": 62449, "ts": "2026-05-17T14:26:02+00:00", "type": "daf", "has_photo": false}
+{"id": 62450, "ts": "2026-05-17T14:31:40+00:00", "type": "daf", "has_photo": false}
+{"id": 62452, "ts": "2026-05-17T14:45:54+00:00", "type": "daf", "has_photo": false}
+{"id": 62454, "ts": "2026-05-17T15:09:59+00:00", "type": "daf", "has_photo": false}
+{"id": 62455, "ts": "2026-05-17T15:18:26+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
+{"id": 62456, "ts": "2026-05-17T15:49:29+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 10, "minutes_off": 38}, {"bloque": 5, "hours_off": 7, "minutes_off": 36}, {"bloque": 3, "hours_off": 7, "minutes_off": 24}, {"bloque": 4, "hours_off": 5, "minutes_off": 34}, {"bloque": 6, "hours_off": 4, "minutes_off": 33}, {"bloque": 2, "hours_off": 0, "minutes_off": 19}], "total_mw": 232}
+{"id": 62457, "ts": "2026-05-17T16:01:22+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Lisa"}
+{"id": 62458, "ts": "2026-05-17T16:43:43+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
+{"id": 62459, "ts": "2026-05-17T17:06:53+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 3}
+{"id": 62460, "ts": "2026-05-17T17:18:05+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 1, "emergency": true}
+{"id": 62461, "ts": "2026-05-17T17:33:02+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Arroyo Naranjo"}
+{"id": 62462, "ts": "2026-05-17T17:40:44+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 5, "emergency": true}
+{"id": 62463, "ts": "2026-05-17T17:42:21+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Arroyo Naranjo"}
+{"id": 62464, "ts": "2026-05-17T17:52:58+00:00", "type": "daf", "has_photo": false}
+{"id": 62465, "ts": "2026-05-17T18:03:10+00:00", "type": "daf", "has_photo": false}
+{"id": 62466, "ts": "2026-05-17T18:14:03+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62467, "ts": "2026-05-17T18:16:08+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62468, "ts": "2026-05-17T18:16:23+00:00", "type": "daf", "has_photo": false}
+{"id": 62469, "ts": "2026-05-17T18:17:52+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 7, "minutes_off": 56}, {"bloque": 6, "hours_off": 6, "minutes_off": 25}, {"bloque": 2, "hours_off": 2, "minutes_off": 41}, {"bloque": 1, "hours_off": 0, "minutes_off": 45}, {"bloque": 5, "hours_off": 0, "minutes_off": 30}], "total_mw": 321}
