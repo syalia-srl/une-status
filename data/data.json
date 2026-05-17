@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T20:25:47+00:00",
+  "generated_at": "2026-05-17T20:38:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-17T20:03:07+00:00",
+    "as_of": "2026-05-17T20:27:30+00:00",
     "bloques": [
       {
         "id": 1,
@@ -82,10 +82,6 @@
         "ts": "2026-05-17T01:04:13+00:00",
         "municipio": "San Miguel Del Padrón",
         "severity": "primaria"
-      },
-      {
-        "ts": "2026-05-16T20:23:32+00:00",
-        "municipio": "Habana Del Este"
       }
     ],
     "last_daf": {
@@ -318,14 +314,14 @@
       "Lisa": 1
     },
     "averias_total": 3,
-    "source_msg_count": 26,
+    "source_msg_count": 27,
     "by_type_counts": {
       "averias": 1,
       "daf": 11,
       "inicio_afectacion": 4,
       "actualizacion_bloques": 3,
       "disparo_circuito": 3,
-      "restablecimiento": 2,
+      "restablecimiento": 3,
       "restablecimiento_daf": 2
     }
   },
