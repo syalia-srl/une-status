@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T00:12:09+00:00",
+  "generated_at": "2026-05-17T00:21:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-17T00:10:18+00:00",
+    "as_of": "2026-05-17T00:14:20+00:00",
     "bloques": [
       {
         "id": 1,
@@ -45,12 +45,8 @@
     "current_mw_affected": 407,
     "current_mw_affected_at": "2026-05-17T00:10:18+00:00",
     "active_averias": {
-      "ts": "2026-05-16T20:23:32+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este"
-        }
-      ]
+      "ts": "2026-05-17T00:14:20+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -333,10 +329,10 @@
       "Habana Del Este": 1
     },
     "averias_total": 5,
-    "source_msg_count": 70,
+    "source_msg_count": 71,
     "by_type_counts": {
       "restablecimiento": 15,
-      "averias": 7,
+      "averias": 8,
       "disparo_circuito": 5,
       "actualizacion_bloques": 16,
       "inicio_afectacion": 12,
