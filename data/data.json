@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T18:52:54+00:00",
+  "generated_at": "2026-05-17T19:08:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-17T18:47:41+00:00",
+    "as_of": "2026-05-17T19:06:39+00:00",
     "bloques": [
       {
         "id": 1,
@@ -92,7 +92,7 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-17T18:47:41+00:00",
+      "ts": "2026-05-17T19:06:39+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -311,7 +311,7 @@
       "6": 385
     },
     "total_block_outage_minutes": 1097,
-    "daf_count": 9,
+    "daf_count": 10,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -321,10 +321,10 @@
       "Lisa": 1
     },
     "averias_total": 3,
-    "source_msg_count": 22,
+    "source_msg_count": 23,
     "by_type_counts": {
       "averias": 1,
-      "daf": 9,
+      "daf": 10,
       "inicio_afectacion": 3,
       "actualizacion_bloques": 2,
       "disparo_circuito": 3,
@@ -412,7 +412,7 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 91,
-    "daf_total": 72,
+    "daf_total": 73,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -460,7 +460,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 214,
-    "daf_total": 148,
+    "daf_total": 149,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -498,7 +498,7 @@
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2297,
+    "daf_total": 2298,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1855,8 +1855,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2297,
-    "daf_last_30d": 228,
+    "daf_total": 2298,
+    "daf_last_30d": 229,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
