@@ -23,13 +23,14 @@
     "Boyeros": 2,
     "Arroyo Naranjo": 1,
     "Plaza": 1,
-    "Habana Del Este": 1
+    "Habana Del Este": 1,
+    "San Miguel Del Padrón": 1
   },
-  "averias_total": 5,
-  "source_msg_count": 71,
+  "averias_total": 6,
+  "source_msg_count": 72,
   "by_type_counts": {
     "restablecimiento": 15,
-    "averias": 8,
+    "averias": 9,
     "disparo_circuito": 5,
     "actualizacion_bloques": 16,
     "inicio_afectacion": 12,

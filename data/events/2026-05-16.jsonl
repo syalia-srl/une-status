@@ -69,3 +69,4 @@
 {"id": 62393, "ts": "2026-05-16T23:58:56+00:00", "type": "daf", "has_photo": false}
 {"id": 62394, "ts": "2026-05-17T00:10:18+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 11, "minutes_off": 0}, {"bloque": 5, "hours_off": 8, "minutes_off": 0}, {"bloque": 3, "hours_off": 8, "minutes_off": 0}, {"bloque": 4, "hours_off": 7, "minutes_off": 0}, {"bloque": 6, "hours_off": 6, "minutes_off": 0}, {"bloque": 2, "hours_off": 4, "minutes_off": 0}], "total_mw": 407}
 {"id": 62395, "ts": "2026-05-17T00:14:20+00:00", "type": "averias", "has_photo": false}
+{"id": 62396, "ts": "2026-05-17T01:04:13+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "San Miguel Del Padrón", "severity": "primaria"}]}

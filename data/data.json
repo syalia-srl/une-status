@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T00:51:57+00:00",
+  "generated_at": "2026-05-17T01:07:24+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-17T00:14:20+00:00",
+    "as_of": "2026-05-17T01:04:13+00:00",
     "bloques": [
       {
         "id": 1,
@@ -45,10 +45,20 @@
     "current_mw_affected": 407,
     "current_mw_affected_at": "2026-05-17T00:10:18+00:00",
     "active_averias": {
-      "ts": "2026-05-17T00:14:20+00:00",
-      "averias": []
+      "ts": "2026-05-17T01:04:13+00:00",
+      "averias": [
+        {
+          "municipio": "San Miguel Del Padrón",
+          "severity": "primaria"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-17T01:04:13+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "severity": "primaria"
+      },
       {
         "ts": "2026-05-16T20:23:32+00:00",
         "municipio": "Habana Del Este"
@@ -89,12 +99,6 @@
         "municipio": "Cotorro",
         "direccion": ": Carretera Alberro , afectando : Alturas de Lotería",
         "severity": "primaria"
-      },
-      {
-        "ts": "2026-05-16T00:43:59+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": ": 2da / 28 y Final, Chivas",
-        "severity": "secundaria"
       }
     ],
     "last_daf": {
@@ -326,13 +330,14 @@
       "Boyeros": 2,
       "Arroyo Naranjo": 1,
       "Plaza": 1,
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 5,
-    "source_msg_count": 71,
+    "averias_total": 6,
+    "source_msg_count": 72,
     "by_type_counts": {
       "restablecimiento": 15,
-      "averias": 8,
+      "averias": 9,
       "disparo_circuito": 5,
       "actualizacion_bloques": 16,
       "inicio_afectacion": 12,
@@ -418,7 +423,7 @@
       "Boyeros": 12,
       "Arroyo Naranjo": 11,
       "Lisa": 9,
-      "San Miguel Del Padrón": 7,
+      "San Miguel Del Padrón": 8,
       "Cerro": 7,
       "Plaza": 6,
       "Playa": 5,
@@ -431,7 +436,7 @@
       "Cerro Y Centro Habana": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 99,
+    "averias_total": 100,
     "daf_total": 78,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -462,7 +467,7 @@
       "Lisa": 23,
       "Arroyo Naranjo": 22,
       "Guanabacoa": 22,
-      "San Miguel Del Padrón": 17,
+      "San Miguel Del Padrón": 18,
       "Boyeros": 17,
       "Plaza": 15,
       "Cerro": 12,
@@ -479,7 +484,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 207,
+    "averias_total": 208,
     "daf_total": 139,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -500,7 +505,7 @@
       "5": 54104,
       "6": 55452
     },
-    "averias_total": 3148,
+    "averias_total": 3149,
     "averias_top_municipios": {
       "Boyeros": 325,
       "Playa": 278,
@@ -509,7 +514,7 @@
       "Habana Del Este": 217,
       "Guanabacoa": 206,
       "Cerro": 182,
-      "San Miguel Del Padrón": 176,
+      "San Miguel Del Padrón": 177,
       "Plaza": 176,
       "Marianao": 140,
       "Cotorro": 92,
