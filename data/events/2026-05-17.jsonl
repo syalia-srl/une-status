@@ -35,3 +35,4 @@
 {"id": 62487, "ts": "2026-05-17T22:05:46+00:00", "type": "daf", "has_photo": false}
 {"id": 62489, "ts": "2026-05-17T22:13:15+00:00", "type": "daf", "has_photo": false}
 {"id": 62490, "ts": "2026-05-17T22:26:33+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Guanabacoa"}
+{"id": 62491, "ts": "2026-05-17T22:42:10+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 12, "minutes_off": 29}, {"bloque": 6, "hours_off": 11, "minutes_off": 19}, {"bloque": 2, "hours_off": 7, "minutes_off": 5}, {"bloque": 1, "hours_off": 5, "minutes_off": 13}, {"bloque": 5, "hours_off": 4, "minutes_off": 50}, {"bloque": 3, "hours_off": 3, "minutes_off": 12}], "total_mw": 398}
