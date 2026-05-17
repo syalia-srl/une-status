@@ -30,3 +30,4 @@
 {"id": 62481, "ts": "2026-05-17T21:25:14+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62482, "ts": "2026-05-17T21:26:46+00:00", "type": "corto", "has_photo": true}
 {"id": 62484, "ts": "2026-05-17T21:33:48+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Boyeros"}
+{"id": 62485, "ts": "2026-05-17T21:37:14+00:00", "type": "daf", "has_photo": false}

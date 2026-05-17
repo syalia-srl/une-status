@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T21:36:07+00:00",
+  "generated_at": "2026-05-17T21:42:34+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-17T21:33:48+00:00",
+    "as_of": "2026-05-17T21:37:14+00:00",
     "bloques": [
       {
         "id": 1,
@@ -90,8 +90,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-17T21:25:14+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-17T21:37:14+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -309,7 +309,7 @@
       "6": 592
     },
     "total_block_outage_minutes": 2123,
-    "daf_count": 11,
+    "daf_count": 12,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -320,10 +320,10 @@
       "Boyeros": 1
     },
     "averias_total": 4,
-    "source_msg_count": 32,
+    "source_msg_count": 33,
     "by_type_counts": {
       "averias": 1,
-      "daf": 11,
+      "daf": 12,
       "inicio_afectacion": 4,
       "actualizacion_bloques": 4,
       "disparo_circuito": 4,
@@ -412,7 +412,7 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 92,
-    "daf_total": 74,
+    "daf_total": 75,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -460,7 +460,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 215,
-    "daf_total": 150,
+    "daf_total": 151,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -498,7 +498,7 @@
       "De Boyeros": 48,
       "Regla": 41
     },
-    "daf_total": 2299,
+    "daf_total": 2300,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1855,8 +1855,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2299,
-    "daf_last_30d": 230,
+    "daf_total": 2300,
+    "daf_last_30d": 231,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
