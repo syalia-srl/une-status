@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T21:42:34+00:00",
+  "generated_at": "2026-05-17T21:57:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-17T21:37:14+00:00",
+    "as_of": "2026-05-17T21:44:38+00:00",
     "bloques": [
       {
         "id": 1,
@@ -90,8 +90,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-17T21:37:14+00:00",
-      "type": "daf"
+      "ts": "2026-05-17T21:44:38+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -320,7 +320,7 @@
       "Boyeros": 1
     },
     "averias_total": 4,
-    "source_msg_count": 33,
+    "source_msg_count": 34,
     "by_type_counts": {
       "averias": 1,
       "daf": 12,
@@ -328,7 +328,7 @@
       "actualizacion_bloques": 4,
       "disparo_circuito": 4,
       "restablecimiento": 4,
-      "restablecimiento_daf": 3,
+      "restablecimiento_daf": 4,
       "corto": 1
     }
   },
