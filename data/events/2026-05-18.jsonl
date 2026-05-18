@@ -16,3 +16,4 @@
 {"id": 62539, "ts": "2026-05-18T09:46:12+00:00", "type": "disparo_circuito", "has_photo": false}
 {"id": 62540, "ts": "2026-05-18T10:01:55+00:00", "type": "averias", "has_photo": false}
 {"id": 62541, "ts": "2026-05-18T10:08:12+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 5, "emergency": true}
+{"id": 62544, "ts": "2026-05-18T10:34:05+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 17, "minutes_off": 4}, {"bloque": 3, "hours_off": 15, "minutes_off": 3}, {"bloque": 5, "hours_off": 0, "minutes_off": 10}], "total_mw": 232}
