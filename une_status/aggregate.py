@@ -257,6 +257,8 @@ def monthly_rollup(month: str, dailies: list[dict]) -> dict:
         "sen_collapse_total": sum(d.get("sen_collapse_count", 0) for d in dailies),
         "sen_outage_days": sum(1 for d in dailies if d.get("sen_outage")),
         "sen_outage_minutes_total": sum(d.get("sen_outage_minutes", 0) for d in dailies),
+        "partial_sen_collapse_total": sum(d.get("partial_sen_collapse_count", 0) for d in dailies),
+        "partial_sen_outage_minutes_total": sum(d.get("partial_sen_outage_minutes", 0) for d in dailies),
         "cte_offline_minutes_total": dict(cte_totals),
     }
 
@@ -289,6 +291,8 @@ def all_time(monthlies: list[dict]) -> dict:
         "sen_collapse_total": sum(m.get("sen_collapse_total", 0) for m in monthlies),
         "sen_outage_days_total": sum(m.get("sen_outage_days", 0) for m in monthlies),
         "sen_outage_minutes_total": sum(m.get("sen_outage_minutes_total", 0) for m in monthlies),
+        "partial_sen_collapse_total": sum(m.get("partial_sen_collapse_total", 0) for m in monthlies),
+        "partial_sen_outage_minutes_total": sum(m.get("partial_sen_outage_minutes_total", 0) for m in monthlies),
         "cte_offline_minutes_total": dict(cte_totals),
     }
 
