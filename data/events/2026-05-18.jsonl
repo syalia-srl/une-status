@@ -31,3 +31,8 @@
 {"id": 62556, "ts": "2026-05-18T13:52:27+00:00", "type": "corto", "has_photo": true}
 {"id": 62557, "ts": "2026-05-18T13:59:16+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62558, "ts": "2026-05-18T14:00:14+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 3}
+{"id": 62559, "ts": "2026-05-18T14:13:34+00:00", "type": "sen_update", "has_photo": true}
+{"id": 62560, "ts": "2026-05-18T14:13:36+00:00", "type": "via_libre", "has_photo": false}
+{"id": 62561, "ts": "2026-05-18T14:16:40+00:00", "type": "corto", "has_photo": false}
+{"id": 62562, "ts": "2026-05-18T14:16:46+00:00", "type": "via_libre", "has_photo": false}
+{"id": 62563, "ts": "2026-05-18T14:18:31+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 5, "hours_off": 4, "minutes_off": 10}, {"bloque": 4, "hours_off": 0, "minutes_off": 50}, {"bloque": 6, "hours_off": 0, "minutes_off": 20}], "total_mw": 125}
