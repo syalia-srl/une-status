@@ -36,3 +36,5 @@
 {"id": 62561, "ts": "2026-05-18T14:16:40+00:00", "type": "corto", "has_photo": false}
 {"id": 62562, "ts": "2026-05-18T14:16:46+00:00", "type": "via_libre", "has_photo": false}
 {"id": 62563, "ts": "2026-05-18T14:18:31+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 5, "hours_off": 4, "minutes_off": 10}, {"bloque": 4, "hours_off": 0, "minutes_off": 50}, {"bloque": 6, "hours_off": 0, "minutes_off": 20}], "total_mw": 125}
+{"id": 62564, "ts": "2026-05-18T15:01:42+00:00", "type": "averias", "has_photo": false}
+{"id": 62565, "ts": "2026-05-18T15:04:53+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Guanabacoa"}
