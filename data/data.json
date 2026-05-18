@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T08:00:03+00:00",
+  "generated_at": "2026-05-18T08:15:27+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T07:39:57+00:00",
+    "as_of": "2026-05-18T08:06:02+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,8 +35,8 @@
       },
       {
         "id": 6,
-        "state": "apagado",
-        "hours_off_today": 19.816666666666666
+        "state": "encendido",
+        "since": "2026-05-18T08:06:02+00:00"
       }
     ],
     "current_mw_affected": 282,
@@ -344,9 +344,9 @@
       "Guanabacoa": 1
     },
     "averias_total": 4,
-    "source_msg_count": 12,
+    "source_msg_count": 13,
     "by_type_counts": {
-      "restablecimiento": 4,
+      "restablecimiento": 5,
       "actualizacion_bloques": 2,
       "daf": 1,
       "otro": 1,
