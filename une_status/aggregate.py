@@ -78,6 +78,10 @@ def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
     sen_outage_minutes = _sen_outage_minutes(events, day)
     sen_outage = sen_collapse_count > 0
 
+    partial_sen_collapse_count = by_type.get("caida_parcial_sen", 0)
+    partial_sen_reconnect_count = by_type.get("reconexion_parcial_sen", 0)
+    partial_sen_outage_minutes = _partial_sen_outage_minutes(events, day)
+
     # CTE offline minutes per canonical id
     cte_offline_minutes = _cte_offline_minutes(events, day)
 
@@ -94,6 +98,9 @@ def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
         "sen_collapse_count": sen_collapse_count,
         "sen_outage_minutes": sen_outage_minutes,
         "sen_outage": sen_outage,
+        "partial_sen_collapse_count": partial_sen_collapse_count,
+        "partial_sen_reconnect_count": partial_sen_reconnect_count,
+        "partial_sen_outage_minutes": partial_sen_outage_minutes,
         "cte_offline_minutes": cte_offline_minutes,
         "averias_count_by_municipio": dict(municipios.most_common()),
         "averias_total": sum(municipios.values()),
