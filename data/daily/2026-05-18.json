@@ -27,12 +27,12 @@
     "Plaza De La Revolución": 1
   },
   "averias_total": 6,
-  "source_msg_count": 50,
+  "source_msg_count": 55,
   "by_type_counts": {
-    "restablecimiento": 12,
+    "restablecimiento": 13,
     "actualizacion_bloques": 9,
     "daf": 3,
-    "otro": 2,
+    "otro": 4,
     "averias": 4,
     "disparo_circuito": 7,
     "inicio_afectacion": 3,
@@ -41,6 +41,7 @@
     "pinned": 1,
     "sen_update": 1,
     "via_libre": 2,
-    "restablecimiento_daf": 2
+    "restablecimiento_daf": 2,
+    "transferencia_bloque": 2
   }
 }
