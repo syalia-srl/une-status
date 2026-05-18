@@ -34,9 +34,10 @@
     "Arroyo Naranjo Queda Reparada La Avería": 1,
     "Habana Vieja": 1,
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
-    "Cerro Y Centro Habana": 1
+    "Cerro Y Centro Habana": 1,
+    "De Boyeros": 1
   },
-  "averias_total": 217,
+  "averias_total": 218,
   "daf_total": 159,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,

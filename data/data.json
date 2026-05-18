@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T02:19:53+00:00",
+  "generated_at": "2026-05-18T02:35:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T01:58:10+00:00",
+    "as_of": "2026-05-18T02:27:32+00:00",
     "bloques": [
       {
         "id": 1,
@@ -49,6 +49,11 @@
       "averias": []
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-18T02:27:32+00:00",
+        "municipio": "De Boyeros",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-18T01:40:57+00:00",
         "municipio": "Cotorro",
@@ -319,16 +324,17 @@
       "Lisa": 1,
       "Boyeros": 1,
       "Guanabacoa": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "De Boyeros": 1
     },
-    "averias_total": 6,
-    "source_msg_count": 59,
+    "averias_total": 7,
+    "source_msg_count": 60,
     "by_type_counts": {
       "averias": 2,
       "daf": 20,
       "inicio_afectacion": 4,
       "actualizacion_bloques": 7,
-      "disparo_circuito": 6,
+      "disparo_circuito": 7,
       "restablecimiento": 8,
       "restablecimiento_daf": 11,
       "corto": 1
@@ -411,9 +417,10 @@
       "Centro Habana": 2,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1,
-      "Plaza De La Revolución": 1
+      "Plaza De La Revolución": 1,
+      "De Boyeros": 1
     },
-    "averias_total": 94,
+    "averias_total": 95,
     "daf_total": 83,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -459,9 +466,10 @@
       "Arroyo Naranjo Queda Reparada La Avería": 1,
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
-      "Cerro Y Centro Habana": 1
+      "Cerro Y Centro Habana": 1,
+      "De Boyeros": 1
     },
-    "averias_total": 217,
+    "averias_total": 218,
     "daf_total": 159,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -482,7 +490,7 @@
       "5": 54839,
       "6": 56510
     },
-    "averias_total": 3158,
+    "averias_total": 3159,
     "averias_top_municipios": {
       "Boyeros": 326,
       "Playa": 279,
@@ -496,8 +504,8 @@
       "Marianao": 141,
       "Cotorro": 93,
       "Centro Habana": 66,
+      "De Boyeros": 49,
       "De Playa": 49,
-      "De Boyeros": 48,
       "Regla": 41
     },
     "daf_total": 2308,
