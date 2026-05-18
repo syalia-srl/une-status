@@ -1,20 +1,20 @@
 {
   "date": "2026-05-17",
   "finalized": false,
-  "peak_mw_affected": 422,
-  "peak_time": "20:19",
+  "peak_mw_affected": 434,
+  "peak_time": "21:56",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 414,
-    "2": 526,
-    "3": 293,
-    "4": 841,
-    "5": 397,
-    "6": 780
+    "1": 512,
+    "2": 624,
+    "3": 391,
+    "4": 939,
+    "5": 495,
+    "6": 878
   },
-  "total_block_outage_minutes": 3251,
-  "daf_count": 19,
+  "total_block_outage_minutes": 3839,
+  "daf_count": 20,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -27,15 +27,15 @@
     "Cotorro": 1
   },
   "averias_total": 6,
-  "source_msg_count": 56,
+  "source_msg_count": 59,
   "by_type_counts": {
     "averias": 2,
-    "daf": 19,
+    "daf": 20,
     "inicio_afectacion": 4,
-    "actualizacion_bloques": 6,
+    "actualizacion_bloques": 7,
     "disparo_circuito": 6,
     "restablecimiento": 8,
-    "restablecimiento_daf": 10,
+    "restablecimiento_daf": 11,
     "corto": 1
   }
 }
