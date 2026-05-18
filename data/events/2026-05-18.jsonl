@@ -84,3 +84,7 @@
 {"id": 62611, "ts": "2026-05-18T19:52:47+00:00", "type": "daf", "has_photo": false}
 {"id": 62612, "ts": "2026-05-18T20:17:30+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
 {"id": 62613, "ts": "2026-05-18T20:18:23+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62614, "ts": "2026-05-18T20:24:27+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Marianao"}
+{"id": 62615, "ts": "2026-05-18T20:27:33+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 6, "minutes_off": 15}, {"bloque": 2, "hours_off": 4, "minutes_off": 55}, {"bloque": 1, "hours_off": 1, "minutes_off": 55}, {"bloque": 3, "hours_off": 1, "minutes_off": 40}], "total_mw": 263}
+{"id": 62616, "ts": "2026-05-18T20:27:41+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Plaza", "severity": "secundaria"}]}
+{"id": 62617, "ts": "2026-05-18T20:31:16+00:00", "type": "disparo_circuito", "has_photo": false}
