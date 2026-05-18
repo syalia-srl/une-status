@@ -1,10 +1,10 @@
 {
   "date": "2026-05-18",
   "finalized": false,
-  "peak_mw_affected": 441,
-  "peak_time": "00:37",
-  "interruption_minutes": null,
-  "emergency_mw": null,
+  "peak_mw_affected": 434,
+  "peak_time": "22:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": 100,
   "block_outage_minutes": {
     "1": 1024,
     "2": 0,
@@ -26,7 +26,7 @@
     "Guanabacoa": 1
   },
   "averias_total": 4,
-  "source_msg_count": 19,
+  "source_msg_count": 20,
   "by_type_counts": {
     "restablecimiento": 6,
     "actualizacion_bloques": 4,
@@ -34,6 +34,7 @@
     "otro": 1,
     "averias": 3,
     "disparo_circuito": 3,
-    "inicio_afectacion": 1
+    "inicio_afectacion": 1,
+    "nota_diaria": 1
   }
 }
