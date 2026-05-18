@@ -26,15 +26,17 @@
     "Guanabacoa": 1
   },
   "averias_total": 4,
-  "source_msg_count": 20,
+  "source_msg_count": 23,
   "by_type_counts": {
-    "restablecimiento": 6,
+    "restablecimiento": 7,
     "actualizacion_bloques": 4,
     "daf": 1,
     "otro": 1,
     "averias": 3,
     "disparo_circuito": 3,
     "inicio_afectacion": 1,
-    "nota_diaria": 1
+    "nota_diaria": 1,
+    "corto": 1,
+    "pinned": 1
   }
 }
