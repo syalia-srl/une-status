@@ -102,6 +102,26 @@ function renderSen(cur) {
       subEl.textContent = "Sin caídas registradas recientemente.";
     }
   }
+
+  // Partial SEN sub-banner (spec D3)
+  const partialBanner = $("#sen-partial-banner");
+  if (partialBanner) {
+    const partial = sen?.partial_sen;
+    // Reset classes to known base, then apply state
+    partialBanner.className = "rounded-xl border-2 p-4 text-center text-sm transition-colors mt-3";
+    if (partial?.active) {
+      partialBanner.classList.add("bg-amber-50", "border-amber-400", "text-amber-900",
+                                   "dark:bg-amber-950", "dark:border-amber-600", "dark:text-amber-100");
+      partialBanner.textContent = `⚡ COLAPSO PARCIAL DEL SEN activo desde ${fmt.dt(partial.since)}`;
+    } else if (partial?.last_recovered_at) {
+      partialBanner.classList.add("bg-slate-100", "border-slate-300", "text-slate-600",
+                                   "dark:bg-slate-800", "dark:border-slate-600", "dark:text-slate-300");
+      partialBanner.textContent = `⚡ Último colapso parcial restablecido ${fmt.relative(partial.last_recovered_at)}`;
+    } else {
+      partialBanner.classList.add("hidden");
+      return;
+    }
+  }
 }
 
 function startSenCounter() {
