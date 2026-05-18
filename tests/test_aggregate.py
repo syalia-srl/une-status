@@ -131,6 +131,22 @@ def test_current_state_daf_does_not_set_sen_offline():
     assert cs["sen"]["last_outage_at"] is None
 
 
+def test_daily_rollup_partial_sen_outage_minutes():
+    """2 partial collapses + 1 reconnect: second interval is open (counts to midnight).
+    Full SEN outage minutes must stay 0 (no desconexion_total_sen events).
+    """
+    events = [
+        {"id": 10, "ts": "2026-05-13T14:00:00+00:00", "type": "caida_parcial_sen"},
+        {"id": 11, "ts": "2026-05-13T16:00:00+00:00", "type": "reconexion_parcial_sen"},
+        {"id": 12, "ts": "2026-05-13T20:00:00+00:00", "type": "caida_parcial_sen"},
+    ]
+    r = daily_rollup("2026-05-13", events, finalized=False)
+    assert r["partial_sen_outage_minutes"] > 0
+    assert r["sen_outage_minutes"] == 0
+    assert r["partial_sen_collapse_count"] == 2
+    assert r["partial_sen_reconnect_count"] == 1
+
+
 def test_current_state_picks_latest_per_block():
     events = [
         {"id": 5, "ts": "2026-05-12T12:00:00+00:00", "type": "inicio_afectacion", "bloque": 4, "emergency": False},
