@@ -123,6 +123,25 @@ def _sen_outage_minutes(events: list[dict], day: str) -> int:
     return total
 
 
+def _partial_sen_outage_minutes(events: list[dict], day: str) -> int:
+    """Greedy pair `caida_parcial_sen` with the next `reconexion_parcial_sen`.
+    Open intervals at end of Havana day count up to midnight.
+    """
+    total = 0
+    open_start: datetime | None = None
+    end_of_day = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV) + timedelta(days=1)
+    for e in sorted(events, key=lambda x: x["id"]):
+        ts = _parse_ts(e["ts"]).astimezone(TZ_HAV)
+        if e["type"] == "caida_parcial_sen" and open_start is None:
+            open_start = ts
+        elif e["type"] == "reconexion_parcial_sen" and open_start is not None:
+            total += int(max(0, (ts - open_start).total_seconds() / 60))
+            open_start = None
+    if open_start is not None:
+        total += int(max(0, (end_of_day - open_start).total_seconds() / 60))
+    return total
+
+
 def _cte_offline_minutes(events: list[dict], day: str) -> dict[str, int]:
     """Per-CTE total offline minutes for `day`. Greedy pair unit on/off.
     Track by (cte_id, unidad). Open intervals count to end-of-day.
