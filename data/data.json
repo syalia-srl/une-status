@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T16:17:47+00:00",
+  "generated_at": "2026-05-18T16:30:40+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T16:05:09+00:00",
+    "as_of": "2026-05-18T16:26:07+00:00",
     "bloques": [
       {
         "id": 1,
@@ -29,9 +29,8 @@
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-05-18T10:08:12+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-18T16:24:37+00:00"
       },
       {
         "id": 6,
@@ -39,8 +38,8 @@
         "since": "2026-05-18T08:06:02+00:00"
       }
     ],
-    "current_mw_affected": 125,
-    "current_mw_affected_at": "2026-05-18T15:15:10+00:00",
+    "current_mw_affected": 180,
+    "current_mw_affected_at": "2026-05-18T16:23:47+00:00",
     "active_averias": {
       "ts": "2026-05-18T15:01:42+00:00",
       "averias": []
@@ -113,8 +112,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-18T16:05:09+00:00",
-      "type": "daf"
+      "ts": "2026-05-18T16:26:07+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -325,13 +324,13 @@
     "emergency_mw": 100,
     "block_outage_minutes": {
       "1": 0,
-      "2": 0,
+      "2": 65,
       "3": 0,
-      "4": 110,
-      "5": 250,
-      "6": 80
+      "4": 175,
+      "5": 375,
+      "6": 145
     },
-    "total_block_outage_minutes": 440,
+    "total_block_outage_minutes": 760,
     "daf_count": 3,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -345,10 +344,10 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 6,
-    "source_msg_count": 47,
+    "source_msg_count": 50,
     "by_type_counts": {
-      "restablecimiento": 11,
-      "actualizacion_bloques": 8,
+      "restablecimiento": 12,
+      "actualizacion_bloques": 9,
       "daf": 3,
       "otro": 2,
       "averias": 4,
@@ -359,7 +358,7 @@
       "pinned": 1,
       "sen_update": 1,
       "via_libre": 2,
-      "restablecimiento_daf": 1
+      "restablecimiento_daf": 2
     }
   },
   "yesterday": {
@@ -414,11 +413,11 @@
     "total_interruption_minutes": 8640,
     "total_block_outage_minutes": {
       "1": 2358,
-      "2": 2610,
+      "2": 2675,
       "3": 2644,
-      "4": 3422,
-      "5": 2772,
-      "6": 3649
+      "4": 3487,
+      "5": 2897,
+      "6": 3714
     },
     "total_emergency_mw_sum": 693,
     "averias_count_by_municipio": {
@@ -457,11 +456,11 @@
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
       "1": 5110,
-      "2": 5497,
+      "2": 5562,
       "3": 5786,
-      "4": 5843,
-      "5": 5017,
-      "6": 6387
+      "4": 5908,
+      "5": 5142,
+      "6": 6452
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
@@ -502,11 +501,11 @@
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
       "1": 59604,
-      "2": 63576,
+      "2": 63641,
       "3": 51510,
-      "4": 58075,
-      "5": 55188,
-      "6": 56689
+      "4": 58140,
+      "5": 55313,
+      "6": 56754
     },
     "averias_total": 3166,
     "averias_top_municipios": {
@@ -782,7 +781,7 @@
       },
       {
         "date": "2026-05-18",
-        "minutes": 440
+        "minutes": 760
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1876,7 +1875,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 33640
+        "minutes": 33960
       }
     ],
     "sen_outage_days_total": 7,
