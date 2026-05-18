@@ -53,3 +53,6 @@
 {"id": 62579, "ts": "2026-05-18T16:37:32+00:00", "type": "otro", "has_photo": false}
 {"id": 62580, "ts": "2026-05-18T16:38:03+00:00", "type": "transferencia_bloque", "has_photo": false}
 {"id": 62581, "ts": "2026-05-18T16:39:03+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
+{"id": 62582, "ts": "2026-05-18T17:07:23+00:00", "type": "daf", "has_photo": false}
+{"id": 62583, "ts": "2026-05-18T17:15:07+00:00", "type": "daf", "has_photo": false}
+{"id": 62584, "ts": "2026-05-18T17:16:01+00:00", "type": "daf", "has_photo": false}
