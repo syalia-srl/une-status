@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T06:42:35+00:00",
+  "generated_at": "2026-05-18T06:58:05+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T06:41:23+00:00",
+    "as_of": "2026-05-18T06:56:51+00:00",
     "bloques": [
       {
         "id": 1,
@@ -42,15 +42,30 @@
     "current_mw_affected": 441,
     "current_mw_affected_at": "2026-05-18T04:37:03+00:00",
     "active_averias": {
-      "ts": "2026-05-18T06:32:41+00:00",
+      "ts": "2026-05-18T06:48:01+00:00",
       "averias": [
         {
-          "municipio": "Plaza",
-          "direccion": "la siguiente dirección: Ulloa e/ Santa María y Santa Teresa"
+          "municipio": "Lisa",
+          "direccion": "los siguientes repartos: Punta Brava, El Guatao, Estrella Roja"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-18T06:56:51+00:00",
+        "municipio": "Guanabacoa",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-18T06:48:01+00:00",
+        "municipio": "Lisa",
+        "direccion": "los siguientes repartos: Punta Brava, El Guatao, Estrella Roja"
+      },
+      {
+        "ts": "2026-05-18T06:45:17+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-18T06:32:41+00:00",
         "municipio": "Plaza",
@@ -323,16 +338,20 @@
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 1
+      "Plaza": 1,
+      "Boyeros": 1,
+      "Lisa": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 7,
+    "averias_total": 4,
+    "source_msg_count": 10,
     "by_type_counts": {
       "restablecimiento": 3,
       "actualizacion_bloques": 1,
       "daf": 1,
       "otro": 1,
-      "averias": 1
+      "averias": 2,
+      "disparo_circuito": 2
     }
   },
   "yesterday": {
@@ -395,11 +414,11 @@
     },
     "total_emergency_mw_sum": 593,
     "averias_count_by_municipio": {
+      "Guanabacoa": 13,
+      "Boyeros": 13,
       "Habana Del Este": 12,
-      "Guanabacoa": 12,
-      "Boyeros": 12,
       "Arroyo Naranjo": 10,
-      "Lisa": 8,
+      "Lisa": 9,
       "San Miguel Del Padrón": 6,
       "Playa": 6,
       "Plaza": 6,
@@ -413,7 +432,7 @@
       "Plaza De La Revolución": 1,
       "De Boyeros": 1
     },
-    "averias_total": 91,
+    "averias_total": 94,
     "daf_total": 80,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -439,11 +458,11 @@
     "total_emergency_mw_sum": 1410,
     "averias_count_by_municipio": {
       "Habana Del Este": 32,
+      "Lisa": 25,
       "Arroyo Naranjo": 24,
-      "Lisa": 24,
-      "Guanabacoa": 23,
+      "Guanabacoa": 24,
       "San Miguel Del Padrón": 19,
-      "Boyeros": 18,
+      "Boyeros": 19,
       "Plaza": 16,
       "Playa": 14,
       "Cerro": 12,
@@ -460,7 +479,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 220,
+    "averias_total": 223,
     "daf_total": 162,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -481,14 +500,14 @@
       "5": 55588,
       "6": 57650
     },
-    "averias_total": 3161,
+    "averias_total": 3164,
     "averias_top_municipios": {
-      "Boyeros": 326,
+      "Boyeros": 327,
       "Playa": 280,
       "Arroyo Naranjo": 246,
-      "Lisa": 226,
+      "Lisa": 227,
       "Habana Del Este": 217,
-      "Guanabacoa": 207,
+      "Guanabacoa": 208,
       "Cerro": 182,
       "San Miguel Del Padrón": 178,
       "Plaza": 177,

@@ -5,3 +5,6 @@
 {"id": 62528, "ts": "2026-05-18T05:55:38+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 5}
 {"id": 62529, "ts": "2026-05-18T06:32:41+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Plaza", "direccion": "la siguiente dirección: Ulloa e/ Santa María y Santa Teresa"}]}
 {"id": 62530, "ts": "2026-05-18T06:41:23+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
+{"id": 62531, "ts": "2026-05-18T06:45:17+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Boyeros"}
+{"id": 62532, "ts": "2026-05-18T06:48:01+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "los siguientes repartos: Punta Brava, El Guatao, Estrella Roja"}]}
+{"id": 62533, "ts": "2026-05-18T06:56:51+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Guanabacoa"}

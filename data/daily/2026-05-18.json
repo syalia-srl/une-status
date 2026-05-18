@@ -20,15 +20,19 @@
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Plaza": 1
+    "Plaza": 1,
+    "Boyeros": 1,
+    "Lisa": 1,
+    "Guanabacoa": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 7,
+  "averias_total": 4,
+  "source_msg_count": 10,
   "by_type_counts": {
     "restablecimiento": 3,
     "actualizacion_bloques": 1,
     "daf": 1,
     "otro": 1,
-    "averias": 1
+    "averias": 2,
+    "disparo_circuito": 2
   }
 }

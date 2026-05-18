@@ -16,11 +16,11 @@
   "total_emergency_mw_sum": 1410,
   "averias_count_by_municipio": {
     "Habana Del Este": 32,
+    "Lisa": 25,
     "Arroyo Naranjo": 24,
-    "Lisa": 24,
-    "Guanabacoa": 23,
+    "Guanabacoa": 24,
     "San Miguel Del Padrón": 19,
-    "Boyeros": 18,
+    "Boyeros": 19,
     "Plaza": 16,
     "Playa": 14,
     "Cerro": 12,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 220,
+  "averias_total": 223,
   "daf_total": 162,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
