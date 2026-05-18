@@ -1,2 +1,3 @@
 {"id": 62524, "ts": "2026-05-18T04:06:41+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62525, "ts": "2026-05-18T04:37:03+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 18, "minutes_off": 22}, {"bloque": 6, "hours_off": 17, "minutes_off": 21}, {"bloque": 2, "hours_off": 12, "minutes_off": 59}, {"bloque": 1, "hours_off": 11, "minutes_off": 7}, {"bloque": 5, "hours_off": 10, "minutes_off": 50}, {"bloque": 3, "hours_off": 9, "minutes_off": 6}], "total_mw": 441}
+{"id": 62526, "ts": "2026-05-18T05:13:40+00:00", "type": "daf", "has_photo": false}
