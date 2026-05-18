@@ -28,3 +28,4 @@
 {"id": 62553, "ts": "2026-05-18T13:29:10+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Plaza De La Revolución"}
 {"id": 62554, "ts": "2026-05-18T13:30:18+00:00", "type": "otro", "has_photo": false}
 {"id": 62555, "ts": "2026-05-18T13:31:15+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}
+{"id": 62556, "ts": "2026-05-18T13:52:27+00:00", "type": "corto", "has_photo": true}
