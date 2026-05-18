@@ -30,7 +30,7 @@
     "Marianao": 1
   },
   "averias_total": 14,
-  "source_msg_count": 102,
+  "source_msg_count": 103,
   "by_type_counts": {
     "restablecimiento": 19,
     "actualizacion_bloques": 13,
@@ -44,7 +44,7 @@
     "pinned": 1,
     "sen_update": 1,
     "via_libre": 3,
-    "restablecimiento_daf": 8,
+    "restablecimiento_daf": 9,
     "transferencia_bloque": 2
   }
 }

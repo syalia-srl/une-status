@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T22:10:55+00:00",
+  "generated_at": "2026-05-18T22:26:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T22:07:11+00:00",
+    "as_of": "2026-05-18T22:14:48+00:00",
     "bloques": [
       {
         "id": 1,
@@ -149,8 +149,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-18T22:07:11+00:00",
-      "type": "daf"
+      "ts": "2026-05-18T22:14:48+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -384,7 +384,7 @@
       "Marianao": 1
     },
     "averias_total": 14,
-    "source_msg_count": 102,
+    "source_msg_count": 103,
     "by_type_counts": {
       "restablecimiento": 19,
       "actualizacion_bloques": 13,
@@ -398,7 +398,7 @@
       "pinned": 1,
       "sen_update": 1,
       "via_libre": 3,
-      "restablecimiento_daf": 8,
+      "restablecimiento_daf": 9,
       "transferencia_bloque": 2
     }
   },
