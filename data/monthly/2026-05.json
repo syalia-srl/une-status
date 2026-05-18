@@ -6,12 +6,12 @@
   "max_peak_mw": 499,
   "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
-    "1": 5225,
-    "2": 5792,
-    "3": 5886,
+    "1": 5285,
+    "2": 5852,
+    "3": 5946,
     "4": 5733,
-    "5": 4767,
-    "6": 6682
+    "5": 4807,
+    "6": 6742
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
@@ -19,7 +19,7 @@
     "Guanabacoa": 26,
     "Arroyo Naranjo": 25,
     "Lisa": 25,
-    "Boyeros": 20,
+    "Boyeros": 21,
     "San Miguel Del Padrón": 19,
     "Plaza": 18,
     "Playa": 14,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 232,
+  "averias_total": 233,
   "daf_total": 177,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
