@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T20:38:15+00:00",
+  "generated_at": "2026-05-18T20:53:54+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T20:31:16+00:00",
+    "as_of": "2026-05-18T20:52:51+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,8 +30,9 @@
       },
       {
         "id": 5,
-        "state": "encendido",
-        "since": "2026-05-18T16:39:03+00:00"
+        "state": "apagado",
+        "since": "2026-05-18T20:49:17+00:00",
+        "emergency": true
       },
       {
         "id": 6,
@@ -134,8 +135,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-18T20:18:23+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-18T20:38:48+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -353,7 +354,7 @@
       "6": 375
     },
     "total_block_outage_minutes": 885,
-    "daf_count": 15,
+    "daf_count": 16,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -369,20 +370,20 @@
       "Marianao": 1
     },
     "averias_total": 11,
-    "source_msg_count": 90,
+    "source_msg_count": 94,
     "by_type_counts": {
-      "restablecimiento": 18,
+      "restablecimiento": 19,
       "actualizacion_bloques": 12,
-      "daf": 15,
+      "daf": 16,
       "otro": 4,
       "averias": 7,
       "disparo_circuito": 11,
-      "inicio_afectacion": 6,
+      "inicio_afectacion": 7,
       "nota_diaria": 1,
       "corto": 3,
       "pinned": 1,
       "sen_update": 1,
-      "via_libre": 2,
+      "via_libre": 3,
       "restablecimiento_daf": 7,
       "transferencia_bloque": 2
     }
@@ -466,7 +467,7 @@
       "De Boyeros": 1
     },
     "averias_total": 101,
-    "daf_total": 94,
+    "daf_total": 95,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -513,7 +514,7 @@
       "De Boyeros": 1
     },
     "averias_total": 230,
-    "daf_total": 176,
+    "daf_total": 177,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -551,7 +552,7 @@
       "De Playa": 49,
       "Regla": 41
     },
-    "daf_total": 2325,
+    "daf_total": 2326,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1908,8 +1909,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2325,
-    "daf_last_30d": 254,
+    "daf_total": 2326,
+    "daf_last_30d": 255,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

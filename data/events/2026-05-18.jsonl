@@ -88,3 +88,7 @@
 {"id": 62615, "ts": "2026-05-18T20:27:33+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 6, "minutes_off": 15}, {"bloque": 2, "hours_off": 4, "minutes_off": 55}, {"bloque": 1, "hours_off": 1, "minutes_off": 55}, {"bloque": 3, "hours_off": 1, "minutes_off": 40}], "total_mw": 263}
 {"id": 62616, "ts": "2026-05-18T20:27:41+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Plaza", "severity": "secundaria"}]}
 {"id": 62617, "ts": "2026-05-18T20:31:16+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 62618, "ts": "2026-05-18T20:38:48+00:00", "type": "daf", "has_photo": false}
+{"id": 62619, "ts": "2026-05-18T20:44:20+00:00", "type": "via_libre", "has_photo": false}
+{"id": 62620, "ts": "2026-05-18T20:49:17+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 5, "emergency": true}
+{"id": 62621, "ts": "2026-05-18T20:52:51+00:00", "type": "restablecimiento", "has_photo": false}
