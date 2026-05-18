@@ -56,3 +56,4 @@
 {"id": 62582, "ts": "2026-05-18T17:07:23+00:00", "type": "daf", "has_photo": false}
 {"id": 62583, "ts": "2026-05-18T17:15:07+00:00", "type": "daf", "has_photo": false}
 {"id": 62584, "ts": "2026-05-18T17:16:01+00:00", "type": "daf", "has_photo": false}
+{"id": 62585, "ts": "2026-05-18T17:24:36+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": "Calzada de Bejucal entre 5ta y 6ta, Poey 🚨", "severity": "secundaria"}]}
