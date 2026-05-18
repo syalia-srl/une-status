@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T18:03:35+00:00",
+  "generated_at": "2026-05-18T18:16:38+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T18:02:27+00:00",
+    "as_of": "2026-05-18T18:15:35+00:00",
     "bloques": [
       {
         "id": 1,
@@ -51,6 +51,11 @@
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-18T18:06:29+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-18T17:24:36+00:00",
         "municipio": "Arroyo Naranjo",
@@ -114,8 +119,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-18T18:02:27+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-18T18:15:35+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -333,28 +338,28 @@
       "6": 205
     },
     "total_block_outage_minutes": 565,
-    "daf_count": 8,
+    "daf_count": 10,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Boyeros": 2,
       "Guanabacoa": 2,
       "Plaza": 1,
-      "Boyeros": 1,
       "Lisa": 1,
       "Plaza De La Revolución": 1,
       "Arroyo Naranjo": 1
     },
-    "averias_total": 7,
-    "source_msg_count": 64,
+    "averias_total": 8,
+    "source_msg_count": 67,
     "by_type_counts": {
       "restablecimiento": 13,
       "actualizacion_bloques": 10,
-      "daf": 8,
+      "daf": 10,
       "otro": 4,
       "averias": 5,
-      "disparo_circuito": 7,
+      "disparo_circuito": 8,
       "inicio_afectacion": 3,
       "nota_diaria": 1,
       "corto": 3,
@@ -426,7 +431,7 @@
     "total_emergency_mw_sum": 693,
     "averias_count_by_municipio": {
       "Guanabacoa": 14,
-      "Boyeros": 13,
+      "Boyeros": 14,
       "Habana Del Este": 12,
       "Arroyo Naranjo": 11,
       "Lisa": 9,
@@ -443,8 +448,8 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 97,
-    "daf_total": 87,
+    "averias_total": 98,
+    "daf_total": 89,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -472,8 +477,8 @@
       "Arroyo Naranjo": 25,
       "Lisa": 25,
       "Guanabacoa": 25,
+      "Boyeros": 20,
       "San Miguel Del Padrón": 19,
-      "Boyeros": 19,
       "Plaza": 16,
       "Playa": 14,
       "Cerro": 12,
@@ -490,8 +495,8 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 226,
-    "daf_total": 169,
+    "averias_total": 227,
+    "daf_total": 171,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -511,9 +516,9 @@
       "5": 54938,
       "6": 56814
     },
-    "averias_total": 3167,
+    "averias_total": 3168,
     "averias_top_municipios": {
-      "Boyeros": 327,
+      "Boyeros": 328,
       "Playa": 280,
       "Arroyo Naranjo": 247,
       "Lisa": 227,
@@ -529,7 +534,7 @@
       "De Playa": 49,
       "Regla": 41
     },
-    "daf_total": 2318,
+    "daf_total": 2320,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1886,8 +1891,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2318,
-    "daf_last_30d": 247,
+    "daf_total": 2320,
+    "daf_last_30d": 249,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
