@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T17:48:11+00:00",
+  "generated_at": "2026-05-18T18:03:35+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T17:45:50+00:00",
+    "as_of": "2026-05-18T18:02:27+00:00",
     "bloques": [
       {
         "id": 1,
@@ -114,8 +114,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-18T17:45:50+00:00",
-      "type": "daf"
+      "ts": "2026-05-18T18:02:27+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -347,7 +347,7 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 7,
-    "source_msg_count": 63,
+    "source_msg_count": 64,
     "by_type_counts": {
       "restablecimiento": 13,
       "actualizacion_bloques": 10,
@@ -361,7 +361,7 @@
       "pinned": 1,
       "sen_update": 1,
       "via_libre": 2,
-      "restablecimiento_daf": 3,
+      "restablecimiento_daf": 4,
       "transferencia_bloque": 2
     }
   },
