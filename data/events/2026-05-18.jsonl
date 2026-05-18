@@ -8,3 +8,4 @@
 {"id": 62531, "ts": "2026-05-18T06:45:17+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Boyeros"}
 {"id": 62532, "ts": "2026-05-18T06:48:01+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": "los siguientes repartos: Punta Brava, El Guatao, Estrella Roja"}]}
 {"id": 62533, "ts": "2026-05-18T06:56:51+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Guanabacoa"}
+{"id": 62534, "ts": "2026-05-18T07:09:49+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 19, "minutes_off": 49}, {"bloque": 2, "hours_off": 15, "minutes_off": 35}, {"bloque": 1, "hours_off": 13, "minutes_off": 43}, {"bloque": 3, "hours_off": 11, "minutes_off": 48}], "total_mw": 282}
