@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T03:06:23+00:00",
+  "generated_at": "2026-05-18T03:22:04+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T03:00:07+00:00",
+    "as_of": "2026-05-18T03:12:41+00:00",
     "bloques": [
       {
         "id": 1,
@@ -335,7 +335,7 @@
       "Playa": 1
     },
     "averias_total": 8,
-    "source_msg_count": 63,
+    "source_msg_count": 64,
     "by_type_counts": {
       "averias": 3,
       "daf": 21,
@@ -344,7 +344,8 @@
       "disparo_circuito": 7,
       "restablecimiento": 8,
       "restablecimiento_daf": 12,
-      "corto": 1
+      "corto": 1,
+      "otro": 1
     }
   },
   "yesterday": {

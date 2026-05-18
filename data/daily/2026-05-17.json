@@ -29,7 +29,7 @@
     "Playa": 1
   },
   "averias_total": 8,
-  "source_msg_count": 63,
+  "source_msg_count": 64,
   "by_type_counts": {
     "averias": 3,
     "daf": 21,
@@ -38,6 +38,7 @@
     "disparo_circuito": 7,
     "restablecimiento": 8,
     "restablecimiento_daf": 12,
-    "corto": 1
+    "corto": 1,
+    "otro": 1
   }
 }
