@@ -92,3 +92,5 @@
 {"id": 62619, "ts": "2026-05-18T20:44:20+00:00", "type": "via_libre", "has_photo": false}
 {"id": 62620, "ts": "2026-05-18T20:49:17+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 5, "emergency": true}
 {"id": 62621, "ts": "2026-05-18T20:52:51+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62622, "ts": "2026-05-18T21:00:04+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}
+{"id": 62623, "ts": "2026-05-18T21:07:14+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Plaza", "direccion": "las calles: 1ra entre 10 y 12, afectando el servicio eléctrico en Río Almendares hasta calle 20 desde Avenida 23 hasta Malecón, cuadrante desde calle 6 hasta 20 y desde Línea hasta Malecón 🚨", "severity": "primaria"}]}

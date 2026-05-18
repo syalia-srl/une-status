@@ -21,7 +21,7 @@
     "Guanabacoa": 25,
     "Boyeros": 20,
     "San Miguel Del Padrón": 19,
-    "Plaza": 17,
+    "Plaza": 18,
     "Playa": 14,
     "Cerro": 12,
     "Marianao": 10,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 230,
+  "averias_total": 231,
   "daf_total": 177,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
