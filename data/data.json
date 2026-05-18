@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T06:27:23+00:00",
+  "generated_at": "2026-05-18T06:42:35+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T05:55:38+00:00",
+    "as_of": "2026-05-18T06:41:23+00:00",
     "bloques": [
       {
         "id": 1,
@@ -25,8 +25,8 @@
       },
       {
         "id": 4,
-        "state": "apagado",
-        "hours_off_today": 18.366666666666667
+        "state": "encendido",
+        "since": "2026-05-18T06:41:23+00:00"
       },
       {
         "id": 5,
@@ -42,15 +42,20 @@
     "current_mw_affected": 441,
     "current_mw_affected_at": "2026-05-18T04:37:03+00:00",
     "active_averias": {
-      "ts": "2026-05-18T02:56:35+00:00",
+      "ts": "2026-05-18T06:32:41+00:00",
       "averias": [
         {
-          "municipio": "Playa",
-          "direccion": "la siguiente dirección: 41 / 72 y 72 A"
+          "municipio": "Plaza",
+          "direccion": "la siguiente dirección: Ulloa e/ Santa María y Santa Teresa"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-18T06:32:41+00:00",
+        "municipio": "Plaza",
+        "direccion": "la siguiente dirección: Ulloa e/ Santa María y Santa Teresa"
+      },
       {
         "ts": "2026-05-18T02:56:35+00:00",
         "municipio": "Playa",
@@ -317,14 +322,17 @@
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 5,
+    "averias_count_by_municipio": {
+      "Plaza": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 2,
+      "restablecimiento": 3,
       "actualizacion_bloques": 1,
       "daf": 1,
-      "otro": 1
+      "otro": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -394,7 +402,7 @@
       "Lisa": 8,
       "San Miguel Del Padrón": 6,
       "Playa": 6,
-      "Plaza": 5,
+      "Plaza": 6,
       "Cerro": 4,
       "Marianao": 3,
       "Regla": 3,
@@ -405,7 +413,7 @@
       "Plaza De La Revolución": 1,
       "De Boyeros": 1
     },
-    "averias_total": 90,
+    "averias_total": 91,
     "daf_total": 80,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -436,7 +444,7 @@
       "Guanabacoa": 23,
       "San Miguel Del Padrón": 19,
       "Boyeros": 18,
-      "Plaza": 15,
+      "Plaza": 16,
       "Playa": 14,
       "Cerro": 12,
       "Marianao": 9,
@@ -452,7 +460,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 219,
+    "averias_total": 220,
     "daf_total": 162,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -473,7 +481,7 @@
       "5": 55588,
       "6": 57650
     },
-    "averias_total": 3160,
+    "averias_total": 3161,
     "averias_top_municipios": {
       "Boyeros": 326,
       "Playa": 280,
@@ -483,7 +491,7 @@
       "Guanabacoa": 207,
       "Cerro": 182,
       "San Miguel Del Padrón": 178,
-      "Plaza": 176,
+      "Plaza": 177,
       "Marianao": 141,
       "Cotorro": 93,
       "Centro Habana": 66,
