@@ -445,6 +445,7 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
     last_pronostico = None
     # SEN: latest daf / restablecimiento_daf events in chronological order
     sen_events: list[dict] = []
+    partial_sen_events: list[dict] = []
     # CTE: per (cte_id, unidad) the most recent state
     cte_units: dict[tuple[str, int], dict] = {}
     cte_meta: dict[str, str] = {}  # cte_id -> display name
@@ -471,6 +472,8 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             last_averias = {"ts": e["ts"], "averias": e.get("averias", [])}
         if t in ("desconexion_total_sen", "restablecimiento_sen"):
             sen_events.append(e)
+        if t in ("caida_parcial_sen", "reconexion_parcial_sen"):
+            partial_sen_events.append(e)
         if t in ("daf", "restablecimiento_daf") and last_daf is None:
             last_daf = {"ts": e["ts"], "type": t}
         if t == "unidad_termoelectrica":
@@ -526,6 +529,24 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
         "since": sen_since,
         "last_outage_at": sen_last_outage_at,
         "last_recovered_at": sen_last_recovered_at,
+    }
+
+    # Partial SEN state — chronological walk, same pattern as full SEN
+    partial_active = False
+    partial_since: str | None = None
+    partial_last_recovered: str | None = None
+    for ev in sorted(partial_sen_events, key=lambda x: x["id"]):
+        if ev["type"] == "caida_parcial_sen":
+            partial_active = True
+            partial_since = ev["ts"]
+        elif ev["type"] == "reconexion_parcial_sen":
+            partial_active = False
+            partial_last_recovered = ev["ts"]
+            partial_since = None
+    sen_view["partial_sen"] = {
+        "active": partial_active,
+        "since": partial_since,
+        "last_recovered_at": partial_last_recovered,
     }
 
     # CTE view — aggregate units per plant
