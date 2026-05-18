@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T09:48:46+00:00",
+  "generated_at": "2026-05-18T10:04:14+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T09:46:12+00:00",
+    "as_of": "2026-05-18T10:01:55+00:00",
     "bloques": [
       {
         "id": 1,
@@ -41,13 +41,8 @@
     "current_mw_affected": 229,
     "current_mw_affected_at": "2026-05-18T09:06:52+00:00",
     "active_averias": {
-      "ts": "2026-05-18T06:48:01+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa",
-          "direccion": "los siguientes repartos: Punta Brava, El Guatao, Estrella Roja"
-        }
-      ]
+      "ts": "2026-05-18T10:01:55+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -343,13 +338,13 @@
       "Guanabacoa": 1
     },
     "averias_total": 4,
-    "source_msg_count": 16,
+    "source_msg_count": 17,
     "by_type_counts": {
       "restablecimiento": 6,
       "actualizacion_bloques": 3,
       "daf": 1,
       "otro": 1,
-      "averias": 2,
+      "averias": 3,
       "disparo_circuito": 3
     }
   },
