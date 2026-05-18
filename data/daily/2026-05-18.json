@@ -14,7 +14,7 @@
     "6": 435
   },
   "total_block_outage_minutes": 1165,
-  "daf_count": 17,
+  "daf_count": 18,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -30,11 +30,11 @@
     "Marianao": 1
   },
   "averias_total": 14,
-  "source_msg_count": 101,
+  "source_msg_count": 102,
   "by_type_counts": {
     "restablecimiento": 19,
     "actualizacion_bloques": 13,
-    "daf": 17,
+    "daf": 18,
     "otro": 4,
     "averias": 9,
     "disparo_circuito": 12,
