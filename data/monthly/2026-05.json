@@ -9,9 +9,9 @@
     "1": 5110,
     "2": 5497,
     "3": 5786,
-    "4": 5783,
+    "4": 5843,
     "5": 5017,
-    "6": 6327
+    "6": 6387
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
@@ -38,7 +38,7 @@
     "De Boyeros": 1
   },
   "averias_total": 225,
-  "daf_total": 162,
+  "daf_total": 163,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
