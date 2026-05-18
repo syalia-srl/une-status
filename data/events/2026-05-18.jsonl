@@ -25,3 +25,6 @@
 {"id": 62550, "ts": "2026-05-18T12:11:23+00:00", "type": "disparo_circuito", "has_photo": false}
 {"id": 62551, "ts": "2026-05-18T13:07:01+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 19, "minutes_off": 40}, {"bloque": 3, "hours_off": 17, "minutes_off": 39}, {"bloque": 5, "hours_off": 2, "minutes_off": 46}], "total_mw": 123}
 {"id": 62552, "ts": "2026-05-18T13:17:21+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
+{"id": 62553, "ts": "2026-05-18T13:29:10+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Plaza De La Revolución"}
+{"id": 62554, "ts": "2026-05-18T13:30:18+00:00", "type": "otro", "has_photo": false}
+{"id": 62555, "ts": "2026-05-18T13:31:15+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 4, "emergency": true}

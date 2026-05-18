@@ -26,7 +26,7 @@
     "Cerro": 12,
     "Marianao": 9,
     "Cotorro": 8,
-    "Plaza De La Revolución": 5,
+    "Plaza De La Revolución": 6,
     "Regla": 5,
     "Centro Habana": 4,
     "Mariano": 1,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 223,
+  "averias_total": 224,
   "daf_total": 162,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
