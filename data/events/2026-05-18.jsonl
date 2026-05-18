@@ -15,3 +15,4 @@
 {"id": 62538, "ts": "2026-05-18T09:08:53+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 2}
 {"id": 62539, "ts": "2026-05-18T09:46:12+00:00", "type": "disparo_circuito", "has_photo": false}
 {"id": 62540, "ts": "2026-05-18T10:01:55+00:00", "type": "averias", "has_photo": false}
+{"id": 62541, "ts": "2026-05-18T10:08:12+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 5, "emergency": true}
