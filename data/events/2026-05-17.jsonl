@@ -58,3 +58,4 @@
 {"id": 62512, "ts": "2026-05-18T01:56:40+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 15, "minutes_off": 39}, {"bloque": 6, "hours_off": 14, "minutes_off": 38}, {"bloque": 2, "hours_off": 10, "minutes_off": 24}, {"bloque": 1, "hours_off": 8, "minutes_off": 32}, {"bloque": 5, "hours_off": 8, "minutes_off": 15}, {"bloque": 3, "hours_off": 6, "minutes_off": 31}], "total_mw": 434}
 {"id": 62513, "ts": "2026-05-18T01:58:10+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62514, "ts": "2026-05-18T02:27:32+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "De Boyeros"}
+{"id": 62515, "ts": "2026-05-18T02:38:07+00:00", "type": "daf", "has_photo": false}
