@@ -14,7 +14,7 @@
     "6": 679
   },
   "total_block_outage_minutes": 2648,
-  "daf_count": 16,
+  "daf_count": 17,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -26,10 +26,10 @@
     "Guanabacoa": 1
   },
   "averias_total": 5,
-  "source_msg_count": 45,
+  "source_msg_count": 46,
   "by_type_counts": {
     "averias": 1,
-    "daf": 16,
+    "daf": 17,
     "inicio_afectacion": 4,
     "actualizacion_bloques": 5,
     "disparo_circuito": 5,
