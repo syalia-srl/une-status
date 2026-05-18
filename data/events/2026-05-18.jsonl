@@ -65,3 +65,5 @@
 {"id": 62591, "ts": "2026-05-18T18:05:02+00:00", "type": "daf", "has_photo": false}
 {"id": 62592, "ts": "2026-05-18T18:06:29+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Boyeros"}
 {"id": 62593, "ts": "2026-05-18T18:15:35+00:00", "type": "daf", "has_photo": false}
+{"id": 62594, "ts": "2026-05-18T18:22:14+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 1, "emergency": true}
+{"id": 62595, "ts": "2026-05-18T18:26:00+00:00", "type": "daf", "has_photo": false}
