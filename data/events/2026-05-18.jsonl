@@ -82,3 +82,5 @@
 {"id": 62609, "ts": "2026-05-18T19:46:12+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62610, "ts": "2026-05-18T19:46:31+00:00", "type": "daf", "has_photo": false}
 {"id": 62611, "ts": "2026-05-18T19:52:47+00:00", "type": "daf", "has_photo": false}
+{"id": 62612, "ts": "2026-05-18T20:17:30+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
+{"id": 62613, "ts": "2026-05-18T20:18:23+00:00", "type": "restablecimiento_daf", "has_photo": false}

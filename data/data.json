@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T20:09:16+00:00",
+  "generated_at": "2026-05-18T20:22:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T19:52:47+00:00",
+    "as_of": "2026-05-18T20:18:23+00:00",
     "bloques": [
       {
         "id": 1,
@@ -36,7 +36,7 @@
       {
         "id": 6,
         "state": "encendido",
-        "since": "2026-05-18T08:06:02+00:00"
+        "since": "2026-05-18T20:17:30+00:00"
       }
     ],
     "current_mw_affected": 269,
@@ -119,8 +119,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-18T19:52:47+00:00",
-      "type": "daf"
+      "ts": "2026-05-18T20:18:23+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -353,9 +353,9 @@
       "Habana Del Este": 1
     },
     "averias_total": 9,
-    "source_msg_count": 84,
+    "source_msg_count": 86,
     "by_type_counts": {
-      "restablecimiento": 17,
+      "restablecimiento": 18,
       "actualizacion_bloques": 11,
       "daf": 15,
       "otro": 4,
@@ -367,7 +367,7 @@
       "pinned": 1,
       "sen_update": 1,
       "via_libre": 2,
-      "restablecimiento_daf": 6,
+      "restablecimiento_daf": 7,
       "transferencia_bloque": 2
     }
   },
