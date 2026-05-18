@@ -6,12 +6,12 @@
   "max_peak_mw": 499,
   "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
-    "1": 5110,
-    "2": 5622,
+    "1": 5125,
+    "2": 5682,
     "3": 5786,
-    "4": 5968,
+    "4": 6028,
     "5": 4767,
-    "6": 6512
+    "6": 6572
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
@@ -38,7 +38,7 @@
     "De Boyeros": 1
   },
   "averias_total": 227,
-  "daf_total": 172,
+  "daf_total": 173,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
