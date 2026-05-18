@@ -76,3 +76,5 @@
 {"id": 62602, "ts": "2026-05-18T19:05:00+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Habana Del Este"}
 {"id": 62603, "ts": "2026-05-18T19:10:29+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62604, "ts": "2026-05-18T19:16:47+00:00", "type": "averias", "has_photo": false}
+{"id": 62606, "ts": "2026-05-18T19:29:47+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
+{"id": 62607, "ts": "2026-05-18T19:34:15+00:00", "type": "daf", "has_photo": false}
