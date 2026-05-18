@@ -49,3 +49,5 @@
 {"id": 62503, "ts": "2026-05-18T00:17:23+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62504, "ts": "2026-05-18T00:19:14+00:00", "type": "restablecimiento_daf", "has_photo": false}
 {"id": 62505, "ts": "2026-05-18T00:19:48+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 4, "hours_off": 14, "minutes_off": 1}, {"bloque": 6, "hours_off": 13, "minutes_off": 0}, {"bloque": 2, "hours_off": 8, "minutes_off": 46}, {"bloque": 1, "hours_off": 6, "minutes_off": 54}, {"bloque": 5, "hours_off": 6, "minutes_off": 37}, {"bloque": 3, "hours_off": 4, "minutes_off": 53}], "total_mw": 422}
+{"id": 62506, "ts": "2026-05-18T00:48:02+00:00", "type": "averias", "has_photo": false}
+{"id": 62507, "ts": "2026-05-18T00:51:45+00:00", "type": "restablecimiento", "has_photo": false}
