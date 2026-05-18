@@ -30,12 +30,12 @@
     "Marianao": 1
   },
   "averias_total": 14,
-  "source_msg_count": 104,
+  "source_msg_count": 105,
   "by_type_counts": {
     "restablecimiento": 19,
     "actualizacion_bloques": 14,
     "daf": 18,
-    "otro": 4,
+    "otro": 5,
     "averias": 9,
     "disparo_circuito": 12,
     "inicio_afectacion": 8,
