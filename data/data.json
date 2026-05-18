@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T02:51:13+00:00",
+  "generated_at": "2026-05-18T03:06:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-18T02:38:07+00:00",
+    "as_of": "2026-05-18T03:00:07+00:00",
     "bloques": [
       {
         "id": 1,
@@ -45,10 +45,20 @@
     "current_mw_affected": 434,
     "current_mw_affected_at": "2026-05-18T01:56:40+00:00",
     "active_averias": {
-      "ts": "2026-05-18T00:48:02+00:00",
-      "averias": []
+      "ts": "2026-05-18T02:56:35+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "la siguiente dirección: 41 / 72 y 72 A"
+        }
+      ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-18T02:56:35+00:00",
+        "municipio": "Playa",
+        "direccion": "la siguiente dirección: 41 / 72 y 72 A"
+      },
       {
         "ts": "2026-05-18T02:27:32+00:00",
         "municipio": "De Boyeros",
@@ -88,15 +98,11 @@
         "ts": "2026-05-17T03:36:54+00:00",
         "municipio": "Playa",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-17T02:55:05+00:00",
-        "municipio": "Marianao"
       }
     ],
     "last_daf": {
-      "ts": "2026-05-18T02:38:07+00:00",
-      "type": "daf"
+      "ts": "2026-05-18T03:00:07+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -325,18 +331,19 @@
       "Boyeros": 1,
       "Guanabacoa": 1,
       "Cotorro": 1,
-      "De Boyeros": 1
+      "De Boyeros": 1,
+      "Playa": 1
     },
-    "averias_total": 7,
-    "source_msg_count": 61,
+    "averias_total": 8,
+    "source_msg_count": 63,
     "by_type_counts": {
-      "averias": 2,
+      "averias": 3,
       "daf": 21,
       "inicio_afectacion": 4,
       "actualizacion_bloques": 7,
       "disparo_circuito": 7,
       "restablecimiento": 8,
-      "restablecimiento_daf": 11,
+      "restablecimiento_daf": 12,
       "corto": 1
     }
   },
@@ -409,8 +416,8 @@
       "Lisa": 9,
       "San Miguel Del Padrón": 7,
       "Plaza": 6,
+      "Playa": 6,
       "Cerro": 5,
-      "Playa": 5,
       "Marianao": 4,
       "Regla": 3,
       "Cotorro": 3,
@@ -420,7 +427,7 @@
       "Plaza De La Revolución": 1,
       "De Boyeros": 1
     },
-    "averias_total": 95,
+    "averias_total": 96,
     "daf_total": 84,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -454,7 +461,7 @@
       "San Miguel Del Padrón": 19,
       "Boyeros": 18,
       "Plaza": 15,
-      "Playa": 13,
+      "Playa": 14,
       "Cerro": 12,
       "Marianao": 9,
       "Cotorro": 8,
@@ -469,7 +476,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 218,
+    "averias_total": 219,
     "daf_total": 160,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -490,10 +497,10 @@
       "5": 54839,
       "6": 56510
     },
-    "averias_total": 3159,
+    "averias_total": 3160,
     "averias_top_municipios": {
       "Boyeros": 326,
-      "Playa": 279,
+      "Playa": 280,
       "Arroyo Naranjo": 246,
       "Lisa": 226,
       "Habana Del Este": 217,
