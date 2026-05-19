@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T18:02:16+00:00",
+  "generated_at": "2026-05-19T18:17:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T18:00:17+00:00",
+    "as_of": "2026-05-19T18:12:14+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,8 +33,9 @@
       },
       {
         "id": 6,
-        "state": "encendido",
-        "since": "2026-05-19T14:35:47+00:00"
+        "state": "apagado",
+        "since": "2026-05-19T18:02:18+00:00",
+        "emergency": true
       }
     ],
     "current_mw_affected": 103,
@@ -148,11 +149,6 @@
         "ts": "2026-05-18T19:05:00+00:00",
         "municipio": "Habana Del Este",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-18T18:06:29+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -164,7 +160,12 @@
       "state": "online",
       "since": null,
       "last_outage_at": "2026-03-21",
-      "last_recovered_at": null
+      "last_recovered_at": null,
+      "partial_sen": {
+        "active": false,
+        "since": null,
+        "last_recovered_at": null
+      }
     },
     "ctes": [
       {
@@ -379,6 +380,9 @@
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
@@ -390,13 +394,13 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 12,
-    "source_msg_count": 69,
+    "source_msg_count": 71,
     "by_type_counts": {
       "averias": 13,
       "actualizacion_bloques": 11,
-      "restablecimiento": 12,
+      "restablecimiento": 13,
       "disparo_circuito": 8,
-      "inicio_afectacion": 3,
+      "inicio_afectacion": 4,
       "daf": 4,
       "restablecimiento_daf": 2,
       "sen_update": 1,
@@ -428,6 +432,9 @@
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Plaza": 3,
@@ -498,6 +505,8 @@
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
+    "partial_sen_collapse_total": 0,
+    "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {},
     "window": "7d"
   },
@@ -545,6 +554,8 @@
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
+    "partial_sen_collapse_total": 0,
+    "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
       "felton": 803
     }
@@ -583,6 +594,8 @@
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
+    "partial_sen_collapse_total": 0,
+    "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

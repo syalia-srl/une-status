@@ -18,6 +18,9 @@
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
+  "partial_sen_collapse_count": 0,
+  "partial_sen_reconnect_count": 0,
+  "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Plaza": 3,

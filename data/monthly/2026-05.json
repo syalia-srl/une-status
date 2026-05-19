@@ -42,6 +42,8 @@
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
+  "partial_sen_collapse_total": 0,
+  "partial_sen_outage_minutes_total": 0,
   "cte_offline_minutes_total": {
     "felton": 803
   }
