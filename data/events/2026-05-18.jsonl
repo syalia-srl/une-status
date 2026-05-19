@@ -115,3 +115,5 @@
 {"id": 62645, "ts": "2026-05-19T02:46:30+00:00", "type": "corto", "has_photo": false}
 {"id": 62646, "ts": "2026-05-19T02:48:04+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Centro Habana", "direccion": "las calles Infanta y Desagüe 🚨"}]}
 {"id": 62647, "ts": "2026-05-19T03:06:37+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
+{"id": 62648, "ts": "2026-05-19T03:22:25+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62649, "ts": "2026-05-19T03:26:29+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 13, "minutes_off": 15}, {"bloque": 2, "hours_off": 12, "minutes_off": 0}, {"bloque": 1, "hours_off": 8, "minutes_off": 55}, {"bloque": 3, "hours_off": 8, "minutes_off": 40}, {"bloque": 5, "hours_off": 6, "minutes_off": 40}, {"bloque": 4, "hours_off": 6, "minutes_off": 0}], "total_mw": 438}

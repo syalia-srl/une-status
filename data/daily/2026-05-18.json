@@ -6,14 +6,14 @@
   "interruption_minutes": 1440,
   "emergency_mw": 100,
   "block_outage_minutes": {
-    "1": 475,
-    "2": 660,
-    "3": 460,
-    "4": 300,
-    "5": 340,
-    "6": 735
+    "1": 535,
+    "2": 720,
+    "3": 520,
+    "4": 360,
+    "5": 400,
+    "6": 795
   },
-  "total_block_outage_minutes": 2970,
+  "total_block_outage_minutes": 3330,
   "daf_count": 18,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -31,10 +31,10 @@
     "Centro Habana": 1
   },
   "averias_total": 15,
-  "source_msg_count": 117,
+  "source_msg_count": 119,
   "by_type_counts": {
-    "restablecimiento": 21,
-    "actualizacion_bloques": 18,
+    "restablecimiento": 22,
+    "actualizacion_bloques": 19,
     "daf": 18,
     "otro": 5,
     "averias": 10,
