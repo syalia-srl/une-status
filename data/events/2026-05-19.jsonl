@@ -12,3 +12,4 @@
 {"id": 62663, "ts": "2026-05-19T07:20:40+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
 {"id": 62664, "ts": "2026-05-19T07:45:07+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 12, "minutes_off": 55}, {"bloque": 5, "hours_off": 10, "minutes_off": 50}, {"bloque": 4, "hours_off": 10, "minutes_off": 40}, {"bloque": 6, "hours_off": 0, "minutes_off": 25}], "total_mw": 287}
 {"id": 62665, "ts": "2026-05-19T07:51:21+00:00", "type": "disparo_circuito", "has_photo": false, "municipio": "Regla"}
+{"id": 62666, "ts": "2026-05-19T09:48:07+00:00", "type": "averias", "has_photo": false}
