@@ -20,16 +20,16 @@
   "sen_outage": false,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
+    "Marianao": 2,
     "Arroyo Naranjo": 1,
-    "Marianao": 1,
     "Lisa": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 5,
+  "averias_total": 4,
+  "source_msg_count": 6,
   "by_type_counts": {
     "averias": 2,
     "actualizacion_bloques": 1,
     "restablecimiento": 1,
-    "disparo_circuito": 1
+    "disparo_circuito": 2
   }
 }

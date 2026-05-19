@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T05:09:35+00:00",
+  "generated_at": "2026-05-19T05:25:05+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T05:02:54+00:00",
+    "as_of": "2026-05-19T05:21:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -53,6 +53,11 @@
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-19T05:21:03+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-19T05:02:54+00:00",
         "municipio": "Lisa",
@@ -375,17 +380,17 @@
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Marianao": 2,
       "Arroyo Naranjo": 1,
-      "Marianao": 1,
       "Lisa": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 5,
+    "averias_total": 4,
+    "source_msg_count": 6,
     "by_type_counts": {
       "averias": 2,
       "actualizacion_bloques": 1,
       "restablecimiento": 1,
-      "disparo_circuito": 1
+      "disparo_circuito": 2
     }
   },
   "yesterday": {
@@ -464,8 +469,8 @@
       "Plaza": 8,
       "San Miguel Del Padrón": 5,
       "Playa": 5,
+      "Marianao": 5,
       "Cerro": 4,
-      "Marianao": 4,
       "Centro Habana": 3,
       "Regla": 3,
       "Cotorro": 3,
@@ -473,7 +478,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 97,
+    "averias_total": 98,
     "daf_total": 91,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -507,7 +512,7 @@
       "Plaza": 18,
       "Playa": 14,
       "Cerro": 12,
-      "Marianao": 11,
+      "Marianao": 12,
       "Cotorro": 8,
       "Plaza De La Revolución": 6,
       "Centro Habana": 5,
@@ -520,7 +525,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 237,
+    "averias_total": 238,
     "daf_total": 179,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -541,7 +546,7 @@
       "5": 55778,
       "6": 57404
     },
-    "averias_total": 3178,
+    "averias_total": 3179,
     "averias_top_municipios": {
       "Boyeros": 329,
       "Playa": 280,
@@ -552,7 +557,7 @@
       "Cerro": 182,
       "Plaza": 179,
       "San Miguel Del Padrón": 178,
-      "Marianao": 143,
+      "Marianao": 144,
       "Cotorro": 93,
       "Centro Habana": 67,
       "De Boyeros": 49,
