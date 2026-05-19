@@ -14,7 +14,7 @@
     "6": 320
   },
   "total_block_outage_minutes": 2132,
-  "daf_count": 4,
+  "daf_count": 5,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -32,14 +32,14 @@
     "Plaza De La Revolución": 1
   },
   "averias_total": 18,
-  "source_msg_count": 98,
+  "source_msg_count": 99,
   "by_type_counts": {
     "averias": 21,
     "actualizacion_bloques": 16,
     "restablecimiento": 20,
     "disparo_circuito": 9,
     "inicio_afectacion": 7,
-    "daf": 4,
+    "daf": 5,
     "restablecimiento_daf": 3,
     "sen_update": 1,
     "otro": 5,

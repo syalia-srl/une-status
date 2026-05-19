@@ -1,43 +1,45 @@
 {
-  "generated_at": "2026-05-19T23:41:15+00:00",
+  "generated_at": "2026-05-19T23:56:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T23:39:37+00:00",
+    "as_of": "2026-05-19T23:46:05+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-05-19T20:47:42+00:00",
-        "emergency": true
+        "since": "2026-05-19T20:59:37+00:00",
+        "hours_off_today": 2.6666666666666665
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-05-19T18:20:38+00:00",
-        "emergency": true
+        "since": "2026-05-19T18:39:37+00:00",
+        "hours_off_today": 5.0
       },
       {
         "id": 3,
-        "state": "encendido",
-        "since": "2026-05-19T20:23:37+00:00"
+        "state": "apagado",
+        "since": "2026-05-19T15:14:37+00:00",
+        "hours_off_today": 8.416666666666666
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-05-19T17:21:13+00:00",
-        "emergency": true
+        "since": "2026-05-19T17:39:37+00:00",
+        "hours_off_today": 6.0
       },
       {
         "id": 5,
-        "state": "encendido",
-        "since": "2026-05-19T12:21:43+00:00"
+        "state": "apagado",
+        "since": "2026-05-19T15:32:37+00:00",
+        "hours_off_today": 8.116666666666667
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-05-19T18:02:18+00:00",
-        "emergency": true
+        "since": "2026-05-19T18:19:37+00:00",
+        "hours_off_today": 5.333333333333333
       }
     ],
     "current_mw_affected": 360,
@@ -158,8 +160,8 @@
       }
     ],
     "last_daf": {
-      "ts": "2026-05-19T19:29:33+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-19T23:46:05+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -382,7 +384,7 @@
       "6": 320
     },
     "total_block_outage_minutes": 2132,
-    "daf_count": 4,
+    "daf_count": 5,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -400,14 +402,14 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 18,
-    "source_msg_count": 98,
+    "source_msg_count": 99,
     "by_type_counts": {
       "averias": 21,
       "actualizacion_bloques": 16,
       "restablecimiento": 20,
       "disparo_circuito": 9,
       "inicio_afectacion": 7,
-      "daf": 4,
+      "daf": 5,
       "restablecimiento_daf": 3,
       "sen_update": 1,
       "otro": 5,
@@ -507,7 +509,7 @@
       "De Boyeros": 1
     },
     "averias_total": 112,
-    "daf_total": 95,
+    "daf_total": 96,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -556,7 +558,7 @@
       "De Boyeros": 1
     },
     "averias_total": 252,
-    "daf_total": 183,
+    "daf_total": 184,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -596,7 +598,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2332,
+    "daf_total": 2333,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1955,8 +1957,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2332,
-    "daf_last_30d": 252,
+    "daf_total": 2333,
+    "daf_last_30d": 253,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
