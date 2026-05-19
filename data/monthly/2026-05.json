@@ -17,8 +17,8 @@
   "averias_count_by_municipio": {
     "Habana Del Este": 35,
     "Arroyo Naranjo": 28,
+    "Guanabacoa": 28,
     "Lisa": 27,
-    "Guanabacoa": 27,
     "Boyeros": 21,
     "San Miguel Del Padrón": 19,
     "Plaza": 18,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 247,
+  "averias_total": 248,
   "daf_total": 183,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,

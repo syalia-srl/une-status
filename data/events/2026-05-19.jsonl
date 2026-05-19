@@ -73,3 +73,5 @@
 {"id": 62729, "ts": "2026-05-19T18:20:38+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
 {"id": 62730, "ts": "2026-05-19T18:21:51+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 3, "minutes_off": 25}, {"bloque": 5, "hours_off": 3, "minutes_off": 7}, {"bloque": 4, "hours_off": 1, "minutes_off": 0}, {"bloque": 6, "hours_off": 0, "minutes_off": 0}], "total_mw": 174}
 {"id": 62731, "ts": "2026-05-19T18:32:45+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": ": Guiteras / Las Cañas y Ave Casablanca", "severity": "secundaria"}]}
+{"id": 62732, "ts": "2026-05-19T19:10:53+00:00", "type": "inicio_afectacion", "has_photo": false, "emergency": true}
+{"id": 62733, "ts": "2026-05-19T19:14:25+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": 1ra / 4ta y 6ta ,Azotea", "severity": "primaria"}]}
