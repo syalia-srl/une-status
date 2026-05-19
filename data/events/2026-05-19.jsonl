@@ -40,3 +40,7 @@
 {"id": 62693, "ts": "2026-05-19T13:42:11+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": ": 39 / 268 Y 270 , Arroyo Arena", "severity": "secundaria"}]}
 {"id": 62694, "ts": "2026-05-19T13:48:23+00:00", "type": "disparo_circuito", "has_photo": false}
 {"id": 62695, "ts": "2026-05-19T14:08:07+00:00", "type": "via_libre", "has_photo": false}
+{"id": 62696, "ts": "2026-05-19T14:11:38+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62697, "ts": "2026-05-19T14:12:33+00:00", "type": "via_libre", "has_photo": false}
+{"id": 62698, "ts": "2026-05-19T14:17:41+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": ": Zona 5 , Alamar", "severity": "secundaria"}]}
+{"id": 62699, "ts": "2026-05-19T14:23:51+00:00", "type": "daf", "has_photo": false}
