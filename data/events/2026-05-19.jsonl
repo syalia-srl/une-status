@@ -91,3 +91,4 @@
 {"id": 62747, "ts": "2026-05-19T22:05:25+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": 5ta / Camilo Cienfuegos y José Martí, Reparto Eléctrico 🛑 ⚡️", "severity": "secundaria"}]}
 {"id": 62748, "ts": "2026-05-19T22:07:36+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": Josefina / 1ra y Lindero 🛑 📢", "severity": "secundaria"}]}
 {"id": 62749, "ts": "2026-05-19T22:54:33+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62750, "ts": "2026-05-19T23:05:50+00:00", "type": "averias", "has_photo": false}
