@@ -6,11 +6,11 @@
   "max_peak_mw": 499,
   "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
-    "1": 6315,
+    "1": 6405,
     "2": 6217,
-    "3": 6961,
-    "4": 6613,
-    "5": 5697,
+    "3": 7051,
+    "4": 6703,
+    "5": 5787,
     "6": 7102
   },
   "total_emergency_mw_sum": 1510,

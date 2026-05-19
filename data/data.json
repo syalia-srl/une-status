@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T07:13:24+00:00",
+  "generated_at": "2026-05-19T07:29:15+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T06:35:17+00:00",
+    "as_of": "2026-05-19T07:20:40+00:00",
     "bloques": [
       {
         "id": 1,
@@ -36,11 +36,11 @@
       {
         "id": 6,
         "state": "encendido",
-        "since": "2026-05-19T03:06:37+00:00"
+        "since": "2026-05-19T07:20:40+00:00"
       }
     ],
-    "current_mw_affected": 344,
-    "current_mw_affected_at": "2026-05-19T05:46:28+00:00",
+    "current_mw_affected": 308,
+    "current_mw_affected_at": "2026-05-19T07:16:09+00:00",
     "active_averias": {
       "ts": "2026-05-19T06:04:25+00:00",
       "averias": [
@@ -134,21 +134,6 @@
       {
         "ts": "2026-05-18T13:29:10+00:00",
         "municipio": "Plaza De La Revolución",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-18T06:56:51+00:00",
-        "municipio": "Guanabacoa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-18T06:48:01+00:00",
-        "municipio": "Lisa",
-        "direccion": "los siguientes repartos: Punta Brava, El Guatao, Estrella Roja"
-      },
-      {
-        "ts": "2026-05-18T06:45:17+00:00",
-        "municipio": "Boyeros",
         "kind": "disparo_circuito"
       }
     ],
@@ -364,14 +349,14 @@
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 670,
+      "1": 760,
       "2": 0,
-      "3": 655,
-      "4": 520,
-      "5": 530,
+      "3": 745,
+      "4": 610,
+      "5": 620,
       "6": 0
     },
-    "total_block_outage_minutes": 2375,
+    "total_block_outage_minutes": 2735,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -383,11 +368,11 @@
       "Lisa": 1
     },
     "averias_total": 5,
-    "source_msg_count": 10,
+    "source_msg_count": 12,
     "by_type_counts": {
       "averias": 3,
-      "actualizacion_bloques": 2,
-      "restablecimiento": 3,
+      "actualizacion_bloques": 3,
+      "restablecimiento": 4,
       "disparo_circuito": 2
     }
   },
@@ -450,11 +435,11 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 7200,
     "total_block_outage_minutes": {
-      "1": 3023,
+      "1": 3113,
       "2": 2850,
-      "3": 3399,
-      "4": 4192,
-      "5": 2972,
+      "3": 3489,
+      "4": 4282,
+      "5": 3062,
       "6": 3704
     },
     "total_emergency_mw_sum": 571,
@@ -492,11 +477,11 @@
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 6315,
+      "1": 6405,
       "2": 6217,
-      "3": 6961,
-      "4": 6613,
-      "5": 5697,
+      "3": 7051,
+      "4": 6703,
+      "5": 5787,
       "6": 7102
     },
     "total_emergency_mw_sum": 1510,
@@ -537,11 +522,11 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 60809,
+      "1": 60899,
       "2": 64296,
-      "3": 52685,
-      "4": 58845,
-      "5": 55868,
+      "3": 52775,
+      "4": 58935,
+      "5": 55958,
       "6": 57404
     },
     "averias_total": 3180,
@@ -818,7 +803,7 @@
       },
       {
         "date": "2026-05-19",
-        "minutes": 2375
+        "minutes": 2735
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1912,7 +1897,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 38905
+        "minutes": 39265
       }
     ],
     "sen_outage_days_total": 7,
