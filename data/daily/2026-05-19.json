@@ -26,13 +26,13 @@
     "Regla": 1
   },
   "averias_total": 6,
-  "source_msg_count": 21,
+  "source_msg_count": 23,
   "by_type_counts": {
     "averias": 4,
     "actualizacion_bloques": 6,
-    "restablecimiento": 5,
+    "restablecimiento": 6,
     "disparo_circuito": 3,
-    "inicio_afectacion": 1,
+    "inicio_afectacion": 2,
     "daf": 1,
     "restablecimiento_daf": 1
   }
