@@ -23,18 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 3,
+    "Arroyo Naranjo": 4,
     "Marianao": 3,
+    "Habana Del Este": 3,
     "Lisa": 2,
     "Guanabacoa": 2,
-    "Habana Del Este": 2,
     "Regla": 1,
     "Plaza De La Revolución": 1
   },
-  "averias_total": 14,
-  "source_msg_count": 79,
+  "averias_total": 16,
+  "source_msg_count": 81,
   "by_type_counts": {
-    "averias": 15,
+    "averias": 17,
     "actualizacion_bloques": 13,
     "restablecimiento": 13,
     "disparo_circuito": 9,

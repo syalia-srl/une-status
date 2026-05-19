@@ -77,3 +77,5 @@
 {"id": 62733, "ts": "2026-05-19T19:14:25+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Guanabacoa", "direccion": ": 1ra / 4ta y 6ta ,Azotea", "severity": "primaria"}]}
 {"id": 62734, "ts": "2026-05-19T19:24:31+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 4, "minutes_off": 25}, {"bloque": 5, "hours_off": 4, "minutes_off": 7}, {"bloque": 4, "hours_off": 2, "minutes_off": 0}, {"bloque": 6, "hours_off": 1, "minutes_off": 20}, {"bloque": 2, "hours_off": 1, "minutes_off": 0}], "total_mw": 278}
 {"id": 62735, "ts": "2026-05-19T19:29:33+00:00", "type": "restablecimiento_daf", "has_photo": false}
+{"id": 62736, "ts": "2026-05-19T20:13:51+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": Eléctrico, Ciudad Jardín, Parcelación Moderna 📌 📢", "severity": "primaria"}]}
+{"id": 62737, "ts": "2026-05-19T20:15:18+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": ": 20 / 17 A y 19 A, Guiteras 📍 🛑", "severity": "secundaria"}]}
