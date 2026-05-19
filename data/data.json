@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T21:07:35+00:00",
+  "generated_at": "2026-05-19T21:23:24+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T21:00:47+00:00",
+    "as_of": "2026-05-19T21:16:37+00:00",
     "bloques": [
       {
         "id": 1,
@@ -43,14 +43,8 @@
     "current_mw_affected": 318,
     "current_mw_affected_at": "2026-05-19T20:23:11+00:00",
     "active_averias": {
-      "ts": "2026-05-19T20:15:18+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": ": 20 / 17 A y 19 A, Guiteras 📍 🛑",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-05-19T21:16:37+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
@@ -154,18 +148,6 @@
         "ts": "2026-05-18T21:35:06+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-18T21:11:44+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles 6ta entre 3ra y A, Habana Nueva 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-18T21:07:14+00:00",
-        "municipio": "Plaza",
-        "direccion": "las calles: 1ra entre 10 y 12, afectando el servicio eléctrico en Río Almendares hasta calle 20 desde Avenida 23 hasta Malecón, cuadrante desde calle 6 hasta 20 y desde Línea hasta Malecón 🚨",
-        "severity": "primaria"
       }
     ],
     "last_daf": {
@@ -411,9 +393,9 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 16,
-    "source_msg_count": 87,
+    "source_msg_count": 88,
     "by_type_counts": {
-      "averias": 17,
+      "averias": 18,
       "actualizacion_bloques": 14,
       "restablecimiento": 16,
       "disparo_circuito": 9,
