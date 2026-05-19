@@ -30,3 +30,7 @@
 {"id": 62682, "ts": "2026-05-19T12:37:23+00:00", "type": "transferencia_bloque", "has_photo": false}
 {"id": 62683, "ts": "2026-05-19T12:39:27+00:00", "type": "nota_diaria", "has_photo": true, "interruption_minutes": 1440, "max_affected_mw": 491, "max_affected_clock": "21:10", "emergency_mw": 125, "closing_affected_mw": 225, "closing_affected_blocks": 5}
 {"id": 62684, "ts": "2026-05-19T12:47:07+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 4}
+{"id": 62686, "ts": "2026-05-19T13:22:33+00:00", "type": "otro", "has_photo": false}
+{"id": 62687, "ts": "2026-05-19T13:22:45+00:00", "type": "transferencia_bloque", "has_photo": false}
+{"id": 62688, "ts": "2026-05-19T13:22:45+00:00", "type": "otro", "has_photo": false}
+{"id": 62689, "ts": "2026-05-19T13:22:48+00:00", "type": "transferencia_bloque", "has_photo": false}
