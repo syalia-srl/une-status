@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T17:15:19+00:00",
+  "generated_at": "2026-05-19T17:31:14+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T17:12:13+00:00",
+    "as_of": "2026-05-19T17:21:13+00:00",
     "bloques": [
       {
         "id": 1,
@@ -22,8 +22,9 @@
       },
       {
         "id": 4,
-        "state": "encendido",
-        "since": "2026-05-19T12:47:07+00:00"
+        "state": "apagado",
+        "since": "2026-05-19T17:21:13+00:00",
+        "emergency": true
       },
       {
         "id": 5,
@@ -395,13 +396,13 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 12,
-    "source_msg_count": 67,
+    "source_msg_count": 68,
     "by_type_counts": {
       "averias": 13,
       "actualizacion_bloques": 11,
       "restablecimiento": 12,
       "disparo_circuito": 8,
-      "inicio_afectacion": 2,
+      "inicio_afectacion": 3,
       "daf": 3,
       "restablecimiento_daf": 2,
       "sen_update": 1,
