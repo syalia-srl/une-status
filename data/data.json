@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T04:54:02+00:00",
+  "generated_at": "2026-05-19T05:09:35+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T04:38:11+00:00",
+    "as_of": "2026-05-19T05:02:54+00:00",
     "bloques": [
       {
         "id": 1,
@@ -43,16 +43,27 @@
     "current_mw_affected": 408,
     "current_mw_affected_at": "2026-05-19T04:12:43+00:00",
     "active_averias": {
-      "ts": "2026-05-19T04:09:24+00:00",
+      "ts": "2026-05-19T05:02:54+00:00",
       "averias": [
         {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "las calles: Gonzalo entre Alberto y Mario, Santa Amalia 🚨",
+          "municipio": "Lisa",
+          "direccion": "las calles: 268 entre 35 y 37, Arroyo Arenas 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
+      {
+        "ts": "2026-05-19T05:02:54+00:00",
+        "municipio": "Lisa",
+        "direccion": "las calles: 268 entre 35 y 37, Arroyo Arenas 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-19T04:56:29+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      },
       {
         "ts": "2026-05-19T04:09:24+00:00",
         "municipio": "Arroyo Naranjo",
@@ -364,14 +375,17 @@
     "sen_outage": false,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 1,
+      "Marianao": 1,
+      "Lisa": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 3,
+    "averias_total": 3,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "averias": 1,
+      "averias": 2,
       "actualizacion_bloques": 1,
-      "restablecimiento": 1
+      "restablecimiento": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -445,21 +459,21 @@
       "Boyeros": 15,
       "Guanabacoa": 14,
       "Arroyo Naranjo": 11,
-      "Lisa": 9,
+      "Lisa": 10,
       "Habana Del Este": 8,
       "Plaza": 8,
       "San Miguel Del Padrón": 5,
       "Playa": 5,
       "Cerro": 4,
+      "Marianao": 4,
       "Centro Habana": 3,
       "Regla": 3,
       "Cotorro": 3,
-      "Marianao": 3,
       "Plaza De La Revolución": 2,
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 95,
+    "averias_total": 97,
     "daf_total": 91,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -486,14 +500,14 @@
     "averias_count_by_municipio": {
       "Habana Del Este": 33,
       "Arroyo Naranjo": 26,
+      "Lisa": 26,
       "Guanabacoa": 26,
-      "Lisa": 25,
       "Boyeros": 21,
       "San Miguel Del Padrón": 19,
       "Plaza": 18,
       "Playa": 14,
       "Cerro": 12,
-      "Marianao": 10,
+      "Marianao": 11,
       "Cotorro": 8,
       "Plaza De La Revolución": 6,
       "Centro Habana": 5,
@@ -506,7 +520,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 235,
+    "averias_total": 237,
     "daf_total": 179,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -527,18 +541,18 @@
       "5": 55778,
       "6": 57404
     },
-    "averias_total": 3176,
+    "averias_total": 3178,
     "averias_top_municipios": {
       "Boyeros": 329,
       "Playa": 280,
       "Arroyo Naranjo": 248,
-      "Lisa": 227,
+      "Lisa": 228,
       "Habana Del Este": 218,
       "Guanabacoa": 210,
       "Cerro": 182,
       "Plaza": 179,
       "San Miguel Del Padrón": 178,
-      "Marianao": 142,
+      "Marianao": 143,
       "Cotorro": 93,
       "Centro Habana": 67,
       "De Boyeros": 49,
