@@ -465,7 +465,7 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             for blk in e.get("blocks", []):
                 bn = blk["bloque"]
                 if bn not in last_actualizacion_blocks:
-                    last_actualizacion_blocks[bn] = blk
+                    last_actualizacion_blocks[bn] = {**blk, "ts": e["ts"]}
         if t in ("inicio_afectacion", "restablecimiento") and b and b not in blocks:
             blocks[b] = {
                 "state": "apagado" if t == "inicio_afectacion" else "encendido",
@@ -502,6 +502,16 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             entry = {"id": bn, "state": b["state"], "since": b["since"]}
             if b["state"] == "apagado" and b.get("emergency"):
                 entry["emergency"] = True
+            # If a later actualizacion_bloques shows hours_off=0, the block was
+            # implicitly restored — override the explicit-event state.
+            if b["state"] == "apagado" and actual and actual.get("ts"):
+                if (
+                    _parse_ts(actual["ts"]) > _parse_ts(b["since"])
+                    and actual.get("hours_off", 1) == 0
+                    and actual.get("minutes_off", 1) == 0
+                ):
+                    entry["state"] = "encendido"
+                    entry.pop("emergency", None)
         elif actual:
             # infer from latest schedule: any hours_off > 0 → currently off (approx)
             off = (actual["hours_off"] * 60 + actual["minutes_off"]) > 0

@@ -159,3 +159,45 @@ def test_current_state_picks_latest_per_block():
     assert b3["state"] == "apagado"
     assert b3.get("emergency") is True
     assert b4["state"] == "encendido"
+
+
+def test_current_state_infers_restoration_from_actualizacion():
+    """Block has explicit inicio_afectacion; a later actualizacion_bloques
+    shows hours_off=0 for that block → state must be overridden to encendido."""
+    events = [
+        {
+            "id": 10,
+            "ts": "2026-05-12T08:00:00+00:00",
+            "type": "inicio_afectacion",
+            "bloque": 3,
+            "emergency": True,
+        },
+        {
+            "id": 20,
+            "ts": "2026-05-12T10:00:00+00:00",
+            "type": "actualizacion_bloques",
+            "total_mw": 400,
+            "blocks": [{"bloque": 3, "hours_off": 0, "minutes_off": 0}],
+        },
+    ]
+    cs = current_state(events)
+    b3 = next(b for b in cs["bloques"] if b["id"] == 3)
+    assert b3["state"] == "encendido"
+    assert not b3.get("emergency")
+
+
+def test_current_state_no_restoration_without_later_actualizacion():
+    """Regression guard: block with explicit inicio_afectacion and no
+    actualizacion_bloques following must stay apagado."""
+    events = [
+        {
+            "id": 10,
+            "ts": "2026-05-12T08:00:00+00:00",
+            "type": "inicio_afectacion",
+            "bloque": 3,
+            "emergency": False,
+        },
+    ]
+    cs = current_state(events)
+    b3 = next(b for b in cs["bloques"] if b["id"] == 3)
+    assert b3["state"] == "apagado"
