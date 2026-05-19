@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T15:11:38+00:00",
+  "generated_at": "2026-05-19T15:22:30+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T15:04:36+00:00",
+    "as_of": "2026-05-19T15:18:11+00:00",
     "bloques": [
       {
         "id": 1,
@@ -148,11 +148,6 @@
         "municipio": "Arroyo Naranjo",
         "direccion": "Calzada de Bejucal entre 5ta y 6ta, Poey 🚨",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-18T15:04:53+00:00",
-        "municipio": "Guanabacoa",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -389,7 +384,7 @@
       "Habana Del Este": 1
     },
     "averias_total": 9,
-    "source_msg_count": 53,
+    "source_msg_count": 54,
     "by_type_counts": {
       "averias": 7,
       "actualizacion_bloques": 9,
@@ -399,7 +394,7 @@
       "daf": 3,
       "restablecimiento_daf": 2,
       "sen_update": 1,
-      "otro": 3,
+      "otro": 4,
       "transferencia_bloque": 3,
       "nota_diaria": 1,
       "via_libre": 3,

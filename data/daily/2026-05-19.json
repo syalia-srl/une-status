@@ -28,7 +28,7 @@
     "Habana Del Este": 1
   },
   "averias_total": 9,
-  "source_msg_count": 53,
+  "source_msg_count": 54,
   "by_type_counts": {
     "averias": 7,
     "actualizacion_bloques": 9,
@@ -38,7 +38,7 @@
     "daf": 3,
     "restablecimiento_daf": 2,
     "sen_update": 1,
-    "otro": 3,
+    "otro": 4,
     "transferencia_bloque": 3,
     "nota_diaria": 1,
     "via_libre": 3,
