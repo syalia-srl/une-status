@@ -23,8 +23,8 @@
     "San Miguel Del Padrón": 19,
     "Plaza": 18,
     "Playa": 14,
+    "Marianao": 13,
     "Cerro": 12,
-    "Marianao": 12,
     "Cotorro": 8,
     "Plaza De La Revolución": 6,
     "Centro Habana": 5,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 238,
+  "averias_total": 239,
   "daf_total": 179,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
