@@ -87,3 +87,6 @@
 {"id": 62743, "ts": "2026-05-19T21:00:47+00:00", "type": "corto", "has_photo": true}
 {"id": 62744, "ts": "2026-05-19T21:16:37+00:00", "type": "averias", "has_photo": false}
 {"id": 62745, "ts": "2026-05-19T21:23:28+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 6, "minutes_off": 25}, {"bloque": 5, "hours_off": 6, "minutes_off": 7}, {"bloque": 4, "hours_off": 4, "minutes_off": 0}, {"bloque": 6, "hours_off": 3, "minutes_off": 20}, {"bloque": 2, "hours_off": 3, "minutes_off": 0}, {"bloque": 1, "hours_off": 0, "minutes_off": 40}], "total_mw": 339}
+{"id": 62746, "ts": "2026-05-19T22:02:15+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62747, "ts": "2026-05-19T22:05:25+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": 5ta / Camilo Cienfuegos y José Martí, Reparto Eléctrico 🛑 ⚡️", "severity": "secundaria"}]}
+{"id": 62748, "ts": "2026-05-19T22:07:36+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": Josefina / 1ra y Lindero 🛑 📢", "severity": "secundaria"}]}
