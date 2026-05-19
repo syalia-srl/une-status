@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T20:22:06+00:00",
+  "generated_at": "2026-05-19T20:37:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T20:15:18+00:00",
+    "as_of": "2026-05-19T20:32:41+00:00",
     "bloques": [
       {
         "id": 1,
@@ -19,7 +19,7 @@
       {
         "id": 3,
         "state": "encendido",
-        "since": "2026-05-19T10:55:08+00:00"
+        "since": "2026-05-19T20:23:37+00:00"
       },
       {
         "id": 4,
@@ -39,8 +39,8 @@
         "emergency": true
       }
     ],
-    "current_mw_affected": 278,
-    "current_mw_affected_at": "2026-05-19T19:24:31+00:00",
+    "current_mw_affected": 318,
+    "current_mw_affected_at": "2026-05-19T20:23:11+00:00",
     "active_averias": {
       "ts": "2026-05-19T20:15:18+00:00",
       "averias": [
@@ -165,16 +165,6 @@
         "municipio": "Plaza",
         "direccion": "las calles: 1ra entre 10 y 12, afectando el servicio eléctrico en Río Almendares hasta calle 20 desde Avenida 23 hasta Malecón, cuadrante desde calle 6 hasta 20 y desde Línea hasta Malecón 🚨",
         "severity": "primaria"
-      },
-      {
-        "ts": "2026-05-18T20:27:41+00:00",
-        "municipio": "Plaza",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-18T20:24:27+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
@@ -395,13 +385,13 @@
     "emergency_mw": 125,
     "block_outage_minutes": {
       "1": 0,
-      "2": 60,
-      "3": 265,
-      "4": 120,
-      "5": 247,
-      "6": 80
+      "2": 120,
+      "3": 325,
+      "4": 180,
+      "5": 307,
+      "6": 140
     },
-    "total_block_outage_minutes": 772,
+    "total_block_outage_minutes": 1072,
     "daf_count": 4,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -420,11 +410,11 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 16,
-    "source_msg_count": 81,
+    "source_msg_count": 85,
     "by_type_counts": {
       "averias": 17,
-      "actualizacion_bloques": 13,
-      "restablecimiento": 13,
+      "actualizacion_bloques": 14,
+      "restablecimiento": 16,
       "disparo_circuito": 9,
       "inicio_afectacion": 6,
       "daf": 4,
@@ -501,11 +491,11 @@
     "total_interruption_minutes": 8640,
     "total_block_outage_minutes": {
       "1": 2353,
-      "2": 2910,
-      "3": 3009,
-      "4": 3792,
-      "5": 2689,
-      "6": 3784
+      "2": 2970,
+      "3": 3069,
+      "4": 3852,
+      "5": 2749,
+      "6": 3844
     },
     "total_emergency_mw_sum": 696,
     "averias_count_by_municipio": {
@@ -545,11 +535,11 @@
     "total_interruption_minutes": 19130,
     "total_block_outage_minutes": {
       "1": 5645,
-      "2": 6277,
-      "3": 6571,
-      "4": 6213,
-      "5": 5414,
-      "6": 7182
+      "2": 6337,
+      "3": 6631,
+      "4": 6273,
+      "5": 5474,
+      "6": 7242
     },
     "total_emergency_mw_sum": 1635,
     "averias_count_by_municipio": {
@@ -592,11 +582,11 @@
     "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
       "1": 60139,
-      "2": 64356,
-      "3": 52295,
-      "4": 58445,
-      "5": 55585,
-      "6": 57484
+      "2": 64416,
+      "3": 52355,
+      "4": 58505,
+      "5": 55645,
+      "6": 57544
     },
     "averias_total": 3191,
     "averias_top_municipios": {
@@ -874,7 +864,7 @@
       },
       {
         "date": "2026-05-19",
-        "minutes": 772
+        "minutes": 1072
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1968,7 +1958,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 37302
+        "minutes": 37602
       }
     ],
     "sen_outage_days_total": 7,
