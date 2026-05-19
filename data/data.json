@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T03:05:53+00:00",
+  "generated_at": "2026-05-19T03:21:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T02:48:04+00:00",
+    "as_of": "2026-05-19T03:06:37+00:00",
     "bloques": [
       {
         "id": 1,
@@ -38,7 +38,7 @@
       {
         "id": 6,
         "state": "encendido",
-        "since": "2026-05-18T20:17:30+00:00"
+        "since": "2026-05-19T03:06:37+00:00"
       }
     ],
     "current_mw_affected": 473,
@@ -130,11 +130,6 @@
         "ts": "2026-05-18T06:32:41+00:00",
         "municipio": "Plaza",
         "direccion": "la siguiente dirección: Ulloa e/ Santa María y Santa Teresa"
-      },
-      {
-        "ts": "2026-05-18T02:56:35+00:00",
-        "municipio": "Playa",
-        "direccion": "la siguiente dirección: 41 / 72 y 72 A"
       }
     ],
     "last_daf": {
@@ -374,9 +369,9 @@
       "Centro Habana": 1
     },
     "averias_total": 15,
-    "source_msg_count": 116,
+    "source_msg_count": 117,
     "by_type_counts": {
-      "restablecimiento": 20,
+      "restablecimiento": 21,
       "actualizacion_bloques": 18,
       "daf": 18,
       "otro": 5,
