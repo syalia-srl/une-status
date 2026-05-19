@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T13:23:30+00:00",
+  "generated_at": "2026-05-19T13:38:36+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T13:22:48+00:00",
+    "as_of": "2026-05-19T13:36:08+00:00",
     "bloques": [
       {
         "id": 1,
@@ -141,16 +141,11 @@
         "ts": "2026-05-18T15:04:53+00:00",
         "municipio": "Guanabacoa",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-18T13:29:10+00:00",
-        "municipio": "Plaza De La Revolución",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
-      "ts": "2026-05-19T10:26:57+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-19T13:35:52+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -368,7 +363,7 @@
       "6": 229
     },
     "total_block_outage_minutes": 3030,
-    "daf_count": 1,
+    "daf_count": 2,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -381,14 +376,14 @@
       "Guanabacoa": 1
     },
     "averias_total": 7,
-    "source_msg_count": 36,
+    "source_msg_count": 38,
     "by_type_counts": {
       "averias": 5,
       "actualizacion_bloques": 7,
       "restablecimiento": 9,
-      "disparo_circuito": 3,
+      "disparo_circuito": 4,
       "inicio_afectacion": 2,
-      "daf": 1,
+      "daf": 2,
       "restablecimiento_daf": 1,
       "sen_update": 1,
       "otro": 3,
@@ -482,7 +477,7 @@
       "De Boyeros": 1
     },
     "averias_total": 101,
-    "daf_total": 92,
+    "daf_total": 93,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -529,7 +524,7 @@
       "De Boyeros": 1
     },
     "averias_total": 241,
-    "daf_total": 180,
+    "daf_total": 181,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -567,7 +562,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2329,
+    "daf_total": 2330,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1924,8 +1919,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2329,
-    "daf_last_30d": 249,
+    "daf_total": 2330,
+    "daf_last_30d": 250,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

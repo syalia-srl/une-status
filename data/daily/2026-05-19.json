@@ -14,7 +14,7 @@
     "6": 229
   },
   "total_block_outage_minutes": 3030,
-  "daf_count": 1,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -27,14 +27,14 @@
     "Guanabacoa": 1
   },
   "averias_total": 7,
-  "source_msg_count": 36,
+  "source_msg_count": 38,
   "by_type_counts": {
     "averias": 5,
     "actualizacion_bloques": 7,
     "restablecimiento": 9,
-    "disparo_circuito": 3,
+    "disparo_circuito": 4,
     "inicio_afectacion": 2,
-    "daf": 1,
+    "daf": 2,
     "restablecimiento_daf": 1,
     "sen_update": 1,
     "otro": 3,
