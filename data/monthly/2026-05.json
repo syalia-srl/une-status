@@ -16,7 +16,7 @@
   "total_emergency_mw_sum": 1635,
   "averias_count_by_municipio": {
     "Habana Del Este": 34,
-    "Arroyo Naranjo": 27,
+    "Arroyo Naranjo": 28,
     "Lisa": 27,
     "Guanabacoa": 27,
     "Boyeros": 21,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 245,
+  "averias_total": 246,
   "daf_total": 182,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
