@@ -8,13 +8,13 @@
   "block_outage_minutes": {
     "1": 0,
     "2": 0,
-    "3": 775,
-    "4": 640,
-    "5": 650,
-    "6": 25
+    "3": 917,
+    "4": 776,
+    "5": 789,
+    "6": 145
   },
-  "total_block_outage_minutes": 2090,
-  "daf_count": 0,
+  "total_block_outage_minutes": 2627,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -26,11 +26,13 @@
     "Regla": 1
   },
   "averias_total": 6,
-  "source_msg_count": 15,
+  "source_msg_count": 19,
   "by_type_counts": {
     "averias": 4,
-    "actualizacion_bloques": 4,
-    "restablecimiento": 4,
-    "disparo_circuito": 3
+    "actualizacion_bloques": 5,
+    "restablecimiento": 5,
+    "disparo_circuito": 3,
+    "inicio_afectacion": 1,
+    "daf": 1
   }
 }
