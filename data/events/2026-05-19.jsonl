@@ -84,3 +84,4 @@
 {"id": 62740, "ts": "2026-05-19T20:31:40+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62741, "ts": "2026-05-19T20:32:41+00:00", "type": "restablecimiento", "has_photo": false}
 {"id": 62742, "ts": "2026-05-19T20:47:42+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 1, "emergency": true}
+{"id": 62743, "ts": "2026-05-19T21:00:47+00:00", "type": "corto", "has_photo": true}

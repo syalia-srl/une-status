@@ -32,7 +32,7 @@
     "Plaza De La Revolución": 1
   },
   "averias_total": 16,
-  "source_msg_count": 86,
+  "source_msg_count": 87,
   "by_type_counts": {
     "averias": 17,
     "actualizacion_bloques": 14,
@@ -47,6 +47,6 @@
     "nota_diaria": 1,
     "via_libre": 4,
     "empty": 1,
-    "corto": 2
+    "corto": 3
   }
 }
