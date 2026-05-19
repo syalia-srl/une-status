@@ -7,11 +7,11 @@
   "total_interruption_minutes": 19130,
   "total_block_outage_minutes": {
     "1": 5645,
-    "2": 6217,
-    "3": 6511,
-    "4": 6153,
-    "5": 5354,
-    "6": 7102
+    "2": 6277,
+    "3": 6571,
+    "4": 6213,
+    "5": 5414,
+    "6": 7182
   },
   "total_emergency_mw_sum": 1635,
   "averias_count_by_municipio": {
