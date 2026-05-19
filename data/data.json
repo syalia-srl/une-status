@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T12:37:05+00:00",
+  "generated_at": "2026-05-19T12:52:28+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T12:24:37+00:00",
+    "as_of": "2026-05-19T12:47:07+00:00",
     "bloques": [
       {
         "id": 1,
@@ -24,9 +24,8 @@
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-05-18T21:00:04+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-19T12:47:07+00:00"
       },
       {
         "id": 5,
@@ -356,10 +355,10 @@
   "day": {
     "date": "2026-05-19",
     "finalized": false,
-    "peak_mw_affected": 408,
-    "peak_time": "00:12",
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 491,
+    "peak_time": "21:10",
+    "interruption_minutes": 1440,
+    "emergency_mw": 125,
     "block_outage_minutes": {
       "1": 37,
       "2": 60,
@@ -382,16 +381,19 @@
       "Guanabacoa": 1
     },
     "averias_total": 7,
-    "source_msg_count": 28,
+    "source_msg_count": 32,
     "by_type_counts": {
       "averias": 5,
       "actualizacion_bloques": 7,
-      "restablecimiento": 8,
+      "restablecimiento": 9,
       "disparo_circuito": 3,
       "inicio_afectacion": 2,
       "daf": 1,
       "restablecimiento_daf": 1,
-      "sen_update": 1
+      "sen_update": 1,
+      "otro": 1,
+      "transferencia_bloque": 1,
+      "nota_diaria": 1
     }
   },
   "yesterday": {
@@ -449,9 +451,9 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 408.9,
+    "avg_peak_mw": 420.7,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 7200,
+    "total_interruption_minutes": 8640,
     "total_block_outage_minutes": {
       "1": 2390,
       "2": 2910,
@@ -460,7 +462,7 @@
       "5": 3306,
       "6": 3933
     },
-    "total_emergency_mw_sum": 571,
+    "total_emergency_mw_sum": 696,
     "averias_count_by_municipio": {
       "Boyeros": 15,
       "Guanabacoa": 15,
@@ -491,9 +493,9 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 19,
-    "avg_peak_mw": 360.1,
+    "avg_peak_mw": 364.4,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 17690,
+    "total_interruption_minutes": 19130,
     "total_block_outage_minutes": {
       "1": 5682,
       "2": 6277,
@@ -502,7 +504,7 @@
       "5": 6031,
       "6": 7331
     },
-    "total_emergency_mw_sum": 1510,
+    "total_emergency_mw_sum": 1635,
     "averias_count_by_municipio": {
       "Habana Del Este": 33,
       "Guanabacoa": 27,
@@ -538,7 +540,7 @@
   "all_time": {
     "months_count": 46,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
       "1": 60176,
       "2": 64356,
@@ -699,7 +701,7 @@
       },
       {
         "date": "2026-05-19",
-        "peak_mw": 408
+        "peak_mw": 491
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1543,7 +1545,7 @@
       },
       {
         "date": "2026-05-19",
-        "peak_mw": 408
+        "peak_mw": 491
       }
     ],
     "monthly_max_peak_mw": [

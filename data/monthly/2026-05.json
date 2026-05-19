@@ -2,9 +2,9 @@
   "month": "2026-05",
   "finalized": false,
   "dailies_count": 19,
-  "avg_peak_mw": 360.1,
+  "avg_peak_mw": 364.4,
   "max_peak_mw": 499,
-  "total_interruption_minutes": 17690,
+  "total_interruption_minutes": 19130,
   "total_block_outage_minutes": {
     "1": 5682,
     "2": 6277,
@@ -13,7 +13,7 @@
     "5": 6031,
     "6": 7331
   },
-  "total_emergency_mw_sum": 1510,
+  "total_emergency_mw_sum": 1635,
   "averias_count_by_municipio": {
     "Habana Del Este": 33,
     "Guanabacoa": 27,
