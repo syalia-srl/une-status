@@ -69,3 +69,7 @@
 {"id": 62725, "ts": "2026-05-19T18:00:17+00:00", "type": "daf", "has_photo": false}
 {"id": 62726, "ts": "2026-05-19T18:02:18+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 6, "emergency": true}
 {"id": 62727, "ts": "2026-05-19T18:12:14+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62728, "ts": "2026-05-19T18:18:17+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 62729, "ts": "2026-05-19T18:20:38+00:00", "type": "inicio_afectacion", "has_photo": false, "bloque": 2, "emergency": true}
+{"id": 62730, "ts": "2026-05-19T18:21:51+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 3, "hours_off": 3, "minutes_off": 25}, {"bloque": 5, "hours_off": 3, "minutes_off": 7}, {"bloque": 4, "hours_off": 1, "minutes_off": 0}, {"bloque": 6, "hours_off": 0, "minutes_off": 0}], "total_mw": 174}
+{"id": 62731, "ts": "2026-05-19T18:32:45+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": ": Guiteras / Las Cañas y Ave Casablanca", "severity": "secundaria"}]}

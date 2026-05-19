@@ -6,16 +6,16 @@
   "max_peak_mw": 499,
   "total_interruption_minutes": 19130,
   "total_block_outage_minutes": {
-    "1": 6032,
+    "1": 5645,
     "2": 6217,
-    "3": 6451,
-    "4": 6093,
-    "5": 5294,
+    "3": 6511,
+    "4": 6153,
+    "5": 5354,
     "6": 7102
   },
   "total_emergency_mw_sum": 1635,
   "averias_count_by_municipio": {
-    "Habana Del Este": 34,
+    "Habana Del Este": 35,
     "Arroyo Naranjo": 28,
     "Lisa": 27,
     "Guanabacoa": 27,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 246,
+  "averias_total": 247,
   "daf_total": 183,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
