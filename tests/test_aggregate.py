@@ -201,3 +201,100 @@ def test_current_state_no_restoration_without_later_actualizacion():
     cs = current_state(events)
     b3 = next(b for b in cs["bloques"] if b["id"] == 3)
     assert b3["state"] == "apagado"
+
+
+def test_current_state_actualizacion_overrides_stale_restablecimiento():
+    """Bug 2026-05-19: a B→B transition msg (restab. B2 + inicio B5) only
+    captures the restab; the inicio is lost during extraction. A later
+    actualizacion_bloques that lists B5 as off must mark it apagado even
+    when an older restablecimiento for B5 exists in the buffer.
+    """
+    events = [
+        # earlier in the day: B5 was restored
+        {"id": 5, "ts": "2026-05-19T10:00:00+00:00", "type": "restablecimiento", "bloque": 5},
+        # later: actualizacion lists B5 as still off — the missed inicio
+        # happened between these two, but extraction lost it.
+        {
+            "id": 20,
+            "ts": "2026-05-19T17:12:00+00:00",
+            "type": "actualizacion_bloques",
+            "total_mw": 500,
+            "blocks": [
+                {"bloque": 1, "hours_off": 6, "minutes_off": 27},
+                {"bloque": 3, "hours_off": 2, "minutes_off": 25},
+                {"bloque": 5, "hours_off": 2, "minutes_off": 7},
+            ],
+        },
+    ]
+    cs = current_state(events)
+    by_id = {b["id"]: b for b in cs["bloques"]}
+    assert by_id[5]["state"] == "apagado"
+    # since = actualizacion.ts - 2h7m = 15:05Z
+    assert by_id[5]["since"] == "2026-05-19T15:05:00+00:00"
+    assert by_id[1]["state"] == "apagado"
+    assert by_id[1]["since"] == "2026-05-19T10:45:00+00:00"
+    assert by_id[3]["state"] == "apagado"
+    # blocks not in the latest actualizacion are encendido
+    assert by_id[2]["state"] == "encendido"
+    assert by_id[4]["state"] == "encendido"
+    assert by_id[6]["state"] == "encendido"
+
+
+def test_current_state_event_after_actualizacion_wins():
+    """An inicio_afectacion or restablecimiento whose ts is later than the
+    latest actualizacion_bloques must override the actualizacion-derived
+    state for that block."""
+    events = [
+        {
+            "id": 10,
+            "ts": "2026-05-19T17:12:00+00:00",
+            "type": "actualizacion_bloques",
+            "total_mw": 300,
+            "blocks": [
+                {"bloque": 3, "hours_off": 2, "minutes_off": 25},
+            ],
+        },
+        # B4 not in actualizacion, but a later event puts it apagado (emergencia)
+        {
+            "id": 11,
+            "ts": "2026-05-19T17:21:00+00:00",
+            "type": "inicio_afectacion",
+            "bloque": 4,
+            "emergency": True,
+        },
+        # B3 listed apagado in actualizacion, but a later event restored it
+        {
+            "id": 12,
+            "ts": "2026-05-19T17:30:00+00:00",
+            "type": "restablecimiento",
+            "bloque": 3,
+        },
+    ]
+    cs = current_state(events)
+    by_id = {b["id"]: b for b in cs["bloques"]}
+    assert by_id[4]["state"] == "apagado"
+    assert by_id[4]["since"] == "2026-05-19T17:21:00+00:00"
+    assert by_id[4].get("emergency") is True
+    assert by_id[3]["state"] == "encendido"
+    assert by_id[3]["since"] == "2026-05-19T17:30:00+00:00"
+
+
+def test_current_state_pre_actualizacion_partial_restoration_ignored():
+    """A 'inicia de forma gradual' message classified as restablecimiento
+    that predates the latest actualizacion must NOT override an actualizacion
+    that still lists the block as off."""
+    events = [
+        # 17:01 partial/gradual restoration of B1 (classified as restablecimiento)
+        {"id": 30, "ts": "2026-05-19T17:01:00+00:00", "type": "restablecimiento", "bloque": 1},
+        # 17:12 actualizacion still shows B1 6h27m off
+        {
+            "id": 31,
+            "ts": "2026-05-19T17:12:00+00:00",
+            "type": "actualizacion_bloques",
+            "total_mw": 400,
+            "blocks": [{"bloque": 1, "hours_off": 6, "minutes_off": 27}],
+        },
+    ]
+    cs = current_state(events)
+    b1 = next(b for b in cs["bloques"] if b["id"] == 1)
+    assert b1["state"] == "apagado"

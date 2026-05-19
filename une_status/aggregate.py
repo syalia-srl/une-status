@@ -493,31 +493,37 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
             if not cutoff or _parse_ts(e["ts"]) >= cutoff:
                 last_pronostico = {"ts": e["ts"]}
 
-    # Build bloques view 1..6
+    # Build bloques view 1..6.
+    # The latest actualizacion_bloques is the source of truth: blocks listed
+    # there with minutes_off>0 are apagado; blocks absent from it are encendido.
+    # An inicio_afectacion/restablecimiento event overrides only when it is
+    # strictly newer than that actualizacion. Without any actualizacion in the
+    # buffer we fall back to explicit events alone.
     bloques_view = []
+    act_ts = _parse_ts(last_total_mw_ts) if last_total_mw_ts else None
     for bn in range(1, 7):
         b = blocks.get(bn)
         actual = last_actualizacion_blocks.get(bn)
-        if b:
+        event_after_act = b and act_ts and _parse_ts(b["since"]) > act_ts
+
+        if act_ts and not event_after_act:
+            if actual and (actual["hours_off"] * 60 + actual["minutes_off"]) > 0:
+                mins_off = actual["hours_off"] * 60 + actual["minutes_off"]
+                since_dt = act_ts - timedelta(minutes=mins_off)
+                entry = {
+                    "id": bn,
+                    "state": "apagado",
+                    "since": since_dt.isoformat(),
+                    "hours_off_today": actual["hours_off"] + actual["minutes_off"] / 60,
+                }
+            else:
+                entry = {"id": bn, "state": "encendido"}
+                if actual:
+                    entry["hours_off_today"] = actual["hours_off"] + actual["minutes_off"] / 60
+        elif b:
             entry = {"id": bn, "state": b["state"], "since": b["since"]}
             if b["state"] == "apagado" and b.get("emergency"):
                 entry["emergency"] = True
-            # If a later actualizacion_bloques shows hours_off=0, the block was
-            # implicitly restored — override the explicit-event state.
-            if b["state"] == "apagado" and actual and actual.get("ts"):
-                if (
-                    _parse_ts(actual["ts"]) > _parse_ts(b["since"])
-                    and actual.get("hours_off", 1) == 0
-                    and actual.get("minutes_off", 1) == 0
-                ):
-                    entry["state"] = "encendido"
-                    entry.pop("emergency", None)
-        elif actual:
-            # infer from latest schedule: any hours_off > 0 → currently off (approx)
-            off = (actual["hours_off"] * 60 + actual["minutes_off"]) > 0
-            entry = {"id": bn, "state": "apagado" if off else "encendido"}
-            if actual:
-                entry["hours_off_today"] = actual["hours_off"] + actual["minutes_off"] / 60
         else:
             entry = {"id": bn, "state": "desconocido"}
         bloques_view.append(entry)
