@@ -111,3 +111,6 @@
 {"id": 62641, "ts": "2026-05-19T01:22:25+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 11, "minutes_off": 15}, {"bloque": 2, "hours_off": 10, "minutes_off": 0}, {"bloque": 1, "hours_off": 6, "minutes_off": 55}, {"bloque": 3, "hours_off": 6, "minutes_off": 40}, {"bloque": 5, "hours_off": 4, "minutes_off": 40}, {"bloque": 4, "hours_off": 4, "minutes_off": 0}], "total_mw": 461}
 {"id": 62642, "ts": "2026-05-19T01:49:10+00:00", "type": "via_libre", "has_photo": false}
 {"id": 62643, "ts": "2026-05-19T02:28:52+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 12, "minutes_off": 15}, {"bloque": 2, "hours_off": 11, "minutes_off": 0}, {"bloque": 1, "hours_off": 7, "minutes_off": 55}, {"bloque": 3, "hours_off": 7, "minutes_off": 40}, {"bloque": 5, "hours_off": 5, "minutes_off": 40}, {"bloque": 4, "hours_off": 5, "minutes_off": 0}], "total_mw": 473}
+{"id": 62644, "ts": "2026-05-19T02:45:37+00:00", "type": "corto", "has_photo": true}
+{"id": 62645, "ts": "2026-05-19T02:46:30+00:00", "type": "corto", "has_photo": false}
+{"id": 62646, "ts": "2026-05-19T02:48:04+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Centro Habana", "direccion": "las calles Infanta y Desagüe 🚨"}]}
