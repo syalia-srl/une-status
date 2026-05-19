@@ -61,3 +61,7 @@
 {"id": 62716, "ts": "2026-05-19T16:26:40+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Plaza De La Revolución", "direccion": ": Calle N e/ 17 y 19", "severity": "primaria"}]}
 {"id": 62717, "ts": "2026-05-19T16:34:31+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": Estela / Justo y Carlos , Párraga", "severity": "secundaria"}]}
 {"id": 62718, "ts": "2026-05-19T16:41:32+00:00", "type": "corto", "has_photo": true}
+{"id": 62720, "ts": "2026-05-19T17:01:35+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}
+{"id": 62721, "ts": "2026-05-19T17:02:07+00:00", "type": "averias", "has_photo": false}
+{"id": 62722, "ts": "2026-05-19T17:07:33+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 62723, "ts": "2026-05-19T17:12:13+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 6, "minutes_off": 27}, {"bloque": 3, "hours_off": 2, "minutes_off": 25}, {"bloque": 5, "hours_off": 2, "minutes_off": 7}], "total_mw": 103}
