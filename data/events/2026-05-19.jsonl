@@ -57,3 +57,5 @@
 {"id": 62711, "ts": "2026-05-19T15:34:47+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 4, "minutes_off": 54}, {"bloque": 3, "hours_off": 0, "minutes_off": 58}, {"bloque": 5, "hours_off": 0, "minutes_off": 4}], "total_mw": 112}
 {"id": 62712, "ts": "2026-05-19T15:48:56+00:00", "type": "averias", "has_photo": false}
 {"id": 62713, "ts": "2026-05-19T15:51:00+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Arroyo Naranjo", "direccion": ": Carretera de Batabanó , Recría de Caballos", "severity": "secundaria"}]}
+{"id": 62715, "ts": "2026-05-19T16:14:13+00:00", "type": "averias", "has_photo": false}
+{"id": 62716, "ts": "2026-05-19T16:26:40+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Plaza De La Revolución", "direccion": ": Calle N e/ 17 y 19", "severity": "primaria"}]}
