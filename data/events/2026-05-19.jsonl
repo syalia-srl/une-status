@@ -7,3 +7,4 @@
 {"id": 62657, "ts": "2026-05-19T05:46:28+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 1, "hours_off": 11, "minutes_off": 10}, {"bloque": 3, "hours_off": 10, "minutes_off": 55}, {"bloque": 5, "hours_off": 8, "minutes_off": 50}, {"bloque": 4, "hours_off": 8, "minutes_off": 40}], "total_mw": 344}
 {"id": 62658, "ts": "2026-05-19T06:04:25+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Marianao", "direccion": "las calles 130 y 45 afectando el servicio eléctrico de los repartos: Coco Solo, Los Quemados, Los Ángeles, Las Yaguas 🚨"}]}
 {"id": 62659, "ts": "2026-05-19T06:10:28+00:00", "type": "restablecimiento", "has_photo": false}
+{"id": 62660, "ts": "2026-05-19T06:35:17+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 1}

@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-05-19T06:27:15+00:00",
+  "generated_at": "2026-05-19T06:42:35+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T06:10:28+00:00",
+    "as_of": "2026-05-19T06:35:17+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-05-18T18:22:14+00:00",
-        "emergency": true
+        "state": "encendido",
+        "since": "2026-05-19T06:35:17+00:00"
       },
       {
         "id": 2,
@@ -151,11 +150,6 @@
         "ts": "2026-05-18T06:45:17+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-18T06:32:41+00:00",
-        "municipio": "Plaza",
-        "direccion": "la siguiente dirección: Ulloa e/ Santa María y Santa Teresa"
       }
     ],
     "last_daf": {
@@ -389,11 +383,11 @@
       "Lisa": 1
     },
     "averias_total": 5,
-    "source_msg_count": 9,
+    "source_msg_count": 10,
     "by_type_counts": {
       "averias": 3,
       "actualizacion_bloques": 2,
-      "restablecimiento": 2,
+      "restablecimiento": 3,
       "disparo_circuito": 2
     }
   },
