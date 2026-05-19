@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T13:54:16+00:00",
+  "generated_at": "2026-05-19T14:09:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-19T13:48:23+00:00",
+    "as_of": "2026-05-19T14:08:07+00:00",
     "bloques": [
       {
         "id": 1,
@@ -382,7 +382,7 @@
       "Guanabacoa": 1
     },
     "averias_total": 8,
-    "source_msg_count": 41,
+    "source_msg_count": 42,
     "by_type_counts": {
       "averias": 6,
       "actualizacion_bloques": 8,
@@ -394,7 +394,8 @@
       "sen_update": 1,
       "otro": 3,
       "transferencia_bloque": 3,
-      "nota_diaria": 1
+      "nota_diaria": 1,
+      "via_libre": 1
     }
   },
   "yesterday": {

@@ -27,7 +27,7 @@
     "Guanabacoa": 1
   },
   "averias_total": 8,
-  "source_msg_count": 41,
+  "source_msg_count": 42,
   "by_type_counts": {
     "averias": 6,
     "actualizacion_bloques": 8,
@@ -39,6 +39,7 @@
     "sen_update": 1,
     "otro": 3,
     "transferencia_bloque": 3,
-    "nota_diaria": 1
+    "nota_diaria": 1,
+    "via_libre": 1
   }
 }

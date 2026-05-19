@@ -39,3 +39,4 @@
 {"id": 62692, "ts": "2026-05-19T13:40:22+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 6, "hours_off": 6, "minutes_off": 1}, {"bloque": 2, "hours_off": 3, "minutes_off": 17}, {"bloque": 1, "hours_off": 2, "minutes_off": 54}], "total_mw": 117}
 {"id": 62693, "ts": "2026-05-19T13:42:11+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Lisa", "direccion": ": 39 / 268 Y 270 , Arroyo Arena", "severity": "secundaria"}]}
 {"id": 62694, "ts": "2026-05-19T13:48:23+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 62695, "ts": "2026-05-19T14:08:07+00:00", "type": "via_libre", "has_photo": false}
