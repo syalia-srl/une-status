@@ -45,3 +45,6 @@
 {"id": 62698, "ts": "2026-05-19T14:17:41+00:00", "type": "averias", "has_photo": false, "averias": [{"municipio": "Habana Del Este", "direccion": ": Zona 5 , Alamar", "severity": "secundaria"}]}
 {"id": 62699, "ts": "2026-05-19T14:23:51+00:00", "type": "daf", "has_photo": false}
 {"id": 62700, "ts": "2026-05-19T14:35:47+00:00", "type": "restablecimiento", "has_photo": false, "bloque": 6}
+{"id": 62701, "ts": "2026-05-19T14:43:34+00:00", "type": "actualizacion_bloques", "has_photo": false, "blocks": [{"bloque": 2, "hours_off": 4, "minutes_off": 23}, {"bloque": 1, "hours_off": 4, "minutes_off": 0}, {"bloque": 3, "hours_off": 0, "minutes_off": 4}], "total_mw": 119}
+{"id": 62702, "ts": "2026-05-19T14:45:47+00:00", "type": "disparo_circuito", "has_photo": false}
+{"id": 62703, "ts": "2026-05-19T14:52:11+00:00", "type": "via_libre", "has_photo": false}
