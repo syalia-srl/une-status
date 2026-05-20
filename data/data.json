@@ -1,60 +1,50 @@
 {
-  "generated_at": "2026-05-20T11:41:43+00:00",
+  "generated_at": "2026-05-20T14:17:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-20T11:34:00+00:00",
+    "as_of": "2026-05-20T14:10:09+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-05-19T21:39:52+00:00",
-        "hours_off_today": 12.166666666666666
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-05-19T18:43:52+00:00",
-        "hours_off_today": 15.1
+        "state": "encendido"
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-05-20T09:31:52+00:00",
-        "hours_off_today": 0.3
+        "since": "2026-05-20T09:24:47+00:00",
+        "hours_off_today": 4.0
       },
       {
         "id": 4,
-        "state": "encendido"
-      },
-      {
-        "id": 5,
         "state": "encendido",
         "hours_off_today": 0.0
       },
       {
+        "id": 5,
+        "state": "apagado",
+        "since": "2026-05-20T10:24:47+00:00",
+        "hours_off_today": 3.0
+      },
+      {
         "id": 6,
         "state": "apagado",
-        "since": "2026-05-19T18:27:52+00:00",
-        "hours_off_today": 15.366666666666667
+        "since": "2026-05-20T14:10:09+00:00",
+        "emergency": true
       }
     ],
-    "current_mw_affected": 291,
-    "current_mw_affected_at": "2026-05-20T09:49:52+00:00",
-    "active_averias": {
-      "ts": "2026-05-20T11:34:00+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "la siguiente dirección: Yumurí/Cervantes y San Juan"
-        }
-      ]
-    },
+    "current_mw_affected": 137,
+    "current_mw_affected_at": "2026-05-20T13:24:47+00:00",
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-05-20T11:34:00+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "la siguiente dirección: Yumurí/Cervantes y San Juan"
+        "ts": "2026-05-20T12:20:29+00:00",
+        "municipio": "Plaza",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -266,19 +256,19 @@
   "day": {
     "date": "2026-05-20",
     "finalized": false,
-    "peak_mw_affected": 291,
-    "peak_time": "05:49",
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 394,
+    "peak_time": "21:40",
+    "interruption_minutes": 1440,
+    "emergency_mw": 78,
     "block_outage_minutes": {
-      "1": 730,
-      "2": 906,
-      "3": 18,
+      "1": 0,
+      "2": 0,
+      "3": 240,
       "4": 0,
-      "5": 0,
-      "6": 922
+      "5": 180,
+      "6": 0
     },
-    "total_block_outage_minutes": 2576,
+    "total_block_outage_minutes": 420,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -288,15 +278,19 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Plaza": 1
     },
     "averias_total": 1,
-    "source_msg_count": 8,
+    "source_msg_count": 13,
     "by_type_counts": {
-      "averias": 3,
-      "inicio_afectacion": 2,
-      "actualizacion_bloques": 1,
-      "restablecimiento": 2
+      "restablecimiento_gradual": 3,
+      "sen_update": 1,
+      "actualizacion_bloques": 3,
+      "nota_diaria": 1,
+      "empty": 1,
+      "disparo_circuito": 1,
+      "otro": 1,
+      "inicio_afectacion": 2
     }
   },
   "yesterday": {
@@ -341,24 +335,24 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 374.7,
+    "avg_peak_mw": 389.4,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 5760,
+    "total_interruption_minutes": 7200,
     "total_block_outage_minutes": {
-      "1": 2469,
-      "2": 3664,
-      "3": 3063,
+      "1": 1739,
+      "2": 2758,
+      "3": 3285,
       "4": 3067,
-      "5": 2656,
-      "6": 4086
+      "5": 2836,
+      "6": 3164
     },
-    "total_emergency_mw_sum": 426,
+    "total_emergency_mw_sum": 504,
     "averias_count_by_municipio": {
       "Guanabacoa": 14,
       "Boyeros": 12,
-      "Arroyo Naranjo": 11,
+      "Arroyo Naranjo": 10,
+      "Plaza": 9,
       "Lisa": 8,
-      "Plaza": 8,
       "Habana Del Este": 6,
       "Playa": 5,
       "Cerro": 3,
@@ -385,26 +379,26 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 20,
-    "avg_peak_mw": 354.9,
+    "avg_peak_mw": 360.0,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 17690,
+    "total_interruption_minutes": 19130,
     "total_block_outage_minutes": {
-      "1": 6785,
-      "2": 7673,
-      "3": 7079,
+      "1": 6055,
+      "2": 6767,
+      "3": 7301,
       "4": 6703,
-      "5": 5904,
-      "6": 8594
+      "5": 6084,
+      "6": 7672
     },
-    "total_emergency_mw_sum": 1510,
+    "total_emergency_mw_sum": 1588,
     "averias_count_by_municipio": {
       "Habana Del Este": 33,
-      "Arroyo Naranjo": 26,
       "Guanabacoa": 26,
+      "Arroyo Naranjo": 25,
       "Lisa": 25,
       "Boyeros": 22,
       "San Miguel Del Padrón": 19,
-      "Plaza": 18,
+      "Plaza": 19,
       "Playa": 14,
       "Cerro": 12,
       "Marianao": 10,
@@ -434,25 +428,25 @@
   "all_time": {
     "months_count": 46,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
-      "1": 61279,
-      "2": 65752,
-      "3": 52803,
+      "1": 60549,
+      "2": 64846,
+      "3": 53025,
       "4": 58935,
-      "5": 56075,
-      "6": 58896
+      "5": 56255,
+      "6": 57974
     },
     "averias_total": 3177,
     "averias_top_municipios": {
       "Boyeros": 330,
       "Playa": 280,
-      "Arroyo Naranjo": 248,
+      "Arroyo Naranjo": 247,
       "Lisa": 227,
       "Habana Del Este": 218,
       "Guanabacoa": 210,
       "Cerro": 182,
-      "Plaza": 179,
+      "Plaza": 180,
       "San Miguel Del Padrón": 178,
       "Marianao": 142,
       "Cotorro": 93,
@@ -597,7 +591,7 @@
       },
       {
         "date": "2026-05-20",
-        "peak_mw": 291
+        "peak_mw": 394
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -719,7 +713,7 @@
       },
       {
         "date": "2026-05-20",
-        "minutes": 2576
+        "minutes": 420
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1441,7 +1435,7 @@
       },
       {
         "date": "2026-05-20",
-        "peak_mw": 291
+        "peak_mw": 394
       }
     ],
     "monthly_max_peak_mw": [
@@ -1813,7 +1807,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 42738
+        "minutes": 40582
       }
     ],
     "sen_outage_days_total": 7,
