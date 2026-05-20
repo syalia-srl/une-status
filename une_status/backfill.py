@@ -46,7 +46,7 @@ def _today_hav() -> dt.date:
     return datetime.now(TZ_HAV).date()
 
 
-def backfill(start_before: int | None = None, sleep_s: float = 0.3) -> None:
+def backfill(start_before: int | None = None, sleep_s: float = 0.3, no_prune: bool = False) -> None:
     """Pull the entire channel history into per-day raw + events files,
     then build daily/monthly rollups. Finally prune raw/events older than 2 days.
     """
@@ -125,9 +125,12 @@ def backfill(start_before: int | None = None, sleep_s: float = 0.3) -> None:
     # Step 5b: build data.json
     write_json(main_data_path(), build_data_blob())
 
-    # Step 6: prune raw/events older than 2 days
-    pruned = prune_old_raw(retain_days=2)
-    print(f"pruned {len(pruned)} old raw/events files", flush=True)
+    # Step 6: prune raw/events older than 2 days (unless --no-prune)
+    if no_prune:
+        print("skipping prune (--no-prune): raw/events for all days retained", flush=True)
+    else:
+        pruned = prune_old_raw(retain_days=2)
+        print(f"pruned {len(pruned)} old raw/events files", flush=True)
 
     # Step 7: state
     state = read_json(state_path(), default={})
@@ -156,8 +159,9 @@ def main() -> None:
     p = argparse.ArgumentParser(description="Full historical backfill of EELH channel.")
     p.add_argument("--before", type=int, default=None, help="Start pagination before this msg id (default: auto)")
     p.add_argument("--sleep", type=float, default=0.3, help="Per-page sleep seconds (default 0.3)")
+    p.add_argument("--no-prune", action="store_true", help="Keep all raw/events files (no retention prune)")
     args = p.parse_args()
-    backfill(start_before=args.before, sleep_s=args.sleep)
+    backfill(start_before=args.before, sleep_s=args.sleep, no_prune=args.no_prune)
 
 
 if __name__ == "__main__":

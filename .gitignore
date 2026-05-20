@@ -7,3 +7,8 @@ dist/
 build/
 .uv-cache/
 .DS_Store
+
+# raw + events: regenerable from t.me; only daily/monthly rollups + data.json
+# are versioned. Backfill --no-prune may produce GBs of historical raws locally.
+data/raw/*.jsonl
+data/events/*.jsonl
