@@ -279,6 +279,75 @@ def test_current_state_event_after_actualizacion_wins():
     assert by_id[3]["since"] == "2026-05-19T17:30:00+00:00"
 
 
+def test_current_state_restablecimiento_gradual_marks_encendiendose():
+    """A restablecimiento_gradual event within the 10-min TTL window must
+    surface the bloque as 'encendiendose' (transitional yellow state)."""
+    # as_of will be id=20 ts; gradual is 3 min earlier — within 10-min window.
+    events = [
+        {"id": 10, "ts": "2026-05-19T17:00:00+00:00", "type": "restablecimiento_gradual", "bloque": 5},
+        {"id": 20, "ts": "2026-05-19T17:03:00+00:00", "type": "averias", "averias": []},
+    ]
+    cs = current_state(events)
+    b5 = next(b for b in cs["bloques"] if b["id"] == 5)
+    assert b5["state"] == "encendiendose"
+    assert b5["since"] == "2026-05-19T17:00:00+00:00"
+
+
+def test_current_state_transicion_bloques_splits_into_two_states():
+    """transicion_bloques carries bloque_on + bloque_off: the on side becomes
+    encendiendose, the off side becomes apagandose, both with the same since."""
+    events = [
+        {"id": 10, "ts": "2026-05-19T14:35:00+00:00", "type": "transicion_bloques",
+         "bloque_on": 6, "bloque_off": 3},
+        {"id": 20, "ts": "2026-05-19T14:38:00+00:00", "type": "averias", "averias": []},
+    ]
+    cs = current_state(events)
+    by_id = {b["id"]: b for b in cs["bloques"]}
+    assert by_id[6]["state"] == "encendiendose"
+    assert by_id[6]["since"] == "2026-05-19T14:35:00+00:00"
+    assert by_id[3]["state"] == "apagandose"
+    assert by_id[3]["since"] == "2026-05-19T14:35:00+00:00"
+
+
+def test_current_state_transition_decays_after_ttl():
+    """Past the 10-min TTL, encendiendose decays to encendido and apagandose
+    decays to apagado, preserving the original `since` from the event."""
+    events = [
+        {"id": 10, "ts": "2026-05-19T14:35:00+00:00", "type": "transicion_bloques",
+         "bloque_on": 6, "bloque_off": 3},
+        # as_of is 25 min later — well past 10-min TTL
+        {"id": 20, "ts": "2026-05-19T15:00:00+00:00", "type": "averias", "averias": []},
+    ]
+    cs = current_state(events)
+    by_id = {b["id"]: b for b in cs["bloques"]}
+    assert by_id[6]["state"] == "encendido"
+    assert by_id[6]["since"] == "2026-05-19T14:35:00+00:00"
+    assert by_id[3]["state"] == "apagado"
+    assert by_id[3]["since"] == "2026-05-19T14:35:00+00:00"
+
+
+def test_current_state_actualizacion_overrides_transition():
+    """A later actualizacion_bloques takes precedence over an earlier
+    transition event, same as for inicio/restablecimiento."""
+    events = [
+        {"id": 10, "ts": "2026-05-19T14:35:00+00:00", "type": "transicion_bloques",
+         "bloque_on": 6, "bloque_off": 3},
+        # actualizacion 5 min later still lists B3 as off, B6 absent (= on)
+        {
+            "id": 20,
+            "ts": "2026-05-19T14:40:00+00:00",
+            "type": "actualizacion_bloques",
+            "total_mw": 400,
+            "blocks": [{"bloque": 3, "hours_off": 0, "minutes_off": 30}],
+        },
+    ]
+    cs = current_state(events)
+    by_id = {b["id"]: b for b in cs["bloques"]}
+    # actualizacion wins: B6 absent → encendido; B3 listed off → apagado
+    assert by_id[6]["state"] == "encendido"
+    assert by_id[3]["state"] == "apagado"
+
+
 def test_current_state_pre_actualizacion_partial_restoration_ignored():
     """A 'inicia de forma gradual' message classified as restablecimiento
     that predates the latest actualizacion must NOT override an actualizacion

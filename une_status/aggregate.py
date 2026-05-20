@@ -433,6 +433,9 @@ def _cte_view(cte_id: str, entry: dict | None, default_name: str, cutoff: dateti
     }
 
 
+TRANSITION_TTL_MIN = 10
+
+
 def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
     """Compute live state from the most recent events.
 
@@ -472,6 +475,30 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
                 "since": e["ts"],
                 "emergency": e.get("emergency", False),
             }
+        if t == "restablecimiento_gradual" and b and b not in blocks:
+            blocks[b] = {
+                "state": "encendiendose",
+                "final_state": "encendido",
+                "since": e["ts"],
+                "emergency": False,
+            }
+        if t == "transicion_bloques":
+            bon = e.get("bloque_on")
+            boff = e.get("bloque_off")
+            if bon and bon not in blocks:
+                blocks[bon] = {
+                    "state": "encendiendose",
+                    "final_state": "encendido",
+                    "since": e["ts"],
+                    "emergency": False,
+                }
+            if boff and boff not in blocks:
+                blocks[boff] = {
+                    "state": "apagandose",
+                    "final_state": "apagado",
+                    "since": e["ts"],
+                    "emergency": False,
+                }
         if t == "averias" and last_averias is None:
             last_averias = {"ts": e["ts"], "averias": e.get("averias", [])}
         if t in ("desconexion_total_sen", "restablecimiento_sen"):
@@ -521,8 +548,13 @@ def current_state(events: list[dict], pronostico_recent_h: int = 12) -> dict:
                 if actual:
                     entry["hours_off_today"] = actual["hours_off"] + actual["minutes_off"] / 60
         elif b:
-            entry = {"id": bn, "state": b["state"], "since": b["since"]}
-            if b["state"] == "apagado" and b.get("emergency"):
+            state = b["state"]
+            if state in ("encendiendose", "apagandose") and as_of:
+                age_min = (_parse_ts(as_of) - _parse_ts(b["since"])).total_seconds() / 60
+                if age_min > TRANSITION_TTL_MIN:
+                    state = b["final_state"]
+            entry = {"id": bn, "state": state, "since": b["since"]}
+            if state == "apagado" and b.get("emergency"):
                 entry["emergency"] = True
         else:
             entry = {"id": bn, "state": "desconocido"}
