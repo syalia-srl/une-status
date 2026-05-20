@@ -222,9 +222,17 @@ function renderBloques(cur) {
     : "Sin datos recientes";
   for (const b of cur.bloques || []) {
     const card = document.createElement("div");
-    const klass = b.state === "encendido" ? "on" : b.state === "apagado" ? "off" : "unk";
+    const transitional = b.state === "encendiendose" || b.state === "apagandose";
+    const klass = b.state === "encendido" ? "on"
+                : b.state === "apagado" ? "off"
+                : transitional ? "warming"
+                : "unk";
     card.className = `bloque-card ${klass}`;
-    const stateLabel = b.state === "encendido" ? "🟢 ON" : b.state === "apagado" ? "🔴 OFF" : "⚪ ?";
+    const stateLabel = b.state === "encendido" ? "🟢 ON"
+                     : b.state === "apagado" ? "🔴 OFF"
+                     : b.state === "encendiendose" ? "🟡 ENCENDIENDO…"
+                     : b.state === "apagandose" ? "🟡 APAGÁNDOSE…"
+                     : "⚪ ?";
     card.innerHTML = `
       <div class="num">Bloque ${b.id}</div>
       <div class="state">${stateLabel}</div>

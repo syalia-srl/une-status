@@ -49,6 +49,15 @@
 .dark .bloque-card.unk {
   border-color: rgb(30 41 59); background: rgb(15 23 42);
 }
+/* Transitional states: encendiendose / apagandose — amber. */
+.bloque-card.warming {
+  border-color: rgb(252 211 77); background: rgb(254 252 232);
+}
+.dark .bloque-card.warming {
+  border-color: rgb(146 64 14); background: rgb(69 26 3);
+}
+.bloque-card.warming .state { color: rgb(146 64 14); }
+.dark .bloque-card.warming .state { color: rgb(252 211 77); }
 /* Assumed-online: same hue as ON but desaturated, dashed border. */
 .bloque-card.on-assumed {
   border: 1px dashed rgb(167 243 208); background: rgb(247 254 251);
