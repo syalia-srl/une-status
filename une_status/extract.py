@@ -56,6 +56,12 @@ RE_UNIDAD_ESTADO = re.compile(
 )
 RE_UNIDAD_TIME = re.compile(r"(\d{1,2}:\d{2})\s*\|\|")
 
+# desconexion_total_sen / restablecimiento_sen
+RE_SEN_TIME = re.compile(
+    r"a las\s+(\d{1,2}:\d{2}\s*(?:am|pm)?)",
+    re.IGNORECASE,
+)
+
 
 # Canonical CTE registry. Maps raw plant-name fragments (lowercase, accent-stripped)
 # to a stable id + display name. Order matters: longer/more-specific aliases first.
@@ -233,5 +239,19 @@ def extract(msg_type: str, text: str) -> dict:
                 out["cte_id"], out["cte_name"] = norm
         if m := RE_UNIDAD_TIME.search(t):
             out["clock"] = m.group(1)
+
+    elif msg_type == "desconexion_total_sen":
+        if m := RE_SEN_TIME.search(t):
+            clk = _parse_clock(m.group(1))
+            if clk:
+                out["clock"] = clk
+
+    elif msg_type == "restablecimiento_sen":
+        if m := RE_SEN_TIME.search(t):
+            clk = _parse_clock(m.group(1))
+            if clk:
+                out["clock"] = clk
+        if m := re.search(r"(\d{1,3})\s*%", t):
+            out["recovery_pct"] = int(m.group(1))
 
     return out

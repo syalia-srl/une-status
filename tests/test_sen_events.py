@@ -1,5 +1,6 @@
 import pytest
 from une_status.classify import classify
+from une_status.extract import extract
 
 F1 = (
     "⚡\n"
@@ -34,12 +35,40 @@ F4 = (
     "Leer más: https://www.unionelectrica.cu/nota-informativa/"
 )
 
+F5 = (
+    "⚡\n"
+    "Actualización del Sistema Electroenergético Nacional.\n"
+    "A las 6:15 am se produjo nuevamente la desconexión total del "
+    "Sistema Electroenergético Nacional.\n"
+    "Se trabaja en el restablecimiento del servicio.\n"
+)
+
+# F6 is synthetic — phrased so "se recuperó el SEN" triggers RE_SEN_RECOVER
+F6 = (
+    "🟢\n"
+    "Actualización sobre la situación del SEN.\n"
+    "Se recuperó el SEN en un 35% de su capacidad habitual.\n"
+    "Continuaremos informando.\n"
+)
+
 
 @pytest.mark.parametrize("text,expected", [
     (F1, "caida_parcial_sen"),
     (F2, "reconexion_parcial_sen"),
     (F3, "reconexion_parcial_sen"),
     (F4, "sen_update"),
+    (F5, "desconexion_total_sen"),
+    (F6, "restablecimiento_sen"),
 ])
 def test_sen_event_classification(text, expected):
     assert classify(text) == expected
+
+
+def test_extract_desconexion_total_sen_clock():
+    result = extract("desconexion_total_sen", F5)
+    assert result.get("clock") == "06:15"
+
+
+def test_extract_restablecimiento_sen_recovery_pct():
+    result = extract("restablecimiento_sen", F6)
+    assert result.get("recovery_pct") == 35
