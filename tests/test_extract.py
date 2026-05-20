@@ -71,7 +71,9 @@ def test_classify_known_strings():
         ("Consumidores del municipio Arroyo Naranjo se detectó una AVERÍA SECUNDARIA POR TRANSFORMADOR DAÑADO", "averias"),
         ("🟢 20:15 || En línea la Unidad 4 de la CTE Carlos Manuel de Céspedes.", "unidad_termoelectrica"),
         ("‼️ 🔔 Informamos a los clientes asociados al Bloque no.5 que a partir de este momento inicia la afectación por déficit", "inicio_afectacion"),
-        ("✅ Informamos a los clientes asociados al bloque no.4 ... inicia de forma gradual el restablecimiento del servicio", "restablecimiento"),
+        ("✅ Informamos a los clientes asociados al bloque no.4 ... inicia de forma gradual el restablecimiento del servicio", "restablecimiento_gradual"),
+        # Block-swap (Pattern B): one block restored paulatinamente, another starts affectation
+        ("‼️ 📣 En estos momentos se realizan las operaciones según el procedimiento técnico correspondientes al restablecimiento del Bloque 6, afectado por déficit de generación. Su totalidad se llevará a cabo paulatinamente. Inicia la afectación a los consumidores asociados al bloque no.3 📣 ‼️", "transicion_bloques"),
         # gap-1: "DISPARADO EL CIRCUITO" without municipio prefix
         ("se encuentra DISPARADO EL CIRCUITO 47 en el Municipio Arroyo Naranjo", "disparo_circuito"),
         # gap-2: avería repair without "restablec"
@@ -115,6 +117,27 @@ def test_termoelectrica_state():
     assert e["unidad"] == 4
     assert "Carlos Manuel De Céspedes" in e["planta"] or "Carlos Manuel" in e["planta"]
     assert e["state"] == "online"
+
+
+def test_restablecimiento_gradual_extracts_bloque():
+    text = ("✅ Informamos a los clientes asociados al bloque no.5 afectados "
+            "por déficit de generación de EMERGENCIA, que a partir de este "
+            "momento inicia de forma gradual el restablecimiento del servicio ✅")
+    e = to_event({"id": 1, "ts": "2026-05-19T00:00:00Z", "text": text, "has_photo": False})
+    assert e["type"] == "restablecimiento_gradual"
+    assert e["bloque"] == 5
+
+
+def test_transicion_bloques_extracts_both_blocks():
+    text = ("‼️ 📣 En estos momentos se realizan las operaciones según el "
+            "procedimiento técnico correspondientes al restablecimiento del "
+            "Bloque 6, afectado por déficit de generación. Su totalidad se "
+            "llevará a cabo paulatinamente. Inicia la afectación a los "
+            "consumidores asociados al bloque no.3 📣 ‼️")
+    e = to_event({"id": 1, "ts": "2026-05-19T14:35:00Z", "text": text, "has_photo": False})
+    assert e["type"] == "transicion_bloques"
+    assert e["bloque_on"] == 6
+    assert e["bloque_off"] == 3
 
 
 def test_nota_diaria_full_parse():

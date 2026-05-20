@@ -47,6 +47,19 @@ RE_INICIO_BLOQUE = re.compile(
     r"informamos.*?clientes asociados.*?(?:bloque|circuitos?\s+(?:de\s+)?emergen).*?inicia (?:la )?afect",
     re.IGNORECASE | re.DOTALL,
 )
+# Gradual restoration of a single bloque: "...inicia de forma gradual el
+# restablecimiento del servicio". Must match BEFORE the generic restablecimiento
+# check so it doesn't get swallowed.
+RE_RESTAB_GRADUAL = re.compile(
+    r"inicia\s+de\s+forma\s+gradual\s+el\s+restablecimiento",
+    re.IGNORECASE,
+)
+# Block-swap message: one block is being restored paulatinamente while another
+# starts to be affected. Two-bloque transition.
+RE_TRANSICION_BLOQUES = re.compile(
+    r"paulatinamente.*?inicia\s+la\s+afectaci[oó]n",
+    re.IGNORECASE | re.DOTALL,
+)
 RE_AVERIA_REPAIR = re.compile(
     r"con servicio la aver[íi]a"
     r"|reparada la aver[íi]a"
@@ -127,6 +140,15 @@ def classify(text: str) -> str:
         return "actualizacion_bloques"
     if RE_BLOQUE_HORAS.search(tl):
         return "actualizacion_bloques"
+
+    # Block-swap: paulatinamente-restablecimiento + inicia-la-afectación in
+    # the same message. Must precede both restablecimiento and inicio checks.
+    if RE_TRANSICION_BLOQUES.search(tl):
+        return "transicion_bloques"
+
+    # Gradual single-block restoration — precede generic restablecimiento.
+    if RE_RESTAB_GRADUAL.search(tl):
+        return "restablecimiento_gradual"
 
     # Block-level inicio
     if RE_INICIO_BLOQUE.search(tl):

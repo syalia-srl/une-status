@@ -163,6 +163,23 @@ def extract(msg_type: str, text: str) -> dict:
         if m := RE_BLOQUE_NUM.search(t):
             out["bloque"] = int(m.group(1))
 
+    elif msg_type == "restablecimiento_gradual":
+        if m := RE_BLOQUE_NUM.search(t):
+            out["bloque"] = int(m.group(1))
+
+    elif msg_type == "transicion_bloques":
+        # "restablecimiento del Bloque X" → bloque_on
+        m_on = re.search(r"restablecimiento\s+del\s+bloque\s+(\d)", t, re.IGNORECASE)
+        if m_on:
+            out["bloque_on"] = int(m_on.group(1))
+        # "Inicia la afectación ... bloque no.Y" → bloque_off
+        m_off = re.search(
+            r"inicia\s+la\s+afectaci[oó]n.*?bloque\s+(?:no\.?\s*|n[°º]\.?\s*)?(\d)",
+            t, re.IGNORECASE | re.DOTALL,
+        )
+        if m_off:
+            out["bloque_off"] = int(m_off.group(1))
+
     elif msg_type == "averias":
         # Two shapes:
         # (a) "Averías existentes" → list of many transformers (📌 sections)
