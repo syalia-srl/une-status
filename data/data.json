@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-20T00:58:38+00:00",
+  "generated_at": "2026-05-20T01:34:45+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-20T00:55:39+00:00",
+    "as_of": "2026-05-20T01:25:55+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,27 +33,28 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-05-20T00:53:59+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": ": Narciso López / Calzada de Bejucal y Pinar del Río",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-05-20T01:25:55+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-05-20T00:53:59+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": ": Narciso López / Calzada de Bejucal y Pinar del Río",
-        "severity": "secundaria"
+        "ts": "2026-05-20T01:11:05+00:00",
+        "municipio": "Habana Del Este Quedan Reparadas"
+      },
+      {
+        "ts": "2026-05-20T01:06:01+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": ": Bella Vista y Línea del Ferrocarril afectando : Bella Vista , Azotea y Mañana 🚨 ⚡️",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-05-20T01:01:36+00:00",
+        "municipio": "Lisa",
+        "direccion": "251 y 46 afectando : Punta Brava, El Guatao, Estrella Roja 🛑 ⚡️",
+        "severity": "primaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-05-20T00:55:39+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -284,13 +285,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Lisa": 1,
+      "Guanabacoa": 1,
+      "Habana Del Este Quedan Reparadas": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 2,
+    "averias_total": 3,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento_daf": 1
+      "averias": 4
     }
   },
   "yesterday": {
@@ -365,9 +367,9 @@
     "total_emergency_mw_sum": 571,
     "averias_count_by_municipio": {
       "Boyeros": 15,
-      "Guanabacoa": 14,
-      "Arroyo Naranjo": 11,
-      "Lisa": 9,
+      "Guanabacoa": 15,
+      "Lisa": 10,
+      "Arroyo Naranjo": 10,
       "Habana Del Este": 8,
       "Plaza": 8,
       "San Miguel Del Padrón": 5,
@@ -379,9 +381,10 @@
       "Marianao": 3,
       "Plaza De La Revolución": 2,
       "Cerro Y Centro Habana": 1,
-      "De Boyeros": 1
+      "De Boyeros": 1,
+      "Habana Del Este Quedan Reparadas": 1
     },
-    "averias_total": 95,
+    "averias_total": 97,
     "daf_total": 91,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -409,9 +412,9 @@
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 33,
-      "Arroyo Naranjo": 26,
-      "Guanabacoa": 26,
-      "Lisa": 25,
+      "Guanabacoa": 27,
+      "Lisa": 26,
+      "Arroyo Naranjo": 25,
       "Boyeros": 21,
       "San Miguel Del Padrón": 19,
       "Plaza": 18,
@@ -428,9 +431,10 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1,
-      "De Boyeros": 1
+      "De Boyeros": 1,
+      "Habana Del Este Quedan Reparadas": 1
     },
-    "averias_total": 235,
+    "averias_total": 237,
     "daf_total": 179,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -453,14 +457,14 @@
       "5": 55338,
       "6": 57404
     },
-    "averias_total": 3176,
+    "averias_total": 3178,
     "averias_top_municipios": {
       "Boyeros": 329,
       "Playa": 280,
-      "Arroyo Naranjo": 248,
-      "Lisa": 227,
+      "Arroyo Naranjo": 247,
+      "Lisa": 228,
       "Habana Del Este": 218,
-      "Guanabacoa": 210,
+      "Guanabacoa": 211,
       "Cerro": 182,
       "Plaza": 179,
       "San Miguel Del Padrón": 178,
