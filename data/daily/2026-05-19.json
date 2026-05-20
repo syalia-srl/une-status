@@ -1,20 +1,20 @@
 {
   "date": "2026-05-19",
-  "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "finalized": true,
+  "peak_mw_affected": 373,
+  "peak_time": "22:55",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 0
+    "1": 410,
+    "2": 550,
+    "3": 755,
+    "4": 610,
+    "5": 737,
+    "6": 570
   },
-  "total_block_outage_minutes": 0,
-  "daf_count": 0,
+  "total_block_outage_minutes": 3632,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,13 +23,17 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Lisa": 1,
-    "Guanabacoa": 1,
-    "Habana Del Este Quedan Reparadas": 1
+    "Boyeros": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 4,
+  "averias_total": 1,
+  "source_msg_count": 12,
   "by_type_counts": {
-    "averias": 4
+    "restablecimiento_gradual": 1,
+    "actualizacion_bloques": 3,
+    "unidad_termoelectrica": 1,
+    "averias": 2,
+    "restablecimiento": 3,
+    "disparo_circuito": 1,
+    "daf": 1
   }
 }

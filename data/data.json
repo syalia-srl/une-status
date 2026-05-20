@@ -1,60 +1,65 @@
 {
-  "generated_at": "2026-05-20T01:34:45+00:00",
+  "generated_at": "2026-05-20T05:50:26+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-20T01:25:55+00:00",
+    "as_of": "2026-05-20T05:02:41+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-19T21:12:41+00:00",
+        "hours_off_today": 7.833333333333333
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-19T18:52:41+00:00",
+        "hours_off_today": 10.166666666666666
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-19T15:27:41+00:00",
+        "hours_off_today": 13.583333333333334
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-19T17:52:41+00:00",
+        "hours_off_today": 11.166666666666666
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-19T15:45:41+00:00",
+        "hours_off_today": 13.283333333333333
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-19T18:32:41+00:00",
+        "hours_off_today": 10.5
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 373,
+    "current_mw_affected_at": "2026-05-20T05:02:41+00:00",
     "active_averias": {
-      "ts": "2026-05-20T01:25:55+00:00",
+      "ts": "2026-05-20T03:26:02+00:00",
       "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-05-20T01:11:05+00:00",
-        "municipio": "Habana Del Este Quedan Reparadas"
-      },
-      {
-        "ts": "2026-05-20T01:06:01+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": ": Bella Vista y Línea del Ferrocarril afectando : Bella Vista , Azotea y Mañana 🚨 ⚡️",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-05-20T01:01:36+00:00",
-        "municipio": "Lisa",
-        "direccion": "251 y 46 afectando : Punta Brava, El Guatao, Estrella Roja 🛑 ⚡️",
+        "ts": "2026-05-20T02:18:31+00:00",
+        "municipio": "Boyeros",
+        "direccion": ": Calzada de Bejucal y Luz , afectando : Trigal, Parajón, García, El Cuervo, El Trébol 🚨 ⚡️",
         "severity": "primaria"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-05-20T02:54:58+00:00",
+      "type": "daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -169,8 +174,8 @@
         "name": "10 de Octubre (Nuevitas)",
         "state": "partial",
         "assumed": false,
-        "last_seen_at": "2026-05-07T00:24:49+00:00",
-        "last_online_at": "2026-05-07T00:24:49+00:00",
+        "last_seen_at": "2026-05-20T02:04:07+00:00",
+        "last_online_at": "2026-05-20T02:04:07+00:00",
         "last_offline_at": "2026-03-08T01:16:03+00:00",
         "last_change_at": "2026-03-12T00:37:41+00:00",
         "units": [
@@ -182,7 +187,7 @@
           {
             "unidad": 6,
             "state": "online",
-            "since": "2026-05-07T00:24:49+00:00"
+            "since": "2026-05-20T02:04:07+00:00"
           }
         ],
         "online_units": 1,
@@ -261,21 +266,21 @@
     ]
   },
   "day": {
-    "date": "2026-05-19",
+    "date": "2026-05-20",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 373,
+    "peak_time": "01:02",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 470,
+      "2": 610,
+      "3": 815,
+      "4": 670,
+      "5": 797,
+      "6": 630
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 3992,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -284,34 +289,31 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Lisa": 1,
-      "Guanabacoa": 1,
-      "Habana Del Este Quedan Reparadas": 1
-    },
-    "averias_total": 3,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "averias": 4
+      "restablecimiento": 1,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
-    "date": "2026-05-18",
+    "date": "2026-05-19",
     "finalized": true,
-    "peak_mw_affected": 434,
-    "peak_time": "22:00",
-    "interruption_minutes": 1440,
-    "emergency_mw": 100,
+    "peak_mw_affected": 373,
+    "peak_time": "22:55",
+    "interruption_minutes": null,
+    "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 535,
-      "2": 720,
-      "3": 520,
-      "4": 360,
-      "5": 400,
-      "6": 795
+      "1": 410,
+      "2": 550,
+      "3": 755,
+      "4": 610,
+      "5": 737,
+      "6": 570
     },
-    "total_block_outage_minutes": 3330,
-    "daf_count": 18,
+    "total_block_outage_minutes": 3632,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -320,72 +322,55 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 3,
-      "Boyeros": 3,
-      "Guanabacoa": 3,
-      "Lisa": 1,
-      "Plaza De La Revolución": 1,
-      "Arroyo Naranjo": 1,
-      "Habana Del Este": 1,
-      "Marianao": 1,
-      "Centro Habana": 1
+      "Boyeros": 1
     },
-    "averias_total": 15,
-    "source_msg_count": 120,
+    "averias_total": 1,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "restablecimiento": 22,
-      "actualizacion_bloques": 19,
-      "daf": 18,
-      "otro": 5,
-      "averias": 10,
-      "disparo_circuito": 13,
-      "inicio_afectacion": 8,
-      "nota_diaria": 1,
-      "corto": 5,
-      "pinned": 1,
-      "sen_update": 1,
-      "via_libre": 5,
-      "restablecimiento_daf": 9,
-      "transferencia_bloque": 2,
-      "mantenimiento": 1
+      "restablecimiento_gradual": 1,
+      "actualizacion_bloques": 3,
+      "unidad_termoelectrica": 1,
+      "averias": 2,
+      "restablecimiento": 3,
+      "disparo_circuito": 1,
+      "daf": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 409.0,
+    "avg_peak_mw": 386.4,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 7200,
+    "total_interruption_minutes": 5760,
     "total_block_outage_minutes": {
-      "1": 2353,
-      "2": 2850,
-      "3": 2744,
-      "4": 3672,
-      "5": 2442,
-      "6": 3704
+      "1": 2209,
+      "2": 3368,
+      "3": 3860,
+      "4": 3737,
+      "5": 3453,
+      "6": 3794
     },
-    "total_emergency_mw_sum": 571,
+    "total_emergency_mw_sum": 426,
     "averias_count_by_municipio": {
-      "Boyeros": 15,
-      "Guanabacoa": 15,
-      "Lisa": 10,
+      "Guanabacoa": 14,
+      "Boyeros": 12,
       "Arroyo Naranjo": 10,
-      "Habana Del Este": 8,
+      "Lisa": 8,
       "Plaza": 8,
-      "San Miguel Del Padrón": 5,
+      "Habana Del Este": 6,
       "Playa": 5,
-      "Cerro": 4,
-      "Centro Habana": 3,
-      "Regla": 3,
+      "Cerro": 3,
+      "San Miguel Del Padrón": 3,
       "Cotorro": 3,
       "Marianao": 3,
+      "Regla": 2,
       "Plaza De La Revolución": 2,
+      "Centro Habana": 2,
       "Cerro Y Centro Habana": 1,
-      "De Boyeros": 1,
-      "Habana Del Este Quedan Reparadas": 1
+      "De Boyeros": 1
     },
-    "averias_total": 97,
-    "daf_total": 91,
+    "averias_total": 83,
+    "daf_total": 70,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -397,25 +382,25 @@
   "month": {
     "month": "2026-05",
     "finalized": false,
-    "dailies_count": 19,
-    "avg_peak_mw": 357.4,
+    "dailies_count": 20,
+    "avg_peak_mw": 358.9,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 5645,
-      "2": 6217,
-      "3": 6306,
-      "4": 6093,
-      "5": 5167,
-      "6": 7102
+      "1": 6525,
+      "2": 7377,
+      "3": 7876,
+      "4": 7373,
+      "5": 6701,
+      "6": 8302
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 33,
-      "Guanabacoa": 27,
-      "Lisa": 26,
+      "Guanabacoa": 26,
       "Arroyo Naranjo": 25,
-      "Boyeros": 21,
+      "Lisa": 25,
+      "Boyeros": 22,
       "San Miguel Del Padrón": 19,
       "Plaza": 18,
       "Playa": 14,
@@ -431,11 +416,10 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1,
-      "De Boyeros": 1,
-      "Habana Del Este Quedan Reparadas": 1
+      "De Boyeros": 1
     },
-    "averias_total": 237,
-    "daf_total": 179,
+    "averias_total": 235,
+    "daf_total": 180,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -450,21 +434,21 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 60139,
-      "2": 64296,
-      "3": 52030,
-      "4": 58325,
-      "5": 55338,
-      "6": 57404
+      "1": 61019,
+      "2": 65456,
+      "3": 53600,
+      "4": 59605,
+      "5": 56872,
+      "6": 58604
     },
-    "averias_total": 3178,
+    "averias_total": 3176,
     "averias_top_municipios": {
-      "Boyeros": 329,
+      "Boyeros": 330,
       "Playa": 280,
       "Arroyo Naranjo": 247,
-      "Lisa": 228,
+      "Lisa": 227,
       "Habana Del Este": 218,
-      "Guanabacoa": 211,
+      "Guanabacoa": 210,
       "Cerro": 182,
       "Plaza": 179,
       "San Miguel Del Padrón": 178,
@@ -475,7 +459,7 @@
       "De Playa": 49,
       "Regla": 41
     },
-    "daf_total": 2328,
+    "daf_total": 2329,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -493,10 +477,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-04-20",
-        "peak_mw": null
-      },
       {
         "date": "2026-04-21",
         "peak_mw": null
@@ -611,14 +591,14 @@
       },
       {
         "date": "2026-05-19",
-        "peak_mw": null
+        "peak_mw": 373
+      },
+      {
+        "date": "2026-05-20",
+        "peak_mw": 373
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-04-20",
-        "minutes": 0
-      },
       {
         "date": "2026-04-21",
         "minutes": 0
@@ -733,14 +713,14 @@
       },
       {
         "date": "2026-05-19",
-        "minutes": 0
+        "minutes": 3632
+      },
+      {
+        "date": "2026-05-20",
+        "minutes": 3992
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2025-11-21",
-        "peak_mw": 294
-      },
       {
         "date": "2025-11-22",
         "peak_mw": 291
@@ -1455,7 +1435,11 @@
       },
       {
         "date": "2026-05-19",
-        "peak_mw": null
+        "peak_mw": 373
+      },
+      {
+        "date": "2026-05-20",
+        "peak_mw": 373
       }
     ],
     "monthly_max_peak_mw": [
@@ -1827,15 +1811,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 36530
+        "minutes": 44154
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2328,
-    "daf_last_30d": 248,
+    "daf_total": 2329,
+    "daf_last_30d": 240,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1856,9 +1840,9 @@
     }
   },
   "meta": {
-    "daily_count": 1388,
+    "daily_count": 1389,
     "monthly_count": 46,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-05-19"
+    "latest_date": "2026-05-20"
   }
 }
