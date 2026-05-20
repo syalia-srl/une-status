@@ -1,19 +1,19 @@
 {
   "date": "2026-05-20",
   "finalized": false,
-  "peak_mw_affected": 394,
-  "peak_time": "21:40",
-  "interruption_minutes": 1440,
-  "emergency_mw": 78,
+  "peak_mw_affected": 214,
+  "peak_time": "11:35",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
     "1": 0,
-    "2": 0,
-    "3": 240,
-    "4": 0,
-    "5": 180,
-    "6": 0
+    "2": 60,
+    "3": 360,
+    "4": 180,
+    "5": 360,
+    "6": 120
   },
-  "total_block_outage_minutes": 420,
+  "total_block_outage_minutes": 1080,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,18 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Plaza": 1
+    "Boyeros": 1
   },
   "averias_total": 1,
-  "source_msg_count": 13,
+  "source_msg_count": 15,
   "by_type_counts": {
-    "restablecimiento_gradual": 3,
-    "sen_update": 1,
     "actualizacion_bloques": 3,
-    "nota_diaria": 1,
-    "empty": 1,
-    "disparo_circuito": 1,
-    "otro": 1,
-    "inicio_afectacion": 2
+    "otro": 4,
+    "averias": 1,
+    "via_libre": 2,
+    "inicio_afectacion": 2,
+    "corto": 1,
+    "restablecimiento": 1,
+    "restablecimiento_gradual": 1
   }
 }
