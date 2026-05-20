@@ -1,62 +1,69 @@
 {
-  "generated_at": "2026-05-20T17:37:08+00:00",
+  "generated_at": "2026-05-20T19:53:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-20T17:27:55+00:00",
+    "as_of": "2026-05-20T19:50:27+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-05-20T17:27:20+00:00",
-        "emergency": true
+        "since": "2026-05-20T17:47:58+00:00",
+        "hours_off_today": 1.0
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-05-20T15:52:39+00:00",
-        "hours_off_today": 1.0
+        "since": "2026-05-20T15:47:58+00:00",
+        "hours_off_today": 3.0
       },
       {
         "id": 3,
-        "state": "encendiendose",
-        "since": "2026-05-20T17:27:55+00:00"
+        "state": "encendido"
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-05-20T13:52:39+00:00",
-        "hours_off_today": 3.0
+        "since": "2026-05-20T13:47:58+00:00",
+        "hours_off_today": 5.0
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-05-20T10:52:39+00:00",
-        "hours_off_today": 6.0
+        "state": "encendido"
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-05-20T14:52:39+00:00",
-        "hours_off_today": 2.0
+        "since": "2026-05-20T14:47:58+00:00",
+        "hours_off_today": 4.0
       }
     ],
-    "current_mw_affected": 212,
-    "current_mw_affected_at": "2026-05-20T16:52:39+00:00",
+    "current_mw_affected": 170,
+    "current_mw_affected_at": "2026-05-20T18:47:58+00:00",
     "active_averias": {
-      "ts": "2026-05-20T15:16:48+00:00",
+      "ts": "2026-05-20T18:32:25+00:00",
       "averias": [
         {
           "municipio": "Boyeros",
-          "direccion": "la siguiente dirección:162/305 y 307,Lugardita"
+          "direccion": "la siguiente dirección:calle 236/247 y 249,Abel Santa María"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-05-20T15:16:48+00:00",
+        "ts": "2026-05-20T19:17:08+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-20T18:32:25+00:00",
         "municipio": "Boyeros",
-        "direccion": "la siguiente dirección:162/305 y 307,Lugardita"
+        "direccion": "la siguiente dirección:calle 236/247 y 249,Abel Santa María"
+      },
+      {
+        "ts": "2026-05-20T18:29:20+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "la siguiente dirección:calle Estela/Justo y Carlos,Párraga"
       }
     ],
     "last_daf": null,
@@ -268,19 +275,19 @@
   "day": {
     "date": "2026-05-20",
     "finalized": false,
-    "peak_mw_affected": 214,
-    "peak_time": "11:35",
+    "peak_mw_affected": 215,
+    "peak_time": "14:01",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 60,
-      "3": 360,
-      "4": 180,
-      "5": 360,
-      "6": 120
+      "1": 60,
+      "2": 180,
+      "3": 0,
+      "4": 300,
+      "5": 0,
+      "6": 240
     },
-    "total_block_outage_minutes": 1080,
+    "total_block_outage_minutes": 780,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -290,19 +297,20 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Arroyo Naranjo": 1,
+      "Boyeros": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 15,
+    "averias_total": 3,
+    "source_msg_count": 10,
     "by_type_counts": {
+      "restablecimiento_gradual": 1,
       "actualizacion_bloques": 3,
-      "otro": 4,
-      "averias": 1,
-      "via_libre": 2,
-      "inicio_afectacion": 2,
-      "corto": 1,
-      "restablecimiento": 1,
-      "restablecimiento_gradual": 1
+      "averias": 2,
+      "otro": 1,
+      "disparo_circuito": 1,
+      "via_libre": 1,
+      "inicio_afectacion": 1
     }
   },
   "yesterday": {
@@ -347,25 +355,25 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 363.7,
+    "avg_peak_mw": 363.9,
     "max_peak_mw": 499,
     "total_interruption_minutes": 5760,
     "total_block_outage_minutes": {
-      "1": 1739,
-      "2": 2818,
-      "3": 3405,
-      "4": 3247,
-      "5": 3016,
-      "6": 3284
+      "1": 1799,
+      "2": 2938,
+      "3": 3045,
+      "4": 3367,
+      "5": 2656,
+      "6": 3404
     },
     "total_emergency_mw_sum": 426,
     "averias_count_by_municipio": {
       "Guanabacoa": 14,
       "Boyeros": 13,
-      "Arroyo Naranjo": 10,
+      "Arroyo Naranjo": 11,
       "Lisa": 8,
       "Plaza": 8,
-      "Habana Del Este": 6,
+      "Habana Del Este": 7,
       "Playa": 5,
       "Cerro": 3,
       "San Miguel Del Padrón": 3,
@@ -377,7 +385,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 84,
+    "averias_total": 86,
     "daf_total": 70,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -391,22 +399,22 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 20,
-    "avg_peak_mw": 351.0,
+    "avg_peak_mw": 351.1,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 6055,
-      "2": 6827,
-      "3": 7421,
-      "4": 6883,
-      "5": 6264,
-      "6": 7792
+      "1": 6115,
+      "2": 6947,
+      "3": 7061,
+      "4": 7003,
+      "5": 5904,
+      "6": 7912
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
-      "Habana Del Este": 33,
+      "Habana Del Este": 34,
+      "Arroyo Naranjo": 26,
       "Guanabacoa": 26,
-      "Arroyo Naranjo": 25,
       "Lisa": 25,
       "Boyeros": 23,
       "San Miguel Del Padrón": 19,
@@ -426,7 +434,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 236,
+    "averias_total": 238,
     "daf_total": 180,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -442,20 +450,20 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 60549,
-      "2": 64906,
-      "3": 53145,
-      "4": 59115,
-      "5": 56435,
-      "6": 58094
+      "1": 60609,
+      "2": 65026,
+      "3": 52785,
+      "4": 59235,
+      "5": 56075,
+      "6": 58214
     },
-    "averias_total": 3177,
+    "averias_total": 3179,
     "averias_top_municipios": {
       "Boyeros": 331,
       "Playa": 280,
-      "Arroyo Naranjo": 247,
+      "Arroyo Naranjo": 248,
       "Lisa": 227,
-      "Habana Del Este": 218,
+      "Habana Del Este": 219,
       "Guanabacoa": 210,
       "Cerro": 182,
       "Plaza": 179,
@@ -603,7 +611,7 @@
       },
       {
         "date": "2026-05-20",
-        "peak_mw": 214
+        "peak_mw": 215
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -725,7 +733,7 @@
       },
       {
         "date": "2026-05-20",
-        "minutes": 1080
+        "minutes": 780
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1447,7 +1455,7 @@
       },
       {
         "date": "2026-05-20",
-        "peak_mw": 214
+        "peak_mw": 215
       }
     ],
     "monthly_max_peak_mw": [
@@ -1819,7 +1827,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 41242
+        "minutes": 40942
       }
     ],
     "sen_outage_days_total": 7,
