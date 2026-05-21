@@ -1,20 +1,20 @@
 {
   "date": "2026-05-21",
   "finalized": false,
-  "peak_mw_affected": 193,
-  "peak_time": "17:06",
+  "peak_mw_affected": 201,
+  "peak_time": "18:15",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
     "1": 0,
-    "2": 3,
+    "2": 75,
     "3": 0,
-    "4": 164,
-    "5": 230,
-    "6": 101
+    "4": 233,
+    "5": 299,
+    "6": 170
   },
-  "total_block_outage_minutes": 498,
-  "daf_count": 1,
+  "total_block_outage_minutes": 777,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,16 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Lisa": 1
+    "Boyeros": 1
   },
   "averias_total": 1,
-  "source_msg_count": 10,
+  "source_msg_count": 11,
   "by_type_counts": {
+    "disparo_circuito": 1,
+    "otro": 2,
+    "restablecimiento_daf": 2,
+    "restablecimiento": 1,
+    "daf": 2,
     "averias": 1,
-    "transicion_bloques": 1,
-    "restablecimiento": 4,
-    "actualizacion_bloques": 2,
-    "daf": 1,
+    "actualizacion_bloques": 1,
     "inicio_afectacion": 1
   }
 }
