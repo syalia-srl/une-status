@@ -1,83 +1,76 @@
 {
-  "generated_at": "2026-05-21T04:41:44+00:00",
+  "generated_at": "2026-05-21T08:19:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-21T04:27:16+00:00",
+    "as_of": "2026-05-21T08:03:11+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-05-20T18:23:43+00:00",
-        "hours_off_today": 9.5
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "encendiendose",
-        "since": "2026-05-21T04:27:16+00:00"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-05-20T22:28:43+00:00",
-        "hours_off_today": 5.416666666666667
+        "state": "encendiendose",
+        "since": "2026-05-21T07:59:11+00:00"
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-05-21T02:53:43+00:00",
-        "hours_off_today": 1.0
+        "since": "2026-05-21T02:08:19+00:00",
+        "hours_off_today": 5.5
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-05-20T22:23:43+00:00",
-        "hours_off_today": 5.5
+        "since": "2026-05-20T22:38:19+00:00",
+        "hours_off_today": 9.0
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-05-20T14:53:43+00:00",
-        "hours_off_today": 13.0
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": 378,
-    "current_mw_affected_at": "2026-05-21T03:53:43+00:00",
+    "current_mw_affected": 173,
+    "current_mw_affected_at": "2026-05-21T07:38:19+00:00",
     "active_averias": {
-      "ts": "2026-05-21T02:53:30+00:00",
+      "ts": "2026-05-21T07:07:57+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
-          "direccion": "la siguiente dirección: 199/ 192 y 194, María del Carmen"
+          "municipio": "Cerro",
+          "direccion": "Independencia e/ Victoria y Acacia, Martí 🚨 ‼️",
+          "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-05-21T02:53:30+00:00",
-        "municipio": "Boyeros",
-        "direccion": "la siguiente dirección: 199/ 192 y 194, María del Carmen"
+        "ts": "2026-05-21T08:03:11+00:00",
+        "municipio": "Guanabacoa",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-05-21T01:31:09+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "la siguiente dirección:calle 3ra/Cisneros Betancourt y Finlay,reparto Los Pinos"
-      },
-      {
-        "ts": "2026-05-21T00:34:54+00:00",
-        "municipio": "Playa",
-        "direccion": "la siguiente dirección calle 9na/90 y92"
-      },
-      {
-        "ts": "2026-05-21T00:18:48+00:00",
+        "ts": "2026-05-21T08:02:06+00:00",
         "municipio": "Regla",
         "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-21T07:07:57+00:00",
+        "municipio": "Cerro",
+        "direccion": "Independencia e/ Victoria y Acacia, Martí 🚨 ‼️",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-05-21T06:55:51+00:00",
+        "municipio": "Playa",
+        "direccion": "la siguiente dirección:calle 45/66 y 68"
       }
     ],
-    "last_daf": {
-      "ts": "2026-05-21T03:17:23+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -286,19 +279,19 @@
   "day": {
     "date": "2026-05-21",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 338,
+    "peak_time": "01:18",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
       "1": 0,
       "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
+      "3": 585,
+      "4": 330,
+      "5": 540,
       "6": 0
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 1455,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -307,11 +300,22 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 1,
+    "averias_count_by_municipio": {
+      "Playa": 1,
+      "Cerro": 1,
+      "Regla": 1,
+      "Guanabacoa": 1
+    },
+    "averias_total": 4,
+    "source_msg_count": 14,
     "by_type_counts": {
-      "restablecimiento_gradual": 1
+      "otro": 1,
+      "actualizacion_bloques": 3,
+      "mantenimiento": 1,
+      "inicio_afectacion": 2,
+      "restablecimiento_gradual": 3,
+      "averias": 2,
+      "disparo_circuito": 2
     }
   },
   "yesterday": {
@@ -361,36 +365,36 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 372.8,
+    "avg_peak_mw": 367.9,
     "max_peak_mw": 434,
     "total_interruption_minutes": 4320,
     "total_block_outage_minutes": {
       "1": 2309,
       "2": 3223,
-      "3": 3110,
-      "4": 2947,
-      "5": 2781,
+      "3": 3695,
+      "4": 3277,
+      "5": 3321,
       "6": 3884
     },
     "total_emergency_mw_sum": 286,
     "averias_count_by_municipio": {
-      "Guanabacoa": 12,
+      "Guanabacoa": 13,
       "Boyeros": 10,
       "Arroyo Naranjo": 9,
       "Habana Del Este": 6,
       "Plaza": 6,
-      "Playa": 4,
+      "Playa": 5,
       "Cotorro": 3,
       "Lisa": 3,
       "Marianao": 3,
       "Centro Habana": 2,
+      "Cerro": 2,
       "San Miguel Del Padrón": 2,
-      "Cerro": 1,
+      "Regla": 2,
       "De Boyeros": 1,
-      "Plaza De La Revolución": 1,
-      "Regla": 1
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 64,
+    "averias_total": 68,
     "daf_total": 59,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -404,32 +408,32 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 21,
-    "avg_peak_mw": 360.5,
+    "avg_peak_mw": 359.4,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
       "1": 6625,
       "2": 7517,
-      "3": 7386,
-      "4": 6763,
-      "5": 6234,
+      "3": 7971,
+      "4": 7093,
+      "5": 6774,
       "6": 8452
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 33,
+      "Guanabacoa": 27,
       "Arroyo Naranjo": 26,
-      "Guanabacoa": 26,
       "Lisa": 25,
       "Boyeros": 23,
       "San Miguel Del Padrón": 19,
       "Plaza": 18,
-      "Playa": 15,
-      "Cerro": 12,
+      "Playa": 16,
+      "Cerro": 13,
       "Marianao": 10,
       "Cotorro": 8,
+      "Regla": 7,
       "Plaza De La Revolución": 6,
-      "Regla": 6,
       "Centro Habana": 5,
       "Mariano": 1,
       "San Miguel Del Padron": 1,
@@ -439,7 +443,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 239,
+    "averias_total": 243,
     "daf_total": 181,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -457,20 +461,20 @@
     "total_block_outage_minutes": {
       "1": 61119,
       "2": 65596,
-      "3": 53110,
-      "4": 58995,
-      "5": 56405,
+      "3": 53695,
+      "4": 59325,
+      "5": 56945,
       "6": 58754
     },
-    "averias_total": 3180,
+    "averias_total": 3184,
     "averias_top_municipios": {
       "Boyeros": 331,
-      "Playa": 281,
+      "Playa": 282,
       "Arroyo Naranjo": 248,
       "Lisa": 227,
       "Habana Del Este": 218,
-      "Guanabacoa": 210,
-      "Cerro": 182,
+      "Guanabacoa": 211,
+      "Cerro": 183,
       "Plaza": 179,
       "San Miguel Del Padrón": 178,
       "Marianao": 142,
@@ -478,7 +482,7 @@
       "Centro Habana": 67,
       "De Boyeros": 49,
       "De Playa": 49,
-      "Regla": 42
+      "Regla": 43
     },
     "daf_total": 2330,
     "sen_collapse_total": 9,
@@ -616,7 +620,7 @@
       },
       {
         "date": "2026-05-21",
-        "peak_mw": null
+        "peak_mw": 338
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -738,7 +742,7 @@
       },
       {
         "date": "2026-05-21",
-        "minutes": 0
+        "minutes": 1455
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1460,7 +1464,7 @@
       },
       {
         "date": "2026-05-21",
-        "peak_mw": null
+        "peak_mw": 338
       }
     ],
     "monthly_max_peak_mw": [
@@ -1832,7 +1836,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 42977
+        "minutes": 44432
       }
     ],
     "sen_outage_days_total": 7,
