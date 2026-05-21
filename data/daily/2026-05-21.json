@@ -1,20 +1,20 @@
 {
   "date": "2026-05-21",
   "finalized": false,
-  "peak_mw_affected": 404,
-  "peak_time": "22:30",
-  "interruption_minutes": 1440,
-  "emergency_mw": 90,
+  "peak_mw_affected": 82,
+  "peak_time": "11:17",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 195,
-    "3": 0,
+    "1": 48,
+    "2": 0,
+    "3": 28,
     "4": 0,
     "5": 0,
     "6": 0
   },
-  "total_block_outage_minutes": 195,
-  "daf_count": 1,
+  "total_block_outage_minutes": 76,
+  "daf_count": 5,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,19 +23,17 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Lisa": 2,
-    "Cerro": 1,
-    "Arroyo Naranjo": 1
+    "Marianao": 1,
+    "Boyeros": 1
   },
-  "averias_total": 4,
-  "source_msg_count": 12,
+  "averias_total": 2,
+  "source_msg_count": 13,
   "by_type_counts": {
-    "disparo_circuito": 3,
+    "inicio_afectacion": 2,
     "restablecimiento": 3,
-    "actualizacion_bloques": 2,
-    "nota_diaria": 1,
-    "sen_update": 1,
+    "daf": 5,
+    "actualizacion_bloques": 1,
     "averias": 1,
-    "daf": 1
+    "disparo_circuito": 1
   }
 }
