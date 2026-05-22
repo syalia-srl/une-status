@@ -348,6 +348,22 @@ def test_current_state_actualizacion_overrides_transition():
     assert by_id[3]["state"] == "apagado"
 
 
+def test_day_boundary_carry_forward():
+    """Block that started off at 23:50 Havana CDT May 19 (UTC 03:50 May 20) must:
+    (a) count 10 minutes on May 19 (23:50 → midnight),
+    (b) count 30 minutes on May 20 when called with prior_open_blocks={1} (midnight → 00:30).
+    Havana observes CDT (UTC-4) in May, not UTC-5.
+    """
+    events_may19 = [
+        {"id": 1, "ts": "2026-05-20T03:50:00+00:00", "type": "inicio_afectacion", "bloque": 1}
+    ]
+    events_may20 = [
+        {"id": 2, "ts": "2026-05-20T04:30:00+00:00", "type": "restablecimiento", "bloque": 1}
+    ]
+    assert daily_rollup("2026-05-19", events_may19, finalized=True)["block_outage_minutes"]["1"] == 10
+    assert daily_rollup("2026-05-20", events_may20, finalized=True, prior_open_blocks={1})["block_outage_minutes"]["1"] == 30
+
+
 def test_current_state_pre_actualizacion_partial_restoration_ignored():
     """A 'inicia de forma gradual' message classified as restablecimiento
     that predates the latest actualizacion must NOT override an actualizacion
