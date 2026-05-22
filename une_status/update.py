@@ -89,6 +89,29 @@ def _recent_events_for_state(days: int = 2) -> list[dict]:
     return out
 
 
+def _open_blocks_at_midnight(events: list[dict]) -> set[int]:
+    """Return the set of block numbers (1–6) that were still off at the end of
+    the day described by `events` (i.e. would carry forward into the next day).
+
+    Uses the last actualizacion_bloques if present; otherwise derives state
+    from the greedy inicio/restablecimiento event sequence.
+    """
+    acts = [e for e in events if e.get("type") == "actualizacion_bloques" and e.get("blocks")]
+    if acts:
+        latest = max(acts, key=lambda e: e["id"])
+        return {blk["bloque"] for blk in latest["blocks"] if blk["hours_off"] * 60 + blk["minutes_off"] > 0}
+    state: set[int] = set()
+    for e in sorted(events, key=lambda x: x["id"]):
+        b = e.get("bloque")
+        if not b or b < 1 or b > 6:
+            continue
+        if e["type"] == "inicio_afectacion":
+            state.add(b)
+        elif e["type"] == "restablecimiento":
+            state.discard(b)
+    return state
+
+
 def update() -> dict:
     state = read_json(state_path(), default={})
     last_seen_id = int(state.get("last_msg_id") or 0)
@@ -123,7 +146,10 @@ def update() -> dict:
             continue
         # finalized: only if the day is strictly before today (Havana)
         finalized = dt.date.fromisoformat(d) < today
-        roll = daily_rollup(d, evs, finalized=finalized)
+        yesterday_str = (dt.date.fromisoformat(d) - timedelta(days=1)).isoformat()
+        prev_evs = read_jsonl(events_path(yesterday_str))
+        prior_open_blocks = _open_blocks_at_midnight(prev_evs) if prev_evs else None
+        roll = daily_rollup(d, evs, finalized=finalized, prior_open_blocks=prior_open_blocks)
         write_json(daily_path(d), roll)
 
     # Recompute affected monthlies
