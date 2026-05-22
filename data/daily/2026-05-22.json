@@ -1,20 +1,20 @@
 {
   "date": "2026-05-22",
   "finalized": false,
-  "peak_mw_affected": 274,
-  "peak_time": "00:47",
+  "peak_mw_affected": 241,
+  "peak_time": "04:43",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 427,
-    "2": 508,
-    "3": 303,
+    "1": 608,
+    "2": 0,
+    "3": 484,
     "4": 0,
-    "5": 0,
+    "5": 9,
     "6": 0
   },
-  "total_block_outage_minutes": 1238,
-  "daf_count": 1,
+  "total_block_outage_minutes": 1101,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -26,9 +26,9 @@
   "averias_total": 0,
   "source_msg_count": 6,
   "by_type_counts": {
-    "transicion_bloques": 1,
+    "restablecimiento_daf": 1,
     "restablecimiento": 2,
-    "daf": 1,
-    "actualizacion_bloques": 2
+    "actualizacion_bloques": 2,
+    "inicio_afectacion": 1
   }
 }
