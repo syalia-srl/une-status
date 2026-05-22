@@ -1,20 +1,20 @@
 {
   "date": "2026-05-22",
   "finalized": false,
-  "peak_mw_affected": 84,
-  "peak_time": "12:11",
+  "peak_mw_affected": 90,
+  "peak_time": "14:07",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 125,
+    "1": 611,
+    "2": 245,
     "3": 0,
-    "4": 0,
+    "4": 593,
     "5": 0,
-    "6": 145
+    "6": 0
   },
-  "total_block_outage_minutes": 270,
-  "daf_count": 5,
+  "total_block_outage_minutes": 1449,
+  "daf_count": 6,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,21 +23,20 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Guanabacoa": 1,
-    "Marianao": 1,
-    "Habana Vieja": 1
+    "Habana Vieja": 1,
+    "Cerro": 1,
+    "Plaza De La Revolución": 1
   },
   "averias_total": 3,
-  "source_msg_count": 20,
+  "source_msg_count": 18,
   "by_type_counts": {
-    "actualizacion_bloques": 3,
-    "averias": 2,
-    "inicio_afectacion": 1,
-    "daf": 5,
-    "disparo_circuito": 1,
-    "restablecimiento_daf": 4,
-    "restablecimiento": 2,
+    "restablecimiento_daf": 3,
+    "averias": 1,
+    "daf": 6,
+    "actualizacion_bloques": 2,
+    "disparo_circuito": 2,
     "otro": 1,
-    "transferencia_bloque": 1
+    "inicio_afectacion": 2,
+    "restablecimiento": 1
   }
 }

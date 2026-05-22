@@ -1,19 +1,21 @@
 {
-  "generated_at": "2026-05-22T16:26:30+00:00",
+  "generated_at": "2026-05-22T18:13:06+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-22T16:20:39+00:00",
+    "as_of": "2026-05-22T18:07:43+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-22T17:47:43+00:00",
+        "hours_off_today": 0.3333333333333333
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-05-22T14:06:53+00:00",
-        "hours_off_today": 2.0833333333333335
+        "since": "2026-05-22T14:02:43+00:00",
+        "hours_off_today": 4.083333333333333
       },
       {
         "id": 3,
@@ -29,43 +31,39 @@
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-05-22T13:46:53+00:00",
-        "hours_off_today": 2.4166666666666665
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": 84,
-    "current_mw_affected_at": "2026-05-22T16:11:53+00:00",
+    "current_mw_affected": 90,
+    "current_mw_affected_at": "2026-05-22T18:07:43+00:00",
     "active_averias": {
-      "ts": "2026-05-22T14:17:06+00:00",
+      "ts": "2026-05-22T16:35:16+00:00",
       "averias": [
         {
-          "municipio": "Marianao",
-          "direccion": "calle 123 entre Línea del Ferrocarril y 100, Puentes Nuevos 🚨",
-          "severity": "secundaria"
+          "municipio": "Habana Vieja",
+          "direccion": "las calles Lamparilla entre San Ignacio y Mercaderes afectando el servicio eléctrico en la Zona Soterrada 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-05-22T14:34:47+00:00",
-        "municipio": "Habana Vieja",
+        "ts": "2026-05-22T17:56:11+00:00",
+        "municipio": "Plaza De La Revolución",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-05-22T14:17:06+00:00",
-        "municipio": "Marianao",
-        "direccion": "calle 123 entre Línea del Ferrocarril y 100, Puentes Nuevos 🚨",
-        "severity": "secundaria"
+        "ts": "2026-05-22T17:22:34+00:00",
+        "municipio": "Cerro",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-05-22T14:03:45+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "Alecrín, Peñalver, Carretera Monumental KM 14 hasta el final 🚨"
+        "ts": "2026-05-22T16:35:16+00:00",
+        "municipio": "Habana Vieja",
+        "direccion": "las calles Lamparilla entre San Ignacio y Mercaderes afectando el servicio eléctrico en la Zona Soterrada 🚨"
       }
     ],
     "last_daf": {
-      "ts": "2026-05-22T16:20:39+00:00",
+      "ts": "2026-05-22T18:01:37+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -276,20 +274,20 @@
   "day": {
     "date": "2026-05-22",
     "finalized": false,
-    "peak_mw_affected": 84,
-    "peak_time": "12:11",
+    "peak_mw_affected": 90,
+    "peak_time": "14:07",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 125,
+      "1": 611,
+      "2": 245,
       "3": 0,
-      "4": 0,
+      "4": 593,
       "5": 0,
-      "6": 145
+      "6": 0
     },
-    "total_block_outage_minutes": 270,
-    "daf_count": 5,
+    "total_block_outage_minutes": 1449,
+    "daf_count": 6,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -298,22 +296,21 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Marianao": 1,
-      "Habana Vieja": 1
+      "Habana Vieja": 1,
+      "Cerro": 1,
+      "Plaza De La Revolución": 1
     },
     "averias_total": 3,
-    "source_msg_count": 20,
+    "source_msg_count": 18,
     "by_type_counts": {
-      "actualizacion_bloques": 3,
-      "averias": 2,
-      "inicio_afectacion": 1,
-      "daf": 5,
-      "disparo_circuito": 1,
-      "restablecimiento_daf": 4,
-      "restablecimiento": 2,
+      "restablecimiento_daf": 3,
+      "averias": 1,
+      "daf": 6,
+      "actualizacion_bloques": 2,
+      "disparo_circuito": 2,
       "otro": 1,
-      "transferencia_bloque": 1
+      "inicio_afectacion": 2,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -355,37 +352,38 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 327.1,
+    "avg_peak_mw": 328.0,
     "max_peak_mw": 434,
     "total_interruption_minutes": 2880,
     "total_block_outage_minutes": {
-      "1": 2384,
-      "2": 3626,
+      "1": 2995,
+      "2": 3746,
       "3": 2884,
-      "4": 3165,
+      "4": 3758,
       "5": 3321,
-      "6": 4241
+      "6": 4096
     },
     "total_emergency_mw_sum": 181,
     "averias_count_by_municipio": {
       "Boyeros": 8,
       "Arroyo Naranjo": 5,
-      "Guanabacoa": 5,
       "Plaza": 4,
-      "Marianao": 3,
+      "Guanabacoa": 4,
       "Playa": 3,
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 2,
+      "Marianao": 2,
       "Lisa": 2,
+      "Plaza De La Revolución": 2,
       "Cotorro": 1,
       "De Boyeros": 1,
-      "Plaza De La Revolución": 1,
       "Centro Habana": 1,
       "Regla": 1,
-      "Habana Vieja": 1
+      "Habana Vieja": 1,
+      "Cerro": 1
     },
     "averias_total": 40,
-    "daf_total": 55,
+    "daf_total": 56,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -398,31 +396,31 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 22,
-    "avg_peak_mw": 345.6,
+    "avg_peak_mw": 345.9,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 6883,
-      "2": 7980,
+      "1": 7494,
+      "2": 8100,
       "3": 7520,
-      "4": 7260,
+      "4": 7853,
       "5": 6774,
-      "6": 9031
+      "6": 8886
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 33,
-      "Guanabacoa": 27,
       "Arroyo Naranjo": 26,
+      "Guanabacoa": 26,
       "Lisa": 25,
       "Boyeros": 23,
       "San Miguel Del Padrón": 19,
       "Plaza": 18,
       "Playa": 15,
-      "Cerro": 12,
-      "Marianao": 11,
+      "Cerro": 13,
+      "Marianao": 10,
       "Cotorro": 8,
-      "Plaza De La Revolución": 6,
+      "Plaza De La Revolución": 7,
       "Regla": 6,
       "Centro Habana": 5,
       "Habana Vieja": 2,
@@ -434,7 +432,7 @@
       "De Boyeros": 1
     },
     "averias_total": 242,
-    "daf_total": 188,
+    "daf_total": 189,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -449,12 +447,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 61377,
-      "2": 66059,
+      "1": 61988,
+      "2": 66179,
       "3": 53244,
-      "4": 59492,
+      "4": 60085,
       "5": 56945,
-      "6": 59333
+      "6": 59188
     },
     "averias_total": 3183,
     "averias_top_municipios": {
@@ -463,18 +461,18 @@
       "Arroyo Naranjo": 248,
       "Lisa": 227,
       "Habana Del Este": 218,
-      "Guanabacoa": 211,
-      "Cerro": 182,
+      "Guanabacoa": 210,
+      "Cerro": 183,
       "Plaza": 179,
       "San Miguel Del Padrón": 178,
-      "Marianao": 143,
+      "Marianao": 142,
       "Cotorro": 93,
       "Centro Habana": 67,
       "De Boyeros": 49,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2337,
+    "daf_total": 2338,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -610,7 +608,7 @@
       },
       {
         "date": "2026-05-22",
-        "peak_mw": 84
+        "peak_mw": 90
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -732,7 +730,7 @@
       },
       {
         "date": "2026-05-22",
-        "minutes": 270
+        "minutes": 1449
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1454,7 +1452,7 @@
       },
       {
         "date": "2026-05-22",
-        "peak_mw": 84
+        "peak_mw": 90
       }
     ],
     "monthly_max_peak_mw": [
@@ -1826,15 +1824,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 45448
+        "minutes": 46627
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2337,
-    "daf_last_30d": 239,
+    "daf_total": 2338,
+    "daf_last_30d": 240,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
