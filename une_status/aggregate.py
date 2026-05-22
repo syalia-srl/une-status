@@ -32,8 +32,17 @@ def bucket_events_by_day(events: Iterable[dict]) -> dict[str, list[dict]]:
     return out
 
 
-def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
-    """Build the daily rollup for `day` from its events (sorted by id)."""
+def daily_rollup(
+    day: str,
+    events: list[dict],
+    finalized: bool,
+    prior_open_blocks: set[int] | None = None,
+) -> dict:
+    """Build the daily rollup for `day` from its events (sorted by id).
+
+    prior_open_blocks: set of block numbers still off at the start of this day
+    (i.e. carry-forward from yesterday's last known state).
+    """
     events = sorted(events, key=lambda e: e["id"])
     by_type = Counter(e["type"] for e in events)
 
@@ -58,7 +67,14 @@ def daily_rollup(day: str, events: list[dict], finalized: bool) -> dict:
 
     # block outage minutes: prefer the latest actualizacion_bloques of the day
     # (which carries running cumulative totals), fall back to greedy event pairing.
-    block_minutes = _block_outage_from_latest_actualizacion(events) or _block_outage_minutes(events, day)
+    # When both sources are available, take the max per block so a carry-forward
+    # interval captured by the event path is not silently discarded.
+    primary = _block_outage_from_latest_actualizacion(events, day, prior_open_blocks)
+    fallback = _block_outage_minutes(events, day, prior_open_blocks)
+    if any(primary.values()):
+        block_minutes = {str(b): max(primary.get(str(b), 0), fallback.get(str(b), 0)) for b in range(1, 7)}
+    else:
+        block_minutes = fallback
 
     # averias by municipio
     municipios: Counter = Counter()
@@ -178,9 +194,17 @@ def _cte_offline_minutes(events: list[dict], day: str) -> dict[str, int]:
     return out
 
 
-def _block_outage_from_latest_actualizacion(events: list[dict]) -> dict[str, int]:
+def _block_outage_from_latest_actualizacion(
+    events: list[dict],
+    day: str = "",
+    prior_open_blocks: set[int] | None = None,
+) -> dict[str, int]:
     """Read the latest actualizacion_bloques of the day; its hours_off/minutes_off
     fields are running cumulative totals per bloque.
+
+    When prior_open_blocks is given and day is set, cap each carried-forward block
+    to at most the minutes elapsed since midnight (the actualizacion may report
+    cumulative minutes that span yesterday's open interval, inflating today's count).
     """
     actualizaciones = [e for e in events if e["type"] == "actualizacion_bloques" and e.get("blocks")]
     if not actualizaciones:
@@ -190,17 +214,39 @@ def _block_outage_from_latest_actualizacion(events: list[dict]) -> dict[str, int
     for blk in latest.get("blocks", []):
         bn = str(blk["bloque"])
         out[bn] = blk["hours_off"] * 60 + blk["minutes_off"]
+    if day and prior_open_blocks:
+        act_ts = _parse_ts(latest["ts"]).astimezone(TZ_HAV)
+        day_midnight = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV)
+        cap_all = int((act_ts - day_midnight).total_seconds() / 60)
+        for bn, val in out.items():
+            if int(bn) in prior_open_blocks:
+                out[bn] = min(val, cap_all)
     return out
 
 
-def _block_outage_minutes(events: list[dict], day: str) -> dict[str, int]:
+def _block_outage_minutes(
+    events: list[dict],
+    day: str,
+    prior_open_blocks: set[int] | None = None,
+) -> dict[str, int]:
     """For each bloque (1–6), sum minutes between inicio_afectacion and
     restablecimiento events on `day`. If a bloque starts off mid-day with no
     matching restablecimiento by day end (Havana midnight), count to midnight.
+
+    When prior_open_blocks is given, inject a virtual inicio at midnight for
+    each block that was still off at the end of the previous day.  A real
+    inicio_afectacion later in the day overwrites the virtual one (existing
+    greedy-pair logic: state[b] = ts).
     """
     minutes: dict[str, int] = {str(b): 0 for b in range(1, 7)}
-    state: dict[int, datetime] = {}  # bloque -> start_ts
-    end_of_day = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV) + timedelta(days=1)
+    state: dict[int, datetime] = {}
+    day_midnight = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV)
+    end_of_day = day_midnight + timedelta(days=1)
+
+    if prior_open_blocks:
+        for b in prior_open_blocks:
+            if 1 <= b <= 6:
+                state[b] = day_midnight
 
     for e in sorted(events, key=lambda x: x["id"]):
         b = e.get("bloque")
@@ -214,7 +260,6 @@ def _block_outage_minutes(events: list[dict], day: str) -> dict[str, int]:
                 delta = (ts - state[b]).total_seconds() / 60
                 minutes[str(b)] += int(max(0, delta))
                 del state[b]
-    # any block still off at end of day
     for b, start in state.items():
         delta = (end_of_day - start).total_seconds() / 60
         minutes[str(b)] += int(max(0, delta))
