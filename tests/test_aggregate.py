@@ -1,12 +1,18 @@
 """Aggregation unit tests."""
 from __future__ import annotations
 
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
 from une_status.aggregate import (
+    _infer_implicit_block_starts,
     current_state,
     daily_rollup,
     havana_date,
     monthly_rollup,
 )
+
+_TZ_HAV = ZoneInfo("America/Havana")
 
 
 def test_havana_date_dst_boundary():
@@ -383,3 +389,61 @@ def test_current_state_pre_actualizacion_partial_restoration_ignored():
     cs = current_state(events)
     b1 = next(b for b in cs["bloques"] if b["id"] == 1)
     assert b1["state"] == "apagado"
+
+
+# ── F7 / F8 fixtures ──────────────────────────────────────────────────────────
+
+# Havana CDT = UTC-4.  actualizacion at 14:00 UTC = 10:00 Havana.
+# Block 3 reports 4h (240 min) off; restablecimiento closes the interval in the
+# fallback path so that fallback == primary == 240 and max() is a no-op.
+_F7_EVENTS = [
+    {
+        "id": 1,
+        "ts": "2026-05-23T14:00:00+00:00",
+        "type": "actualizacion_bloques",
+        "total_mw": 300,
+        "blocks": [{"bloque": 3, "hours_off": 4, "minutes_off": 0}],
+    },
+    {
+        "id": 2,
+        "ts": "2026-05-23T14:00:00+00:00",
+        "type": "restablecimiento",
+        "bloque": 3,
+    },
+]
+
+# Block 2 is in prior_open_blocks (carry-forward) AND appears in actualizacion.
+_F8_EVENTS = [
+    {
+        "id": 1,
+        "ts": "2026-05-23T14:00:00+00:00",
+        "type": "actualizacion_bloques",
+        "total_mw": 400,
+        "blocks": [{"bloque": 2, "hours_off": 6, "minutes_off": 0}],
+    },
+]
+
+
+def test_f7_infer_implicit_block_starts():
+    """F7: actualizacion reports block 3 as 4h off; no inicio_afectacion.
+    Inferred start = actualizacion_ts − 240 min = 06:00 Havana (no cap needed)."""
+    result = _infer_implicit_block_starts(_F7_EVENTS, "2026-05-23", prior_open_blocks=None)
+    assert 3 in result
+    expected = datetime(2026, 5, 23, 6, 0, tzinfo=_TZ_HAV)  # 10:00 Havana − 4h
+    assert result[3] == expected
+
+
+def test_f7_daily_rollup_gives_240():
+    """Criterion 5: daily_rollup for F7 scenario produces block 3 = 240 min,
+    identical to pre-inference behavior (primary path already gives 240;
+    inference brings fallback to 240 so max() is a no-op)."""
+    r = daily_rollup("2026-05-23", _F7_EVENTS, finalized=False)
+    assert r["block_outage_minutes"]["3"] == 240
+
+
+def test_f8_carry_forward_skipped_in_implicit_starts():
+    """F8: block 2 is in prior_open_blocks AND in actualizacion_bloques.
+    _infer_implicit_block_starts must NOT return an inferred start for block 2
+    — carry-forward seeding (midnight) takes precedence."""
+    result = _infer_implicit_block_starts(_F8_EVENTS, "2026-05-23", prior_open_blocks={2})
+    assert 2 not in result

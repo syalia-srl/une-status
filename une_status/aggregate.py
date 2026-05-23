@@ -70,7 +70,8 @@ def daily_rollup(
     # When both sources are available, take the max per block so a carry-forward
     # interval captured by the event path is not silently discarded.
     primary = _block_outage_from_latest_actualizacion(events, day, prior_open_blocks)
-    fallback = _block_outage_minutes(events, day, prior_open_blocks)
+    implicit_starts = _infer_implicit_block_starts(events, day, prior_open_blocks)
+    fallback = _block_outage_minutes(events, day, prior_open_blocks, implicit_starts)
     if any(primary.values()):
         block_minutes = {str(b): max(primary.get(str(b), 0), fallback.get(str(b), 0)) for b in range(1, 7)}
     else:
@@ -224,10 +225,52 @@ def _block_outage_from_latest_actualizacion(
     return out
 
 
+def _infer_implicit_block_starts(
+    events: list[dict],
+    day: str,
+    prior_open_blocks: set[int] | None,
+) -> dict[int, datetime]:
+    """For each block in actualizacion_bloques with non-zero cumulative minutes
+    and no entry in prior_open_blocks, compute a virtual outage start:
+
+        inferred_start = earliest_actualizacion_ts − cumulative_minutes
+
+    capped at day midnight (Havana). Uses the *earliest* actualizacion by event
+    id so the longest consistent episode is anchored. Returns {} when no
+    actualizacion is present or all blocks are zero / carry-forward.
+    """
+    carry = prior_open_blocks or set()
+    day_midnight = datetime.fromisoformat(day).replace(tzinfo=TZ_HAV)
+    # bloque -> (event_id, ts_str, cumulative_mins) for the earliest actualizacion
+    earliest: dict[int, tuple[int, str, int]] = {}
+    for e in events:
+        if e["type"] != "actualizacion_bloques" or not e.get("blocks"):
+            continue
+        for blk in e["blocks"]:
+            b = blk["bloque"]
+            if b in carry:
+                continue
+            mins = blk["hours_off"] * 60 + blk["minutes_off"]
+            if mins == 0:
+                continue
+            if b not in earliest or e["id"] < earliest[b][0]:
+                earliest[b] = (e["id"], e["ts"], mins)
+    out: dict[int, datetime] = {}
+    for b, (_, ts_str, mins) in earliest.items():
+        act_ts = _parse_ts(ts_str).astimezone(TZ_HAV)
+        inferred = act_ts - timedelta(minutes=mins)
+        if inferred < day_midnight:
+            # Block started before today; prior_open_blocks / primary path handles it.
+            continue
+        out[b] = inferred
+    return out
+
+
 def _block_outage_minutes(
     events: list[dict],
     day: str,
     prior_open_blocks: set[int] | None = None,
+    implicit_starts: dict[int, datetime] | None = None,
 ) -> dict[str, int]:
     """For each bloque (1–6), sum minutes between inicio_afectacion and
     restablecimiento events on `day`. If a bloque starts off mid-day with no
@@ -247,6 +290,11 @@ def _block_outage_minutes(
         for b in prior_open_blocks:
             if 1 <= b <= 6:
                 state[b] = day_midnight
+
+    if implicit_starts:
+        for b, ts in implicit_starts.items():
+            if 1 <= b <= 6 and b not in state:
+                state[b] = ts
 
     for e in sorted(events, key=lambda x: x["id"]):
         b = e.get("bloque")
