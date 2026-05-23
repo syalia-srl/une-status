@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-22T23:44:07+00:00",
+  "generated_at": "2026-05-23T01:27:11+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-22T23:36:58+00:00",
+    "as_of": "2026-05-23T00:56:50+00:00",
     "bloques": [
       {
         "id": 1,
@@ -12,51 +12,57 @@
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-05-22T21:51:58+00:00",
-        "hours_off_today": 1.75
+        "since": "2026-05-22T21:51:37+00:00",
+        "hours_off_today": 3.0
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-05-22T19:51:58+00:00",
-        "hours_off_today": 3.75
+        "since": "2026-05-22T19:51:37+00:00",
+        "hours_off_today": 5.0
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-05-22T18:01:58+00:00",
-        "hours_off_today": 5.583333333333333
+        "state": "encendido"
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-05-22T18:36:58+00:00",
-        "hours_off_today": 5.0
+        "since": "2026-05-22T18:36:37+00:00",
+        "hours_off_today": 6.25
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-05-22T21:36:58+00:00",
-        "hours_off_today": 2.0
+        "since": "2026-05-22T21:36:37+00:00",
+        "hours_off_today": 3.25
       }
     ],
-    "current_mw_affected": 335,
-    "current_mw_affected_at": "2026-05-22T23:36:58+00:00",
-    "active_averias": null,
+    "current_mw_affected": 246,
+    "current_mw_affected_at": "2026-05-23T00:51:37+00:00",
+    "active_averias": {
+      "ts": "2026-05-22T23:55:27+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "calle 41 y 22 afectando el servicio eléctrico en 28 desde 41 hasta 47; Calle 41 desde 9na hasta 24 (Kohly); Calle 10 desde 5ta hasta 9na (Kohly); Calle 12 desde 12 hasta 24 (Miramar), La Puntilla 🚨"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-05-22T23:20:38+00:00",
-        "municipio": "Habana Del Este",
+        "ts": "2026-05-23T00:56:50+00:00",
+        "municipio": "Playa",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-05-22T23:05:57+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
+        "ts": "2026-05-22T23:55:27+00:00",
+        "municipio": "Playa",
+        "direccion": "calle 41 y 22 afectando el servicio eléctrico en 28 desde 41 hasta 47; Calle 41 desde 9na hasta 24 (Kohly); Calle 10 desde 5ta hasta 9na (Kohly); Calle 12 desde 12 hasta 24 (Miramar), La Puntilla 🚨"
       }
     ],
     "last_daf": {
-      "ts": "2026-05-22T22:55:28+00:00",
+      "ts": "2026-05-23T00:43:08+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -267,20 +273,20 @@
   "day": {
     "date": "2026-05-22",
     "finalized": false,
-    "peak_mw_affected": 358,
-    "peak_time": "19:18",
+    "peak_mw_affected": 246,
+    "peak_time": "20:51",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
       "1": 0,
-      "2": 105,
-      "3": 225,
-      "4": 335,
-      "5": 300,
-      "6": 120
+      "2": 180,
+      "3": 300,
+      "4": 0,
+      "5": 375,
+      "6": 195
     },
-    "total_block_outage_minutes": 1085,
-    "daf_count": 0,
+    "total_block_outage_minutes": 1050,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -289,16 +295,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 2
+      "Playa": 2
     },
     "averias_total": 2,
-    "source_msg_count": 7,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "mantenimiento": 1,
       "restablecimiento": 1,
+      "averias": 1,
+      "daf": 1,
       "restablecimiento_daf": 1,
-      "disparo_circuito": 2,
-      "actualizacion_bloques": 2
+      "actualizacion_bloques": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -340,26 +347,26 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 366.3,
+    "avg_peak_mw": 350.3,
     "max_peak_mw": 434,
     "total_interruption_minutes": 2880,
     "total_block_outage_minutes": {
       "1": 2384,
-      "2": 3606,
-      "3": 3109,
-      "4": 3500,
-      "5": 3621,
-      "6": 4216
+      "2": 3681,
+      "3": 3184,
+      "4": 3165,
+      "5": 3696,
+      "6": 4291
     },
     "total_emergency_mw_sum": 181,
     "averias_count_by_municipio": {
       "Boyeros": 8,
       "Arroyo Naranjo": 5,
+      "Playa": 5,
       "Plaza": 4,
-      "Habana Del Este": 4,
       "Guanabacoa": 4,
-      "Playa": 3,
       "San Miguel Del Padrón": 2,
+      "Habana Del Este": 2,
       "Marianao": 2,
       "Lisa": 2,
       "Cotorro": 1,
@@ -369,7 +376,7 @@
       "Regla": 1
     },
     "averias_total": 39,
-    "daf_total": 50,
+    "daf_total": 51,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -382,27 +389,27 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 22,
-    "avg_peak_mw": 358.1,
+    "avg_peak_mw": 353.0,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
       "1": 6883,
-      "2": 7960,
-      "3": 7745,
-      "4": 7595,
-      "5": 7074,
-      "6": 9006
+      "2": 8035,
+      "3": 7820,
+      "4": 7260,
+      "5": 7149,
+      "6": 9081
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
-      "Habana Del Este": 35,
+      "Habana Del Este": 33,
       "Arroyo Naranjo": 26,
       "Guanabacoa": 26,
       "Lisa": 25,
       "Boyeros": 23,
       "San Miguel Del Padrón": 19,
       "Plaza": 18,
-      "Playa": 15,
+      "Playa": 17,
       "Cerro": 12,
       "Marianao": 10,
       "Cotorro": 8,
@@ -418,7 +425,7 @@
       "De Boyeros": 1
     },
     "averias_total": 241,
-    "daf_total": 183,
+    "daf_total": 184,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -434,19 +441,19 @@
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
       "1": 61377,
-      "2": 66039,
-      "3": 53469,
-      "4": 59827,
-      "5": 57245,
-      "6": 59308
+      "2": 66114,
+      "3": 53544,
+      "4": 59492,
+      "5": 57320,
+      "6": 59383
     },
     "averias_total": 3182,
     "averias_top_municipios": {
       "Boyeros": 331,
-      "Playa": 281,
+      "Playa": 283,
       "Arroyo Naranjo": 248,
       "Lisa": 227,
-      "Habana Del Este": 220,
+      "Habana Del Este": 218,
       "Guanabacoa": 210,
       "Cerro": 182,
       "Plaza": 179,
@@ -458,7 +465,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2332,
+    "daf_total": 2333,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -594,7 +601,7 @@
       },
       {
         "date": "2026-05-22",
-        "peak_mw": 358
+        "peak_mw": 246
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -716,7 +723,7 @@
       },
       {
         "date": "2026-05-22",
-        "minutes": 1085
+        "minutes": 1050
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1438,7 +1445,7 @@
       },
       {
         "date": "2026-05-22",
-        "peak_mw": 358
+        "peak_mw": 246
       }
     ],
     "monthly_max_peak_mw": [
@@ -1810,15 +1817,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 46263
+        "minutes": 46228
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2332,
-    "daf_last_30d": 234,
+    "daf_total": 2333,
+    "daf_last_30d": 235,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
