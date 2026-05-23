@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-23T22:34:19+00:00",
+  "generated_at": "2026-05-23T23:39:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-23T22:34:14+00:00",
+    "as_of": "2026-05-23T23:37:19+00:00",
     "bloques": [
       {
         "id": 1,
@@ -12,39 +12,54 @@
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-05-23T18:00:00+00:00",
-        "hours_off_today": 3.8333333333333335
+        "since": "2026-05-23T18:00:03+00:00",
+        "hours_off_today": 4.833333333333333
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-05-23T22:16:13+00:00",
-        "emergency": true
+        "since": "2026-05-23T22:16:03+00:00",
+        "hours_off_today": 0.5666666666666667
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-05-23T20:22:00+00:00",
-        "hours_off_today": 1.4666666666666668
+        "since": "2026-05-23T20:22:03+00:00",
+        "hours_off_today": 2.466666666666667
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-05-23T21:25:00+00:00",
-        "hours_off_today": 0.4166666666666667
+        "since": "2026-05-23T21:25:03+00:00",
+        "hours_off_today": 1.4166666666666667
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-23T23:16:25+00:00",
+        "emergency": true
       }
     ],
-    "current_mw_affected": 151,
-    "current_mw_affected_at": "2026-05-23T21:50:00+00:00",
+    "current_mw_affected": 199,
+    "current_mw_affected_at": "2026-05-23T22:50:03+00:00",
     "active_averias": {
-      "ts": "2026-05-23T21:47:57+00:00",
-      "averias": []
+      "ts": "2026-05-23T22:40:09+00:00",
+      "averias": [
+        {
+          "municipio": "Marianao Que Aun",
+          "direccion": "el Banco de Transformadores de la Subestación de Marianao en : Calle 45 desde 114 hasta 130 y 130 desde 37 hasta 51 que afecta : Los Quemados , Las Yaguas , Palmar CUJAE , Prisión de Toledo ⭕️ ⚡️",
+          "severity": "primaria"
+        }
+      ]
     },
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-05-23T22:40:09+00:00",
+        "municipio": "Marianao Que Aun",
+        "direccion": "el Banco de Transformadores de la Subestación de Marianao en : Calle 45 desde 114 hasta 130 y 130 desde 37 hasta 51 que afecta : Los Quemados , Las Yaguas , Palmar CUJAE , Prisión de Toledo ⭕️ ⚡️",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -254,19 +269,19 @@
   "day": {
     "date": "2026-05-23",
     "finalized": false,
-    "peak_mw_affected": 151,
-    "peak_time": "17:50",
+    "peak_mw_affected": 199,
+    "peak_time": "18:50",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
       "1": 0,
-      "2": 600,
+      "2": 599,
       "3": 343,
-      "4": 458,
-      "5": 395,
-      "6": 0
+      "4": 457,
+      "5": 394,
+      "6": 283
     },
-    "total_block_outage_minutes": 1796,
+    "total_block_outage_minutes": 2076,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -275,15 +290,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Marianao Que Aun": 1
+    },
+    "averias_total": 1,
     "source_msg_count": 6,
     "by_type_counts": {
       "averias": 1,
+      "disparo_circuito": 2,
       "actualizacion_bloques": 1,
-      "disparo_circuito": 1,
-      "restablecimiento": 2,
-      "inicio_afectacion": 1
+      "inicio_afectacion": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -327,16 +344,16 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 346.0,
+    "avg_peak_mw": 352.9,
     "max_peak_mw": 434,
     "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
       "1": 2384,
-      "2": 3996,
+      "2": 3995,
       "3": 3002,
-      "4": 3023,
-      "5": 2996,
-      "6": 3886
+      "4": 3022,
+      "5": 2995,
+      "6": 4169
     },
     "total_emergency_mw_sum": 100,
     "averias_count_by_municipio": {
@@ -352,9 +369,10 @@
       "Plaza De La Revolución": 1,
       "Marianao": 1,
       "Centro Habana": 1,
-      "Regla": 1
+      "Regla": 1,
+      "Marianao Que Aun": 1
     },
-    "averias_total": 31,
+    "averias_total": 32,
     "daf_total": 44,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -368,16 +386,16 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 23,
-    "avg_peak_mw": 347.3,
+    "avg_peak_mw": 349.3,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
       "1": 6883,
-      "2": 8770,
+      "2": 8769,
       "3": 8298,
-      "4": 7718,
-      "5": 7169,
-      "6": 9216
+      "4": 7717,
+      "5": 7168,
+      "6": 9499
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
@@ -401,9 +419,10 @@
       "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1,
-      "De Boyeros": 1
+      "De Boyeros": 1,
+      "Marianao Que Aun": 1
     },
-    "averias_total": 242,
+    "averias_total": 243,
     "daf_total": 183,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -420,13 +439,13 @@
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
       "1": 61377,
-      "2": 66849,
+      "2": 66848,
       "3": 54022,
-      "4": 59950,
-      "5": 57340,
-      "6": 59518
+      "4": 59949,
+      "5": 57339,
+      "6": 59801
     },
-    "averias_total": 3183,
+    "averias_total": 3184,
     "averias_top_municipios": {
       "Boyeros": 331,
       "Playa": 281,
@@ -580,7 +599,7 @@
       },
       {
         "date": "2026-05-23",
-        "peak_mw": 151
+        "peak_mw": 199
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -702,7 +721,7 @@
       },
       {
         "date": "2026-05-23",
-        "minutes": 1796
+        "minutes": 2076
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1424,7 +1443,7 @@
       },
       {
         "date": "2026-05-23",
-        "peak_mw": 151
+        "peak_mw": 199
       }
     ],
     "monthly_max_peak_mw": [
@@ -1796,7 +1815,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 48054
+        "minutes": 48334
       }
     ],
     "sen_outage_days_total": 7,

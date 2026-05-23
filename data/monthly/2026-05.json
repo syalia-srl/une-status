@@ -2,16 +2,16 @@
   "month": "2026-05",
   "finalized": false,
   "dailies_count": 23,
-  "avg_peak_mw": 347.3,
+  "avg_peak_mw": 349.3,
   "max_peak_mw": 499,
   "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
     "1": 6883,
-    "2": 8770,
+    "2": 8769,
     "3": 8298,
-    "4": 7718,
-    "5": 7169,
-    "6": 9216
+    "4": 7717,
+    "5": 7168,
+    "6": 9499
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
@@ -35,9 +35,10 @@
     "Habana Vieja": 1,
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
     "Cerro Y Centro Habana": 1,
-    "De Boyeros": 1
+    "De Boyeros": 1,
+    "Marianao Que Aun": 1
   },
-  "averias_total": 242,
+  "averias_total": 243,
   "daf_total": 183,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
