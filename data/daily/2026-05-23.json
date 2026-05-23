@@ -1,20 +1,20 @@
 {
   "date": "2026-05-23",
   "finalized": false,
-  "peak_mw_affected": 363,
-  "peak_time": "18:00",
-  "interruption_minutes": 1351,
-  "emergency_mw": 90,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
+    "1": 829,
     "2": 0,
     "3": 0,
     "4": 0,
     "5": 0,
     "6": 0
   },
-  "total_block_outage_minutes": 0,
-  "daf_count": 0,
+  "total_block_outage_minutes": 829,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,15 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Habana Del Este": 1
+    "Cerro": 1
   },
   "averias_total": 1,
-  "source_msg_count": 8,
+  "source_msg_count": 9,
   "by_type_counts": {
     "restablecimiento": 2,
-    "restablecimiento_gradual": 3,
+    "disparo_circuito": 3,
+    "daf": 1,
     "averias": 1,
-    "sen_update": 1,
-    "nota_diaria": 1
+    "inicio_afectacion": 1,
+    "mantenimiento": 1
   }
 }
