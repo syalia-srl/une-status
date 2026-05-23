@@ -1,20 +1,20 @@
 {
   "date": "2026-05-23",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 38,
+  "peak_time": "10:29",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 829,
+    "1": 60,
     "2": 0,
     "3": 0,
     "4": 0,
     "5": 0,
     "6": 0
   },
-  "total_block_outage_minutes": 829,
-  "daf_count": 1,
+  "total_block_outage_minutes": 60,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,16 +23,14 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Cerro": 1
+    "Lisa": 1
   },
   "averias_total": 1,
-  "source_msg_count": 9,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "restablecimiento": 2,
-    "disparo_circuito": 3,
-    "daf": 1,
     "averias": 1,
-    "inicio_afectacion": 1,
+    "actualizacion_bloques": 2,
+    "disparo_circuito": 1,
     "mantenimiento": 1
   }
 }
