@@ -1,51 +1,55 @@
 {
-  "generated_at": "2026-05-23T16:38:23+00:00",
+  "generated_at": "2026-05-23T18:41:38+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-23T15:51:41+00:00",
+    "as_of": "2026-05-23T18:27:59+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-23T17:57:59+00:00",
+        "hours_off_today": 0.5
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 57,
+    "current_mw_affected_at": "2026-05-23T18:27:59+00:00",
     "active_averias": {
-      "ts": "2026-05-23T15:51:41+00:00",
+      "ts": "2026-05-23T17:50:59+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "la Subestación afectando : Alecrín, Peñalver, Carretera Monumental 🚨 ⚡️"
+          "municipio": "Playa",
+          "direccion": ": 3ra / 228 y 230 , Jaimanitas",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-05-23T15:51:41+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la Subestación afectando : Alecrín, Peñalver, Carretera Monumental 🚨 ⚡️"
+        "ts": "2026-05-23T17:50:59+00:00",
+        "municipio": "Playa",
+        "direccion": ": 3ra / 228 y 230 , Jaimanitas",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -257,19 +261,19 @@
   "day": {
     "date": "2026-05-23",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 57,
+    "peak_time": "14:27",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
+      "1": 809,
+      "2": 602,
       "3": 0,
       "4": 0,
       "5": 0,
       "6": 0
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 1411,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -279,12 +283,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Playa": 1
     },
     "averias_total": 1,
-    "source_msg_count": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "averias": 1
+      "via_libre": 1,
+      "actualizacion_bloques": 3,
+      "averias": 1,
+      "restablecimiento": 1,
+      "transicion_bloques": 1
     }
   },
   "yesterday": {
@@ -328,12 +336,12 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 378.5,
+    "avg_peak_mw": 332.6,
     "max_peak_mw": 434,
     "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 2384,
-      "2": 3396,
+      "1": 3193,
+      "2": 3998,
       "3": 2659,
       "4": 2565,
       "5": 2601,
@@ -342,12 +350,12 @@
     "total_emergency_mw_sum": 100,
     "averias_count_by_municipio": {
       "Boyeros": 6,
-      "Guanabacoa": 5,
       "Arroyo Naranjo": 4,
+      "Guanabacoa": 4,
       "Lisa": 3,
+      "Playa": 3,
       "Plaza": 3,
       "Habana Del Este": 3,
-      "Playa": 2,
       "Cotorro": 1,
       "De Boyeros": 1,
       "Plaza De La Revolución": 1,
@@ -369,12 +377,12 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 23,
-    "avg_peak_mw": 356.2,
+    "avg_peak_mw": 343.2,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 6883,
-      "2": 8170,
+      "1": 7692,
+      "2": 8772,
       "3": 7955,
       "4": 7260,
       "5": 6774,
@@ -383,13 +391,13 @@
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 35,
-      "Guanabacoa": 27,
       "Arroyo Naranjo": 26,
       "Lisa": 26,
+      "Guanabacoa": 26,
       "Boyeros": 23,
       "San Miguel Del Padrón": 19,
       "Plaza": 18,
-      "Playa": 15,
+      "Playa": 16,
       "Cerro": 12,
       "Marianao": 10,
       "Cotorro": 8,
@@ -420,8 +428,8 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 61377,
-      "2": 66249,
+      "1": 62186,
+      "2": 66851,
       "3": 53679,
       "4": 59492,
       "5": 56945,
@@ -430,11 +438,11 @@
     "averias_total": 3184,
     "averias_top_municipios": {
       "Boyeros": 331,
-      "Playa": 281,
+      "Playa": 282,
       "Arroyo Naranjo": 248,
       "Lisa": 228,
       "Habana Del Este": 220,
-      "Guanabacoa": 211,
+      "Guanabacoa": 210,
       "Cerro": 182,
       "Plaza": 179,
       "San Miguel Del Padrón": 178,
@@ -581,7 +589,7 @@
       },
       {
         "date": "2026-05-23",
-        "peak_mw": null
+        "peak_mw": 57
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -703,7 +711,7 @@
       },
       {
         "date": "2026-05-23",
-        "minutes": 0
+        "minutes": 1411
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1425,7 +1433,7 @@
       },
       {
         "date": "2026-05-23",
-        "peak_mw": null
+        "peak_mw": 57
       }
     ],
     "monthly_max_peak_mw": [
@@ -1797,7 +1805,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 46258
+        "minutes": 47669
       }
     ],
     "sen_outage_days_total": 7,
