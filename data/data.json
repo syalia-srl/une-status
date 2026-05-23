@@ -1,55 +1,64 @@
 {
-  "generated_at": "2026-05-23T18:41:38+00:00",
+  "generated_at": "2026-05-23T19:48:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-23T18:27:59+00:00",
+    "as_of": "2026-05-23T19:47:36+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-05-23T17:57:59+00:00",
-        "hours_off_today": 0.5
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 57,
-    "current_mw_affected_at": "2026-05-23T18:27:59+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-05-23T17:50:59+00:00",
+      "ts": "2026-05-23T19:47:36+00:00",
       "averias": [
         {
-          "municipio": "Playa",
-          "direccion": ": 3ra / 228 y 230 , Jaimanitas",
+          "municipio": "Boyeros",
+          "direccion": ": Calle A / 10 y 6 Alta Habana",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-05-23T17:50:59+00:00",
-        "municipio": "Playa",
-        "direccion": ": 3ra / 228 y 230 , Jaimanitas",
+        "ts": "2026-05-23T19:47:36+00:00",
+        "municipio": "Boyeros",
+        "direccion": ": Calle A / 10 y 6 Alta Habana",
         "severity": "secundaria"
+      },
+      {
+        "ts": "2026-05-23T19:19:04+00:00",
+        "municipio": "Arroyo Naranjo",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-05-23T19:03:52+00:00",
+        "municipio": "Playa",
+        "direccion": ": 42 y 21, Sierra afectando : Calle 42 desde 9na hasta 39A; Calle 9na desde 42 hasta 76; Calle 25 desde 26 hasta 42; Calle 34 desde 17 hasta 41 (La Sierra) 🚨 ⚡️",
+        "severity": "primaria"
       }
     ],
     "last_daf": null,
@@ -261,19 +270,19 @@
   "day": {
     "date": "2026-05-23",
     "finalized": false,
-    "peak_mw_affected": 57,
-    "peak_time": "14:27",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 809,
-      "2": 602,
+      "1": 0,
+      "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
       "6": 0
     },
-    "total_block_outage_minutes": 1411,
+    "total_block_outage_minutes": 0,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -283,16 +292,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa": 1
+      "Playa": 1,
+      "Arroyo Naranjo": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 7,
+    "averias_total": 3,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "via_libre": 1,
-      "actualizacion_bloques": 3,
-      "averias": 1,
-      "restablecimiento": 1,
-      "transicion_bloques": 1
+      "averias": 4
     }
   },
   "yesterday": {
@@ -336,12 +343,12 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 332.6,
+    "avg_peak_mw": 378.5,
     "max_peak_mw": 434,
     "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 3193,
-      "2": 3998,
+      "1": 2384,
+      "2": 3396,
       "3": 2659,
       "4": 2565,
       "5": 2601,
@@ -349,8 +356,8 @@
     },
     "total_emergency_mw_sum": 100,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
-      "Arroyo Naranjo": 4,
+      "Boyeros": 7,
+      "Arroyo Naranjo": 5,
       "Guanabacoa": 4,
       "Lisa": 3,
       "Playa": 3,
@@ -363,7 +370,7 @@
       "Centro Habana": 1,
       "Regla": 1
     },
-    "averias_total": 32,
+    "averias_total": 34,
     "daf_total": 44,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -377,12 +384,12 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 23,
-    "avg_peak_mw": 343.2,
+    "avg_peak_mw": 356.2,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 7692,
-      "2": 8772,
+      "1": 6883,
+      "2": 8170,
       "3": 7955,
       "4": 7260,
       "5": 6774,
@@ -391,10 +398,10 @@
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 35,
-      "Arroyo Naranjo": 26,
+      "Arroyo Naranjo": 27,
       "Lisa": 26,
       "Guanabacoa": 26,
-      "Boyeros": 23,
+      "Boyeros": 24,
       "San Miguel Del Padrón": 19,
       "Plaza": 18,
       "Playa": 16,
@@ -412,7 +419,7 @@
       "Cerro Y Centro Habana": 1,
       "De Boyeros": 1
     },
-    "averias_total": 243,
+    "averias_total": 245,
     "daf_total": 183,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -428,18 +435,18 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 62186,
-      "2": 66851,
+      "1": 61377,
+      "2": 66249,
       "3": 53679,
       "4": 59492,
       "5": 56945,
       "6": 59518
     },
-    "averias_total": 3184,
+    "averias_total": 3186,
     "averias_top_municipios": {
-      "Boyeros": 331,
+      "Boyeros": 332,
       "Playa": 282,
-      "Arroyo Naranjo": 248,
+      "Arroyo Naranjo": 249,
       "Lisa": 228,
       "Habana Del Este": 220,
       "Guanabacoa": 210,
@@ -589,7 +596,7 @@
       },
       {
         "date": "2026-05-23",
-        "peak_mw": 57
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -711,7 +718,7 @@
       },
       {
         "date": "2026-05-23",
-        "minutes": 1411
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1433,7 +1440,7 @@
       },
       {
         "date": "2026-05-23",
-        "peak_mw": 57
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1805,7 +1812,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 47669
+        "minutes": 46258
       }
     ],
     "sen_outage_days_total": 7,
