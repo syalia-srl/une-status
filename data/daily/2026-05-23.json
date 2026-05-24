@@ -1,20 +1,20 @@
 {
   "date": "2026-05-23",
   "finalized": false,
-  "peak_mw_affected": 199,
-  "peak_time": "18:50",
+  "peak_mw_affected": 369,
+  "peak_time": "20:49",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
+    "1": 235,
     "2": 599,
     "3": 343,
     "4": 457,
     "5": 394,
     "6": 283
   },
-  "total_block_outage_minutes": 2076,
-  "daf_count": 0,
+  "total_block_outage_minutes": 2311,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,15 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Marianao Que Aun": 1
+    "Regla": 1,
+    "San Miguel Del Padrón": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 6,
+  "averias_total": 2,
+  "source_msg_count": 12,
   "by_type_counts": {
-    "averias": 1,
-    "disparo_circuito": 2,
-    "actualizacion_bloques": 1,
-    "inicio_afectacion": 1,
-    "restablecimiento": 1
+    "actualizacion_bloques": 2,
+    "restablecimiento": 3,
+    "disparo_circuito": 1,
+    "inicio_afectacion": 2,
+    "daf": 1,
+    "averias": 2,
+    "restablecimiento_daf": 1
   }
 }
