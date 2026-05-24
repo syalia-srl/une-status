@@ -1,19 +1,19 @@
 {
   "date": "2026-05-24",
   "finalized": false,
-  "peak_mw_affected": 479,
-  "peak_time": "01:59",
+  "peak_mw_affected": 392,
+  "peak_time": "04:53",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 470,
+    "1": 590,
     "2": 0,
-    "3": 574,
-    "4": 688,
-    "5": 625,
-    "6": 514
+    "3": 634,
+    "4": 808,
+    "5": 745,
+    "6": 634
   },
-  "total_block_outage_minutes": 2871,
+  "total_block_outage_minutes": 3411,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,15 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Marianao": 1,
-    "Arroyo Naranjo": 1
+    "Playa": 1
   },
-  "averias_total": 2,
-  "source_msg_count": 7,
+  "averias_total": 1,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "actualizacion_bloques": 3,
     "averias": 2,
-    "restablecimiento_gradual": 1,
+    "actualizacion_bloques": 2,
     "restablecimiento": 1
   }
 }
