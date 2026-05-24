@@ -6,17 +6,17 @@
   "max_peak_mw": 499,
   "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
-    "1": 8562,
-    "2": 10209,
-    "3": 9738,
-    "4": 9157,
-    "5": 8608,
-    "6": 10939
+    "1": 7592,
+    "2": 8769,
+    "3": 8872,
+    "4": 8405,
+    "5": 7793,
+    "6": 10013
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
     "Habana Del Este": 35,
-    "Arroyo Naranjo": 27,
+    "Arroyo Naranjo": 28,
     "Lisa": 26,
     "Guanabacoa": 26,
     "Boyeros": 24,
@@ -24,7 +24,7 @@
     "Plaza": 18,
     "Playa": 15,
     "Cerro": 12,
-    "Marianao": 10,
+    "Marianao": 11,
     "Cotorro": 8,
     "Plaza De La Revolución": 6,
     "Regla": 6,
@@ -37,7 +37,7 @@
     "Cerro Y Centro Habana": 1,
     "De Boyeros": 1
   },
-  "averias_total": 244,
+  "averias_total": 246,
   "daf_total": 184,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
