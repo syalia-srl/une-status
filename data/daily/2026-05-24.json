@@ -1,19 +1,19 @@
 {
   "date": "2026-05-24",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 166,
+  "peak_time": "13:45",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
     "1": 0,
-    "2": 0,
-    "3": 651,
-    "4": 0,
-    "5": 669,
-    "6": 0
+    "2": 834,
+    "3": 649,
+    "4": 774,
+    "5": 664,
+    "6": 579
   },
-  "total_block_outage_minutes": 1320,
+  "total_block_outage_minutes": 3500,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -22,14 +22,12 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "San Miguel Del Padrón": 1
-  },
-  "averias_total": 1,
-  "source_msg_count": 5,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 3,
   "by_type_counts": {
-    "inicio_afectacion": 2,
-    "restablecimiento_gradual": 2,
-    "averias": 1
+    "actualizacion_bloques": 1,
+    "restablecimiento_gradual": 1,
+    "inicio_afectacion": 1
   }
 }
