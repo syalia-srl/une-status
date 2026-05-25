@@ -2,19 +2,19 @@
   "date": "2026-05-25",
   "finalized": false,
   "peak_mw_affected": 50,
-  "peak_time": "13:24",
+  "peak_time": "14:36",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
     "1": 0,
     "2": 0,
-    "3": 737,
+    "3": 735,
     "4": 0,
     "5": 0,
-    "6": 0
+    "6": 508
   },
-  "total_block_outage_minutes": 737,
-  "daf_count": 1,
+  "total_block_outage_minutes": 1243,
+  "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,19 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Lisa": 1,
-    "Playa": 1,
-    "Arroyo Naranjo": 1,
-    "San Miguel Del Padrón": 1
+    "Arroyo Naranjo": 1
   },
-  "averias_total": 4,
-  "source_msg_count": 17,
+  "averias_total": 1,
+  "source_msg_count": 13,
   "by_type_counts": {
-    "restablecimiento": 7,
-    "averias": 3,
-    "disparo_circuito": 4,
-    "actualizacion_bloques": 1,
-    "daf": 1,
-    "restablecimiento_daf": 1
+    "otro": 1,
+    "restablecimiento": 3,
+    "actualizacion_bloques": 2,
+    "daf": 3,
+    "restablecimiento_daf": 1,
+    "transicion_bloques": 1,
+    "disparo_circuito": 1,
+    "averias": 1
   }
 }
