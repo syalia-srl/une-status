@@ -1,20 +1,20 @@
 {
   "date": "2026-05-25",
   "finalized": false,
-  "peak_mw_affected": 431,
-  "peak_time": "02:50",
-  "interruption_minutes": null,
-  "emergency_mw": null,
+  "peak_mw_affected": 428,
+  "peak_time": "22:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": 105,
   "block_outage_minutes": {
-    "1": 893,
-    "2": 745,
-    "3": 1055,
-    "4": 685,
-    "5": 1070,
-    "6": 945
+    "1": 1061,
+    "2": 1032,
+    "3": 0,
+    "4": 962,
+    "5": 0,
+    "6": 1152
   },
-  "total_block_outage_minutes": 5393,
-  "daf_count": 0,
+  "total_block_outage_minutes": 4207,
+  "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,14 +22,17 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Habana Del Este Que": 1
-  },
-  "averias_total": 1,
-  "source_msg_count": 7,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 20,
   "by_type_counts": {
-    "actualizacion_bloques": 4,
-    "otro": 1,
-    "averias": 2
+    "sen_update": 1,
+    "restablecimiento_daf": 4,
+    "restablecimiento": 7,
+    "nota_diaria": 1,
+    "daf": 3,
+    "disparo_circuito": 2,
+    "via_libre": 1,
+    "actualizacion_bloques": 1
   }
 }
