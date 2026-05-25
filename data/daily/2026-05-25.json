@@ -2,18 +2,18 @@
   "date": "2026-05-25",
   "finalized": false,
   "peak_mw_affected": 431,
-  "peak_time": "00:58",
+  "peak_time": "02:50",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1440,
-    "2": 1440,
-    "3": 1440,
-    "4": 1440,
-    "5": 1440,
-    "6": 1440
+    "1": 893,
+    "2": 745,
+    "3": 1055,
+    "4": 685,
+    "5": 1070,
+    "6": 945
   },
-  "total_block_outage_minutes": 8640,
+  "total_block_outage_minutes": 5393,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,12 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 1
+    "Habana Del Este Que": 1
   },
   "averias_total": 1,
-  "source_msg_count": 3,
+  "source_msg_count": 7,
   "by_type_counts": {
-    "averias": 1,
-    "actualizacion_bloques": 2
+    "actualizacion_bloques": 4,
+    "otro": 1,
+    "averias": 2
   }
 }
