@@ -1,20 +1,20 @@
 {
   "date": "2026-05-26",
   "finalized": false,
-  "peak_mw_affected": 227,
-  "peak_time": "16:09",
+  "peak_mw_affected": 229,
+  "peak_time": "18:07",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 700,
-    "2": 670,
-    "3": 495,
-    "4": 610,
-    "5": 560,
+    "1": 702,
+    "2": 672,
+    "3": 497,
+    "4": 612,
+    "5": 562,
     "6": 0
   },
-  "total_block_outage_minutes": 3035,
-  "daf_count": 1,
+  "total_block_outage_minutes": 3045,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 2,
-    "Guanabacoa": 2,
-    "San Miguel Del Padrón": 1,
-    "Cotorro": 1
+    "Cotorro": 1,
+    "Plaza De La Revolución": 1
   },
-  "averias_total": 6,
-  "source_msg_count": 11,
+  "averias_total": 2,
+  "source_msg_count": 8,
   "by_type_counts": {
-    "restablecimiento_daf": 1,
-    "actualizacion_bloques": 2,
-    "averias": 5,
-    "disparo_circuito": 2,
-    "daf": 1
+    "averias": 2,
+    "corto": 2,
+    "restablecimiento": 2,
+    "actualizacion_bloques": 1,
+    "disparo_circuito": 1
   }
 }
