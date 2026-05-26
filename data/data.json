@@ -1,66 +1,51 @@
 {
-  "generated_at": "2026-05-26T17:47:15+00:00",
+  "generated_at": "2026-05-26T19:53:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-26T17:41:20+00:00",
+    "as_of": "2026-05-26T19:41:41+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-05-26T16:13:48+00:00",
-        "hours_off_today": 1.0
+        "since": "2026-05-26T16:13:02+00:00",
+        "hours_off_today": 2.8333333333333335
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-05-26T16:33:48+00:00",
-        "hours_off_today": 0.6666666666666666
+        "since": "2026-05-26T16:43:02+00:00",
+        "hours_off_today": 2.3333333333333335
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-26T19:41:14+00:00",
+        "emergency": true
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-26T17:43:02+00:00",
+        "hours_off_today": 1.3333333333333333
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-26T18:33:02+00:00",
+        "hours_off_today": 0.5
       },
       {
         "id": 6,
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 32,
-    "current_mw_affected_at": "2026-05-26T17:13:48+00:00",
-    "active_averias": {
-      "ts": "2026-05-26T17:32:38+00:00",
-      "averias": []
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-05-26T17:30:51+00:00",
-        "municipio": "Lisa",
-        "direccion": "226 entre 27 y 29B afectando el servicio eléctrico desde 222 hasta 240 en La Coronela y parte de San Agustín 📣"
-      },
-      {
-        "ts": "2026-05-26T17:21:27+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "👉 Autopista Nacional, Finca La Rada 👉 Autopista Nacional, La Plazoleta 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-26T16:44:06+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las calles 2da entre C y D, Volpe 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": 170,
+    "current_mw_affected_at": "2026-05-26T19:03:02+00:00",
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": {
-      "ts": "2026-05-26T17:41:20+00:00",
+      "ts": "2026-05-26T19:41:41+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -271,20 +256,20 @@
   "day": {
     "date": "2026-05-26",
     "finalized": false,
-    "peak_mw_affected": 32,
-    "peak_time": "12:40",
+    "peak_mw_affected": 170,
+    "peak_time": "15:03",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
       "1": 701,
-      "2": 678,
-      "3": 0,
-      "4": 0,
-      "5": 0,
+      "2": 671,
+      "3": 498,
+      "4": 610,
+      "5": 565,
       "6": 0
     },
-    "total_block_outage_minutes": 1379,
-    "daf_count": 5,
+    "total_block_outage_minutes": 3045,
+    "daf_count": 6,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -292,23 +277,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1,
-      "Guanabacoa": 1,
-      "Lisa": 1
-    },
-    "averias_total": 3,
-    "source_msg_count": 20,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 15,
     "by_type_counts": {
-      "unidad_termoelectrica": 1,
-      "inicio_afectacion": 2,
-      "restablecimiento": 1,
+      "daf": 6,
+      "inicio_afectacion": 3,
+      "restablecimiento_daf": 2,
       "actualizacion_bloques": 2,
-      "daf": 5,
-      "averias": 4,
-      "via_libre": 1,
-      "restablecimiento_daf": 3,
-      "otro": 1
+      "disparo_circuito": 1,
+      "corto": 1
     }
   },
   "yesterday": {
@@ -354,33 +332,33 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 332.7,
+    "avg_peak_mw": 352.4,
     "max_peak_mw": 479,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 2746,
-      "2": 3545,
-      "3": 2200,
-      "4": 1756,
-      "5": 2258,
+      "2": 3538,
+      "3": 2698,
+      "4": 2366,
+      "5": 2823,
       "6": 2919
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 2,
       "Boyeros": 2,
       "Habana Del Este": 2,
-      "Lisa": 2,
-      "Guanabacoa": 2,
       "Regla": 1,
       "Playa": 1,
+      "Lisa": 1,
       "De Boyeros": 1,
       "Marianao": 1,
       "Cotorro": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 17,
-    "daf_total": 10,
+    "averias_total": 14,
+    "daf_total": 11,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -393,23 +371,23 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 26,
-    "avg_peak_mw": 351.3,
+    "avg_peak_mw": 356.7,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
       "1": 8801,
-      "2": 10312,
-      "3": 9261,
-      "4": 8459,
-      "5": 8162,
+      "2": 10305,
+      "3": 9759,
+      "4": 9069,
+      "5": 8727,
       "6": 10591
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 35,
-      "Arroyo Naranjo": 28,
-      "Guanabacoa": 28,
-      "Lisa": 27,
+      "Arroyo Naranjo": 27,
+      "Guanabacoa": 27,
+      "Lisa": 26,
       "Boyeros": 24,
       "San Miguel Del Padrón": 20,
       "Plaza": 18,
@@ -428,8 +406,8 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 252,
-    "daf_total": 190,
+    "averias_total": 249,
+    "daf_total": 191,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -445,20 +423,20 @@
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
       "1": 63295,
-      "2": 68391,
-      "3": 54985,
-      "4": 60691,
-      "5": 58333,
+      "2": 68384,
+      "3": 55483,
+      "4": 61301,
+      "5": 58898,
       "6": 60893
     },
-    "averias_total": 3193,
+    "averias_total": 3190,
     "averias_top_municipios": {
       "Boyeros": 332,
       "Playa": 281,
-      "Arroyo Naranjo": 250,
-      "Lisa": 229,
+      "Arroyo Naranjo": 249,
+      "Lisa": 228,
       "Habana Del Este": 220,
-      "Guanabacoa": 212,
+      "Guanabacoa": 211,
       "Cerro": 182,
       "San Miguel Del Padrón": 179,
       "Plaza": 179,
@@ -469,7 +447,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2339,
+    "daf_total": 2340,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -605,7 +583,7 @@
       },
       {
         "date": "2026-05-26",
-        "peak_mw": 32
+        "peak_mw": 170
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -727,7 +705,7 @@
       },
       {
         "date": "2026-05-26",
-        "minutes": 1379
+        "minutes": 3045
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1449,7 +1427,7 @@
       },
       {
         "date": "2026-05-26",
-        "peak_mw": 32
+        "peak_mw": 170
       }
     ],
     "monthly_max_peak_mw": [
@@ -1821,15 +1799,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 55586
+        "minutes": 57252
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2339,
-    "daf_last_30d": 218,
+    "daf_total": 2340,
+    "daf_last_30d": 219,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
