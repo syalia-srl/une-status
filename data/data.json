@@ -1,66 +1,68 @@
 {
-  "generated_at": "2026-05-26T22:47:12+00:00",
+  "generated_at": "2026-05-26T23:56:28+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-26T22:29:56+00:00",
+    "as_of": "2026-05-26T23:44:28+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-05-26T16:17:57+00:00",
-        "hours_off_today": 5.833333333333333
+        "state": "encendido"
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-05-26T16:47:57+00:00",
-        "hours_off_today": 5.333333333333333
+        "since": "2026-05-26T16:54:42+00:00",
+        "hours_off_today": 6.666666666666667
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-05-26T19:42:57+00:00",
-        "hours_off_today": 2.4166666666666665
+        "since": "2026-05-26T19:49:42+00:00",
+        "hours_off_today": 3.75
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-05-26T17:47:57+00:00",
-        "hours_off_today": 4.333333333333333
+        "since": "2026-05-26T17:54:42+00:00",
+        "hours_off_today": 5.666666666666667
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-05-26T18:37:57+00:00",
-        "hours_off_today": 3.5
+        "since": "2026-05-26T18:44:42+00:00",
+        "hours_off_today": 4.833333333333333
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-26T23:19:42+00:00",
+        "hours_off_today": 0.25
       }
     ],
-    "current_mw_affected": 229,
-    "current_mw_affected_at": "2026-05-26T22:07:57+00:00",
-    "active_averias": {
-      "ts": "2026-05-26T22:14:12+00:00",
-      "averias": [
-        {
-          "municipio": "Plaza De La Revolución",
-          "direccion": "45 entre Ulloa y 26, Nuevo Vedado ✅"
-        }
-      ]
-    },
+    "current_mw_affected": 233,
+    "current_mw_affected_at": "2026-05-26T23:34:42+00:00",
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-05-26T22:14:12+00:00",
+        "ts": "2026-05-26T23:38:54+00:00",
         "municipio": "Plaza De La Revolución",
-        "direccion": "45 entre Ulloa y 26, Nuevo Vedado ✅"
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-05-26T21:30:16+00:00",
-        "municipio": "Cotorro",
-        "direccion": "Carretera Central ✅"
+        "ts": "2026-05-26T23:08:03+00:00",
+        "municipio": "Plaza De La Revolución",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-26T23:06:39+00:00",
+        "municipio": "Habana Vieja",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-05-26T22:52:43+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -243,15 +245,15 @@
         "name": "Antonio Maceo (Renté)",
         "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-05-26T16:13:35+00:00",
-        "last_online_at": "2026-05-26T16:13:35+00:00",
+        "last_seen_at": "2026-05-26T23:44:28+00:00",
+        "last_online_at": "2026-05-26T23:44:28+00:00",
         "last_offline_at": "2026-03-03T00:59:50+00:00",
         "last_change_at": "2026-04-19T00:04:41+00:00",
         "units": [
           {
             "unidad": 3,
             "state": "online",
-            "since": "2026-05-26T16:13:35+00:00"
+            "since": "2026-05-26T23:44:28+00:00"
           },
           {
             "unidad": 5,
@@ -272,19 +274,19 @@
   "day": {
     "date": "2026-05-26",
     "finalized": false,
-    "peak_mw_affected": 229,
-    "peak_time": "18:07",
+    "peak_mw_affected": 233,
+    "peak_time": "19:34",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 702,
-      "2": 672,
-      "3": 497,
-      "4": 612,
-      "5": 562,
-      "6": 0
+      "1": 0,
+      "2": 665,
+      "3": 490,
+      "4": 605,
+      "5": 555,
+      "6": 280
     },
-    "total_block_outage_minutes": 3045,
+    "total_block_outage_minutes": 2595,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -294,17 +296,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cotorro": 1,
-      "Plaza De La Revolución": 1
+      "Plaza De La Revolución": 2,
+      "Boyeros": 1,
+      "Habana Vieja": 1
     },
-    "averias_total": 2,
+    "averias_total": 4,
     "source_msg_count": 8,
     "by_type_counts": {
-      "averias": 2,
-      "corto": 2,
-      "restablecimiento": 2,
+      "disparo_circuito": 4,
+      "otro": 1,
+      "transicion_bloques": 1,
       "actualizacion_bloques": 1,
-      "disparo_circuito": 1
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
@@ -350,33 +353,34 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 360.9,
+    "avg_peak_mw": 361.4,
     "max_peak_mw": 479,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 2747,
-      "2": 3539,
-      "3": 2697,
-      "4": 2368,
-      "5": 2820,
-      "6": 2919
+      "1": 2045,
+      "2": 3532,
+      "3": 2690,
+      "4": 2361,
+      "5": 2813,
+      "6": 3199
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Boyeros": 3,
       "Arroyo Naranjo": 2,
-      "Boyeros": 2,
       "Habana Del Este": 2,
-      "Cotorro": 2,
+      "Plaza De La Revolución": 2,
       "Regla": 1,
       "Playa": 1,
       "Lisa": 1,
       "De Boyeros": 1,
       "Marianao": 1,
+      "Cotorro": 1,
       "San Miguel Del Padrón": 1,
       "Guanabacoa": 1,
-      "Plaza De La Revolución": 1
+      "Habana Vieja": 1
     },
-    "averias_total": 16,
+    "averias_total": 18,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -390,16 +394,16 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 26,
-    "avg_peak_mw": 358.9,
+    "avg_peak_mw": 359.1,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 8802,
-      "2": 10306,
-      "3": 9758,
-      "4": 9071,
-      "5": 8724,
-      "6": 10591
+      "1": 8100,
+      "2": 10299,
+      "3": 9751,
+      "4": 9064,
+      "5": 8717,
+      "6": 10871
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
@@ -407,25 +411,25 @@
       "Arroyo Naranjo": 27,
       "Guanabacoa": 27,
       "Lisa": 26,
-      "Boyeros": 24,
+      "Boyeros": 25,
       "San Miguel Del Padrón": 20,
       "Plaza": 18,
       "Playa": 15,
       "Cerro": 12,
       "Marianao": 11,
-      "Cotorro": 10,
-      "Plaza De La Revolución": 7,
+      "Cotorro": 9,
+      "Plaza De La Revolución": 8,
       "Regla": 6,
       "Centro Habana": 5,
+      "Habana Vieja": 2,
       "De Boyeros": 2,
       "Mariano": 1,
       "San Miguel Del Padron": 1,
       "Arroyo Naranjo Queda Reparada La Avería": 1,
-      "Habana Vieja": 1,
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 251,
+    "averias_total": 253,
     "daf_total": 185,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -441,16 +445,16 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 63296,
-      "2": 68385,
-      "3": 55482,
-      "4": 61303,
-      "5": 58895,
-      "6": 60893
+      "1": 62594,
+      "2": 68378,
+      "3": 55475,
+      "4": 61296,
+      "5": 58888,
+      "6": 61173
     },
-    "averias_total": 3192,
+    "averias_total": 3194,
     "averias_top_municipios": {
-      "Boyeros": 332,
+      "Boyeros": 333,
       "Playa": 281,
       "Arroyo Naranjo": 249,
       "Lisa": 228,
@@ -460,7 +464,7 @@
       "San Miguel Del Padrón": 179,
       "Plaza": 179,
       "Marianao": 143,
-      "Cotorro": 95,
+      "Cotorro": 94,
       "Centro Habana": 67,
       "De Boyeros": 50,
       "De Playa": 49,
@@ -602,7 +606,7 @@
       },
       {
         "date": "2026-05-26",
-        "peak_mw": 229
+        "peak_mw": 233
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -724,7 +728,7 @@
       },
       {
         "date": "2026-05-26",
-        "minutes": 3045
+        "minutes": 2595
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1446,7 +1450,7 @@
       },
       {
         "date": "2026-05-26",
-        "peak_mw": 229
+        "peak_mw": 233
       }
     ],
     "monthly_max_peak_mw": [
@@ -1818,7 +1822,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 57252
+        "minutes": 56802
       }
     ],
     "sen_outage_days_total": 7,
