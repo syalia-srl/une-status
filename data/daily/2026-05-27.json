@@ -1,19 +1,19 @@
 {
   "date": "2026-05-27",
   "finalized": false,
-  "peak_mw_affected": 362,
-  "peak_time": "17:43",
+  "peak_mw_affected": 366,
+  "peak_time": "18:51",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 701,
-    "2": 636,
-    "3": 776,
-    "4": 521,
-    "5": 437,
-    "6": 746
+    "1": 693,
+    "2": 628,
+    "3": 768,
+    "4": 513,
+    "5": 428,
+    "6": 738
   },
-  "total_block_outage_minutes": 3817,
+  "total_block_outage_minutes": 3768,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -22,14 +22,15 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 13,
+  "averias_count_by_municipio": {
+    "Playa": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "restablecimiento": 4,
-    "disparo_circuito": 3,
-    "actualizacion_bloques": 2,
-    "otro": 2,
-    "inicio_afectacion": 2
+    "averias": 1,
+    "disparo_circuito": 1,
+    "actualizacion_bloques": 1,
+    "restablecimiento": 2
   }
 }
