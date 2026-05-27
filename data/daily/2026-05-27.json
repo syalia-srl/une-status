@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-27",
+  "finalized": false,
+  "peak_mw_affected": 311,
+  "peak_time": "00:27",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 1440,
+    "2": 1294,
+    "3": 525,
+    "4": 0,
+    "5": 590,
+    "6": 315
+  },
+  "total_block_outage_minutes": 4164,
+  "daf_count": 4,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "partial_sen_collapse_count": 0,
+  "partial_sen_reconnect_count": 0,
+  "partial_sen_outage_minutes": 0,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Cerro": 1,
+    "Cotorro": 1,
+    "Habana Del Este": 1,
+    "Marianao": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 17,
+  "by_type_counts": {
+    "daf": 4,
+    "disparo_circuito": 3,
+    "averias": 3,
+    "actualizacion_bloques": 1,
+    "restablecimiento_daf": 2,
+    "restablecimiento": 3,
+    "inicio_afectacion": 1
+  }
+}

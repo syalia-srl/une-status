@@ -1,20 +1,20 @@
 {
   "date": "2026-05-26",
-  "finalized": false,
-  "peak_mw_affected": 275,
-  "peak_time": "21:33",
+  "finalized": true,
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 559,
-    "3": 491,
-    "4": 606,
-    "5": 556,
-    "6": 281
+    "1": 9,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 2493,
-  "daf_count": 2,
+  "total_block_outage_minutes": 9,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,22 +22,12 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Habana Del Este": 1,
-    "Marianao": 1,
-    "Arroyo Naranjo": 1,
-    "Regla": 1
-  },
-  "averias_total": 4,
-  "source_msg_count": 17,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 3,
   "by_type_counts": {
-    "daf": 2,
-    "disparo_circuito": 3,
-    "averias": 5,
-    "otro": 3,
-    "restablecimiento_daf": 1,
-    "actualizacion_bloques": 1,
-    "inicio_afectacion": 1,
-    "restablecimiento": 1
+    "restablecimiento": 1,
+    "disparo_circuito": 1,
+    "inicio_afectacion": 1
   }
 }
