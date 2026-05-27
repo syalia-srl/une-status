@@ -1,21 +1,19 @@
 {
-  "generated_at": "2026-05-27T10:45:43+00:00",
+  "generated_at": "2026-05-27T14:21:58+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-27T10:28:15+00:00",
+    "as_of": "2026-05-27T14:06:32+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-05-27T04:04:16+00:00",
-        "hours_off_today": 5.85
+        "state": "encendido"
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-05-27T06:45:16+00:00",
-        "hours_off_today": 3.1666666666666665
+        "since": "2026-05-27T06:47:01+00:00",
+        "hours_off_today": 6.733333333333333
       },
       {
         "id": 3,
@@ -24,34 +22,47 @@
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-05-27T08:19:16+00:00",
-        "hours_off_today": 1.6
+        "since": "2026-05-27T08:24:01+00:00",
+        "hours_off_today": 5.116666666666666
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-05-27T08:35:16+00:00",
-        "hours_off_today": 1.3333333333333333
+        "since": "2026-05-27T08:47:01+00:00",
+        "hours_off_today": 4.733333333333333
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-05-26T23:35:16+00:00",
-        "hours_off_today": 10.333333333333334
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": 283,
-    "current_mw_affected_at": "2026-05-27T09:55:16+00:00",
+    "current_mw_affected": 99,
+    "current_mw_affected_at": "2026-05-27T13:31:01+00:00",
     "active_averias": {
-      "ts": "2026-05-27T09:46:51+00:00",
-      "averias": []
+      "ts": "2026-05-27T13:25:42+00:00",
+      "averias": [
+        {
+          "municipio": "Lisa",
+          "direccion": "310/ 51 y Final, afectando : La Concepción , XX Aniversario , Los Planes 160 🚨 ⚡️",
+          "severity": "primaria"
+        }
+      ]
     },
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-05-27T13:25:42+00:00",
+        "municipio": "Lisa",
+        "direccion": "310/ 51 y Final, afectando : La Concepción , XX Aniversario , Los Planes 160 🚨 ⚡️",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": {
-      "ts": "2026-05-27T10:28:15+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-05-27T13:31:29+00:00",
+      "type": "daf"
     },
-    "last_pronostico": null,
+    "last_pronostico": {
+      "ts": "2026-05-27T12:27:56+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -259,20 +270,20 @@
   "day": {
     "date": "2026-05-27",
     "finalized": false,
-    "peak_mw_affected": 283,
-    "peak_time": "05:55",
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 305,
+    "peak_time": "22:30",
+    "interruption_minutes": 1440,
+    "emergency_mw": 90,
     "block_outage_minutes": {
-      "1": 351,
-      "2": 1295,
+      "1": 0,
+      "2": 406,
       "3": 0,
-      "4": 1185,
-      "5": 1165,
-      "6": 620
+      "4": 1180,
+      "5": 1200,
+      "6": 0
     },
-    "total_block_outage_minutes": 4616,
-    "daf_count": 3,
+    "total_block_outage_minutes": 2786,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -280,19 +291,22 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 14,
+    "averias_count_by_municipio": {
+      "Lisa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 16,
     "by_type_counts": {
-      "actualizacion_bloques": 3,
-      "daf": 3,
-      "otro": 1,
-      "disparo_circuito": 1,
-      "transicion_bloques": 1,
-      "inicio_afectacion": 1,
-      "restablecimiento": 1,
-      "restablecimiento_daf": 2,
-      "averias": 1
+      "restablecimiento": 4,
+      "otro": 2,
+      "actualizacion_bloques": 2,
+      "nota_diaria": 1,
+      "pronostico": 1,
+      "disparo_circuito": 2,
+      "averias": 1,
+      "daf": 1,
+      "via_libre": 1,
+      "corto": 1
     }
   },
   "yesterday": {
@@ -331,21 +345,21 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 362.7,
+    "avg_peak_mw": 366.3,
     "max_peak_mw": 479,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 1835,
-      "2": 3412,
+      "1": 1484,
+      "2": 2523,
       "3": 1875,
-      "4": 2881,
-      "5": 3093,
-      "6": 2759
+      "4": 2876,
+      "5": 3128,
+      "6": 2139
     },
-    "total_emergency_mw_sum": 0,
+    "total_emergency_mw_sum": 90,
     "averias_count_by_municipio": {
       "Habana Del Este": 2,
-      "Lisa": 1,
+      "Lisa": 2,
       "Boyeros": 1,
       "Arroyo Naranjo": 1,
       "De Boyeros": 1,
@@ -354,8 +368,8 @@
       "San Miguel Del Padrón": 1,
       "Guanabacoa": 1
     },
-    "averias_total": 10,
-    "daf_total": 7,
+    "averias_total": 11,
+    "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -368,23 +382,23 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 27,
-    "avg_peak_mw": 361.0,
+    "avg_peak_mw": 361.8,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 17690,
+    "total_interruption_minutes": 19130,
     "total_block_outage_minutes": {
-      "1": 8460,
-      "2": 10929,
+      "1": 8109,
+      "2": 10040,
       "3": 9261,
-      "4": 9644,
-      "5": 9327,
-      "6": 11211
+      "4": 9639,
+      "5": 9362,
+      "6": 10591
     },
-    "total_emergency_mw_sum": 1510,
+    "total_emergency_mw_sum": 1600,
     "averias_count_by_municipio": {
       "Habana Del Este": 35,
       "Arroyo Naranjo": 27,
+      "Lisa": 27,
       "Guanabacoa": 27,
-      "Lisa": 26,
       "Boyeros": 24,
       "San Miguel Del Padrón": 20,
       "Plaza": 18,
@@ -403,8 +417,8 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 249,
-    "daf_total": 188,
+    "averias_total": 250,
+    "daf_total": 186,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -417,21 +431,21 @@
   "all_time": {
     "months_count": 46,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
-      "1": 62954,
-      "2": 69008,
+      "1": 62603,
+      "2": 68119,
       "3": 54985,
-      "4": 61876,
-      "5": 59498,
-      "6": 61513
+      "4": 61871,
+      "5": 59533,
+      "6": 60893
     },
-    "averias_total": 3190,
+    "averias_total": 3191,
     "averias_top_municipios": {
       "Boyeros": 332,
       "Playa": 281,
       "Arroyo Naranjo": 249,
-      "Lisa": 228,
+      "Lisa": 229,
       "Habana Del Este": 220,
       "Guanabacoa": 211,
       "Cerro": 182,
@@ -444,7 +458,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2337,
+    "daf_total": 2335,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -580,7 +594,7 @@
       },
       {
         "date": "2026-05-27",
-        "peak_mw": 283
+        "peak_mw": 305
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -702,7 +716,7 @@
       },
       {
         "date": "2026-05-27",
-        "minutes": 4616
+        "minutes": 2786
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1424,7 +1438,7 @@
       },
       {
         "date": "2026-05-27",
-        "peak_mw": 283
+        "peak_mw": 305
       }
     ],
     "monthly_max_peak_mw": [
@@ -1796,15 +1810,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 58832
+        "minutes": 57002
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2337,
-    "daf_last_30d": 207,
+    "daf_total": 2335,
+    "daf_last_30d": 205,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
