@@ -1,8 +1,8 @@
 {
   "date": "2026-05-27",
-  "finalized": false,
+  "finalized": true,
   "peak_mw_affected": 384,
-  "peak_time": "19:43",
+  "peak_time": "20:43",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -24,11 +24,12 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 5,
+  "source_msg_count": 10,
   "by_type_counts": {
-    "disparo_circuito": 2,
-    "actualizacion_bloques": 1,
-    "unidad_termoelectrica": 1,
-    "corto": 1
+    "actualizacion_bloques": 3,
+    "restablecimiento": 3,
+    "restablecimiento_gradual": 2,
+    "otro": 1,
+    "via_libre": 1
   }
 }

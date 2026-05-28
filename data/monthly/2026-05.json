@@ -1,17 +1,17 @@
 {
   "month": "2026-05",
   "finalized": false,
-  "dailies_count": 27,
+  "dailies_count": 28,
   "avg_peak_mw": 364.9,
   "max_peak_mw": 499,
   "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
-    "1": 8810,
-    "2": 10270,
+    "1": 10250,
+    "2": 11710,
     "3": 10037,
     "4": 8980,
-    "5": 8598,
-    "6": 11337
+    "5": 10038,
+    "6": 12777
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
@@ -20,7 +20,7 @@
     "Guanabacoa": 27,
     "Lisa": 26,
     "Boyeros": 24,
-    "San Miguel Del Padrón": 20,
+    "San Miguel Del Padrón": 21,
     "Plaza": 18,
     "Playa": 15,
     "Cerro": 12,
@@ -37,7 +37,7 @@
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
     "Cerro Y Centro Habana": 1
   },
-  "averias_total": 249,
+  "averias_total": 250,
   "daf_total": 185,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
