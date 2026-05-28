@@ -1,19 +1,19 @@
 {
   "date": "2026-05-28",
   "finalized": false,
-  "peak_mw_affected": 74,
-  "peak_time": "15:01",
+  "peak_mw_affected": 97,
+  "peak_time": "17:17",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 600,
-    "4": 840,
-    "5": 805,
-    "6": 544
+    "1": 414,
+    "2": 398,
+    "3": 591,
+    "4": 0,
+    "5": 0,
+    "6": 556
   },
-  "total_block_outage_minutes": 2789,
+  "total_block_outage_minutes": 1959,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,18 +23,21 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Cotorro": 1
+    "Cerro": 1,
+    "Marianao": 1,
+    "Playa": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 20,
+  "averias_total": 3,
+  "source_msg_count": 14,
   "by_type_counts": {
-    "otro": 5,
-    "actualizacion_bloques": 3,
+    "otro": 3,
+    "daf": 1,
     "disparo_circuito": 2,
-    "mantenimiento": 5,
-    "restablecimiento_gradual": 1,
-    "inicio_afectacion": 2,
+    "actualizacion_bloques": 2,
+    "via_libre": 1,
+    "restablecimiento": 1,
     "averias": 1,
-    "daf": 1
+    "inicio_afectacion": 2,
+    "restablecimiento_gradual": 1
   }
 }
