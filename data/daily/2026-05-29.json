@@ -1,20 +1,20 @@
 {
   "date": "2026-05-29",
   "finalized": false,
-  "peak_mw_affected": 68,
-  "peak_time": "09:31",
+  "peak_mw_affected": 90,
+  "peak_time": "13:05",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 260,
-    "2": 1086,
+    "1": 1115,
+    "2": 1073,
     "3": 0,
-    "4": 0,
-    "5": 0,
+    "4": 722,
+    "5": 766,
     "6": 0
   },
-  "total_block_outage_minutes": 1346,
-  "daf_count": 3,
+  "total_block_outage_minutes": 3676,
+  "daf_count": 4,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -26,13 +26,16 @@
     "Arroyo Naranjo": 1
   },
   "averias_total": 1,
-  "source_msg_count": 13,
+  "source_msg_count": 19,
   "by_type_counts": {
-    "pronostico": 1,
-    "corto": 1,
-    "restablecimiento": 5,
-    "disparo_circuito": 2,
-    "actualizacion_bloques": 1,
-    "daf": 3
+    "daf": 4,
+    "restablecimiento": 3,
+    "actualizacion_bloques": 4,
+    "inicio_afectacion": 1,
+    "restablecimiento_daf": 2,
+    "transicion_bloques": 1,
+    "otro": 1,
+    "corto": 2,
+    "averias": 1
   }
 }
