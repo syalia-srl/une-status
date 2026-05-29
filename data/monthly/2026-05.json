@@ -1,17 +1,17 @@
 {
   "month": "2026-05",
   "finalized": false,
-  "dailies_count": 28,
-  "avg_peak_mw": 359.4,
+  "dailies_count": 29,
+  "avg_peak_mw": 359.6,
   "max_peak_mw": 499,
   "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
-    "1": 9220,
-    "2": 10705,
-    "3": 10037,
-    "4": 9330,
-    "5": 8598,
-    "6": 11892
+    "1": 10661,
+    "2": 12110,
+    "3": 11707,
+    "4": 10781,
+    "5": 10359,
+    "6": 11888
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
@@ -38,7 +38,7 @@
     "Cerro Y Centro Habana": 1
   },
   "averias_total": 250,
-  "daf_total": 185,
+  "daf_total": 187,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
