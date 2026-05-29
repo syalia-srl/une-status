@@ -2,21 +2,21 @@
   "month": "2026-05",
   "finalized": false,
   "dailies_count": 29,
-  "avg_peak_mw": 360.6,
+  "avg_peak_mw": 352.1,
   "max_peak_mw": 499,
-  "total_interruption_minutes": 19130,
+  "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
-    "1": 10356,
-    "2": 11762,
+    "1": 9481,
+    "2": 11756,
     "3": 10267,
     "4": 9341,
     "5": 8919,
-    "6": 12312
+    "6": 11888
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
     "Habana Del Este": 35,
-    "Arroyo Naranjo": 28,
+    "Arroyo Naranjo": 29,
     "Guanabacoa": 27,
     "Lisa": 26,
     "Boyeros": 24,
@@ -37,8 +37,8 @@
     "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
     "Cerro Y Centro Habana": 1
   },
-  "averias_total": 250,
-  "daf_total": 187,
+  "averias_total": 251,
+  "daf_total": 190,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
