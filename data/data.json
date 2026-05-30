@@ -1,71 +1,61 @@
 {
-  "generated_at": "2026-05-30T15:35:02+00:00",
+  "generated_at": "2026-05-30T16:39:51+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-30T15:28:02+00:00",
+    "as_of": "2026-05-30T16:33:05+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-30T16:25:30+00:00",
+        "emergency": true
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-30T15:49:20+00:00"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-05-29T23:54:24+00:00",
-        "hours_off_today": 14.866666666666667
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-05-29T22:10:24+00:00",
-        "hours_off_today": 16.6
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-30T16:06:37+00:00"
       }
     ],
-    "current_mw_affected": 167,
-    "current_mw_affected_at": "2026-05-30T14:46:24+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-05-30T15:04:52+00:00",
+      "ts": "2026-05-30T16:31:07+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "Real y Lindero, Bacuranao 🚨",
+          "municipio": "Boyeros",
+          "direccion": "las calles 4ta entre A y B, Miraflores Nuevo 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-05-30T15:04:52+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "Real y Lindero, Bacuranao 🚨",
+        "ts": "2026-05-30T16:31:07+00:00",
+        "municipio": "Boyeros",
+        "direccion": "las calles 4ta entre A y B, Miraflores Nuevo 🚨",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-30T14:25:06+00:00",
-        "municipio": "Guanabacoa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-30T14:20:28+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
-      "ts": "2026-05-30T15:28:02+00:00",
+      "ts": "2026-05-30T16:33:05+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -276,20 +266,20 @@
   "day": {
     "date": "2026-05-30",
     "finalized": false,
-    "peak_mw_affected": 167,
-    "peak_time": "10:46",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
+      "1": 694,
       "2": 0,
       "3": 0,
-      "4": 892,
-      "5": 996,
+      "4": 0,
+      "5": 0,
       "6": 0
     },
-    "total_block_outage_minutes": 1888,
-    "daf_count": 4,
+    "total_block_outage_minutes": 694,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -298,18 +288,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 2,
-      "Marianao": 1
+      "Boyeros": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 14,
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "daf": 4,
-      "averias": 2,
-      "disparo_circuito": 3,
-      "restablecimiento_daf": 2,
-      "actualizacion_bloques": 1,
-      "otro": 2
+      "transicion_bloques": 2,
+      "mantenimiento": 1,
+      "daf": 1,
+      "inicio_afectacion": 1,
+      "averias": 1,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -352,29 +341,29 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 345.8,
+    "avg_peak_mw": 381.6,
     "max_peak_mw": 433,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 2525,
+      "1": 3219,
       "2": 2303,
       "3": 2445,
-      "4": 2759,
-      "5": 3094,
+      "4": 1867,
+      "5": 2098,
       "6": 2845
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 3,
-      "Marianao": 2,
+      "Boyeros": 2,
       "De Boyeros": 1,
+      "Marianao": 1,
       "Cotorro": 1,
       "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1,
-      "Boyeros": 1
+      "Guanabacoa": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 10,
-    "daf_total": 9,
+    "averias_total": 8,
+    "daf_total": 6,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -387,29 +376,29 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 30,
-    "avg_peak_mw": 358.3,
+    "avg_peak_mw": 365.1,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 9647,
+      "1": 10341,
       "2": 11072,
       "3": 10743,
-      "4": 10476,
-      "5": 10262,
+      "4": 9584,
+      "5": 9266,
       "6": 12344
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 35,
-      "Guanabacoa": 29,
       "Arroyo Naranjo": 28,
+      "Guanabacoa": 27,
       "Lisa": 26,
-      "Boyeros": 25,
+      "Boyeros": 26,
       "San Miguel Del Padrón": 20,
       "Plaza": 18,
       "Playa": 15,
       "Cerro": 12,
-      "Marianao": 12,
+      "Marianao": 11,
       "Cotorro": 9,
       "Plaza De La Revolución": 6,
       "Regla": 6,
@@ -422,8 +411,8 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 254,
-    "daf_total": 193,
+    "averias_total": 252,
+    "daf_total": 190,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -438,32 +427,32 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 64141,
+      "1": 64835,
       "2": 69151,
       "3": 56467,
-      "4": 62708,
-      "5": 60433,
+      "4": 61816,
+      "5": 59437,
       "6": 62646
     },
-    "averias_total": 3195,
+    "averias_total": 3193,
     "averias_top_municipios": {
-      "Boyeros": 333,
+      "Boyeros": 334,
       "Playa": 281,
       "Arroyo Naranjo": 250,
       "Lisa": 228,
       "Habana Del Este": 220,
-      "Guanabacoa": 213,
+      "Guanabacoa": 211,
       "Cerro": 182,
       "San Miguel Del Padrón": 179,
       "Plaza": 179,
-      "Marianao": 144,
+      "Marianao": 143,
       "Cotorro": 94,
       "Centro Habana": 67,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2342,
+    "daf_total": 2339,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -599,7 +588,7 @@
       },
       {
         "date": "2026-05-30",
-        "peak_mw": 167
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -721,7 +710,7 @@
       },
       {
         "date": "2026-05-30",
-        "minutes": 1888
+        "minutes": 694
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1443,7 +1432,7 @@
       },
       {
         "date": "2026-05-30",
-        "peak_mw": 167
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1815,15 +1804,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 64544
+        "minutes": 63350
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2342,
-    "daf_last_30d": 193,
+    "daf_total": 2339,
+    "daf_last_30d": 190,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
