@@ -1,20 +1,20 @@
 {
   "date": "2026-05-30",
   "finalized": false,
-  "peak_mw_affected": 384,
-  "peak_time": "06:02",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 786,
-    "2": 762,
-    "3": 836,
-    "4": 603,
-    "5": 707,
-    "6": 816
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 4510,
-  "daf_count": 2,
+  "total_block_outage_minutes": 0,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,13 +22,12 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 5,
+  "averias_count_by_municipio": {
+    "Lisa": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 1,
   "by_type_counts": {
-    "actualizacion_bloques": 1,
-    "averias": 1,
-    "restablecimiento_daf": 1,
-    "daf": 2
+    "averias": 1
   }
 }
