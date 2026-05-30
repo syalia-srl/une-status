@@ -1,19 +1,19 @@
 {
   "date": "2026-05-29",
   "finalized": false,
-  "peak_mw_affected": 230,
-  "peak_time": "19:00",
+  "peak_mw_affected": 308,
+  "peak_time": "20:55",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 428,
-    "2": 404,
-    "3": 479,
-    "4": 0,
-    "5": 354,
-    "6": 459
+    "1": 425,
+    "2": 401,
+    "3": 474,
+    "4": 254,
+    "5": 346,
+    "6": 454
   },
-  "total_block_outage_minutes": 2124,
+  "total_block_outage_minutes": 2354,
   "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -21,21 +21,23 @@
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
-  "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Lisa": 2,
-    "Arroyo Naranjo": 2,
-    "Regla": 1
+  "cte_offline_minutes": {
+    "guevara": 218
   },
-  "averias_total": 5,
-  "source_msg_count": 11,
+  "averias_count_by_municipio": {
+    "Lisa": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 12,
   "by_type_counts": {
     "inicio_afectacion": 1,
-    "disparo_circuito": 2,
-    "averias": 3,
     "daf": 2,
+    "unidad_termoelectrica": 1,
+    "restablecimiento_daf": 1,
     "actualizacion_bloques": 1,
+    "restablecimiento": 3,
     "otro": 1,
-    "restablecimiento": 1
+    "averias": 1,
+    "disparo_circuito": 1
   }
 }
