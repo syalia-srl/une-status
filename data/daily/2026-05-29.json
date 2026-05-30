@@ -1,19 +1,19 @@
 {
   "date": "2026-05-29",
-  "finalized": false,
-  "peak_mw_affected": 308,
-  "peak_time": "20:55",
+  "finalized": true,
+  "peak_mw_affected": 431,
+  "peak_time": "22:42",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 425,
-    "2": 401,
-    "3": 474,
-    "4": 254,
-    "5": 346,
-    "6": 454
+    "1": 426,
+    "2": 402,
+    "3": 476,
+    "4": 243,
+    "5": 347,
+    "6": 456
   },
-  "total_block_outage_minutes": 2354,
+  "total_block_outage_minutes": 2350,
   "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -21,23 +21,17 @@
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
-  "cte_offline_minutes": {
-    "guevara": 218
-  },
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Lisa": 1
+    "Boyeros": 1
   },
   "averias_total": 1,
   "source_msg_count": 12,
   "by_type_counts": {
-    "inicio_afectacion": 1,
     "daf": 2,
-    "unidad_termoelectrica": 1,
-    "restablecimiento_daf": 1,
-    "actualizacion_bloques": 1,
-    "restablecimiento": 3,
-    "otro": 1,
-    "averias": 1,
+    "restablecimiento": 6,
+    "actualizacion_bloques": 2,
+    "inicio_afectacion": 1,
     "disparo_circuito": 1
   }
 }

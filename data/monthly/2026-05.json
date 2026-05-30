@@ -1,25 +1,25 @@
 {
   "month": "2026-05",
   "finalized": false,
-  "dailies_count": 29,
-  "avg_peak_mw": 360.7,
+  "dailies_count": 30,
+  "avg_peak_mw": 367.2,
   "max_peak_mw": 499,
   "total_interruption_minutes": 17690,
   "total_block_outage_minutes": {
-    "1": 9646,
-    "2": 11071,
-    "3": 10741,
-    "4": 9595,
-    "5": 9265,
-    "6": 12342
+    "1": 11087,
+    "2": 12512,
+    "3": 12183,
+    "4": 11024,
+    "5": 10706,
+    "6": 13784
   },
   "total_emergency_mw_sum": 1510,
   "averias_count_by_municipio": {
     "Habana Del Este": 35,
     "Arroyo Naranjo": 28,
-    "Lisa": 27,
     "Guanabacoa": 27,
-    "Boyeros": 24,
+    "Lisa": 26,
+    "Boyeros": 25,
     "San Miguel Del Padrón": 20,
     "Plaza": 18,
     "Playa": 15,
@@ -38,14 +38,13 @@
     "Cerro Y Centro Habana": 1
   },
   "averias_total": 251,
-  "daf_total": 189,
+  "daf_total": 190,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
   "partial_sen_collapse_total": 0,
   "partial_sen_outage_minutes_total": 0,
   "cte_offline_minutes_total": {
-    "felton": 803,
-    "guevara": 218
+    "felton": 803
   }
 }
