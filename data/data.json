@@ -1,55 +1,66 @@
 {
-  "generated_at": "2026-05-30T12:15:20+00:00",
+  "generated_at": "2026-05-30T14:11:29+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-30T11:56:43+00:00",
+    "as_of": "2026-05-30T14:04:38+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-29T21:15:37+00:00",
+        "hours_off_today": 16.516666666666666
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-29T23:54:37+00:00",
+        "hours_off_today": 13.866666666666667
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-05-29T22:10:37+00:00",
+        "hours_off_today": 15.6
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 210,
+    "current_mw_affected_at": "2026-05-30T13:46:37+00:00",
     "active_averias": {
-      "ts": "2026-05-30T11:56:43+00:00",
+      "ts": "2026-05-30T13:32:50+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "los repartos La Concepción, XX Aniversario, Los Planes 160 🚨"
+          "municipio": "Arroyo Naranjo",
+          "direccion": "la Carretera del Cuervo afectando el servicio eléctrico en La Solita, El Cuervo, Buenos Aires, Las Lajas 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-05-30T11:56:43+00:00",
-        "municipio": "Lisa",
-        "direccion": "los repartos La Concepción, XX Aniversario, Los Planes 160 🚨"
+        "ts": "2026-05-30T13:32:50+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "la Carretera del Cuervo afectando el servicio eléctrico en La Solita, El Cuervo, Buenos Aires, Las Lajas 🚨"
       }
     ],
-    "last_daf": null,
-    "last_pronostico": null,
+    "last_daf": {
+      "ts": "2026-05-30T14:04:38+00:00",
+      "type": "restablecimiento_daf"
+    },
+    "last_pronostico": {
+      "ts": "2026-05-30T12:19:17+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -257,20 +268,20 @@
   "day": {
     "date": "2026-05-30",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 431,
+    "peak_time": "22:30",
+    "interruption_minutes": 1440,
+    "emergency_mw": 105,
     "block_outage_minutes": {
       "1": 0,
-      "2": 0,
+      "2": 991,
       "3": 0,
-      "4": 0,
-      "5": 0,
+      "4": 832,
+      "5": 936,
       "6": 0
     },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "total_block_outage_minutes": 2759,
+    "daf_count": 3,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -279,12 +290,21 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 1,
+    "source_msg_count": 18,
     "by_type_counts": {
-      "averias": 1
+      "pronostico": 1,
+      "restablecimiento_gradual": 4,
+      "corto": 2,
+      "actualizacion_bloques": 2,
+      "nota_diaria": 1,
+      "otro": 2,
+      "averias": 1,
+      "daf": 3,
+      "restablecimiento": 1,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -327,30 +347,29 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 381.6,
+    "avg_peak_mw": 389.8,
     "max_peak_mw": 433,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
       "1": 2525,
-      "2": 2303,
+      "2": 3294,
       "3": 2445,
-      "4": 1867,
-      "5": 2098,
+      "4": 2699,
+      "5": 3034,
       "6": 2845
     },
-    "total_emergency_mw_sum": 0,
+    "total_emergency_mw_sum": 105,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 2,
       "De Boyeros": 1,
       "Marianao": 1,
       "Cotorro": 1,
       "San Miguel Del Padrón": 1,
       "Guanabacoa": 1,
-      "Arroyo Naranjo": 1,
-      "Boyeros": 1,
-      "Lisa": 1
+      "Boyeros": 1
     },
     "averias_total": 8,
-    "daf_total": 5,
+    "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -363,23 +382,23 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 30,
-    "avg_peak_mw": 365.1,
+    "avg_peak_mw": 367.4,
     "max_peak_mw": 499,
-    "total_interruption_minutes": 17690,
+    "total_interruption_minutes": 19130,
     "total_block_outage_minutes": {
       "1": 9647,
-      "2": 11072,
+      "2": 12063,
       "3": 10743,
-      "4": 9584,
-      "5": 9266,
+      "4": 10416,
+      "5": 10202,
       "6": 12344
     },
-    "total_emergency_mw_sum": 1510,
+    "total_emergency_mw_sum": 1615,
     "averias_count_by_municipio": {
       "Habana Del Este": 35,
-      "Arroyo Naranjo": 28,
-      "Lisa": 27,
+      "Arroyo Naranjo": 29,
       "Guanabacoa": 27,
+      "Lisa": 26,
       "Boyeros": 25,
       "San Miguel Del Padrón": 20,
       "Plaza": 18,
@@ -399,7 +418,7 @@
       "Cerro Y Centro Habana": 1
     },
     "averias_total": 252,
-    "daf_total": 189,
+    "daf_total": 192,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -412,21 +431,21 @@
   "all_time": {
     "months_count": 46,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
       "1": 64141,
-      "2": 69151,
+      "2": 70142,
       "3": 56467,
-      "4": 61816,
-      "5": 59437,
+      "4": 62648,
+      "5": 60373,
       "6": 62646
     },
     "averias_total": 3193,
     "averias_top_municipios": {
       "Boyeros": 333,
       "Playa": 281,
-      "Arroyo Naranjo": 250,
-      "Lisa": 229,
+      "Arroyo Naranjo": 251,
+      "Lisa": 228,
       "Habana Del Este": 220,
       "Guanabacoa": 211,
       "Cerro": 182,
@@ -439,7 +458,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2338,
+    "daf_total": 2341,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -575,7 +594,7 @@
       },
       {
         "date": "2026-05-30",
-        "peak_mw": null
+        "peak_mw": 431
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -697,7 +716,7 @@
       },
       {
         "date": "2026-05-30",
-        "minutes": 0
+        "minutes": 2759
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1419,7 +1438,7 @@
       },
       {
         "date": "2026-05-30",
-        "peak_mw": null
+        "peak_mw": 431
       }
     ],
     "monthly_max_peak_mw": [
@@ -1791,15 +1810,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 62656
+        "minutes": 65415
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2338,
-    "daf_last_30d": 189,
+    "daf_total": 2341,
+    "daf_last_30d": 192,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
