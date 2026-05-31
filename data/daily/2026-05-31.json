@@ -1,19 +1,19 @@
 {
   "date": "2026-05-31",
   "finalized": false,
-  "peak_mw_affected": 305,
-  "peak_time": "18:44",
+  "peak_mw_affected": 328,
+  "peak_time": "19:46",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 515,
-    "2": 445,
-    "3": 831,
-    "4": 848,
-    "5": 1065,
-    "6": 615
+    "1": 513,
+    "2": 443,
+    "3": 829,
+    "4": 846,
+    "5": 1063,
+    "6": 613
   },
-  "total_block_outage_minutes": 4319,
+  "total_block_outage_minutes": 4307,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,15 +23,15 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Playa": 1,
-    "San Miguel Del Padrón": 1,
-    "Guanabacoa": 1
+    "Centro Habana": 1,
+    "Boyeros": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 10,
+  "averias_total": 2,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "restablecimiento": 5,
-    "averias": 4,
-    "actualizacion_bloques": 1
+    "averias": 2,
+    "restablecimiento": 1,
+    "actualizacion_bloques": 1,
+    "otro": 1
   }
 }
