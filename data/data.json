@@ -1,91 +1,62 @@
 {
-  "generated_at": "2026-05-31T04:51:24+00:00",
+  "generated_at": "2026-05-31T08:08:31+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-31T04:48:09+00:00",
+    "as_of": "2026-05-31T07:50:29+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "apagandose",
+        "since": "2026-05-31T07:50:29+00:00"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-05-30T17:26:03+00:00",
-        "hours_off_today": 11.25
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "apagandose",
-        "since": "2026-05-31T04:48:09+00:00"
+        "state": "apagado",
+        "since": "2026-05-31T04:56:55+00:00",
+        "hours_off_today": 1.1333333333333333
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-05-30T18:56:03+00:00",
-        "hours_off_today": 9.75
+        "since": "2026-05-30T19:06:55+00:00",
+        "hours_off_today": 10.966666666666667
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-05-30T18:36:03+00:00",
-        "hours_off_today": 10.083333333333334
+        "since": "2026-05-30T17:55:55+00:00",
+        "hours_off_today": 12.15
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-31T06:36:32+00:00"
       }
     ],
-    "current_mw_affected": 227,
-    "current_mw_affected_at": "2026-05-31T04:41:03+00:00",
+    "current_mw_affected": 241,
+    "current_mw_affected_at": "2026-05-31T06:04:55+00:00",
     "active_averias": {
-      "ts": "2026-05-31T04:35:16+00:00",
-      "averias": []
+      "ts": "2026-05-31T05:19:33+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": "la calle Castro y Güinera afectando el servicio eléctrico en: Comodoro, El Volpe, Rosario, Güinera, Ciudad Popular, Mendoza 🚨"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-05-31T04:44:50+00:00",
-        "municipio": "Lisa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-31T04:04:33+00:00",
-        "municipio": "Playa",
-        "direccion": "42A entre 41 y 38, Kohly 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-31T04:02:28+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-31T03:27:07+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-31T03:24:07+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "las calles 244 entre 88 y 90, Cumbre 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-05-31T02:57:30+00:00",
+        "ts": "2026-05-31T05:19:33+00:00",
         "municipio": "Arroyo Naranjo",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-05-31T02:24:21+00:00",
-        "municipio": "Arroyo Naranjo",
-        "kind": "disparo_circuito"
+        "direccion": "la calle Castro y Güinera afectando el servicio eléctrico en: Comodoro, El Volpe, Rosario, Güinera, Ciudad Popular, Mendoza 🚨"
       }
     ],
-    "last_daf": {
-      "ts": "2026-05-31T04:14:42+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -294,20 +265,20 @@
   "day": {
     "date": "2026-05-31",
     "finalized": false,
-    "peak_mw_affected": 227,
-    "peak_time": "00:41",
+    "peak_mw_affected": 241,
+    "peak_time": "02:04",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
       "1": 0,
-      "2": 1440,
-      "3": 0,
-      "4": 1440,
-      "5": 1440,
+      "2": 0,
+      "3": 1383,
+      "4": 658,
+      "5": 729,
       "6": 0
     },
-    "total_block_outage_minutes": 4320,
-    "daf_count": 1,
+    "total_block_outage_minutes": 2770,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -316,20 +287,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Marianao": 1,
-      "Playa": 1,
-      "Lisa": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 9,
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "disparo_circuito": 2,
-      "restablecimiento_daf": 1,
-      "averias": 2,
-      "restablecimiento": 1,
-      "daf": 1,
+      "averias": 1,
       "actualizacion_bloques": 1,
-      "transicion_bloques": 1
+      "transicion_bloques": 2
     }
   },
   "yesterday": {
@@ -375,31 +340,29 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 329.7,
+    "avg_peak_mw": 332.0,
     "max_peak_mw": 431,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 2679,
-      "2": 3925,
-      "3": 1803,
-      "4": 3459,
-      "5": 3505,
+      "2": 2485,
+      "3": 3186,
+      "4": 2677,
+      "5": 2794,
       "6": 2253
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 4,
+      "Marianao": 2,
       "San Miguel Del Padrón": 2,
       "De Boyeros": 1,
       "Cotorro": 1,
       "Guanabacoa": 1,
-      "Boyeros": 1,
-      "Playa": 1,
-      "Lisa": 1
+      "Boyeros": 1
     },
-    "averias_total": 14,
-    "daf_total": 6,
+    "averias_total": 12,
+    "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -412,29 +375,29 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 31,
-    "avg_peak_mw": 357.5,
+    "avg_peak_mw": 358.0,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
       "1": 10341,
-      "2": 13146,
-      "3": 10743,
-      "4": 11568,
-      "5": 11330,
+      "2": 11706,
+      "3": 12126,
+      "4": 10786,
+      "5": 10619,
       "6": 12344
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 35,
-      "Arroyo Naranjo": 30,
-      "Lisa": 27,
+      "Arroyo Naranjo": 31,
       "Guanabacoa": 27,
+      "Lisa": 26,
       "Boyeros": 25,
       "San Miguel Del Padrón": 21,
       "Plaza": 18,
-      "Playa": 16,
-      "Marianao": 13,
+      "Playa": 15,
       "Cerro": 12,
+      "Marianao": 12,
       "Cotorro": 9,
       "Plaza De La Revolución": 6,
       "Regla": 6,
@@ -447,8 +410,8 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 258,
-    "daf_total": 191,
+    "averias_total": 256,
+    "daf_total": 190,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -464,31 +427,31 @@
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
       "1": 64835,
-      "2": 71225,
-      "3": 56467,
-      "4": 63800,
-      "5": 61501,
+      "2": 69785,
+      "3": 57850,
+      "4": 63018,
+      "5": 60790,
       "6": 62646
     },
-    "averias_total": 3199,
+    "averias_total": 3197,
     "averias_top_municipios": {
       "Boyeros": 333,
-      "Playa": 282,
-      "Arroyo Naranjo": 252,
-      "Lisa": 229,
+      "Playa": 281,
+      "Arroyo Naranjo": 253,
+      "Lisa": 228,
       "Habana Del Este": 220,
       "Guanabacoa": 211,
       "Cerro": 182,
       "San Miguel Del Padrón": 180,
       "Plaza": 179,
-      "Marianao": 145,
+      "Marianao": 144,
       "Cotorro": 94,
       "Centro Habana": 67,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2340,
+    "daf_total": 2339,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -624,7 +587,7 @@
       },
       {
         "date": "2026-05-31",
-        "peak_mw": 227
+        "peak_mw": 241
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -746,7 +709,7 @@
       },
       {
         "date": "2026-05-31",
-        "minutes": 4320
+        "minutes": 2770
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1468,7 +1431,7 @@
       },
       {
         "date": "2026-05-31",
-        "peak_mw": 227
+        "peak_mw": 241
       }
     ],
     "monthly_max_peak_mw": [
@@ -1840,15 +1803,15 @@
       },
       {
         "month": "2026-05",
-        "minutes": 69472
+        "minutes": 67922
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2340,
-    "daf_last_30d": 182,
+    "daf_total": 2339,
+    "daf_last_30d": 181,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
