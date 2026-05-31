@@ -1,20 +1,20 @@
 {
   "date": "2026-05-31",
   "finalized": false,
-  "peak_mw_affected": 176,
-  "peak_time": "08:53",
-  "interruption_minutes": 1440,
-  "emergency_mw": 70,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1175,
-    "2": 1111,
-    "3": 1352,
-    "4": 0,
-    "5": 1061,
-    "6": 1248
+    "1": 0,
+    "2": 0,
+    "3": 839,
+    "4": 858,
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 5947,
-  "daf_count": 0,
+  "total_block_outage_minutes": 1697,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,14 +22,16 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
+  "averias_count_by_municipio": {
+    "Cotorro": 1
+  },
+  "averias_total": 1,
   "source_msg_count": 6,
   "by_type_counts": {
-    "restablecimiento_gradual": 2,
-    "pronostico": 1,
-    "nota_diaria": 1,
+    "restablecimiento_gradual": 1,
+    "inicio_afectacion": 2,
     "averias": 1,
-    "actualizacion_bloques": 1
+    "daf": 1,
+    "disparo_circuito": 1
   }
 }
