@@ -2,18 +2,18 @@
   "month": "2026-05",
   "finalized": false,
   "dailies_count": 31,
-  "avg_peak_mw": 359.9,
+  "avg_peak_mw": 355.8,
   "max_peak_mw": 499,
-  "total_interruption_minutes": 17690,
+  "total_interruption_minutes": 19130,
   "total_block_outage_minutes": {
-    "1": 11541,
-    "2": 12840,
-    "3": 12124,
+    "1": 11516,
+    "2": 12817,
+    "3": 12095,
     "4": 10128,
-    "5": 10952,
-    "6": 13614
+    "5": 10951,
+    "6": 13592
   },
-  "total_emergency_mw_sum": 1510,
+  "total_emergency_mw_sum": 1580,
   "averias_count_by_municipio": {
     "Habana Del Este": 35,
     "Arroyo Naranjo": 30,
