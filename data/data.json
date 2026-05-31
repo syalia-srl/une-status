@@ -1,59 +1,60 @@
 {
-  "generated_at": "2026-05-31T08:08:31+00:00",
+  "generated_at": "2026-05-31T10:23:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-31T07:50:29+00:00",
+    "as_of": "2026-05-31T10:08:48+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagandose",
-        "since": "2026-05-31T07:50:29+00:00"
+        "state": "apagado",
+        "since": "2026-05-31T07:56:40+00:00",
+        "hours_off_today": 1.25
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-31T08:56:40+00:00",
+        "hours_off_today": 0.25
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-05-31T04:56:55+00:00",
-        "hours_off_today": 1.1333333333333333
+        "since": "2026-05-31T04:56:40+00:00",
+        "hours_off_today": 4.25
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-05-30T19:06:55+00:00",
-        "hours_off_today": 10.966666666666667
+        "state": "encendido"
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-05-30T17:55:55+00:00",
-        "hours_off_today": 12.15
+        "since": "2026-05-31T10:08:48+00:00",
+        "emergency": true
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-05-31T06:36:32+00:00"
+        "since": "2026-05-31T07:46:40+00:00",
+        "hours_off_today": 1.4166666666666667
       }
     ],
-    "current_mw_affected": 241,
-    "current_mw_affected_at": "2026-05-31T06:04:55+00:00",
+    "current_mw_affected": 223,
+    "current_mw_affected_at": "2026-05-31T09:11:40+00:00",
     "active_averias": {
-      "ts": "2026-05-31T05:19:33+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "la calle Castro y Güinera afectando el servicio eléctrico en: Comodoro, El Volpe, Rosario, Güinera, Ciudad Popular, Mendoza 🚨"
-        }
-      ]
+      "ts": "2026-05-31T10:01:58+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-05-31T05:19:33+00:00",
+        "ts": "2026-05-31T08:52:19+00:00",
         "municipio": "Arroyo Naranjo",
-        "direccion": "la calle Castro y Güinera afectando el servicio eléctrico en: Comodoro, El Volpe, Rosario, Güinera, Ciudad Popular, Mendoza 🚨"
+        "direccion": "calle Castro y Güinera ✅"
+      },
+      {
+        "ts": "2026-05-31T08:51:21+00:00",
+        "municipio": "Arroyo Naranjo"
       }
     ],
     "last_daf": null,
@@ -265,19 +266,19 @@
   "day": {
     "date": "2026-05-31",
     "finalized": false,
-    "peak_mw_affected": 241,
-    "peak_time": "02:04",
+    "peak_mw_affected": 223,
+    "peak_time": "05:11",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 1383,
-      "4": 658,
-      "5": 729,
-      "6": 0
+      "1": 1205,
+      "2": 1144,
+      "3": 1385,
+      "4": 0,
+      "5": 1071,
+      "6": 1275
     },
-    "total_block_outage_minutes": 2770,
+    "total_block_outage_minutes": 6080,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -287,14 +288,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 2
     },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_total": 2,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "averias": 1,
-      "actualizacion_bloques": 1,
-      "transicion_bloques": 2
+      "actualizacion_bloques": 2,
+      "averias": 3,
+      "inicio_afectacion": 2,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -340,20 +342,20 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 332.0,
+    "avg_peak_mw": 329.0,
     "max_peak_mw": 431,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 2679,
-      "2": 2485,
-      "3": 3186,
-      "4": 2677,
-      "5": 2794,
-      "6": 2253
+      "1": 3884,
+      "2": 3629,
+      "3": 3188,
+      "4": 2019,
+      "5": 3136,
+      "6": 3528
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 4,
+      "Arroyo Naranjo": 5,
       "Marianao": 2,
       "San Miguel Del Padrón": 2,
       "De Boyeros": 1,
@@ -361,7 +363,7 @@
       "Guanabacoa": 1,
       "Boyeros": 1
     },
-    "averias_total": 12,
+    "averias_total": 13,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -375,21 +377,21 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 31,
-    "avg_peak_mw": 358.0,
+    "avg_peak_mw": 357.4,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 10341,
-      "2": 11706,
-      "3": 12126,
-      "4": 10786,
-      "5": 10619,
-      "6": 12344
+      "1": 11546,
+      "2": 12850,
+      "3": 12128,
+      "4": 10128,
+      "5": 10961,
+      "6": 13619
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
       "Habana Del Este": 35,
-      "Arroyo Naranjo": 31,
+      "Arroyo Naranjo": 32,
       "Guanabacoa": 27,
       "Lisa": 26,
       "Boyeros": 25,
@@ -410,7 +412,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 256,
+    "averias_total": 257,
     "daf_total": 190,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -426,18 +428,18 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 64835,
-      "2": 69785,
-      "3": 57850,
-      "4": 63018,
-      "5": 60790,
-      "6": 62646
+      "1": 66040,
+      "2": 70929,
+      "3": 57852,
+      "4": 62360,
+      "5": 61132,
+      "6": 63921
     },
-    "averias_total": 3197,
+    "averias_total": 3198,
     "averias_top_municipios": {
       "Boyeros": 333,
       "Playa": 281,
-      "Arroyo Naranjo": 253,
+      "Arroyo Naranjo": 254,
       "Lisa": 228,
       "Habana Del Este": 220,
       "Guanabacoa": 211,
@@ -587,7 +589,7 @@
       },
       {
         "date": "2026-05-31",
-        "peak_mw": 241
+        "peak_mw": 223
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -709,7 +711,7 @@
       },
       {
         "date": "2026-05-31",
-        "minutes": 2770
+        "minutes": 6080
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1431,7 +1433,7 @@
       },
       {
         "date": "2026-05-31",
-        "peak_mw": 241
+        "peak_mw": 223
       }
     ],
     "monthly_max_peak_mw": [
@@ -1803,7 +1805,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 67922
+        "minutes": 71232
       }
     ],
     "sen_outage_days_total": 7,
