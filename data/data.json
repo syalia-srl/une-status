@@ -1,64 +1,52 @@
 {
-  "generated_at": "2026-05-31T18:16:06+00:00",
+  "generated_at": "2026-05-31T19:46:56+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-05-31T18:06:53+00:00",
+    "as_of": "2026-05-31T19:41:29+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-05-31T07:52:05+00:00",
-        "hours_off_today": 9.8
+        "since": "2026-05-31T19:21:29+00:00",
+        "hours_off_today": 0.3333333333333333
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-05-31T08:59:05+00:00",
-        "hours_off_today": 8.683333333333334
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-05-31T14:05:29+00:00",
+        "hours_off_today": 5.6
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-05-31T13:47:05+00:00",
-        "hours_off_today": 3.8833333333333333
+        "since": "2026-05-31T13:48:29+00:00",
+        "hours_off_today": 5.883333333333333
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-05-31T10:10:05+00:00",
-        "hours_off_today": 7.5
+        "since": "2026-05-31T10:11:29+00:00",
+        "hours_off_today": 9.5
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-05-31T17:45:51+00:00"
+        "since": "2026-05-31T17:41:29+00:00",
+        "hours_off_today": 2.0
       }
     ],
-    "current_mw_affected": 176,
-    "current_mw_affected_at": "2026-05-31T17:40:05+00:00",
+    "current_mw_affected": 211,
+    "current_mw_affected_at": "2026-05-31T19:41:29+00:00",
     "active_averias": {
-      "ts": "2026-05-31T18:06:53+00:00",
-      "averias": [
-        {
-          "municipio": "Centro Habana",
-          "direccion": ": Zanja / Soledad y Oquendo",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-05-31T18:41:45+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-05-31T18:06:53+00:00",
-        "municipio": "Centro Habana",
-        "direccion": ": Zanja / Soledad y Oquendo",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -268,19 +256,19 @@
   "day": {
     "date": "2026-05-31",
     "finalized": false,
-    "peak_mw_affected": 176,
-    "peak_time": "13:40",
+    "peak_mw_affected": 211,
+    "peak_time": "15:41",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 1207,
-      "2": 1140,
-      "3": 0,
-      "4": 852,
-      "5": 1069,
-      "6": 0
+      "1": 519,
+      "2": 1138,
+      "3": 833,
+      "4": 850,
+      "5": 1067,
+      "6": 617
     },
-    "total_block_outage_minutes": 4268,
+    "total_block_outage_minutes": 5024,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -289,15 +277,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Centro Habana": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "transicion_bloques": 1,
-      "averias": 1
+      "averias": 1,
+      "actualizacion_bloques": 2,
+      "inicio_afectacion": 1
     }
   },
   "yesterday": {
@@ -343,16 +329,16 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 321.2,
+    "avg_peak_mw": 327.0,
     "max_peak_mw": 431,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 3886,
-      "2": 3625,
-      "3": 1803,
-      "4": 2871,
-      "5": 3134,
-      "6": 2253
+      "1": 3198,
+      "2": 3623,
+      "3": 2636,
+      "4": 2869,
+      "5": 3132,
+      "6": 2870
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
@@ -362,10 +348,9 @@
       "De Boyeros": 1,
       "Cotorro": 1,
       "Guanabacoa": 1,
-      "Boyeros": 1,
-      "Centro Habana": 1
+      "Boyeros": 1
     },
-    "averias_total": 12,
+    "averias_total": 11,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,16 +364,16 @@
     "month": "2026-05",
     "finalized": false,
     "dailies_count": 31,
-    "avg_peak_mw": 355.8,
+    "avg_peak_mw": 357.0,
     "max_peak_mw": 499,
     "total_interruption_minutes": 17690,
     "total_block_outage_minutes": {
-      "1": 11548,
-      "2": 12846,
-      "3": 10743,
-      "4": 10980,
-      "5": 10959,
-      "6": 12344
+      "1": 10860,
+      "2": 12844,
+      "3": 11576,
+      "4": 10978,
+      "5": 10957,
+      "6": 12961
     },
     "total_emergency_mw_sum": 1510,
     "averias_count_by_municipio": {
@@ -404,8 +389,8 @@
       "Marianao": 12,
       "Cotorro": 9,
       "Plaza De La Revolución": 6,
-      "Centro Habana": 6,
       "Regla": 6,
+      "Centro Habana": 5,
       "De Boyeros": 2,
       "Mariano": 1,
       "San Miguel Del Padron": 1,
@@ -414,7 +399,7 @@
       "Marianao El Reparto Los Angeles Se Encuentra Afectado Por Un Disparo Del Circuito": 1,
       "Cerro Y Centro Habana": 1
     },
-    "averias_total": 256,
+    "averias_total": 255,
     "daf_total": 190,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -430,14 +415,14 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 66042,
-      "2": 70925,
-      "3": 56467,
-      "4": 63212,
-      "5": 61130,
-      "6": 62646
+      "1": 65354,
+      "2": 70923,
+      "3": 57300,
+      "4": 63210,
+      "5": 61128,
+      "6": 63263
     },
-    "averias_total": 3197,
+    "averias_total": 3196,
     "averias_top_municipios": {
       "Boyeros": 333,
       "Playa": 281,
@@ -450,7 +435,7 @@
       "Plaza": 179,
       "Marianao": 144,
       "Cotorro": 94,
-      "Centro Habana": 68,
+      "Centro Habana": 67,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
@@ -591,7 +576,7 @@
       },
       {
         "date": "2026-05-31",
-        "peak_mw": 176
+        "peak_mw": 211
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -713,7 +698,7 @@
       },
       {
         "date": "2026-05-31",
-        "minutes": 4268
+        "minutes": 5024
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1435,7 +1420,7 @@
       },
       {
         "date": "2026-05-31",
-        "peak_mw": 176
+        "peak_mw": 211
       }
     ],
     "monthly_max_peak_mw": [
@@ -1807,7 +1792,7 @@
       },
       {
         "month": "2026-05",
-        "minutes": 69420
+        "minutes": 70176
       }
     ],
     "sen_outage_days_total": 7,
