@@ -1,20 +1,20 @@
 {
   "date": "2026-06-01",
   "finalized": false,
-  "peak_mw_affected": 286,
-  "peak_time": "00:47",
-  "interruption_minutes": null,
-  "emergency_mw": null,
+  "peak_mw_affected": 326,
+  "peak_time": "20:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": 95,
   "block_outage_minutes": {
-    "1": 1440,
-    "2": 1440,
-    "3": 1278,
-    "4": 1347,
-    "5": 1432,
-    "6": 1440
+    "1": 866,
+    "2": 861,
+    "3": 1289,
+    "4": 1355,
+    "5": 580,
+    "6": 1129
   },
-  "total_block_outage_minutes": 8377,
-  "daf_count": 0,
+  "total_block_outage_minutes": 6080,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,19 +22,18 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Marianao": 1,
-    "Cerro": 1,
-    "Centro Habana": 1
-  },
-  "averias_total": 3,
-  "source_msg_count": 15,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 20,
   "by_type_counts": {
-    "restablecimiento": 3,
-    "averias": 4,
-    "disparo_circuito": 1,
-    "actualizacion_bloques": 4,
+    "averias": 1,
+    "actualizacion_bloques": 5,
+    "disparo_circuito": 2,
+    "restablecimiento_gradual": 1,
+    "pronostico": 1,
+    "otro": 5,
+    "daf": 2,
     "inicio_afectacion": 2,
-    "restablecimiento_gradual": 1
+    "nota_diaria": 1
   }
 }

@@ -1,82 +1,61 @@
 {
-  "generated_at": "2026-06-01T08:23:50+00:00",
+  "generated_at": "2026-06-01T14:29:37+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-01T08:23:24+00:00",
+    "as_of": "2026-06-01T14:13:29+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-01T13:46:06+00:00",
+        "hours_off_today": 0.3333333333333333
       },
       {
         "id": 2,
-        "state": "encendiendose",
-        "since": "2026-06-01T08:23:24+00:00"
+        "state": "apagado",
+        "since": "2026-06-01T13:46:06+00:00",
+        "hours_off_today": 0.3333333333333333
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-06-01T06:43:48+00:00",
-        "hours_off_today": 0.5
+        "since": "2026-06-01T06:56:06+00:00",
+        "hours_off_today": 7.166666666666667
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-06-01T05:03:48+00:00",
-        "hours_off_today": 2.1666666666666665
+        "since": "2026-06-01T05:50:06+00:00",
+        "hours_off_today": 8.266666666666667
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-01T03:33:48+00:00",
-        "hours_off_today": 3.6666666666666665
+        "since": "2026-06-01T04:26:06+00:00",
+        "hours_off_today": 9.666666666666666
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-01T09:36:06+00:00",
+        "hours_off_today": 4.5
       }
     ],
-    "current_mw_affected": 260,
-    "current_mw_affected_at": "2026-06-01T07:13:48+00:00",
+    "current_mw_affected": 242,
+    "current_mw_affected_at": "2026-06-01T14:06:06+00:00",
     "active_averias": {
-      "ts": "2026-06-01T07:15:32+00:00",
-      "averias": [
-        {
-          "municipio": "Centro Habana",
-          "direccion": ": Oquendo / Concordia y Virtudes",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-06-01T09:28:45+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-06-01T07:15:32+00:00",
-        "municipio": "Centro Habana",
-        "direccion": ": Oquendo / Concordia y Virtudes",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-01T05:13:01+00:00",
-        "municipio": "Cerro",
-        "direccion": ": Avenida del Norte / Avenida del Palmar y Alameda Norte 13 , Casino Deportivo",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-01T04:07:24+00:00",
-        "municipio": "Marianao",
-        "direccion": ": Coco Solo, Los Quemados, Los Ángeles, Las Yaguas 🚨 ⚡️",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-06-01T03:30:25+00:00",
-        "municipio": "Marianao",
-        "direccion": ": 25 y 120 afectando : Zamora 🚨 ⚡️",
-        "severity": "primaria"
-      }
-    ],
-    "last_daf": null,
-    "last_pronostico": null,
+    "averias_24h": [],
+    "last_daf": {
+      "ts": "2026-06-01T13:53:57+00:00",
+      "type": "daf"
+    },
+    "last_pronostico": {
+      "ts": "2026-06-01T11:53:45+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -284,20 +263,20 @@
   "day": {
     "date": "2026-06-01",
     "finalized": false,
-    "peak_mw_affected": 286,
-    "peak_time": "00:47",
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 326,
+    "peak_time": "20:00",
+    "interruption_minutes": 1440,
+    "emergency_mw": 95,
     "block_outage_minutes": {
-      "1": 1440,
-      "2": 1440,
-      "3": 1278,
-      "4": 1347,
-      "5": 1432,
-      "6": 1440
+      "1": 866,
+      "2": 861,
+      "3": 1289,
+      "4": 1355,
+      "5": 580,
+      "6": 1129
     },
-    "total_block_outage_minutes": 8377,
-    "daf_count": 0,
+    "total_block_outage_minutes": 6080,
+    "daf_count": 2,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -305,20 +284,19 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Marianao": 1,
-      "Cerro": 1,
-      "Centro Habana": 1
-    },
-    "averias_total": 3,
-    "source_msg_count": 15,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 3,
-      "averias": 4,
-      "disparo_circuito": 1,
-      "actualizacion_bloques": 4,
+      "averias": 1,
+      "actualizacion_bloques": 5,
+      "disparo_circuito": 2,
+      "restablecimiento_gradual": 1,
+      "pronostico": 1,
+      "otro": 5,
+      "daf": 2,
       "inicio_afectacion": 2,
-      "restablecimiento_gradual": 1
+      "nota_diaria": 1
     }
   },
   "yesterday": {
@@ -361,28 +339,26 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 321.0,
+    "avg_peak_mw": 327.7,
     "max_peak_mw": 431,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 4200,
-      "2": 3961,
-      "3": 2760,
-      "4": 3016,
-      "5": 3160,
-      "6": 3812
+      "1": 3626,
+      "2": 3382,
+      "3": 2771,
+      "4": 3024,
+      "5": 2308,
+      "6": 3501
     },
-    "total_emergency_mw_sum": 0,
+    "total_emergency_mw_sum": 95,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
-      "Marianao": 3,
+      "Marianao": 2,
       "Boyeros": 1,
-      "San Miguel Del Padrón": 1,
-      "Cerro": 1,
-      "Centro Habana": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 10,
-    "daf_total": 5,
+    "averias_total": 7,
+    "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -395,25 +371,21 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 1,
-    "avg_peak_mw": 286.0,
-    "max_peak_mw": 286,
-    "total_interruption_minutes": 0,
+    "avg_peak_mw": 326.0,
+    "max_peak_mw": 326,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 1440,
-      "2": 1440,
-      "3": 1278,
-      "4": 1347,
-      "5": 1432,
-      "6": 1440
+      "1": 866,
+      "2": 861,
+      "3": 1289,
+      "4": 1355,
+      "5": 580,
+      "6": 1129
     },
-    "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Marianao": 1,
-      "Cerro": 1,
-      "Centro Habana": 1
-    },
-    "averias_total": 3,
-    "daf_total": 0,
+    "total_emergency_mw_sum": 95,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -424,16 +396,16 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
-      "1": 66794,
-      "2": 71674,
-      "3": 57745,
-      "4": 63707,
-      "5": 61493,
-      "6": 64705
+      "1": 66220,
+      "2": 71095,
+      "3": 57756,
+      "4": 63715,
+      "5": 60641,
+      "6": 64394
     },
-    "averias_total": 3200,
+    "averias_total": 3197,
     "averias_top_municipios": {
       "Boyeros": 333,
       "Playa": 281,
@@ -441,17 +413,17 @@
       "Lisa": 228,
       "Habana Del Este": 220,
       "Guanabacoa": 211,
-      "Cerro": 183,
+      "Cerro": 182,
       "San Miguel Del Padrón": 180,
       "Plaza": 179,
-      "Marianao": 146,
+      "Marianao": 145,
       "Cotorro": 94,
-      "Centro Habana": 68,
+      "Centro Habana": 67,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2339,
+    "daf_total": 2341,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -587,7 +559,7 @@
       },
       {
         "date": "2026-06-01",
-        "peak_mw": 286
+        "peak_mw": 326
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -709,7 +681,7 @@
       },
       {
         "date": "2026-06-01",
-        "minutes": 8377
+        "minutes": 6080
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1431,7 +1403,7 @@
       },
       {
         "date": "2026-06-01",
-        "peak_mw": 286
+        "peak_mw": 326
       }
     ],
     "monthly_max_peak_mw": [
@@ -1621,7 +1593,7 @@
       },
       {
         "month": "2026-06",
-        "max_peak_mw": 286
+        "max_peak_mw": 326
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1811,15 +1783,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 8377
+        "minutes": 6080
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2339,
-    "daf_last_30d": 176,
+    "daf_total": 2341,
+    "daf_last_30d": 178,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
