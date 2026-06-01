@@ -2,19 +2,19 @@
   "date": "2026-06-01",
   "finalized": false,
   "peak_mw_affected": 305,
-  "peak_time": "15:23",
+  "peak_time": "16:24",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 908,
-    "2": 908,
-    "3": 1258,
-    "4": 1323,
-    "5": 531,
-    "6": 1128
+    "1": 865,
+    "2": 865,
+    "3": 1275,
+    "4": 377,
+    "5": 538,
+    "6": 1085
   },
-  "total_block_outage_minutes": 6056,
-  "daf_count": 3,
+  "total_block_outage_minutes": 5005,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,22 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 2,
-    "Playa": 2,
-    "La Lisa": 1,
-    "San Miguel Del Padrón": 1,
-    "Guanabacoa": 1,
-    "Boyeros": 1
+    "Habana Del Este": 2,
+    "Playa": 1,
+    "Plaza": 1
   },
-  "averias_total": 8,
-  "source_msg_count": 20,
+  "averias_total": 4,
+  "source_msg_count": 10,
   "by_type_counts": {
-    "daf": 3,
-    "otro": 1,
-    "averias": 8,
-    "actualizacion_bloques": 4,
-    "restablecimiento": 1,
-    "restablecimiento_gradual": 2,
+    "actualizacion_bloques": 2,
+    "disparo_circuito": 2,
+    "via_libre": 1,
+    "averias": 3,
+    "restablecimiento_gradual": 1,
     "inicio_afectacion": 1
   }
 }
