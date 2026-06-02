@@ -1,23 +1,25 @@
 {
   "month": "2026-06",
   "finalized": false,
-  "dailies_count": 1,
-  "avg_peak_mw": 398.0,
-  "max_peak_mw": 398,
+  "dailies_count": 2,
+  "avg_peak_mw": 394.5,
+  "max_peak_mw": 397,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 860,
-    "2": 860,
-    "3": 310,
-    "4": 370,
-    "5": 560,
-    "6": 1080
+    "1": 2291,
+    "2": 2291,
+    "3": 1741,
+    "4": 1801,
+    "5": 1991,
+    "6": 2511
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Regla": 1
+    "Boyeros": 2,
+    "San Miguel Del Padrón": 2,
+    "Cotorro": 2
   },
-  "averias_total": 1,
+  "averias_total": 6,
   "daf_total": 1,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
