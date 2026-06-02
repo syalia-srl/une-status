@@ -1,19 +1,19 @@
 {
   "date": "2026-06-02",
   "finalized": false,
-  "peak_mw_affected": 296,
-  "peak_time": "09:07",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 765,
+    "1": 0,
     "2": 0,
-    "3": 991,
-    "4": 1075,
-    "5": 1224,
-    "6": 1014
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 5069,
+  "total_block_outage_minutes": 0,
   "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,19 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 1,
-    "Cotorro": 1
+    "Guanabacoa": 3,
+    "Boyeros": 2
   },
-  "averias_total": 2,
+  "averias_total": 5,
   "source_msg_count": 20,
   "by_type_counts": {
-    "restablecimiento": 6,
-    "averias": 1,
-    "actualizacion_bloques": 4,
-    "pronostico": 1,
     "daf": 3,
-    "disparo_circuito": 2,
-    "restablecimiento_daf": 2,
-    "inicio_afectacion": 1
+    "restablecimiento": 5,
+    "restablecimiento_daf": 1,
+    "disparo_circuito": 3,
+    "otro": 3,
+    "averias": 4,
+    "unidad_termoelectrica": 1
   }
 }
