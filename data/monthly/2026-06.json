@@ -2,23 +2,22 @@
   "month": "2026-06",
   "finalized": false,
   "dailies_count": 3,
-  "avg_peak_mw": 402.3,
+  "avg_peak_mw": 435.3,
   "max_peak_mw": 457,
-  "total_interruption_minutes": 0,
+  "total_interruption_minutes": 1440,
   "total_block_outage_minutes": {
-    "1": 2081,
-    "2": 2131,
-    "3": 721,
-    "4": 1567,
-    "5": 1805,
-    "6": 3259
+    "1": 1304,
+    "2": 1329,
+    "3": 1793,
+    "4": 1907,
+    "5": 1015,
+    "6": 3284
   },
-  "total_emergency_mw_sum": 0,
+  "total_emergency_mw_sum": 165,
   "averias_count_by_municipio": {
+    "Playa": 2,
     "Boyeros": 1,
-    "Lisa": 1,
-    "Habana Del Este": 1,
-    "Cotorro": 1
+    "Lisa": 1
   },
   "averias_total": 4,
   "daf_total": 2,
