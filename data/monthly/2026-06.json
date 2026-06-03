@@ -1,22 +1,22 @@
 {
   "month": "2026-06",
   "finalized": false,
-  "dailies_count": 2,
-  "avg_peak_mw": 354.5,
-  "max_peak_mw": 392,
+  "dailies_count": 3,
+  "avg_peak_mw": 409.3,
+  "max_peak_mw": 457,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 1314,
-    "2": 1339,
-    "3": 716,
-    "4": 811,
-    "5": 1025,
-    "6": 2093
+    "1": 2744,
+    "2": 2769,
+    "3": 2161,
+    "4": 2241,
+    "5": 2455,
+    "6": 3509
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
     "Boyeros": 1,
-    "Playa": 1,
+    "Lisa": 1,
     "Guanabacoa": 1
   },
   "averias_total": 3,
