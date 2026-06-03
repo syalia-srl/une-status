@@ -1,20 +1,20 @@
 {
   "date": "2026-06-03",
   "finalized": false,
-  "peak_mw_affected": 152,
-  "peak_time": "13:42",
+  "peak_mw_affected": 293,
+  "peak_time": "17:19",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 561,
-    "2": 642,
-    "3": 1069,
-    "4": 0,
-    "5": 588,
-    "6": 1209
+    "1": 570,
+    "2": 655,
+    "3": 1065,
+    "4": 490,
+    "5": 595,
+    "6": 376
   },
-  "total_block_outage_minutes": 4069,
-  "daf_count": 4,
+  "total_block_outage_minutes": 3751,
+  "daf_count": 7,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -24,20 +24,18 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
     "Marianao": 1,
-    "Guanabacoa": 1
+    "Lisa": 1
   },
   "averias_total": 2,
   "source_msg_count": 20,
   "by_type_counts": {
-    "corto": 1,
-    "via_libre": 1,
-    "restablecimiento": 1,
-    "mantenimiento": 1,
-    "daf": 4,
-    "averias": 3,
     "restablecimiento_daf": 4,
+    "daf": 7,
+    "restablecimiento": 2,
+    "inicio_afectacion": 2,
     "otro": 1,
-    "inicio_afectacion": 3,
+    "disparo_circuito": 1,
+    "averias": 2,
     "actualizacion_bloques": 1
   }
 }
