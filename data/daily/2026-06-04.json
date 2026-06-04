@@ -1,19 +1,19 @@
 {
   "date": "2026-06-04",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 204,
+  "peak_time": "16:48",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 0
+    "1": 733,
+    "2": 1360,
+    "3": 457,
+    "4": 582,
+    "5": 857,
+    "6": 524
   },
-  "total_block_outage_minutes": 0,
+  "total_block_outage_minutes": 4513,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,17 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Playa": 1,
-    "Regla": 1,
-    "Lisa": 1
+    "Cerro": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 9,
+  "averias_total": 1,
+  "source_msg_count": 13,
   "by_type_counts": {
+    "via_libre": 1,
+    "disparo_circuito": 3,
+    "inicio_afectacion": 3,
+    "averias": 2,
     "restablecimiento": 2,
-    "averias": 4,
-    "mantenimiento": 1,
-    "transicion_bloques": 1,
-    "disparo_circuito": 1
+    "actualizacion_bloques": 2
   }
 }
