@@ -1,74 +1,79 @@
 {
-  "generated_at": "2026-06-04T13:45:41+00:00",
+  "generated_at": "2026-06-04T16:42:36+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-04T13:43:21+00:00",
+    "as_of": "2026-06-04T16:41:45+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-04T15:42:06+00:00",
+        "hours_off_today": 0.08333333333333333
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-06-04T05:16:38+00:00",
-        "hours_off_today": 7.4
+        "since": "2026-06-04T05:19:06+00:00",
+        "hours_off_today": 10.466666666666667
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-04T03:56:38+00:00",
-        "hours_off_today": 8.733333333333333
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-06-03T19:36:38+00:00",
-        "hours_off_today": 17.066666666666666
+        "state": "encendido"
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-04T13:29:00+00:00"
+        "since": "2026-06-04T13:42:06+00:00",
+        "hours_off_today": 2.0833333333333335
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-03T22:01:38+00:00",
-        "hours_off_today": 14.65
+        "state": "encendido",
+        "since": "2026-06-04T16:41:45+00:00"
       }
     ],
-    "current_mw_affected": 212,
-    "current_mw_affected_at": "2026-06-04T12:40:38+00:00",
+    "current_mw_affected": 219,
+    "current_mw_affected_at": "2026-06-04T15:47:06+00:00",
     "active_averias": {
-      "ts": "2026-06-04T12:35:00+00:00",
+      "ts": "2026-06-04T16:41:03+00:00",
       "averias": [
         {
-          "municipio": "Marianao",
-          "direccion": "25 Y 124 que afecta: Zamora 📍 🚨"
+          "municipio": "Regla",
+          "direccion": "Concepción Devesa / Arcelor Iglesia y Camilo Cienfuegos afectando : La Gloria, Ciruela, Unión, Lídice, Colina Lenin",
+          "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-04T12:35:00+00:00",
-        "municipio": "Marianao",
-        "direccion": "25 Y 124 que afecta: Zamora 📍 🚨"
+        "ts": "2026-06-04T16:41:03+00:00",
+        "municipio": "Regla",
+        "direccion": "Concepción Devesa / Arcelor Iglesia y Camilo Cienfuegos afectando : La Gloria, Ciruela, Unión, Lídice, Colina Lenin",
+        "severity": "primaria"
       },
       {
-        "ts": "2026-06-04T12:20:03+00:00",
-        "municipio": "Regla",
-        "kind": "disparo_circuito"
+        "ts": "2026-06-04T16:01:47+00:00",
+        "municipio": "Marianao",
+        "direccion": ": 63 / 98 y 100 , Pogolotti",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-04T14:26:11+00:00",
+        "municipio": "Centro Habana",
+        "direccion": ": Maloja / Retiro y Placencia",
+        "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-06-04T11:20:55+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-06-04T15:22:57+00:00",
+      "type": "daf"
     },
-    "last_pronostico": {
-      "ts": "2026-06-04T11:49:33+00:00"
-    },
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -276,19 +281,19 @@
   "day": {
     "date": "2026-06-04",
     "finalized": false,
-    "peak_mw_affected": 337,
-    "peak_time": "18:00",
-    "interruption_minutes": 1440,
-    "emergency_mw": 90,
+    "peak_mw_affected": 219,
+    "peak_time": "11:47",
+    "interruption_minutes": null,
+    "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 1363,
-      "3": 524,
-      "4": 1024,
-      "5": 871,
-      "6": 879
+      "1": 736,
+      "2": 1365,
+      "3": 0,
+      "4": 0,
+      "5": 862,
+      "6": 1063
     },
-    "total_block_outage_minutes": 4661,
+    "total_block_outage_minutes": 4026,
     "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -298,23 +303,19 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Regla": 1,
-      "Marianao": 1
+      "Centro Habana": 1,
+      "Marianao": 1,
+      "Regla": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 16,
+    "averias_total": 3,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "averias": 2,
-      "otro": 3,
+      "averias": 5,
+      "actualizacion_bloques": 2,
       "daf": 1,
-      "restablecimiento_daf": 1,
-      "pronostico": 1,
-      "unidad_termoelectrica": 1,
-      "restablecimiento": 3,
-      "disparo_circuito": 1,
-      "actualizacion_bloques": 1,
       "inicio_afectacion": 1,
-      "nota_diaria": 1
+      "disparo_circuito": 1,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
@@ -363,18 +364,18 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 338.1,
+    "avg_peak_mw": 321.3,
     "max_peak_mw": 457,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 3515,
-      "2": 4177,
-      "3": 1736,
-      "4": 3104,
-      "5": 3454,
-      "6": 4395
+      "1": 4251,
+      "2": 4179,
+      "3": 1212,
+      "4": 2080,
+      "5": 3445,
+      "6": 4579
     },
-    "total_emergency_mw_sum": 90,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
       "Marianao": 3,
@@ -383,9 +384,10 @@
       "Lisa": 2,
       "Cerro": 1,
       "Guanabacoa": 1,
+      "Centro Habana": 1,
       "Regla": 1
     },
-    "averias_total": 15,
+    "averias_total": 16,
     "daf_total": 6,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -399,18 +401,18 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 4,
-    "avg_peak_mw": 354.0,
+    "avg_peak_mw": 324.5,
     "max_peak_mw": 457,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 1876,
-      "2": 2692,
-      "3": 1260,
-      "4": 2317,
-      "5": 2483,
-      "6": 3320
+      "1": 2612,
+      "2": 2694,
+      "3": 736,
+      "4": 1293,
+      "5": 2474,
+      "6": 3504
     },
-    "total_emergency_mw_sum": 90,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 2,
       "Boyeros": 1,
@@ -418,10 +420,11 @@
       "Cerro": 1,
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
-      "Regla": 1,
-      "Marianao": 1
+      "Centro Habana": 1,
+      "Marianao": 1,
+      "Regla": 1
     },
-    "averias_total": 9,
+    "averias_total": 10,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -433,16 +436,16 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 61210,
+    "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 67230,
-      "2": 72926,
-      "3": 57727,
-      "4": 64677,
-      "5": 62544,
-      "6": 66585
+      "1": 67966,
+      "2": 72928,
+      "3": 57203,
+      "4": 63653,
+      "5": 62535,
+      "6": 66769
     },
-    "averias_total": 3206,
+    "averias_total": 3207,
     "averias_top_municipios": {
       "Boyeros": 334,
       "Playa": 281,
@@ -455,7 +458,7 @@
       "Plaza": 179,
       "Marianao": 146,
       "Cotorro": 94,
-      "Centro Habana": 67,
+      "Centro Habana": 68,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
@@ -596,7 +599,7 @@
       },
       {
         "date": "2026-06-04",
-        "peak_mw": 337
+        "peak_mw": 219
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -718,7 +721,7 @@
       },
       {
         "date": "2026-06-04",
-        "minutes": 4661
+        "minutes": 4026
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1440,7 +1443,7 @@
       },
       {
         "date": "2026-06-04",
-        "peak_mw": 337
+        "peak_mw": 219
       }
     ],
     "monthly_max_peak_mw": [
@@ -1820,7 +1823,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 13948
+        "minutes": 13313
       }
     ],
     "sen_outage_days_total": 7,

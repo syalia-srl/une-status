@@ -1,19 +1,19 @@
 {
   "date": "2026-06-04",
   "finalized": false,
-  "peak_mw_affected": 337,
-  "peak_time": "18:00",
-  "interruption_minutes": 1440,
-  "emergency_mw": 90,
+  "peak_mw_affected": 219,
+  "peak_time": "11:47",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 1363,
-    "3": 524,
-    "4": 1024,
-    "5": 871,
-    "6": 879
+    "1": 736,
+    "2": 1365,
+    "3": 0,
+    "4": 0,
+    "5": 862,
+    "6": 1063
   },
-  "total_block_outage_minutes": 4661,
+  "total_block_outage_minutes": 4026,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,22 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Regla": 1,
-    "Marianao": 1
+    "Centro Habana": 1,
+    "Marianao": 1,
+    "Regla": 1
   },
-  "averias_total": 2,
-  "source_msg_count": 16,
+  "averias_total": 3,
+  "source_msg_count": 12,
   "by_type_counts": {
-    "averias": 2,
-    "otro": 3,
+    "averias": 5,
+    "actualizacion_bloques": 2,
     "daf": 1,
-    "restablecimiento_daf": 1,
-    "pronostico": 1,
-    "unidad_termoelectrica": 1,
-    "restablecimiento": 3,
-    "disparo_circuito": 1,
-    "actualizacion_bloques": 1,
     "inicio_afectacion": 1,
-    "nota_diaria": 1
+    "disparo_circuito": 1,
+    "restablecimiento": 2
   }
 }
