@@ -1,20 +1,20 @@
 {
   "date": "2026-06-05",
   "finalized": false,
-  "peak_mw_affected": 246,
-  "peak_time": "10:05",
+  "peak_mw_affected": 143,
+  "peak_time": "13:15",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 732,
-    "2": 1216,
-    "3": 945,
-    "4": 0,
-    "5": 1119,
+    "1": 751,
+    "2": 1229,
+    "3": 0,
+    "4": 660,
+    "5": 1109,
     "6": 0
   },
-  "total_block_outage_minutes": 4012,
-  "daf_count": 1,
+  "total_block_outage_minutes": 3749,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,20 +23,17 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Plaza": 1,
-    "Cotorro": 1,
-    "Boyeros": 1
+    "Arroyo Naranjo": 1,
+    "Plaza": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 13,
+  "averias_total": 2,
+  "source_msg_count": 11,
   "by_type_counts": {
-    "actualizacion_bloques": 3,
-    "averias": 3,
-    "otro": 1,
-    "daf": 1,
-    "restablecimiento_gradual": 2,
-    "disparo_circuito": 1,
-    "via_libre": 1,
-    "inicio_afectacion": 1
+    "inicio_afectacion": 1,
+    "restablecimiento_gradual": 1,
+    "disparo_circuito": 3,
+    "actualizacion_bloques": 2,
+    "daf": 2,
+    "averias": 2
   }
 }
