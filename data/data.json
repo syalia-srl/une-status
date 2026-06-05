@@ -1,69 +1,56 @@
 {
-  "generated_at": "2026-06-05T10:36:26+00:00",
+  "generated_at": "2026-06-05T13:40:36+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-05T09:50:50+00:00",
+    "as_of": "2026-06-05T13:21:38+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-06-04T15:57:50+00:00",
-        "hours_off_today": 17.883333333333333
+        "state": "encendido"
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-06-05T07:28:50+00:00",
-        "hours_off_today": 2.3666666666666667
+        "since": "2026-06-05T07:59:38+00:00",
+        "hours_off_today": 5.366666666666666
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-06-05T00:05:50+00:00",
-        "hours_off_today": 9.75
+        "since": "2026-06-05T00:36:38+00:00",
+        "hours_off_today": 12.75
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-06-04T18:28:50+00:00",
-        "hours_off_today": 15.366666666666667
+        "since": "2026-06-04T18:59:38+00:00",
+        "hours_off_today": 18.366666666666667
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-05T09:05:50+00:00",
-        "hours_off_today": 0.75
+        "since": "2026-06-05T09:36:38+00:00",
+        "hours_off_today": 3.75
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-06-04T19:33:50+00:00",
-        "hours_off_today": 14.283333333333333
+        "since": "2026-06-04T20:04:38+00:00",
+        "hours_off_today": 17.283333333333335
       }
     ],
-    "current_mw_affected": 360,
-    "current_mw_affected_at": "2026-06-05T09:50:50+00:00",
+    "current_mw_affected": 274,
+    "current_mw_affected_at": "2026-06-05T13:21:38+00:00",
     "active_averias": {
-      "ts": "2026-06-05T09:47:48+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": ": 184 / 277 y Río Verde",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-06-05T13:02:34+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-06-05T09:47:48+00:00",
-        "municipio": "Boyeros",
-        "direccion": ": 184 / 277 y Río Verde",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
-    "last_pronostico": null,
+    "last_pronostico": {
+      "ts": "2026-06-05T12:17:39+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -271,19 +258,19 @@
   "day": {
     "date": "2026-06-05",
     "finalized": false,
-    "peak_mw_affected": 360,
-    "peak_time": "05:50",
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 366,
+    "peak_time": "19:40",
+    "interruption_minutes": 1440,
+    "emergency_mw": 140,
     "block_outage_minutes": {
-      "1": 1073,
-      "2": 1273,
-      "3": 585,
-      "4": 922,
-      "5": 1133,
-      "6": 857
+      "1": 0,
+      "2": 1200,
+      "3": 765,
+      "4": 1102,
+      "5": 1103,
+      "6": 1037
     },
-    "total_block_outage_minutes": 5843,
+    "total_block_outage_minutes": 5207,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -292,15 +279,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "inicio_afectacion": 2,
-      "actualizacion_bloques": 3,
-      "averias": 2
+      "nota_diaria": 1,
+      "otro": 2,
+      "pronostico": 1,
+      "averias": 1,
+      "restablecimiento_gradual": 2,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -342,29 +330,29 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 324.9,
+    "avg_peak_mw": 325.7,
     "max_peak_mw": 457,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 4891,
-      "2": 3685,
-      "3": 1566,
-      "4": 3357,
-      "5": 4222,
-      "6": 4434
+      "1": 3818,
+      "2": 3612,
+      "3": 1746,
+      "4": 3537,
+      "5": 4192,
+      "6": 4614
     },
-    "total_emergency_mw_sum": 0,
+    "total_emergency_mw_sum": 140,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
       "Lisa": 3,
       "San Miguel Del Padrón": 2,
       "Marianao": 2,
-      "Boyeros": 2,
+      "Boyeros": 1,
       "Cerro": 1,
       "Guanabacoa": 1,
       "Plaza": 1
     },
-    "averias_total": 15,
+    "averias_total": 14,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -378,28 +366,28 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 5,
-    "avg_peak_mw": 350.8,
+    "avg_peak_mw": 352.0,
     "max_peak_mw": 457,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 3678,
-      "2": 2602,
-      "3": 1566,
-      "4": 2813,
-      "5": 3598,
-      "6": 3815
+      "1": 2605,
+      "2": 2529,
+      "3": 1746,
+      "4": 2993,
+      "5": 3568,
+      "6": 3995
     },
-    "total_emergency_mw_sum": 0,
+    "total_emergency_mw_sum": 140,
     "averias_count_by_municipio": {
       "Lisa": 3,
-      "Boyeros": 2,
+      "Boyeros": 1,
       "Arroyo Naranjo": 1,
       "Cerro": 1,
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
       "Plaza": 1
     },
-    "averias_total": 10,
+    "averias_total": 9,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -411,18 +399,18 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
-      "1": 69032,
-      "2": 72836,
-      "3": 58033,
-      "4": 65173,
-      "5": 63659,
-      "6": 67080
+      "1": 67959,
+      "2": 72763,
+      "3": 58213,
+      "4": 65353,
+      "5": 63629,
+      "6": 67260
     },
-    "averias_total": 3207,
+    "averias_total": 3206,
     "averias_top_municipios": {
-      "Boyeros": 335,
+      "Boyeros": 334,
       "Playa": 281,
       "Arroyo Naranjo": 253,
       "Lisa": 231,
@@ -574,7 +562,7 @@
       },
       {
         "date": "2026-06-05",
-        "peak_mw": 360
+        "peak_mw": 366
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -696,7 +684,7 @@
       },
       {
         "date": "2026-06-05",
-        "minutes": 5843
+        "minutes": 5207
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1418,7 +1406,7 @@
       },
       {
         "date": "2026-06-05",
-        "peak_mw": 360
+        "peak_mw": 366
       }
     ],
     "monthly_max_peak_mw": [
@@ -1798,7 +1786,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 18072
+        "minutes": 17436
       }
     ],
     "sen_outage_days_total": 7,
