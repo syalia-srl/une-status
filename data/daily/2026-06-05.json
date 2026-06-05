@@ -1,20 +1,20 @@
 {
   "date": "2026-06-05",
   "finalized": false,
-  "peak_mw_affected": 366,
-  "peak_time": "19:40",
-  "interruption_minutes": 1440,
-  "emergency_mw": 140,
+  "peak_mw_affected": 246,
+  "peak_time": "10:05",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 1200,
-    "3": 765,
-    "4": 1102,
-    "5": 1103,
-    "6": 1037
+    "1": 732,
+    "2": 1216,
+    "3": 945,
+    "4": 0,
+    "5": 1119,
+    "6": 0
   },
-  "total_block_outage_minutes": 5207,
-  "daf_count": 0,
+  "total_block_outage_minutes": 4012,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,15 +22,21 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 8,
+  "averias_count_by_municipio": {
+    "Plaza": 1,
+    "Cotorro": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 13,
   "by_type_counts": {
-    "nota_diaria": 1,
-    "otro": 2,
-    "pronostico": 1,
-    "averias": 1,
+    "actualizacion_bloques": 3,
+    "averias": 3,
+    "otro": 1,
+    "daf": 1,
     "restablecimiento_gradual": 2,
-    "actualizacion_bloques": 1
+    "disparo_circuito": 1,
+    "via_libre": 1,
+    "inicio_afectacion": 1
   }
 }
