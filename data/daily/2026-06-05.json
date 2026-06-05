@@ -1,19 +1,19 @@
 {
   "date": "2026-06-05",
   "finalized": false,
-  "peak_mw_affected": 176,
-  "peak_time": "16:19",
+  "peak_mw_affected": 267,
+  "peak_time": "17:01",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 755,
-    "2": 0,
-    "3": 547,
-    "4": 678,
-    "5": 1113,
-    "6": 558
+    "1": 765,
+    "2": 458,
+    "3": 623,
+    "4": 705,
+    "5": 1068,
+    "6": 585
   },
-  "total_block_outage_minutes": 3651,
+  "total_block_outage_minutes": 4204,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,16 +23,19 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Cotorro": 1
+    "Guanabacoa": 1,
+    "San Miguel Del Padrón": 1,
+    "Arroyo Naranjo": 1,
+    "Boyeros": 1,
+    "Plaza": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 8,
+  "averias_total": 5,
+  "source_msg_count": 11,
   "by_type_counts": {
-    "averias": 1,
     "inicio_afectacion": 2,
-    "restablecimiento_gradual": 1,
-    "actualizacion_bloques": 2,
-    "otro": 1,
-    "daf": 1
+    "averias": 5,
+    "daf": 1,
+    "actualizacion_bloques": 1,
+    "restablecimiento": 2
   }
 }
