@@ -1,63 +1,53 @@
 {
-  "generated_at": "2026-06-06T09:33:33+00:00",
+  "generated_at": "2026-06-06T11:09:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-06T09:06:56+00:00",
+    "as_of": "2026-06-06T10:52:31+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-06T09:23:58+00:00",
+        "hours_off_today": 0.8666666666666667
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-06-05T20:41:56+00:00",
-        "hours_off_today": 12.416666666666666
+        "since": "2026-06-05T20:50:58+00:00",
+        "hours_off_today": 13.416666666666666
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-06-05T17:41:56+00:00",
-        "hours_off_today": 15.416666666666666
+        "since": "2026-06-05T17:50:58+00:00",
+        "hours_off_today": 16.416666666666668
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-06T10:22:43+00:00"
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-06T07:29:56+00:00",
-        "hours_off_today": 1.6166666666666667
+        "since": "2026-06-06T07:50:58+00:00",
+        "hours_off_today": 2.4166666666666665
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-06-05T18:21:56+00:00",
-        "hours_off_today": 14.75
+        "since": "2026-06-05T18:30:58+00:00",
+        "hours_off_today": 15.75
       }
     ],
-    "current_mw_affected": 237,
-    "current_mw_affected_at": "2026-06-06T09:06:56+00:00",
+    "current_mw_affected": 256,
+    "current_mw_affected_at": "2026-06-06T10:15:58+00:00",
     "active_averias": {
-      "ts": "2026-06-06T07:50:45+00:00",
-      "averias": [
-        {
-          "municipio": "Guanabacoa",
-          "direccion": "1ra, 4ta y 6ta afectando Chivás, Vía Blanca desde San Luis hasta Circunvalación",
-          "severity": "primaria"
-        }
-      ]
+      "ts": "2026-06-06T10:52:31+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-06-06T07:50:45+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "1ra, 4ta y 6ta afectando Chivás, Vía Blanca desde San Luis hasta Circunvalación",
-        "severity": "primaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -267,19 +257,19 @@
   "day": {
     "date": "2026-06-06",
     "finalized": false,
-    "peak_mw_affected": 247,
-    "peak_time": "04:27",
+    "peak_mw_affected": 256,
+    "peak_time": "06:15",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 745,
-      "3": 925,
-      "4": 0,
-      "5": 1197,
-      "6": 885
+      "1": 1088,
+      "2": 805,
+      "3": 985,
+      "4": 1057,
+      "5": 1209,
+      "6": 945
     },
-    "total_block_outage_minutes": 3752,
+    "total_block_outage_minutes": 6089,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -288,14 +278,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Guanabacoa": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "averias": 1,
-      "actualizacion_bloques": 2
+      "inicio_afectacion": 2,
+      "actualizacion_bloques": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -338,57 +327,22 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 318.0,
+    "avg_peak_mw": 319.3,
     "max_peak_mw": 457,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 3882,
-      "2": 2959,
-      "3": 2522,
-      "4": 2587,
-      "5": 4723,
-      "6": 5038
+      "1": 4970,
+      "2": 3019,
+      "3": 2582,
+      "4": 3644,
+      "5": 4735,
+      "6": 5098
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 3,
-      "Guanabacoa": 3,
+      "Guanabacoa": 2,
       "Marianao": 1,
-      "Boyeros": 1,
-      "Arroyo Naranjo": 1,
-      "Cerro": 1,
-      "San Miguel Del Padrón": 1,
-      "Plaza": 1
-    },
-    "averias_total": 12,
-    "daf_total": 3,
-    "sen_collapse_total": 0,
-    "sen_outage_days": 0,
-    "sen_outage_minutes_total": 0,
-    "partial_sen_collapse_total": 0,
-    "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {},
-    "window": "7d"
-  },
-  "month": {
-    "month": "2026-06",
-    "finalized": false,
-    "dailies_count": 6,
-    "avg_peak_mw": 330.3,
-    "max_peak_mw": 457,
-    "total_interruption_minutes": 0,
-    "total_block_outage_minutes": {
-      "1": 3363,
-      "2": 2510,
-      "3": 2522,
-      "4": 2587,
-      "5": 4723,
-      "6": 4419
-    },
-    "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Lisa": 3,
-      "Guanabacoa": 3,
       "Boyeros": 1,
       "Arroyo Naranjo": 1,
       "Cerro": 1,
@@ -402,6 +356,41 @@
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
+    "cte_offline_minutes_total": {},
+    "window": "7d"
+  },
+  "month": {
+    "month": "2026-06",
+    "finalized": false,
+    "dailies_count": 6,
+    "avg_peak_mw": 331.8,
+    "max_peak_mw": 457,
+    "total_interruption_minutes": 0,
+    "total_block_outage_minutes": {
+      "1": 4451,
+      "2": 2570,
+      "3": 2582,
+      "4": 3644,
+      "5": 4735,
+      "6": 4479
+    },
+    "total_emergency_mw_sum": 0,
+    "averias_count_by_municipio": {
+      "Lisa": 3,
+      "Guanabacoa": 2,
+      "Boyeros": 1,
+      "Arroyo Naranjo": 1,
+      "Cerro": 1,
+      "San Miguel Del Padrón": 1,
+      "Plaza": 1
+    },
+    "averias_total": 10,
+    "daf_total": 3,
+    "sen_collapse_total": 0,
+    "sen_outage_days": 0,
+    "sen_outage_minutes_total": 0,
+    "partial_sen_collapse_total": 0,
+    "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {}
   },
   "all_time": {
@@ -409,21 +398,21 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 68717,
-      "2": 72744,
-      "3": 58989,
-      "4": 64947,
-      "5": 64784,
-      "6": 67684
+      "1": 69805,
+      "2": 72804,
+      "3": 59049,
+      "4": 66004,
+      "5": 64796,
+      "6": 67744
     },
-    "averias_total": 3208,
+    "averias_total": 3207,
     "averias_top_municipios": {
       "Boyeros": 334,
       "Playa": 281,
       "Arroyo Naranjo": 253,
       "Lisa": 231,
       "Habana Del Este": 220,
-      "Guanabacoa": 214,
+      "Guanabacoa": 213,
       "Cerro": 183,
       "San Miguel Del Padrón": 181,
       "Plaza": 180,
@@ -570,7 +559,7 @@
       },
       {
         "date": "2026-06-06",
-        "peak_mw": 247
+        "peak_mw": 256
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -692,7 +681,7 @@
       },
       {
         "date": "2026-06-06",
-        "minutes": 3752
+        "minutes": 6089
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1414,7 +1403,7 @@
       },
       {
         "date": "2026-06-06",
-        "peak_mw": 247
+        "peak_mw": 256
       }
     ],
     "monthly_max_peak_mw": [
@@ -1794,7 +1783,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 20124
+        "minutes": 22461
       }
     ],
     "sen_outage_days_total": 7,
