@@ -2,16 +2,16 @@
   "month": "2026-06",
   "finalized": false,
   "dailies_count": 7,
-  "avg_peak_mw": 337.7,
+  "avg_peak_mw": 341.9,
   "max_peak_mw": 457,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 5838,
-    "2": 3964,
-    "3": 3827,
-    "4": 5077,
-    "5": 6061,
-    "6": 5786
+    "1": 5607,
+    "2": 3620,
+    "3": 3504,
+    "4": 3637,
+    "5": 6041,
+    "6": 5495
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
@@ -25,7 +25,7 @@
     "Habana Del Este": 1
   },
   "averias_total": 11,
-  "daf_total": 7,
+  "daf_total": 4,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
