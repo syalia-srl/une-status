@@ -2,16 +2,16 @@
   "month": "2026-06",
   "finalized": false,
   "dailies_count": 7,
-  "avg_peak_mw": 334.3,
+  "avg_peak_mw": 330.1,
   "max_peak_mw": 457,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 5614,
-    "2": 3999,
+    "1": 5607,
+    "2": 4059,
     "3": 2387,
-    "4": 4473,
-    "5": 6055,
-    "6": 5117
+    "4": 4466,
+    "5": 6048,
+    "6": 5110
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
@@ -22,9 +22,11 @@
     "Cerro": 1,
     "San Miguel Del Padrón": 1,
     "Plaza": 1,
-    "Habana Del Este": 1
+    "Habana Del Este": 1,
+    "Marianao": 1,
+    "Cotorro": 1
   },
-  "averias_total": 11,
+  "averias_total": 13,
   "daf_total": 6,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
