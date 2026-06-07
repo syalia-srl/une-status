@@ -7,8 +7,8 @@
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
     "1": 5607,
-    "2": 4059,
-    "3": 2387,
+    "2": 2524,
+    "3": 2966,
     "4": 4466,
     "5": 6048,
     "6": 5110
@@ -16,15 +16,14 @@
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
     "Lisa": 3,
+    "Cerro": 2,
     "Guanabacoa": 2,
     "Boyeros": 1,
     "Arroyo Naranjo": 1,
-    "Cerro": 1,
     "San Miguel Del Padrón": 1,
     "Plaza": 1,
     "Habana Del Este": 1,
-    "Marianao": 1,
-    "Cotorro": 1
+    "Playa": 1
   },
   "averias_total": 13,
   "daf_total": 6,
