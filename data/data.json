@@ -1,57 +1,54 @@
 {
-  "generated_at": "2026-06-07T22:43:05+00:00",
+  "generated_at": "2026-06-07T23:44:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-07T22:42:52+00:00",
+    "as_of": "2026-06-07T23:36:09+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-06-07T08:02:04+00:00",
-        "hours_off_today": 14.583333333333334
+        "since": "2026-06-07T08:01:09+00:00",
+        "hours_off_today": 15.583333333333334
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-06-07T20:07:04+00:00",
-        "hours_off_today": 2.5
+        "since": "2026-06-07T20:06:09+00:00",
+        "hours_off_today": 3.5
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-06-07T18:22:04+00:00",
-        "hours_off_today": 4.25
+        "since": "2026-06-07T18:21:09+00:00",
+        "hours_off_today": 5.25
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-06-07T14:17:04+00:00",
-        "hours_off_today": 8.333333333333334
+        "since": "2026-06-07T14:16:09+00:00",
+        "hours_off_today": 9.333333333333334
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-07T05:17:04+00:00",
-        "hours_off_today": 17.333333333333332
+        "since": "2026-06-07T05:16:09+00:00",
+        "hours_off_today": 18.333333333333332
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-06-07T15:17:04+00:00",
-        "hours_off_today": 7.333333333333333
+        "since": "2026-06-07T15:16:09+00:00",
+        "hours_off_today": 8.333333333333334
       }
     ],
     "current_mw_affected": 333,
-    "current_mw_affected_at": "2026-06-07T22:37:04+00:00",
-    "active_averias": {
-      "ts": "2026-06-07T22:19:51+00:00",
-      "averias": []
-    },
+    "current_mw_affected_at": "2026-06-07T23:36:09+00:00",
+    "active_averias": null,
     "averias_24h": [],
     "last_daf": {
-      "ts": "2026-06-07T22:42:52+00:00",
-      "type": "daf"
+      "ts": "2026-06-07T22:50:23+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -262,7 +259,7 @@
     "date": "2026-06-07",
     "finalized": false,
     "peak_mw_affected": 333,
-    "peak_time": "18:37",
+    "peak_time": "19:36",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -274,7 +271,7 @@
       "6": 763
     },
     "total_block_outage_minutes": 5198,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -286,10 +283,11 @@
     "averias_total": 0,
     "source_msg_count": 5,
     "by_type_counts": {
-      "actualizacion_bloques": 2,
-      "averias": 1,
+      "restablecimiento_daf": 1,
+      "disparo_circuito": 1,
       "restablecimiento": 1,
-      "daf": 1
+      "otro": 1,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -356,7 +354,7 @@
       "Habana Del Este": 1
     },
     "averias_total": 11,
-    "daf_total": 5,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -392,7 +390,7 @@
       "Habana Del Este": 1
     },
     "averias_total": 11,
-    "daf_total": 5,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -430,7 +428,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2344,
+    "daf_total": 2343,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1797,8 +1795,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2344,
-    "daf_last_30d": 144,
+    "daf_total": 2343,
+    "daf_last_30d": 143,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
