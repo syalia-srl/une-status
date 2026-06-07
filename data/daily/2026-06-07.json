@@ -1,20 +1,20 @@
 {
   "date": "2026-06-07",
   "finalized": false,
-  "peak_mw_affected": 228,
-  "peak_time": "15:46",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1208,
-    "2": 479,
-    "3": 578,
-    "4": 833,
-    "5": 1313,
-    "6": 768
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 5179,
-  "daf_count": 3,
+  "total_block_outage_minutes": 0,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,19 +23,17 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 2,
-    "Cerro": 1
+    "Boyeros": 3,
+    "Guanabacoa": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 14,
+  "averias_total": 4,
+  "source_msg_count": 8,
   "by_type_counts": {
-    "disparo_circuito": 3,
-    "otro": 1,
-    "restablecimiento_daf": 3,
-    "daf": 3,
     "averias": 1,
-    "actualizacion_bloques": 1,
-    "inicio_afectacion": 1,
-    "corto": 1
+    "otro": 1,
+    "restablecimiento": 1,
+    "daf": 1,
+    "restablecimiento_daf": 1,
+    "disparo_circuito": 3
   }
 }
