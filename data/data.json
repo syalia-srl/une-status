@@ -1,73 +1,57 @@
 {
-  "generated_at": "2026-06-07T21:34:16+00:00",
+  "generated_at": "2026-06-07T22:43:05+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-07T21:33:39+00:00",
+    "as_of": "2026-06-07T22:42:52+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-07T08:02:04+00:00",
+        "hours_off_today": 14.583333333333334
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-07T20:07:04+00:00",
+        "hours_off_today": 2.5
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-07T18:22:04+00:00",
+        "hours_off_today": 4.25
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-07T14:17:04+00:00",
+        "hours_off_today": 8.333333333333334
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-07T05:17:04+00:00",
+        "hours_off_today": 17.333333333333332
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-07T15:17:04+00:00",
+        "hours_off_today": 7.333333333333333
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 333,
+    "current_mw_affected_at": "2026-06-07T22:37:04+00:00",
     "active_averias": {
-      "ts": "2026-06-07T20:38:50+00:00",
-      "averias": [
-        {
-          "municipio": "Guanabacoa",
-          "direccion": "Carretera del 1er Anillo y Peñalver, Repollo 🚨",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-06-07T22:19:51+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-06-07T21:33:39+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-07T21:27:35+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-07T21:22:33+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-07T20:38:50+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "Carretera del 1er Anillo y Peñalver, Repollo 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": {
-      "ts": "2026-06-07T21:18:41+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-06-07T22:42:52+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -277,19 +261,19 @@
   "day": {
     "date": "2026-06-07",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 333,
+    "peak_time": "18:37",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 1198,
+      "2": 473,
+      "3": 578,
+      "4": 823,
+      "5": 1363,
+      "6": 763
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 5198,
     "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -298,19 +282,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 3,
-      "Guanabacoa": 1
-    },
-    "averias_total": 4,
-    "source_msg_count": 8,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 5,
     "by_type_counts": {
+      "actualizacion_bloques": 2,
       "averias": 1,
-      "otro": 1,
       "restablecimiento": 1,
-      "daf": 1,
-      "restablecimiento_daf": 1,
-      "disparo_circuito": 3
+      "daf": 1
     }
   },
   "yesterday": {
@@ -354,29 +333,29 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 345.7,
+    "avg_peak_mw": 343.9,
     "max_peak_mw": 457,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 4398,
-      "2": 2524,
-      "3": 2387,
-      "4": 3637,
-      "5": 4739,
-      "6": 4346
+      "1": 5596,
+      "2": 2997,
+      "3": 2965,
+      "4": 4460,
+      "5": 6102,
+      "6": 5109
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
       "Lisa": 3,
-      "Guanabacoa": 3,
+      "Guanabacoa": 2,
+      "Boyeros": 1,
       "Arroyo Naranjo": 1,
       "Cerro": 1,
       "San Miguel Del Padrón": 1,
       "Plaza": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 15,
+    "averias_total": 11,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -390,29 +369,29 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 345.7,
+    "avg_peak_mw": 343.9,
     "max_peak_mw": 457,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 4398,
-      "2": 2524,
-      "3": 2387,
-      "4": 3637,
-      "5": 4739,
-      "6": 4346
+      "1": 5596,
+      "2": 2997,
+      "3": 2965,
+      "4": 4460,
+      "5": 6102,
+      "6": 5109
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
       "Lisa": 3,
-      "Guanabacoa": 3,
+      "Guanabacoa": 2,
+      "Boyeros": 1,
       "Arroyo Naranjo": 1,
       "Cerro": 1,
       "San Miguel Del Padrón": 1,
       "Plaza": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 15,
+    "averias_total": 11,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -426,21 +405,21 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 69752,
-      "2": 72758,
-      "3": 58854,
-      "4": 65997,
-      "5": 64800,
-      "6": 67611
+      "1": 70950,
+      "2": 73231,
+      "3": 59432,
+      "4": 66820,
+      "5": 66163,
+      "6": 68374
     },
-    "averias_total": 3212,
+    "averias_total": 3208,
     "averias_top_municipios": {
-      "Boyeros": 337,
+      "Boyeros": 334,
       "Playa": 281,
       "Arroyo Naranjo": 253,
       "Lisa": 231,
       "Habana Del Este": 221,
-      "Guanabacoa": 214,
+      "Guanabacoa": 213,
       "Cerro": 183,
       "San Miguel Del Padrón": 181,
       "Plaza": 180,
@@ -587,7 +566,7 @@
       },
       {
         "date": "2026-06-07",
-        "peak_mw": null
+        "peak_mw": 333
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -709,7 +688,7 @@
       },
       {
         "date": "2026-06-07",
-        "minutes": 0
+        "minutes": 5198
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1431,7 +1410,7 @@
       },
       {
         "date": "2026-06-07",
-        "peak_mw": null
+        "peak_mw": 333
       }
     ],
     "monthly_max_peak_mw": [
@@ -1811,7 +1790,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 22031
+        "minutes": 27229
       }
     ],
     "sen_outage_days_total": 7,
