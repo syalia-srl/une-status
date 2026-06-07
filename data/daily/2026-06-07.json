@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-07",
+  "finalized": false,
+  "peak_mw_affected": 290,
+  "peak_time": "00:11",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 1440,
+    "2": 1440,
+    "3": 1440,
+    "4": 1440,
+    "5": 1322,
+    "6": 1440
+  },
+  "total_block_outage_minutes": 8522,
+  "daf_count": 3,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "partial_sen_collapse_count": 0,
+  "partial_sen_reconnect_count": 0,
+  "partial_sen_outage_minutes": 0,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 12,
+  "by_type_counts": {
+    "restablecimiento": 3,
+    "actualizacion_bloques": 2,
+    "disparo_circuito": 1,
+    "daf": 3,
+    "mantenimiento": 1,
+    "inicio_afectacion": 1,
+    "restablecimiento_daf": 1
+  }
+}
