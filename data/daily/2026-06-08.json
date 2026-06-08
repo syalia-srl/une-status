@@ -1,20 +1,20 @@
 {
   "date": "2026-06-08",
   "finalized": false,
-  "peak_mw_affected": 270,
-  "peak_time": "00:45",
-  "interruption_minutes": null,
-  "emergency_mw": null,
+  "peak_mw_affected": 372,
+  "peak_time": "22:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": 115,
   "block_outage_minutes": {
-    "1": 160,
-    "2": 1440,
-    "3": 1440,
-    "4": 1440,
-    "5": 141,
-    "6": 1440
+    "1": 1048,
+    "2": 990,
+    "3": 1030,
+    "4": 0,
+    "5": 1129,
+    "6": 0
   },
-  "total_block_outage_minutes": 6061,
-  "daf_count": 1,
+  "total_block_outage_minutes": 4197,
+  "daf_count": 5,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,22 +22,16 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Arroyo Naranjo": 1,
-    "Regla": 1,
-    "Plaza": 1,
-    "Lisa": 1,
-    "Cerro": 1
-  },
-  "averias_total": 5,
-  "source_msg_count": 13,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 20,
   "by_type_counts": {
-    "restablecimiento_daf": 1,
-    "actualizacion_bloques": 2,
-    "daf": 1,
-    "averias": 4,
-    "disparo_circuito": 1,
-    "restablecimiento": 2,
-    "otro": 2
+    "daf": 5,
+    "restablecimiento_daf": 3,
+    "actualizacion_bloques": 4,
+    "averias": 2,
+    "inicio_afectacion": 2,
+    "restablecimiento": 3,
+    "nota_diaria": 1
   }
 }
