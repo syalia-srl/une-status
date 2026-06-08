@@ -1,20 +1,20 @@
 {
   "date": "2026-06-08",
   "finalized": false,
-  "peak_mw_affected": 113,
-  "peak_time": "11:41",
+  "peak_mw_affected": 149,
+  "peak_time": "13:43",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1053,
-    "2": 0,
-    "3": 0,
-    "4": 798,
-    "5": 1123,
-    "6": 754
+    "1": 1077,
+    "2": 601,
+    "3": 646,
+    "4": 795,
+    "5": 1125,
+    "6": 752
   },
-  "total_block_outage_minutes": 3728,
-  "daf_count": 2,
+  "total_block_outage_minutes": 4996,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,20 +22,16 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 17,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 1,
+    "Lisa": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 7,
   "by_type_counts": {
     "averias": 2,
-    "pronostico": 1,
-    "via_libre": 1,
-    "restablecimiento": 1,
-    "daf": 2,
-    "actualizacion_bloques": 3,
-    "restablecimiento_daf": 1,
-    "transicion_bloques": 1,
-    "corto": 1,
-    "inicio_afectacion": 1,
-    "disparo_circuito": 3
+    "actualizacion_bloques": 2,
+    "inicio_afectacion": 2,
+    "restablecimiento": 1
   }
 }
