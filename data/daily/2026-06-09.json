@@ -1,20 +1,20 @@
 {
   "date": "2026-06-09",
   "finalized": false,
-  "peak_mw_affected": 256,
-  "peak_time": "14:10",
+  "peak_mw_affected": 321,
+  "peak_time": "16:14",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1140,
-    "2": 602,
-    "3": 790,
-    "4": 1055,
-    "5": 1075,
-    "6": 840
+    "1": 1146,
+    "2": 606,
+    "3": 796,
+    "4": 1061,
+    "5": 1081,
+    "6": 846
   },
-  "total_block_outage_minutes": 5502,
-  "daf_count": 3,
+  "total_block_outage_minutes": 5536,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,17 +23,15 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "La Lisa": 2,
-    "Arroyo Naranjo": 2,
-    "San Miguel Del Padrón": 1
+    "Arroyo Naranjo": 2
   },
-  "averias_total": 5,
-  "source_msg_count": 12,
+  "averias_total": 2,
+  "source_msg_count": 9,
   "by_type_counts": {
-    "daf": 3,
-    "averias": 5,
+    "restablecimiento": 3,
+    "averias": 2,
     "actualizacion_bloques": 2,
-    "inicio_afectacion": 1,
-    "restablecimiento": 1
+    "otro": 1,
+    "daf": 1
   }
 }
