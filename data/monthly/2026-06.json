@@ -2,7 +2,7 @@
   "month": "2026-06",
   "finalized": false,
   "dailies_count": 9,
-  "avg_peak_mw": 352.1,
+  "avg_peak_mw": 357.6,
   "max_peak_mw": 457,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -17,10 +17,10 @@
   "averias_count_by_municipio": {
     "Lisa": 4,
     "Boyeros": 2,
+    "Arroyo Naranjo": 2,
     "Guanabacoa": 2,
-    "San Miguel Del Padrón": 2,
-    "Arroyo Naranjo": 1,
     "Cerro": 1,
+    "San Miguel Del Padrón": 1,
     "Plaza": 1,
     "Habana Del Este": 1
   },
