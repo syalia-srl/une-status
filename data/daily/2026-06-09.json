@@ -1,20 +1,20 @@
 {
   "date": "2026-06-09",
   "finalized": false,
-  "peak_mw_affected": 336,
-  "peak_time": "03:04",
-  "interruption_minutes": null,
-  "emergency_mw": null,
+  "peak_mw_affected": 380,
+  "peak_time": "23:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": 137,
   "block_outage_minutes": {
-    "1": 1127,
-    "2": 1010,
-    "3": 1115,
-    "4": 1210,
+    "1": 1123,
+    "2": 1130,
+    "3": 1235,
+    "4": 973,
     "5": 1067,
-    "6": 1167
+    "6": 0
   },
-  "total_block_outage_minutes": 6696,
-  "daf_count": 1,
+  "total_block_outage_minutes": 5528,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,16 +22,15 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Cerro": 1
-  },
-  "averias_total": 1,
-  "source_msg_count": 13,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 10,
   "by_type_counts": {
-    "actualizacion_bloques": 4,
-    "averias": 3,
+    "actualizacion_bloques": 2,
+    "averias": 1,
     "restablecimiento": 3,
-    "inicio_afectacion": 2,
-    "daf": 1
+    "inicio_afectacion": 1,
+    "nota_diaria": 2,
+    "pronostico": 1
   }
 }
