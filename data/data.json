@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-09T16:15:19+00:00",
+  "generated_at": "2026-06-09T18:27:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-09T16:14:50+00:00",
+    "as_of": "2026-06-09T18:11:23+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-06-09T08:54:50+00:00",
-        "hours_off_today": 7.333333333333333
+        "since": "2026-06-09T08:50:02+00:00",
+        "hours_off_today": 9.333333333333334
       },
       {
         "id": 2,
@@ -18,59 +18,72 @@
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-06-09T14:44:50+00:00",
-        "hours_off_today": 1.5
+        "since": "2026-06-09T14:40:02+00:00",
+        "hours_off_today": 3.5
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-06-09T10:19:50+00:00",
-        "hours_off_today": 5.916666666666667
+        "since": "2026-06-09T10:15:02+00:00",
+        "hours_off_today": 7.916666666666667
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-09T09:59:50+00:00",
-        "hours_off_today": 6.25
+        "since": "2026-06-09T09:55:02+00:00",
+        "hours_off_today": 8.25
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-06-09T13:54:50+00:00",
-        "hours_off_today": 2.3333333333333335
+        "since": "2026-06-09T13:50:02+00:00",
+        "hours_off_today": 4.333333333333333
       }
     ],
     "current_mw_affected": 256,
-    "current_mw_affected_at": "2026-06-09T16:14:50+00:00",
+    "current_mw_affected_at": "2026-06-09T18:10:02+00:00",
     "active_averias": {
-      "ts": "2026-06-09T15:59:07+00:00",
+      "ts": "2026-06-09T17:59:39+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "la subestación se encuentran afectados los repartos Villa María, Federal, Villa Hayde, Migloria, Villa Nomar, Altura de Villa María, Cambute, Presa Cacao"
+          "municipio": "Arroyo Naranjo",
+          "direccion": ": Finca Almendro, Avenida Las Flores",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-09T15:59:07+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la subestación se encuentran afectados los repartos Villa María, Federal, Villa Hayde, Migloria, Villa Nomar, Altura de Villa María, Cambute, Presa Cacao"
-      },
-      {
-        "ts": "2026-06-09T15:57:43+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "la subestación se encuentran afectados los repartos La Rosita, La Cumbre, Diezmero, Dolores, Tejas, Florida, Caridad"
-      },
-      {
-        "ts": "2026-06-09T15:14:35+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": ": 5ta / Calzada de San Miguel y A",
+        "ts": "2026-06-09T17:59:39+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": ": Finca Almendro, Avenida Las Flores",
         "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-09T17:31:59+00:00",
+        "municipio": "Arroyo Naranjo"
+      },
+      {
+        "ts": "2026-06-09T16:51:21+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": ": 5ta / Central y A",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-09T16:48:23+00:00",
+        "municipio": "La Lisa",
+        "direccion": ": 44 e / 273 y 275",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-09T16:46:26+00:00",
+        "municipio": "La Lisa",
+        "direccion": "266 / 23A y 23B, afectando el servicio en Calle 250 desde 51 hasta 23 en San Agustín",
+        "severity": "primaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-06-09T15:12:48+00:00",
+      "ts": "2026-06-09T17:49:10+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -281,20 +294,20 @@
   "day": {
     "date": "2026-06-09",
     "finalized": false,
-    "peak_mw_affected": 260,
-    "peak_time": "11:14",
+    "peak_mw_affected": 256,
+    "peak_time": "14:10",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 1113,
-      "2": 0,
-      "3": 822,
-      "4": 1028,
-      "5": 1048,
-      "6": 830
+      "1": 1140,
+      "2": 602,
+      "3": 790,
+      "4": 1055,
+      "5": 1075,
+      "6": 840
     },
-    "total_block_outage_minutes": 4841,
-    "daf_count": 1,
+    "total_block_outage_minutes": 5502,
+    "daf_count": 3,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -303,19 +316,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 2,
-      "Guanabacoa": 1
+      "La Lisa": 2,
+      "Arroyo Naranjo": 2,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 14,
+    "averias_total": 5,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "via_libre": 1,
-      "actualizacion_bloques": 4,
-      "corto": 1,
-      "otro": 2,
-      "inicio_afectacion": 2,
-      "daf": 1,
-      "averias": 3
+      "daf": 3,
+      "averias": 5,
+      "actualizacion_bloques": 2,
+      "inicio_afectacion": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -355,30 +367,31 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 318.9,
+    "avg_peak_mw": 318.3,
     "max_peak_mw": 376,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 6415,
-      "2": 2246,
-      "3": 3749,
-      "4": 5465,
-      "5": 6603,
-      "6": 4605
+      "1": 6442,
+      "2": 2848,
+      "3": 3717,
+      "4": 5492,
+      "5": 6630,
+      "6": 4615
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 3,
       "Lisa": 3,
-      "Guanabacoa": 3,
-      "San Miguel Del Padrón": 3,
-      "Arroyo Naranjo": 1,
+      "Guanabacoa": 2,
+      "San Miguel Del Padrón": 2,
+      "La Lisa": 2,
       "Cerro": 1,
       "Plaza": 1,
       "Habana Del Este": 1,
       "Boyeros": 1
     },
-    "averias_total": 14,
-    "daf_total": 6,
+    "averias_total": 16,
+    "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -391,30 +404,31 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 9,
-    "avg_peak_mw": 342.3,
+    "avg_peak_mw": 341.9,
     "max_peak_mw": 457,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 7719,
-      "2": 3575,
-      "3": 4470,
-      "4": 6266,
-      "5": 7618,
-      "6": 6674
+      "1": 7746,
+      "2": 4177,
+      "3": 4438,
+      "4": 6293,
+      "5": 7645,
+      "6": 6684
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 4,
-      "Guanabacoa": 3,
-      "San Miguel Del Padrón": 3,
+      "Arroyo Naranjo": 3,
       "Boyeros": 2,
-      "Arroyo Naranjo": 1,
+      "Guanabacoa": 2,
+      "San Miguel Del Padrón": 2,
+      "La Lisa": 2,
       "Cerro": 1,
       "Plaza": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 16,
-    "daf_total": 7,
+    "averias_total": 18,
+    "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -427,23 +441,23 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 73073,
-      "2": 73809,
-      "3": 60937,
-      "4": 68626,
-      "5": 67679,
-      "6": 69939
+      "1": 73100,
+      "2": 74411,
+      "3": 60905,
+      "4": 68653,
+      "5": 67706,
+      "6": 69949
     },
-    "averias_total": 3213,
+    "averias_total": 3215,
     "averias_top_municipios": {
       "Boyeros": 335,
       "Playa": 281,
-      "Arroyo Naranjo": 253,
+      "Arroyo Naranjo": 255,
       "Lisa": 232,
       "Habana Del Este": 221,
-      "Guanabacoa": 214,
+      "Guanabacoa": 213,
       "Cerro": 183,
-      "San Miguel Del Padrón": 183,
+      "San Miguel Del Padrón": 182,
       "Plaza": 180,
       "Marianao": 145,
       "Cotorro": 94,
@@ -452,7 +466,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2346,
+    "daf_total": 2348,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -588,7 +602,7 @@
       },
       {
         "date": "2026-06-09",
-        "peak_mw": 260
+        "peak_mw": 256
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -710,7 +724,7 @@
       },
       {
         "date": "2026-06-09",
-        "minutes": 4841
+        "minutes": 5502
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1432,7 +1446,7 @@
       },
       {
         "date": "2026-06-09",
-        "peak_mw": 260
+        "peak_mw": 256
       }
     ],
     "monthly_max_peak_mw": [
@@ -1812,15 +1826,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 36322
+        "minutes": 36983
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2346,
-    "daf_last_30d": 121,
+    "daf_total": 2348,
+    "daf_last_30d": 123,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

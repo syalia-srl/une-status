@@ -1,20 +1,20 @@
 {
   "date": "2026-06-09",
   "finalized": false,
-  "peak_mw_affected": 260,
-  "peak_time": "11:14",
+  "peak_mw_affected": 256,
+  "peak_time": "14:10",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1113,
-    "2": 0,
-    "3": 822,
-    "4": 1028,
-    "5": 1048,
-    "6": 830
+    "1": 1140,
+    "2": 602,
+    "3": 790,
+    "4": 1055,
+    "5": 1075,
+    "6": 840
   },
-  "total_block_outage_minutes": 4841,
-  "daf_count": 1,
+  "total_block_outage_minutes": 5502,
+  "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,17 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "San Miguel Del Padrón": 2,
-    "Guanabacoa": 1
+    "La Lisa": 2,
+    "Arroyo Naranjo": 2,
+    "San Miguel Del Padrón": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 14,
+  "averias_total": 5,
+  "source_msg_count": 12,
   "by_type_counts": {
-    "via_libre": 1,
-    "actualizacion_bloques": 4,
-    "corto": 1,
-    "otro": 2,
-    "inicio_afectacion": 2,
-    "daf": 1,
-    "averias": 3
+    "daf": 3,
+    "averias": 5,
+    "actualizacion_bloques": 2,
+    "inicio_afectacion": 1,
+    "restablecimiento": 1
   }
 }
