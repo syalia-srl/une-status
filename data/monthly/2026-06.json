@@ -6,25 +6,25 @@
   "max_peak_mw": 457,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 6606,
-    "2": 5015,
-    "3": 5088,
-    "4": 6678,
-    "5": 6678,
-    "6": 7284
+    "1": 7733,
+    "2": 4585,
+    "3": 4763,
+    "4": 6448,
+    "5": 7637,
+    "6": 7011
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
     "Lisa": 4,
     "Boyeros": 2,
+    "Cerro": 2,
     "Guanabacoa": 2,
     "Arroyo Naranjo": 1,
-    "Cerro": 1,
     "San Miguel Del Padrón": 1,
     "Plaza": 1,
     "Habana Del Este": 1
   },
-  "averias_total": 13,
+  "averias_total": 14,
   "daf_total": 7,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
