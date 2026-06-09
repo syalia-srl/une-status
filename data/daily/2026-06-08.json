@@ -1,20 +1,20 @@
 {
   "date": "2026-06-08",
   "finalized": false,
-  "peak_mw_affected": 341,
-  "peak_time": "18:58",
+  "peak_mw_affected": 300,
+  "peak_time": "21:36",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1063,
-    "2": 581,
-    "3": 686,
-    "4": 781,
-    "5": 471,
-    "6": 738
+    "1": 1077,
+    "2": 595,
+    "3": 700,
+    "4": 795,
+    "5": 485,
+    "6": 752
   },
-  "total_block_outage_minutes": 4320,
-  "daf_count": 1,
+  "total_block_outage_minutes": 4404,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,15 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Cerro": 1,
-    "Guanabacoa": 1
+    "Cotorro": 1
   },
-  "averias_total": 2,
-  "source_msg_count": 13,
+  "averias_total": 1,
+  "source_msg_count": 15,
   "by_type_counts": {
-    "actualizacion_bloques": 1,
-    "daf": 1,
-    "restablecimiento": 3,
-    "restablecimiento_daf": 1,
-    "otro": 3,
-    "disparo_circuito": 1,
-    "averias": 3
+    "nota_diaria": 1,
+    "restablecimiento": 9,
+    "actualizacion_bloques": 2,
+    "averias": 2,
+    "mantenimiento": 1
   }
 }
