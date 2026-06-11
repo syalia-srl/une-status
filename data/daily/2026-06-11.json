@@ -1,20 +1,20 @@
 {
   "date": "2026-06-11",
   "finalized": false,
-  "peak_mw_affected": 211,
-  "peak_time": "03:15",
-  "interruption_minutes": null,
-  "emergency_mw": null,
+  "peak_mw_affected": 430,
+  "peak_time": "19:30",
+  "interruption_minutes": 1440,
+  "emergency_mw": 215,
   "block_outage_minutes": {
-    "1": 1088,
-    "2": 1166,
-    "3": 739,
-    "4": 0,
-    "5": 1050,
-    "6": 0
+    "1": 1077,
+    "2": 1156,
+    "3": 0,
+    "4": 872,
+    "5": 1041,
+    "6": 865
   },
-  "total_block_outage_minutes": 4043,
-  "daf_count": 1,
+  "total_block_outage_minutes": 5011,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,19 +23,24 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Playa": 1,
-    "Marianao": 1,
+    "Boyeros": 2,
+    "Lisa": 1,
+    "Arroyo Naranjo": 1,
+    "San Miguel Del Padrón": 1,
+    "Habana Del Este": 1,
     "Cerro": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 15,
+  "averias_total": 7,
+  "source_msg_count": 20,
   "by_type_counts": {
-    "averias": 4,
-    "restablecimiento": 3,
-    "actualizacion_bloques": 3,
-    "transicion_bloques": 1,
-    "inicio_afectacion": 2,
-    "otro": 1,
-    "daf": 1
+    "corto": 3,
+    "restablecimiento": 2,
+    "nota_diaria": 1,
+    "actualizacion_bloques": 2,
+    "averias": 7,
+    "mantenimiento": 1,
+    "disparo_circuito": 2,
+    "inicio_afectacion": 1,
+    "transicion_bloques": 1
   }
 }
