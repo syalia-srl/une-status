@@ -1,19 +1,19 @@
 {
   "date": "2026-06-11",
   "finalized": false,
-  "peak_mw_affected": 364,
-  "peak_time": "00:25",
+  "peak_mw_affected": 211,
+  "peak_time": "03:15",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 492,
-    "4": 610,
-    "5": 0,
-    "6": 582
+    "1": 1088,
+    "2": 1166,
+    "3": 739,
+    "4": 0,
+    "5": 1050,
+    "6": 0
   },
-  "total_block_outage_minutes": 1684,
+  "total_block_outage_minutes": 4043,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -22,13 +22,20 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 13,
+  "averias_count_by_municipio": {
+    "Playa": 1,
+    "Marianao": 1,
+    "Cerro": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 15,
   "by_type_counts": {
-    "restablecimiento": 8,
+    "averias": 4,
+    "restablecimiento": 3,
     "actualizacion_bloques": 3,
-    "daf": 1,
-    "restablecimiento_daf": 1
+    "transicion_bloques": 1,
+    "inicio_afectacion": 2,
+    "otro": 1,
+    "daf": 1
   }
 }
