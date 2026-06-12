@@ -1,20 +1,20 @@
 {
   "date": "2026-06-12",
   "finalized": false,
-  "peak_mw_affected": 316,
-  "peak_time": "00:41",
-  "interruption_minutes": null,
-  "emergency_mw": null,
+  "peak_mw_affected": 395,
+  "peak_time": "20:00",
+  "interruption_minutes": 1440,
+  "emergency_mw": 100,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 535,
-    "3": 745,
-    "4": 1055,
-    "5": 0,
-    "6": 1045
+    "1": 1142,
+    "2": 790,
+    "3": 0,
+    "4": 1066,
+    "5": 1098,
+    "6": 0
   },
-  "total_block_outage_minutes": 3380,
-  "daf_count": 1,
+  "total_block_outage_minutes": 4096,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,19 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Marianao": 2,
-    "San Miguel Del Padrón": 2,
-    "Playa": 2
+    "Boyeros": 1
   },
-  "averias_total": 6,
-  "source_msg_count": 15,
+  "averias_total": 1,
+  "source_msg_count": 16,
   "by_type_counts": {
-    "averias": 6,
-    "daf": 1,
+    "restablecimiento_gradual": 2,
+    "inicio_afectacion": 3,
+    "restablecimiento": 3,
     "actualizacion_bloques": 2,
-    "restablecimiento_daf": 1,
-    "disparo_circuito": 3,
-    "restablecimiento_gradual": 2
+    "averias": 2,
+    "disparo_circuito": 1,
+    "nota_diaria": 1,
+    "corto": 1,
+    "otro": 1
   }
 }
