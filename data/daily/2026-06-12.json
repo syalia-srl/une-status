@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-12",
+  "finalized": false,
+  "peak_mw_affected": 316,
+  "peak_time": "00:41",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 0,
+    "2": 535,
+    "3": 745,
+    "4": 1055,
+    "5": 0,
+    "6": 1045
+  },
+  "total_block_outage_minutes": 3380,
+  "daf_count": 1,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "partial_sen_collapse_count": 0,
+  "partial_sen_reconnect_count": 0,
+  "partial_sen_outage_minutes": 0,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Marianao": 2,
+    "San Miguel Del Padrón": 2,
+    "Playa": 2
+  },
+  "averias_total": 6,
+  "source_msg_count": 15,
+  "by_type_counts": {
+    "averias": 6,
+    "daf": 1,
+    "actualizacion_bloques": 2,
+    "restablecimiento_daf": 1,
+    "disparo_circuito": 3,
+    "restablecimiento_gradual": 2
+  }
+}
