@@ -1,19 +1,19 @@
 {
   "date": "2026-06-12",
   "finalized": false,
-  "peak_mw_affected": 178,
-  "peak_time": "16:36",
+  "peak_mw_affected": 218,
+  "peak_time": "17:35",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 475,
-    "2": 503,
+    "1": 474,
+    "2": 504,
     "3": 0,
-    "4": 447,
-    "5": 466,
-    "6": 420
+    "4": 449,
+    "5": 464,
+    "6": 419
   },
-  "total_block_outage_minutes": 2311,
+  "total_block_outage_minutes": 2310,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,19 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Plaza": 2,
-    "Boyeros": 1,
-    "Guanabacoa": 1,
-    "Cerro": 1
+    "Regla": 1
   },
-  "averias_total": 5,
-  "source_msg_count": 19,
+  "averias_total": 1,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "via_libre": 1,
-    "inicio_afectacion": 5,
-    "restablecimiento": 5,
-    "averias": 5,
+    "averias": 2,
     "actualizacion_bloques": 2,
-    "mantenimiento": 1
+    "disparo_circuito": 1
   }
 }
