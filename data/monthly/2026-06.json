@@ -2,16 +2,16 @@
   "month": "2026-06",
   "finalized": false,
   "dailies_count": 13,
-  "avg_peak_mw": 324.5,
+  "avg_peak_mw": 327.1,
   "max_peak_mw": 457,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 9028,
-    "2": 5557,
-    "3": 4532,
+    "1": 9025,
+    "2": 5559,
+    "3": 5597,
     "4": 6747,
-    "5": 8114,
-    "6": 7108
+    "5": 9271,
+    "6": 8200
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
@@ -27,7 +27,7 @@
     "Centro Habana": 1
   },
   "averias_total": 17,
-  "daf_total": 8,
+  "daf_total": 10,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
