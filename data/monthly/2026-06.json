@@ -8,8 +8,8 @@
   "total_block_outage_minutes": {
     "1": 7751,
     "2": 4180,
-    "3": 5588,
-    "4": 6747,
+    "3": 4532,
+    "4": 7495,
     "5": 8114,
     "6": 7108
   },
@@ -27,7 +27,7 @@
     "Centro Habana": 1
   },
   "averias_total": 17,
-  "daf_total": 9,
+  "daf_total": 8,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
