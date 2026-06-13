@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-13T10:42:22+00:00",
+  "generated_at": "2026-06-13T12:14:03+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-13T10:24:38+00:00",
+    "as_of": "2026-06-13T12:13:06+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-06-13T06:45:01+00:00",
-        "hours_off_today": 3.25
+        "since": "2026-06-13T06:48:15+00:00",
+        "hours_off_today": 5.25
       },
       {
         "id": 2,
@@ -18,8 +18,8 @@
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-06-13T10:14:28+00:00",
-        "emergency": true
+        "since": "2026-06-13T10:18:15+00:00",
+        "hours_off_today": 1.75
       },
       {
         "id": 4,
@@ -28,28 +28,38 @@
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-13T08:40:01+00:00",
-        "hours_off_today": 1.3333333333333333
+        "since": "2026-06-13T08:43:15+00:00",
+        "hours_off_today": 3.3333333333333335
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-06-13T09:50:01+00:00",
-        "hours_off_today": 0.16666666666666666
+        "since": "2026-06-13T09:53:15+00:00",
+        "hours_off_today": 2.1666666666666665
       }
     ],
-    "current_mw_affected": 130,
-    "current_mw_affected_at": "2026-06-13T10:00:01+00:00",
+    "current_mw_affected": 177,
+    "current_mw_affected_at": "2026-06-13T12:03:15+00:00",
     "active_averias": {
-      "ts": "2026-06-13T09:44:45+00:00",
-      "averias": []
+      "ts": "2026-06-13T12:05:35+00:00",
+      "averias": [
+        {
+          "municipio": "Marianao",
+          "direccion": "la siguiente dirección: 124/69 y 71"
+        }
+      ]
     },
-    "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-06-13T10:11:41+00:00",
-      "type": "daf"
+    "averias_24h": [
+      {
+        "ts": "2026-06-13T12:05:35+00:00",
+        "municipio": "Marianao",
+        "direccion": "la siguiente dirección: 124/69 y 71"
+      }
+    ],
+    "last_daf": null,
+    "last_pronostico": {
+      "ts": "2026-06-13T12:13:06+00:00"
     },
-    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -257,20 +267,20 @@
   "day": {
     "date": "2026-06-13",
     "finalized": false,
-    "peak_mw_affected": 148,
-    "peak_time": "05:00",
-    "interruption_minutes": null,
+    "peak_mw_affected": 223,
+    "peak_time": "19:00",
+    "interruption_minutes": 1404,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 1274,
-      "2": 1379,
+      "1": 1275,
+      "2": 0,
       "3": 1065,
       "4": 0,
-      "5": 1157,
-      "6": 1092
+      "5": 1160,
+      "6": 1090
     },
-    "total_block_outage_minutes": 5967,
-    "daf_count": 2,
+    "total_block_outage_minutes": 4590,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -278,16 +288,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 11,
+    "averias_count_by_municipio": {
+      "Marianao": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "daf": 2,
-      "inicio_afectacion": 3,
       "actualizacion_bloques": 2,
+      "restablecimiento": 1,
+      "nota_diaria": 1,
       "averias": 1,
-      "restablecimiento_gradual": 1,
-      "restablecimiento": 2
+      "pronostico": 1
     }
   },
   "yesterday": {
@@ -332,27 +343,27 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 304.8,
+    "avg_peak_mw": 319.8,
     "max_peak_mw": 440,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1404,
     "total_block_outage_minutes": {
-      "1": 4627,
-      "2": 3035,
+      "1": 4628,
+      "2": 1656,
       "3": 3210,
       "4": 3110,
-      "5": 4532,
-      "6": 3854
+      "5": 4535,
+      "6": 3852
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Marianao": 2,
       "Guanabacoa": 2,
       "Boyeros": 1,
       "Lisa": 1,
-      "Marianao": 1,
       "Centro Habana": 1
     },
-    "averias_total": 6,
-    "daf_total": 6,
+    "averias_total": 7,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -365,32 +376,32 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 327.1,
+    "avg_peak_mw": 333.9,
     "max_peak_mw": 457,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1404,
     "total_block_outage_minutes": {
-      "1": 9025,
-      "2": 5559,
+      "1": 9026,
+      "2": 4180,
       "3": 5597,
       "4": 6747,
-      "5": 9271,
-      "6": 8200
+      "5": 9274,
+      "6": 8198
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 4,
       "Guanabacoa": 4,
       "Boyeros": 2,
+      "Marianao": 2,
       "Arroyo Naranjo": 1,
       "Cerro": 1,
       "San Miguel Del Padrón": 1,
       "Plaza": 1,
       "Habana Del Este": 1,
-      "Marianao": 1,
       "Centro Habana": 1
     },
-    "averias_total": 17,
-    "daf_total": 10,
+    "averias_total": 18,
+    "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -401,16 +412,16 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61174,
     "total_block_outage_minutes": {
-      "1": 74379,
-      "2": 75793,
+      "1": 74380,
+      "2": 74414,
       "3": 62064,
       "4": 69107,
-      "5": 69332,
-      "6": 71465
+      "5": 69335,
+      "6": 71463
     },
-    "averias_total": 3214,
+    "averias_total": 3215,
     "averias_top_municipios": {
       "Boyeros": 335,
       "Playa": 281,
@@ -421,14 +432,14 @@
       "Cerro": 183,
       "San Miguel Del Padrón": 181,
       "Plaza": 180,
-      "Marianao": 146,
+      "Marianao": 147,
       "Cotorro": 94,
       "Centro Habana": 68,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2349,
+    "daf_total": 2347,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -564,7 +575,7 @@
       },
       {
         "date": "2026-06-13",
-        "peak_mw": 148
+        "peak_mw": 223
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -686,7 +697,7 @@
       },
       {
         "date": "2026-06-13",
-        "minutes": 5967
+        "minutes": 4590
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1408,7 +1419,7 @@
       },
       {
         "date": "2026-06-13",
-        "peak_mw": 148
+        "peak_mw": 223
       }
     ],
     "monthly_max_peak_mw": [
@@ -1788,15 +1799,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 44399
+        "minutes": 43022
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2349,
-    "daf_last_30d": 78,
+    "daf_total": 2347,
+    "daf_last_30d": 76,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
