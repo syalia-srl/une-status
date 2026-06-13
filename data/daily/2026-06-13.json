@@ -1,19 +1,19 @@
 {
   "date": "2026-06-13",
   "finalized": false,
-  "peak_mw_affected": 184,
-  "peak_time": "18:10",
+  "peak_mw_affected": 243,
+  "peak_time": "19:09",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 589,
-    "2": 554,
-    "3": 0,
+    "1": 590,
+    "2": 555,
+    "3": 322,
     "4": 0,
-    "5": 539,
-    "6": 391
+    "5": 540,
+    "6": 445
   },
-  "total_block_outage_minutes": 2073,
+  "total_block_outage_minutes": 2452,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,16 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Habana Del Este": 2,
-    "Plaza": 1
+    "Arroyo Naranjo": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 6,
+  "averias_total": 1,
+  "source_msg_count": 3,
   "by_type_counts": {
     "inicio_afectacion": 1,
-    "disparo_circuito": 1,
-    "averias": 2,
     "actualizacion_bloques": 1,
-    "otro": 1
+    "disparo_circuito": 1
   }
 }
