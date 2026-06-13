@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-13T21:16:47+00:00",
+  "generated_at": "2026-06-13T22:35:06+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-13T21:11:42+00:00",
+    "as_of": "2026-06-13T22:32:25+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-06-13T18:11:42+00:00",
-        "hours_off_today": 3.0
+        "since": "2026-06-13T18:10:42+00:00",
+        "hours_off_today": 4.0
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-06-13T18:46:42+00:00",
-        "hours_off_today": 2.4166666666666665
+        "since": "2026-06-13T18:45:42+00:00",
+        "hours_off_today": 3.4166666666666665
       },
       {
         "id": 3,
@@ -28,34 +28,42 @@
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-13T19:01:42+00:00",
-        "hours_off_today": 2.1666666666666665
+        "since": "2026-06-13T19:00:42+00:00",
+        "hours_off_today": 3.1666666666666665
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-13T20:35:42+00:00",
+        "hours_off_today": 1.5833333333333335
       }
     ],
-    "current_mw_affected": 137,
-    "current_mw_affected_at": "2026-06-13T21:11:42+00:00",
+    "current_mw_affected": 184,
+    "current_mw_affected_at": "2026-06-13T22:10:42+00:00",
     "active_averias": {
-      "ts": "2026-06-13T20:56:03+00:00",
+      "ts": "2026-06-13T21:53:52+00:00",
       "averias": [
         {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "la siguiente dirección: Carretera de Managua km 19,Finca Canta Rana"
+          "municipio": "Plaza",
+          "direccion": "la siguiente dirección:calle 23/G y H"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-13T20:56:03+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "la siguiente dirección: Carretera de Managua km 19,Finca Canta Rana"
+        "ts": "2026-06-13T21:53:52+00:00",
+        "municipio": "Plaza",
+        "direccion": "la siguiente dirección:calle 23/G y H"
       },
       {
-        "ts": "2026-06-13T20:36:26+00:00",
-        "municipio": "Boyeros"
+        "ts": "2026-06-13T21:51:19+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "la siguiente dirección: Zona 3 edificio A19,Alamar"
+      },
+      {
+        "ts": "2026-06-13T21:29:54+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -267,19 +275,19 @@
   "day": {
     "date": "2026-06-13",
     "finalized": false,
-    "peak_mw_affected": 137,
-    "peak_time": "16:15",
+    "peak_mw_affected": 184,
+    "peak_time": "18:10",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 584,
-      "2": 549,
+      "1": 589,
+      "2": 554,
       "3": 0,
       "4": 0,
-      "5": 534,
-      "6": 0
+      "5": 539,
+      "6": 391
     },
-    "total_block_outage_minutes": 1667,
+    "total_block_outage_minutes": 2073,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -289,18 +297,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Arroyo Naranjo": 1
+      "Habana Del Este": 2,
+      "Plaza": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 9,
+    "averias_total": 3,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "actualizacion_bloques": 2,
+      "inicio_afectacion": 1,
+      "disparo_circuito": 1,
       "averias": 2,
-      "otro": 1,
-      "mantenimiento": 2,
-      "disparo_circuito": 1
+      "actualizacion_bloques": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -345,27 +352,28 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 302.6,
+    "avg_peak_mw": 312.0,
     "max_peak_mw": 440,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 3937,
-      "2": 2205,
+      "1": 3942,
+      "2": 2210,
       "3": 2145,
       "4": 3110,
-      "5": 3909,
-      "6": 2762
+      "5": 3914,
+      "6": 3153
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 2,
       "Guanabacoa": 2,
+      "Habana Del Este": 2,
+      "Boyeros": 1,
       "Lisa": 1,
       "Marianao": 1,
       "Centro Habana": 1,
-      "Arroyo Naranjo": 1
+      "Plaza": 1
     },
-    "averias_total": 8,
+    "averias_total": 9,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,31 +387,31 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 326.1,
+    "avg_peak_mw": 330.4,
     "max_peak_mw": 457,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 8335,
-      "2": 4729,
+      "1": 8340,
+      "2": 4734,
       "3": 4532,
       "4": 6747,
-      "5": 8648,
-      "6": 7108
+      "5": 8653,
+      "6": 7499
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 4,
       "Guanabacoa": 4,
-      "Boyeros": 3,
-      "Arroyo Naranjo": 2,
+      "Habana Del Este": 3,
+      "Boyeros": 2,
+      "Plaza": 2,
+      "Arroyo Naranjo": 1,
       "Cerro": 1,
       "San Miguel Del Padrón": 1,
-      "Plaza": 1,
-      "Habana Del Este": 1,
       "Marianao": 1,
       "Centro Habana": 1
     },
-    "averias_total": 19,
+    "averias_total": 20,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -417,24 +425,24 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 73689,
-      "2": 74963,
+      "1": 73694,
+      "2": 74968,
       "3": 60999,
       "4": 69107,
-      "5": 68709,
-      "6": 70373
+      "5": 68714,
+      "6": 70764
     },
-    "averias_total": 3216,
+    "averias_total": 3217,
     "averias_top_municipios": {
-      "Boyeros": 336,
+      "Boyeros": 335,
       "Playa": 281,
-      "Arroyo Naranjo": 254,
+      "Arroyo Naranjo": 253,
       "Lisa": 232,
-      "Habana Del Este": 221,
+      "Habana Del Este": 223,
       "Guanabacoa": 215,
       "Cerro": 183,
       "San Miguel Del Padrón": 181,
-      "Plaza": 180,
+      "Plaza": 181,
       "Marianao": 146,
       "Cotorro": 94,
       "Centro Habana": 68,
@@ -578,7 +586,7 @@
       },
       {
         "date": "2026-06-13",
-        "peak_mw": 137
+        "peak_mw": 184
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -700,7 +708,7 @@
       },
       {
         "date": "2026-06-13",
-        "minutes": 1667
+        "minutes": 2073
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1422,7 +1430,7 @@
       },
       {
         "date": "2026-06-13",
-        "peak_mw": 137
+        "peak_mw": 184
       }
     ],
     "monthly_max_peak_mw": [
@@ -1802,7 +1810,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 40099
+        "minutes": 40505
       }
     ],
     "sen_outage_days_total": 7,
