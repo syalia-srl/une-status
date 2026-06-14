@@ -1,20 +1,20 @@
 {
   "date": "2026-06-13",
-  "finalized": false,
-  "peak_mw_affected": 289,
-  "peak_time": "21:15",
+  "finalized": true,
+  "peak_mw_affected": 361,
+  "peak_time": "23:17",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 585,
-    "2": 550,
-    "3": 315,
-    "4": 209,
-    "5": 535,
-    "6": 440
+    "1": 580,
+    "2": 545,
+    "3": 310,
+    "4": 205,
+    "5": 530,
+    "6": 435
   },
-  "total_block_outage_minutes": 2634,
-  "daf_count": 0,
+  "total_block_outage_minutes": 2605,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,12 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 1,
-    "Marianao": 1
+    "Habana Del Este": 1,
+    "Guanabacoa": 1
   },
   "averias_total": 2,
-  "source_msg_count": 5,
+  "source_msg_count": 6,
   "by_type_counts": {
+    "daf": 1,
     "actualizacion_bloques": 2,
     "inicio_afectacion": 1,
     "averias": 2
