@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-14T14:36:53+00:00",
+  "generated_at": "2026-06-14T16:09:27+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-14T14:30:02+00:00",
+    "as_of": "2026-06-14T16:01:27+00:00",
     "bloques": [
       {
         "id": 1,
@@ -11,13 +11,13 @@
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-06-14T09:35:52+00:00",
-        "hours_off_today": 4.55
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-14T15:27:27+00:00",
+        "hours_off_today": 0.5666666666666667
       },
       {
         "id": 4,
@@ -26,27 +26,34 @@
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-14T10:48:52+00:00",
-        "hours_off_today": 3.3333333333333335
+        "since": "2026-06-14T10:45:27+00:00",
+        "hours_off_today": 5.266666666666667
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-06-14T10:53:52+00:00",
-        "hours_off_today": 3.25
+        "since": "2026-06-14T10:50:27+00:00",
+        "hours_off_today": 5.183333333333334
       }
     ],
-    "current_mw_affected": 97,
-    "current_mw_affected_at": "2026-06-14T14:08:52+00:00",
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": 122,
+    "current_mw_affected_at": "2026-06-14T16:01:27+00:00",
+    "active_averias": {
+      "ts": "2026-06-14T14:56:08+00:00",
+      "averias": []
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-06-14T14:38:50+00:00",
+        "municipio": "Plaza De La Revolución",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": {
-      "ts": "2026-06-14T14:23:31+00:00",
-      "type": "daf"
+      "ts": "2026-06-14T15:34:10+00:00",
+      "type": "restablecimiento_daf"
     },
-    "last_pronostico": {
-      "ts": "2026-06-14T12:29:07+00:00"
-    },
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -62,8 +69,8 @@
       {
         "id": "felton",
         "name": "Lidio Ramón Pérez (Felton)",
-        "state": "online",
-        "assumed": false,
+        "state": "assumed_online",
+        "assumed": true,
         "last_seen_at": "2026-05-15T15:26:47+00:00",
         "last_online_at": "2026-05-15T15:26:47+00:00",
         "last_offline_at": "2026-05-12T02:30:46+00:00",
@@ -254,20 +261,20 @@
   "day": {
     "date": "2026-06-14",
     "finalized": false,
-    "peak_mw_affected": 367,
-    "peak_time": "23:30",
-    "interruption_minutes": 1440,
-    "emergency_mw": 105,
+    "peak_mw_affected": 122,
+    "peak_time": "12:01",
+    "interruption_minutes": null,
+    "emergency_mw": null,
     "block_outage_minutes": {
       "1": 0,
-      "2": 273,
-      "3": 0,
+      "2": 0,
+      "3": 757,
       "4": 0,
-      "5": 1033,
-      "6": 1027
+      "5": 1034,
+      "6": 1029
     },
-    "total_block_outage_minutes": 2333,
-    "daf_count": 2,
+    "total_block_outage_minutes": 2820,
+    "daf_count": 3,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -275,16 +282,20 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 13,
+    "averias_count_by_municipio": {
+      "Plaza De La Revolución": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "pronostico": 1,
-      "restablecimiento": 6,
-      "nota_diaria": 1,
-      "actualizacion_bloques": 2,
-      "daf": 2,
-      "restablecimiento_daf": 1
+      "disparo_circuito": 1,
+      "daf": 3,
+      "averias": 1,
+      "restablecimiento": 2,
+      "inicio_afectacion": 1,
+      "mantenimiento": 1,
+      "restablecimiento_daf": 1,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -327,26 +338,27 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 346.6,
+    "avg_peak_mw": 297.6,
     "max_peak_mw": 440,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 2739,
-      "2": 2005,
-      "3": 1881,
+      "2": 1732,
+      "3": 2638,
       "4": 2496,
-      "5": 3579,
-      "6": 3465
+      "5": 3580,
+      "6": 3467
     },
-    "total_emergency_mw_sum": 105,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 3,
       "Marianao": 1,
       "Centro Habana": 1,
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 6,
-    "daf_total": 5,
+    "averias_total": 7,
+    "daf_total": 6,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -359,18 +371,18 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 14,
-    "avg_peak_mw": 348.2,
+    "avg_peak_mw": 327.8,
     "max_peak_mw": 457,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 8331,
-      "2": 4998,
-      "3": 4842,
+      "2": 4725,
+      "3": 5599,
       "4": 6952,
-      "5": 9677,
-      "6": 8570
+      "5": 9678,
+      "6": 8572
     },
-    "total_emergency_mw_sum": 105,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 5,
       "Lisa": 4,
@@ -381,10 +393,11 @@
       "San Miguel Del Padrón": 1,
       "Plaza": 1,
       "Marianao": 1,
-      "Centro Habana": 1
+      "Centro Habana": 1,
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 19,
-    "daf_total": 11,
+    "averias_total": 20,
+    "daf_total": 12,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -395,16 +408,16 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 61210,
+    "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
       "1": 73685,
-      "2": 75232,
-      "3": 61309,
+      "2": 74959,
+      "3": 62066,
       "4": 69312,
-      "5": 69738,
-      "6": 71835
+      "5": 69739,
+      "6": 71837
     },
-    "averias_total": 3216,
+    "averias_total": 3217,
     "averias_top_municipios": {
       "Boyeros": 335,
       "Playa": 281,
@@ -422,7 +435,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2350,
+    "daf_total": 2351,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -558,7 +571,7 @@
       },
       {
         "date": "2026-06-14",
-        "peak_mw": 367
+        "peak_mw": 122
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -680,7 +693,7 @@
       },
       {
         "date": "2026-06-14",
-        "minutes": 2333
+        "minutes": 2820
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1402,7 +1415,7 @@
       },
       {
         "date": "2026-06-14",
-        "peak_mw": 367
+        "peak_mw": 122
       }
     ],
     "monthly_max_peak_mw": [
@@ -1782,15 +1795,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 43370
+        "minutes": 43857
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2350,
-    "daf_last_30d": 68,
+    "daf_total": 2351,
+    "daf_last_30d": 69,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
