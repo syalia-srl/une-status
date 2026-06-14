@@ -1,19 +1,19 @@
 {
   "date": "2026-06-14",
   "finalized": false,
-  "peak_mw_affected": 122,
-  "peak_time": "12:01",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
     "1": 0,
     "2": 0,
-    "3": 757,
+    "3": 0,
     "4": 0,
-    "5": 1034,
-    "6": 1029
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 2820,
+  "total_block_outage_minutes": 0,
   "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,18 +23,14 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Plaza De La Revolución": 1
+    "Arroyo Naranjo": 1
   },
   "averias_total": 1,
-  "source_msg_count": 11,
+  "source_msg_count": 8,
   "by_type_counts": {
-    "disparo_circuito": 1,
     "daf": 3,
-    "averias": 1,
-    "restablecimiento": 2,
-    "inicio_afectacion": 1,
-    "mantenimiento": 1,
-    "restablecimiento_daf": 1,
-    "actualizacion_bloques": 1
+    "transicion_bloques": 1,
+    "disparo_circuito": 1,
+    "restablecimiento": 3
   }
 }
