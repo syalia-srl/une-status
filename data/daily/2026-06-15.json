@@ -1,20 +1,20 @@
 {
   "date": "2026-06-15",
   "finalized": false,
-  "peak_mw_affected": 233,
-  "peak_time": "15:47",
+  "peak_mw_affected": 296,
+  "peak_time": "18:17",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 730,
-    "2": 695,
+    "1": 1439,
+    "2": 1353,
     "3": 0,
-    "4": 750,
-    "5": 612,
-    "6": 596
+    "4": 0,
+    "5": 1302,
+    "6": 0
   },
-  "total_block_outage_minutes": 3383,
-  "daf_count": 5,
+  "total_block_outage_minutes": 4094,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,19 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Lisa": 1
+    "Boyeros": 2,
+    "Cerro": 1,
+    "San Miguel Del Padrón": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 20,
+  "averias_total": 4,
+  "source_msg_count": 12,
   "by_type_counts": {
-    "otro": 4,
-    "actualizacion_bloques": 2,
-    "via_libre": 2,
-    "restablecimiento": 2,
-    "daf": 5,
-    "inicio_afectacion": 2,
-    "restablecimiento_daf": 2,
-    "averias": 1
+    "transicion_bloques": 1,
+    "restablecimiento": 4,
+    "daf": 1,
+    "disparo_circuito": 2,
+    "averias": 2,
+    "otro": 1,
+    "actualizacion_bloques": 1
   }
 }
