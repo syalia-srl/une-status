@@ -1,19 +1,19 @@
 {
   "date": "2026-06-14",
-  "finalized": false,
-  "peak_mw_affected": 313,
-  "peak_time": "19:32",
+  "finalized": true,
+  "peak_mw_affected": 366,
+  "peak_time": "22:31",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 608,
-    "2": 520,
-    "3": 731,
-    "4": 655,
-    "5": 503,
-    "6": 492
+    "1": 603,
+    "2": 511,
+    "3": 678,
+    "4": 650,
+    "5": 498,
+    "6": 487
   },
-  "total_block_outage_minutes": 3509,
+  "total_block_outage_minutes": 3427,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -22,11 +22,15 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 3,
+  "averias_count_by_municipio": {
+    "Cotorro": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 10,
   "by_type_counts": {
-    "restablecimiento": 2,
-    "actualizacion_bloques": 1
+    "actualizacion_bloques": 4,
+    "averias": 1,
+    "disparo_circuito": 1,
+    "restablecimiento": 4
   }
 }
