@@ -1,20 +1,20 @@
 {
   "date": "2026-06-15",
   "finalized": false,
-  "peak_mw_affected": 406,
-  "peak_time": "04:02",
+  "peak_mw_affected": 169,
+  "peak_time": "11:14",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 879,
-    "2": 781,
-    "3": 51,
-    "4": 916,
-    "5": 764,
-    "6": 753
+    "1": 728,
+    "2": 0,
+    "3": 1233,
+    "4": 742,
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 4144,
-  "daf_count": 0,
+  "total_block_outage_minutes": 2703,
+  "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,14 +23,23 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "San Miguel Del Padrón": 2,
-    "Guanabacoa": 1
+    "Guanabacoa": 2,
+    "Marianao": 2,
+    "Habana Del Este": 1,
+    "Lisa Y Playa": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 8,
+  "averias_total": 6,
+  "source_msg_count": 20,
   "by_type_counts": {
-    "actualizacion_bloques": 3,
-    "averias": 4,
-    "restablecimiento_gradual": 1
+    "via_libre": 2,
+    "otro": 1,
+    "disparo_circuito": 4,
+    "averias": 3,
+    "daf": 3,
+    "restablecimiento_daf": 2,
+    "actualizacion_bloques": 2,
+    "transicion_bloques": 1,
+    "restablecimiento_gradual": 1,
+    "inicio_afectacion": 1
   }
 }
