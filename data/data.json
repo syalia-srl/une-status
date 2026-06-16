@@ -1,68 +1,75 @@
 {
-  "generated_at": "2026-06-16T15:24:26+00:00",
+  "generated_at": "2026-06-16T18:59:56+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-16T15:04:15+00:00",
+    "as_of": "2026-06-16T18:52:50+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-06-16T08:11:51+00:00",
-        "hours_off_today": 5.166666666666667
+        "since": "2026-06-16T08:19:30+00:00",
+        "hours_off_today": 7.683333333333334
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-06-16T13:06:51+00:00",
-        "hours_off_today": 0.25
+        "since": "2026-06-16T13:00:30+00:00",
+        "hours_off_today": 3.0
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-16T17:59:37+00:00",
+        "emergency": true
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-06-15T22:31:51+00:00",
-        "hours_off_today": 14.833333333333334
+        "since": "2026-06-15T23:10:30+00:00",
+        "hours_off_today": 16.833333333333332
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-16T15:04:15+00:00",
-        "emergency": true
+        "since": "2026-06-16T15:00:30+00:00",
+        "hours_off_today": 1.0
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-16T16:36:21+00:00",
+        "emergency": true
       }
     ],
-    "current_mw_affected": 267,
-    "current_mw_affected_at": "2026-06-16T13:21:51+00:00",
+    "current_mw_affected": 234,
+    "current_mw_affected_at": "2026-06-16T16:00:30+00:00",
     "active_averias": {
-      "ts": "2026-06-16T12:38:00+00:00",
-      "averias": []
+      "ts": "2026-06-16T17:18:53+00:00",
+      "averias": [
+        {
+          "municipio": "San Miguel Del Padrón",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-16T14:06:55+00:00",
-        "municipio": "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras",
+        "ts": "2026-06-16T17:51:22+00:00",
+        "municipio": "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-06-16T13:56:52+00:00",
-        "municipio": "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre",
-        "kind": "disparo_circuito"
+        "ts": "2026-06-16T17:18:53+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-06-16T13:49:51+00:00",
+      "ts": "2026-06-16T18:49:59+00:00",
       "type": "daf"
     },
-    "last_pronostico": {
-      "ts": "2026-06-16T12:47:13+00:00"
-    },
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -270,20 +277,20 @@
   "day": {
     "date": "2026-06-16",
     "finalized": false,
-    "peak_mw_affected": 422,
-    "peak_time": "20:00",
-    "interruption_minutes": 1440,
-    "emergency_mw": 128,
+    "peak_mw_affected": 234,
+    "peak_time": "12:00",
+    "interruption_minutes": null,
+    "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 1190,
-      "2": 893,
-      "3": 0,
-      "4": 890,
-      "5": 775,
-      "6": 0
+      "1": 1180,
+      "2": 899,
+      "3": 600,
+      "4": 1010,
+      "5": 779,
+      "6": 683
     },
-    "total_block_outage_minutes": 3748,
-    "daf_count": 1,
+    "total_block_outage_minutes": 5151,
+    "daf_count": 2,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -292,23 +299,21 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre": 1,
-      "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras": 1
+      "San Miguel Del Padrón": 1,
+      "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas": 1
     },
     "averias_total": 2,
-    "source_msg_count": 16,
+    "source_msg_count": 15,
     "by_type_counts": {
-      "actualizacion_bloques": 3,
+      "actualizacion_bloques": 1,
+      "daf": 2,
+      "inicio_afectacion": 2,
+      "averias": 3,
+      "via_libre": 1,
+      "mantenimiento": 2,
       "restablecimiento": 1,
-      "restablecimiento_gradual": 2,
-      "nota_diaria": 1,
-      "disparo_circuito": 3,
-      "averias": 1,
-      "pronostico": 1,
-      "transicion_bloques": 1,
-      "daf": 1,
-      "mantenimiento": 1,
-      "inicio_afectacion": 1
+      "disparo_circuito": 1,
+      "otro": 2
     }
   },
   "yesterday": {
@@ -359,18 +364,18 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 352.0,
+    "avg_peak_mw": 314.4,
     "max_peak_mw": 422,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 3097,
-      "2": 2618,
-      "3": 1536,
-      "4": 2518,
-      "5": 2869,
-      "6": 1931
+      "1": 3087,
+      "2": 2624,
+      "3": 2136,
+      "4": 2638,
+      "5": 2873,
+      "6": 2614
     },
-    "total_emergency_mw_sum": 128,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 3,
       "Habana Del Este": 3,
@@ -379,11 +384,11 @@
       "Boyeros": 1,
       "Marianao": 1,
       "Plaza": 1,
-      "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre": 1,
-      "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras": 1
+      "San Miguel Del Padrón": 1,
+      "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas": 1
     },
     "averias_total": 14,
-    "daf_total": 4,
+    "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -396,35 +401,34 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 16,
-    "avg_peak_mw": 358.6,
+    "avg_peak_mw": 345.2,
     "max_peak_mw": 457,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 10848,
-      "2": 6798,
-      "3": 5979,
-      "4": 8816,
-      "5": 10519,
-      "6": 8620
+      "1": 10838,
+      "2": 6804,
+      "3": 6579,
+      "4": 8936,
+      "5": 10523,
+      "6": 9303
     },
-    "total_emergency_mw_sum": 128,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 5,
       "Lisa": 4,
       "Habana Del Este": 4,
       "Boyeros": 3,
+      "San Miguel Del Padrón": 2,
       "Plaza": 2,
       "Marianao": 2,
       "Centro Habana": 2,
       "Arroyo Naranjo": 1,
       "Cerro": 1,
-      "San Miguel Del Padrón": 1,
       "Cotorro": 1,
-      "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre": 1,
-      "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras": 1
+      "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas": 1
     },
     "averias_total": 28,
-    "daf_total": 11,
+    "daf_total": 12,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -435,14 +439,14 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 61210,
+    "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 76202,
-      "2": 77032,
-      "3": 62446,
-      "4": 71176,
-      "5": 70580,
-      "6": 71885
+      "1": 76192,
+      "2": 77038,
+      "3": 63046,
+      "4": 71296,
+      "5": 70584,
+      "6": 72568
     },
     "averias_total": 3225,
     "averias_top_municipios": {
@@ -453,7 +457,7 @@
       "Habana Del Este": 224,
       "Guanabacoa": 216,
       "Cerro": 183,
-      "San Miguel Del Padrón": 181,
+      "San Miguel Del Padrón": 182,
       "Plaza": 181,
       "Marianao": 147,
       "Cotorro": 95,
@@ -462,7 +466,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2350,
+    "daf_total": 2351,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -598,7 +602,7 @@
       },
       {
         "date": "2026-06-16",
-        "peak_mw": 422
+        "peak_mw": 234
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -720,7 +724,7 @@
       },
       {
         "date": "2026-06-16",
-        "minutes": 3748
+        "minutes": 5151
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1442,7 +1446,7 @@
       },
       {
         "date": "2026-06-16",
-        "peak_mw": 422
+        "peak_mw": 234
       }
     ],
     "monthly_max_peak_mw": [
@@ -1822,15 +1826,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 51580
+        "minutes": 52983
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2350,
-    "daf_last_30d": 40,
+    "daf_total": 2351,
+    "daf_last_30d": 41,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

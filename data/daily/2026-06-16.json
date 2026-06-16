@@ -1,20 +1,20 @@
 {
   "date": "2026-06-16",
   "finalized": false,
-  "peak_mw_affected": 422,
-  "peak_time": "20:00",
-  "interruption_minutes": 1440,
-  "emergency_mw": 128,
+  "peak_mw_affected": 234,
+  "peak_time": "12:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1190,
-    "2": 893,
-    "3": 0,
-    "4": 890,
-    "5": 775,
-    "6": 0
+    "1": 1180,
+    "2": 899,
+    "3": 600,
+    "4": 1010,
+    "5": 779,
+    "6": 683
   },
-  "total_block_outage_minutes": 3748,
-  "daf_count": 1,
+  "total_block_outage_minutes": 5151,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,22 +23,20 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre": 1,
-    "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras": 1
+    "San Miguel Del Padrón": 1,
+    "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas": 1
   },
   "averias_total": 2,
-  "source_msg_count": 16,
+  "source_msg_count": 15,
   "by_type_counts": {
-    "actualizacion_bloques": 3,
+    "actualizacion_bloques": 1,
+    "daf": 2,
+    "inicio_afectacion": 2,
+    "averias": 3,
+    "via_libre": 1,
+    "mantenimiento": 2,
     "restablecimiento": 1,
-    "restablecimiento_gradual": 2,
-    "nota_diaria": 1,
-    "disparo_circuito": 3,
-    "averias": 1,
-    "pronostico": 1,
-    "transicion_bloques": 1,
-    "daf": 1,
-    "mantenimiento": 1,
-    "inicio_afectacion": 1
+    "disparo_circuito": 1,
+    "otro": 2
   }
 }
