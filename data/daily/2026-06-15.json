@@ -1,19 +1,19 @@
 {
   "date": "2026-06-15",
   "finalized": false,
-  "peak_mw_affected": 296,
-  "peak_time": "18:17",
+  "peak_mw_affected": 354,
+  "peak_time": "19:17",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1439,
-    "2": 1353,
-    "3": 0,
-    "4": 0,
-    "5": 1302,
-    "6": 0
+    "1": 728,
+    "2": 698,
+    "3": 459,
+    "4": 333,
+    "5": 613,
+    "6": 598
   },
-  "total_block_outage_minutes": 4094,
+  "total_block_outage_minutes": 3429,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,19 +23,15 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 2,
-    "Cerro": 1,
-    "San Miguel Del Padrón": 1
+    "Arroyo Naranjo": 1
   },
-  "averias_total": 4,
-  "source_msg_count": 12,
+  "averias_total": 1,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "transicion_bloques": 1,
-    "restablecimiento": 4,
+    "disparo_circuito": 1,
+    "inicio_afectacion": 1,
+    "actualizacion_bloques": 1,
     "daf": 1,
-    "disparo_circuito": 2,
-    "averias": 2,
-    "otro": 1,
-    "actualizacion_bloques": 1
+    "empty": 1
   }
 }
