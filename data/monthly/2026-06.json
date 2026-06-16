@@ -2,16 +2,16 @@
   "month": "2026-06",
   "finalized": false,
   "dailies_count": 16,
-  "avg_peak_mw": 341.5,
+  "avg_peak_mw": 349.4,
   "max_peak_mw": 457,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 10822,
-    "2": 6779,
-    "3": 6653,
-    "4": 9166,
-    "5": 10498,
-    "6": 9284
+    "1": 10837,
+    "2": 6804,
+    "3": 6658,
+    "4": 9327,
+    "5": 10523,
+    "6": 9309
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
@@ -26,10 +26,11 @@
     "Cerro": 1,
     "San Miguel Del Padrón": 1,
     "Cotorro": 1,
-    "Arroyo Naranjo Queda La Avería": 1
+    "Arroyo Naranjo Queda La Avería": 1,
+    "Plaza Queda La Avería": 1
   },
-  "averias_total": 27,
-  "daf_total": 10,
+  "averias_total": 28,
+  "daf_total": 12,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,

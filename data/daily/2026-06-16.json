@@ -1,20 +1,20 @@
 {
   "date": "2026-06-16",
   "finalized": false,
-  "peak_mw_affected": 182,
-  "peak_time": "15:25",
+  "peak_mw_affected": 292,
+  "peak_time": "18:00",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1164,
-    "2": 874,
-    "3": 674,
-    "4": 1240,
-    "5": 754,
-    "6": 664
+    "1": 1179,
+    "2": 899,
+    "3": 679,
+    "4": 1401,
+    "5": 779,
+    "6": 689
   },
-  "total_block_outage_minutes": 5370,
-  "daf_count": 0,
+  "total_block_outage_minutes": 5626,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,16 +23,17 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo Queda La Avería": 1
+    "Arroyo Naranjo Queda La Avería": 1,
+    "Plaza Queda La Avería": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 11,
+  "averias_total": 2,
+  "source_msg_count": 8,
   "by_type_counts": {
-    "disparo_circuito": 1,
-    "via_libre": 2,
-    "otro": 3,
-    "restablecimiento": 1,
+    "daf": 2,
     "actualizacion_bloques": 1,
-    "averias": 3
+    "disparo_circuito": 1,
+    "via_libre": 1,
+    "restablecimiento": 1,
+    "averias": 2
   }
 }
