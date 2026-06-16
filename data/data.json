@@ -1,84 +1,68 @@
 {
-  "generated_at": "2026-06-16T10:25:03+00:00",
+  "generated_at": "2026-06-16T15:24:26+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-16T08:53:24+00:00",
+    "as_of": "2026-06-16T15:04:15+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-06-16T08:08:24+00:00",
-        "hours_off_today": 0.75
+        "since": "2026-06-16T08:11:51+00:00",
+        "hours_off_today": 5.166666666666667
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-16T13:06:51+00:00",
+        "hours_off_today": 0.25
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-15T20:23:24+00:00",
-        "hours_off_today": 12.5
+        "state": "encendido"
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-06-15T22:38:24+00:00",
-        "hours_off_today": 10.25
+        "since": "2026-06-15T22:31:51+00:00",
+        "hours_off_today": 14.833333333333334
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-15T17:58:24+00:00",
-        "hours_off_today": 14.916666666666666
+        "since": "2026-06-16T15:04:15+00:00",
+        "emergency": true
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-15T18:13:24+00:00",
-        "hours_off_today": 14.666666666666666
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": 325,
-    "current_mw_affected_at": "2026-06-16T08:53:24+00:00",
+    "current_mw_affected": 267,
+    "current_mw_affected_at": "2026-06-16T13:21:51+00:00",
     "active_averias": {
-      "ts": "2026-06-16T08:41:49+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": "calle 3ra entre Norte y Sur, Reloj Club 🚨",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-06-16T12:38:00+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-06-16T08:41:49+00:00",
-        "municipio": "Boyeros",
-        "direccion": "calle 3ra entre Norte y Sur, Reloj Club 🚨",
-        "severity": "secundaria"
+        "ts": "2026-06-16T14:06:55+00:00",
+        "municipio": "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-06-16T06:14:10+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las calles Entrada entre Amargura y Calvario 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-16T05:56:01+00:00",
-        "municipio": "Marianao",
-        "direccion": "las calles 130 entre 49 y 51, Cocosolo 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-16T05:48:57+00:00",
-        "municipio": "Marianao",
+        "ts": "2026-06-16T13:56:52+00:00",
+        "municipio": "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre",
         "kind": "disparo_circuito"
       }
     ],
-    "last_daf": null,
-    "last_pronostico": null,
+    "last_daf": {
+      "ts": "2026-06-16T13:49:51+00:00",
+      "type": "daf"
+    },
+    "last_pronostico": {
+      "ts": "2026-06-16T12:47:13+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -286,20 +270,20 @@
   "day": {
     "date": "2026-06-16",
     "finalized": false,
-    "peak_mw_affected": 325,
-    "peak_time": "04:53",
-    "interruption_minutes": null,
-    "emergency_mw": null,
+    "peak_mw_affected": 422,
+    "peak_time": "20:00",
+    "interruption_minutes": 1440,
+    "emergency_mw": 128,
     "block_outage_minutes": {
-      "1": 1193,
-      "2": 0,
-      "3": 750,
-      "4": 615,
-      "5": 895,
-      "6": 880
+      "1": 1190,
+      "2": 893,
+      "3": 0,
+      "4": 890,
+      "5": 775,
+      "6": 0
     },
-    "total_block_outage_minutes": 4333,
-    "daf_count": 0,
+    "total_block_outage_minutes": 3748,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -308,19 +292,22 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Marianao": 2,
-      "Arroyo Naranjo": 1,
-      "Boyeros": 1
+      "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre": 1,
+      "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 11,
+    "averias_total": 2,
+    "source_msg_count": 16,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "averias": 3,
-      "otro": 2,
-      "pinned": 1,
-      "restablecimiento_gradual": 1,
-      "actualizacion_bloques": 2,
+      "actualizacion_bloques": 3,
+      "restablecimiento": 1,
+      "restablecimiento_gradual": 2,
+      "nota_diaria": 1,
+      "disparo_circuito": 3,
+      "averias": 1,
+      "pronostico": 1,
+      "transicion_bloques": 1,
+      "daf": 1,
+      "mantenimiento": 1,
       "inicio_afectacion": 1
     }
   },
@@ -372,30 +359,31 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 332.6,
+    "avg_peak_mw": 352.0,
     "max_peak_mw": 422,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 3100,
-      "2": 1725,
-      "3": 2286,
-      "4": 2243,
-      "5": 2989,
-      "6": 2811
+      "1": 3097,
+      "2": 2618,
+      "3": 1536,
+      "4": 2518,
+      "5": 2869,
+      "6": 1931
     },
-    "total_emergency_mw_sum": 0,
+    "total_emergency_mw_sum": 128,
     "averias_count_by_municipio": {
       "Guanabacoa": 3,
       "Habana Del Este": 3,
-      "Marianao": 3,
       "Centro Habana": 2,
-      "Boyeros": 2,
       "Cotorro": 1,
+      "Boyeros": 1,
+      "Marianao": 1,
       "Plaza": 1,
-      "Arroyo Naranjo": 1
+      "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre": 1,
+      "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras": 1
     },
-    "averias_total": 16,
-    "daf_total": 3,
+    "averias_total": 14,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -408,33 +396,35 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 16,
-    "avg_peak_mw": 351.7,
+    "avg_peak_mw": 358.6,
     "max_peak_mw": 457,
-    "total_interruption_minutes": 0,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
-      "1": 10851,
-      "2": 5905,
-      "3": 6729,
-      "4": 8541,
-      "5": 10639,
-      "6": 9500
+      "1": 10848,
+      "2": 6798,
+      "3": 5979,
+      "4": 8816,
+      "5": 10519,
+      "6": 8620
     },
-    "total_emergency_mw_sum": 0,
+    "total_emergency_mw_sum": 128,
     "averias_count_by_municipio": {
       "Guanabacoa": 5,
-      "Boyeros": 4,
       "Lisa": 4,
       "Habana Del Este": 4,
-      "Marianao": 4,
-      "Arroyo Naranjo": 2,
+      "Boyeros": 3,
       "Plaza": 2,
+      "Marianao": 2,
       "Centro Habana": 2,
+      "Arroyo Naranjo": 1,
       "Cerro": 1,
       "San Miguel Del Padrón": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Cotorro Se Encuentran Afectados Por Disparo De Circuito En Las Calles La Torre": 1,
+      "San Miguel Del Padrón Se Encuentran Afectados Por Disparo De Circuito En Las Las Piedras": 1
     },
-    "averias_total": 30,
-    "daf_total": 10,
+    "averias_total": 28,
+    "daf_total": 11,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -445,34 +435,34 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
-      "1": 76205,
-      "2": 76139,
-      "3": 63196,
-      "4": 70901,
-      "5": 70700,
-      "6": 72765
+      "1": 76202,
+      "2": 77032,
+      "3": 62446,
+      "4": 71176,
+      "5": 70580,
+      "6": 71885
     },
-    "averias_total": 3227,
+    "averias_total": 3225,
     "averias_top_municipios": {
-      "Boyeros": 337,
+      "Boyeros": 336,
       "Playa": 281,
-      "Arroyo Naranjo": 254,
+      "Arroyo Naranjo": 253,
       "Lisa": 232,
       "Habana Del Este": 224,
       "Guanabacoa": 216,
       "Cerro": 183,
       "San Miguel Del Padrón": 181,
       "Plaza": 181,
-      "Marianao": 149,
+      "Marianao": 147,
       "Cotorro": 95,
       "Centro Habana": 69,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2349,
+    "daf_total": 2350,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -608,7 +598,7 @@
       },
       {
         "date": "2026-06-16",
-        "peak_mw": 325
+        "peak_mw": 422
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -730,7 +720,7 @@
       },
       {
         "date": "2026-06-16",
-        "minutes": 4333
+        "minutes": 3748
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1452,7 +1442,7 @@
       },
       {
         "date": "2026-06-16",
-        "peak_mw": 325
+        "peak_mw": 422
       }
     ],
     "monthly_max_peak_mw": [
@@ -1832,15 +1822,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 52165
+        "minutes": 51580
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2349,
-    "daf_last_30d": 39,
+    "daf_total": 2350,
+    "daf_last_30d": 40,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
