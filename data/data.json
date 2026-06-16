@@ -1,74 +1,61 @@
 {
-  "generated_at": "2026-06-16T18:59:56+00:00",
+  "generated_at": "2026-06-16T21:42:28+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-16T18:52:50+00:00",
+    "as_of": "2026-06-16T21:35:21+00:00",
     "bloques": [
       {
         "id": 1,
         "state": "apagado",
-        "since": "2026-06-16T08:19:30+00:00",
-        "hours_off_today": 7.683333333333334
+        "since": "2026-06-16T08:35:05+00:00",
+        "hours_off_today": 10.833333333333334
       },
       {
         "id": 2,
         "state": "apagado",
-        "since": "2026-06-16T13:00:30+00:00",
-        "hours_off_today": 3.0
+        "since": "2026-06-16T13:25:05+00:00",
+        "hours_off_today": 6.0
       },
       {
         "id": 3,
         "state": "apagado",
-        "since": "2026-06-16T17:59:37+00:00",
-        "emergency": true
+        "since": "2026-06-16T16:45:05+00:00",
+        "hours_off_today": 2.6666666666666665
       },
       {
         "id": 4,
         "state": "apagado",
-        "since": "2026-06-15T23:10:30+00:00",
-        "hours_off_today": 16.833333333333332
+        "since": "2026-06-15T22:45:05+00:00",
+        "hours_off_today": 20.666666666666668
       },
       {
         "id": 5,
         "state": "apagado",
-        "since": "2026-06-16T15:00:30+00:00",
-        "hours_off_today": 1.0
+        "since": "2026-06-16T15:25:05+00:00",
+        "hours_off_today": 4.0
       },
       {
         "id": 6,
         "state": "apagado",
-        "since": "2026-06-16T16:36:21+00:00",
-        "emergency": true
+        "since": "2026-06-16T16:55:05+00:00",
+        "hours_off_today": 2.5
       }
     ],
-    "current_mw_affected": 234,
-    "current_mw_affected_at": "2026-06-16T16:00:30+00:00",
+    "current_mw_affected": 182,
+    "current_mw_affected_at": "2026-06-16T19:25:05+00:00",
     "active_averias": {
-      "ts": "2026-06-16T17:18:53+00:00",
-      "averias": [
-        {
-          "municipio": "San Miguel Del Padrón",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-06-16T21:35:21+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-06-16T17:51:22+00:00",
-        "municipio": "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-16T17:18:53+00:00",
-        "municipio": "San Miguel Del Padrón",
+        "ts": "2026-06-16T19:28:27+00:00",
+        "municipio": "Arroyo Naranjo Queda La Avería",
         "severity": "secundaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-06-16T18:49:59+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -277,20 +264,20 @@
   "day": {
     "date": "2026-06-16",
     "finalized": false,
-    "peak_mw_affected": 234,
-    "peak_time": "12:00",
+    "peak_mw_affected": 182,
+    "peak_time": "15:25",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 1180,
-      "2": 899,
-      "3": 600,
-      "4": 1010,
-      "5": 779,
-      "6": 683
+      "1": 1164,
+      "2": 874,
+      "3": 674,
+      "4": 1240,
+      "5": 754,
+      "6": 664
     },
-    "total_block_outage_minutes": 5151,
-    "daf_count": 2,
+    "total_block_outage_minutes": 5370,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -299,21 +286,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
-      "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas": 1
+      "Arroyo Naranjo Queda La Avería": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 15,
+    "averias_total": 1,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "daf": 2,
-      "inicio_afectacion": 2,
-      "averias": 3,
-      "via_libre": 1,
-      "mantenimiento": 2,
-      "restablecimiento": 1,
       "disparo_circuito": 1,
-      "otro": 2
+      "via_libre": 2,
+      "otro": 3,
+      "restablecimiento": 1,
+      "actualizacion_bloques": 1,
+      "averias": 3
     }
   },
   "yesterday": {
@@ -364,16 +347,16 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 314.4,
+    "avg_peak_mw": 304.0,
     "max_peak_mw": 422,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 3087,
-      "2": 2624,
-      "3": 2136,
-      "4": 2638,
-      "5": 2873,
-      "6": 2614
+      "1": 3071,
+      "2": 2599,
+      "3": 2210,
+      "4": 2868,
+      "5": 2848,
+      "6": 2595
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
@@ -384,11 +367,10 @@
       "Boyeros": 1,
       "Marianao": 1,
       "Plaza": 1,
-      "San Miguel Del Padrón": 1,
-      "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas": 1
+      "Arroyo Naranjo Queda La Avería": 1
     },
-    "averias_total": 14,
-    "daf_total": 5,
+    "averias_total": 13,
+    "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -401,16 +383,16 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 16,
-    "avg_peak_mw": 345.2,
+    "avg_peak_mw": 341.5,
     "max_peak_mw": 457,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 10838,
-      "2": 6804,
-      "3": 6579,
-      "4": 8936,
-      "5": 10523,
-      "6": 9303
+      "1": 10822,
+      "2": 6779,
+      "3": 6653,
+      "4": 9166,
+      "5": 10498,
+      "6": 9284
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
@@ -418,17 +400,17 @@
       "Lisa": 4,
       "Habana Del Este": 4,
       "Boyeros": 3,
-      "San Miguel Del Padrón": 2,
       "Plaza": 2,
       "Marianao": 2,
       "Centro Habana": 2,
       "Arroyo Naranjo": 1,
       "Cerro": 1,
+      "San Miguel Del Padrón": 1,
       "Cotorro": 1,
-      "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas": 1
+      "Arroyo Naranjo Queda La Avería": 1
     },
-    "averias_total": 28,
-    "daf_total": 12,
+    "averias_total": 27,
+    "daf_total": 10,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -441,14 +423,14 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 76192,
-      "2": 77038,
-      "3": 63046,
-      "4": 71296,
-      "5": 70584,
-      "6": 72568
+      "1": 76176,
+      "2": 77013,
+      "3": 63120,
+      "4": 71526,
+      "5": 70559,
+      "6": 72549
     },
-    "averias_total": 3225,
+    "averias_total": 3224,
     "averias_top_municipios": {
       "Boyeros": 336,
       "Playa": 281,
@@ -457,7 +439,7 @@
       "Habana Del Este": 224,
       "Guanabacoa": 216,
       "Cerro": 183,
-      "San Miguel Del Padrón": 182,
+      "San Miguel Del Padrón": 181,
       "Plaza": 181,
       "Marianao": 147,
       "Cotorro": 95,
@@ -466,7 +448,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2351,
+    "daf_total": 2349,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -602,7 +584,7 @@
       },
       {
         "date": "2026-06-16",
-        "peak_mw": 234
+        "peak_mw": 182
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -724,7 +706,7 @@
       },
       {
         "date": "2026-06-16",
-        "minutes": 5151
+        "minutes": 5370
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1446,7 +1428,7 @@
       },
       {
         "date": "2026-06-16",
-        "peak_mw": 234
+        "peak_mw": 182
       }
     ],
     "monthly_max_peak_mw": [
@@ -1826,15 +1808,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 52983
+        "minutes": 53202
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2351,
-    "daf_last_30d": 41,
+    "daf_total": 2349,
+    "daf_last_30d": 39,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

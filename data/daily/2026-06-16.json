@@ -1,20 +1,20 @@
 {
   "date": "2026-06-16",
   "finalized": false,
-  "peak_mw_affected": 234,
-  "peak_time": "12:00",
+  "peak_mw_affected": 182,
+  "peak_time": "15:25",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1180,
-    "2": 899,
-    "3": 600,
-    "4": 1010,
-    "5": 779,
-    "6": 683
+    "1": 1164,
+    "2": 874,
+    "3": 674,
+    "4": 1240,
+    "5": 754,
+    "6": 664
   },
-  "total_block_outage_minutes": 5151,
-  "daf_count": 2,
+  "total_block_outage_minutes": 5370,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,20 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "San Miguel Del Padrón": 1,
-    "Boyeros Se Encuentran Afectados Por Disparo De Circuito En Rio Verde Y Zonas Aledañas": 1
+    "Arroyo Naranjo Queda La Avería": 1
   },
-  "averias_total": 2,
-  "source_msg_count": 15,
+  "averias_total": 1,
+  "source_msg_count": 11,
   "by_type_counts": {
-    "actualizacion_bloques": 1,
-    "daf": 2,
-    "inicio_afectacion": 2,
-    "averias": 3,
-    "via_libre": 1,
-    "mantenimiento": 2,
-    "restablecimiento": 1,
     "disparo_circuito": 1,
-    "otro": 2
+    "via_libre": 2,
+    "otro": 3,
+    "restablecimiento": 1,
+    "actualizacion_bloques": 1,
+    "averias": 3
   }
 }
