@@ -1,20 +1,20 @@
 {
   "date": "2026-06-17",
   "finalized": false,
-  "peak_mw_affected": 315,
-  "peak_time": "12:12",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1080,
-    "2": 767,
-    "3": 1400,
-    "4": 1095,
-    "5": 1500,
-    "6": 1410
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 510,
+    "6": 499
   },
-  "total_block_outage_minutes": 7252,
-  "daf_count": 0,
+  "total_block_outage_minutes": 1009,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,13 +22,20 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 5,
+  "averias_count_by_municipio": {
+    "Lisa": 1,
+    "Marianao": 1,
+    "Plaza": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 11,
   "by_type_counts": {
-    "restablecimiento_gradual": 2,
+    "disparo_circuito": 2,
+    "otro": 2,
+    "restablecimiento_gradual": 1,
     "averias": 1,
-    "otro": 1,
-    "actualizacion_bloques": 1
+    "daf": 2,
+    "nota_diaria": 1,
+    "inicio_afectacion": 2
   }
 }
