@@ -1,20 +1,20 @@
 {
   "date": "2026-06-17",
   "finalized": false,
-  "peak_mw_affected": 458,
-  "peak_time": "20:50",
-  "interruption_minutes": 1440,
-  "emergency_mw": 125,
+  "peak_mw_affected": 315,
+  "peak_time": "12:12",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 0
+    "1": 1080,
+    "2": 767,
+    "3": 1400,
+    "4": 1095,
+    "5": 1500,
+    "6": 1410
   },
-  "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "total_block_outage_minutes": 7252,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,16 +22,13 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Habana Del Este": 1
-  },
-  "averias_total": 1,
-  "source_msg_count": 6,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "daf": 2,
-    "pronostico": 1,
-    "corto": 1,
-    "nota_diaria": 1,
-    "disparo_circuito": 1
+    "restablecimiento_gradual": 2,
+    "averias": 1,
+    "otro": 1,
+    "actualizacion_bloques": 1
   }
 }
