@@ -1,20 +1,20 @@
 {
   "date": "2026-06-18",
   "finalized": false,
-  "peak_mw_affected": 538,
-  "peak_time": "22:40",
-  "interruption_minutes": 1440,
-  "emergency_mw": 185,
+  "peak_mw_affected": 218,
+  "peak_time": "13:21",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
     "1": 0,
-    "2": 0,
-    "3": 0,
+    "2": 1585,
+    "3": 1221,
     "4": 0,
-    "5": 0,
-    "6": 0
+    "5": 1321,
+    "6": 1319
   },
-  "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "total_block_outage_minutes": 5446,
+  "daf_count": 4,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,20 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
+    "Boyeros": 1,
     "San Miguel Del Padrón": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 11,
+  "averias_total": 2,
+  "source_msg_count": 20,
   "by_type_counts": {
-    "pronostico": 1,
-    "nota_diaria": 1,
-    "restablecimiento": 2,
-    "daf": 2,
-    "restablecimiento_daf": 1,
-    "restablecimiento_gradual": 2,
-    "disparo_circuito": 1,
-    "corto": 1
+    "daf": 4,
+    "disparo_circuito": 3,
+    "restablecimiento_daf": 2,
+    "restablecimiento": 5,
+    "via_libre": 2,
+    "otro": 1,
+    "inicio_afectacion": 1,
+    "restablecimiento_gradual": 1,
+    "actualizacion_bloques": 1
   }
 }
