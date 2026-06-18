@@ -1,17 +1,17 @@
 {
   "month": "2026-06",
   "finalized": false,
-  "dailies_count": 17,
-  "avg_peak_mw": 353.8,
-  "max_peak_mw": 457,
+  "dailies_count": 18,
+  "avg_peak_mw": 366.1,
+  "max_peak_mw": 526,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 9658,
-    "2": 5905,
-    "3": 5979,
-    "4": 7926,
-    "5": 9744,
-    "6": 8620
+    "1": 12818,
+    "2": 8124,
+    "3": 7848,
+    "4": 11061,
+    "5": 11713,
+    "6": 10559
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
@@ -22,13 +22,14 @@
     "Marianao": 3,
     "Plaza": 2,
     "Centro Habana": 2,
-    "Cotorro": 2,
     "Arroyo Naranjo": 1,
     "Cerro": 1,
-    "San Miguel Del Padrón": 1
+    "San Miguel Del Padrón": 1,
+    "Cotorro": 1,
+    "Playa": 1
   },
   "averias_total": 28,
-  "daf_total": 11,
+  "daf_total": 13,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
