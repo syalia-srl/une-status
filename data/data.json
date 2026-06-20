@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-19T23:47:25+00:00",
+  "generated_at": "2026-06-20T02:12:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-19T23:45:53+00:00",
+    "as_of": "2026-06-20T01:47:08+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,11 +32,60 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-06-20T01:47:08+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": "Perdomo entre Anillo y Simpatía 🚨",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-06-20T01:47:08+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "Perdomo entre Anillo y Simpatía 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-20T01:44:55+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-06-20T01:23:58+00:00",
+        "municipio": "Cerro",
+        "direccion": "las calles Universidad entre Infanta y San Joaquín 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-20T01:07:02+00:00",
+        "municipio": "Plaza",
+        "direccion": "las calles 14 entre 19 y 21, Vedado 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-20T01:03:20+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-06-20T00:45:43+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "las calles San Antonio entre Martí y Cadenas, Villa 1 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-20T00:01:04+00:00",
+        "municipio": "Lisa",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": {
-      "ts": "2026-06-19T23:45:53+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-06-20T01:35:13+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -259,7 +308,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 2,
+    "daf_count": 3,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -267,12 +316,21 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 2,
+      "Marianao": 2,
+      "Lisa": 1,
+      "Plaza": 1,
+      "Cerro": 1
+    },
+    "averias_total": 7,
+    "source_msg_count": 14,
     "by_type_counts": {
-      "daf": 2,
-      "restablecimiento_daf": 2
+      "restablecimiento": 3,
+      "disparo_circuito": 3,
+      "daf": 3,
+      "averias": 4,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -326,15 +384,17 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Habana Del Este": 3,
+      "Guanabacoa": 3,
+      "Marianao": 3,
       "Boyeros": 2,
-      "Guanabacoa": 1,
+      "Plaza": 2,
       "Cotorro": 1,
-      "Marianao": 1,
       "Centro Habana": 1,
-      "Plaza": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
-    "averias_total": 10,
-    "daf_total": 6,
+    "averias_total": 17,
+    "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -360,20 +420,20 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 5,
+      "Guanabacoa": 7,
+      "Lisa": 5,
       "Boyeros": 4,
-      "Lisa": 4,
       "Habana Del Este": 4,
-      "Plaza": 2,
-      "Marianao": 2,
+      "Marianao": 4,
+      "Plaza": 3,
+      "Cerro": 2,
       "Centro Habana": 2,
       "Arroyo Naranjo": 1,
-      "Cerro": 1,
       "San Miguel Del Padrón": 1,
       "Cotorro": 1
     },
-    "averias_total": 27,
-    "daf_total": 14,
+    "averias_total": 34,
+    "daf_total": 15,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -393,25 +453,25 @@
       "5": 70334,
       "6": 72384
     },
-    "averias_total": 3224,
+    "averias_total": 3231,
     "averias_top_municipios": {
       "Boyeros": 337,
       "Playa": 281,
       "Arroyo Naranjo": 253,
-      "Lisa": 232,
+      "Lisa": 233,
       "Habana Del Este": 224,
-      "Guanabacoa": 216,
-      "Cerro": 183,
+      "Guanabacoa": 218,
+      "Cerro": 184,
+      "Plaza": 182,
       "San Miguel Del Padrón": 181,
-      "Plaza": 181,
-      "Marianao": 147,
+      "Marianao": 149,
       "Cotorro": 95,
       "Centro Habana": 69,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2353,
+    "daf_total": 2354,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1778,8 +1838,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2353,
-    "daf_last_30d": 23,
+    "daf_total": 2354,
+    "daf_last_30d": 24,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

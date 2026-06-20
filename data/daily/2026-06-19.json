@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,11 +22,20 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 4,
+  "averias_count_by_municipio": {
+    "Guanabacoa": 2,
+    "Marianao": 2,
+    "Lisa": 1,
+    "Plaza": 1,
+    "Cerro": 1
+  },
+  "averias_total": 7,
+  "source_msg_count": 14,
   "by_type_counts": {
-    "daf": 2,
-    "restablecimiento_daf": 2
+    "restablecimiento": 3,
+    "disparo_circuito": 3,
+    "daf": 3,
+    "averias": 4,
+    "restablecimiento_daf": 1
   }
 }
