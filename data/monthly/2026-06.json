@@ -2,18 +2,18 @@
   "month": "2026-06",
   "finalized": false,
   "dailies_count": 21,
-  "avg_peak_mw": 366.1,
+  "avg_peak_mw": 369.7,
   "max_peak_mw": 526,
-  "total_interruption_minutes": 0,
+  "total_interruption_minutes": 1440,
   "total_block_outage_minutes": {
     "1": 11378,
-    "2": 6684,
+    "2": 7570,
     "3": 6408,
     "4": 9621,
     "5": 10273,
     "6": 9119
   },
-  "total_emergency_mw_sum": 0,
+  "total_emergency_mw_sum": 105,
   "averias_count_by_municipio": {
     "Guanabacoa": 7,
     "Lisa": 5,
@@ -28,7 +28,7 @@
     "Cotorro": 1
   },
   "averias_total": 34,
-  "daf_total": 15,
+  "daf_total": 16,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
