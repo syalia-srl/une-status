@@ -6,15 +6,15 @@
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 507,
+    "1": 0,
     "2": 0,
     "3": 0,
-    "4": 0,
+    "4": 409,
     "5": 0,
     "6": 0
   },
-  "total_block_outage_minutes": 507,
-  "daf_count": 1,
+  "total_block_outage_minutes": 409,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,19 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Cerro": 1,
-    "Guanabacoa": 1,
-    "Plaza": 1,
-    "Playa": 1
+    "Lisa": 1,
+    "Playa": 1,
+    "Cerro": 1
   },
-  "averias_total": 4,
-  "source_msg_count": 10,
+  "averias_total": 3,
+  "source_msg_count": 6,
   "by_type_counts": {
-    "averias": 4,
+    "averias": 3,
+    "restablecimiento": 1,
     "disparo_circuito": 1,
-    "otro": 2,
-    "restablecimiento_gradual": 1,
-    "daf": 1,
     "inicio_afectacion": 1
   }
 }
