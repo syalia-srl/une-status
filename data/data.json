@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-06-20T23:40:48+00:00",
+  "generated_at": "2026-06-21T02:04:02+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-20T23:33:23+00:00",
+    "as_of": "2026-06-21T01:48:40+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido",
+        "since": "2026-06-21T00:50:18+00:00"
       },
       {
         "id": 2,
@@ -15,9 +16,7 @@
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-20T22:31:41+00:00",
-        "emergency": true
+        "state": "desconocido"
       },
       {
         "id": 4,
@@ -35,22 +34,25 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-06-20T22:51:03+00:00",
+      "ts": "2026-06-21T00:54:02+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
+          "municipio": "Plaza",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-20T22:51:03+00:00",
-        "municipio": "Guanabacoa",
+        "ts": "2026-06-21T00:54:02+00:00",
+        "municipio": "Plaza",
         "severity": "secundaria"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-06-21T01:47:27+00:00",
+      "type": "restablecimiento_daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -266,12 +268,12 @@
     "block_outage_minutes": {
       "1": 0,
       "2": 0,
-      "3": 328,
+      "3": 0,
       "4": 0,
       "5": 0,
       "6": 0
     },
-    "total_block_outage_minutes": 328,
+    "total_block_outage_minutes": 0,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -281,14 +283,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Plaza": 1
     },
     "averias_total": 1,
-    "source_msg_count": 7,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "inicio_afectacion": 1,
-      "restablecimiento": 5,
-      "averias": 1
+      "via_libre": 2,
+      "averias": 2,
+      "restablecimiento": 4,
+      "restablecimiento_gradual": 1,
+      "disparo_circuito": 1,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -341,7 +346,7 @@
     "total_block_outage_minutes": {
       "1": 3047,
       "2": 1959,
-      "3": 1894,
+      "3": 1566,
       "4": 2669,
       "5": 1629,
       "6": 1576
@@ -349,10 +354,10 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Marianao": 3,
-      "Guanabacoa": 3,
+      "Plaza": 3,
       "Habana Del Este": 2,
       "Boyeros": 2,
-      "Plaza": 2,
+      "Guanabacoa": 2,
       "Cotorro": 1,
       "Centro Habana": 1,
       "Lisa": 1,
@@ -378,19 +383,19 @@
     "total_block_outage_minutes": {
       "1": 11378,
       "2": 6684,
-      "3": 6736,
+      "3": 6408,
       "4": 9621,
       "5": 10273,
       "6": 9119
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 8,
+      "Guanabacoa": 7,
       "Lisa": 5,
       "Boyeros": 4,
+      "Plaza": 4,
       "Habana Del Este": 4,
       "Marianao": 4,
-      "Plaza": 3,
       "Cerro": 2,
       "Centro Habana": 2,
       "Arroyo Naranjo": 1,
@@ -413,7 +418,7 @@
     "total_block_outage_minutes": {
       "1": 76732,
       "2": 76918,
-      "3": 63203,
+      "3": 62875,
       "4": 71981,
       "5": 70334,
       "6": 72384
@@ -425,9 +430,9 @@
       "Arroyo Naranjo": 253,
       "Lisa": 233,
       "Habana Del Este": 224,
-      "Guanabacoa": 219,
+      "Guanabacoa": 218,
       "Cerro": 184,
-      "Plaza": 182,
+      "Plaza": 183,
       "San Miguel Del Padrón": 181,
       "Marianao": 149,
       "Cotorro": 95,
@@ -694,7 +699,7 @@
       },
       {
         "date": "2026-06-20",
-        "minutes": 328
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1796,7 +1801,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 53811
+        "minutes": 53483
       }
     ],
     "sen_outage_days_total": 7,

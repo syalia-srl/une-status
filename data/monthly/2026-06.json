@@ -8,19 +8,19 @@
   "total_block_outage_minutes": {
     "1": 11378,
     "2": 6684,
-    "3": 6736,
+    "3": 6408,
     "4": 9621,
     "5": 10273,
     "6": 9119
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Guanabacoa": 8,
+    "Guanabacoa": 7,
     "Lisa": 5,
     "Boyeros": 4,
+    "Plaza": 4,
     "Habana Del Este": 4,
     "Marianao": 4,
-    "Plaza": 3,
     "Cerro": 2,
     "Centro Habana": 2,
     "Arroyo Naranjo": 1,
