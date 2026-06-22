@@ -1,76 +1,51 @@
 {
-  "generated_at": "2026-06-22T18:30:29+00:00",
+  "generated_at": "2026-06-22T21:22:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-22T18:29:28+00:00",
+    "as_of": "2026-06-22T21:12:27+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "apagado",
+        "since": "2026-06-22T19:24:56+00:00",
+        "emergency": true
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-06-22T06:58:29+00:00",
-        "hours_off_today": 9.05
+        "state": "encendido",
+        "since": "2026-06-22T19:48:24+00:00"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-22T18:02:50+00:00",
-        "emergency": true
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido",
-        "since": "2026-06-22T18:29:28+00:00"
+        "state": "apagado",
+        "since": "2026-06-22T21:06:46+00:00",
+        "emergency": true
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-22T16:22:37+00:00",
-        "emergency": true
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-22T17:53:12+00:00",
-        "emergency": true
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 130,
-    "current_mw_affected_at": "2026-06-22T16:01:29+00:00",
-    "active_averias": {
-      "ts": "2026-06-22T18:03:31+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "la siguiente dirección: Mendoza / Valle y Palma"
-        }
-      ]
-    },
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-06-22T18:03:31+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "la siguiente dirección: Mendoza / Valle y Palma"
-      },
-      {
-        "ts": "2026-06-22T17:32:07+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "la siguiente dirección: 26 / I y J, Cojimar"
-      },
-      {
-        "ts": "2026-06-22T16:39:31+00:00",
-        "municipio": "Cerro",
-        "direccion": "la siguiente dirección: Santo Tomás / San Carlos y Manuel Gonzáles"
+        "ts": "2026-06-22T20:12:11+00:00",
+        "municipio": "Lisa",
+        "kind": "disparo_circuito"
       }
     ],
-    "last_daf": {
-      "ts": "2026-06-22T17:32:08+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -279,20 +254,20 @@
   "day": {
     "date": "2026-06-22",
     "finalized": false,
-    "peak_mw_affected": 130,
-    "peak_time": "12:01",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 1261,
-      "3": 597,
-      "4": 1105,
-      "5": 697,
-      "6": 606
+      "1": 515,
+      "2": 0,
+      "3": 0,
+      "4": 413,
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 4266,
-    "daf_count": 1,
+    "total_block_outage_minutes": 928,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -301,23 +276,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1,
-      "Habana Del Este": 1,
-      "Arroyo Naranjo": 1
+      "Lisa": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 20,
+    "averias_total": 1,
+    "source_msg_count": 19,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "restablecimiento": 6,
-      "restablecimiento_daf": 1,
-      "actualizacion_bloques": 1,
-      "via_libre": 1,
-      "inicio_afectacion": 3,
-      "averias": 3,
-      "restablecimiento_gradual": 2,
-      "otro": 1,
-      "daf": 1
+      "disparo_circuito": 4,
+      "restablecimiento": 12,
+      "inicio_afectacion": 2,
+      "restablecimiento_gradual": 1
     }
   },
   "yesterday": {
@@ -360,30 +327,29 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 328.0,
+    "avg_peak_mw": 526.0,
     "max_peak_mw": 526,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 1720,
-      "2": 2040,
-      "3": 1026,
-      "4": 2800,
-      "5": 1226,
-      "6": 1105
+      "1": 2235,
+      "2": 779,
+      "3": 429,
+      "4": 2108,
+      "5": 529,
+      "6": 499
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
       "Marianao": 2,
-      "Cerro": 2,
-      "Habana Del Este": 2,
+      "Lisa": 2,
       "Boyeros": 1,
-      "Lisa": 1,
       "Plaza": 1,
-      "Arroyo Naranjo": 1
+      "Cerro": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 12,
-    "daf_total": 8,
+    "averias_total": 10,
+    "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -396,33 +362,33 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 22,
-    "avg_peak_mw": 350.3,
+    "avg_peak_mw": 366.1,
     "max_peak_mw": 526,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 11378,
-      "2": 7945,
-      "3": 7005,
-      "4": 10726,
-      "5": 10970,
-      "6": 9725
+      "1": 11893,
+      "2": 6684,
+      "3": 6408,
+      "4": 10034,
+      "5": 10273,
+      "6": 9119
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 7,
-      "Habana Del Este": 6,
-      "Lisa": 5,
+      "Lisa": 6,
+      "Habana Del Este": 5,
       "Boyeros": 4,
       "Marianao": 4,
-      "Cerro": 3,
       "Plaza": 3,
-      "Arroyo Naranjo": 2,
+      "Cerro": 2,
       "Centro Habana": 2,
+      "Arroyo Naranjo": 1,
       "San Miguel Del Padrón": 1,
       "Cotorro": 1
     },
-    "averias_total": 38,
-    "daf_total": 18,
+    "averias_total": 36,
+    "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -435,22 +401,22 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 76732,
-      "2": 78179,
-      "3": 63472,
-      "4": 73086,
-      "5": 71031,
-      "6": 72990
+      "1": 77247,
+      "2": 76918,
+      "3": 62875,
+      "4": 72394,
+      "5": 70334,
+      "6": 72384
     },
-    "averias_total": 3235,
+    "averias_total": 3233,
     "averias_top_municipios": {
       "Boyeros": 337,
       "Playa": 281,
-      "Arroyo Naranjo": 254,
-      "Lisa": 233,
-      "Habana Del Este": 226,
+      "Arroyo Naranjo": 253,
+      "Lisa": 234,
+      "Habana Del Este": 225,
       "Guanabacoa": 218,
-      "Cerro": 185,
+      "Cerro": 184,
       "Plaza": 182,
       "San Miguel Del Padrón": 181,
       "Marianao": 149,
@@ -460,7 +426,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2357,
+    "daf_total": 2356,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -596,7 +562,7 @@
       },
       {
         "date": "2026-06-22",
-        "peak_mw": 130
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -718,7 +684,7 @@
       },
       {
         "date": "2026-06-22",
-        "minutes": 4266
+        "minutes": 928
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1440,7 +1406,7 @@
       },
       {
         "date": "2026-06-22",
-        "peak_mw": 130
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1820,15 +1786,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 57749
+        "minutes": 54411
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2357,
-    "daf_last_30d": 24,
+    "daf_total": 2356,
+    "daf_last_30d": 23,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
