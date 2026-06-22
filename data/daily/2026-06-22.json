@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-22",
+  "finalized": false,
+  "peak_mw_affected": 405,
+  "peak_time": "00:00",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 543,
+    "2": 1301,
+    "3": 662,
+    "4": 410,
+    "5": 728,
+    "6": 743
+  },
+  "total_block_outage_minutes": 4387,
+  "daf_count": 0,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "partial_sen_collapse_count": 0,
+  "partial_sen_reconnect_count": 0,
+  "partial_sen_outage_minutes": 0,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Playa": 2,
+    "Lisa": 1,
+    "Marianao": 1,
+    "Habana Del Este": 1,
+    "Plaza": 1
+  },
+  "averias_total": 6,
+  "source_msg_count": 10,
+  "by_type_counts": {
+    "actualizacion_bloques": 1,
+    "mantenimiento": 1,
+    "averias": 5,
+    "inicio_afectacion": 1,
+    "disparo_circuito": 1,
+    "restablecimiento": 1
+  }
+}
