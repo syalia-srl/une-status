@@ -6,14 +6,14 @@
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 486,
-    "2": 0,
-    "3": 541,
-    "4": 453,
-    "5": 465,
+    "1": 0,
+    "2": 392,
+    "3": 0,
+    "4": 0,
+    "5": 0,
     "6": 0
   },
-  "total_block_outage_minutes": 1945,
+  "total_block_outage_minutes": 392,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,19 +23,12 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 1,
-    "Cerro": 1,
-    "Playa": 1
+    "Centro Habana": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 18,
+  "averias_total": 1,
+  "source_msg_count": 3,
   "by_type_counts": {
-    "restablecimiento": 5,
-    "via_libre": 4,
-    "otro": 1,
-    "inicio_afectacion": 4,
     "averias": 2,
-    "restablecimiento_gradual": 1,
-    "disparo_circuito": 1
+    "inicio_afectacion": 1
   }
 }
