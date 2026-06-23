@@ -6,14 +6,14 @@
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
+    "1": 486,
     "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 590
+    "3": 541,
+    "4": 453,
+    "5": 465,
+    "6": 0
   },
-  "total_block_outage_minutes": 590,
+  "total_block_outage_minutes": 1945,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,21 +23,19 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Centro Habana Y Habana Vieja": 1,
-    "Lisa": 1,
-    "Habana Del Este": 1,
-    "Guanabacoa": 1
+    "Arroyo Naranjo": 1,
+    "Cerro": 1,
+    "Playa": 1
   },
-  "averias_total": 4,
-  "source_msg_count": 13,
+  "averias_total": 3,
+  "source_msg_count": 18,
   "by_type_counts": {
+    "restablecimiento": 5,
+    "via_libre": 4,
     "otro": 1,
-    "averias": 1,
-    "pinned": 1,
-    "disparo_circuito": 4,
-    "via_libre": 3,
-    "restablecimiento": 1,
-    "inicio_afectacion": 1,
-    "restablecimiento_gradual": 1
+    "inicio_afectacion": 4,
+    "averias": 2,
+    "restablecimiento_gradual": 1,
+    "disparo_circuito": 1
   }
 }
