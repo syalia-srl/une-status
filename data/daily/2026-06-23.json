@@ -1,19 +1,19 @@
 {
   "date": "2026-06-23",
   "finalized": false,
-  "peak_mw_affected": 158,
-  "peak_time": "12:06",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 1225,
-    "2": 1085,
+    "1": 0,
+    "2": 0,
     "3": 0,
-    "4": 1130,
-    "5": 775,
-    "6": 0
+    "4": 0,
+    "5": 0,
+    "6": 590
   },
-  "total_block_outage_minutes": 4215,
+  "total_block_outage_minutes": 590,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,23 +23,21 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 1,
-    "Marianao": 1,
-    "San Miguel Del Padrón": 1,
-    "Plaza": 1,
-    "Playa": 1
+    "Centro Habana Y Habana Vieja": 1,
+    "Lisa": 1,
+    "Habana Del Este": 1,
+    "Guanabacoa": 1
   },
-  "averias_total": 5,
-  "source_msg_count": 20,
+  "averias_total": 4,
+  "source_msg_count": 13,
   "by_type_counts": {
-    "via_libre": 4,
-    "averias": 5,
-    "otro": 2,
-    "transferencia_bloque": 1,
+    "otro": 1,
+    "averias": 1,
+    "pinned": 1,
+    "disparo_circuito": 4,
+    "via_libre": 3,
+    "restablecimiento": 1,
     "inicio_afectacion": 1,
-    "restablecimiento": 2,
-    "restablecimiento_gradual": 3,
-    "actualizacion_bloques": 1,
-    "disparo_circuito": 1
+    "restablecimiento_gradual": 1
   }
 }
