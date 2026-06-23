@@ -1,44 +1,84 @@
 {
-  "generated_at": "2026-06-23T13:58:20+00:00",
+  "generated_at": "2026-06-23T16:26:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-23T13:52:15+00:00",
+    "as_of": "2026-06-23T16:24:54+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-22T19:41:22+00:00",
+        "hours_off_today": 20.416666666666668
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-22T22:01:22+00:00",
+        "hours_off_today": 18.083333333333332
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-22T21:16:22+00:00",
+        "hours_off_today": 18.833333333333332
       },
       {
         "id": 5,
-        "state": "encendido",
-        "since": "2026-06-23T13:52:15+00:00"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
-    "last_daf": null,
-    "last_pronostico": {
-      "ts": "2026-06-23T12:27:47+00:00"
+    "current_mw_affected": 158,
+    "current_mw_affected_at": "2026-06-23T16:06:22+00:00",
+    "active_averias": {
+      "ts": "2026-06-23T16:19:42+00:00",
+      "averias": [
+        {
+          "municipio": "Plaza",
+          "direccion": "las calles 19 entre 30 y 32, Vedado 🚨",
+          "severity": "secundaria"
+        }
+      ]
     },
+    "averias_24h": [
+      {
+        "ts": "2026-06-23T16:24:54+00:00",
+        "municipio": "Playa",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-06-23T16:19:42+00:00",
+        "municipio": "Plaza",
+        "direccion": "las calles 19 entre 30 y 32, Vedado 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-23T16:11:21+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "las calles Mercado entre 4ta y 5ta afectando el servicio eléctrico en Martín Pérez, Ciudamar, Carolina, Alturas de Luyanó 🚨"
+      },
+      {
+        "ts": "2026-06-23T16:10:53+00:00",
+        "municipio": "Marianao",
+        "direccion": "las calles 86A entre 41 y 43 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-23T14:16:08+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "callejón Calderón, Managua afectando el servicio eléctrico en Frank País, Managua, Calderón La Lechuga 🚨"
+      }
+    ],
+    "last_daf": null,
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -246,19 +286,19 @@
   "day": {
     "date": "2026-06-23",
     "finalized": false,
-    "peak_mw_affected": 454,
-    "peak_time": "20:30",
-    "interruption_minutes": 1440,
-    "emergency_mw": 90,
+    "peak_mw_affected": 158,
+    "peak_time": "12:06",
+    "interruption_minutes": null,
+    "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
+      "1": 1225,
+      "2": 1085,
       "3": 0,
-      "4": 0,
-      "5": 0,
+      "4": 1130,
+      "5": 775,
       "6": 0
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 4215,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -267,15 +307,25 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {
+      "Arroyo Naranjo": 1,
+      "Marianao": 1,
+      "San Miguel Del Padrón": 1,
+      "Plaza": 1,
+      "Playa": 1
+    },
+    "averias_total": 5,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "nota_diaria": 1,
-      "pronostico": 1,
-      "corto": 3,
-      "restablecimiento_gradual": 1,
-      "restablecimiento": 1
+      "via_libre": 4,
+      "averias": 5,
+      "otro": 2,
+      "transferencia_bloque": 1,
+      "inicio_afectacion": 1,
+      "restablecimiento": 2,
+      "restablecimiento_gradual": 3,
+      "actualizacion_bloques": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -318,28 +368,31 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 490.0,
+    "avg_peak_mw": 342.0,
     "max_peak_mw": 526,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 1720,
-      "2": 779,
+      "1": 2945,
+      "2": 1864,
       "3": 429,
-      "4": 1695,
-      "5": 529,
+      "4": 2825,
+      "5": 1304,
       "6": 499
     },
-    "total_emergency_mw_sum": 90,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
+      "Marianao": 4,
       "Cerro": 3,
       "Guanabacoa": 2,
       "Lisa": 2,
+      "Plaza": 2,
       "Boyeros": 1,
-      "Plaza": 1,
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Arroyo Naranjo": 1,
+      "San Miguel Del Padrón": 1,
+      "Playa": 1
     },
-    "averias_total": 13,
+    "averias_total": 18,
     "daf_total": 6,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -353,32 +406,33 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 23,
-    "avg_peak_mw": 371.9,
+    "avg_peak_mw": 352.2,
     "max_peak_mw": 526,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 11378,
-      "2": 6684,
+      "1": 12603,
+      "2": 7769,
       "3": 6408,
-      "4": 9621,
-      "5": 10273,
+      "4": 10751,
+      "5": 11048,
       "6": 9119
     },
-    "total_emergency_mw_sum": 90,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 7,
       "Lisa": 6,
+      "Marianao": 6,
       "Habana Del Este": 5,
-      "Marianao": 5,
       "Boyeros": 4,
       "Cerro": 4,
-      "Plaza": 3,
+      "Plaza": 4,
+      "Arroyo Naranjo": 2,
+      "San Miguel Del Padrón": 2,
       "Centro Habana": 2,
-      "Arroyo Naranjo": 1,
-      "San Miguel Del Padrón": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Playa": 1
     },
-    "averias_total": 39,
+    "averias_total": 44,
     "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -390,27 +444,27 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 61210,
+    "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 76732,
-      "2": 76918,
+      "1": 77957,
+      "2": 78003,
       "3": 62875,
-      "4": 71981,
-      "5": 70334,
+      "4": 73111,
+      "5": 71109,
       "6": 72384
     },
-    "averias_total": 3236,
+    "averias_total": 3241,
     "averias_top_municipios": {
       "Boyeros": 337,
-      "Playa": 281,
-      "Arroyo Naranjo": 253,
+      "Playa": 282,
+      "Arroyo Naranjo": 254,
       "Lisa": 234,
       "Habana Del Este": 225,
       "Guanabacoa": 218,
       "Cerro": 186,
-      "Plaza": 182,
-      "San Miguel Del Padrón": 181,
-      "Marianao": 150,
+      "Plaza": 183,
+      "San Miguel Del Padrón": 182,
+      "Marianao": 151,
       "Cotorro": 95,
       "Centro Habana": 69,
       "De Boyeros": 50,
@@ -553,7 +607,7 @@
       },
       {
         "date": "2026-06-23",
-        "peak_mw": 454
+        "peak_mw": 158
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -675,7 +729,7 @@
       },
       {
         "date": "2026-06-23",
-        "minutes": 0
+        "minutes": 4215
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1397,7 +1451,7 @@
       },
       {
         "date": "2026-06-23",
-        "peak_mw": 454
+        "peak_mw": 158
       }
     ],
     "monthly_max_peak_mw": [
@@ -1777,7 +1831,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 53483
+        "minutes": 57698
       }
     ],
     "sen_outage_days_total": 7,
