@@ -1,39 +1,105 @@
 {
-  "generated_at": "2026-06-24T00:08:39+00:00",
+  "generated_at": "2026-06-24T04:22:33+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-23T23:06:36+00:00",
+    "as_of": "2026-06-24T04:15:02+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T19:10:56+00:00",
+        "hours_off_today": 8.833333333333334
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T21:25:56+00:00",
+        "hours_off_today": 6.583333333333333
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T18:55:56+00:00",
+        "hours_off_today": 9.083333333333334
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido",
+        "since": "2026-06-24T04:15:02+00:00"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T20:15:56+00:00",
+        "hours_off_today": 7.75
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T18:10:56+00:00",
+        "hours_off_today": 9.833333333333334
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": 411,
+    "current_mw_affected_at": "2026-06-24T04:00:56+00:00",
+    "active_averias": {
+      "ts": "2026-06-24T03:44:50+00:00",
+      "averias": []
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-06-24T03:56:06+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-06-24T03:54:59+00:00",
+        "municipio": "Guanabacoa",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-06-24T03:27:23+00:00",
+        "municipio": "Cotorro",
+        "direccion": "las calles Avenida 59 entre 14 y 16, Dulce Nombre 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-24T03:05:33+00:00",
+        "municipio": "Cotorro",
+        "direccion": "las calles 22A entre 61 y 63, Dulce Nombre 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-24T02:34:52+00:00",
+        "municipio": "Boyeros",
+        "direccion": "las calles 105 entre 20 y 22, Sierra Maestra 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-24T02:06:44+00:00",
+        "municipio": "Plaza",
+        "direccion": "las siguientes direcciones: 📌 8 entre 1ra y 3ra, Vedado 📌 10 entre 1ra Y 3ra, Vedado 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-24T01:29:46+00:00",
+        "municipio": "Lisa",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-06-24T01:26:43+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "las calles Oeste entre Cotilla y Aldabó, Los Pinos 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-24T01:25:27+00:00",
+        "municipio": "Boyeros",
+        "direccion": "las calles 204 entre 397 y Final, Santiago de las Vegas 🚨",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -241,21 +307,21 @@
     ]
   },
   "day": {
-    "date": "2026-06-23",
+    "date": "2026-06-24",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 411,
+    "peak_time": "00:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 530,
+      "2": 395,
+      "3": 545,
+      "4": 455,
+      "5": 465,
+      "6": 590
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 2980,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -266,13 +332,14 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 1,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "disparo_circuito": 1
+      "actualizacion_bloques": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
-    "date": "2026-06-22",
+    "date": "2026-06-23",
     "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -296,44 +363,51 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 2,
+      "Boyeros": 2,
+      "Cotorro": 2,
+      "Arroyo Naranjo": 1,
       "Lisa": 1,
+      "Plaza": 1,
+      "Guanabacoa": 1,
       "Marianao": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 16,
+    "averias_total": 9,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "restablecimiento": 11,
-      "disparo_circuito": 4,
-      "via_libre": 1
+      "via_libre": 1,
+      "averias": 7,
+      "disparo_circuito": 3,
+      "restablecimiento_gradual": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 526.0,
-    "max_peak_mw": 526,
+    "avg_peak_mw": 411.0,
+    "max_peak_mw": 411,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 1720,
-      "2": 779,
-      "3": 429,
-      "4": 1695,
-      "5": 529,
-      "6": 499
+      "1": 530,
+      "2": 395,
+      "3": 545,
+      "4": 455,
+      "5": 465,
+      "6": 590
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
+      "Marianao": 4,
+      "Boyeros": 3,
+      "Guanabacoa": 3,
+      "Lisa": 3,
       "Cerro": 3,
-      "Guanabacoa": 2,
-      "Lisa": 2,
-      "Boyeros": 1,
-      "Plaza": 1,
-      "Habana Del Este": 1
+      "Plaza": 2,
+      "Cotorro": 2,
+      "Habana Del Este": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 13,
-    "daf_total": 6,
+    "averias_total": 22,
+    "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -345,33 +419,33 @@
   "month": {
     "month": "2026-06",
     "finalized": false,
-    "dailies_count": 23,
-    "avg_peak_mw": 366.1,
+    "dailies_count": 24,
+    "avg_peak_mw": 369.1,
     "max_peak_mw": 526,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 11378,
-      "2": 6684,
-      "3": 6408,
-      "4": 9621,
-      "5": 10273,
-      "6": 9119
+      "1": 11908,
+      "2": 7079,
+      "3": 6953,
+      "4": 10076,
+      "5": 10738,
+      "6": 9709
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 7,
-      "Lisa": 6,
+      "Guanabacoa": 8,
+      "Lisa": 7,
+      "Boyeros": 6,
+      "Marianao": 6,
       "Habana Del Este": 5,
-      "Marianao": 5,
-      "Boyeros": 4,
       "Cerro": 4,
-      "Plaza": 3,
+      "Plaza": 4,
+      "Cotorro": 3,
+      "Arroyo Naranjo": 2,
       "Centro Habana": 2,
-      "Arroyo Naranjo": 1,
-      "San Miguel Del Padrón": 1,
-      "Cotorro": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 39,
+    "averias_total": 48,
     "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -385,26 +459,26 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 76732,
-      "2": 76918,
-      "3": 62875,
-      "4": 71981,
-      "5": 70334,
-      "6": 72384
+      "1": 77262,
+      "2": 77313,
+      "3": 63420,
+      "4": 72436,
+      "5": 70799,
+      "6": 72974
     },
-    "averias_total": 3236,
+    "averias_total": 3245,
     "averias_top_municipios": {
-      "Boyeros": 337,
+      "Boyeros": 339,
       "Playa": 281,
-      "Arroyo Naranjo": 253,
-      "Lisa": 234,
+      "Arroyo Naranjo": 254,
+      "Lisa": 235,
       "Habana Del Este": 225,
-      "Guanabacoa": 218,
+      "Guanabacoa": 219,
       "Cerro": 186,
-      "Plaza": 182,
+      "Plaza": 183,
       "San Miguel Del Padrón": 181,
-      "Marianao": 150,
-      "Cotorro": 95,
+      "Marianao": 151,
+      "Cotorro": 97,
       "Centro Habana": 69,
       "De Boyeros": 50,
       "De Playa": 49,
@@ -428,10 +502,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-05-25",
-        "peak_mw": 355
-      },
       {
         "date": "2026-05-26",
         "peak_mw": null
@@ -547,13 +617,13 @@
       {
         "date": "2026-06-23",
         "peak_mw": null
+      },
+      {
+        "date": "2026-06-24",
+        "peak_mw": 411
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-05-25",
-        "minutes": 2359
-      },
       {
         "date": "2026-05-26",
         "minutes": 9
@@ -669,13 +739,13 @@
       {
         "date": "2026-06-23",
         "minutes": 0
+      },
+      {
+        "date": "2026-06-24",
+        "minutes": 2980
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2025-12-26",
-        "peak_mw": 419
-      },
       {
         "date": "2025-12-27",
         "peak_mw": 154
@@ -1391,6 +1461,10 @@
       {
         "date": "2026-06-23",
         "peak_mw": null
+      },
+      {
+        "date": "2026-06-24",
+        "peak_mw": 411
       }
     ],
     "monthly_max_peak_mw": [
@@ -1770,7 +1844,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 53483
+        "minutes": 56463
       }
     ],
     "sen_outage_days_total": 7,
@@ -1799,9 +1873,9 @@
     }
   },
   "meta": {
-    "daily_count": 1423,
+    "daily_count": 1424,
     "monthly_count": 47,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-06-23"
+    "latest_date": "2026-06-24"
   }
 }
