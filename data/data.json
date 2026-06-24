@@ -1,75 +1,59 @@
 {
-  "generated_at": "2026-06-24T07:57:10+00:00",
+  "generated_at": "2026-06-24T10:44:26+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-24T07:25:55+00:00",
+    "as_of": "2026-06-24T10:32:50+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T19:10:26+00:00",
+        "hours_off_today": 14.833333333333334
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T21:25:26+00:00",
+        "hours_off_today": 12.583333333333334
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T18:55:26+00:00",
+        "hours_off_today": 15.083333333333334
       },
       {
         "id": 4,
-        "state": "encendido",
-        "since": "2026-06-24T07:10:06+00:00"
+        "state": "apagado",
+        "since": "2026-06-23T20:25:26+00:00",
+        "hours_off_today": 13.583333333333334
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T20:15:26+00:00",
+        "hours_off_today": 13.75
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-23T18:10:26+00:00",
+        "hours_off_today": 15.833333333333334
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 317,
+    "current_mw_affected_at": "2026-06-24T10:00:26+00:00",
     "active_averias": {
-      "ts": "2026-06-24T06:54:48+00:00",
-      "averias": [
-        {
-          "municipio": "Guanabacoa",
-          "direccion": "las calles Corral Falso entre 7ma y 8va 🚨",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-06-24T10:32:50+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-06-24T07:04:35+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-24T06:54:48+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles Corral Falso entre 7ma y 8va 🚨",
+        "ts": "2026-06-24T08:13:20+00:00",
+        "municipio": "Boyeros",
+        "direccion": "7ma esquina 10, Altahabana 🚨",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-24T05:46:44+00:00",
-        "municipio": "Cerro",
-        "direccion": "las calles Fernandina entre san Ramón y Vigía 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-24T05:44:31+00:00",
-        "municipio": "Centro Habana",
-        "direccion": "las calles: Salud entre San Nicolás y Manrique 🚨"
-      },
-      {
-        "ts": "2026-06-24T04:56:39+00:00",
-        "municipio": "Guanabacoa",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -281,19 +265,19 @@
   "day": {
     "date": "2026-06-24",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 317,
+    "peak_time": "06:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 890,
+      "2": 755,
+      "3": 905,
+      "4": 1110,
+      "5": 825,
+      "6": 950
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 5435,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -303,18 +287,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 2,
-      "Centro Habana": 1,
-      "Cerro": 1,
-      "Marianao": 1
+      "Boyeros": 1
     },
-    "averias_total": 5,
-    "source_msg_count": 15,
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 6,
-      "disparo_circuito": 4,
+      "averias": 3,
       "otro": 1,
-      "averias": 4
+      "inicio_afectacion": 1,
+      "actualizacion_bloques": 1,
+      "via_libre": 1
     }
   },
   "yesterday": {
@@ -362,31 +344,30 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 317.0,
+    "max_peak_mw": 317,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 890,
+      "2": 755,
+      "3": 905,
+      "4": 1110,
+      "5": 825,
+      "6": 950
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 5,
-      "Marianao": 5,
-      "Cerro": 4,
-      "Boyeros": 3,
+      "Boyeros": 4,
+      "Marianao": 4,
+      "Guanabacoa": 3,
       "Lisa": 3,
+      "Cerro": 3,
       "Plaza": 2,
       "Cotorro": 2,
       "Habana Del Este": 1,
-      "Arroyo Naranjo": 1,
-      "Centro Habana": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 27,
+    "averias_total": 23,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -400,32 +381,32 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 24,
-    "avg_peak_mw": 366.1,
+    "avg_peak_mw": 362.8,
     "max_peak_mw": 526,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 11378,
-      "2": 6684,
-      "3": 6408,
-      "4": 9621,
-      "5": 10273,
-      "6": 9119
+      "1": 12268,
+      "2": 7439,
+      "3": 7313,
+      "4": 10731,
+      "5": 11098,
+      "6": 10069
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 10,
+      "Guanabacoa": 8,
+      "Boyeros": 7,
       "Lisa": 7,
-      "Marianao": 7,
-      "Boyeros": 6,
-      "Cerro": 5,
+      "Marianao": 6,
       "Habana Del Este": 5,
+      "Cerro": 4,
       "Plaza": 4,
-      "Centro Habana": 3,
       "Cotorro": 3,
       "Arroyo Naranjo": 2,
+      "Centro Habana": 2,
       "San Miguel Del Padrón": 1
     },
-    "averias_total": 53,
+    "averias_total": 49,
     "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -439,27 +420,27 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 76732,
-      "2": 76918,
-      "3": 62875,
-      "4": 71981,
-      "5": 70334,
-      "6": 72384
+      "1": 77622,
+      "2": 77673,
+      "3": 63780,
+      "4": 73091,
+      "5": 71159,
+      "6": 73334
     },
-    "averias_total": 3250,
+    "averias_total": 3246,
     "averias_top_municipios": {
-      "Boyeros": 339,
+      "Boyeros": 340,
       "Playa": 281,
       "Arroyo Naranjo": 254,
       "Lisa": 235,
       "Habana Del Este": 225,
-      "Guanabacoa": 221,
-      "Cerro": 187,
+      "Guanabacoa": 219,
+      "Cerro": 186,
       "Plaza": 183,
       "San Miguel Del Padrón": 181,
-      "Marianao": 152,
+      "Marianao": 151,
       "Cotorro": 97,
-      "Centro Habana": 70,
+      "Centro Habana": 69,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
@@ -600,7 +581,7 @@
       },
       {
         "date": "2026-06-24",
-        "peak_mw": null
+        "peak_mw": 317
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -722,7 +703,7 @@
       },
       {
         "date": "2026-06-24",
-        "minutes": 0
+        "minutes": 5435
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1444,7 +1425,7 @@
       },
       {
         "date": "2026-06-24",
-        "peak_mw": null
+        "peak_mw": 317
       }
     ],
     "monthly_max_peak_mw": [
@@ -1824,7 +1805,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 53483
+        "minutes": 58918
       }
     ],
     "sen_outage_days_total": 7,
