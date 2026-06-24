@@ -1,63 +1,53 @@
 {
-  "generated_at": "2026-06-24T10:44:26+00:00",
+  "generated_at": "2026-06-24T13:06:37+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-24T10:32:50+00:00",
+    "as_of": "2026-06-24T12:38:07+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-06-23T19:10:26+00:00",
-        "hours_off_today": 14.833333333333334
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-06-23T21:25:26+00:00",
-        "hours_off_today": 12.583333333333334
+        "state": "encendido",
+        "since": "2026-06-24T12:22:58+00:00"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-23T18:55:26+00:00",
-        "hours_off_today": 15.083333333333334
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-06-23T20:25:26+00:00",
-        "hours_off_today": 13.583333333333334
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-23T20:15:26+00:00",
-        "hours_off_today": 13.75
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-23T18:10:26+00:00",
-        "hours_off_today": 15.833333333333334
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 317,
-    "current_mw_affected_at": "2026-06-24T10:00:26+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-06-24T10:32:50+00:00",
+      "ts": "2026-06-24T12:38:07+00:00",
       "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-06-24T08:13:20+00:00",
-        "municipio": "Boyeros",
-        "direccion": "7ma esquina 10, Altahabana 🚨",
+        "ts": "2026-06-24T12:36:52+00:00",
+        "municipio": "Arroyo Naranjo",
         "severity": "secundaria"
       }
     ],
     "last_daf": null,
-    "last_pronostico": null,
+    "last_pronostico": {
+      "ts": "2026-06-24T11:56:12+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -265,19 +255,19 @@
   "day": {
     "date": "2026-06-24",
     "finalized": false,
-    "peak_mw_affected": 317,
-    "peak_time": "06:00",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 890,
-      "2": 755,
-      "3": 905,
-      "4": 1110,
-      "5": 825,
-      "6": 950
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 5435,
+    "total_block_outage_minutes": 0,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -287,16 +277,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 7,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "averias": 3,
-      "otro": 1,
-      "inicio_afectacion": 1,
-      "actualizacion_bloques": 1,
-      "via_libre": 1
+      "pronostico": 1,
+      "restablecimiento_gradual": 1,
+      "restablecimiento": 1,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -344,28 +333,28 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 317.0,
-    "max_peak_mw": 317,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 890,
-      "2": 755,
-      "3": 905,
-      "4": 1110,
-      "5": 825,
-      "6": 950
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
       "Marianao": 4,
+      "Boyeros": 3,
       "Guanabacoa": 3,
       "Lisa": 3,
       "Cerro": 3,
       "Plaza": 2,
       "Cotorro": 2,
-      "Habana Del Este": 1,
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 2,
+      "Habana Del Este": 1
     },
     "averias_total": 23,
     "daf_total": 5,
@@ -381,28 +370,28 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 24,
-    "avg_peak_mw": 362.8,
+    "avg_peak_mw": 366.1,
     "max_peak_mw": 526,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 12268,
-      "2": 7439,
-      "3": 7313,
-      "4": 10731,
-      "5": 11098,
-      "6": 10069
+      "1": 11378,
+      "2": 6684,
+      "3": 6408,
+      "4": 9621,
+      "5": 10273,
+      "6": 9119
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 8,
-      "Boyeros": 7,
       "Lisa": 7,
+      "Boyeros": 6,
       "Marianao": 6,
       "Habana Del Este": 5,
       "Cerro": 4,
       "Plaza": 4,
+      "Arroyo Naranjo": 3,
       "Cotorro": 3,
-      "Arroyo Naranjo": 2,
       "Centro Habana": 2,
       "San Miguel Del Padrón": 1
     },
@@ -420,18 +409,18 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77622,
-      "2": 77673,
-      "3": 63780,
-      "4": 73091,
-      "5": 71159,
-      "6": 73334
+      "1": 76732,
+      "2": 76918,
+      "3": 62875,
+      "4": 71981,
+      "5": 70334,
+      "6": 72384
     },
     "averias_total": 3246,
     "averias_top_municipios": {
-      "Boyeros": 340,
+      "Boyeros": 339,
       "Playa": 281,
-      "Arroyo Naranjo": 254,
+      "Arroyo Naranjo": 255,
       "Lisa": 235,
       "Habana Del Este": 225,
       "Guanabacoa": 219,
@@ -581,7 +570,7 @@
       },
       {
         "date": "2026-06-24",
-        "peak_mw": 317
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -703,7 +692,7 @@
       },
       {
         "date": "2026-06-24",
-        "minutes": 5435
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1425,7 +1414,7 @@
       },
       {
         "date": "2026-06-24",
-        "peak_mw": 317
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1805,7 +1794,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 58918
+        "minutes": 53483
       }
     ],
     "sen_outage_days_total": 7,
