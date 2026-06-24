@@ -1,19 +1,19 @@
 {
   "date": "2026-06-24",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 305,
+  "peak_time": "18:00",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 507,
-    "6": 0
+    "1": 615,
+    "2": 639,
+    "3": 474,
+    "4": 407,
+    "5": 513,
+    "6": 554
   },
-  "total_block_outage_minutes": 507,
+  "total_block_outage_minutes": 3202,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,16 +23,18 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "La Lisa": 1,
-    "Arroyo Naranjo": 1,
-    "Centro Habana": 1
+    "Lisa": 1,
+    "Habana Del Este": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 7,
+  "averias_total": 2,
+  "source_msg_count": 9,
   "by_type_counts": {
-    "inicio_afectacion": 1,
-    "averias": 4,
+    "otro": 1,
     "restablecimiento": 1,
-    "otro": 1
+    "inicio_afectacion": 1,
+    "actualizacion_bloques": 1,
+    "via_libre": 2,
+    "corto": 1,
+    "averias": 2
   }
 }
