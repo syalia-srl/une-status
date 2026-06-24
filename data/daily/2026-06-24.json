@@ -1,20 +1,20 @@
 {
   "date": "2026-06-24",
   "finalized": false,
-  "peak_mw_affected": 441,
-  "peak_time": "21:10",
-  "interruption_minutes": 1440,
-  "emergency_mw": 75,
+  "peak_mw_affected": 154,
+  "peak_time": "12:04",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
     "1": 0,
-    "2": 21,
-    "3": 0,
-    "4": 0,
-    "5": 0,
+    "2": 634,
+    "3": 1265,
+    "4": 1415,
+    "5": 1185,
     "6": 0
   },
-  "total_block_outage_minutes": 21,
-  "daf_count": 0,
+  "total_block_outage_minutes": 4499,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,17 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Lisa": 1,
-    "Cerro": 1
+    "Plaza": 1,
+    "Centro Habana": 1
   },
   "averias_total": 2,
-  "source_msg_count": 13,
+  "source_msg_count": 9,
   "by_type_counts": {
-    "nota_diaria": 1,
-    "restablecimiento": 3,
-    "disparo_circuito": 2,
-    "averias": 2,
-    "restablecimiento_gradual": 3,
-    "corto": 1,
+    "actualizacion_bloques": 1,
+    "averias": 3,
+    "restablecimiento": 2,
+    "daf": 1,
+    "restablecimiento_gradual": 1,
     "inicio_afectacion": 1
   }
 }
