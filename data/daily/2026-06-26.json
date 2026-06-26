@@ -6,15 +6,15 @@
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
+    "1": 507,
     "2": 0,
     "3": 0,
     "4": 0,
     "5": 0,
-    "6": 0
+    "6": 446
   },
-  "total_block_outage_minutes": 0,
-  "daf_count": 0,
+  "total_block_outage_minutes": 953,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,20 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Guanabacoa": 2,
-    "Habana De Este": 1,
-    "Boyeros": 1,
-    "Lisa": 1,
-    "Habana Del Este": 1
+    "Arroyo Naranjo": 1
   },
-  "averias_total": 6,
-  "source_msg_count": 19,
+  "averias_total": 1,
+  "source_msg_count": 13,
   "by_type_counts": {
-    "restablecimiento_daf": 1,
-    "otro": 1,
-    "restablecimiento": 8,
-    "averias": 5,
+    "disparo_circuito": 2,
+    "restablecimiento": 5,
+    "averias": 2,
+    "inicio_afectacion": 2,
     "via_libre": 1,
-    "disparo_circuito": 3
+    "daf": 1
   }
 }
