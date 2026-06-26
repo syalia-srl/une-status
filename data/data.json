@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-25T23:58:09+00:00",
+  "generated_at": "2026-06-26T03:28:37+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-25T22:52:12+00:00",
+    "as_of": "2026-06-26T03:20:44+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,26 +33,44 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-06-25T22:52:12+00:00",
+      "ts": "2026-06-26T03:20:44+00:00",
       "averias": [
         {
-          "municipio": "Playa",
-          "direccion": "la siguiente dirección: 41/72 y 72A ⚡️ 🛑",
+          "municipio": "Boyeros",
+          "direccion": "la siguiente dirección: Carretera Santiago-Managua,Finca Barreto ⚡️ 🛑",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-25T22:52:12+00:00",
-        "municipio": "Playa",
-        "direccion": "la siguiente dirección: 41/72 y 72A ⚡️ 🛑",
+        "ts": "2026-06-26T03:20:44+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la siguiente dirección: Carretera Santiago-Managua,Finca Barreto ⚡️ 🛑",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-06-25T22:46:46+00:00",
+        "ts": "2026-06-26T01:43:41+00:00",
+        "municipio": "Playa",
+        "direccion": "la siguiente dirección: 17/34 y 36 ⚡️ 🛑",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-26T00:43:46+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-06-26T00:14:19+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "la siguiente dirección: Maceo/Caña y Pañuelo,Diezmero ⚡️ 🛑",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-26T00:12:39+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "la siguiente dirección: 16/4ta y 6ta,Bahía ⚡️ 🛑",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -286,14 +304,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
+      "Boyeros": 2,
+      "Habana Del Este": 1,
+      "San Miguel Del Padrón": 1,
       "Playa": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 2,
+    "averias_total": 5,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "averias": 1
+      "otro": 2,
+      "averias": 4,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -344,17 +365,18 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Marianao": 4,
+      "Boyeros": 4,
       "Guanabacoa": 3,
       "Lisa": 3,
       "Cerro": 3,
-      "Boyeros": 3,
       "Plaza": 2,
+      "Habana Del Este": 2,
       "Cotorro": 2,
-      "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
+      "San Miguel Del Padrón": 1,
       "Playa": 1
     },
-    "averias_total": 23,
+    "averias_total": 26,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -381,20 +403,20 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Boyeros": 8,
       "Guanabacoa": 8,
-      "Boyeros": 7,
       "Lisa": 7,
+      "Habana Del Este": 6,
       "Marianao": 6,
-      "Habana Del Este": 5,
       "Cerro": 4,
       "Plaza": 4,
       "Cotorro": 3,
       "Arroyo Naranjo": 2,
+      "San Miguel Del Padrón": 2,
       "Centro Habana": 2,
-      "San Miguel Del Padrón": 1,
       "Playa": 1
     },
-    "averias_total": 50,
+    "averias_total": 53,
     "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -415,17 +437,17 @@
       "5": 70334,
       "6": 72384
     },
-    "averias_total": 3247,
+    "averias_total": 3250,
     "averias_top_municipios": {
-      "Boyeros": 340,
+      "Boyeros": 341,
       "Playa": 282,
       "Arroyo Naranjo": 254,
       "Lisa": 235,
-      "Habana Del Este": 225,
+      "Habana Del Este": 226,
       "Guanabacoa": 219,
       "Cerro": 186,
       "Plaza": 183,
-      "San Miguel Del Padrón": 181,
+      "San Miguel Del Padrón": 182,
       "Marianao": 151,
       "Cotorro": 97,
       "Centro Habana": 69,
