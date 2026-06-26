@@ -1,10 +1,10 @@
 {
   "date": "2026-06-26",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
-  "interruption_minutes": null,
-  "emergency_mw": null,
+  "peak_mw_affected": 640,
+  "peak_time": "23:10",
+  "interruption_minutes": 1440,
+  "emergency_mw": 245,
   "block_outage_minutes": {
     "1": 0,
     "2": 0,
@@ -22,11 +22,19 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 2,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 1,
+    "Mariano": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 3,
+  "source_msg_count": 17,
   "by_type_counts": {
-    "restablecimiento": 1,
-    "disparo_circuito": 1
+    "restablecimiento": 10,
+    "pronostico": 1,
+    "nota_diaria": 1,
+    "via_libre": 1,
+    "disparo_circuito": 3,
+    "corto": 1
   }
 }
