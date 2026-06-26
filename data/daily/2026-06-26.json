@@ -1,0 +1,38 @@
+{
+  "date": "2026-06-26",
+  "finalized": false,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 1440,
+    "2": 1440,
+    "3": 1440,
+    "4": 1440,
+    "5": 1440,
+    "6": 1440
+  },
+  "total_block_outage_minutes": 8640,
+  "daf_count": 0,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "partial_sen_collapse_count": 0,
+  "partial_sen_reconnect_count": 0,
+  "partial_sen_outage_minutes": 0,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "Marianao En El Reparto Zamora": 1,
+    "Lisa En El Reparto Novoa": 1,
+    "Plaza": 1,
+    "Cerro": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 6,
+  "by_type_counts": {
+    "averias": 4,
+    "restablecimiento_gradual": 1,
+    "otro": 1
+  }
+}
