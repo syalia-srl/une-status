@@ -8,13 +8,13 @@
   "block_outage_minutes": {
     "1": 0,
     "2": 0,
-    "3": 0,
+    "3": 454,
     "4": 0,
-    "5": 516,
-    "6": 527
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 1043,
-  "daf_count": 4,
+  "total_block_outage_minutes": 454,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,16 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Plaza De La Revolución": 1,
-    "Regla": 1
+    "Regla": 1,
+    "Boyeros": 1
   },
   "averias_total": 2,
-  "source_msg_count": 19,
+  "source_msg_count": 7,
   "by_type_counts": {
-    "restablecimiento": 9,
-    "inicio_afectacion": 3,
-    "disparo_circuito": 2,
-    "daf": 4,
-    "averias": 1
+    "averias": 2,
+    "inicio_afectacion": 1,
+    "via_libre": 1,
+    "daf": 2,
+    "restablecimiento_daf": 1
   }
 }

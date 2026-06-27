@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-27T19:49:50+00:00",
+  "generated_at": "2026-06-27T20:48:45+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-27T19:43:35+00:00",
+    "as_of": "2026-06-27T20:46:23+00:00",
     "bloques": [
       {
         "id": 1,
@@ -15,55 +15,52 @@
       },
       {
         "id": 3,
-        "state": "encendido",
-        "since": "2026-06-27T19:19:10+00:00"
+        "state": "apagado",
+        "since": "2026-06-27T20:25:57+00:00",
+        "emergency": true
       },
       {
         "id": 4,
-        "state": "encendido",
-        "since": "2026-06-27T19:30:00+00:00"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-27T19:23:49+00:00",
-        "emergency": true
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-27T19:12:14+00:00",
-        "emergency": true
+        "state": "desconocido"
       }
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-06-27T19:34:27+00:00",
+      "ts": "2026-06-27T20:19:57+00:00",
       "averias": [
         {
-          "municipio": "Regla",
-          "direccion": "las calles García Manruz y Camilo Cienfuegos, Regla 🚨",
+          "municipio": "Boyeros",
+          "direccion": "calle Fernández de Castro entre Este y La Pastora, Aldabó 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-27T19:34:27+00:00",
-        "municipio": "Regla",
-        "direccion": "las calles García Manruz y Camilo Cienfuegos, Regla 🚨",
+        "ts": "2026-06-27T20:19:57+00:00",
+        "municipio": "Boyeros",
+        "direccion": "calle Fernández de Castro entre Este y La Pastora, Aldabó 🚨",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-06-27T18:48:21+00:00",
-        "municipio": "Plaza De La Revolución",
-        "kind": "disparo_circuito"
+        "ts": "2026-06-27T20:00:37+00:00",
+        "municipio": "Regla",
+        "direccion": "calle Máximo Gómez entre 27 de Noviembre y Pereira 🚨",
+        "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-06-27T19:43:35+00:00",
-      "type": "daf"
+      "ts": "2026-06-27T20:46:23+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -280,13 +277,13 @@
     "block_outage_minutes": {
       "1": 0,
       "2": 0,
-      "3": 0,
+      "3": 454,
       "4": 0,
-      "5": 516,
-      "6": 527
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 1043,
-    "daf_count": 4,
+    "total_block_outage_minutes": 454,
+    "daf_count": 2,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -295,17 +292,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza De La Revolución": 1,
-      "Regla": 1
+      "Regla": 1,
+      "Boyeros": 1
     },
     "averias_total": 2,
-    "source_msg_count": 19,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 9,
-      "inicio_afectacion": 3,
-      "disparo_circuito": 2,
-      "daf": 4,
-      "averias": 1
+      "averias": 2,
+      "inicio_afectacion": 1,
+      "via_libre": 1,
+      "daf": 2,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -352,27 +349,26 @@
     "total_block_outage_minutes": {
       "1": 616,
       "2": 640,
-      "3": 535,
+      "3": 989,
       "4": 468,
-      "5": 1030,
-      "6": 1082
+      "5": 514,
+      "6": 555
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 3,
+      "Boyeros": 3,
       "Cerro": 2,
       "Marianao": 2,
-      "Boyeros": 2,
       "Cotorro": 2,
       "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
       "Plaza": 1,
       "Guanabacoa": 1,
-      "Plaza De La Revolución": 1,
       "Regla": 1
     },
     "averias_total": 17,
-    "daf_total": 6,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -391,16 +387,16 @@
     "total_block_outage_minutes": {
       "1": 11994,
       "2": 7324,
-      "3": 6943,
+      "3": 7397,
       "4": 10089,
-      "5": 11303,
-      "6": 10201
+      "5": 10787,
+      "6": 9674
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 8,
       "Guanabacoa": 8,
-      "Boyeros": 6,
+      "Boyeros": 7,
       "Marianao": 6,
       "Habana Del Este": 5,
       "Cerro": 4,
@@ -409,11 +405,10 @@
       "Arroyo Naranjo": 2,
       "Centro Habana": 2,
       "San Miguel Del Padrón": 1,
-      "Plaza De La Revolución": 1,
       "Regla": 1
     },
     "averias_total": 51,
-    "daf_total": 21,
+    "daf_total": 19,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -428,14 +423,14 @@
     "total_block_outage_minutes": {
       "1": 77348,
       "2": 77558,
-      "3": 63410,
+      "3": 63864,
       "4": 72449,
-      "5": 71364,
-      "6": 73466
+      "5": 70848,
+      "6": 72939
     },
     "averias_total": 3248,
     "averias_top_municipios": {
-      "Boyeros": 339,
+      "Boyeros": 340,
       "Playa": 281,
       "Arroyo Naranjo": 254,
       "Lisa": 236,
@@ -451,7 +446,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2360,
+    "daf_total": 2358,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -709,7 +704,7 @@
       },
       {
         "date": "2026-06-27",
-        "minutes": 1043
+        "minutes": 454
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1811,15 +1806,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 57854
+        "minutes": 57265
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2360,
-    "daf_last_30d": 24,
+    "daf_total": 2358,
+    "daf_last_30d": 22,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
