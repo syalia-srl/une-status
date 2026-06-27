@@ -1,70 +1,64 @@
 {
-  "generated_at": "2026-06-27T17:07:14+00:00",
+  "generated_at": "2026-06-27T18:16:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-27T17:05:31+00:00",
+    "as_of": "2026-06-27T18:13:32+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
-      },
-      {
-        "id": 2,
         "state": "apagado",
-        "since": "2026-06-27T16:04:50+00:00",
+        "since": "2026-06-27T18:00:30+00:00",
         "emergency": true
       },
       {
+        "id": 2,
+        "state": "desconocido"
+      },
+      {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-26T21:02:19+00:00",
-        "hours_off_today": 19.0
+        "state": "encendido",
+        "since": "2026-06-27T18:13:32+00:00"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-06-26T21:27:19+00:00",
-        "hours_off_today": 18.583333333333332
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido",
-        "since": "2026-06-27T17:02:11+00:00"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido",
-        "since": "2026-06-27T16:26:51+00:00"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 164,
-    "current_mw_affected_at": "2026-06-27T16:02:19+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-06-27T16:46:49+00:00",
-      "averias": []
+      "ts": "2026-06-27T18:08:26+00:00",
+      "averias": [
+        {
+          "municipio": "Plaza De La Revolución",
+          "direccion": "calle L entre 13 y Línea afectando el servicio eléctrico en Soterrado del Vedado 🚨",
+          "severity": "primaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-27T17:05:31+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-27T16:29:43+00:00",
-        "municipio": "Guanabacoa",
+        "ts": "2026-06-27T18:08:26+00:00",
+        "municipio": "Plaza De La Revolución",
+        "direccion": "calle L entre 13 y Línea afectando el servicio eléctrico en Soterrado del Vedado 🚨",
         "severity": "primaria"
       },
       {
-        "ts": "2026-06-27T15:59:32+00:00",
-        "municipio": "Boyero",
+        "ts": "2026-06-27T17:33:11+00:00",
+        "municipio": "Lisa",
         "kind": "disparo_circuito"
       }
     ],
-    "last_daf": {
-      "ts": "2026-06-27T16:55:53+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -273,20 +267,20 @@
   "day": {
     "date": "2026-06-27",
     "finalized": false,
-    "peak_mw_affected": 164,
-    "peak_time": "12:02",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 715,
-      "3": 1140,
-      "4": 1115,
-      "5": 1145,
-      "6": 1165
+      "1": 599,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 5280,
-    "daf_count": 1,
+    "total_block_outage_minutes": 599,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -295,20 +289,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyero": 1,
-      "Guanabacoa": 1,
-      "Habana Del Este": 1
+      "Lisa": 1,
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 11,
+    "averias_total": 2,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "disparo_circuito": 2,
-      "actualizacion_bloques": 1,
-      "inicio_afectacion": 1,
+      "restablecimiento": 2,
+      "mantenimiento": 1,
       "otro": 1,
-      "restablecimiento": 3,
+      "disparo_circuito": 1,
       "averias": 2,
-      "daf": 1
+      "inicio_afectacion": 1
     }
   },
   "yesterday": {
@@ -349,32 +341,32 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 402.0,
+    "avg_peak_mw": 640.0,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 616,
-      "2": 1355,
-      "3": 1675,
-      "4": 1583,
-      "5": 1659,
-      "6": 1720
+      "1": 1215,
+      "2": 640,
+      "3": 535,
+      "4": 468,
+      "5": 514,
+      "6": 555
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 3,
-      "Habana Del Este": 2,
+      "Lisa": 4,
       "Cerro": 2,
       "Marianao": 2,
       "Boyeros": 2,
       "Cotorro": 2,
-      "Guanabacoa": 2,
+      "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
       "Plaza": 1,
-      "Boyero": 1
+      "Guanabacoa": 1,
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 18,
-    "daf_total": 3,
+    "averias_total": 17,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -387,34 +379,34 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 27,
-    "avg_peak_mw": 370.6,
+    "avg_peak_mw": 384.3,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 11994,
-      "2": 8039,
-      "3": 8083,
-      "4": 11204,
-      "5": 11932,
-      "6": 10839
+      "1": 12593,
+      "2": 7324,
+      "3": 6943,
+      "4": 10089,
+      "5": 10787,
+      "6": 9674
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 9,
-      "Lisa": 8,
+      "Lisa": 9,
+      "Guanabacoa": 8,
       "Boyeros": 6,
-      "Habana Del Este": 6,
       "Marianao": 6,
+      "Habana Del Este": 5,
       "Cerro": 4,
       "Plaza": 4,
       "Cotorro": 3,
       "Arroyo Naranjo": 2,
       "Centro Habana": 2,
       "San Miguel Del Padrón": 1,
-      "Boyero": 1
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 52,
-    "daf_total": 18,
+    "averias_total": 51,
+    "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -427,21 +419,21 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77348,
-      "2": 78273,
-      "3": 64550,
-      "4": 73564,
-      "5": 71993,
-      "6": 74104
+      "1": 77947,
+      "2": 77558,
+      "3": 63410,
+      "4": 72449,
+      "5": 70848,
+      "6": 72939
     },
-    "averias_total": 3249,
+    "averias_total": 3248,
     "averias_top_municipios": {
       "Boyeros": 339,
       "Playa": 281,
       "Arroyo Naranjo": 254,
-      "Lisa": 236,
-      "Habana Del Este": 226,
-      "Guanabacoa": 220,
+      "Lisa": 237,
+      "Habana Del Este": 225,
+      "Guanabacoa": 219,
       "Cerro": 186,
       "Plaza": 183,
       "San Miguel Del Padrón": 181,
@@ -452,7 +444,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2357,
+    "daf_total": 2356,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -588,7 +580,7 @@
       },
       {
         "date": "2026-06-27",
-        "peak_mw": 164
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -710,7 +702,7 @@
       },
       {
         "date": "2026-06-27",
-        "minutes": 5280
+        "minutes": 599
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1432,7 +1424,7 @@
       },
       {
         "date": "2026-06-27",
-        "peak_mw": 164
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1812,15 +1804,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 62091
+        "minutes": 57410
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2357,
-    "daf_last_30d": 21,
+    "daf_total": 2356,
+    "daf_last_30d": 20,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
