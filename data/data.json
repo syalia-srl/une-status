@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-06-27T13:06:29+00:00",
+  "generated_at": "2026-06-27T14:53:45+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-27T12:53:14+00:00",
+    "as_of": "2026-06-27T14:43:09+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido",
+        "since": "2026-06-27T14:43:09+00:00"
       },
       {
         "id": 2,
         "state": "encendido",
-        "since": "2026-06-27T12:53:14+00:00"
+        "since": "2026-06-27T13:09:00+00:00"
       },
       {
         "id": 3,
@@ -34,54 +35,25 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-06-27T12:36:36+00:00",
+      "ts": "2026-06-27T13:43:55+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "las calles: 41 entre 270 y 272 afectando el servicio eléctrico de los repartos Bello 26, San Agustín, Arroyo Arenas 🚨"
+          "municipio": "Boyeros",
+          "direccion": "Cotilla y Aldabó, Aldabó 🚨",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-27T12:52:56+00:00",
-        "municipio": "Guanabacoa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-27T12:36:36+00:00",
-        "municipio": "Lisa",
-        "direccion": "las calles: 41 entre 270 y 272 afectando el servicio eléctrico de los repartos Bello 26, San Agustín, Arroyo Arenas 🚨"
-      },
-      {
-        "ts": "2026-06-27T12:32:53+00:00",
-        "municipio": "Lisa",
-        "direccion": "270 entre 39 y 41 Arroyo Arenas 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-27T12:04:40+00:00",
+        "ts": "2026-06-27T13:43:55+00:00",
         "municipio": "Boyeros",
-        "direccion": "96 y final, Finca América reparto Calabazar 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-27T12:02:32+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las siguientes direcciones: 👉🏼 Payares entre Martí y Línea del Ferrocarril, Eléctrico 👉🏼 6ta entre Camilo Cienfuegos y Rosales, Eléctrico 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-27T11:58:16+00:00",
-        "municipio": "Boyeros",
-        "direccion": "las siguientes direcciones: 👉🏼 164 entre 377 y 385, Mulgoba",
+        "direccion": "Cotilla y Aldabó, Aldabó 🚨",
         "severity": "secundaria"
       }
     ],
     "last_daf": null,
-    "last_pronostico": {
-      "ts": "2026-06-27T12:29:29+00:00"
-    },
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -289,10 +261,10 @@
   "day": {
     "date": "2026-06-27",
     "finalized": false,
-    "peak_mw_affected": 556,
-    "peak_time": "23:10",
-    "interruption_minutes": 1440,
-    "emergency_mw": 210,
+    "peak_mw_affected": null,
+    "peak_time": null,
+    "interruption_minutes": null,
+    "emergency_mw": null,
     "block_outage_minutes": {
       "1": 0,
       "2": 0,
@@ -311,20 +283,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 2,
-      "Lisa": 2,
-      "Arroyo Naranjo": 1,
-      "Guanabacoa": 1
+      "Boyeros": 1
     },
-    "averias_total": 6,
-    "source_msg_count": 17,
+    "averias_total": 1,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "averias": 5,
-      "nota_diaria": 1,
-      "restablecimiento": 7,
-      "pronostico": 1,
-      "corto": 2,
-      "disparo_circuito": 1
+      "restablecimiento": 4,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -365,9 +330,9 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 598.0,
+    "avg_peak_mw": 640.0,
     "max_peak_mw": 640,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 616,
       "2": 640,
@@ -376,19 +341,19 @@
       "5": 514,
       "6": 555
     },
-    "total_emergency_mw_sum": 210,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 5,
-      "Boyeros": 4,
+      "Lisa": 3,
+      "Boyeros": 3,
       "Cerro": 2,
       "Marianao": 2,
       "Cotorro": 2,
-      "Arroyo Naranjo": 2,
-      "Guanabacoa": 2,
       "Habana Del Este": 1,
-      "Plaza": 1
+      "Arroyo Naranjo": 1,
+      "Plaza": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 21,
+    "averias_total": 16,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -402,9 +367,9 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 27,
-    "avg_peak_mw": 395.1,
+    "avg_peak_mw": 384.3,
     "max_peak_mw": 640,
-    "total_interruption_minutes": 1440,
+    "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 11994,
       "2": 7324,
@@ -413,21 +378,21 @@
       "5": 10787,
       "6": 9674
     },
-    "total_emergency_mw_sum": 210,
+    "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 10,
-      "Guanabacoa": 9,
-      "Boyeros": 8,
+      "Lisa": 8,
+      "Guanabacoa": 8,
+      "Boyeros": 7,
       "Marianao": 6,
       "Habana Del Este": 5,
       "Cerro": 4,
       "Plaza": 4,
-      "Arroyo Naranjo": 3,
       "Cotorro": 3,
+      "Arroyo Naranjo": 2,
       "Centro Habana": 2,
       "San Miguel Del Padrón": 1
     },
-    "averias_total": 55,
+    "averias_total": 50,
     "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -439,7 +404,7 @@
   "all_time": {
     "months_count": 47,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 61210,
+    "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
       "1": 77348,
       "2": 77558,
@@ -448,14 +413,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3252,
+    "averias_total": 3247,
     "averias_top_municipios": {
-      "Boyeros": 341,
+      "Boyeros": 340,
       "Playa": 281,
-      "Arroyo Naranjo": 255,
-      "Lisa": 238,
+      "Arroyo Naranjo": 254,
+      "Lisa": 236,
       "Habana Del Este": 225,
-      "Guanabacoa": 220,
+      "Guanabacoa": 219,
       "Cerro": 186,
       "Plaza": 183,
       "San Miguel Del Padrón": 181,
@@ -602,7 +567,7 @@
       },
       {
         "date": "2026-06-27",
-        "peak_mw": 556
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1446,7 +1411,7 @@
       },
       {
         "date": "2026-06-27",
-        "peak_mw": 556
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [

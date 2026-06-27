@@ -1,10 +1,10 @@
 {
   "date": "2026-06-27",
   "finalized": false,
-  "peak_mw_affected": 556,
-  "peak_time": "23:10",
-  "interruption_minutes": 1440,
-  "emergency_mw": 210,
+  "peak_mw_affected": null,
+  "peak_time": null,
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
     "1": 0,
     "2": 0,
@@ -23,19 +23,12 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 2,
-    "Lisa": 2,
-    "Arroyo Naranjo": 1,
-    "Guanabacoa": 1
+    "Boyeros": 1
   },
-  "averias_total": 6,
-  "source_msg_count": 17,
+  "averias_total": 1,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "averias": 5,
-    "nota_diaria": 1,
-    "restablecimiento": 7,
-    "pronostico": 1,
-    "corto": 2,
-    "disparo_circuito": 1
+    "restablecimiento": 4,
+    "averias": 1
   }
 }
