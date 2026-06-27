@@ -1,15 +1,13 @@
 {
-  "generated_at": "2026-06-27T18:16:49+00:00",
+  "generated_at": "2026-06-27T19:49:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-27T18:13:32+00:00",
+    "as_of": "2026-06-27T19:43:35+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-06-27T18:00:30+00:00",
-        "emergency": true
+        "state": "desconocido"
       },
       {
         "id": 2,
@@ -18,47 +16,55 @@
       {
         "id": 3,
         "state": "encendido",
-        "since": "2026-06-27T18:13:32+00:00"
+        "since": "2026-06-27T19:19:10+00:00"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido",
+        "since": "2026-06-27T19:30:00+00:00"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-27T19:23:49+00:00",
+        "emergency": true
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-27T19:12:14+00:00",
+        "emergency": true
       }
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-06-27T18:08:26+00:00",
+      "ts": "2026-06-27T19:34:27+00:00",
       "averias": [
         {
-          "municipio": "Plaza De La Revolución",
-          "direccion": "calle L entre 13 y Línea afectando el servicio eléctrico en Soterrado del Vedado 🚨",
-          "severity": "primaria"
+          "municipio": "Regla",
+          "direccion": "las calles García Manruz y Camilo Cienfuegos, Regla 🚨",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-27T18:08:26+00:00",
-        "municipio": "Plaza De La Revolución",
-        "direccion": "calle L entre 13 y Línea afectando el servicio eléctrico en Soterrado del Vedado 🚨",
-        "severity": "primaria"
+        "ts": "2026-06-27T19:34:27+00:00",
+        "municipio": "Regla",
+        "direccion": "las calles García Manruz y Camilo Cienfuegos, Regla 🚨",
+        "severity": "secundaria"
       },
       {
-        "ts": "2026-06-27T17:33:11+00:00",
-        "municipio": "Lisa",
+        "ts": "2026-06-27T18:48:21+00:00",
+        "municipio": "Plaza De La Revolución",
         "kind": "disparo_circuito"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-06-27T19:43:35+00:00",
+      "type": "daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -272,15 +278,15 @@
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 599,
+      "1": 0,
       "2": 0,
       "3": 0,
       "4": 0,
-      "5": 0,
-      "6": 0
+      "5": 516,
+      "6": 527
     },
-    "total_block_outage_minutes": 599,
-    "daf_count": 0,
+    "total_block_outage_minutes": 1043,
+    "daf_count": 4,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -289,18 +295,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1,
-      "Plaza De La Revolución": 1
+      "Plaza De La Revolución": 1,
+      "Regla": 1
     },
     "averias_total": 2,
-    "source_msg_count": 8,
+    "source_msg_count": 19,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "mantenimiento": 1,
-      "otro": 1,
-      "disparo_circuito": 1,
-      "averias": 2,
-      "inicio_afectacion": 1
+      "restablecimiento": 9,
+      "inicio_afectacion": 3,
+      "disparo_circuito": 2,
+      "daf": 4,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -345,16 +350,16 @@
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 1215,
+      "1": 616,
       "2": 640,
       "3": 535,
       "4": 468,
-      "5": 514,
-      "6": 555
+      "5": 1030,
+      "6": 1082
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 4,
+      "Lisa": 3,
       "Cerro": 2,
       "Marianao": 2,
       "Boyeros": 2,
@@ -363,10 +368,11 @@
       "Arroyo Naranjo": 1,
       "Plaza": 1,
       "Guanabacoa": 1,
-      "Plaza De La Revolución": 1
+      "Plaza De La Revolución": 1,
+      "Regla": 1
     },
     "averias_total": 17,
-    "daf_total": 2,
+    "daf_total": 6,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -383,16 +389,16 @@
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 12593,
+      "1": 11994,
       "2": 7324,
       "3": 6943,
       "4": 10089,
-      "5": 10787,
-      "6": 9674
+      "5": 11303,
+      "6": 10201
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 9,
+      "Lisa": 8,
       "Guanabacoa": 8,
       "Boyeros": 6,
       "Marianao": 6,
@@ -403,10 +409,11 @@
       "Arroyo Naranjo": 2,
       "Centro Habana": 2,
       "San Miguel Del Padrón": 1,
-      "Plaza De La Revolución": 1
+      "Plaza De La Revolución": 1,
+      "Regla": 1
     },
     "averias_total": 51,
-    "daf_total": 17,
+    "daf_total": 21,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -419,19 +426,19 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77947,
+      "1": 77348,
       "2": 77558,
       "3": 63410,
       "4": 72449,
-      "5": 70848,
-      "6": 72939
+      "5": 71364,
+      "6": 73466
     },
     "averias_total": 3248,
     "averias_top_municipios": {
       "Boyeros": 339,
       "Playa": 281,
       "Arroyo Naranjo": 254,
-      "Lisa": 237,
+      "Lisa": 236,
       "Habana Del Este": 225,
       "Guanabacoa": 219,
       "Cerro": 186,
@@ -442,9 +449,9 @@
       "Centro Habana": 69,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 42
+      "Regla": 43
     },
-    "daf_total": 2356,
+    "daf_total": 2360,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -702,7 +709,7 @@
       },
       {
         "date": "2026-06-27",
-        "minutes": 599
+        "minutes": 1043
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1804,15 +1811,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 57410
+        "minutes": 57854
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2356,
-    "daf_last_30d": 20,
+    "daf_total": 2360,
+    "daf_last_30d": 24,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

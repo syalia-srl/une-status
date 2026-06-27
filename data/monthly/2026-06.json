@@ -6,16 +6,16 @@
   "max_peak_mw": 640,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 12593,
+    "1": 11994,
     "2": 7324,
     "3": 6943,
     "4": 10089,
-    "5": 10787,
-    "6": 9674
+    "5": 11303,
+    "6": 10201
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Lisa": 9,
+    "Lisa": 8,
     "Guanabacoa": 8,
     "Boyeros": 6,
     "Marianao": 6,
@@ -26,10 +26,11 @@
     "Arroyo Naranjo": 2,
     "Centro Habana": 2,
     "San Miguel Del Padrón": 1,
-    "Plaza De La Revolución": 1
+    "Plaza De La Revolución": 1,
+    "Regla": 1
   },
   "averias_total": 51,
-  "daf_total": 17,
+  "daf_total": 21,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
