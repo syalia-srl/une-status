@@ -8,12 +8,12 @@
   "block_outage_minutes": {
     "1": 0,
     "2": 0,
-    "3": 0,
+    "3": 437,
     "4": 0,
-    "5": 0,
-    "6": 494
+    "5": 471,
+    "6": 0
   },
-  "total_block_outage_minutes": 494,
+  "total_block_outage_minutes": 908,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,16 +23,14 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Centro Habana": 1
+    "Habana Del Este": 1
   },
   "averias_total": 1,
-  "source_msg_count": 8,
+  "source_msg_count": 6,
   "by_type_counts": {
-    "averias": 1,
-    "disparo_circuito": 2,
+    "inicio_afectacion": 2,
     "daf": 1,
-    "restablecimiento": 2,
-    "otro": 1,
-    "inicio_afectacion": 1
+    "disparo_circuito": 2,
+    "averias": 1
   }
 }
