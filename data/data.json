@@ -1,71 +1,39 @@
 {
-  "generated_at": "2026-06-28T06:41:46+00:00",
+  "generated_at": "2026-06-28T09:46:45+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-28T06:40:58+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-06-27T18:25:45+00:00",
-        "hours_off_today": 9.666666666666666
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido",
-        "since": "2026-06-28T06:40:58+00:00"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-27T20:30:45+00:00",
-        "hours_off_today": 7.583333333333333
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-06-27T21:45:45+00:00",
-        "hours_off_today": 6.333333333333333
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-27T19:30:45+00:00",
-        "hours_off_today": 8.583333333333334
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-27T19:15:45+00:00",
-        "hours_off_today": 8.833333333333334
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 552,
-    "current_mw_affected_at": "2026-06-28T04:05:45+00:00",
-    "active_averias": {
-      "ts": "2026-06-28T05:12:39+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": "Carretera a Managua 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-06-28T05:12:39+00:00",
-        "municipio": "Boyeros",
-        "direccion": "Carretera a Managua 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-06-28T05:06:02+00:00",
-        "municipio": "Lisa",
-        "kind": "disparo_circuito"
-      }
-    ],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
