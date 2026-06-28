@@ -2,18 +2,18 @@
   "month": "2026-06",
   "finalized": false,
   "dailies_count": 28,
-  "avg_peak_mw": 394.9,
+  "avg_peak_mw": 384.3,
   "max_peak_mw": 640,
-  "total_interruption_minutes": 1440,
+  "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
     "1": 11994,
-    "2": 8293,
+    "2": 7324,
     "3": 6943,
     "4": 10089,
     "5": 10787,
     "6": 9674
   },
-  "total_emergency_mw_sum": 176,
+  "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
     "Lisa": 8,
     "Guanabacoa": 8,
