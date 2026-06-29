@@ -1,74 +1,40 @@
 {
-  "generated_at": "2026-06-29T22:19:19+00:00",
+  "generated_at": "2026-06-29T23:31:30+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-29T22:08:10+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-06-29T12:05:30+00:00",
-        "hours_off_today": 9.916666666666666
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-06-29T12:45:30+00:00",
-        "hours_off_today": 9.25
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-29T18:10:30+00:00",
-        "hours_off_today": 3.8333333333333335
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-06-29T21:20:30+00:00",
-        "hours_off_today": 0.6666666666666666
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-29T18:39:30+00:00",
-        "hours_off_today": 3.35
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-29T15:10:30+00:00",
-        "hours_off_today": 6.833333333333333
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 378,
-    "current_mw_affected_at": "2026-06-29T22:00:30+00:00",
-    "active_averias": {
-      "ts": "2026-06-29T21:16:37+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-06-29T22:08:10+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-29T21:16:37+00:00",
-        "municipio": "Lisa",
-        "severity": "secundaria"
-      }
-    ],
-    "last_daf": {
-      "ts": "2026-06-29T21:46:49+00:00",
-      "type": "daf"
-    },
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
