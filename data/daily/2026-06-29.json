@@ -1,19 +1,19 @@
 {
   "date": "2026-06-29",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 378,
+  "peak_time": "18:00",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 0
+    "1": 954,
+    "2": 914,
+    "3": 589,
+    "4": 399,
+    "5": 560,
+    "6": 769
   },
-  "total_block_outage_minutes": 0,
+  "total_block_outage_minutes": 4185,
   "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,12 +23,17 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Playa": 1
+    "Lisa": 1,
+    "San Miguel Del Padrón": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 2,
+  "averias_total": 2,
+  "source_msg_count": 6,
   "by_type_counts": {
     "averias": 1,
-    "daf": 1
+    "otro": 1,
+    "inicio_afectacion": 1,
+    "daf": 1,
+    "actualizacion_bloques": 1,
+    "disparo_circuito": 1
   }
 }
