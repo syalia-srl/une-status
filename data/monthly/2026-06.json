@@ -22,13 +22,14 @@
     "Habana Del Este": 5,
     "Cerro": 4,
     "Plaza": 4,
-    "Centro Habana": 3,
     "Cotorro": 3,
     "Arroyo Naranjo": 2,
-    "San Miguel Del Padrón": 1
+    "Centro Habana": 2,
+    "San Miguel Del Padrón": 1,
+    "Playa": 1
   },
   "averias_total": 50,
-  "daf_total": 17,
+  "daf_total": 18,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
