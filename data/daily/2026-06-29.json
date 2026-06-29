@@ -1,19 +1,19 @@
 {
   "date": "2026-06-29",
   "finalized": false,
-  "peak_mw_affected": 632,
-  "peak_time": "23:10",
-  "interruption_minutes": 1440,
-  "emergency_mw": 238,
+  "peak_mw_affected": 195,
+  "peak_time": "12:01",
+  "interruption_minutes": null,
+  "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
+    "1": 903,
+    "2": 948,
+    "3": 1155,
+    "4": 1135,
     "5": 0,
     "6": 0
   },
-  "total_block_outage_minutes": 0,
+  "total_block_outage_minutes": 4141,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -22,14 +22,18 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 9,
+  "averias_count_by_municipio": {
+    "Lisa": 1,
+    "Habana Vieja": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 10,
   "by_type_counts": {
-    "otro": 3,
-    "pronostico": 1,
-    "restablecimiento_gradual": 3,
-    "nota_diaria": 1,
-    "restablecimiento": 1
+    "corto": 1,
+    "averias": 3,
+    "actualizacion_bloques": 1,
+    "disparo_circuito": 1,
+    "otro": 2,
+    "restablecimiento": 2
   }
 }
