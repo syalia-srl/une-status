@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-28T23:45:07+00:00",
+  "generated_at": "2026-06-29T01:55:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-28T23:42:45+00:00",
+    "as_of": "2026-06-29T01:38:06+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,30 +33,27 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-06-28T23:33:53+00:00",
+      "ts": "2026-06-29T00:49:57+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
+          "municipio": "Plaza",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-28T23:33:53+00:00",
-        "municipio": "Guanabacoa",
+        "ts": "2026-06-29T00:49:57+00:00",
+        "municipio": "Plaza",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-06-28T23:32:06+00:00",
-        "municipio": "Lisa",
-        "direccion": "LA SUBESTACIÓN DE PUNTA BRAVA afectando : Punta Brava, El Guatao, Estrella Roja 🚧 ⚡️"
+        "ts": "2026-06-29T00:33:41+00:00",
+        "municipio": "Guanabacoa",
+        "severity": "secundaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-06-28T23:17:38+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -278,7 +275,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -287,16 +284,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1,
-      "Guanabacoa": 1
+      "Guanabacoa": 1,
+      "Plaza": 1
     },
     "averias_total": 2,
-    "source_msg_count": 9,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "averias": 3,
-      "otro": 2,
+      "otro": 1,
       "restablecimiento": 3,
-      "daf": 1
+      "averias": 2
     }
   },
   "yesterday": {
@@ -348,17 +344,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 4,
+      "Lisa": 3,
       "Cerro": 2,
       "Marianao": 2,
       "Boyeros": 2,
       "Cotorro": 2,
+      "Plaza": 2,
       "Guanabacoa": 2,
-      "Arroyo Naranjo": 1,
-      "Plaza": 1
+      "Arroyo Naranjo": 1
     },
     "averias_total": 16,
-    "daf_total": 1,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -384,20 +380,20 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 9,
       "Guanabacoa": 9,
+      "Lisa": 8,
       "Boyeros": 6,
       "Marianao": 6,
+      "Plaza": 5,
       "Habana Del Este": 5,
       "Cerro": 4,
-      "Plaza": 4,
       "Cotorro": 3,
       "Arroyo Naranjo": 2,
       "Centro Habana": 2,
       "San Miguel Del Padrón": 1
     },
     "averias_total": 51,
-    "daf_total": 18,
+    "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -422,11 +418,11 @@
       "Boyeros": 339,
       "Playa": 281,
       "Arroyo Naranjo": 254,
-      "Lisa": 237,
+      "Lisa": 236,
       "Habana Del Este": 225,
       "Guanabacoa": 220,
       "Cerro": 186,
-      "Plaza": 183,
+      "Plaza": 184,
       "San Miguel Del Padrón": 181,
       "Marianao": 151,
       "Cotorro": 97,
@@ -435,7 +431,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2357,
+    "daf_total": 2356,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1802,8 +1798,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2357,
-    "daf_last_30d": 19,
+    "daf_total": 2356,
+    "daf_last_30d": 18,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
