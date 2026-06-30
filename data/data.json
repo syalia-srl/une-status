@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-06-30T18:10:59+00:00",
+  "generated_at": "2026-06-30T20:17:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-30T18:03:03+00:00",
+    "as_of": "2026-06-30T20:07:29+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-30T15:54:48+00:00",
-        "hours_off_today": 1.7333333333333334
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-29T22:44:48+00:00",
-        "hours_off_today": 18.9
+        "state": "encendido",
+        "since": "2026-06-30T19:12:49+00:00"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-29T16:28:48+00:00",
-        "hours_off_today": 25.166666666666668
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 172,
-    "current_mw_affected_at": "2026-06-30T17:38:48+00:00",
-    "active_averias": null,
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-06-30T19:26:57+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": "Florida entre Flores y Cumbre, afectando el servicio eléctrico en Averof, El Retiro, El Calvario, María Antonia, 13 de Agosto, 27 de Noviembre, Eléctrico 🚨",
+          "severity": "secundaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-06-30T17:22:40+00:00",
-        "municipio": "Playa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-30T17:21:39+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
+        "ts": "2026-06-30T19:26:57+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "Florida entre Flores y Cumbre, afectando el servicio eléctrico en Averof, El Retiro, El Calvario, María Antonia, 13 de Agosto, 27 de Noviembre, Eléctrico 🚨",
+        "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-06-30T16:09:33+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-06-30T19:23:26+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -263,20 +263,20 @@
   "day": {
     "date": "2026-06-30",
     "finalized": false,
-    "peak_mw_affected": 172,
-    "peak_time": "13:38",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
       "1": 0,
       "2": 0,
-      "3": 725,
+      "3": 0,
       "4": 0,
-      "5": 1134,
-      "6": 1510
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 3369,
-    "daf_count": 0,
+    "total_block_outage_minutes": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -285,19 +285,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Marianao": 1,
-      "Playa": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 10,
+    "averias_total": 1,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "restablecimiento_daf": 1,
-      "otro": 2,
-      "restablecimiento": 1,
-      "restablecimiento_gradual": 1,
-      "disparo_circuito": 2,
-      "actualizacion_bloques": 1,
-      "via_libre": 2
+      "restablecimiento": 2,
+      "daf": 1,
+      "averias": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -338,27 +334,26 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 406.0,
+    "avg_peak_mw": 640.0,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 616,
       "2": 640,
-      "3": 1260,
+      "3": 535,
       "4": 468,
-      "5": 1648,
-      "6": 2065
+      "5": 514,
+      "6": 555
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 1,
       "San Miguel Del Padrón": 1,
       "Cotorro": 1,
-      "Marianao": 1,
-      "Playa": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 5,
-    "daf_total": 0,
+    "averias_total": 4,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -371,34 +366,33 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 30,
-    "avg_peak_mw": 371.1,
+    "avg_peak_mw": 384.3,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 11994,
       "2": 7324,
-      "3": 7668,
+      "3": 6943,
       "4": 10089,
-      "5": 11921,
-      "6": 11184
+      "5": 10787,
+      "6": 9674
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 8,
       "Guanabacoa": 8,
-      "Marianao": 7,
       "Boyeros": 6,
+      "Marianao": 6,
       "Habana Del Este": 5,
       "Cerro": 4,
       "Plaza": 4,
       "Cotorro": 4,
-      "Arroyo Naranjo": 2,
+      "Arroyo Naranjo": 3,
       "San Miguel Del Padrón": 2,
-      "Centro Habana": 2,
-      "Playa": 1
+      "Centro Habana": 2
     },
-    "averias_total": 53,
-    "daf_total": 17,
+    "averias_total": 52,
+    "daf_total": 18,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -413,30 +407,30 @@
     "total_block_outage_minutes": {
       "1": 77348,
       "2": 77558,
-      "3": 64135,
+      "3": 63410,
       "4": 72449,
-      "5": 71982,
-      "6": 74449
+      "5": 70848,
+      "6": 72939
     },
-    "averias_total": 3250,
+    "averias_total": 3249,
     "averias_top_municipios": {
       "Boyeros": 339,
-      "Playa": 282,
-      "Arroyo Naranjo": 254,
+      "Playa": 281,
+      "Arroyo Naranjo": 255,
       "Lisa": 236,
       "Habana Del Este": 225,
       "Guanabacoa": 219,
       "Cerro": 186,
       "Plaza": 183,
       "San Miguel Del Padrón": 182,
-      "Marianao": 152,
+      "Marianao": 151,
       "Cotorro": 98,
       "Centro Habana": 69,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2356,
+    "daf_total": 2357,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -572,7 +566,7 @@
       },
       {
         "date": "2026-06-30",
-        "peak_mw": 172
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -694,7 +688,7 @@
       },
       {
         "date": "2026-06-30",
-        "minutes": 3369
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1416,7 +1410,7 @@
       },
       {
         "date": "2026-06-30",
-        "peak_mw": 172
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1796,15 +1790,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 60180
+        "minutes": 56811
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2356,
-    "daf_last_30d": 17,
+    "daf_total": 2357,
+    "daf_last_30d": 18,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
