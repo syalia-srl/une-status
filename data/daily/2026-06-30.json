@@ -1,20 +1,20 @@
 {
   "date": "2026-06-30",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 442,
+  "peak_time": "06:00",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 0
+    "1": 1315,
+    "2": 1275,
+    "3": 950,
+    "4": 760,
+    "5": 921,
+    "6": 1130
   },
-  "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "total_block_outage_minutes": 6351,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,15 +22,11 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Guanabacoa": 1,
-    "Playa": 1
-  },
-  "averias_total": 2,
-  "source_msg_count": 4,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 2,
   "by_type_counts": {
-    "daf": 2,
-    "averias": 1,
-    "disparo_circuito": 1
+    "actualizacion_bloques": 1,
+    "averias": 1
   }
 }

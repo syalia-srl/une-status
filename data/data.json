@@ -1,62 +1,55 @@
 {
-  "generated_at": "2026-06-30T08:54:37+00:00",
+  "generated_at": "2026-06-30T11:38:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-30T08:52:43+00:00",
+    "as_of": "2026-06-30T10:15:33+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T12:05:09+00:00",
+        "hours_off_today": 21.916666666666668
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T12:45:09+00:00",
+        "hours_off_today": 21.25
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T18:10:09+00:00",
+        "hours_off_today": 15.833333333333334
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T21:20:09+00:00",
+        "hours_off_today": 12.666666666666666
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T18:39:09+00:00",
+        "hours_off_today": 15.35
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T15:10:09+00:00",
+        "hours_off_today": 18.833333333333332
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 442,
+    "current_mw_affected_at": "2026-06-30T10:00:09+00:00",
     "active_averias": {
-      "ts": "2026-06-30T06:39:15+00:00",
-      "averias": [
-        {
-          "municipio": "Guanabacoa",
-          "direccion": "la siguiente direcciòn:Callejón de Berroa km 1½"
-        }
-      ]
+      "ts": "2026-06-30T10:15:33+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-06-30T08:52:43+00:00",
-        "municipio": "Playa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-06-30T06:39:15+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la siguiente direcciòn:Callejón de Berroa km 1½"
-      }
-    ],
-    "last_daf": {
-      "ts": "2026-06-30T07:39:15+00:00",
-      "type": "daf"
-    },
+    "averias_24h": [],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -265,20 +258,20 @@
   "day": {
     "date": "2026-06-30",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 442,
+    "peak_time": "06:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 1315,
+      "2": 1275,
+      "3": 950,
+      "4": 760,
+      "5": 921,
+      "6": 1130
     },
-    "total_block_outage_minutes": 0,
-    "daf_count": 2,
+    "total_block_outage_minutes": 6351,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -286,16 +279,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Playa": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "daf": 2,
-      "averias": 1,
-      "disparo_circuito": 1
+      "actualizacion_bloques": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -336,27 +325,25 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 640.0,
+    "avg_peak_mw": 541.0,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 616,
-      "2": 640,
-      "3": 535,
-      "4": 468,
-      "5": 514,
-      "6": 555
+      "1": 1931,
+      "2": 1915,
+      "3": 1485,
+      "4": 1228,
+      "5": 1435,
+      "6": 1685
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 1,
       "San Miguel Del Padrón": 1,
-      "Cotorro": 1,
-      "Guanabacoa": 1,
-      "Playa": 1
+      "Cotorro": 1
     },
-    "averias_total": 5,
-    "daf_total": 2,
+    "averias_total": 3,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -369,21 +356,21 @@
     "month": "2026-06",
     "finalized": false,
     "dailies_count": 30,
-    "avg_peak_mw": 384.3,
+    "avg_peak_mw": 387.9,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 11994,
-      "2": 7324,
-      "3": 6943,
-      "4": 10089,
-      "5": 10787,
-      "6": 9674
+      "1": 13309,
+      "2": 8599,
+      "3": 7893,
+      "4": 10849,
+      "5": 11708,
+      "6": 10804
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 9,
       "Lisa": 8,
+      "Guanabacoa": 8,
       "Boyeros": 6,
       "Marianao": 6,
       "Habana Del Este": 5,
@@ -392,11 +379,10 @@
       "Cotorro": 4,
       "Arroyo Naranjo": 2,
       "San Miguel Del Padrón": 2,
-      "Centro Habana": 2,
-      "Playa": 1
+      "Centro Habana": 2
     },
-    "averias_total": 53,
-    "daf_total": 19,
+    "averias_total": 51,
+    "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -409,21 +395,21 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77348,
-      "2": 77558,
-      "3": 63410,
-      "4": 72449,
-      "5": 70848,
-      "6": 72939
+      "1": 78663,
+      "2": 78833,
+      "3": 64360,
+      "4": 73209,
+      "5": 71769,
+      "6": 74069
     },
-    "averias_total": 3250,
+    "averias_total": 3248,
     "averias_top_municipios": {
       "Boyeros": 339,
-      "Playa": 282,
+      "Playa": 281,
       "Arroyo Naranjo": 254,
       "Lisa": 236,
       "Habana Del Este": 225,
-      "Guanabacoa": 220,
+      "Guanabacoa": 219,
       "Cerro": 186,
       "Plaza": 183,
       "San Miguel Del Padrón": 182,
@@ -434,7 +420,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2358,
+    "daf_total": 2356,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -570,7 +556,7 @@
       },
       {
         "date": "2026-06-30",
-        "peak_mw": null
+        "peak_mw": 442
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -692,7 +678,7 @@
       },
       {
         "date": "2026-06-30",
-        "minutes": 0
+        "minutes": 6351
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1414,7 +1400,7 @@
       },
       {
         "date": "2026-06-30",
-        "peak_mw": null
+        "peak_mw": 442
       }
     ],
     "monthly_max_peak_mw": [
@@ -1794,15 +1780,15 @@
       },
       {
         "month": "2026-06",
-        "minutes": 56811
+        "minutes": 63162
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2358,
-    "daf_last_30d": 19,
+    "daf_total": 2356,
+    "daf_last_30d": 17,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
