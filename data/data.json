@@ -1,50 +1,67 @@
 {
-  "generated_at": "2026-06-30T01:35:16+00:00",
+  "generated_at": "2026-06-30T05:53:36+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-06-30T01:32:36+00:00",
+    "as_of": "2026-06-30T04:39:41+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T12:33:01+00:00",
+        "hours_off_today": 15.916666666666666
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T13:13:01+00:00",
+        "hours_off_today": 15.25
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T18:38:01+00:00",
+        "hours_off_today": 9.833333333333334
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T21:48:01+00:00",
+        "hours_off_today": 6.666666666666667
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T19:07:01+00:00",
+        "hours_off_today": 9.35
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-29T15:38:01+00:00",
+        "hours_off_today": 12.833333333333334
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 508,
+    "current_mw_affected_at": "2026-06-30T04:28:01+00:00",
     "active_averias": {
-      "ts": "2026-06-30T01:19:27+00:00",
+      "ts": "2026-06-30T03:41:08+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
+          "municipio": "Cotorro",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-06-30T01:19:27+00:00",
-        "municipio": "Boyeros",
+        "ts": "2026-06-30T03:41:08+00:00",
+        "municipio": "Cotorro",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-06-30T03:38:34+00:00",
+        "municipio": "San Miguel Del Padrón",
         "severity": "secundaria"
       }
     ],
@@ -255,21 +272,21 @@
     ]
   },
   "day": {
-    "date": "2026-06-29",
+    "date": "2026-06-30",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 508,
+    "peak_time": "00:28",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 955,
+      "2": 915,
+      "3": 590,
+      "4": 400,
+      "5": 561,
+      "6": 770
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 4191,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -278,18 +295,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1
-    },
-    "averias_total": 1,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "source_msg_count": 2,
     "by_type_counts": {
-      "averias": 1,
+      "actualizacion_bloques": 1,
       "otro": 1
     }
   },
   "yesterday": {
-    "date": "2026-06-28",
+    "date": "2026-06-29",
     "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -312,38 +327,38 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 1,
+      "Cotorro": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "otro": 3
+      "otro": 2,
+      "averias": 2
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 640.0,
+    "avg_peak_mw": 574.0,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 616,
-      "2": 640,
-      "3": 535,
-      "4": 468,
-      "5": 514,
-      "6": 555
+      "1": 1571,
+      "2": 1555,
+      "3": 1125,
+      "4": 868,
+      "5": 1075,
+      "6": 1325
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 3,
-      "Cotorro": 2,
-      "Lisa": 2,
-      "Arroyo Naranjo": 1,
-      "Plaza": 1,
-      "Guanabacoa": 1,
-      "Marianao": 1
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1,
+      "Cotorro": 1
     },
-    "averias_total": 11,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -356,33 +371,33 @@
   "month": {
     "month": "2026-06",
     "finalized": false,
-    "dailies_count": 29,
-    "avg_peak_mw": 384.3,
+    "dailies_count": 30,
+    "avg_peak_mw": 392.1,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 11994,
-      "2": 7324,
-      "3": 6943,
-      "4": 10089,
-      "5": 10787,
-      "6": 9674
+      "1": 12949,
+      "2": 8239,
+      "3": 7533,
+      "4": 10489,
+      "5": 11348,
+      "6": 10444
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 8,
       "Guanabacoa": 8,
-      "Boyeros": 7,
+      "Boyeros": 6,
       "Marianao": 6,
       "Habana Del Este": 5,
       "Cerro": 4,
       "Plaza": 4,
-      "Cotorro": 3,
+      "Cotorro": 4,
       "Arroyo Naranjo": 2,
-      "Centro Habana": 2,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 2,
+      "Centro Habana": 2
     },
-    "averias_total": 50,
+    "averias_total": 51,
     "daf_total": 17,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -396,16 +411,16 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77348,
-      "2": 77558,
-      "3": 63410,
-      "4": 72449,
-      "5": 70848,
-      "6": 72939
+      "1": 78303,
+      "2": 78473,
+      "3": 64000,
+      "4": 72849,
+      "5": 71409,
+      "6": 73709
     },
-    "averias_total": 3247,
+    "averias_total": 3248,
     "averias_top_municipios": {
-      "Boyeros": 340,
+      "Boyeros": 339,
       "Playa": 281,
       "Arroyo Naranjo": 254,
       "Lisa": 236,
@@ -413,9 +428,9 @@
       "Guanabacoa": 219,
       "Cerro": 186,
       "Plaza": 183,
-      "San Miguel Del Padrón": 181,
+      "San Miguel Del Padrón": 182,
       "Marianao": 151,
-      "Cotorro": 97,
+      "Cotorro": 98,
       "Centro Habana": 69,
       "De Boyeros": 50,
       "De Playa": 49,
@@ -439,10 +454,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-05-31",
-        "peak_mw": 244
-      },
       {
         "date": "2026-06-01",
         "peak_mw": 392
@@ -558,13 +569,13 @@
       {
         "date": "2026-06-29",
         "peak_mw": null
+      },
+      {
+        "date": "2026-06-30",
+        "peak_mw": 508
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-05-31",
-        "minutes": 1587
-      },
       {
         "date": "2026-06-01",
         "minutes": 3986
@@ -680,13 +691,13 @@
       {
         "date": "2026-06-29",
         "minutes": 0
+      },
+      {
+        "date": "2026-06-30",
+        "minutes": 4191
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-01-01",
-        "peak_mw": null
-      },
       {
         "date": "2026-01-02",
         "peak_mw": null
@@ -1402,6 +1413,10 @@
       {
         "date": "2026-06-29",
         "peak_mw": null
+      },
+      {
+        "date": "2026-06-30",
+        "peak_mw": 508
       }
     ],
     "monthly_max_peak_mw": [
@@ -1781,7 +1796,7 @@
       },
       {
         "month": "2026-06",
-        "minutes": 56811
+        "minutes": 61002
       }
     ],
     "sen_outage_days_total": 7,
@@ -1810,9 +1825,9 @@
     }
   },
   "meta": {
-    "daily_count": 1429,
+    "daily_count": 1430,
     "monthly_count": 47,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-06-29"
+    "latest_date": "2026-06-30"
   }
 }
