@@ -15,11 +15,13 @@
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
+    "Habana Del Este": 1,
     "Guanabacoa": 1,
-    "Lisa": 1
+    "Arroyo Naranjo": 1,
+    "Playa": 1
   },
-  "averias_total": 2,
-  "daf_total": 3,
+  "averias_total": 4,
+  "daf_total": 1,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
