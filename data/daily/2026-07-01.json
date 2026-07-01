@@ -1,19 +1,19 @@
 {
   "date": "2026-07-01",
   "finalized": false,
-  "peak_mw_affected": 636,
-  "peak_time": "00:04",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 441,
-    "2": 528,
-    "3": 745,
-    "4": 583,
-    "5": 365,
-    "6": 393
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 3055,
+  "total_block_outage_minutes": 0,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,15 +23,15 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Playa": 1,
-    "Cerro": 1,
-    "Boyeros": 1
+    "Arroyo Naranjo": 2,
+    "Playa": 1
   },
   "averias_total": 3,
-  "source_msg_count": 6,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "disparo_circuito": 1,
-    "actualizacion_bloques": 1,
-    "averias": 4
+    "restablecimiento_gradual": 1,
+    "disparo_circuito": 2,
+    "otro": 1,
+    "averias": 1
   }
 }

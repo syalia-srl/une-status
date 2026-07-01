@@ -1,131 +1,67 @@
 {
-  "generated_at": "2026-07-01T04:59:36+00:00",
+  "generated_at": "2026-07-01T08:49:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-01T04:58:43+00:00",
+    "as_of": "2026-07-01T08:48:24+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-06-30T20:43:33+00:00",
-        "hours_off_today": 7.35
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-06-30T19:16:33+00:00",
-        "hours_off_today": 8.8
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-06-30T15:39:33+00:00",
-        "hours_off_today": 12.416666666666666
+        "state": "encendido",
+        "since": "2026-07-01T05:59:57+00:00"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-06-30T18:21:33+00:00",
-        "hours_off_today": 9.716666666666667
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-30T21:59:33+00:00",
-        "hours_off_today": 6.083333333333333
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-30T21:31:33+00:00",
-        "hours_off_today": 6.55
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 636,
-    "current_mw_affected_at": "2026-07-01T04:04:33+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-01T04:58:43+00:00",
+      "ts": "2026-07-01T08:48:24+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
-          "direccion": "la siguiente dirección: Caña entre Presidente Gómez y Máximo Gómez, afectando el servicio eléctrico en Las Cañas, Calabazar 🚨",
+          "municipio": "Playa",
+          "direccion": "la siguiente dirección: 58 / 29 y 31 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-01T04:58:43+00:00",
-        "municipio": "Boyeros",
-        "direccion": "la siguiente dirección: Caña entre Presidente Gómez y Máximo Gómez, afectando el servicio eléctrico en Las Cañas, Calabazar 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-01T04:09:40+00:00",
-        "municipio": "Cerro",
-        "direccion": "Callejón de Los Perros desde Línea del Ferrocarril hasta Camagüey, Camagüey desde 13 hasta Independencia, Canal hasta 13 y Camagüey, Independencia desde Camagüey hasta 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-01T04:01:51+00:00",
+        "ts": "2026-07-01T08:48:24+00:00",
         "municipio": "Playa",
+        "direccion": "la siguiente dirección: 58 / 29 y 31 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-01T08:27:48+00:00",
+        "municipio": "Arroyo Naranjo",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-07-01T03:36:48+00:00",
-        "municipio": "Cerro",
-        "direccion": "Calzada del Cerro desde Cruz del Padre hasta San Carlos, San Carlos hasta Tulipán, Calzada del Cerro hasta Resguardo, Calzada del Cerro hasta Santa Ana 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-01T03:06:38+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "Antonio Carretero / Pepe Prieto y San Elías ✅"
-      },
-      {
-        "ts": "2026-07-01T02:44:07+00:00",
-        "municipio": "Plaza",
-        "direccion": "calles 27 y 2 hasta B, B desde 27 hasta 21; 21 desde B hasta E; E desde 29 hasta 9, C hasta G desde 21; 19 hasta 13 desde G hasta J, 17 desde O hasta 6; 4 desde 19 hasta 11 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-01T02:04:15+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "5ta / C y Final ✅"
-      },
-      {
-        "ts": "2026-07-01T02:03:30+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "G / Dolores y 3ra ✅"
-      },
-      {
-        "ts": "2026-07-01T02:02:47+00:00",
-        "municipio": "Cotorro",
-        "direccion": "Calzada de Managua y Paseo ✅"
-      },
-      {
-        "ts": "2026-07-01T01:55:56+00:00",
+        "ts": "2026-07-01T07:10:52+00:00",
         "municipio": "Arroyo Naranjo",
-        "direccion": "la siguiente dirección: Pinar entre Collazo y Santa Teresa, afectando el servicio eléctrico en Ponce, Juan Antonio Saco, Mendoza, El Capri, Alcazar 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-01T01:14:42+00:00",
-        "municipio": "Boyeros",
-        "direccion": "274 entre 243 y 269 ✅"
-      },
-      {
-        "ts": "2026-07-01T01:12:30+00:00",
-        "municipio": "Marianao",
-        "direccion": "la siguiente dirección: 41 entre 130 y 132, afectando el servicio eléctrico en Zamora 🚨",
-        "severity": "secundaria"
+        "kind": "disparo_circuito"
       }
     ],
-    "last_daf": {
-      "ts": "2026-07-01T03:11:39+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -334,19 +270,19 @@
   "day": {
     "date": "2026-07-01",
     "finalized": false,
-    "peak_mw_affected": 636,
-    "peak_time": "00:04",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 441,
-      "2": 528,
-      "3": 745,
-      "4": 583,
-      "5": 365,
-      "6": 393
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 3055,
+    "total_block_outage_minutes": 0,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -356,16 +292,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa": 1,
-      "Cerro": 1,
-      "Boyeros": 1
+      "Arroyo Naranjo": 2,
+      "Playa": 1
     },
     "averias_total": 3,
-    "source_msg_count": 6,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "actualizacion_bloques": 1,
-      "averias": 4
+      "restablecimiento_gradual": 1,
+      "disparo_circuito": 2,
+      "otro": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -414,28 +350,28 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 638.0,
+    "avg_peak_mw": 640.0,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 1057,
-      "2": 1168,
-      "3": 1280,
-      "4": 1051,
-      "5": 879,
-      "6": 948
+      "1": 616,
+      "2": 640,
+      "3": 535,
+      "4": 468,
+      "5": 514,
+      "6": 555
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "San Miguel Del Padrón": 3,
+      "Arroyo Naranjo": 3,
       "Cotorro": 2,
-      "Boyeros": 2,
-      "Cerro": 2,
       "Lisa": 1,
       "Marianao": 1,
-      "Arroyo Naranjo": 1,
+      "Boyeros": 1,
       "Guanabacoa": 1,
       "Plaza": 1,
+      "Cerro": 1,
       "Playa": 1
     },
     "averias_total": 15,
@@ -452,22 +388,21 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 1,
-    "avg_peak_mw": 636.0,
-    "max_peak_mw": 636,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 441,
-      "2": 528,
-      "3": 745,
-      "4": 583,
-      "5": 365,
-      "6": 393
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Playa": 1,
-      "Cerro": 1,
-      "Boyeros": 1
+      "Arroyo Naranjo": 2,
+      "Playa": 1
     },
     "averias_total": 3,
     "daf_total": 0,
@@ -483,22 +418,22 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77789,
-      "2": 78086,
-      "3": 64155,
-      "4": 73032,
-      "5": 71213,
-      "6": 73332
+      "1": 77348,
+      "2": 77558,
+      "3": 63410,
+      "4": 72449,
+      "5": 70848,
+      "6": 72939
     },
     "averias_total": 3260,
     "averias_top_municipios": {
-      "Boyeros": 341,
+      "Boyeros": 340,
       "Playa": 282,
-      "Arroyo Naranjo": 255,
+      "Arroyo Naranjo": 257,
       "Lisa": 236,
       "Habana Del Este": 225,
       "Guanabacoa": 220,
-      "Cerro": 188,
+      "Cerro": 187,
       "San Miguel Del Padrón": 184,
       "Plaza": 184,
       "Marianao": 152,
@@ -644,7 +579,7 @@
       },
       {
         "date": "2026-07-01",
-        "peak_mw": 636
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -766,7 +701,7 @@
       },
       {
         "date": "2026-07-01",
-        "minutes": 3055
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1488,7 +1423,7 @@
       },
       {
         "date": "2026-07-01",
-        "peak_mw": 636
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1682,7 +1617,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": 636
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1876,7 +1811,7 @@
       },
       {
         "month": "2026-07",
-        "minutes": 3055
+        "minutes": 0
       }
     ],
     "sen_outage_days_total": 7,
