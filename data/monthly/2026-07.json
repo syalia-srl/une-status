@@ -1,0 +1,30 @@
+{
+  "month": "2026-07",
+  "finalized": false,
+  "dailies_count": 1,
+  "avg_peak_mw": 636.0,
+  "max_peak_mw": 636,
+  "total_interruption_minutes": 0,
+  "total_block_outage_minutes": {
+    "1": 441,
+    "2": 528,
+    "3": 745,
+    "4": 583,
+    "5": 365,
+    "6": 393
+  },
+  "total_emergency_mw_sum": 0,
+  "averias_count_by_municipio": {
+    "Playa": 1,
+    "Cerro": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 3,
+  "daf_total": 0,
+  "sen_collapse_total": 0,
+  "sen_outage_days": 0,
+  "sen_outage_minutes_total": 0,
+  "partial_sen_collapse_total": 0,
+  "partial_sen_outage_minutes_total": 0,
+  "cte_offline_minutes_total": {}
+}
