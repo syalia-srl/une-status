@@ -1,75 +1,56 @@
 {
-  "generated_at": "2026-07-01T21:56:44+00:00",
+  "generated_at": "2026-07-01T23:06:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-01T21:48:03+00:00",
+    "as_of": "2026-07-01T23:02:10+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-01T21:27:03+00:00",
+        "hours_off_today": 0.5833333333333334
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-01T19:02:03+00:00",
+        "hours_off_today": 3.0
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-01T08:42:03+00:00",
+        "hours_off_today": 13.333333333333334
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-01T16:52:03+00:00",
+        "hours_off_today": 5.166666666666667
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-30T22:22:03+00:00",
+        "hours_off_today": 23.666666666666668
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-30T21:27:03+00:00",
+        "hours_off_today": 24.583333333333332
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 418,
+    "current_mw_affected_at": "2026-07-01T22:02:03+00:00",
     "active_averias": {
-      "ts": "2026-07-01T21:48:03+00:00",
-      "averias": [
-        {
-          "municipio": "Playa",
-          "direccion": "las calles 72 entre 15 y 17 🚨",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-01T22:05:17+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-07-01T21:48:03+00:00",
-        "municipio": "Playa",
-        "direccion": "las calles 72 entre 15 y 17 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-01T21:17:46+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las calles Martí entre Calzada de Managua y Coliseo 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-01T20:59:55+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles Estrada Palma entre Venus y Santo Domingo, Villa II 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-01T20:51:02+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "las calles 13 entre 82 y 90 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": {
-      "ts": "2026-07-01T20:41:34+00:00",
+      "ts": "2026-07-01T23:02:09+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -280,19 +261,19 @@
   "day": {
     "date": "2026-07-01",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 418,
+    "peak_time": "18:02",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 392,
+      "2": 537,
+      "3": 1157,
+      "4": 667,
+      "5": 1420,
+      "6": 1475
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 5648,
     "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -301,19 +282,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "Guanabacoa": 1,
-      "Arroyo Naranjo": 1,
-      "Playa": 1
-    },
-    "averias_total": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "source_msg_count": 8,
     "by_type_counts": {
+      "actualizacion_bloques": 1,
+      "averias": 1,
+      "otro": 3,
+      "pinned": 1,
       "daf": 1,
-      "restablecimiento_daf": 1,
-      "otro": 2,
-      "averias": 4
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -362,32 +340,30 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 640.0,
+    "avg_peak_mw": 529.0,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 616,
-      "2": 640,
-      "3": 535,
-      "4": 468,
-      "5": 514,
-      "6": 555
+      "1": 1008,
+      "2": 1177,
+      "3": 1692,
+      "4": 1135,
+      "5": 1934,
+      "6": 2030
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "San Miguel Del Padrón": 3,
       "Cotorro": 2,
-      "Arroyo Naranjo": 2,
-      "Guanabacoa": 2,
       "Lisa": 1,
       "Marianao": 1,
       "Boyeros": 1,
+      "Arroyo Naranjo": 1,
+      "Guanabacoa": 1,
       "Plaza": 1,
-      "Cerro": 1,
-      "Habana Del Este": 1,
-      "Playa": 1
+      "Cerro": 1
     },
-    "averias_total": 16,
+    "averias_total": 12,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -401,25 +377,20 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 1,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 418.0,
+    "max_peak_mw": 418,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 392,
+      "2": 537,
+      "3": 1157,
+      "4": 667,
+      "5": 1420,
+      "6": 1475
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "Guanabacoa": 1,
-      "Arroyo Naranjo": 1,
-      "Playa": 1
-    },
-    "averias_total": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -433,21 +404,21 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77348,
-      "2": 77558,
-      "3": 63410,
-      "4": 72449,
-      "5": 70848,
-      "6": 72939
+      "1": 77740,
+      "2": 78095,
+      "3": 64567,
+      "4": 73116,
+      "5": 72268,
+      "6": 74414
     },
-    "averias_total": 3261,
+    "averias_total": 3257,
     "averias_top_municipios": {
       "Boyeros": 340,
-      "Playa": 282,
-      "Arroyo Naranjo": 256,
+      "Playa": 281,
+      "Arroyo Naranjo": 255,
       "Lisa": 236,
-      "Habana Del Este": 226,
-      "Guanabacoa": 221,
+      "Habana Del Este": 225,
+      "Guanabacoa": 220,
       "Cerro": 187,
       "San Miguel Del Padrón": 184,
       "Plaza": 184,
@@ -594,7 +565,7 @@
       },
       {
         "date": "2026-07-01",
-        "peak_mw": null
+        "peak_mw": 418
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -716,7 +687,7 @@
       },
       {
         "date": "2026-07-01",
-        "minutes": 0
+        "minutes": 5648
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1438,7 +1409,7 @@
       },
       {
         "date": "2026-07-01",
-        "peak_mw": null
+        "peak_mw": 418
       }
     ],
     "monthly_max_peak_mw": [
@@ -1632,7 +1603,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": null
+        "max_peak_mw": 418
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1826,7 +1797,7 @@
       },
       {
         "month": "2026-07",
-        "minutes": 0
+        "minutes": 5648
       }
     ],
     "sen_outage_days_total": 7,
