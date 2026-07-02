@@ -1,58 +1,56 @@
 {
-  "generated_at": "2026-07-01T23:06:47+00:00",
+  "generated_at": "2026-07-02T00:19:04+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-01T23:02:10+00:00",
+    "as_of": "2026-07-01T23:07:12+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-07-01T21:27:03+00:00",
-        "hours_off_today": 0.5833333333333334
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-07-01T19:02:03+00:00",
-        "hours_off_today": 3.0
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-07-01T08:42:03+00:00",
-        "hours_off_today": 13.333333333333334
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-07-01T16:52:03+00:00",
-        "hours_off_today": 5.166666666666667
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-30T22:22:03+00:00",
-        "hours_off_today": 23.666666666666668
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-06-30T21:27:03+00:00",
-        "hours_off_today": 24.583333333333332
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 418,
-    "current_mw_affected_at": "2026-07-01T22:02:03+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-01T22:05:17+00:00",
-      "averias": []
+      "ts": "2026-07-01T23:07:12+00:00",
+      "averias": [
+        {
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "las calles Isis entre Aliado y Final",
+          "severity": "secundaria"
+        }
+      ]
     },
-    "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-07-01T23:02:09+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-01T23:07:12+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "las calles Isis entre Aliado y Final",
+        "severity": "secundaria"
+      }
+    ],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -261,20 +259,20 @@
   "day": {
     "date": "2026-07-01",
     "finalized": false,
-    "peak_mw_affected": 418,
-    "peak_time": "18:02",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 392,
-      "2": 537,
-      "3": 1157,
-      "4": 667,
-      "5": 1420,
-      "6": 1475
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 5648,
-    "daf_count": 1,
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -282,16 +280,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 8,
+    "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "averias": 1,
-      "otro": 3,
-      "pinned": 1,
-      "daf": 1,
-      "restablecimiento_daf": 1
+      "averias": 1
     }
   },
   "yesterday": {
@@ -340,20 +335,20 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 529.0,
+    "avg_peak_mw": 640.0,
     "max_peak_mw": 640,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 1008,
-      "2": 1177,
-      "3": 1692,
-      "4": 1135,
-      "5": 1934,
-      "6": 2030
+      "1": 616,
+      "2": 640,
+      "3": 535,
+      "4": 468,
+      "5": 514,
+      "6": 555
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 3,
+      "San Miguel Del Padrón": 4,
       "Cotorro": 2,
       "Lisa": 1,
       "Marianao": 1,
@@ -363,8 +358,8 @@
       "Plaza": 1,
       "Cerro": 1
     },
-    "averias_total": 12,
-    "daf_total": 2,
+    "averias_total": 13,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -377,21 +372,23 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 1,
-    "avg_peak_mw": 418.0,
-    "max_peak_mw": 418,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 392,
-      "2": 537,
-      "3": 1157,
-      "4": 667,
-      "5": 1420,
-      "6": 1475
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "daf_total": 1,
+    "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 1,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -404,14 +401,14 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77740,
-      "2": 78095,
-      "3": 64567,
-      "4": 73116,
-      "5": 72268,
-      "6": 74414
+      "1": 77348,
+      "2": 77558,
+      "3": 63410,
+      "4": 72449,
+      "5": 70848,
+      "6": 72939
     },
-    "averias_total": 3257,
+    "averias_total": 3258,
     "averias_top_municipios": {
       "Boyeros": 340,
       "Playa": 281,
@@ -420,7 +417,7 @@
       "Habana Del Este": 225,
       "Guanabacoa": 220,
       "Cerro": 187,
-      "San Miguel Del Padrón": 184,
+      "San Miguel Del Padrón": 185,
       "Plaza": 184,
       "Marianao": 152,
       "Cotorro": 99,
@@ -429,7 +426,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2358,
+    "daf_total": 2357,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -565,7 +562,7 @@
       },
       {
         "date": "2026-07-01",
-        "peak_mw": 418
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -687,7 +684,7 @@
       },
       {
         "date": "2026-07-01",
-        "minutes": 5648
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1409,7 +1406,7 @@
       },
       {
         "date": "2026-07-01",
-        "peak_mw": 418
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1603,7 +1600,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": 418
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1797,15 +1794,15 @@
       },
       {
         "month": "2026-07",
-        "minutes": 5648
+        "minutes": 0
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2358,
-    "daf_last_30d": 19,
+    "daf_total": 2357,
+    "daf_last_30d": 18,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
