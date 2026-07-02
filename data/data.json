@@ -1,94 +1,57 @@
 {
-  "generated_at": "2026-07-02T04:36:34+00:00",
+  "generated_at": "2026-07-02T07:54:55+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-02T04:26:57+00:00",
+    "as_of": "2026-07-02T07:46:59+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-07-01T21:27:50+00:00",
-        "hours_off_today": 6.583333333333333
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-07-01T19:02:50+00:00",
-        "hours_off_today": 9.0
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-07-01T08:42:50+00:00",
-        "hours_off_today": 19.333333333333332
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-07-01T16:52:50+00:00",
-        "hours_off_today": 11.166666666666666
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-06-30T22:22:50+00:00",
-        "hours_off_today": 29.666666666666668
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendiendose",
-        "since": "2026-07-02T04:21:29+00:00"
+        "state": "encendido",
+        "since": "2026-07-02T04:47:47+00:00"
       }
     ],
-    "current_mw_affected": 519,
-    "current_mw_affected_at": "2026-07-02T04:02:50+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-02T04:26:57+00:00",
+      "ts": "2026-07-02T06:23:36+00:00",
       "averias": [
         {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "las calles Mercado entre 3ra y 5ta, Martín Pérez 🚨",
+          "municipio": "Guanabacoa",
+          "direccion": "las calles Carretera de Santa María y Peñalver, Villa María 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-02T04:26:57+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "las calles Mercado entre 3ra y 5ta, Martín Pérez 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-02T03:03:20+00:00",
-        "municipio": "Lisa",
-        "direccion": "las calles 222 entre 93 y Final 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-02T02:50:32+00:00",
-        "municipio": "Cerro",
-        "direccion": "las calles Infanta entre Santa Teresa entre Cintra 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-02T02:33:33+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "las calles B entre 4ta y Palma, Luyanó Moderno 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-02T01:19:52+00:00",
-        "municipio": "Plaza",
-        "direccion": "las calles L entre M y N 🚨",
+        "ts": "2026-07-02T06:23:36+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "las calles Carretera de Santa María y Peñalver, Villa María 🚨",
         "severity": "secundaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-07-02T01:39:56+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -297,19 +260,19 @@
   "day": {
     "date": "2026-07-02",
     "finalized": false,
-    "peak_mw_affected": 519,
-    "peak_time": "00:02",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 395,
-      "2": 540,
-      "3": 1160,
-      "4": 670,
-      "5": 1780,
-      "6": 1835
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 6380,
+    "total_block_outage_minutes": 0,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -319,13 +282,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1
+      "Guanabacoa": 1
     },
     "averias_total": 1,
-    "source_msg_count": 3,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "restablecimiento_gradual": 1,
+      "restablecimiento": 2,
+      "otro": 2,
+      "transferencia_bloque": 1,
+      "disparo_circuito": 1,
       "averias": 1
     }
   },
@@ -373,28 +338,28 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 519.0,
-    "max_peak_mw": 519,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 395,
-      "2": 540,
-      "3": 1160,
-      "4": 670,
-      "5": 1780,
-      "6": 1835
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 5,
+      "San Miguel Del Padrón": 4,
       "Lisa": 2,
       "Cotorro": 2,
+      "Guanabacoa": 2,
       "Plaza": 2,
       "Cerro": 2,
       "Marianao": 1,
       "Boyeros": 1,
-      "Arroyo Naranjo": 1,
-      "Guanabacoa": 1
+      "Arroyo Naranjo": 1
     },
     "averias_total": 17,
     "daf_total": 2,
@@ -410,23 +375,24 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 2,
-    "avg_peak_mw": 519.0,
-    "max_peak_mw": 519,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 395,
-      "2": 540,
-      "3": 1160,
-      "4": 670,
-      "5": 1780,
-      "6": 1835
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 2,
       "Plaza": 1,
+      "San Miguel Del Padrón": 1,
       "Cerro": 1,
-      "Lisa": 1
+      "Lisa": 1,
+      "Guanabacoa": 1
     },
     "averias_total": 5,
     "daf_total": 1,
@@ -442,12 +408,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77743,
-      "2": 78098,
-      "3": 64570,
-      "4": 73119,
-      "5": 72628,
-      "6": 74774
+      "1": 77348,
+      "2": 77558,
+      "3": 63410,
+      "4": 72449,
+      "5": 70848,
+      "6": 72939
     },
     "averias_total": 3262,
     "averias_top_municipios": {
@@ -456,9 +422,9 @@
       "Arroyo Naranjo": 255,
       "Lisa": 237,
       "Habana Del Este": 225,
-      "Guanabacoa": 220,
+      "Guanabacoa": 221,
       "Cerro": 188,
-      "San Miguel Del Padrón": 186,
+      "San Miguel Del Padrón": 185,
       "Plaza": 185,
       "Marianao": 152,
       "Cotorro": 99,
@@ -603,7 +569,7 @@
       },
       {
         "date": "2026-07-02",
-        "peak_mw": 519
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -725,7 +691,7 @@
       },
       {
         "date": "2026-07-02",
-        "minutes": 6380
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1447,7 +1413,7 @@
       },
       {
         "date": "2026-07-02",
-        "peak_mw": 519
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1641,7 +1607,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": 519
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1835,7 +1801,7 @@
       },
       {
         "month": "2026-07",
-        "minutes": 6380
+        "minutes": 0
       }
     ],
     "sen_outage_days_total": 7,
