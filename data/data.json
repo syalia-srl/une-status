@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-07-02T18:09:25+00:00",
+  "generated_at": "2026-07-02T19:48:02+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-02T18:06:02+00:00",
+    "as_of": "2026-07-02T19:35:09+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido",
-        "since": "2026-07-02T16:48:00+00:00"
+        "state": "desconocido"
       },
       {
         "id": 2,
@@ -34,19 +33,24 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-02T17:28:54+00:00",
-      "averias": []
+      "ts": "2026-07-02T19:34:05+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "severity": "primaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-02T18:00:25+00:00",
-        "municipio": "Boyeros Se Encuentra Disparado El Circuito",
-        "kind": "disparo_circuito"
+        "ts": "2026-07-02T19:34:05+00:00",
+        "municipio": "Boyeros",
+        "severity": "primaria"
       },
       {
-        "ts": "2026-07-02T17:43:57+00:00",
-        "municipio": "Playa Se Encuentra Disparado El Circuito",
-        "kind": "disparo_circuito"
+        "ts": "2026-07-02T18:36:03+00:00",
+        "municipio": "Plaza",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -280,17 +284,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa Se Encuentra Disparado El Circuito": 1,
-      "Boyeros Se Encuentra Disparado El Circuito": 1
+      "Plaza": 1,
+      "Boyeros": 1
     },
     "averias_total": 2,
-    "source_msg_count": 10,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "restablecimiento_gradual": 1,
-      "otro": 1,
-      "restablecimiento": 3,
-      "disparo_circuito": 4,
-      "averias": 1
+      "averias": 3,
+      "restablecimiento": 3
     }
   },
   "yesterday": {
@@ -351,16 +352,14 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "San Miguel Del Padrón": 4,
+      "Plaza": 3,
       "Lisa": 2,
       "Cotorro": 2,
-      "Plaza": 2,
+      "Boyeros": 2,
       "Cerro": 2,
       "Marianao": 1,
-      "Boyeros": 1,
       "Arroyo Naranjo": 1,
-      "Guanabacoa": 1,
-      "Playa Se Encuentra Disparado El Circuito": 1,
-      "Boyeros Se Encuentra Disparado El Circuito": 1
+      "Guanabacoa": 1
     },
     "averias_total": 18,
     "daf_total": 2,
@@ -389,12 +388,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Plaza": 1,
+      "Plaza": 2,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
-      "Playa Se Encuentra Disparado El Circuito": 1,
-      "Boyeros Se Encuentra Disparado El Circuito": 1
+      "Boyeros": 1
     },
     "averias_total": 6,
     "daf_total": 1,
@@ -419,15 +417,15 @@
     },
     "averias_total": 3263,
     "averias_top_municipios": {
-      "Boyeros": 340,
+      "Boyeros": 341,
       "Playa": 281,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
       "Habana Del Este": 225,
       "Guanabacoa": 220,
       "Cerro": 188,
+      "Plaza": 186,
       "San Miguel Del Padrón": 185,
-      "Plaza": 185,
       "Marianao": 152,
       "Cotorro": 99,
       "Centro Habana": 69,
