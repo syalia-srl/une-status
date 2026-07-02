@@ -1,24 +1,27 @@
 {
   "month": "2026-07",
   "finalized": false,
-  "dailies_count": 1,
-  "avg_peak_mw": null,
-  "max_peak_mw": null,
+  "dailies_count": 2,
+  "avg_peak_mw": 519.0,
+  "max_peak_mw": 519,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 0
+    "1": 395,
+    "2": 540,
+    "3": 1160,
+    "4": 670,
+    "5": 1780,
+    "6": 1835
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "San Miguel Del Padrón": 1
+    "San Miguel Del Padrón": 2,
+    "Plaza": 1,
+    "Cerro": 1,
+    "Lisa": 1
   },
-  "averias_total": 1,
-  "daf_total": 0,
+  "averias_total": 5,
+  "daf_total": 1,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
