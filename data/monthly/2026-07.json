@@ -18,9 +18,10 @@
     "Plaza": 1,
     "San Miguel Del Padrón": 1,
     "Cerro": 1,
-    "Lisa": 1
+    "Lisa": 1,
+    "Boyeros": 1
   },
-  "averias_total": 4,
+  "averias_total": 5,
   "daf_total": 1,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,

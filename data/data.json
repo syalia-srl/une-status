@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-02T12:26:38+00:00",
+  "generated_at": "2026-07-02T14:36:36+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-02T11:39:17+00:00",
+    "as_of": "2026-07-02T14:05:05+00:00",
     "bloques": [
       {
         "id": 1,
@@ -15,7 +15,8 @@
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido",
+        "since": "2026-07-02T12:51:28+00:00"
       },
       {
         "id": 4,
@@ -23,8 +24,7 @@
       },
       {
         "id": 5,
-        "state": "encendido",
-        "since": "2026-07-02T11:39:17+00:00"
+        "state": "desconocido"
       },
       {
         "id": 6,
@@ -34,9 +34,17 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-07-02T12:56:37+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": null,
-    "last_pronostico": null,
+    "last_pronostico": {
+      "ts": "2026-07-02T13:17:15+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -265,11 +273,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 2,
+    "averias_count_by_municipio": {
+      "Boyeros": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "restablecimiento": 2
+      "restablecimiento_gradual": 1,
+      "disparo_circuito": 4,
+      "pronostico": 1
     }
   },
   "yesterday": {
@@ -332,14 +344,14 @@
       "San Miguel Del Padrón": 4,
       "Lisa": 2,
       "Cotorro": 2,
+      "Boyeros": 2,
       "Plaza": 2,
       "Cerro": 2,
       "Marianao": 1,
-      "Boyeros": 1,
       "Arroyo Naranjo": 1,
       "Guanabacoa": 1
     },
-    "averias_total": 16,
+    "averias_total": 17,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -369,9 +381,10 @@
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
-      "Lisa": 1
+      "Lisa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 4,
+    "averias_total": 5,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -392,9 +405,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3261,
+    "averias_total": 3262,
     "averias_top_municipios": {
-      "Boyeros": 340,
+      "Boyeros": 341,
       "Playa": 281,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
