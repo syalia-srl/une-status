@@ -1,56 +1,52 @@
 {
-  "generated_at": "2026-07-02T07:54:55+00:00",
+  "generated_at": "2026-07-02T10:27:12+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-02T07:46:59+00:00",
+    "as_of": "2026-07-02T10:25:18+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-01T21:37:20+00:00",
+        "hours_off_today": 12.583333333333334
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-01T19:12:20+00:00",
+        "hours_off_today": 15.0
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-01T08:52:20+00:00",
+        "hours_off_today": 25.333333333333332
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-01T17:02:20+00:00",
+        "hours_off_today": 17.166666666666668
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-06-30T22:32:20+00:00",
+        "hours_off_today": 35.666666666666664
       },
       {
         "id": 6,
-        "state": "encendido",
-        "since": "2026-07-02T04:47:47+00:00"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 346,
+    "current_mw_affected_at": "2026-07-02T10:12:20+00:00",
     "active_averias": {
-      "ts": "2026-07-02T06:23:36+00:00",
-      "averias": [
-        {
-          "municipio": "Guanabacoa",
-          "direccion": "las calles Carretera de Santa María y Peñalver, Villa María 🚨",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-02T10:25:18+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-07-02T06:23:36+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles Carretera de Santa María y Peñalver, Villa María 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -260,19 +256,19 @@
   "day": {
     "date": "2026-07-02",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 346,
+    "peak_time": "06:12",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
+      "1": 755,
+      "2": 900,
+      "3": 1520,
+      "4": 1030,
+      "5": 2140,
       "6": 0
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 6345,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -281,16 +277,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Guanabacoa": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "otro": 2,
-      "transferencia_bloque": 1,
+      "restablecimiento": 4,
+      "restablecimiento_gradual": 3,
+      "otro": 1,
       "disparo_circuito": 1,
+      "actualizacion_bloques": 1,
       "averias": 1
     }
   },
@@ -338,15 +333,15 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 346.0,
+    "max_peak_mw": 346,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
+      "1": 755,
+      "2": 900,
+      "3": 1520,
+      "4": 1030,
+      "5": 2140,
       "6": 0
     },
     "total_emergency_mw_sum": 0,
@@ -354,14 +349,14 @@
       "San Miguel Del Padrón": 4,
       "Lisa": 2,
       "Cotorro": 2,
-      "Guanabacoa": 2,
       "Plaza": 2,
       "Cerro": 2,
       "Marianao": 1,
       "Boyeros": 1,
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 17,
+    "averias_total": 16,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -375,15 +370,15 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 2,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 346.0,
+    "max_peak_mw": 346,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
+      "1": 755,
+      "2": 900,
+      "3": 1520,
+      "4": 1030,
+      "5": 2140,
       "6": 0
     },
     "total_emergency_mw_sum": 0,
@@ -391,10 +386,9 @@
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
-      "Lisa": 1,
-      "Guanabacoa": 1
+      "Lisa": 1
     },
-    "averias_total": 5,
+    "averias_total": 4,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -408,21 +402,21 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77348,
-      "2": 77558,
-      "3": 63410,
-      "4": 72449,
-      "5": 70848,
+      "1": 78103,
+      "2": 78458,
+      "3": 64930,
+      "4": 73479,
+      "5": 72988,
       "6": 72939
     },
-    "averias_total": 3262,
+    "averias_total": 3261,
     "averias_top_municipios": {
       "Boyeros": 340,
       "Playa": 281,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
       "Habana Del Este": 225,
-      "Guanabacoa": 221,
+      "Guanabacoa": 220,
       "Cerro": 188,
       "San Miguel Del Padrón": 185,
       "Plaza": 185,
@@ -569,7 +563,7 @@
       },
       {
         "date": "2026-07-02",
-        "peak_mw": null
+        "peak_mw": 346
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -691,7 +685,7 @@
       },
       {
         "date": "2026-07-02",
-        "minutes": 0
+        "minutes": 6345
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1413,7 +1407,7 @@
       },
       {
         "date": "2026-07-02",
-        "peak_mw": null
+        "peak_mw": 346
       }
     ],
     "monthly_max_peak_mw": [
@@ -1607,7 +1601,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": null
+        "max_peak_mw": 346
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1801,7 +1795,7 @@
       },
       {
         "month": "2026-07",
-        "minutes": 0
+        "minutes": 6345
       }
     ],
     "sen_outage_days_total": 7,
