@@ -22,11 +22,15 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 4,
+  "averias_count_by_municipio": {
+    "Boyeros": 1,
+    "Arroyo Naranjo": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 7,
   "by_type_counts": {
-    "restablecimiento_gradual": 2,
-    "otro": 2
+    "otro": 5,
+    "disparo_circuito": 1,
+    "averias": 1
   }
 }
