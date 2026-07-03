@@ -2,19 +2,20 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 3,
-  "avg_peak_mw": 360.0,
-  "max_peak_mw": 360,
+  "avg_peak_mw": null,
+  "max_peak_mw": null,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
-    "1": 752,
-    "2": 800,
+    "1": 0,
+    "2": 0,
     "3": 0,
-    "4": 826,
-    "5": 1204,
-    "6": 1392
+    "4": 0,
+    "5": 0,
+    "6": 0
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
+    "Arroyo Naranjo": 3,
     "Plaza": 1,
     "San Miguel Del Padrón": 1,
     "Cerro": 1,
@@ -22,8 +23,8 @@
     "Centro Habana": 1,
     "Guanabacoa": 1
   },
-  "averias_total": 6,
-  "daf_total": 1,
+  "averias_total": 9,
+  "daf_total": 3,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
