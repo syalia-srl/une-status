@@ -1,43 +1,55 @@
 {
-  "generated_at": "2026-07-03T21:31:57+00:00",
+  "generated_at": "2026-07-03T22:39:27+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-03T20:48:58+00:00",
+    "as_of": "2026-07-03T22:28:32+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-03T17:10:08+00:00",
+        "hours_off_today": 4.833333333333333
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-03T17:57:08+00:00",
+        "hours_off_today": 4.05
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-03T12:00:08+00:00",
+        "hours_off_today": 10.0
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-03T16:20:08+00:00",
+        "hours_off_today": 5.666666666666667
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-03T18:40:08+00:00",
+        "hours_off_today": 3.3333333333333335
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-03T17:10:08+00:00",
+        "hours_off_today": 4.833333333333333
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-03T20:25:58+00:00",
-      "averias": []
-    },
+    "current_mw_affected": 519,
+    "current_mw_affected_at": "2026-07-03T22:00:08+00:00",
+    "active_averias": null,
     "averias_24h": [],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-07-03T22:28:32+00:00",
+      "type": "daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -246,20 +258,20 @@
   "day": {
     "date": "2026-07-03",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 519,
+    "peak_time": "18:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 649,
+      "2": 602,
+      "3": 959,
+      "4": 699,
+      "5": 559,
+      "6": 649
     },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "total_block_outage_minutes": 4117,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -271,8 +283,8 @@
     "averias_total": 0,
     "source_msg_count": 2,
     "by_type_counts": {
-      "averias": 1,
-      "otro": 1
+      "actualizacion_bloques": 1,
+      "daf": 1
     }
   },
   "yesterday": {
@@ -316,16 +328,16 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 519.0,
+    "max_peak_mw": 519,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 649,
+      "2": 602,
+      "3": 959,
+      "4": 699,
+      "5": 559,
+      "6": 649
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
@@ -341,7 +353,7 @@
       "Centro Habana": 1
     },
     "averias_total": 17,
-    "daf_total": 2,
+    "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -354,16 +366,16 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 3,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 519.0,
+    "max_peak_mw": 519,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "1": 649,
+      "2": 602,
+      "3": 959,
+      "4": 699,
+      "5": 559,
+      "6": 649
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
@@ -375,7 +387,7 @@
       "Guanabacoa": 1
     },
     "averias_total": 6,
-    "daf_total": 1,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -388,12 +400,12 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77348,
-      "2": 77558,
-      "3": 63410,
-      "4": 72449,
-      "5": 70848,
-      "6": 72939
+      "1": 77997,
+      "2": 78160,
+      "3": 64369,
+      "4": 73148,
+      "5": 71407,
+      "6": 73588
     },
     "averias_total": 3263,
     "averias_top_municipios": {
@@ -413,7 +425,7 @@
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2358,
+    "daf_total": 2359,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -549,7 +561,7 @@
       },
       {
         "date": "2026-07-03",
-        "peak_mw": null
+        "peak_mw": 519
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -671,7 +683,7 @@
       },
       {
         "date": "2026-07-03",
-        "minutes": 0
+        "minutes": 4117
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1393,7 +1405,7 @@
       },
       {
         "date": "2026-07-03",
-        "peak_mw": null
+        "peak_mw": 519
       }
     ],
     "monthly_max_peak_mw": [
@@ -1587,7 +1599,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": null
+        "max_peak_mw": 519
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1781,15 +1793,15 @@
       },
       {
         "month": "2026-07",
-        "minutes": 0
+        "minutes": 4117
       }
     ],
     "sen_outage_days_total": 7,
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2358,
-    "daf_last_30d": 17,
+    "daf_total": 2359,
+    "daf_last_30d": 18,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
