@@ -1,84 +1,68 @@
 {
-  "generated_at": "2026-07-05T05:27:27+00:00",
+  "generated_at": "2026-07-05T08:24:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-05T05:03:12+00:00",
+    "as_of": "2026-07-05T08:08:38+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "apagado",
-        "since": "2026-07-04T18:10:07+00:00",
-        "hours_off_today": 10.35
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "apagado",
-        "since": "2026-07-04T15:54:07+00:00",
-        "hours_off_today": 12.616666666666667
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "apagado",
-        "since": "2026-07-04T12:35:07+00:00",
-        "hours_off_today": 15.933333333333334
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "apagado",
-        "since": "2026-07-04T15:41:07+00:00",
-        "hours_off_today": 12.833333333333334
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "apagado",
-        "since": "2026-07-04T19:50:07+00:00",
-        "hours_off_today": 8.683333333333334
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "apagado",
-        "since": "2026-07-04T18:31:07+00:00",
-        "hours_off_today": 10.0
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 526,
-    "current_mw_affected_at": "2026-07-05T04:31:07+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-05T04:37:59+00:00",
+      "ts": "2026-07-05T08:08:38+00:00",
       "averias": [
         {
-          "municipio": "Habana Del Este",
-          "direccion": "zona 1, edificio A12 (Alamar)",
-          "severity": "secundaria"
+          "municipio": "Centro Habana",
+          "direccion": "Salud / Manrique y Dragones 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-05T04:37:59+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "zona 1, edificio A12 (Alamar)",
+        "ts": "2026-07-05T08:08:38+00:00",
+        "municipio": "Centro Habana",
+        "direccion": "Salud / Manrique y Dragones 🚨"
+      },
+      {
+        "ts": "2026-07-05T07:13:04+00:00",
+        "municipio": "Marianao",
+        "direccion": "114 / 43 y 45",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-07-05T04:35:11+00:00",
+        "ts": "2026-07-05T06:16:40+00:00",
         "municipio": "Arroyo Naranjo",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-07-05T03:22:19+00:00",
-        "municipio": "Boyeros"
-      },
-      {
-        "ts": "2026-07-05T02:50:53+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-07-05T02:19:30+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
+        "ts": "2026-07-05T06:15:16+00:00",
+        "municipio": "Playa",
+        "direccion": "60 A y 21",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -290,19 +274,19 @@
   "day": {
     "date": "2026-07-05",
     "finalized": false,
-    "peak_mw_affected": 526,
-    "peak_time": "00:31",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
-      "1": 621,
-      "2": 757,
-      "3": 956,
-      "4": 770,
-      "5": 521,
-      "6": 600
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
-    "total_block_outage_minutes": 4225,
+    "total_block_outage_minutes": 0,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -312,16 +296,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Playa": 1,
       "Arroyo Naranjo": 1,
-      "Habana Del Este": 1
+      "Marianao": 1,
+      "Centro Habana": 1
     },
-    "averias_total": 2,
+    "averias_total": 4,
     "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 4,
-      "actualizacion_bloques": 1,
+      "averias": 3,
       "disparo_circuito": 1,
-      "averias": 1
+      "restablecimiento": 3
     }
   },
   "yesterday": {
@@ -363,32 +348,32 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 526.0,
-    "max_peak_mw": 526,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 621,
-      "2": 757,
-      "3": 956,
-      "4": 770,
-      "5": 521,
-      "6": 600
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "San Miguel Del Padrón": 4,
-      "Marianao": 3,
+      "Marianao": 4,
       "Cotorro": 2,
       "Boyeros": 2,
       "Arroyo Naranjo": 2,
       "Guanabacoa": 2,
       "Plaza": 2,
       "Cerro": 2,
+      "Centro Habana": 2,
       "Lisa": 1,
-      "Centro Habana": 1,
-      "Habana Del Este": 1
+      "Playa": 1
     },
-    "averias_total": 22,
+    "averias_total": 24,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -402,31 +387,31 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 5,
-    "avg_peak_mw": 526.0,
-    "max_peak_mw": 526,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
-      "1": 621,
-      "2": 757,
-      "3": 956,
-      "4": 770,
-      "5": 521,
-      "6": 600
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 2,
+      "Marianao": 3,
+      "Centro Habana": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
-      "Centro Habana": 1,
       "Guanabacoa": 1,
       "Boyeros": 1,
-      "Arroyo Naranjo": 1,
-      "Habana Del Este": 1
+      "Playa": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 11,
+    "averias_total": 13,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -440,27 +425,27 @@
     "max_peak_mw": 1749,
     "total_interruption_minutes": 59770,
     "total_block_outage_minutes": {
-      "1": 77969,
-      "2": 78315,
-      "3": 64366,
-      "4": 73219,
-      "5": 71369,
-      "6": 73539
+      "1": 77348,
+      "2": 77558,
+      "3": 63410,
+      "4": 72449,
+      "5": 70848,
+      "6": 72939
     },
-    "averias_total": 3268,
+    "averias_total": 3270,
     "averias_top_municipios": {
       "Boyeros": 341,
-      "Playa": 281,
+      "Playa": 282,
       "Arroyo Naranjo": 256,
       "Lisa": 237,
-      "Habana Del Este": 226,
+      "Habana Del Este": 225,
       "Guanabacoa": 221,
       "Cerro": 188,
       "San Miguel Del Padrón": 185,
       "Plaza": 185,
-      "Marianao": 154,
+      "Marianao": 155,
       "Cotorro": 99,
-      "Centro Habana": 70,
+      "Centro Habana": 71,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
@@ -601,7 +586,7 @@
       },
       {
         "date": "2026-07-05",
-        "peak_mw": 526
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -723,7 +708,7 @@
       },
       {
         "date": "2026-07-05",
-        "minutes": 4225
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1445,7 +1430,7 @@
       },
       {
         "date": "2026-07-05",
-        "peak_mw": 526
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1639,7 +1624,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": 526
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1833,7 +1818,7 @@
       },
       {
         "month": "2026-07",
-        "minutes": 4225
+        "minutes": 0
       }
     ],
     "sen_outage_days_total": 7,

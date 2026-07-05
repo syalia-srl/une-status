@@ -1,19 +1,19 @@
 {
   "date": "2026-07-05",
   "finalized": false,
-  "peak_mw_affected": 526,
-  "peak_time": "00:31",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
-    "1": 621,
-    "2": 757,
-    "3": 956,
-    "4": 770,
-    "5": 521,
-    "6": 600
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
   },
-  "total_block_outage_minutes": 4225,
+  "total_block_outage_minutes": 0,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -23,15 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
+    "Playa": 1,
     "Arroyo Naranjo": 1,
-    "Habana Del Este": 1
+    "Marianao": 1,
+    "Centro Habana": 1
   },
-  "averias_total": 2,
+  "averias_total": 4,
   "source_msg_count": 7,
   "by_type_counts": {
-    "restablecimiento": 4,
-    "actualizacion_bloques": 1,
+    "averias": 3,
     "disparo_circuito": 1,
-    "averias": 1
+    "restablecimiento": 3
   }
 }
