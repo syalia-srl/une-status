@@ -7,26 +7,25 @@
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
     "1": 0,
-    "2": 0,
+    "2": 506,
     "3": 0,
-    "4": 591,
+    "4": 0,
     "5": 0,
     "6": 0
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Marianao": 2,
+    "Marianao": 3,
     "Plaza": 1,
     "San Miguel Del Padrón": 1,
     "Cerro": 1,
     "Lisa": 1,
     "Centro Habana": 1,
     "Guanabacoa": 1,
-    "Boyeros": 1,
-    "Plaza De La Revolución": 1
+    "Boyeros": 1
   },
   "averias_total": 10,
-  "daf_total": 6,
+  "daf_total": 5,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
