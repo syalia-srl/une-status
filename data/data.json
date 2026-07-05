@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T12:01:56+00:00",
+  "generated_at": "2026-07-05T14:05:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-05T11:20:23+00:00",
+    "as_of": "2026-07-05T14:03:17+00:00",
     "bloques": [
       {
         "id": 1,
@@ -15,7 +15,8 @@
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido",
+        "since": "2026-07-05T13:48:48+00:00"
       },
       {
         "id": 4,
@@ -27,18 +28,59 @@
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido",
+        "since": "2026-07-05T14:03:17+00:00"
       }
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-05T10:56:44+00:00",
-      "averias": []
+      "ts": "2026-07-05T13:49:49+00:00",
+      "averias": [
+        {
+          "municipio": "Cerro",
+          "direccion": "las calles Magnolia entre San Anselmo y Buenos Aires, Canal 🚨",
+          "severity": "secundaria"
+        }
+      ]
     },
-    "averias_24h": [],
-    "last_daf": null,
-    "last_pronostico": null,
+    "averias_24h": [
+      {
+        "ts": "2026-07-05T13:52:16+00:00",
+        "municipio": "Cotorro",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-07-05T13:49:49+00:00",
+        "municipio": "Cerro",
+        "direccion": "las calles Magnolia entre San Anselmo y Buenos Aires, Canal 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-05T13:47:26+00:00",
+        "municipio": "Centro Habana",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-07-05T12:22:39+00:00",
+        "municipio": "Lisa",
+        "direccion": "las calles 253 entre 38 y 40, Punta Brava 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-05T12:21:25+00:00",
+        "municipio": "Lisa",
+        "direccion": "42 entre 253 y 255, Punta Brava 🚨",
+        "severity": "secundaria"
+      }
+    ],
+    "last_daf": {
+      "ts": "2026-07-05T13:50:09+00:00",
+      "type": "daf"
+    },
+    "last_pronostico": {
+      "ts": "2026-07-05T12:42:26+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -246,9 +288,9 @@
   "day": {
     "date": "2026-07-05",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
+    "peak_mw_affected": 605,
+    "peak_time": "23:00",
+    "interruption_minutes": 1440,
     "emergency_mw": null,
     "block_outage_minutes": {
       "1": 0,
@@ -259,7 +301,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -267,13 +309,25 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Lisa": 2,
+      "Centro Habana": 1,
+      "Cerro": 1,
+      "Cotorro": 1
+    },
+    "averias_total": 5,
+    "source_msg_count": 19,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "otro": 1,
-      "averias": 1
+      "averias": 3,
+      "nota_diaria": 1,
+      "corto": 2,
+      "pronostico": 1,
+      "restablecimiento": 5,
+      "otro": 2,
+      "mantenimiento": 1,
+      "disparo_circuito": 2,
+      "daf": 1,
+      "restablecimiento_gradual": 1
     }
   },
   "yesterday": {
@@ -315,9 +369,9 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
-    "total_interruption_minutes": 0,
+    "avg_peak_mw": 605.0,
+    "max_peak_mw": 605,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
       "1": 0,
       "2": 0,
@@ -329,18 +383,18 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "San Miguel Del Padrón": 4,
+      "Cotorro": 3,
       "Marianao": 3,
-      "Cotorro": 2,
+      "Cerro": 3,
+      "Lisa": 3,
       "Boyeros": 2,
       "Guanabacoa": 2,
       "Plaza": 2,
-      "Cerro": 2,
-      "Arroyo Naranjo": 1,
-      "Lisa": 1,
-      "Centro Habana": 1
+      "Centro Habana": 2,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 20,
-    "daf_total": 3,
+    "averias_total": 25,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -353,9 +407,9 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 5,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
-    "total_interruption_minutes": 0,
+    "avg_peak_mw": 605.0,
+    "max_peak_mw": 605,
+    "total_interruption_minutes": 1440,
     "total_block_outage_minutes": {
       "1": 0,
       "2": 0,
@@ -366,17 +420,18 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Lisa": 3,
+      "Cerro": 2,
+      "Centro Habana": 2,
       "Marianao": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
-      "Cerro": 1,
-      "Lisa": 1,
-      "Centro Habana": 1,
       "Guanabacoa": 1,
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Cotorro": 1
     },
-    "averias_total": 9,
-    "daf_total": 2,
+    "averias_total": 14,
+    "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -387,7 +442,7 @@
   "all_time": {
     "months_count": 48,
     "max_peak_mw": 1749,
-    "total_interruption_minutes": 59770,
+    "total_interruption_minutes": 61210,
     "total_block_outage_minutes": {
       "1": 77348,
       "2": 77558,
@@ -396,25 +451,25 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3266,
+    "averias_total": 3271,
     "averias_top_municipios": {
       "Boyeros": 341,
       "Playa": 281,
       "Arroyo Naranjo": 255,
-      "Lisa": 237,
+      "Lisa": 239,
       "Habana Del Este": 225,
       "Guanabacoa": 221,
-      "Cerro": 188,
+      "Cerro": 189,
       "San Miguel Del Padrón": 185,
       "Plaza": 185,
       "Marianao": 154,
-      "Cotorro": 99,
-      "Centro Habana": 70,
+      "Cotorro": 100,
+      "Centro Habana": 71,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2359,
+    "daf_total": 2360,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -550,7 +605,7 @@
       },
       {
         "date": "2026-07-05",
-        "peak_mw": null
+        "peak_mw": 605
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1394,7 +1449,7 @@
       },
       {
         "date": "2026-07-05",
-        "peak_mw": null
+        "peak_mw": 605
       }
     ],
     "monthly_max_peak_mw": [
@@ -1588,7 +1643,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": null
+        "max_peak_mw": 605
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1789,8 +1844,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2359,
-    "daf_last_30d": 17,
+    "daf_total": 2360,
+    "daf_last_30d": 18,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
