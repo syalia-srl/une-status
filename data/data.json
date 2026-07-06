@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T22:34:38+00:00",
+  "generated_at": "2026-07-06T23:43:00+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-06T22:10:31+00:00",
+    "as_of": "2026-07-06T23:09:28+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,22 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-06T22:10:31+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa Queda Reparada La Avería",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-06T22:10:31+00:00",
-        "municipio": "Lisa Queda Reparada La Avería",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -278,14 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Lisa Queda Reparada La Avería": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "averias": 1
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -346,10 +329,9 @@
       "Arroyo Naranjo": 1,
       "Cotorro": 1,
       "Lisa": 1,
-      "Centro Habana": 1,
-      "Lisa Queda Reparada La Avería": 1
+      "Centro Habana": 1
     },
-    "averias_total": 19,
+    "averias_total": 18,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -383,10 +365,9 @@
       "Lisa": 1,
       "Centro Habana": 1,
       "Guanabacoa": 1,
-      "Boyeros": 1,
-      "Lisa Queda Reparada La Avería": 1
+      "Boyeros": 1
     },
-    "averias_total": 10,
+    "averias_total": 9,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -407,7 +388,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3267,
+    "averias_total": 3266,
     "averias_top_municipios": {
       "Boyeros": 341,
       "Playa": 281,
