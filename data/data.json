@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T21:00:39+00:00",
+  "generated_at": "2026-07-06T22:34:38+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-06T20:14:21+00:00",
+    "as_of": "2026-07-06T22:10:31+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,26 +33,18 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-06T19:56:39+00:00",
+      "ts": "2026-07-06T22:10:31+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "direccion": "👉 Daoiz / Churruca e Infanta",
+          "municipio": "Lisa Queda Reparada La Avería",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-06T19:56:39+00:00",
-        "municipio": "Cerro",
-        "direccion": "👉 Daoiz / Churruca e Infanta",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-06T19:55:14+00:00",
-        "municipio": "Lisa",
-        "direccion": "👉 258 / 37 y 51 , San Agustín",
+        "ts": "2026-07-06T22:10:31+00:00",
+        "municipio": "Lisa Queda Reparada La Avería",
         "severity": "secundaria"
       }
     ],
@@ -60,9 +52,9 @@
     "last_pronostico": null,
     "sen": {
       "state": "online",
-      "since": "2026-07-06T19:46:24+00:00",
+      "since": null,
       "last_outage_at": "2026-03-21",
-      "last_recovered_at": "2026-07-06T19:46:24+00:00",
+      "last_recovered_at": null,
       "partial_sen": {
         "active": false,
         "since": null,
@@ -287,15 +279,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1,
-      "Cerro": 1
+      "Lisa Queda Reparada La Avería": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 5,
+    "averias_total": 1,
+    "source_msg_count": 3,
     "by_type_counts": {
       "restablecimiento": 2,
-      "restablecimiento_sen": 1,
-      "averias": 2
+      "averias": 1
     }
   },
   "yesterday": {
@@ -349,16 +339,17 @@
     "averias_count_by_municipio": {
       "San Miguel Del Padrón": 3,
       "Marianao": 3,
-      "Cerro": 3,
       "Boyeros": 2,
       "Guanabacoa": 2,
       "Plaza": 2,
-      "Lisa": 2,
+      "Cerro": 2,
       "Arroyo Naranjo": 1,
       "Cotorro": 1,
-      "Centro Habana": 1
+      "Lisa": 1,
+      "Centro Habana": 1,
+      "Lisa Queda Reparada La Avería": 1
     },
-    "averias_total": 20,
+    "averias_total": 19,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -385,16 +376,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 2,
-      "Lisa": 2,
       "Marianao": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
+      "Cerro": 1,
+      "Lisa": 1,
       "Centro Habana": 1,
       "Guanabacoa": 1,
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Lisa Queda Reparada La Avería": 1
     },
-    "averias_total": 11,
+    "averias_total": 10,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -415,15 +407,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3268,
+    "averias_total": 3267,
     "averias_top_municipios": {
       "Boyeros": 341,
       "Playa": 281,
       "Arroyo Naranjo": 255,
-      "Lisa": 238,
+      "Lisa": 237,
       "Habana Del Este": 225,
       "Guanabacoa": 221,
-      "Cerro": 189,
+      "Cerro": 188,
       "San Miguel Del Padrón": 185,
       "Plaza": 185,
       "Marianao": 154,
