@@ -10,10 +10,10 @@
     "2": 0,
     "3": 0,
     "4": 0,
-    "5": 0,
+    "5": 234,
     "6": 0
   },
-  "total_block_outage_minutes": 0,
+  "total_block_outage_minutes": 234,
   "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
@@ -22,11 +22,16 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 2,
+  "averias_count_by_municipio": {
+    "Boyeros": 1,
+    "Playa": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 5,
   "by_type_counts": {
+    "inicio_afectacion": 1,
     "otro": 1,
-    "pinned": 1
+    "corto": 1,
+    "averias": 2
   }
 }

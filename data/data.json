@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T23:56:03+00:00",
+  "generated_at": "2026-07-06T02:24:04+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-05T23:49:26+00:00",
+    "as_of": "2026-07-06T01:11:52+00:00",
     "bloques": [
       {
         "id": 1,
@@ -23,7 +23,9 @@
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "apagado",
+        "since": "2026-07-06T00:05:13+00:00",
+        "emergency": true
       },
       {
         "id": 6,
@@ -32,8 +34,30 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-07-06T01:11:52+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "las calles 23 entre 60 y 60A 🚨",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-06T01:11:52+00:00",
+        "municipio": "Playa",
+        "direccion": "las calles 23 entre 60 y 60A 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-06T00:56:04+00:00",
+        "municipio": "Boyeros",
+        "direccion": "las calles 162 entre 307 y 311, Lutgardita 🚨",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -252,10 +276,10 @@
       "2": 0,
       "3": 0,
       "4": 0,
-      "5": 0,
+      "5": 234,
       "6": 0
     },
-    "total_block_outage_minutes": 0,
+    "total_block_outage_minutes": 234,
     "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
@@ -264,12 +288,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 2,
+    "averias_count_by_municipio": {
+      "Boyeros": 1,
+      "Playa": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 5,
     "by_type_counts": {
+      "inicio_afectacion": 1,
       "otro": 1,
-      "pinned": 1
+      "corto": 1,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -319,23 +348,24 @@
       "2": 0,
       "3": 0,
       "4": 0,
-      "5": 0,
+      "5": 234,
       "6": 0
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "San Miguel Del Padrón": 4,
       "Marianao": 3,
+      "Boyeros": 3,
       "Cotorro": 2,
-      "Boyeros": 2,
       "Guanabacoa": 2,
       "Plaza": 2,
       "Cerro": 2,
       "Arroyo Naranjo": 1,
       "Lisa": 1,
-      "Centro Habana": 1
+      "Centro Habana": 1,
+      "Playa": 1
     },
-    "averias_total": 20,
+    "averias_total": 22,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -357,21 +387,22 @@
       "2": 0,
       "3": 0,
       "4": 0,
-      "5": 0,
+      "5": 234,
       "6": 0
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Marianao": 2,
+      "Boyeros": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
       "Guanabacoa": 1,
-      "Boyeros": 1
+      "Playa": 1
     },
-    "averias_total": 9,
+    "averias_total": 11,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -389,13 +420,13 @@
       "2": 77558,
       "3": 63410,
       "4": 72449,
-      "5": 70848,
+      "5": 71082,
       "6": 72939
     },
-    "averias_total": 3266,
+    "averias_total": 3268,
     "averias_top_municipios": {
-      "Boyeros": 341,
-      "Playa": 281,
+      "Boyeros": 342,
+      "Playa": 282,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
       "Habana Del Este": 225,
@@ -668,7 +699,7 @@
       },
       {
         "date": "2026-07-05",
-        "minutes": 0
+        "minutes": 234
       }
     ],
     "daily_peak_mw_last_180d": [
@@ -1778,7 +1809,7 @@
       },
       {
         "month": "2026-07",
-        "minutes": 0
+        "minutes": 234
       }
     ],
     "sen_outage_days_total": 7,
