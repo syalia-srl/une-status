@@ -1,0 +1,41 @@
+{
+  "date": "2026-07-06",
+  "finalized": false,
+  "peak_mw_affected": 478,
+  "peak_time": "00:02",
+  "interruption_minutes": null,
+  "emergency_mw": null,
+  "block_outage_minutes": {
+    "1": 420,
+    "2": 535,
+    "3": 670,
+    "4": 590,
+    "5": 240,
+    "6": 640
+  },
+  "total_block_outage_minutes": 3095,
+  "daf_count": 4,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
+  "partial_sen_collapse_count": 0,
+  "partial_sen_reconnect_count": 0,
+  "partial_sen_outage_minutes": 0,
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 1,
+    "Boyeros": 1,
+    "Centro Habana": 1,
+    "Guanabacoa": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 15,
+  "by_type_counts": {
+    "actualizacion_bloques": 1,
+    "restablecimiento": 5,
+    "disparo_circuito": 2,
+    "daf": 4,
+    "averias": 2,
+    "otro": 1
+  }
+}
