@@ -84,8 +84,8 @@
       "name": "Ernesto Guevara (Santa Cruz)",
       "units": {
         "1": {
-          "state": "offline",
-          "since": "2026-06-04T00:44:34+00:00"
+          "state": "online",
+          "since": "2026-07-07T16:09:16+00:00"
         },
         "3": {
           "state": "online",
@@ -96,11 +96,11 @@
           "since": "2026-06-13T00:37:50+00:00"
         }
       },
-      "last_seen_at": "2026-06-13T00:37:50+00:00",
-      "last_online_at": "2026-06-13T00:37:50+00:00",
+      "last_seen_at": "2026-07-07T16:09:16+00:00",
+      "last_online_at": "2026-07-07T16:09:16+00:00",
       "last_offline_at": "2026-06-04T00:44:34+00:00",
-      "last_change_at": "2026-06-13T00:37:50+00:00",
-      "state": "partial"
+      "last_change_at": "2026-07-07T16:09:16+00:00",
+      "state": "online"
     },
     "cespedes": {
       "name": "Carlos M. de Céspedes (Cienfuegos)",

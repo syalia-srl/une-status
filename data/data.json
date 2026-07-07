@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T13:34:23+00:00",
+  "generated_at": "2026-07-07T16:09:24+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-07T13:11:35+00:00",
+    "as_of": "2026-07-07T16:09:16+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,30 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-07-07T15:19:03+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": ":calle C/Parque y Entrada,Calvario",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-07T15:19:03+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": ":calle C/Parque y Entrada,Calvario",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-07T15:07:13+00:00",
+        "municipio": "Boyeros",
+        "direccion": ": 247/242 y 244,Abel Santa María",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -183,17 +205,17 @@
       {
         "id": "guevara",
         "name": "Ernesto Guevara (Santa Cruz)",
-        "state": "partial",
+        "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-06-13T00:37:50+00:00",
-        "last_online_at": "2026-06-13T00:37:50+00:00",
+        "last_seen_at": "2026-07-07T16:09:16+00:00",
+        "last_online_at": "2026-07-07T16:09:16+00:00",
         "last_offline_at": "2026-06-04T00:44:34+00:00",
-        "last_change_at": "2026-06-13T00:37:50+00:00",
+        "last_change_at": "2026-07-07T16:09:16+00:00",
         "units": [
           {
             "unidad": 1,
-            "state": "offline",
-            "since": "2026-06-04T00:44:34+00:00"
+            "state": "online",
+            "since": "2026-07-07T16:09:16+00:00"
           },
           {
             "unidad": 2,
@@ -206,8 +228,8 @@
             "since": "2026-05-20T23:48:04+00:00"
           }
         ],
-        "online_units": 2,
-        "offline_units": 1
+        "online_units": 3,
+        "offline_units": 0
       },
       {
         "id": "rente",
@@ -264,11 +286,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 1,
+    "averias_count_by_municipio": {
+      "Boyeros": 1,
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "otro": 1
+      "restablecimiento": 3,
+      "averias": 3,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
@@ -325,15 +352,16 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
       "Marianao": 2,
+      "Boyeros": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
-      "Boyeros": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 11,
+    "averias_total": 13,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -362,15 +390,16 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
       "Marianao": 2,
+      "Boyeros": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
-      "Boyeros": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 11,
+    "averias_total": 13,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -391,11 +420,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3268,
+    "averias_total": 3270,
     "averias_top_municipios": {
-      "Boyeros": 341,
+      "Boyeros": 342,
       "Playa": 281,
-      "Arroyo Naranjo": 255,
+      "Arroyo Naranjo": 256,
       "Lisa": 237,
       "Habana Del Este": 225,
       "Guanabacoa": 222,
