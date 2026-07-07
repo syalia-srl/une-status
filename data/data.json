@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T08:42:16+00:00",
+  "generated_at": "2026-07-07T11:29:58+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-07T08:19:58+00:00",
+    "as_of": "2026-07-07T11:03:28+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,15 +33,27 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-07T08:19:58+00:00",
-      "averias": []
+      "ts": "2026-07-07T11:03:28+00:00",
+      "averias": [
+        {
+          "municipio": "La Lisa",
+          "direccion": ": 50 /253 y 255",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-07T07:28:31+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": ": A / 1ra y 3ra California , afectando : Barrio Obrero, Jacomino, California, María Cristina 🚨 ⚡️",
-        "severity": "primaria"
+        "ts": "2026-07-07T11:03:28+00:00",
+        "municipio": "La Lisa",
+        "direccion": ": 50 /253 y 255",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-07T11:02:39+00:00",
+        "municipio": "Boyeros",
+        "direccion": ": 162 / 315 y 317",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -275,9 +287,10 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1
+      "Boyeros": 1,
+      "La Lisa": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "source_msg_count": 4,
     "by_type_counts": {
       "restablecimiento": 2,
@@ -336,17 +349,18 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
+      "Boyeros": 2,
       "Plaza": 1,
+      "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
-      "Boyeros": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "La Lisa": 1
     },
-    "averias_total": 12,
+    "averias_total": 13,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -373,17 +387,18 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
+      "Boyeros": 2,
       "Plaza": 1,
+      "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
-      "Boyeros": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "La Lisa": 1
     },
-    "averias_total": 12,
+    "averias_total": 13,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -404,16 +419,16 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3269,
+    "averias_total": 3270,
     "averias_top_municipios": {
-      "Boyeros": 341,
+      "Boyeros": 342,
       "Playa": 281,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
       "Habana Del Este": 225,
       "Guanabacoa": 222,
       "Cerro": 188,
-      "San Miguel Del Padrón": 186,
+      "San Miguel Del Padrón": 185,
       "Plaza": 185,
       "Marianao": 154,
       "Cotorro": 100,
