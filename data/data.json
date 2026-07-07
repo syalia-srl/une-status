@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T05:13:52+00:00",
+  "generated_at": "2026-07-07T08:42:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-07T05:09:29+00:00",
+    "as_of": "2026-07-07T08:19:58+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,36 +33,24 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-07T01:39:39+00:00",
-      "averias": [
-        {
-          "municipio": "Cotorro",
-          "direccion": "👉 71 / 38 A y 40 , Santa Clara",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-07T08:19:58+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-07-07T01:39:39+00:00",
-        "municipio": "Cotorro",
-        "direccion": "👉 71 / 38 A y 40 , Santa Clara",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-07T01:32:18+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "👉 Callejón Berroa km 2 ½",
-        "severity": "secundaria"
+        "ts": "2026-07-07T07:28:31+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": ": A / 1ra y 3ra California , afectando : Barrio Obrero, Jacomino, California, María Cristina 🚨 ⚡️",
+        "severity": "primaria"
       }
     ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
-      "since": "2026-07-07T02:49:27+00:00",
+      "since": null,
       "last_outage_at": "2026-03-21",
-      "last_recovered_at": "2026-07-07T02:49:27+00:00",
+      "last_recovered_at": null,
       "partial_sen": {
         "active": false,
         "since": null,
@@ -286,12 +274,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
       "restablecimiento": 2,
-      "unidad_termoelectrica": 1
+      "averias": 2
     }
   },
   "yesterday": {
@@ -346,17 +336,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
       "Plaza": 1,
-      "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
       "Boyeros": 1,
       "Cotorro": 1
     },
-    "averias_total": 11,
+    "averias_total": 12,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -383,17 +373,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
       "Plaza": 1,
-      "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
       "Boyeros": 1,
       "Cotorro": 1
     },
-    "averias_total": 11,
+    "averias_total": 12,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -414,7 +404,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3268,
+    "averias_total": 3269,
     "averias_top_municipios": {
       "Boyeros": 341,
       "Playa": 281,
@@ -423,7 +413,7 @@
       "Habana Del Este": 225,
       "Guanabacoa": 222,
       "Cerro": 188,
-      "San Miguel Del Padrón": 185,
+      "San Miguel Del Padrón": 186,
       "Plaza": 185,
       "Marianao": 154,
       "Cotorro": 100,
