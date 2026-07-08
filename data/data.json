@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-08T17:05:32+00:00",
+  "generated_at": "2026-07-08T18:41:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-08T17:00:51+00:00",
+    "as_of": "2026-07-08T18:27:49+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,49 +33,31 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-08T16:16:33+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa",
-          "direccion": "258 entre 37 y 51 ✅",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-08T18:04:01+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-07-08T16:16:33+00:00",
-        "municipio": "Lisa",
-        "direccion": "258 entre 37 y 51 ✅",
+        "ts": "2026-07-08T17:50:57+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "la dirección: Carretera Santa María / La Yuca y La Victoria",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-07-08T16:13:19+00:00",
-        "municipio": "Marianao",
-        "direccion": "la dirección: 127 entre 122 y 124 🚨",
+        "ts": "2026-07-08T17:23:10+00:00",
+        "municipio": "Cerro",
+        "direccion": "la dirección: Ayestarán / 19 de Mayo y Aranguren",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-07-08T16:03:59+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "la dirección: I entre E y Siboney, afectando el servicio eléctrico en Las Piedras, Bella Vista, Altura de San Francisco, Emilio Mola, Merceditas, San Francisco de Paula 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-08T15:51:07+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "la dirección: Calzada de Güines / Pepe Prieto y Carlos Manuel de Céspedes",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-08T15:36:41+00:00",
-        "municipio": "Playa",
-        "direccion": "la dirección: 19 A / 150 Y 190",
+        "ts": "2026-07-08T17:18:44+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "la dirección: Calzada de Managua / Luna y Alegría",
         "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-07-08T15:51:45+00:00",
+      "ts": "2026-07-08T18:27:09+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -299,7 +281,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 3,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -308,18 +290,19 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 2,
-      "Playa": 1,
-      "Marianao": 1,
-      "Lisa": 1
+      "Arroyo Naranjo": 1,
+      "Cerro": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 5,
-    "source_msg_count": 15,
+    "averias_total": 3,
+    "source_msg_count": 14,
     "by_type_counts": {
-      "averias": 5,
-      "daf": 1,
-      "restablecimiento_daf": 1,
-      "restablecimiento": 8
+      "via_libre": 2,
+      "daf": 3,
+      "averias": 4,
+      "restablecimiento": 3,
+      "otro": 1,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -370,17 +353,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
-      "Guanabacoa": 2,
-      "San Miguel Del Padrón": 2,
+      "Guanabacoa": 3,
+      "Marianao": 2,
       "Centro Habana": 1,
       "Boyeros": 1,
       "Cotorro": 1,
-      "Playa": 1,
-      "Lisa": 1
+      "Arroyo Naranjo": 1,
+      "Cerro": 1
     },
-    "averias_total": 12,
-    "daf_total": 3,
+    "averias_total": 10,
+    "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -406,19 +388,19 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 3,
-      "Marianao": 3,
-      "Lisa": 2,
-      "Guanabacoa": 2,
+      "Guanabacoa": 3,
+      "Cerro": 2,
+      "Marianao": 2,
       "Plaza": 1,
-      "Cerro": 1,
+      "San Miguel Del Padrón": 1,
+      "Lisa": 1,
       "Centro Habana": 1,
       "Boyeros": 1,
       "Cotorro": 1,
-      "Playa": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 16,
-    "daf_total": 4,
+    "averias_total": 14,
+    "daf_total": 6,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -438,25 +420,25 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3273,
+    "averias_total": 3271,
     "averias_top_municipios": {
       "Boyeros": 341,
-      "Playa": 282,
-      "Arroyo Naranjo": 255,
-      "Lisa": 238,
+      "Playa": 281,
+      "Arroyo Naranjo": 256,
+      "Lisa": 237,
       "Habana Del Este": 225,
-      "Guanabacoa": 222,
-      "Cerro": 188,
-      "San Miguel Del Padrón": 187,
+      "Guanabacoa": 223,
+      "Cerro": 189,
+      "San Miguel Del Padrón": 185,
       "Plaza": 185,
-      "Marianao": 155,
+      "Marianao": 154,
       "Cotorro": 100,
       "Centro Habana": 70,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 42
     },
-    "daf_total": 2361,
+    "daf_total": 2363,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1831,8 +1813,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2361,
-    "daf_last_30d": 16,
+    "daf_total": 2363,
+    "daf_last_30d": 18,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
