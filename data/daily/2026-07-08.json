@@ -1,8 +1,8 @@
 {
   "date": "2026-07-08",
   "finalized": false,
-  "peak_mw_affected": 558,
-  "peak_time": "17:35",
+  "peak_mw_affected": 606,
+  "peak_time": "18:35",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -22,17 +22,12 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Guanabacoa": 2,
-    "Regla": 1
-  },
-  "averias_total": 3,
-  "source_msg_count": 12,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 7,
   "by_type_counts": {
-    "averias": 4,
-    "otro": 5,
+    "pinned": 3,
     "actualizacion_bloques": 1,
-    "via_libre": 1,
-    "restablecimiento": 1
+    "otro": 3
   }
 }
