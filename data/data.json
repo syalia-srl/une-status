@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T23:45:09+00:00",
+  "generated_at": "2026-07-08T01:12:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-07-08T01:09:07+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-07-08T00:35:39+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": ": 5taH/240 y 242",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-08T00:35:39+00:00",
+        "municipio": "Playa",
+        "direccion": ": 5taH/240 y 242",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -125,15 +141,15 @@
         "name": "Carlos M. de Céspedes (Cienfuegos)",
         "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-07-07T20:31:15+00:00",
-        "last_online_at": "2026-07-07T20:31:15+00:00",
+        "last_seen_at": "2026-07-08T01:09:07+00:00",
+        "last_online_at": "2026-07-08T01:09:07+00:00",
         "last_offline_at": "2026-04-26T01:01:22+00:00",
         "last_change_at": "2026-05-02T00:35:29+00:00",
         "units": [
           {
             "unidad": 3,
             "state": "online",
-            "since": "2026-04-22T00:29:35+00:00"
+            "since": "2026-07-08T01:09:07+00:00"
           },
           {
             "unidad": 4,
@@ -265,14 +281,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "Playa": 1
     },
     "averias_total": 1,
     "source_msg_count": 3,
     "by_type_counts": {
-      "unidad_termoelectrica": 1,
-      "restablecimiento": 1,
-      "averias": 1
+      "averias": 2,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
@@ -327,15 +342,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
+      "Lisa": 1,
       "Centro Habana": 1,
       "Boyeros": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Playa": 1
     },
     "averias_total": 12,
     "daf_total": 2,
@@ -364,15 +380,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
+      "Lisa": 1,
       "Centro Habana": 1,
       "Boyeros": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Playa": 1
     },
     "averias_total": 12,
     "daf_total": 2,
@@ -398,9 +415,9 @@
     "averias_total": 3269,
     "averias_top_municipios": {
       "Boyeros": 341,
-      "Playa": 281,
+      "Playa": 282,
       "Arroyo Naranjo": 255,
-      "Lisa": 238,
+      "Lisa": 237,
       "Habana Del Este": 225,
       "Guanabacoa": 222,
       "Cerro": 188,
