@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-08T09:35:19+00:00",
+  "generated_at": "2026-07-08T11:28:15+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-08T07:20:12+00:00",
+    "as_of": "2026-07-08T10:47:41+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,23 +33,10 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-08T07:16:22+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": ": calle 12/Beatriz y E",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-08T10:47:41+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-07-08T07:16:22+00:00",
-        "municipio": "Boyeros",
-        "direccion": ": calle 12/Beatriz y E",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -280,14 +267,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 2,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento": 1
+      "averias": 1
     }
   },
   "yesterday": {
@@ -340,11 +324,11 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
       "Marianao": 2,
-      "Boyeros": 2,
       "Centro Habana": 1,
+      "Boyeros": 1,
       "Cotorro": 1
     },
-    "averias_total": 8,
+    "averias_total": 7,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -373,15 +357,15 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
       "Marianao": 2,
-      "Boyeros": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
+      "Boyeros": 1,
       "Cotorro": 1
     },
-    "averias_total": 12,
+    "averias_total": 11,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -402,9 +386,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3269,
+    "averias_total": 3268,
     "averias_top_municipios": {
-      "Boyeros": 342,
+      "Boyeros": 341,
       "Playa": 281,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
