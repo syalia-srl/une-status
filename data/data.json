@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-08T07:12:52+00:00",
+  "generated_at": "2026-07-08T09:35:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-08T06:58:51+00:00",
+    "as_of": "2026-07-08T07:20:12+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,26 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-08T06:43:07+00:00",
+      "ts": "2026-07-08T07:16:22+00:00",
       "averias": [
         {
-          "municipio": "Marianao",
-          "direccion": ": calle 39/ 118 y 120",
+          "municipio": "Boyeros",
+          "direccion": ": calle 12/Beatriz y E",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-08T06:43:07+00:00",
-        "municipio": "Marianao",
-        "direccion": ": calle 39/ 118 y 120",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-08T05:56:18+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": ": calle Luis Felipe/Almeida y Final",
+        "ts": "2026-07-08T07:16:22+00:00",
+        "municipio": "Boyeros",
+        "direccion": ": calle 12/Beatriz y E",
         "severity": "secundaria"
       }
     ],
@@ -287,15 +281,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1,
-      "Marianao": 1
+      "Boyeros": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 7,
+    "averias_total": 1,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "mantenimiento": 1,
-      "restablecimiento": 4,
-      "averias": 2
+      "averias": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -346,14 +338,13 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
       "Guanabacoa": 2,
+      "Marianao": 2,
+      "Boyeros": 2,
       "Centro Habana": 1,
-      "Boyeros": 1,
-      "Cotorro": 1,
-      "Arroyo Naranjo": 1
+      "Cotorro": 1
     },
-    "averias_total": 9,
+    "averias_total": 8,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -380,18 +371,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
       "Guanabacoa": 2,
+      "Marianao": 2,
+      "Boyeros": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
       "Lisa": 1,
       "Centro Habana": 1,
-      "Boyeros": 1,
-      "Cotorro": 1,
-      "Arroyo Naranjo": 1
+      "Cotorro": 1
     },
-    "averias_total": 13,
+    "averias_total": 12,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -412,18 +402,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3270,
+    "averias_total": 3269,
     "averias_top_municipios": {
-      "Boyeros": 341,
+      "Boyeros": 342,
       "Playa": 281,
-      "Arroyo Naranjo": 256,
+      "Arroyo Naranjo": 255,
       "Lisa": 237,
       "Habana Del Este": 225,
       "Guanabacoa": 222,
       "Cerro": 188,
       "San Miguel Del Padrón": 185,
       "Plaza": 185,
-      "Marianao": 155,
+      "Marianao": 154,
       "Cotorro": 100,
       "Centro Habana": 70,
       "De Boyeros": 50,
