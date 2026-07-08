@@ -15,7 +15,7 @@
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Guanabacoa": 3,
+    "Guanabacoa": 2,
     "Marianao": 2,
     "Plaza": 1,
     "San Miguel Del Padrón": 1,
@@ -25,8 +25,8 @@
     "Boyeros": 1,
     "Cotorro": 1
   },
-  "averias_total": 12,
-  "daf_total": 4,
+  "averias_total": 11,
+  "daf_total": 5,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
