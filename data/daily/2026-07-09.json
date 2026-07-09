@@ -21,11 +21,15 @@
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
-  "cte_offline_minutes": {},
+  "cte_offline_minutes": {
+    "guevara": 418
+  },
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 1,
+  "source_msg_count": 3,
   "by_type_counts": {
-    "unidad_termoelectrica": 1
+    "unidad_termoelectrica": 1,
+    "otro": 1,
+    "restablecimiento": 1
   }
 }

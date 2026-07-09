@@ -33,5 +33,7 @@
   "sen_outage_minutes_total": 0,
   "partial_sen_collapse_total": 0,
   "partial_sen_outage_minutes_total": 0,
-  "cte_offline_minutes_total": {}
+  "cte_offline_minutes_total": {
+    "guevara": 418
+  }
 }
