@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 9,
-  "avg_peak_mw": 620.0,
+  "avg_peak_mw": 593.0,
   "max_peak_mw": 620,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -33,7 +33,5 @@
   "sen_outage_minutes_total": 0,
   "partial_sen_collapse_total": 0,
   "partial_sen_outage_minutes_total": 0,
-  "cte_offline_minutes_total": {
-    "guevara": 418
-  }
+  "cte_offline_minutes_total": {}
 }
