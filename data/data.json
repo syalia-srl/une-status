@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-09T16:40:04+00:00",
+  "generated_at": "2026-07-09T18:23:56+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-09T15:34:07+00:00",
+    "as_of": "2026-07-09T17:19:38+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-09T15:34:07+00:00",
-      "averias": [
-        {
-          "municipio": "Marianao",
-          "direccion": "las calles 37 entre 108 y 110, reparto Hornos 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-09T15:34:07+00:00",
-        "municipio": "Marianao",
-        "direccion": "las calles 37 entre 108 y 110, reparto Hornos 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -230,15 +214,15 @@
         "name": "Antonio Maceo (Renté)",
         "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-06-17T01:10:49+00:00",
-        "last_online_at": "2026-06-17T01:10:49+00:00",
+        "last_seen_at": "2026-07-09T17:19:38+00:00",
+        "last_online_at": "2026-07-09T17:19:38+00:00",
         "last_offline_at": "2026-03-03T00:59:50+00:00",
         "last_change_at": "2026-04-19T00:04:41+00:00",
         "units": [
           {
             "unidad": 3,
             "state": "online",
-            "since": "2026-06-17T01:10:49+00:00"
+            "since": "2026-07-09T17:19:38+00:00"
           },
           {
             "unidad": 5,
@@ -280,13 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Marianao": 1
-    },
-    "averias_total": 1,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "source_msg_count": 1,
     "by_type_counts": {
-      "averias": 1
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
@@ -343,14 +325,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
+      "Marianao": 2,
       "Boyeros": 2,
       "Guanabacoa": 1,
       "Cotorro": 1,
       "Regla": 1,
       "Centro Habana": 1
     },
-    "averias_total": 9,
+    "averias_total": 8,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -377,9 +359,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
       "Centro Habana": 2,
       "Guanabacoa": 2,
+      "Marianao": 2,
       "Boyeros": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
@@ -388,7 +370,7 @@
       "Cotorro": 1,
       "Regla": 1
     },
-    "averias_total": 15,
+    "averias_total": 14,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -409,7 +391,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3272,
+    "averias_total": 3271,
     "averias_top_municipios": {
       "Boyeros": 342,
       "Playa": 281,
@@ -420,7 +402,7 @@
       "Cerro": 188,
       "San Miguel Del Padrón": 185,
       "Plaza": 185,
-      "Marianao": 155,
+      "Marianao": 154,
       "Cotorro": 100,
       "Centro Habana": 71,
       "De Boyeros": 50,
