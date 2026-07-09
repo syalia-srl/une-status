@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 9,
-  "avg_peak_mw": 567.0,
+  "avg_peak_mw": 620.0,
   "max_peak_mw": 620,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -15,19 +15,19 @@
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Boyeros": 3,
     "Centro Habana": 2,
     "Guanabacoa": 2,
     "Marianao": 2,
-    "Regla": 2,
+    "Boyeros": 2,
     "Plaza": 1,
     "San Miguel Del Padrón": 1,
     "Cerro": 1,
     "Lisa": 1,
-    "Cotorro": 1
+    "Cotorro": 1,
+    "Regla": 1
   },
-  "averias_total": 16,
-  "daf_total": 6,
+  "averias_total": 14,
+  "daf_total": 3,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
