@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 10,
-  "avg_peak_mw": 620.0,
+  "avg_peak_mw": 471.5,
   "max_peak_mw": 620,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -24,10 +24,12 @@
     "Cerro": 1,
     "Lisa": 1,
     "Cotorro": 1,
-    "Regla": 1
+    "Regla": 1,
+    "Playa": 1,
+    "Arroyo Naranjo": 1
   },
-  "averias_total": 16,
-  "daf_total": 4,
+  "averias_total": 18,
+  "daf_total": 5,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
