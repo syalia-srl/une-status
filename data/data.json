@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-09T23:58:06+00:00",
+  "generated_at": "2026-07-10T02:46:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-09T23:49:33+00:00",
+    "as_of": "2026-07-10T02:37:54+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,9 +32,27 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
-    "last_daf": null,
+    "active_averias": {
+      "ts": "2026-07-10T02:20:44+00:00",
+      "averias": []
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-10T02:14:13+00:00",
+        "municipio": "Centro Habana",
+        "direccion": "el siguiente circuito: 👉🏼 CPP10 Monte desde Manglar hasta Fernandina, Castillo desde San Ramón hasta Pedroso, Estévez desde Monte hasta San Joaquín, Belascoain hasta Sitios, Monte hasta Escobar 🚨"
+      },
+      {
+        "ts": "2026-07-10T02:09:56+00:00",
+        "municipio": "Boyeros",
+        "direccion": "251 entre 242 y 244, Abel Santamaría 🚨",
+        "severity": "secundaria"
+      }
+    ],
+    "last_daf": {
+      "ts": "2026-07-10T02:28:04+00:00",
+      "type": "restablecimiento_daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -256,7 +274,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -264,13 +282,19 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 17,
+    "averias_count_by_municipio": {
+      "Boyeros": 1,
+      "Centro Habana": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "empty": 15,
-      "otro": 1,
-      "restablecimiento": 1
+      "restablecimiento": 6,
+      "otro": 8,
+      "mantenimiento": 1,
+      "averias": 3,
+      "daf": 1,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -327,15 +351,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Boyeros": 3,
       "Marianao": 2,
-      "Boyeros": 2,
+      "Centro Habana": 2,
       "Guanabacoa": 1,
       "Cotorro": 1,
-      "Regla": 1,
-      "Centro Habana": 1
+      "Regla": 1
     },
-    "averias_total": 8,
-    "daf_total": 2,
+    "averias_total": 10,
+    "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -361,10 +385,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Centro Habana": 2,
+      "Centro Habana": 3,
+      "Boyeros": 3,
       "Guanabacoa": 2,
       "Marianao": 2,
-      "Boyeros": 2,
       "Plaza": 1,
       "San Miguel Del Padrón": 1,
       "Cerro": 1,
@@ -372,8 +396,8 @@
       "Cotorro": 1,
       "Regla": 1
     },
-    "averias_total": 14,
-    "daf_total": 3,
+    "averias_total": 16,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -393,9 +417,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3271,
+    "averias_total": 3273,
     "averias_top_municipios": {
-      "Boyeros": 342,
+      "Boyeros": 343,
       "Playa": 281,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
@@ -406,12 +430,12 @@
       "Plaza": 185,
       "Marianao": 154,
       "Cotorro": 100,
-      "Centro Habana": 71,
+      "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2360,
+    "daf_total": 2361,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1786,8 +1810,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2360,
-    "daf_last_30d": 14,
+    "daf_total": 2361,
+    "daf_last_30d": 15,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
