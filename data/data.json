@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-11T15:12:45+00:00",
+  "generated_at": "2026-07-11T16:09:28+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-11T15:04:07+00:00",
+    "as_of": "2026-07-11T16:04:16+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,29 +32,15 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-11T15:04:07+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": ": Perla y calle 1ra Circuito:A 820 👉 250 Miraflores Viejo , Embil , Altura de Embil , Ampliación de Aldabó , Aldabó , Capdevilla , La Dolorita ⚡️"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-11T15:04:07+00:00",
-        "municipio": "Boyeros",
-        "direccion": ": Perla y calle 1ra Circuito:A 820 👉 250 Miraflores Viejo , Embil , Altura de Embil , Ampliación de Aldabó , Aldabó , Capdevilla , La Dolorita ⚡️"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
-      "since": "2026-07-11T14:58:23+00:00",
+      "since": null,
       "last_outage_at": "2026-03-21",
-      "last_recovered_at": "2026-07-11T14:58:23+00:00",
+      "last_recovered_at": null,
       "partial_sen": {
         "active": false,
         "since": null,
@@ -278,14 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 2,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento_sen": 1,
-      "averias": 1
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -341,7 +324,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 3,
+      "Boyeros": 2,
       "Centro Habana": 2,
       "Cerro": 2,
       "Guanabacoa": 1,
@@ -350,7 +333,7 @@
       "Plaza": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 12,
+    "averias_total": 11,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -377,9 +360,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
       "Cerro": 3,
       "Centro Habana": 3,
+      "Boyeros": 3,
       "Plaza": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
@@ -389,7 +372,7 @@
       "Regla": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 21,
+    "averias_total": 20,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -410,9 +393,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3278,
+    "averias_total": 3277,
     "averias_top_municipios": {
-      "Boyeros": 344,
+      "Boyeros": 343,
       "Playa": 281,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
