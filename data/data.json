@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-11T18:06:18+00:00",
+  "generated_at": "2026-07-11T19:26:54+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-07-11T18:54:36+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-07-11T18:53:51+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": ": Calle B/9 y Parque,Altahabana",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-11T18:53:51+00:00",
+        "municipio": "Boyeros",
+        "direccion": ": Calle B/9 y Parque,Altahabana",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -265,13 +281,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 2,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento_sen": 1
+      "restablecimiento": 2,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -327,10 +343,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 2,
-      "Boyeros": 2,
+      "Boyeros": 3,
       "Centro Habana": 2,
       "Cerro": 2,
+      "Guanabacoa": 1,
       "Cotorro": 1,
       "Regla": 1,
       "Plaza": 1,
@@ -363,11 +379,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Boyeros": 4,
       "Cerro": 3,
       "Centro Habana": 3,
-      "Guanabacoa": 3,
-      "Boyeros": 3,
       "Plaza": 2,
+      "Guanabacoa": 2,
       "Marianao": 2,
       "San Miguel Del Padrón": 1,
       "Lisa": 1,
@@ -398,12 +414,12 @@
     },
     "averias_total": 3278,
     "averias_top_municipios": {
-      "Boyeros": 343,
+      "Boyeros": 344,
       "Playa": 281,
       "Arroyo Naranjo": 255,
       "Lisa": 237,
       "Habana Del Este": 226,
-      "Guanabacoa": 223,
+      "Guanabacoa": 222,
       "Cerro": 190,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
