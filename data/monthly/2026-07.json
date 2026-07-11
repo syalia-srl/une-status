@@ -16,8 +16,8 @@
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
     "Centro Habana": 3,
-    "Guanabacoa": 3,
     "Boyeros": 3,
+    "Guanabacoa": 2,
     "Marianao": 2,
     "Plaza": 1,
     "San Miguel Del Padrón": 1,
@@ -26,7 +26,7 @@
     "Cotorro": 1,
     "Regla": 1
   },
-  "averias_total": 17,
+  "averias_total": 16,
   "daf_total": 4,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
