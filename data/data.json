@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-11T04:07:26+00:00",
+  "generated_at": "2026-07-11T06:24:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-11T03:34:18+00:00",
+    "as_of": "2026-07-11T06:02:55+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,34 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-11T03:24:19+00:00",
-      "averias": []
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-11T02:18:47+00:00",
-        "municipio": "Cerro",
-        "direccion": ": 👉 H342 : Calle Cristina desde 4 Caminos a san Joaquín, Ataré 🚨 ⚡️"
-      },
-      {
-        "ts": "2026-07-11T02:12:19+00:00",
-        "municipio": "Cerro",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-07-11T01:00:30+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": ": Carretera de Barrera ,Santa María Loma",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-11T00:59:06+00:00",
-        "municipio": "Plaza",
-        "direccion": ": G / 15 Y 17, Vedado",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -268,7 +242,35 @@
   },
   "day": {
     "date": "2026-07-11",
-    "no_data": true
+    "finalized": false,
+    "peak_mw_affected": null,
+    "peak_time": null,
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 4,
+    "by_type_counts": {
+      "restablecimiento": 3,
+      "disparo_circuito": 1
+    }
   },
   "yesterday": {
     "date": "2026-07-10",
@@ -309,7 +311,7 @@
   },
   "week": {
     "finalized": false,
-    "dailies_count": 6,
+    "dailies_count": 7,
     "avg_peak_mw": 620.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
@@ -345,7 +347,7 @@
   "month": {
     "month": "2026-07",
     "finalized": false,
-    "dailies_count": 10,
+    "dailies_count": 11,
     "avg_peak_mw": 620.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
@@ -428,10 +430,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-06-11",
-        "peak_mw": null
-      },
       {
         "date": "2026-06-12",
         "peak_mw": 189
@@ -547,13 +545,13 @@
       {
         "date": "2026-07-10",
         "peak_mw": null
+      },
+      {
+        "date": "2026-07-11",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-06-11",
-        "minutes": 0
-      },
       {
         "date": "2026-06-12",
         "minutes": 1421
@@ -669,13 +667,13 @@
       {
         "date": "2026-07-10",
         "minutes": 0
+      },
+      {
+        "date": "2026-07-11",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-01-12",
-        "peak_mw": 225
-      },
       {
         "date": "2026-01-13",
         "peak_mw": 268
@@ -1391,6 +1389,10 @@
       {
         "date": "2026-07-10",
         "peak_mw": null
+      },
+      {
+        "date": "2026-07-11",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1807,9 +1809,9 @@
     }
   },
   "meta": {
-    "daily_count": 1440,
+    "daily_count": 1441,
     "monthly_count": 48,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-07-10"
+    "latest_date": "2026-07-11"
   }
 }

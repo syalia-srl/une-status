@@ -1,7 +1,7 @@
 {
   "month": "2026-07",
   "finalized": false,
-  "dailies_count": 10,
+  "dailies_count": 11,
   "avg_peak_mw": 620.0,
   "max_peak_mw": 620,
   "total_interruption_minutes": 0,
