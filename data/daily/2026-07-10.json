@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "finalized": false,
+  "finalized": true,
   "peak_mw_affected": null,
   "peak_time": null,
   "interruption_minutes": null,
@@ -22,11 +22,16 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 3,
+  "averias_count_by_municipio": {
+    "Cerro": 2,
+    "Plaza": 1,
+    "Habana Del Este": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 13,
   "by_type_counts": {
-    "restablecimiento": 2,
-    "restablecimiento_sen": 1
+    "averias": 5,
+    "restablecimiento": 7,
+    "disparo_circuito": 1
   }
 }
