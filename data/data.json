@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T22:24:01+00:00",
+  "generated_at": "2026-07-12T23:13:56+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-12T22:23:54+00:00",
+    "as_of": "2026-07-12T23:10:28+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,23 +33,29 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-12T22:12:27+00:00",
+      "ts": "2026-07-12T23:10:28+00:00",
       "averias": [
         {
-          "municipio": "Playa",
+          "municipio": "Guanbacoa",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-12T22:12:27+00:00",
-        "municipio": "Playa",
+        "ts": "2026-07-12T23:10:28+00:00",
+        "municipio": "Guanbacoa",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-12T22:50:02+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "los siguientes repartos: Delicias y Diezmero 🚨",
         "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-07-12T22:23:54+00:00",
+      "ts": "2026-07-12T22:31:35+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -273,7 +279,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 2,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -282,16 +288,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa": 1
+      "San Miguel Del Padrón": 1,
+      "Guanbacoa": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 6,
+    "averias_total": 2,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "daf": 2,
-      "restablecimiento_daf": 1,
-      "restablecimiento": 1,
-      "averias": 1
+      "daf": 1,
+      "otro": 7,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -358,10 +363,11 @@
       "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
       "Boyero": 1,
-      "Playa": 1
+      "San Miguel Del Padrón": 1,
+      "Guanbacoa": 1
     },
-    "averias_total": 15,
-    "daf_total": 4,
+    "averias_total": 16,
+    "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -391,19 +397,19 @@
       "Centro Habana": 3,
       "Boyeros": 3,
       "Plaza": 2,
+      "San Miguel Del Padrón": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
-      "San Miguel Del Padrón": 1,
       "Lisa": 1,
       "Cotorro": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
       "Boyero": 1,
-      "Playa": 1
+      "Guanbacoa": 1
     },
-    "averias_total": 24,
-    "daf_total": 6,
+    "averias_total": 25,
+    "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -423,17 +429,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3281,
+    "averias_total": 3282,
     "averias_top_municipios": {
       "Boyeros": 343,
-      "Playa": 282,
+      "Playa": 281,
       "Arroyo Naranjo": 256,
       "Lisa": 237,
       "Habana Del Este": 226,
       "Guanabacoa": 222,
       "Cerro": 191,
+      "San Miguel Del Padrón": 186,
       "Plaza": 186,
-      "San Miguel Del Padrón": 185,
       "Marianao": 154,
       "Cotorro": 100,
       "Centro Habana": 72,
@@ -441,7 +447,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2363,
+    "daf_total": 2362,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1816,8 +1822,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2363,
-    "daf_last_30d": 16,
+    "daf_total": 2362,
+    "daf_last_30d": 15,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
