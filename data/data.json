@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T00:08:05+00:00",
+  "generated_at": "2026-07-12T03:52:14+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-12T00:06:08+00:00",
+    "as_of": "2026-07-12T03:22:13+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,15 +32,38 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-07-12T02:31:11+00:00",
+      "averias": [
+        {
+          "municipio": "Boyero",
+          "direccion": ": Carretera de Prensa Latina Circuito 👉 D860: Wajay, INAV, Camilo Cienfuegos, Ampliacion del Wajay, Almacenes La UCI ⚡️ 🚨"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-12T02:31:11+00:00",
+        "municipio": "Boyero",
+        "direccion": ": Carretera de Prensa Latina Circuito 👉 D860: Wajay, INAV, Camilo Cienfuegos, Ampliacion del Wajay, Almacenes La UCI ⚡️ 🚨"
+      },
+      {
+        "ts": "2026-07-12T01:39:32+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "el siguiente circuito: 👉 VC100:Reparto el Volcán"
+      },
+      {
+        "ts": "2026-07-12T00:30:40+00:00",
+        "municipio": "Cerro"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
-      "since": null,
+      "since": "2026-07-12T02:51:31+00:00",
       "last_outage_at": "2026-03-21",
-      "last_recovered_at": null,
+      "last_recovered_at": "2026-07-12T02:51:31+00:00",
       "partial_sen": {
         "active": false,
         "since": null,
@@ -264,12 +287,18 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 2,
+    "averias_count_by_municipio": {
+      "Cerro": 1,
+      "Arroyo Naranjo": 1,
+      "Boyero": 1
+    },
+    "averias_total": 3,
+    "source_msg_count": 16,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "unidad_termoelectrica": 1
+      "averias": 3,
+      "restablecimiento_sen": 3,
+      "otro": 4,
+      "restablecimiento": 6
     }
   },
   "yesterday": {
@@ -325,16 +354,18 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Cerro": 3,
       "Boyeros": 2,
       "Centro Habana": 2,
-      "Cerro": 2,
       "Guanabacoa": 1,
       "Cotorro": 1,
       "Regla": 1,
       "Plaza": 1,
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Arroyo Naranjo": 1,
+      "Boyero": 1
     },
-    "averias_total": 11,
+    "averias_total": 14,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -361,7 +392,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 3,
+      "Cerro": 4,
       "Centro Habana": 3,
       "Boyeros": 3,
       "Plaza": 2,
@@ -371,9 +402,11 @@
       "Lisa": 1,
       "Cotorro": 1,
       "Regla": 1,
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Arroyo Naranjo": 1,
+      "Boyero": 1
     },
-    "averias_total": 20,
+    "averias_total": 23,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -394,15 +427,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3277,
+    "averias_total": 3280,
     "averias_top_municipios": {
       "Boyeros": 343,
       "Playa": 281,
-      "Arroyo Naranjo": 255,
+      "Arroyo Naranjo": 256,
       "Lisa": 237,
       "Habana Del Este": 226,
       "Guanabacoa": 222,
-      "Cerro": 190,
+      "Cerro": 191,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 154,
