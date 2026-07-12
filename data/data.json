@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T03:52:14+00:00",
+  "generated_at": "2026-07-12T06:24:58+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-12T03:22:13+00:00",
+    "as_of": "2026-07-12T06:21:17+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,38 +32,15 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-12T02:31:11+00:00",
-      "averias": [
-        {
-          "municipio": "Boyero",
-          "direccion": ": Carretera de Prensa Latina Circuito 👉 D860: Wajay, INAV, Camilo Cienfuegos, Ampliacion del Wajay, Almacenes La UCI ⚡️ 🚨"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-12T02:31:11+00:00",
-        "municipio": "Boyero",
-        "direccion": ": Carretera de Prensa Latina Circuito 👉 D860: Wajay, INAV, Camilo Cienfuegos, Ampliacion del Wajay, Almacenes La UCI ⚡️ 🚨"
-      },
-      {
-        "ts": "2026-07-12T01:39:32+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "el siguiente circuito: 👉 VC100:Reparto el Volcán"
-      },
-      {
-        "ts": "2026-07-12T00:30:40+00:00",
-        "municipio": "Cerro"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
-      "since": "2026-07-12T02:51:31+00:00",
+      "since": null,
       "last_outage_at": "2026-03-21",
-      "last_recovered_at": "2026-07-12T02:51:31+00:00",
+      "last_recovered_at": null,
       "partial_sen": {
         "active": false,
         "since": null,
@@ -264,6 +241,38 @@
     ]
   },
   "day": {
+    "date": "2026-07-12",
+    "finalized": false,
+    "peak_mw_affected": null,
+    "peak_time": null,
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 9,
+    "by_type_counts": {
+      "restablecimiento": 6,
+      "otro": 3
+    }
+  },
+  "yesterday": {
     "date": "2026-07-11",
     "finalized": false,
     "peak_mw_affected": null,
@@ -299,43 +308,6 @@
       "restablecimiento_sen": 3,
       "otro": 4,
       "restablecimiento": 6
-    }
-  },
-  "yesterday": {
-    "date": "2026-07-10",
-    "finalized": true,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Cerro": 2,
-      "Plaza": 1,
-      "Habana Del Este": 1
-    },
-    "averias_total": 4,
-    "source_msg_count": 13,
-    "by_type_counts": {
-      "averias": 5,
-      "restablecimiento": 7,
-      "disparo_circuito": 1
     }
   },
   "week": {
@@ -378,7 +350,7 @@
   "month": {
     "month": "2026-07",
     "finalized": false,
-    "dailies_count": 11,
+    "dailies_count": 12,
     "avg_peak_mw": 620.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
@@ -463,10 +435,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-06-12",
-        "peak_mw": 189
-      },
       {
         "date": "2026-06-13",
         "peak_mw": 361
@@ -582,13 +550,13 @@
       {
         "date": "2026-07-11",
         "peak_mw": null
+      },
+      {
+        "date": "2026-07-12",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-06-12",
-        "minutes": 1421
-      },
       {
         "date": "2026-06-13",
         "minutes": 2605
@@ -704,13 +672,13 @@
       {
         "date": "2026-07-11",
         "minutes": 0
+      },
+      {
+        "date": "2026-07-12",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-01-13",
-        "peak_mw": 268
-      },
       {
         "date": "2026-01-14",
         "peak_mw": 303
@@ -1426,6 +1394,10 @@
       {
         "date": "2026-07-11",
         "peak_mw": null
+      },
+      {
+        "date": "2026-07-12",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1821,7 +1793,7 @@
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
     "daf_total": 2361,
-    "daf_last_30d": 15,
+    "daf_last_30d": 14,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1842,9 +1814,9 @@
     }
   },
   "meta": {
-    "daily_count": 1441,
+    "daily_count": 1442,
     "monthly_count": 48,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-07-11"
+    "latest_date": "2026-07-12"
   }
 }
