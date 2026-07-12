@@ -23,14 +23,15 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Habana Del Este": 1,
-    "Boyeros": 1,
-    "Arroyo Naranjo": 1
+    "Boyeros": 3,
+    "Arroyo Naranjo": 1,
+    "Lisa": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 5,
+  "averias_total": 5,
+  "source_msg_count": 7,
   "by_type_counts": {
-    "disparo_circuito": 2,
-    "averias": 3
+    "disparo_circuito": 1,
+    "averias": 5,
+    "restablecimiento": 1
   }
 }
