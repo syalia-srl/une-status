@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T12:12:41+00:00",
+  "generated_at": "2026-07-12T13:54:54+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-12T12:09:08+00:00",
+    "as_of": "2026-07-12T13:53:21+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,41 +33,60 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-12T11:51:38+00:00",
+      "ts": "2026-07-12T13:51:06+00:00",
       "averias": [
         {
-          "municipio": "Cotorro",
-          "direccion": "Carretera de Ojo de Agua, Pozos Los Benignos",
-          "severity": "primaria"
+          "municipio": "Guanabacoa",
+          "direccion": "Línea de Ferrocarril y Vía Blanca"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-12T11:57:27+00:00",
-        "municipio": "Lisa",
+        "ts": "2026-07-12T13:51:06+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "Línea de Ferrocarril y Vía Blanca"
+      },
+      {
+        "ts": "2026-07-12T13:43:28+00:00",
+        "municipio": "Arroyo Naranjo",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-07-12T11:51:38+00:00",
-        "municipio": "Cotorro",
-        "direccion": "Carretera de Ojo de Agua, Pozos Los Benignos",
-        "severity": "primaria"
+        "ts": "2026-07-12T13:29:22+00:00",
+        "municipio": "Lisa",
+        "direccion": "📌 2074: 73 / 214 y 214 A"
       },
       {
-        "ts": "2026-07-12T11:45:03+00:00",
-        "municipio": "Cotorro",
-        "direccion": "Campo de Tiro y Antigua Fábrica de Queso",
-        "severity": "primaria"
+        "ts": "2026-07-12T13:24:59+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-07-12T13:18:18+00:00",
+        "municipio": "Plaza De La Revolución",
+        "direccion": "Panorama / Colón y San Pedro(Nuevo Vedado) 📣",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-12T13:15:03+00:00",
+        "municipio": "Boyeros",
+        "direccion": "3ra / 2da y Tirabeque"
+      },
+      {
+        "ts": "2026-07-12T13:11:27+00:00",
+        "municipio": "Boyeros",
+        "direccion": "405 / 190 y 192 (Santiado de las Vegas) 📣",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
-      "since": null,
+      "since": "2026-07-12T12:34:37+00:00",
       "last_outage_at": "2026-03-21",
-      "last_recovered_at": null,
+      "last_recovered_at": "2026-07-12T12:34:37+00:00",
       "partial_sen": {
         "active": false,
         "since": null,
@@ -292,15 +311,21 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cotorro": 2,
-      "Lisa": 1
+      "Boyeros": 2,
+      "Plaza De La Revolución": 1,
+      "Habana Del Este": 1,
+      "Lisa": 1,
+      "Arroyo Naranjo": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 5,
+    "averias_total": 7,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "averias": 2,
-      "disparo_circuito": 1
+      "restablecimiento_sen": 1,
+      "otro": 3,
+      "restablecimiento": 8,
+      "disparo_circuito": 3,
+      "averias": 5
     }
   },
   "yesterday": {
@@ -357,19 +382,20 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cotorro": 3,
+      "Boyeros": 4,
       "Cerro": 3,
-      "Boyeros": 2,
+      "Guanabacoa": 2,
       "Centro Habana": 2,
-      "Guanabacoa": 1,
+      "Habana Del Este": 2,
+      "Arroyo Naranjo": 2,
+      "Cotorro": 1,
       "Regla": 1,
       "Plaza": 1,
-      "Habana Del Este": 1,
-      "Arroyo Naranjo": 1,
       "Boyero": 1,
+      "Plaza De La Revolución": 1,
       "Lisa": 1
     },
-    "averias_total": 17,
+    "averias_total": 21,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -396,21 +422,22 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Boyeros": 5,
       "Cerro": 4,
       "Centro Habana": 3,
-      "Boyeros": 3,
-      "Cotorro": 3,
+      "Guanabacoa": 3,
       "Plaza": 2,
       "Lisa": 2,
-      "Guanabacoa": 2,
       "Marianao": 2,
+      "Habana Del Este": 2,
+      "Arroyo Naranjo": 2,
       "San Miguel Del Padrón": 1,
+      "Cotorro": 1,
       "Regla": 1,
-      "Habana Del Este": 1,
-      "Arroyo Naranjo": 1,
-      "Boyero": 1
+      "Boyero": 1,
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 26,
+    "averias_total": 30,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -431,19 +458,19 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3283,
+    "averias_total": 3287,
     "averias_top_municipios": {
-      "Boyeros": 343,
+      "Boyeros": 345,
       "Playa": 281,
-      "Arroyo Naranjo": 256,
+      "Arroyo Naranjo": 257,
       "Lisa": 238,
-      "Habana Del Este": 226,
-      "Guanabacoa": 222,
+      "Habana Del Este": 227,
+      "Guanabacoa": 223,
       "Cerro": 191,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 154,
-      "Cotorro": 102,
+      "Cotorro": 100,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
