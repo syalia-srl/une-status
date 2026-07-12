@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T17:42:50+00:00",
+  "generated_at": "2026-07-12T18:37:11+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-12T17:40:43+00:00",
+    "as_of": "2026-07-12T18:35:11+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,38 +33,24 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-12T17:38:21+00:00",
-      "averias": [
-        {
-          "municipio": "Plaza",
-          "direccion": "la siguiente dirección: Lazada Norte entre Lazada Norte 1 y Lazada Norte 2 🚨",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-12T18:35:11+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-07-12T17:38:21+00:00",
-        "municipio": "Plaza",
-        "direccion": "la siguiente dirección: Lazada Norte entre Lazada Norte 1 y Lazada Norte 2 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-12T17:35:56+00:00",
-        "municipio": "Playa",
-        "direccion": "la siguiente dirección: 19 entre 108 y 210 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-12T17:09:25+00:00",
+        "ts": "2026-07-12T18:27:20+00:00",
         "municipio": "Arroyo Naranjo",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-07-12T16:58:16+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "Becker / Martí y Corral Falso",
-        "severity": "secundaria"
+        "ts": "2026-07-12T18:14:17+00:00",
+        "municipio": "Boyeros",
+        "direccion": "Independencia y Callejón Tecnológico Martí"
+      },
+      {
+        "ts": "2026-07-12T17:45:50+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -298,18 +284,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Arroyo Naranjo": 1,
-      "Playa": 1,
-      "Plaza": 1
+      "Habana Del Este": 1,
+      "Boyeros": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 8,
+    "averias_total": 3,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "otro": 2,
-      "mantenimiento": 1,
-      "averias": 3,
-      "disparo_circuito": 2
+      "disparo_circuito": 2,
+      "averias": 3
     }
   },
   "yesterday": {
@@ -366,19 +349,18 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Boyeros": 3,
       "Cerro": 3,
-      "Guanabacoa": 2,
-      "Boyeros": 2,
       "Centro Habana": 2,
-      "Plaza": 2,
+      "Habana Del Este": 2,
       "Arroyo Naranjo": 2,
+      "Guanabacoa": 1,
       "Cotorro": 1,
       "Regla": 1,
-      "Habana Del Este": 1,
-      "Boyero": 1,
-      "Playa": 1
+      "Plaza": 1,
+      "Boyero": 1
     },
-    "averias_total": 18,
+    "averias_total": 17,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -406,21 +388,20 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Cerro": 4,
-      "Plaza": 3,
+      "Boyeros": 4,
       "Centro Habana": 3,
-      "Guanabacoa": 3,
-      "Boyeros": 3,
+      "Plaza": 2,
+      "Guanabacoa": 2,
       "Marianao": 2,
+      "Habana Del Este": 2,
       "Arroyo Naranjo": 2,
       "San Miguel Del Padrón": 1,
       "Lisa": 1,
       "Cotorro": 1,
       "Regla": 1,
-      "Habana Del Este": 1,
-      "Boyero": 1,
-      "Playa": 1
+      "Boyero": 1
     },
-    "averias_total": 27,
+    "averias_total": 26,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -441,16 +422,16 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3284,
+    "averias_total": 3283,
     "averias_top_municipios": {
-      "Boyeros": 343,
-      "Playa": 282,
+      "Boyeros": 344,
+      "Playa": 281,
       "Arroyo Naranjo": 257,
       "Lisa": 237,
-      "Habana Del Este": 226,
-      "Guanabacoa": 223,
+      "Habana Del Este": 227,
+      "Guanabacoa": 222,
       "Cerro": 191,
-      "Plaza": 187,
+      "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 154,
       "Cotorro": 100,

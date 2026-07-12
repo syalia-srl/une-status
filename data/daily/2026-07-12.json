@@ -23,17 +23,14 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Guanabacoa": 1,
-    "Arroyo Naranjo": 1,
-    "Playa": 1,
-    "Plaza": 1
+    "Habana Del Este": 1,
+    "Boyeros": 1,
+    "Arroyo Naranjo": 1
   },
-  "averias_total": 4,
-  "source_msg_count": 8,
+  "averias_total": 3,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "otro": 2,
-    "mantenimiento": 1,
-    "averias": 3,
-    "disparo_circuito": 2
+    "disparo_circuito": 2,
+    "averias": 3
   }
 }
