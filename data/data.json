@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T19:47:52+00:00",
+  "generated_at": "2026-07-12T20:34:34+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-12T19:34:59+00:00",
+    "as_of": "2026-07-12T20:31:20+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,43 +33,30 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-12T19:34:59+00:00",
+      "ts": "2026-07-12T20:08:45+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "severity": "secundaria"
+          "municipio": "Arroyo Naranjo",
+          "direccion": "Avenida de Las Flores / Calzada de Managua y 2da"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-12T19:34:59+00:00",
-        "municipio": "Lisa",
-        "severity": "secundaria"
+        "ts": "2026-07-12T20:31:20+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-07-12T19:27:57+00:00",
+        "ts": "2026-07-12T20:08:45+00:00",
         "municipio": "Arroyo Naranjo",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-12T19:19:07+00:00",
-        "municipio": "Boyeros",
-        "direccion": "la siguiente dirección: Río entre Bohemia y Máximo Gómez, afectando el servicio eléctrico en Las Cañas, Calabazar 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-12T18:53:10+00:00",
-        "municipio": "Boyeros",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-12T18:45:20+00:00",
-        "municipio": "Boyeros",
-        "direccion": "Soto / 4ta y 5ta"
+        "direccion": "Avenida de Las Flores / Calzada de Managua y 2da"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-07-12T20:17:01+00:00",
+      "type": "restablecimiento_daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -291,7 +278,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -300,16 +287,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 3,
       "Arroyo Naranjo": 1,
-      "Lisa": 1
+      "Habana Del Este": 1
     },
-    "averias_total": 5,
+    "averias_total": 2,
     "source_msg_count": 7,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "averias": 5,
-      "restablecimiento": 1
+      "daf": 1,
+      "otro": 2,
+      "averias": 1,
+      "restablecimiento": 1,
+      "restablecimiento_daf": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -366,20 +355,19 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
       "Cerro": 3,
+      "Boyeros": 2,
       "Centro Habana": 2,
+      "Habana Del Este": 2,
       "Arroyo Naranjo": 2,
       "Guanabacoa": 1,
       "Cotorro": 1,
       "Regla": 1,
       "Plaza": 1,
-      "Habana Del Este": 1,
-      "Boyero": 1,
-      "Lisa": 1
+      "Boyero": 1
     },
-    "averias_total": 19,
-    "daf_total": 2,
+    "averias_total": 16,
+    "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -405,22 +393,22 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
       "Cerro": 4,
       "Centro Habana": 3,
+      "Boyeros": 3,
       "Plaza": 2,
-      "Lisa": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
+      "Habana Del Este": 2,
       "Arroyo Naranjo": 2,
       "San Miguel Del Padrón": 1,
+      "Lisa": 1,
       "Cotorro": 1,
       "Regla": 1,
-      "Habana Del Este": 1,
       "Boyero": 1
     },
-    "averias_total": 28,
-    "daf_total": 4,
+    "averias_total": 25,
+    "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -440,13 +428,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3285,
+    "averias_total": 3282,
     "averias_top_municipios": {
-      "Boyeros": 346,
+      "Boyeros": 343,
       "Playa": 281,
       "Arroyo Naranjo": 257,
-      "Lisa": 238,
-      "Habana Del Este": 226,
+      "Lisa": 237,
+      "Habana Del Este": 227,
       "Guanabacoa": 222,
       "Cerro": 191,
       "Plaza": 186,
@@ -458,7 +446,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2361,
+    "daf_total": 2362,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -1833,8 +1821,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2361,
-    "daf_last_30d": 14,
+    "daf_total": 2362,
+    "daf_last_30d": 15,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
