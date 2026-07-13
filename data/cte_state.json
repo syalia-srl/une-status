@@ -106,19 +106,19 @@
       "name": "Carlos M. de Céspedes (Cienfuegos)",
       "units": {
         "3": {
-          "state": "online",
-          "since": "2026-07-08T01:09:07+00:00"
+          "state": "offline",
+          "since": "2026-07-13T18:39:11+00:00"
         },
         "4": {
           "state": "online",
           "since": "2026-07-07T20:31:15+00:00"
         }
       },
-      "last_seen_at": "2026-07-08T01:09:07+00:00",
+      "last_seen_at": "2026-07-13T18:39:11+00:00",
       "last_online_at": "2026-07-08T01:09:07+00:00",
-      "last_offline_at": "2026-04-26T01:01:22+00:00",
-      "last_change_at": "2026-05-02T00:35:29+00:00",
-      "state": "online"
+      "last_offline_at": "2026-07-13T18:39:11+00:00",
+      "last_change_at": "2026-07-13T18:39:11+00:00",
+      "state": "partial"
     },
     "guiteras": {
       "name": "Antonio Guiteras",
