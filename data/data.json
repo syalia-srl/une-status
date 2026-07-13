@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-13T10:15:08+00:00",
+  "generated_at": "2026-07-13T12:41:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-13T10:09:06+00:00",
+    "as_of": "2026-07-13T12:35:29+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,12 +30,26 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 255,
-    "current_mw_affected_at": "2026-07-13T10:09:06+00:00",
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": 252,
+    "current_mw_affected_at": "2026-07-13T11:24:37+00:00",
+    "active_averias": {
+      "ts": "2026-07-13T12:34:43+00:00",
+      "averias": [
+        {
+          "municipio": "Marianao"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-13T12:34:43+00:00",
+        "municipio": "Marianao"
+      }
+    ],
     "last_daf": null,
-    "last_pronostico": null,
+    "last_pronostico": {
+      "ts": "2026-07-13T11:59:12+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -243,8 +257,8 @@
   "day": {
     "date": "2026-07-13",
     "finalized": false,
-    "peak_mw_affected": 255,
-    "peak_time": "06:09",
+    "peak_mw_affected": 252,
+    "peak_time": "07:24",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -264,13 +278,18 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 20,
+    "averias_count_by_municipio": {
+      "Marianao": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "otro": 11,
-      "restablecimiento": 8,
-      "actualizacion_bloques": 1
+      "otro": 3,
+      "restablecimiento": 4,
+      "actualizacion_bloques": 1,
+      "averias": 2,
+      "pronostico": 1,
+      "mantenimiento": 1
     }
   },
   "yesterday": {
@@ -314,7 +333,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 357.0,
+    "avg_peak_mw": 356.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -336,9 +355,10 @@
       "Arroyo Naranjo": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
-      "Lisa": 1
+      "Lisa": 1,
+      "Marianao": 1
     },
-    "averias_total": 14,
+    "averias_total": 15,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -352,7 +372,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 357.0,
+    "avg_peak_mw": 356.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -367,11 +387,11 @@
     "averias_count_by_municipio": {
       "Cerro": 4,
       "Centro Habana": 3,
+      "Marianao": 3,
       "Boyeros": 3,
       "Plaza": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
-      "Marianao": 2,
       "San Miguel Del Padrón": 1,
       "Cotorro": 1,
       "Regla": 1,
@@ -380,7 +400,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 25,
+    "averias_total": 26,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -401,7 +421,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3282,
+    "averias_total": 3283,
     "averias_top_municipios": {
       "Boyeros": 343,
       "Playa": 281,
@@ -412,7 +432,7 @@
       "Cerro": 191,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
-      "Marianao": 154,
+      "Marianao": 155,
       "Cotorro": 100,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -555,7 +575,7 @@
       },
       {
         "date": "2026-07-13",
-        "peak_mw": 255
+        "peak_mw": 252
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1399,7 +1419,7 @@
       },
       {
         "date": "2026-07-13",
-        "peak_mw": 255
+        "peak_mw": 252
       }
     ],
     "monthly_max_peak_mw": [
