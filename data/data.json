@@ -1,43 +1,56 @@
 {
-  "generated_at": "2026-07-13T00:10:43+00:00",
+  "generated_at": "2026-07-13T03:56:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-13T00:04:14+00:00",
+    "as_of": "2026-07-13T03:40:57+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
+    "current_mw_affected": 193,
+    "current_mw_affected_at": "2026-07-13T03:11:07+00:00",
+    "active_averias": {
+      "ts": "2026-07-13T02:42:47+00:00",
+      "averias": [
+        {
+          "municipio": "Lisa",
+          "direccion": "calle 250 desde 51 hasta 23 en San Agustín, Barbosa"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-07-12T23:42:30+00:00",
-        "municipio": "Cotorro",
-        "kind": "disparo_circuito"
+        "ts": "2026-07-13T02:42:47+00:00",
+        "municipio": "Lisa",
+        "direccion": "calle 250 desde 51 hasta 23 en San Agustín, Barbosa"
+      },
+      {
+        "ts": "2026-07-13T02:09:52+00:00",
+        "municipio": "Plaza De La Revolución",
+        "direccion": "📌 PZ14: 21 / 16 y 14"
       }
     ],
     "last_daf": null,
@@ -249,8 +262,8 @@
   "day": {
     "date": "2026-07-12",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 196,
+    "peak_time": "22:15",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -271,14 +284,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cotorro": 1
+      "Plaza De La Revolución": 1,
+      "Lisa": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 9,
+    "averias_total": 2,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "disparo_circuito": 2,
+      "averias": 2,
+      "actualizacion_bloques": 2,
       "otro": 6,
-      "restablecimiento": 1
+      "restablecimiento": 9,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -322,7 +338,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 620.0,
+    "avg_peak_mw": 408.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -336,17 +352,19 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Cerro": 3,
-      "Cotorro": 2,
       "Boyeros": 2,
       "Centro Habana": 2,
       "Guanabacoa": 1,
+      "Cotorro": 1,
       "Regla": 1,
       "Plaza": 1,
       "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
-      "Boyero": 1
+      "Boyero": 1,
+      "Plaza De La Revolución": 1,
+      "Lisa": 1
     },
-    "averias_total": 15,
+    "averias_total": 16,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -360,7 +378,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 12,
-    "avg_peak_mw": 620.0,
+    "avg_peak_mw": 408.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -377,17 +395,18 @@
       "Centro Habana": 3,
       "Boyeros": 3,
       "Plaza": 2,
+      "Lisa": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
-      "Cotorro": 2,
       "San Miguel Del Padrón": 1,
-      "Lisa": 1,
+      "Cotorro": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
-      "Boyero": 1
+      "Boyero": 1,
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 24,
+    "averias_total": 25,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -408,19 +427,19 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3281,
+    "averias_total": 3282,
     "averias_top_municipios": {
       "Boyeros": 343,
       "Playa": 281,
       "Arroyo Naranjo": 256,
-      "Lisa": 237,
+      "Lisa": 238,
       "Habana Del Este": 226,
       "Guanabacoa": 222,
       "Cerro": 191,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 154,
-      "Cotorro": 101,
+      "Cotorro": 100,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
@@ -562,7 +581,7 @@
       },
       {
         "date": "2026-07-12",
-        "peak_mw": null
+        "peak_mw": 196
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1406,7 +1425,7 @@
       },
       {
         "date": "2026-07-12",
-        "peak_mw": null
+        "peak_mw": 196
       }
     ],
     "monthly_max_peak_mw": [
