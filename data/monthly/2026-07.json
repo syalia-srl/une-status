@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 14,
-  "avg_peak_mw": 352.5,
+  "avg_peak_mw": 320.7,
   "max_peak_mw": 620,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -31,7 +31,7 @@
     "Plaza De La Revolución": 1
   },
   "averias_total": 28,
-  "daf_total": 8,
+  "daf_total": 9,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
