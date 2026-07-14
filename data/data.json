@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-14T16:35:58+00:00",
+  "generated_at": "2026-07-14T17:45:04+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-14T16:34:39+00:00",
+    "as_of": "2026-07-14T16:54:35+00:00",
     "bloques": [
       {
         "id": 1,
@@ -37,10 +37,10 @@
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
-      "state": "offline",
-      "since": "2026-07-14T15:32:55+00:00",
-      "last_outage_at": "2026-07-14T15:32:55+00:00",
-      "last_recovered_at": null,
+      "state": "online",
+      "since": "2026-07-14T16:54:35+00:00",
+      "last_outage_at": "2026-03-21",
+      "last_recovered_at": "2026-07-14T16:54:35+00:00",
       "partial_sen": {
         "active": false,
         "since": null,
@@ -257,19 +257,18 @@
     },
     "total_block_outage_minutes": 0,
     "daf_count": 0,
-    "sen_collapse_count": 1,
-    "sen_outage_minutes": 747,
-    "sen_outage": true,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 3,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 2,
-      "desconexion_total_sen": 1
+      "restablecimiento_sen": 1
     }
   },
   "yesterday": {
@@ -344,9 +343,9 @@
     },
     "averias_total": 17,
     "daf_total": 4,
-    "sen_collapse_total": 1,
-    "sen_outage_days": 1,
-    "sen_outage_minutes_total": 747,
+    "sen_collapse_total": 0,
+    "sen_outage_days": 0,
+    "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
@@ -388,9 +387,9 @@
     },
     "averias_total": 28,
     "daf_total": 7,
-    "sen_collapse_total": 1,
-    "sen_outage_days": 1,
-    "sen_outage_minutes_total": 747,
+    "sen_collapse_total": 0,
+    "sen_outage_days": 0,
+    "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
@@ -428,9 +427,9 @@
       "Regla": 43
     },
     "daf_total": 2364,
-    "sen_collapse_total": 10,
-    "sen_outage_days_total": 8,
-    "sen_outage_minutes_total": 4365,
+    "sen_collapse_total": 9,
+    "sen_outage_days_total": 7,
+    "sen_outage_minutes_total": 3618,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
@@ -1798,10 +1797,10 @@
         "minutes": 0
       }
     ],
-    "sen_outage_days_total": 8,
-    "sen_outage_days_last_30d": 1,
-    "sen_collapse_total": 10,
-    "sen_collapse_last_30d": 1,
+    "sen_outage_days_total": 7,
+    "sen_outage_days_last_30d": 0,
+    "sen_collapse_total": 9,
+    "sen_collapse_last_30d": 0,
     "daf_total": 2364,
     "daf_last_30d": 16,
     "cte_offline_minutes_total": {

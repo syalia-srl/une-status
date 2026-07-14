@@ -15,18 +15,17 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
-  "sen_collapse_count": 1,
-  "sen_outage_minutes": 747,
-  "sen_outage": true,
+  "sen_collapse_count": 0,
+  "sen_outage_minutes": 0,
+  "sen_outage": false,
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 3,
+  "source_msg_count": 1,
   "by_type_counts": {
-    "otro": 2,
-    "desconexion_total_sen": 1
+    "restablecimiento_sen": 1
   }
 }
