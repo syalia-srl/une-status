@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-13T19:02:02+00:00",
+  "generated_at": "2026-07-14T13:04:35+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-13T18:58:25+00:00",
+    "as_of": "2026-07-14T12:47:26+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,41 +30,20 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 146,
-    "current_mw_affected_at": "2026-07-13T18:58:25+00:00",
+    "current_mw_affected": 448,
+    "current_mw_affected_at": "2026-07-14T11:09:10+00:00",
     "active_averias": {
-      "ts": "2026-07-13T18:48:11+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "las calles Porto Carrero entre Rodríguez y Concepción afectando el servicio eléctrico en el siguiente circuito: 👉 A1008: En los repartos Portocarrero y El Moro: calle C a Portocarrero, 2da a Holguín"
-        }
-      ]
+      "ts": "2026-07-14T10:49:42+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-07-13T18:48:11+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las calles Porto Carrero entre Rodríguez y Concepción afectando el servicio eléctrico en el siguiente circuito: 👉 A1008: En los repartos Portocarrero y El Moro: calle C a Portocarrero, 2da a Holguín"
-      },
-      {
-        "ts": "2026-07-13T18:38:10+00:00",
-        "municipio": "Cerro",
-        "direccion": "las calles 50A y Final, Santa Ana 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-13T18:29:10+00:00",
-        "municipio": "Cotorro",
-        "direccion": "las calles 99 y Final, Buenos Aires 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": {
-      "ts": "2026-07-13T18:44:15+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-07-14T10:04:13+00:00",
+      "type": "daf"
     },
-    "last_pronostico": null,
+    "last_pronostico": {
+      "ts": "2026-07-14T12:00:16+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -270,6 +249,42 @@
     ]
   },
   "day": {
+    "date": "2026-07-14",
+    "finalized": false,
+    "peak_mw_affected": 448,
+    "peak_time": "07:09",
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 1,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 20,
+    "by_type_counts": {
+      "otro": 7,
+      "daf": 1,
+      "restablecimiento": 9,
+      "averias": 1,
+      "actualizacion_bloques": 1,
+      "pronostico": 1
+    }
+  },
+  "yesterday": {
     "date": "2026-07-13",
     "finalized": false,
     "peak_mw_affected": 146,
@@ -311,48 +326,10 @@
       "restablecimiento_daf": 1
     }
   },
-  "yesterday": {
-    "date": "2026-07-12",
-    "finalized": false,
-    "peak_mw_affected": 196,
-    "peak_time": "22:15",
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Plaza De La Revolución": 1,
-      "Lisa": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 20,
-    "by_type_counts": {
-      "averias": 2,
-      "actualizacion_bloques": 2,
-      "otro": 6,
-      "restablecimiento": 9,
-      "disparo_circuito": 1
-    }
-  },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 320.7,
+    "avg_peak_mw": 352.5,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -392,8 +369,8 @@
   "month": {
     "month": "2026-07",
     "finalized": false,
-    "dailies_count": 13,
-    "avg_peak_mw": 320.7,
+    "dailies_count": 14,
+    "avg_peak_mw": 352.5,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -422,7 +399,7 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 28,
-    "daf_total": 7,
+    "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -462,7 +439,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2364,
+    "daf_total": 2365,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -480,10 +457,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-06-14",
-        "peak_mw": 366
-      },
       {
         "date": "2026-06-15",
         "peak_mw": 422
@@ -599,13 +572,13 @@
       {
         "date": "2026-07-13",
         "peak_mw": 146
+      },
+      {
+        "date": "2026-07-14",
+        "peak_mw": 448
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-06-14",
-        "minutes": 3427
-      },
       {
         "date": "2026-06-15",
         "minutes": 3368
@@ -721,13 +694,13 @@
       {
         "date": "2026-07-13",
         "minutes": 0
+      },
+      {
+        "date": "2026-07-14",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-01-15",
-        "peak_mw": 277
-      },
       {
         "date": "2026-01-16",
         "peak_mw": 353
@@ -1443,6 +1416,10 @@
       {
         "date": "2026-07-13",
         "peak_mw": 146
+      },
+      {
+        "date": "2026-07-14",
+        "peak_mw": 448
       }
     ],
     "monthly_max_peak_mw": [
@@ -1837,8 +1814,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2364,
-    "daf_last_30d": 16,
+    "daf_total": 2365,
+    "daf_last_30d": 17,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1859,9 +1836,9 @@
     }
   },
   "meta": {
-    "daily_count": 1443,
+    "daily_count": 1444,
     "monthly_count": 48,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-07-13"
+    "latest_date": "2026-07-14"
   }
 }
