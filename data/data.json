@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-15T00:02:53+00:00",
+  "generated_at": "2026-07-15T03:28:54+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-14T23:34:56+00:00",
+    "as_of": "2026-07-15T03:06:23+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,15 +32,27 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-07-15T02:18:18+00:00",
+      "averias": [
+        {
+          "municipio": "Plaza"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-15T02:18:18+00:00",
+        "municipio": "Plaza"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
-      "since": "2026-07-14T23:34:56+00:00",
+      "since": null,
       "last_outage_at": "2026-03-21",
-      "last_recovered_at": "2026-07-14T23:34:56+00:00",
+      "last_recovered_at": null,
       "partial_sen": {
         "active": false,
         "since": null,
@@ -147,10 +159,10 @@
       {
         "id": "nuevitas",
         "name": "10 de Octubre (Nuevitas)",
-        "state": "assumed_online",
-        "assumed": true,
-        "last_seen_at": "2026-05-20T02:04:07+00:00",
-        "last_online_at": "2026-05-20T02:04:07+00:00",
+        "state": "partial",
+        "assumed": false,
+        "last_seen_at": "2026-07-15T00:18:04+00:00",
+        "last_online_at": "2026-07-15T00:18:04+00:00",
         "last_offline_at": "2026-03-08T01:16:03+00:00",
         "last_change_at": "2026-03-12T00:37:41+00:00",
         "units": [
@@ -162,7 +174,7 @@
           {
             "unidad": 6,
             "state": "online",
-            "since": "2026-05-20T02:04:07+00:00"
+            "since": "2026-07-15T00:18:04+00:00"
           }
         ],
         "online_units": 1,
@@ -183,12 +195,12 @@
       {
         "id": "guevara",
         "name": "Ernesto Guevara (Santa Cruz)",
-        "state": "partial",
+        "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-07-09T21:01:11+00:00",
-        "last_online_at": "2026-07-07T16:09:16+00:00",
+        "last_seen_at": "2026-07-15T02:31:56+00:00",
+        "last_online_at": "2026-07-15T02:31:56+00:00",
         "last_offline_at": "2026-07-09T21:01:11+00:00",
-        "last_change_at": "2026-07-09T21:01:11+00:00",
+        "last_change_at": "2026-07-15T02:31:56+00:00",
         "units": [
           {
             "unidad": 1,
@@ -197,8 +209,8 @@
           },
           {
             "unidad": 2,
-            "state": "offline",
-            "since": "2026-07-09T21:01:11+00:00"
+            "state": "online",
+            "since": "2026-07-15T02:31:56+00:00"
           },
           {
             "unidad": 3,
@@ -206,8 +218,8 @@
             "since": "2026-05-20T23:48:04+00:00"
           }
         ],
-        "online_units": 2,
-        "offline_units": 1
+        "online_units": 3,
+        "offline_units": 0
       },
       {
         "id": "rente",
@@ -264,11 +276,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 1,
+    "averias_count_by_municipio": {
+      "Plaza": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento_sen": 1
+      "unidad_termoelectrica": 2,
+      "restablecimiento": 3,
+      "averias": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -332,16 +349,16 @@
       "Cerro": 4,
       "Boyeros": 2,
       "Centro Habana": 2,
+      "Plaza": 2,
       "Arroyo Naranjo": 2,
       "Regla": 1,
-      "Plaza": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
       "Cotorro": 1
     },
-    "averias_total": 17,
+    "averias_total": 18,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -371,9 +388,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Cerro": 5,
+      "Plaza": 3,
       "Centro Habana": 3,
       "Boyeros": 3,
-      "Plaza": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
@@ -385,7 +402,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 28,
+    "averias_total": 29,
     "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -408,7 +425,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3285,
+    "averias_total": 3286,
     "averias_top_municipios": {
       "Boyeros": 343,
       "Playa": 281,
@@ -417,7 +434,7 @@
       "Habana Del Este": 226,
       "Guanabacoa": 222,
       "Cerro": 192,
-      "Plaza": 186,
+      "Plaza": 187,
       "San Miguel Del Padrón": 185,
       "Marianao": 154,
       "Cotorro": 101,

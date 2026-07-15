@@ -57,11 +57,11 @@
         },
         "6": {
           "state": "online",
-          "since": "2026-05-20T02:04:07+00:00"
+          "since": "2026-07-15T00:18:04+00:00"
         }
       },
-      "last_seen_at": "2026-05-20T02:04:07+00:00",
-      "last_online_at": "2026-05-20T02:04:07+00:00",
+      "last_seen_at": "2026-07-15T00:18:04+00:00",
+      "last_online_at": "2026-07-15T00:18:04+00:00",
       "last_offline_at": "2026-03-08T01:16:03+00:00",
       "last_change_at": "2026-03-12T00:37:41+00:00",
       "state": "partial"
@@ -92,15 +92,15 @@
           "since": "2026-05-20T23:48:04+00:00"
         },
         "2": {
-          "state": "offline",
-          "since": "2026-07-09T21:01:11+00:00"
+          "state": "online",
+          "since": "2026-07-15T02:31:56+00:00"
         }
       },
-      "last_seen_at": "2026-07-09T21:01:11+00:00",
-      "last_online_at": "2026-07-07T16:09:16+00:00",
+      "last_seen_at": "2026-07-15T02:31:56+00:00",
+      "last_online_at": "2026-07-15T02:31:56+00:00",
       "last_offline_at": "2026-07-09T21:01:11+00:00",
-      "last_change_at": "2026-07-09T21:01:11+00:00",
-      "state": "partial"
+      "last_change_at": "2026-07-15T02:31:56+00:00",
+      "state": "online"
     },
     "cespedes": {
       "name": "Carlos M. de Céspedes (Cienfuegos)",
