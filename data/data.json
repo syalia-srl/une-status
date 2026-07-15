@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-15T14:41:09+00:00",
+  "generated_at": "2026-07-15T16:07:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-15T14:33:58+00:00",
+    "as_of": "2026-07-15T16:04:16+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,25 +33,19 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-15T14:31:55+00:00",
+      "ts": "2026-07-15T14:43:14+00:00",
       "averias": [
         {
-          "municipio": "Cotorro",
-          "direccion": ": 👉 Loteria y Alberro ( Circuito A1042 )"
+          "municipio": "Playa",
+          "direccion": "29 /70 y 72 : 👉 Circuito L316 : Calle 70 desde 13 hasta 29 (Reparto Buenavista); Calle 64 desde 5ta hasta 17 (Almendares); Calle 66 desde 1ra hasta 7ma (Miramar)"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-15T14:31:55+00:00",
-        "municipio": "Cotorro",
-        "direccion": ": 👉 Loteria y Alberro ( Circuito A1042 )"
-      },
-      {
-        "ts": "2026-07-15T13:15:42+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": ": 👉 Avenida Ciudamar Esquina 15 ( Circuito H343 )",
-        "severity": "secundaria"
+        "ts": "2026-07-15T14:43:14+00:00",
+        "municipio": "Playa",
+        "direccion": "29 /70 y 72 : 👉 Circuito L316 : Calle 70 desde 13 hasta 29 (Reparto Buenavista); Calle 64 desde 5ta hasta 17 (Almendares); Calle 66 desde 1ra hasta 7ma (Miramar)"
       }
     ],
     "last_daf": null,
@@ -285,16 +279,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
-      "Cotorro": 1
+      "Playa": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 11,
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "otro": 3,
-      "restablecimiento": 5,
-      "averias": 2,
-      "via_libre": 1
+      "averias": 1,
+      "restablecimiento": 2,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -347,7 +339,6 @@
     "averias_count_by_municipio": {
       "Cerro": 4,
       "Arroyo Naranjo": 2,
-      "Cotorro": 2,
       "Boyeros": 1,
       "Centro Habana": 1,
       "Plaza": 1,
@@ -355,9 +346,10 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
-      "San Miguel Del Padrón": 1
+      "Cotorro": 1,
+      "Playa": 1
     },
-    "averias_total": 16,
+    "averias_total": 15,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -389,19 +381,20 @@
       "Cerro": 5,
       "Centro Habana": 3,
       "Boyeros": 3,
-      "Cotorro": 3,
       "Plaza": 2,
-      "San Miguel Del Padrón": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
+      "Cotorro": 2,
       "Arroyo Naranjo": 2,
+      "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
-      "Plaza De La Revolución": 1
+      "Plaza De La Revolución": 1,
+      "Playa": 1
     },
-    "averias_total": 30,
+    "averias_total": 29,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -424,19 +417,19 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3287,
+    "averias_total": 3286,
     "averias_top_municipios": {
       "Boyeros": 343,
-      "Playa": 281,
+      "Playa": 282,
       "Arroyo Naranjo": 257,
       "Lisa": 238,
       "Habana Del Este": 226,
       "Guanabacoa": 222,
       "Cerro": 192,
-      "San Miguel Del Padrón": 186,
       "Plaza": 186,
+      "San Miguel Del Padrón": 185,
       "Marianao": 154,
-      "Cotorro": 102,
+      "Cotorro": 101,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
