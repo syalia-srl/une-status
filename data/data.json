@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-15T22:47:02+00:00",
+  "generated_at": "2026-07-15T23:48:42+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-15T22:30:37+00:00",
+    "as_of": "2026-07-15T23:46:58+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,12 +32,20 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-07-15T23:46:58+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": ": 👉 Molino / Bazo y Linea del Ferrocarril"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-07-15T22:20:56+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
+        "ts": "2026-07-15T23:46:58+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": ": 👉 Molino / Bazo y Linea del Ferrocarril"
       }
     ],
     "last_daf": null,
@@ -271,13 +279,12 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Guanabacoa": 1
     },
     "averias_total": 1,
-    "source_msg_count": 3,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 2,
-      "disparo_circuito": 1
+      "averias": 1
     }
   },
   "yesterday": {
@@ -329,15 +336,16 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Cerro": 4,
-      "Habana Del Este": 2,
       "Arroyo Naranjo": 2,
       "Boyeros": 1,
       "Centro Habana": 1,
       "Plaza": 1,
+      "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Guanabacoa": 1
     },
     "averias_total": 15,
     "daf_total": 5,
@@ -370,16 +378,16 @@
     "averias_count_by_municipio": {
       "Cerro": 5,
       "Centro Habana": 3,
+      "Guanabacoa": 3,
       "Boyeros": 3,
       "Plaza": 2,
       "Lisa": 2,
-      "Guanabacoa": 2,
       "Marianao": 2,
       "Cotorro": 2,
-      "Habana Del Este": 2,
       "Arroyo Naranjo": 2,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
+      "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
@@ -412,8 +420,8 @@
       "Playa": 281,
       "Arroyo Naranjo": 257,
       "Lisa": 238,
-      "Habana Del Este": 227,
-      "Guanabacoa": 222,
+      "Habana Del Este": 226,
+      "Guanabacoa": 223,
       "Cerro": 192,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
