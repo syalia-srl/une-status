@@ -28,10 +28,9 @@
     "Regla": 1,
     "Habana Del Este": 1,
     "Boyero": 1,
-    "Plaza De La Revolución": 1,
-    "Playa": 1
+    "Plaza De La Revolución": 1
   },
-  "averias_total": 29,
+  "averias_total": 28,
   "daf_total": 8,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
