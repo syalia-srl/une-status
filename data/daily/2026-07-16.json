@@ -23,14 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Centro Habana": 2,
-    "Cerro": 1,
-    "Playa": 1
+    "Plaza": 1
   },
-  "averias_total": 4,
-  "source_msg_count": 4,
+  "averias_total": 1,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "disparo_circuito": 1,
-    "averias": 3
+    "averias": 1,
+    "otro": 3,
+    "restablecimiento": 1
   }
 }
