@@ -1,45 +1,47 @@
 {
-  "generated_at": "2026-07-16T14:55:42+00:00",
+  "generated_at": "2026-07-16T16:09:45+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-16T14:54:42+00:00",
+    "as_of": "2026-07-16T16:03:04+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 399,
-    "current_mw_affected_at": "2026-07-16T13:48:39+00:00",
-    "active_averias": {
-      "ts": "2026-07-16T13:40:16+00:00",
-      "averias": []
-    },
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-07-16T13:24:02+00:00",
+        "ts": "2026-07-16T15:18:59+00:00",
         "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-07-16T15:09:19+00:00",
+        "municipio": "Arroyo Naranjo",
         "kind": "disparo_circuito"
       }
     ],
@@ -252,8 +254,8 @@
   "day": {
     "date": "2026-07-16",
     "finalized": false,
-    "peak_mw_affected": 399,
-    "peak_time": "09:48",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -274,17 +276,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 1,
       "Boyeros": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 16,
+    "averias_total": 2,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "otro": 6,
       "restablecimiento": 5,
-      "mantenimiento": 1,
       "disparo_circuito": 2,
-      "averias": 1,
-      "actualizacion_bloques": 1
+      "otro": 1
     }
   },
   "yesterday": {
@@ -328,8 +328,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 247.0,
-    "max_peak_mw": 399,
+    "avg_peak_mw": 171.0,
+    "max_peak_mw": 196,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -342,8 +342,8 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Cerro": 4,
+      "Arroyo Naranjo": 4,
       "Boyeros": 4,
-      "Arroyo Naranjo": 3,
       "Plaza": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
@@ -351,7 +351,7 @@
       "Lisa": 1,
       "Cotorro": 1
     },
-    "averias_total": 17,
+    "averias_total": 18,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -367,7 +367,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 16,
-    "avg_peak_mw": 340.2,
+    "avg_peak_mw": 320.7,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -382,8 +382,8 @@
     "averias_count_by_municipio": {
       "Boyeros": 7,
       "Cerro": 5,
+      "Arroyo Naranjo": 4,
       "Centro Habana": 3,
-      "Arroyo Naranjo": 3,
       "Plaza": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
@@ -395,7 +395,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 33,
+    "averias_total": 34,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -418,11 +418,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3290,
+    "averias_total": 3291,
     "averias_top_municipios": {
       "Boyeros": 347,
       "Playa": 281,
-      "Arroyo Naranjo": 258,
+      "Arroyo Naranjo": 259,
       "Lisa": 238,
       "Habana Del Este": 226,
       "Guanabacoa": 222,
@@ -572,7 +572,7 @@
       },
       {
         "date": "2026-07-16",
-        "peak_mw": 399
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1416,7 +1416,7 @@
       },
       {
         "date": "2026-07-16",
-        "peak_mw": 399
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
