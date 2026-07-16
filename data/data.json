@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T09:25:25+00:00",
+  "generated_at": "2026-07-16T11:15:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-16T09:19:22+00:00",
+    "as_of": "2026-07-16T10:47:09+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,21 +33,10 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-16T07:15:59+00:00",
-      "averias": [
-        {
-          "municipio": "Plaza",
-          "direccion": "la siguiente dirección: 👉 25/F y G, Vedado"
-        }
-      ]
+      "ts": "2026-07-16T10:33:39+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-07-16T07:15:59+00:00",
-        "municipio": "Plaza",
-        "direccion": "la siguiente dirección: 👉 25/F y G, Vedado"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -278,14 +267,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Plaza": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 5,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 3,
     "by_type_counts": {
+      "otro": 1,
       "averias": 1,
-      "otro": 3,
       "restablecimiento": 1
     }
   },
@@ -346,14 +333,14 @@
       "Cerro": 4,
       "Arroyo Naranjo": 3,
       "Boyeros": 3,
-      "Plaza": 2,
+      "Plaza": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
       "Cotorro": 1
     },
-    "averias_total": 17,
+    "averias_total": 16,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -384,9 +371,9 @@
     "averias_count_by_municipio": {
       "Boyeros": 6,
       "Cerro": 5,
-      "Plaza": 3,
       "Centro Habana": 3,
       "Arroyo Naranjo": 3,
+      "Plaza": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
       "Marianao": 2,
@@ -397,7 +384,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 33,
+    "averias_total": 32,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -420,7 +407,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3290,
+    "averias_total": 3289,
     "averias_top_municipios": {
       "Boyeros": 346,
       "Playa": 281,
@@ -429,7 +416,7 @@
       "Habana Del Este": 226,
       "Guanabacoa": 222,
       "Cerro": 192,
-      "Plaza": 187,
+      "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 154,
       "Cotorro": 101,

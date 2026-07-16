@@ -17,9 +17,9 @@
   "averias_count_by_municipio": {
     "Boyeros": 6,
     "Cerro": 5,
-    "Plaza": 3,
     "Centro Habana": 3,
     "Arroyo Naranjo": 3,
+    "Plaza": 2,
     "Lisa": 2,
     "Guanabacoa": 2,
     "Marianao": 2,
@@ -30,7 +30,7 @@
     "Boyero": 1,
     "Plaza De La Revolución": 1
   },
-  "averias_total": 33,
+  "averias_total": 32,
   "daf_total": 8,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
