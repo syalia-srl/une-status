@@ -23,13 +23,14 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Habana Del Este": 1
+    "Centro Habana": 2,
+    "Cerro": 1,
+    "Playa": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 3,
+  "averias_total": 4,
+  "source_msg_count": 4,
   "by_type_counts": {
-    "averias": 1,
-    "otro": 1,
-    "restablecimiento": 1
+    "disparo_circuito": 1,
+    "averias": 3
   }
 }
