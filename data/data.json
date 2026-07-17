@@ -1,62 +1,58 @@
 {
-  "generated_at": "2026-07-17T14:09:40+00:00",
+  "generated_at": "2026-07-17T15:36:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-17T13:57:16+00:00",
+    "as_of": "2026-07-17T15:29:43+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 375,
-    "current_mw_affected_at": "2026-07-17T12:55:09+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-17T13:43:31+00:00",
+      "ts": "2026-07-17T14:43:45+00:00",
       "averias": [
         {
-          "municipio": "Playa",
-          "direccion": "las calles 39 entre 44 y 46 afectando el servicio eléctrico en el siguiente circuito: 👉🏼 1242: Calles 54 desde 17 hasta 41; 25 desde 46 hasta 66, Buenavista y Ampliación de Almendares 🚨"
+          "municipio": "Arroyo Naranjo",
+          "direccion": "las calles San Juan entre Pinar del Río y Santa Clara, Párraga 🚨",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-17T13:43:31+00:00",
-        "municipio": "Playa",
-        "direccion": "las calles 39 entre 44 y 46 afectando el servicio eléctrico en el siguiente circuito: 👉🏼 1242: Calles 54 desde 17 hasta 41; 25 desde 46 hasta 66, Buenavista y Ampliación de Almendares 🚨"
-      },
-      {
-        "ts": "2026-07-17T13:31:41+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles Reglita entre Concha y Merced, Hata 🚨",
+        "ts": "2026-07-17T14:43:45+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "las calles San Juan entre Pinar del Río y Santa Clara, Párraga 🚨",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-07-17T12:49:55+00:00",
-        "municipio": "Playa",
-        "direccion": "las calles 5ta H y 240, Jaimanita 🚨",
+        "ts": "2026-07-17T14:39:49+00:00",
+        "municipio": "Cerro",
+        "direccion": "las calles Independencia entre 12 y 14, Martí 🚨",
         "severity": "secundaria"
       }
     ],
@@ -269,8 +265,8 @@
   "day": {
     "date": "2026-07-17",
     "finalized": false,
-    "peak_mw_affected": 375,
-    "peak_time": "08:55",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -291,18 +287,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa": 2,
-      "Guanabacoa": 1
+      "Cerro": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 17,
+    "averias_total": 2,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 9,
-      "averias": 3,
-      "actualizacion_bloques": 1,
-      "mantenimiento": 1,
-      "otro": 2,
-      "nota_diaria": 1
+      "restablecimiento": 10,
+      "averias": 2,
+      "otro": 8
     }
   },
   "yesterday": {
@@ -345,7 +338,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 349.5,
+    "avg_peak_mw": 341.0,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -358,18 +351,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 4,
+      "Cerro": 3,
       "Boyeros": 3,
-      "Cerro": 2,
-      "Playa": 2,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
       "Cotorro": 1,
-      "Marianao": 1,
-      "Guanabacoa": 1
+      "Marianao": 1
     },
-    "averias_total": 16,
+    "averias_total": 15,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -385,7 +376,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 17,
-    "avg_peak_mw": 403.6,
+    "avg_peak_mw": 410.8,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -398,23 +389,22 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Cerro": 6,
       "Boyeros": 6,
-      "Cerro": 5,
+      "Arroyo Naranjo": 4,
       "Centro Habana": 3,
-      "Guanabacoa": 3,
       "Marianao": 3,
-      "Arroyo Naranjo": 3,
       "Plaza": 2,
       "Lisa": 2,
+      "Guanabacoa": 2,
       "Cotorro": 2,
-      "Playa": 2,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 36,
+    "averias_total": 35,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -437,15 +427,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3293,
+    "averias_total": 3292,
     "averias_top_municipios": {
       "Boyeros": 346,
-      "Playa": 283,
-      "Arroyo Naranjo": 258,
+      "Playa": 281,
+      "Arroyo Naranjo": 259,
       "Lisa": 238,
       "Habana Del Este": 226,
-      "Guanabacoa": 223,
-      "Cerro": 192,
+      "Guanabacoa": 222,
+      "Cerro": 193,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 155,
@@ -591,7 +581,7 @@
       },
       {
         "date": "2026-07-17",
-        "peak_mw": 375
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1435,7 +1425,7 @@
       },
       {
         "date": "2026-07-17",
-        "peak_mw": 375
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
