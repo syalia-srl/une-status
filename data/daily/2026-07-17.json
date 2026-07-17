@@ -1,8 +1,8 @@
 {
   "date": "2026-07-17",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 602,
+  "peak_time": "02:51",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -22,12 +22,18 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 6,
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 2,
+    "Guanabacoa": 1,
+    "Boyeros": 1
+  },
+  "averias_total": 4,
+  "source_msg_count": 17,
   "by_type_counts": {
-    "averias": 2,
-    "daf": 2,
-    "restablecimiento": 2
+    "restablecimiento": 6,
+    "disparo_circuito": 1,
+    "otro": 6,
+    "averias": 3,
+    "actualizacion_bloques": 1
   }
 }
