@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T12:19:41+00:00",
+  "generated_at": "2026-07-17T14:09:40+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-17T11:34:16+00:00",
+    "as_of": "2026-07-17T13:57:16+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,17 +30,33 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 489,
-    "current_mw_affected_at": "2026-07-17T11:12:16+00:00",
+    "current_mw_affected": 375,
+    "current_mw_affected_at": "2026-07-17T12:55:09+00:00",
     "active_averias": {
-      "ts": "2026-07-17T11:34:16+00:00",
-      "averias": []
+      "ts": "2026-07-17T13:43:31+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "las calles 39 entre 44 y 46 afectando el servicio eléctrico en el siguiente circuito: 👉🏼 1242: Calles 54 desde 17 hasta 41; 25 desde 46 hasta 66, Buenavista y Ampliación de Almendares 🚨"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-17T11:34:09+00:00",
-        "municipio": "Centro Habana",
-        "direccion": "las calles Belascoain entre Lealtad y Escobar, Dragones 🚨",
+        "ts": "2026-07-17T13:43:31+00:00",
+        "municipio": "Playa",
+        "direccion": "las calles 39 entre 44 y 46 afectando el servicio eléctrico en el siguiente circuito: 👉🏼 1242: Calles 54 desde 17 hasta 41; 25 desde 46 hasta 66, Buenavista y Ampliación de Almendares 🚨"
+      },
+      {
+        "ts": "2026-07-17T13:31:41+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "las calles Reglita entre Concha y Merced, Hata 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-17T12:49:55+00:00",
+        "municipio": "Playa",
+        "direccion": "las calles 5ta H y 240, Jaimanita 🚨",
         "severity": "secundaria"
       }
     ],
@@ -253,8 +269,8 @@
   "day": {
     "date": "2026-07-17",
     "finalized": false,
-    "peak_mw_affected": 489,
-    "peak_time": "07:12",
+    "peak_mw_affected": 375,
+    "peak_time": "08:55",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -275,14 +291,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Centro Habana": 1
+      "Playa": 2,
+      "Guanabacoa": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 6,
+    "averias_total": 3,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "otro": 3,
+      "restablecimiento": 9,
+      "averias": 3,
       "actualizacion_bloques": 1,
-      "averias": 2
+      "mantenimiento": 1,
+      "otro": 2,
+      "nota_diaria": 1
     }
   },
   "yesterday": {
@@ -325,7 +345,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 378.0,
+    "avg_peak_mw": 349.5,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -341,14 +361,15 @@
       "Arroyo Naranjo": 3,
       "Boyeros": 3,
       "Cerro": 2,
+      "Playa": 2,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
       "Cotorro": 1,
       "Marianao": 1,
-      "Centro Habana": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 14,
+    "averias_total": 16,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -364,7 +385,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 17,
-    "avg_peak_mw": 426.4,
+    "avg_peak_mw": 403.6,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -379,20 +400,21 @@
     "averias_count_by_municipio": {
       "Boyeros": 6,
       "Cerro": 5,
-      "Centro Habana": 4,
+      "Centro Habana": 3,
+      "Guanabacoa": 3,
       "Marianao": 3,
       "Arroyo Naranjo": 3,
       "Plaza": 2,
       "Lisa": 2,
-      "Guanabacoa": 2,
       "Cotorro": 2,
+      "Playa": 2,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 34,
+    "averias_total": 36,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -415,20 +437,20 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3291,
+    "averias_total": 3293,
     "averias_top_municipios": {
       "Boyeros": 346,
-      "Playa": 281,
+      "Playa": 283,
       "Arroyo Naranjo": 258,
       "Lisa": 238,
       "Habana Del Este": 226,
-      "Guanabacoa": 222,
+      "Guanabacoa": 223,
       "Cerro": 192,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 155,
       "Cotorro": 101,
-      "Centro Habana": 73,
+      "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
@@ -569,7 +591,7 @@
       },
       {
         "date": "2026-07-17",
-        "peak_mw": 489
+        "peak_mw": 375
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1413,7 +1435,7 @@
       },
       {
         "date": "2026-07-17",
-        "peak_mw": 489
+        "peak_mw": 375
       }
     ],
     "monthly_max_peak_mw": [
