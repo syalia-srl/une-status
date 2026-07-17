@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T15:36:16+00:00",
+  "generated_at": "2026-07-17T16:44:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-17T15:29:43+00:00",
+    "as_of": "2026-07-17T16:44:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,28 +32,22 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-17T14:43:45+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "las calles San Juan entre Pinar del Río y Santa Clara, Párraga 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-07-17T14:43:45+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las calles San Juan entre Pinar del Río y Santa Clara, Párraga 🚨",
-        "severity": "secundaria"
+        "ts": "2026-07-17T16:44:03+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-07-17T14:39:49+00:00",
-        "municipio": "Cerro",
-        "direccion": "las calles Independencia entre 12 y 14, Martí 🚨",
-        "severity": "secundaria"
+        "ts": "2026-07-17T15:45:53+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-07-17T15:45:15+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -287,15 +281,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1,
-      "Arroyo Naranjo": 1
+      "Boyeros": 2,
+      "Marianao": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 20,
+    "averias_total": 3,
+    "source_msg_count": 15,
     "by_type_counts": {
-      "restablecimiento": 10,
-      "averias": 2,
-      "otro": 8
+      "otro": 4,
+      "disparo_circuito": 3,
+      "restablecimiento": 8
     }
   },
   "yesterday": {
@@ -351,16 +345,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 4,
-      "Cerro": 3,
-      "Boyeros": 3,
+      "Boyeros": 5,
+      "Arroyo Naranjo": 3,
+      "Cerro": 2,
+      "Marianao": 2,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
-      "Cotorro": 1,
-      "Marianao": 1
+      "Cotorro": 1
     },
-    "averias_total": 15,
+    "averias_total": 16,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -389,11 +383,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 6,
-      "Boyeros": 6,
-      "Arroyo Naranjo": 4,
+      "Boyeros": 8,
+      "Cerro": 5,
+      "Marianao": 4,
       "Centro Habana": 3,
-      "Marianao": 3,
+      "Arroyo Naranjo": 3,
       "Plaza": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
@@ -404,7 +398,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 35,
+    "averias_total": 36,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -427,18 +421,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3292,
+    "averias_total": 3293,
     "averias_top_municipios": {
-      "Boyeros": 346,
+      "Boyeros": 348,
       "Playa": 281,
-      "Arroyo Naranjo": 259,
+      "Arroyo Naranjo": 258,
       "Lisa": 238,
       "Habana Del Este": 226,
       "Guanabacoa": 222,
-      "Cerro": 193,
+      "Cerro": 192,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
-      "Marianao": 155,
+      "Marianao": 156,
       "Cotorro": 101,
       "Centro Habana": 72,
       "De Boyeros": 50,
