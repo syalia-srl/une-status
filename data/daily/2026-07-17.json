@@ -1,8 +1,8 @@
 {
   "date": "2026-07-17",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 501,
+  "peak_time": "19:10",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 1,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,19 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Guanabacoa": 2,
-    "Marianao": 1,
-    "San Miguel Del Padrón": 1,
-    "Regla": 1
+    "Cerro": 1
   },
-  "averias_total": 5,
-  "source_msg_count": 19,
+  "averias_total": 1,
+  "source_msg_count": 12,
   "by_type_counts": {
     "otro": 10,
-    "restablecimiento_daf": 2,
-    "daf": 1,
-    "disparo_circuito": 1,
-    "averias": 4,
-    "via_libre": 1
+    "averias": 1,
+    "actualizacion_bloques": 1
   }
 }

@@ -1,80 +1,56 @@
 {
-  "generated_at": "2026-07-17T22:28:41+00:00",
+  "generated_at": "2026-07-17T23:23:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-17T22:26:16+00:00",
+    "as_of": "2026-07-17T23:19:10+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 501,
+    "current_mw_affected_at": "2026-07-17T23:10:59+00:00",
     "active_averias": {
-      "ts": "2026-07-17T22:14:39+00:00",
+      "ts": "2026-07-17T22:51:25+00:00",
       "averias": [
         {
-          "municipio": "Regla",
-          "direccion": "las calles 4ta entre Modelo y Ciruela afectando el servicio eléctrico en el siguiente circuito: 👉🏼 R453: La Gloria, Ciruela, Unión, Lídice, Colina Lenin 🚨"
+          "municipio": "Cerro",
+          "direccion": "las calles Infanta entre Santa Teresa y Daois 🚨",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-17T22:14:39+00:00",
-        "municipio": "Regla",
-        "direccion": "las calles 4ta entre Modelo y Ciruela afectando el servicio eléctrico en el siguiente circuito: 👉🏼 R453: La Gloria, Ciruela, Unión, Lídice, Colina Lenin 🚨"
-      },
-      {
-        "ts": "2026-07-17T22:10:35+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "las calles Esperanza entre Maceo y Martí, Prosperidad 🚨",
+        "ts": "2026-07-17T22:51:25+00:00",
+        "municipio": "Cerro",
+        "direccion": "las calles Infanta entre Santa Teresa y Daois 🚨",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-17T22:05:35+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles 4ta entre B y C, Habana Nueva 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-17T22:04:15+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles Padilla entre San Joaquín y Fuente 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-17T21:57:19+00:00",
-        "municipio": "Marianao",
-        "kind": "disparo_circuito"
       }
     ],
-    "last_daf": {
-      "ts": "2026-07-17T22:08:25+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -283,8 +259,8 @@
   "day": {
     "date": "2026-07-17",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 501,
+    "peak_time": "19:10",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -296,7 +272,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -305,20 +281,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 2,
-      "Marianao": 1,
-      "San Miguel Del Padrón": 1,
-      "Regla": 1
+      "Cerro": 1
     },
-    "averias_total": 5,
-    "source_msg_count": 19,
+    "averias_total": 1,
+    "source_msg_count": 12,
     "by_type_counts": {
       "otro": 10,
-      "restablecimiento_daf": 2,
-      "daf": 1,
-      "disparo_circuito": 1,
-      "averias": 4,
-      "via_libre": 1
+      "averias": 1,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -361,7 +331,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 341.0,
+    "avg_peak_mw": 381.0,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -374,20 +344,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Cerro": 3,
       "Arroyo Naranjo": 3,
       "Boyeros": 3,
-      "Cerro": 2,
-      "Marianao": 2,
-      "Guanabacoa": 2,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
       "Cotorro": 1,
-      "San Miguel Del Padrón": 1,
-      "Regla": 1
+      "Marianao": 1
     },
-    "averias_total": 18,
-    "daf_total": 5,
+    "averias_total": 14,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -402,7 +369,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 17,
-    "avg_peak_mw": 410.8,
+    "avg_peak_mw": 428.8,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -415,23 +382,23 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Cerro": 6,
       "Boyeros": 6,
-      "Cerro": 5,
-      "Guanabacoa": 4,
-      "Marianao": 4,
       "Centro Habana": 3,
+      "Marianao": 3,
       "Arroyo Naranjo": 3,
       "Plaza": 2,
-      "San Miguel Del Padrón": 2,
       "Lisa": 2,
+      "Guanabacoa": 2,
       "Cotorro": 2,
-      "Regla": 2,
+      "San Miguel Del Padrón": 1,
+      "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 38,
-    "daf_total": 9,
+    "averias_total": 34,
+    "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -453,25 +420,25 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3295,
+    "averias_total": 3291,
     "averias_top_municipios": {
       "Boyeros": 346,
       "Playa": 281,
       "Arroyo Naranjo": 258,
       "Lisa": 238,
       "Habana Del Este": 226,
-      "Guanabacoa": 224,
-      "Cerro": 192,
-      "San Miguel Del Padrón": 186,
+      "Guanabacoa": 222,
+      "Cerro": 193,
       "Plaza": 186,
-      "Marianao": 156,
+      "San Miguel Del Padrón": 185,
+      "Marianao": 155,
       "Cotorro": 101,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 44
+      "Regla": 43
     },
-    "daf_total": 2366,
+    "daf_total": 2365,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -607,7 +574,7 @@
       },
       {
         "date": "2026-07-17",
-        "peak_mw": null
+        "peak_mw": 501
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1451,7 +1418,7 @@
       },
       {
         "date": "2026-07-17",
-        "peak_mw": null
+        "peak_mw": 501
       }
     ],
     "monthly_max_peak_mw": [
@@ -1846,8 +1813,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2366,
-    "daf_last_30d": 15,
+    "daf_total": 2365,
+    "daf_last_30d": 14,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
