@@ -1,8 +1,8 @@
 {
   "date": "2026-07-17",
   "finalized": false,
-  "peak_mw_affected": 506,
-  "peak_time": "05:41",
+  "peak_mw_affected": 489,
+  "peak_time": "07:12",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -23,14 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Cotorro": 1
+    "Centro Habana": 1
   },
   "averias_total": 1,
   "source_msg_count": 6,
   "by_type_counts": {
-    "actualizacion_bloques": 1,
     "otro": 3,
-    "disparo_circuito": 1,
-    "restablecimiento": 1
+    "actualizacion_bloques": 1,
+    "averias": 2
   }
 }

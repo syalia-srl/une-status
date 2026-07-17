@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T11:01:30+00:00",
+  "generated_at": "2026-07-17T12:19:41+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-17T10:53:15+00:00",
+    "as_of": "2026-07-17T11:34:16+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,14 +30,18 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 506,
-    "current_mw_affected_at": "2026-07-17T09:41:14+00:00",
-    "active_averias": null,
+    "current_mw_affected": 489,
+    "current_mw_affected_at": "2026-07-17T11:12:16+00:00",
+    "active_averias": {
+      "ts": "2026-07-17T11:34:16+00:00",
+      "averias": []
+    },
     "averias_24h": [
       {
-        "ts": "2026-07-17T10:50:57+00:00",
-        "municipio": "Cotorro",
-        "kind": "disparo_circuito"
+        "ts": "2026-07-17T11:34:09+00:00",
+        "municipio": "Centro Habana",
+        "direccion": "las calles Belascoain entre Lealtad y Escobar, Dragones 🚨",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -249,8 +253,8 @@
   "day": {
     "date": "2026-07-17",
     "finalized": false,
-    "peak_mw_affected": 506,
-    "peak_time": "05:41",
+    "peak_mw_affected": 489,
+    "peak_time": "07:12",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -271,15 +275,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cotorro": 1
+      "Centro Habana": 1
     },
     "averias_total": 1,
     "source_msg_count": 6,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
       "otro": 3,
-      "disparo_circuito": 1,
-      "restablecimiento": 1
+      "actualizacion_bloques": 1,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -322,7 +325,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 382.2,
+    "avg_peak_mw": 378.0,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -338,11 +341,12 @@
       "Arroyo Naranjo": 3,
       "Boyeros": 3,
       "Cerro": 2,
-      "Cotorro": 2,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Lisa": 1,
-      "Marianao": 1
+      "Cotorro": 1,
+      "Marianao": 1,
+      "Centro Habana": 1
     },
     "averias_total": 14,
     "daf_total": 4,
@@ -360,7 +364,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 17,
-    "avg_peak_mw": 429.8,
+    "avg_peak_mw": 426.4,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -375,13 +379,13 @@
     "averias_count_by_municipio": {
       "Boyeros": 6,
       "Cerro": 5,
-      "Centro Habana": 3,
+      "Centro Habana": 4,
       "Marianao": 3,
-      "Cotorro": 3,
       "Arroyo Naranjo": 3,
       "Plaza": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
+      "Cotorro": 2,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
@@ -423,8 +427,8 @@
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 155,
-      "Cotorro": 102,
-      "Centro Habana": 72,
+      "Cotorro": 101,
+      "Centro Habana": 73,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
@@ -565,7 +569,7 @@
       },
       {
         "date": "2026-07-17",
-        "peak_mw": 506
+        "peak_mw": 489
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1409,7 +1413,7 @@
       },
       {
         "date": "2026-07-17",
-        "peak_mw": 506
+        "peak_mw": 489
       }
     ],
     "monthly_max_peak_mw": [
