@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-18T09:07:11+00:00",
+  "generated_at": "2026-07-18T10:38:11+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-18T07:42:29+00:00",
+    "as_of": "2026-07-18T09:31:14+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,8 +30,8 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 562,
-    "current_mw_affected_at": "2026-07-18T07:40:26+00:00",
+    "current_mw_affected": 526,
+    "current_mw_affected_at": "2026-07-18T09:31:14+00:00",
     "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
@@ -243,8 +243,8 @@
   "day": {
     "date": "2026-07-18",
     "finalized": false,
-    "peak_mw_affected": 562,
-    "peak_time": "03:40",
+    "peak_mw_affected": 526,
+    "peak_time": "05:31",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -266,10 +266,9 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 2,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "restablecimiento": 1
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -307,7 +306,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 396.2,
+    "avg_peak_mw": 387.2,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -344,7 +343,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 18,
-    "avg_peak_mw": 441.0,
+    "avg_peak_mw": 433.8,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -549,7 +548,7 @@
       },
       {
         "date": "2026-07-18",
-        "peak_mw": 562
+        "peak_mw": 526
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1393,7 +1392,7 @@
       },
       {
         "date": "2026-07-18",
-        "peak_mw": 562
+        "peak_mw": 526
       }
     ],
     "monthly_max_peak_mw": [
