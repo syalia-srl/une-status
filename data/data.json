@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-18T11:34:31+00:00",
+  "generated_at": "2026-07-18T12:35:21+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-18T11:15:34+00:00",
+    "as_of": "2026-07-18T11:38:30+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,30 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-18T10:47:24+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa",
-          "direccion": "las calles 226 entre 31 y 33, Giraldilla 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-18T10:47:24+00:00",
-        "municipio": "Lisa",
-        "direccion": "las calles 226 entre 31 y 33, Giraldilla 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-18T10:43:46+00:00",
-        "municipio": "Boyeros",
-        "direccion": "las calles Alday entre G y F, Trigal 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -286,16 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Lisa": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 12,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "averias": 3,
-      "restablecimiento": 4,
-      "otro": 5
+      "otro": 1
     }
   },
   "yesterday": {
@@ -346,15 +319,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
-      "Lisa": 2,
+      "Boyeros": 3,
       "Arroyo Naranjo": 2,
       "Plaza De La Revolución": 1,
+      "Lisa": 1,
       "Cotorro": 1,
       "Cerro": 1,
       "Marianao": 1
     },
-    "averias_total": 12,
+    "averias_total": 10,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -383,13 +356,13 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 7,
+      "Boyeros": 6,
       "Cerro": 5,
-      "Lisa": 3,
       "Centro Habana": 3,
       "Marianao": 3,
       "Arroyo Naranjo": 3,
       "Plaza": 2,
+      "Lisa": 2,
       "Guanabacoa": 2,
       "Cotorro": 2,
       "San Miguel Del Padrón": 1,
@@ -398,7 +371,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 35,
+    "averias_total": 33,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -421,12 +394,12 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3292,
+    "averias_total": 3290,
     "averias_top_municipios": {
-      "Boyeros": 347,
+      "Boyeros": 346,
       "Playa": 281,
       "Arroyo Naranjo": 258,
-      "Lisa": 239,
+      "Lisa": 238,
       "Habana Del Este": 226,
       "Guanabacoa": 222,
       "Cerro": 192,
