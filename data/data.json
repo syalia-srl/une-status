@@ -1,63 +1,55 @@
 {
-  "generated_at": "2026-07-18T05:50:44+00:00",
+  "generated_at": "2026-07-18T07:25:46+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-18T05:50:35+00:00",
+    "as_of": "2026-07-18T07:09:36+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 685,
-    "current_mw_affected_at": "2026-07-18T05:00:30+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-18T04:16:51+00:00",
+      "ts": "2026-07-18T07:09:36+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "las calles Independencia entre H y 2da, Naranjo 🚨",
-          "severity": "secundaria"
+          "municipio": "Lisa",
+          "direccion": "las calles 224 y 35 afectando el servicio eléctrico del siguiente circuito: 👉 A1223: Repartos Los Avioncitos, La Coronela, Calle 230 desde 27 a 51 San Agustín 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-18T04:16:51+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles Independencia entre H y 2da, Naranjo 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-18T04:15:34+00:00",
-        "municipio": "Regla",
-        "direccion": "las calles Molina entre Baso y Línea 🚨",
-        "severity": "secundaria"
+        "ts": "2026-07-18T07:09:36+00:00",
+        "municipio": "Lisa",
+        "direccion": "las calles 224 y 35 afectando el servicio eléctrico del siguiente circuito: 👉 A1223: Repartos Los Avioncitos, La Coronela, Calle 230 desde 27 a 51 San Agustín 🚨"
       }
     ],
     "last_daf": {
-      "ts": "2026-07-18T05:50:35+00:00",
+      "ts": "2026-07-18T05:54:47+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -268,8 +260,8 @@
   "day": {
     "date": "2026-07-18",
     "finalized": false,
-    "peak_mw_affected": 685,
-    "peak_time": "01:00",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -290,17 +282,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Regla": 1,
-      "Guanabacoa": 1
+      "Lisa": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 7,
+    "averias_total": 1,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "otro": 2,
-      "averias": 2,
-      "actualizacion_bloques": 1,
       "daf": 1,
-      "restablecimiento_daf": 1
+      "restablecimiento_daf": 1,
+      "restablecimiento": 3,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -338,8 +328,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 427.0,
-    "max_peak_mw": 685,
+    "avg_peak_mw": 341.0,
+    "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -352,16 +342,14 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 3,
+      "Lisa": 2,
       "Arroyo Naranjo": 2,
       "Plaza De La Revolución": 1,
-      "Lisa": 1,
       "Cotorro": 1,
       "Cerro": 1,
-      "Marianao": 1,
-      "Regla": 1,
-      "Guanabacoa": 1
+      "Marianao": 1
     },
-    "averias_total": 12,
+    "averias_total": 11,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -377,8 +365,8 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 18,
-    "avg_peak_mw": 465.6,
-    "max_peak_mw": 685,
+    "avg_peak_mw": 410.8,
+    "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -392,20 +380,20 @@
     "averias_count_by_municipio": {
       "Boyeros": 6,
       "Cerro": 5,
+      "Lisa": 3,
       "Centro Habana": 3,
-      "Guanabacoa": 3,
       "Marianao": 3,
       "Arroyo Naranjo": 3,
       "Plaza": 2,
-      "Lisa": 2,
+      "Guanabacoa": 2,
       "Cotorro": 2,
-      "Regla": 2,
       "San Miguel Del Padrón": 1,
+      "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 35,
+    "averias_total": 34,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -428,14 +416,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3292,
+    "averias_total": 3291,
     "averias_top_municipios": {
       "Boyeros": 346,
       "Playa": 281,
       "Arroyo Naranjo": 258,
-      "Lisa": 238,
+      "Lisa": 239,
       "Habana Del Este": 226,
-      "Guanabacoa": 223,
+      "Guanabacoa": 222,
       "Cerro": 192,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
@@ -444,7 +432,7 @@
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 44
+      "Regla": 43
     },
     "daf_total": 2366,
     "sen_collapse_total": 9,
@@ -582,7 +570,7 @@
       },
       {
         "date": "2026-07-18",
-        "peak_mw": 685
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1426,7 +1414,7 @@
       },
       {
         "date": "2026-07-18",
-        "peak_mw": 685
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1620,7 +1608,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": 685
+        "max_peak_mw": 681
       }
     ],
     "monthly_total_outage_minutes": [
