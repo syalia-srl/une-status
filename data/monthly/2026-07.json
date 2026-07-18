@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 18,
-  "avg_peak_mw": 410.8,
+  "avg_peak_mw": 369.4,
   "max_peak_mw": 681,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -15,11 +15,11 @@
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Boyeros": 7,
+    "Boyeros": 6,
     "Cerro": 5,
-    "Arroyo Naranjo": 4,
     "Centro Habana": 3,
     "Marianao": 3,
+    "Arroyo Naranjo": 3,
     "Plaza": 2,
     "Lisa": 2,
     "Guanabacoa": 2,
@@ -30,7 +30,7 @@
     "Boyero": 1,
     "Plaza De La Revolución": 1
   },
-  "averias_total": 35,
+  "averias_total": 33,
   "daf_total": 8,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
