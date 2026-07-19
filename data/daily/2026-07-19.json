@@ -1,8 +1,8 @@
 {
   "date": "2026-07-19",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 211,
+  "peak_time": "16:46",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -22,13 +22,12 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Arroyo Naranjo": 1
-  },
-  "averias_total": 1,
-  "source_msg_count": 2,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 3,
   "by_type_counts": {
+    "actualizacion_bloques": 1,
     "otro": 1,
-    "averias": 1
+    "restablecimiento": 1
   }
 }
