@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-19T18:35:32+00:00",
+  "generated_at": "2026-07-19T19:49:55+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-19T18:16:12+00:00",
+    "as_of": "2026-07-19T19:27:27+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-19T18:16:12+00:00",
+      "ts": "2026-07-19T18:47:29+00:00",
       "averias": [
         {
           "municipio": "Cerro",
-          "direccion": ": 👉 Santa Ana / Ayuntamiento y monasterio 🛑 ⚡️",
+          "direccion": ": 👉 Calzada del Cerro desde Cruz del Padre hasta San Carlos, San Carlos hasta Tulipán, Calzada del Cerro hasta Resguardo, Calzada del Cerro hasta Santa Ana",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-19T18:16:12+00:00",
+        "ts": "2026-07-19T18:47:29+00:00",
         "municipio": "Cerro",
-        "direccion": ": 👉 Santa Ana / Ayuntamiento y monasterio 🛑 ⚡️",
+        "direccion": ": 👉 Calzada del Cerro desde Cruz del Padre hasta San Carlos, San Carlos hasta Tulipán, Calzada del Cerro hasta Resguardo, Calzada del Cerro hasta Santa Ana",
         "severity": "secundaria"
       }
     ],
@@ -284,9 +284,11 @@
       "Cerro": 1
     },
     "averias_total": 1,
-    "source_msg_count": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "averias": 1
+      "restablecimiento": 1,
+      "averias": 1,
+      "otro": 2
     }
   },
   "yesterday": {
