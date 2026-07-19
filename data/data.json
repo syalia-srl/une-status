@@ -1,67 +1,39 @@
 {
-  "generated_at": "2026-07-19T13:51:08+00:00",
+  "generated_at": "2026-07-19T14:45:39+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-19T13:48:48+00:00",
+    "as_of": "2026-07-19T14:38:11+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 301,
-    "current_mw_affected_at": "2026-07-19T13:13:30+00:00",
-    "active_averias": {
-      "ts": "2026-07-19T13:23:28+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": ": 👉 Calle: 2da/16 y 19 🛑 ⚡️",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-19T13:23:28+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": ": 👉 Calle: 2da/16 y 19 🛑 ⚡️",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-19T13:16:35+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": ": 👉 Seccion B , Manzana B Frank Pais",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-19T13:11:41+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": ": 👉 Guiteras: desde Vía Monumental hasta LFC y desde Vía Blanca hasta Tres Picos",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -271,8 +243,8 @@
   "day": {
     "date": "2026-07-19",
     "finalized": false,
-    "peak_mw_affected": 301,
-    "peak_time": "09:13",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -292,17 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Habana Del Este": 2,
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 3,
-    "source_msg_count": 6,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "averias": 3,
-      "actualizacion_bloques": 1,
-      "restablecimiento": 1,
-      "nota_diaria": 1
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -344,7 +310,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 376.0,
+    "avg_peak_mw": 413.5,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -358,13 +324,12 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 4,
-      "Arroyo Naranjo": 3,
-      "Habana Del Este": 2,
+      "Arroyo Naranjo": 2,
       "Cotorro": 1,
       "Cerro": 1,
       "Marianao": 1
     },
-    "averias_total": 12,
+    "averias_total": 9,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -380,7 +345,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 19,
-    "avg_peak_mw": 388.8,
+    "avg_peak_mw": 410.8,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -395,20 +360,20 @@
     "averias_count_by_municipio": {
       "Boyeros": 7,
       "Cerro": 5,
-      "Arroyo Naranjo": 4,
       "Centro Habana": 3,
       "Marianao": 3,
-      "Habana Del Este": 3,
+      "Arroyo Naranjo": 3,
       "Plaza": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
       "Cotorro": 2,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
+      "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 37,
+    "averias_total": 34,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -431,13 +396,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3294,
+    "averias_total": 3291,
     "averias_top_municipios": {
       "Boyeros": 347,
       "Playa": 281,
-      "Arroyo Naranjo": 259,
+      "Arroyo Naranjo": 258,
       "Lisa": 238,
-      "Habana Del Este": 228,
+      "Habana Del Este": 226,
       "Guanabacoa": 222,
       "Cerro": 192,
       "Plaza": 186,
@@ -585,7 +550,7 @@
       },
       {
         "date": "2026-07-19",
-        "peak_mw": 301
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1429,7 +1394,7 @@
       },
       {
         "date": "2026-07-19",
-        "peak_mw": 301
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
