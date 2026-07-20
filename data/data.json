@@ -1,65 +1,54 @@
 {
-  "generated_at": "2026-07-20T18:31:40+00:00",
+  "generated_at": "2026-07-20T20:10:39+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-20T18:29:55+00:00",
+    "as_of": "2026-07-20T19:44:13+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 187,
-    "current_mw_affected_at": "2026-07-20T18:26:16+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-20T18:12:51+00:00",
+      "ts": "2026-07-20T18:53:28+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "📌 GC19: Máximo Gómez / 1ra y 3ra",
-          "severity": "secundaria"
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "la SUBESTACIÓN Melones afectando: 📌 H343: Martín Pérez, Ciudamar, Carolina, Alturas de Luyanó ⚡️ ⚠️"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-20T18:12:51+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "📌 GC19: Máximo Gómez / 1ra y 3ra",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-20T17:23:24+00:00",
+        "ts": "2026-07-20T18:53:28+00:00",
         "municipio": "San Miguel Del Padrón",
-        "direccion": "la siguiente dirección: Avenida Siboney y Calzada de Güines 🚨",
-        "severity": "primaria"
+        "direccion": "la SUBESTACIÓN Melones afectando: 📌 H343: Martín Pérez, Ciudamar, Carolina, Alturas de Luyanó ⚡️ ⚠️"
       }
     ],
-    "last_daf": {
-      "ts": "2026-07-20T17:53:00+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -268,8 +257,8 @@
   "day": {
     "date": "2026-07-20",
     "finalized": false,
-    "peak_mw_affected": 187,
-    "peak_time": "14:26",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -281,7 +270,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -290,19 +279,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
-      "Guanabacoa": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 20,
+    "averias_total": 1,
+    "source_msg_count": 15,
     "by_type_counts": {
-      "restablecimiento": 8,
+      "otro": 9,
       "averias": 2,
-      "otro": 6,
-      "daf": 1,
-      "restablecimiento_daf": 1,
-      "disparo_circuito": 1,
-      "actualizacion_bloques": 1
+      "corto": 1,
+      "restablecimiento": 2,
+      "via_libre": 1
     }
   },
   "yesterday": {
@@ -346,7 +332,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 471.3,
+    "avg_peak_mw": 613.5,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -364,11 +350,10 @@
       "Marianao": 1,
       "Cerro": 1,
       "Cotorro": 1,
-      "San Miguel Del Padrón": 1,
-      "Guanabacoa": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 11,
-    "daf_total": 2,
+    "averias_total": 10,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -381,7 +366,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 20,
-    "avg_peak_mw": 396.0,
+    "avg_peak_mw": 437.8,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -398,19 +383,19 @@
       "Cerro": 6,
       "Arroyo Naranjo": 4,
       "Centro Habana": 3,
-      "Guanabacoa": 3,
       "Marianao": 3,
       "Cotorro": 3,
       "Plaza": 2,
       "San Miguel Del Padrón": 2,
       "Lisa": 2,
+      "Guanabacoa": 2,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 39,
-    "daf_total": 9,
+    "averias_total": 38,
+    "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -432,14 +417,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3296,
+    "averias_total": 3295,
     "averias_top_municipios": {
       "Boyeros": 347,
       "Playa": 281,
       "Arroyo Naranjo": 259,
       "Lisa": 238,
       "Habana Del Este": 226,
-      "Guanabacoa": 223,
+      "Guanabacoa": 222,
       "Cerro": 193,
       "San Miguel Del Padrón": 186,
       "Plaza": 186,
@@ -450,7 +435,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2366,
+    "daf_total": 2365,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -586,7 +571,7 @@
       },
       {
         "date": "2026-07-20",
-        "peak_mw": 187
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1430,7 +1415,7 @@
       },
       {
         "date": "2026-07-20",
-        "peak_mw": 187
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1825,8 +1810,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2366,
-    "daf_last_30d": 12,
+    "daf_total": 2365,
+    "daf_last_30d": 11,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
