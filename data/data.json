@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-07-20T10:39:00+00:00",
+  "generated_at": "2026-07-20T12:53:39+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-20T10:19:29+00:00",
+    "as_of": "2026-07-20T12:52:14+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 350,
+    "current_mw_affected_at": "2026-07-20T12:21:02+00:00",
     "active_averias": {
-      "ts": "2026-07-20T09:55:40+00:00",
+      "ts": "2026-07-20T12:18:38+00:00",
       "averias": [
         {
           "municipio": "Playa",
-          "direccion": ": 👉 9na/120 y 130",
+          "direccion": "📌 1242: 64 / 29 y 29 A",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-20T09:55:40+00:00",
+        "ts": "2026-07-20T12:18:38+00:00",
         "municipio": "Playa",
-        "direccion": ": 👉 9na/120 y 130",
+        "direccion": "📌 1242: 64 / 29 y 29 A",
         "severity": "secundaria"
       }
     ],
@@ -259,8 +259,8 @@
   "day": {
     "date": "2026-07-20",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 350,
+    "peak_time": "08:21",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -284,10 +284,13 @@
       "Playa": 1
     },
     "averias_total": 1,
-    "source_msg_count": 4,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "otro": 3,
-      "averias": 1
+      "restablecimiento": 7,
+      "averias": 2,
+      "otro": 6,
+      "disparo_circuito": 1,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -331,7 +334,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 613.5,
+    "avg_peak_mw": 525.7,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -365,7 +368,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 20,
-    "avg_peak_mw": 437.8,
+    "avg_peak_mw": 423.2,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -571,7 +574,7 @@
       },
       {
         "date": "2026-07-20",
-        "peak_mw": null
+        "peak_mw": 350
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1415,7 +1418,7 @@
       },
       {
         "date": "2026-07-20",
-        "peak_mw": null
+        "peak_mw": 350
       }
     ],
     "monthly_max_peak_mw": [
