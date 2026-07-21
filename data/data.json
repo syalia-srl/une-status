@@ -1,46 +1,44 @@
 {
-  "generated_at": "2026-07-21T12:49:52+00:00",
+  "generated_at": "2026-07-21T14:54:32+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-21T12:36:56+00:00",
+    "as_of": "2026-07-21T14:47:08+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 418,
+    "current_mw_affected_at": "2026-07-21T13:00:46+00:00",
     "active_averias": null,
     "averias_24h": [],
     "last_daf": {
-      "ts": "2026-07-21T12:36:56+00:00",
-      "type": "daf"
+      "ts": "2026-07-21T14:31:25+00:00",
+      "type": "restablecimiento_daf"
     },
-    "last_pronostico": {
-      "ts": "2026-07-21T12:33:50+00:00"
-    },
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -56,17 +54,17 @@
       {
         "id": "felton",
         "name": "Lidio Ramón Pérez (Felton)",
-        "state": "assumed_online",
-        "assumed": true,
-        "last_seen_at": "2026-05-15T15:26:47+00:00",
-        "last_online_at": "2026-05-15T15:26:47+00:00",
-        "last_offline_at": "2026-05-12T02:30:46+00:00",
-        "last_change_at": "2026-05-15T15:26:47+00:00",
+        "state": "online",
+        "assumed": false,
+        "last_seen_at": "2026-07-21T14:39:10+00:00",
+        "last_online_at": "2026-07-21T14:39:10+00:00",
+        "last_offline_at": "2026-07-21T12:55:47+00:00",
+        "last_change_at": "2026-07-21T14:39:10+00:00",
         "units": [
           {
             "unidad": 1,
             "state": "online",
-            "since": "2026-05-15T15:26:47+00:00"
+            "since": "2026-07-21T14:39:10+00:00"
           }
         ],
         "online_units": 1,
@@ -248,8 +246,8 @@
   "day": {
     "date": "2026-07-21",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 418,
+    "peak_time": "09:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -261,23 +259,28 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 2,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
+    "cte_offline_minutes": {
+      "felton": 103
+    },
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 5,
+    "source_msg_count": 18,
     "by_type_counts": {
-      "otro": 1,
-      "restablecimiento": 1,
-      "pronostico": 1,
-      "nota_diaria": 1,
-      "daf": 1
+      "unidad_termoelectrica": 2,
+      "actualizacion_bloques": 1,
+      "otro": 4,
+      "daf": 2,
+      "restablecimiento": 5,
+      "corto": 1,
+      "restablecimiento_daf": 2,
+      "pinned": 1
     }
   },
   "yesterday": {
@@ -320,7 +323,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 613.5,
+    "avg_peak_mw": 548.3,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -340,20 +343,22 @@
       "Cotorro": 1
     },
     "averias_total": 11,
-    "daf_total": 1,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {},
+    "cte_offline_minutes_total": {
+      "felton": 103
+    },
     "window": "7d"
   },
   "month": {
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 21,
-    "avg_peak_mw": 437.8,
+    "avg_peak_mw": 434.5,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -382,14 +387,15 @@
       "Plaza De La Revolución": 1
     },
     "averias_total": 39,
-    "daf_total": 9,
+    "daf_total": 10,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
-      "cespedes": 560
+      "cespedes": 560,
+      "felton": 103
     }
   },
   "all_time": {
@@ -422,7 +428,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2366,
+    "daf_total": 2367,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -432,7 +438,7 @@
       "rente": 3274,
       "maximo-gomez": 6895,
       "guevara": 7064,
-      "felton": 3050,
+      "felton": 3153,
       "guiteras": 758,
       "nuevitas": 1812,
       "cespedes": 2185
@@ -558,7 +564,7 @@
       },
       {
         "date": "2026-07-21",
-        "peak_mw": null
+        "peak_mw": 418
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1402,7 +1408,7 @@
       },
       {
         "date": "2026-07-21",
-        "peak_mw": null
+        "peak_mw": 418
       }
     ],
     "monthly_max_peak_mw": [
@@ -1797,13 +1803,13 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2366,
-    "daf_last_30d": 10,
+    "daf_total": 2367,
+    "daf_last_30d": 11,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
       "guevara": 7064,
-      "felton": 3050,
+      "felton": 3153,
       "guiteras": 758,
       "nuevitas": 1812,
       "cespedes": 2185
@@ -1812,7 +1818,7 @@
       "rente": 13,
       "maximo-gomez": 16,
       "guevara": 19,
-      "felton": 6,
+      "felton": 7,
       "guiteras": 1,
       "nuevitas": 5,
       "cespedes": 5

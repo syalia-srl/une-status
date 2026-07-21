@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 21,
-  "avg_peak_mw": 437.8,
+  "avg_peak_mw": 434.5,
   "max_peak_mw": 681,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -31,13 +31,14 @@
     "Plaza De La Revolución": 1
   },
   "averias_total": 39,
-  "daf_total": 9,
+  "daf_total": 10,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
   "partial_sen_collapse_total": 0,
   "partial_sen_outage_minutes_total": 0,
   "cte_offline_minutes_total": {
-    "cespedes": 560
+    "cespedes": 560,
+    "felton": 103
   }
 }
