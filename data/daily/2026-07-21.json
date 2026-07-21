@@ -1,8 +1,8 @@
 {
   "date": "2026-07-21",
   "finalized": false,
-  "peak_mw_affected": 418,
-  "peak_time": "09:00",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -14,27 +14,24 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
-  "cte_offline_minutes": {
-    "felton": 103
+  "cte_offline_minutes": {},
+  "averias_count_by_municipio": {
+    "San Miguel Del Padrón": 2,
+    "Habana Del Este": 1
   },
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 18,
+  "averias_total": 3,
+  "source_msg_count": 20,
   "by_type_counts": {
-    "unidad_termoelectrica": 2,
-    "actualizacion_bloques": 1,
-    "otro": 4,
-    "daf": 2,
-    "restablecimiento": 5,
-    "corto": 1,
-    "restablecimiento_daf": 2,
-    "pinned": 1
+    "otro": 1,
+    "disparo_circuito": 1,
+    "restablecimiento": 16,
+    "averias": 2
   }
 }
