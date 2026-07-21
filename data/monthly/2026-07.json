@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 21,
-  "avg_peak_mw": 437.8,
+  "avg_peak_mw": 438.7,
   "max_peak_mw": 681,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -28,10 +28,9 @@
     "Regla": 1,
     "Habana Del Este": 1,
     "Boyero": 1,
-    "Plaza De La Revolución": 1,
-    "Playa": 1
+    "Plaza De La Revolución": 1
   },
-  "averias_total": 40,
+  "averias_total": 39,
   "daf_total": 8,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
