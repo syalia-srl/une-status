@@ -1,48 +1,39 @@
 {
-  "generated_at": "2026-07-21T18:55:52+00:00",
+  "generated_at": "2026-07-21T20:14:21+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-21T18:53:57+00:00",
+    "as_of": "2026-07-21T20:13:44+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-21T18:49:02+00:00",
-      "averias": []
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-21T17:50:42+00:00",
-        "municipio": "Boyeros",
-        "direccion": "las calles 269 entre 180 y 190 afectando el servicio eléctrico en el siguiente circuito: 👉 A1443: Río Verde, Calixto Sánchez 🚨"
-      }
-    ],
+    "current_mw_affected": 281,
+    "current_mw_affected_at": "2026-07-21T19:21:07+00:00",
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -252,8 +243,8 @@
   "day": {
     "date": "2026-07-21",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 281,
+    "peak_time": "15:21",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -273,15 +264,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 16,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 9,
-      "averias": 2,
-      "restablecimiento": 5
+      "otro": 12,
+      "restablecimiento": 6,
+      "actualizacion_bloques": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -324,7 +314,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 613.5,
+    "avg_peak_mw": 502.7,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -337,13 +327,13 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
+      "Boyeros": 4,
       "Arroyo Naranjo": 3,
       "Marianao": 2,
       "Cerro": 1,
       "Cotorro": 1
     },
-    "averias_total": 12,
+    "averias_total": 11,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -357,7 +347,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 21,
-    "avg_peak_mw": 437.8,
+    "avg_peak_mw": 411.7,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -370,7 +360,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 8,
+      "Boyeros": 7,
       "Cerro": 6,
       "Arroyo Naranjo": 5,
       "Marianao": 4,
@@ -385,7 +375,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 40,
+    "averias_total": 39,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -408,9 +398,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3297,
+    "averias_total": 3296,
     "averias_top_municipios": {
-      "Boyeros": 348,
+      "Boyeros": 347,
       "Playa": 281,
       "Arroyo Naranjo": 260,
       "Lisa": 238,
@@ -562,7 +552,7 @@
       },
       {
         "date": "2026-07-21",
-        "peak_mw": null
+        "peak_mw": 281
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1406,7 +1396,7 @@
       },
       {
         "date": "2026-07-21",
-        "peak_mw": null
+        "peak_mw": 281
       }
     ],
     "monthly_max_peak_mw": [
