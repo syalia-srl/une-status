@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-20T23:29:30+00:00",
+  "generated_at": "2026-07-21T00:57:45+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-20T23:26:07+00:00",
+    "as_of": "2026-07-21T00:57:05+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,25 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-20T22:28:51+00:00",
-      "averias": [
-        {
-          "municipio": "Plaza De La Revolución",
-          "direccion": "📌 PZ4: 15 / G y H",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-21T00:48:58+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-07-20T22:54:08+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
+        "ts": "2026-07-20T23:46:44+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "📌 S513: Calzada de San Miguel / Cocal y Aliados",
+        "severity": "secundaria"
       },
       {
-        "ts": "2026-07-20T22:28:51+00:00",
-        "municipio": "Plaza De La Revolución",
-        "direccion": "📌 PZ4: 15 / G y H",
+        "ts": "2026-07-20T23:44:51+00:00",
+        "municipio": "Boyeros",
+        "direccion": "📌 A1550: 192 y 201",
         "severity": "secundaria"
       }
     ],
@@ -286,16 +281,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza De La Revolución": 1,
-      "Boyeros": 1
+      "Boyeros": 1,
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 2,
-    "source_msg_count": 10,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "averias": 1,
-      "otro": 4,
-      "mantenimiento": 4,
-      "disparo_circuito": 1
+      "otro": 7,
+      "restablecimiento": 2,
+      "mantenimiento": 3,
+      "averias": 4,
+      "via_libre": 1
     }
   },
   "yesterday": {
@@ -357,7 +353,7 @@
       "Marianao": 1,
       "Cerro": 1,
       "Cotorro": 1,
-      "Plaza De La Revolución": 1
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 11,
     "daf_total": 1,
@@ -393,13 +389,13 @@
       "Marianao": 3,
       "Cotorro": 3,
       "Plaza": 2,
+      "San Miguel Del Padrón": 2,
       "Lisa": 2,
       "Guanabacoa": 2,
-      "Plaza De La Revolución": 2,
-      "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
-      "Boyero": 1
+      "Boyero": 1,
+      "Plaza De La Revolución": 1
     },
     "averias_total": 39,
     "daf_total": 8,
@@ -433,8 +429,8 @@
       "Habana Del Este": 226,
       "Guanabacoa": 222,
       "Cerro": 193,
+      "San Miguel Del Padrón": 186,
       "Plaza": 186,
-      "San Miguel Del Padrón": 185,
       "Marianao": 155,
       "Cotorro": 102,
       "Centro Habana": 72,
