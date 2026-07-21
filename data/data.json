@@ -1,64 +1,69 @@
 {
-  "generated_at": "2026-07-21T16:14:18+00:00",
+  "generated_at": "2026-07-21T17:45:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-21T15:51:53+00:00",
+    "as_of": "2026-07-21T17:43:46+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 296,
+    "current_mw_affected_at": "2026-07-21T16:21:33+00:00",
     "active_averias": {
-      "ts": "2026-07-21T15:37:38+00:00",
+      "ts": "2026-07-21T17:16:52+00:00",
       "averias": [
         {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "las calles Vista Hermosa entre Carolina y Garrido, Carolina 🚨",
+          "municipio": "Guanabacoa",
+          "direccion": "las calles 1ra entre Avenida Guanabacoa y 9na 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-21T15:37:38+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "las calles Vista Hermosa entre Carolina y Garrido, Carolina 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-21T15:33:05+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "las calles Artola entre Roberto Flores y San Antonio, Jacomino 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-21T15:22:45+00:00",
+        "ts": "2026-07-21T17:21:40+00:00",
         "municipio": "Habana Del Este",
         "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-07-21T17:16:52+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "las calles 1ra entre Avenida Guanabacoa y 9na 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-21T16:26:32+00:00",
+        "municipio": "Plaza De La Revolución",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-07-21T16:17:31+00:00",
+        "municipio": "Boyeros",
+        "direccion": "las calles 235 entre 206 y 210, Fontanar 🚨",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -270,8 +275,8 @@
   "day": {
     "date": "2026-07-21",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 296,
+    "peak_time": "12:21",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -292,16 +297,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 2,
+      "Boyeros": 1,
+      "Plaza De La Revolución": 1,
+      "Guanabacoa": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 20,
+    "averias_total": 4,
+    "source_msg_count": 14,
     "by_type_counts": {
-      "otro": 1,
-      "disparo_circuito": 1,
-      "restablecimiento": 16,
-      "averias": 2
+      "otro": 9,
+      "averias": 2,
+      "actualizacion_bloques": 1,
+      "disparo_circuito": 2
     }
   },
   "yesterday": {
@@ -344,7 +351,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 613.5,
+    "avg_peak_mw": 507.7,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -357,15 +364,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
+      "Boyeros": 5,
       "Arroyo Naranjo": 3,
       "Marianao": 2,
-      "San Miguel Del Padrón": 2,
       "Cerro": 1,
       "Cotorro": 1,
+      "Plaza De La Revolución": 1,
+      "Guanabacoa": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 14,
+    "averias_total": 15,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,7 +387,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 21,
-    "avg_peak_mw": 437.8,
+    "avg_peak_mw": 414.2,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -392,22 +400,22 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 7,
+      "Boyeros": 8,
       "Cerro": 6,
       "Arroyo Naranjo": 5,
       "Marianao": 4,
-      "San Miguel Del Padrón": 3,
       "Centro Habana": 3,
+      "Guanabacoa": 3,
       "Cotorro": 3,
       "Plaza": 2,
       "Lisa": 2,
-      "Guanabacoa": 2,
       "Habana Del Este": 2,
+      "Plaza De La Revolución": 2,
+      "San Miguel Del Padrón": 1,
       "Regla": 1,
-      "Boyero": 1,
-      "Plaza De La Revolución": 1
+      "Boyero": 1
     },
-    "averias_total": 42,
+    "averias_total": 43,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -430,17 +438,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3299,
+    "averias_total": 3300,
     "averias_top_municipios": {
-      "Boyeros": 347,
+      "Boyeros": 348,
       "Playa": 281,
       "Arroyo Naranjo": 260,
       "Lisa": 238,
       "Habana Del Este": 227,
-      "Guanabacoa": 222,
+      "Guanabacoa": 223,
       "Cerro": 193,
-      "San Miguel Del Padrón": 187,
       "Plaza": 186,
+      "San Miguel Del Padrón": 185,
       "Marianao": 156,
       "Cotorro": 102,
       "Centro Habana": 72,
@@ -584,7 +592,7 @@
       },
       {
         "date": "2026-07-21",
-        "peak_mw": null
+        "peak_mw": 296
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1428,7 +1436,7 @@
       },
       {
         "date": "2026-07-21",
-        "peak_mw": null
+        "peak_mw": 296
       }
     ],
     "monthly_max_peak_mw": [
