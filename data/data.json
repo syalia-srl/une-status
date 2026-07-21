@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-21T06:40:34+00:00",
+  "generated_at": "2026-07-21T09:14:32+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-21T06:13:29+00:00",
+    "as_of": "2026-07-21T08:29:44+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,17 +30,29 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 527,
-    "current_mw_affected_at": "2026-07-21T04:17:29+00:00",
+    "current_mw_affected": 566,
+    "current_mw_affected_at": "2026-07-21T07:02:43+00:00",
     "active_averias": {
-      "ts": "2026-07-21T05:11:11+00:00",
-      "averias": []
+      "ts": "2026-07-21T07:42:04+00:00",
+      "averias": [
+        {
+          "municipio": "Cerro",
+          "direccion": "📌 Cañongo entre Santa Teresa e Infanta 🚨",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-21T04:54:51+00:00",
-        "municipio": "Lisa",
-        "direccion": "📌 2073: 270 / 39 y 41",
+        "ts": "2026-07-21T07:42:04+00:00",
+        "municipio": "Cerro",
+        "direccion": "📌 Cañongo entre Santa Teresa e Infanta 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-21T07:00:00+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "📌 2da entre Barreto y A 🚨",
         "severity": "secundaria"
       }
     ],
@@ -253,8 +265,8 @@
   "day": {
     "date": "2026-07-21",
     "finalized": false,
-    "peak_mw_affected": 527,
-    "peak_time": "00:17",
+    "peak_mw_affected": 566,
+    "peak_time": "03:02",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -275,16 +287,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "Guanabacoa": 1,
+      "Cerro": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 20,
+    "averias_total": 2,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "averias": 3,
-      "actualizacion_bloques": 1,
-      "mantenimiento": 2,
-      "restablecimiento": 5,
-      "otro": 9
+      "restablecimiento": 7,
+      "averias": 2,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -327,7 +338,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 584.7,
+    "avg_peak_mw": 597.7,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -343,11 +354,11 @@
       "Boyeros": 4,
       "Arroyo Naranjo": 3,
       "Marianao": 2,
-      "Cerro": 1,
+      "Cerro": 2,
       "Cotorro": 1,
-      "Lisa": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 12,
+    "averias_total": 13,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -361,7 +372,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 21,
-    "avg_peak_mw": 452.7,
+    "avg_peak_mw": 459.2,
     "max_peak_mw": 681,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -374,22 +385,22 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Cerro": 7,
       "Boyeros": 7,
-      "Cerro": 6,
       "Arroyo Naranjo": 5,
       "Marianao": 4,
-      "Lisa": 3,
       "Centro Habana": 3,
+      "Guanabacoa": 3,
       "Cotorro": 3,
       "Plaza": 2,
-      "Guanabacoa": 2,
+      "Lisa": 2,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 40,
+    "averias_total": 41,
     "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -412,15 +423,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3297,
+    "averias_total": 3298,
     "averias_top_municipios": {
       "Boyeros": 347,
       "Playa": 281,
       "Arroyo Naranjo": 260,
-      "Lisa": 239,
+      "Lisa": 238,
       "Habana Del Este": 226,
-      "Guanabacoa": 222,
-      "Cerro": 193,
+      "Guanabacoa": 223,
+      "Cerro": 194,
       "Plaza": 186,
       "San Miguel Del Padrón": 185,
       "Marianao": 156,
@@ -566,7 +577,7 @@
       },
       {
         "date": "2026-07-21",
-        "peak_mw": 527
+        "peak_mw": 566
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1410,7 +1421,7 @@
       },
       {
         "date": "2026-07-21",
-        "peak_mw": 527
+        "peak_mw": 566
       }
     ],
     "monthly_max_peak_mw": [
