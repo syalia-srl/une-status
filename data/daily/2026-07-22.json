@@ -22,14 +22,11 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Plaza": 1
-  },
-  "averias_total": 1,
-  "source_msg_count": 19,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "restablecimiento": 11,
-    "otro": 5,
-    "averias": 3
+    "otro": 3,
+    "restablecimiento": 2
   }
 }
