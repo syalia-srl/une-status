@@ -1,8 +1,8 @@
 {
   "date": "2026-07-22",
   "finalized": false,
-  "peak_mw_affected": 384,
-  "peak_time": "09:40",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -23,16 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Playa": 1,
-    "Arroyo Naranjo": 1
+    "Arroyo Naranjo": 1,
+    "Lisa": 1
   },
   "averias_total": 2,
-  "source_msg_count": 20,
+  "source_msg_count": 18,
   "by_type_counts": {
-    "averias": 4,
-    "actualizacion_bloques": 1,
-    "restablecimiento": 8,
-    "via_libre": 1,
-    "otro": 6
+    "restablecimiento": 11,
+    "otro": 3,
+    "pinned": 1,
+    "averias": 2,
+    "disparo_circuito": 1
   }
 }
