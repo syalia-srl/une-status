@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 22,
-  "avg_peak_mw": 482.0,
+  "avg_peak_mw": 463.3,
   "max_peak_mw": 681,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -15,7 +15,7 @@
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Cerro": 7,
+    "Cerro": 9,
     "Boyeros": 7,
     "Arroyo Naranjo": 5,
     "Marianao": 4,
@@ -28,10 +28,9 @@
     "Regla": 1,
     "Habana Del Este": 1,
     "Boyero": 1,
-    "Plaza De La Revolución": 1,
-    "Regla Y San Miguel": 1
+    "Plaza De La Revolución": 1
   },
-  "averias_total": 43,
+  "averias_total": 44,
   "daf_total": 8,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
