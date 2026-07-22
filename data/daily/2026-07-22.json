@@ -23,14 +23,14 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 3,
-    "Playa": 1
+    "Guanabacoa": 1
   },
-  "averias_total": 4,
-  "source_msg_count": 11,
+  "averias_total": 1,
+  "source_msg_count": 20,
   "by_type_counts": {
-    "averias": 4,
-    "otro": 3,
-    "restablecimiento": 4
+    "otro": 10,
+    "pinned": 5,
+    "restablecimiento": 4,
+    "averias": 1
   }
 }
