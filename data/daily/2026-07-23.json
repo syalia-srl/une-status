@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-22",
-  "finalized": true,
-  "peak_mw_affected": 449,
-  "peak_time": "21:10",
+  "date": "2026-07-23",
+  "finalized": false,
+  "peak_mw_affected": 563,
+  "peak_time": "00:01",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -22,13 +22,13 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 15,
+  "averias_count_by_municipio": {
+    "Marianao": 1
+  },
+  "averias_total": 1,
+  "source_msg_count": 2,
   "by_type_counts": {
     "actualizacion_bloques": 1,
-    "restablecimiento": 5,
-    "otro": 8,
     "averias": 1
   }
 }
