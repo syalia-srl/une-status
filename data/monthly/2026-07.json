@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 23,
-  "avg_peak_mw": 474.0,
+  "avg_peak_mw": 456.9,
   "max_peak_mw": 681,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
