@@ -1,44 +1,57 @@
 {
-  "generated_at": "2026-07-24T19:10:00+00:00",
+  "generated_at": "2026-07-24T20:39:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-24T19:07:49+00:00",
+    "as_of": "2026-07-24T20:24:17+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 243,
+    "current_mw_affected_at": "2026-07-24T19:23:34+00:00",
     "active_averias": {
-      "ts": "2026-07-24T19:00:09+00:00",
-      "averias": []
+      "ts": "2026-07-24T19:52:41+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": "Línea del Ferrocarril y Vía Blanca afectando el siguiente circuito: 👉 R454: Mañana, Valero, Vía Blanca, Azotea, Vista Alegre",
+          "severity": "primaria"
+        }
+      ]
     },
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-07-24T19:52:41+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "Línea del Ferrocarril y Vía Blanca afectando el siguiente circuito: 👉 R454: Mañana, Valero, Vía Blanca, Azotea, Vista Alegre",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": {
-      "ts": "2026-07-24T18:54:44+00:00",
+      "ts": "2026-07-24T19:43:35+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -249,8 +262,8 @@
   "day": {
     "date": "2026-07-24",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 243,
+    "peak_time": "15:23",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -270,13 +283,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 16,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 20,
     "by_type_counts": {
       "via_libre": 1,
-      "restablecimiento": 6,
-      "otro": 7,
+      "actualizacion_bloques": 1,
+      "restablecimiento_daf": 1,
+      "restablecimiento": 4,
+      "otro": 11,
       "daf": 1,
       "averias": 1
     }
@@ -321,7 +338,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 568.0,
+    "avg_peak_mw": 503.0,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -337,12 +354,12 @@
       "Boyeros": 2,
       "Arroyo Naranjo": 2,
       "Cerro": 2,
+      "Guanabacoa": 2,
       "Cotorro": 1,
       "Marianao": 1,
-      "Plaza": 1,
-      "Guanabacoa": 1
+      "Plaza": 1
     },
-    "averias_total": 10,
+    "averias_total": 11,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -356,7 +373,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 24,
-    "avg_peak_mw": 489.4,
+    "avg_peak_mw": 462.0,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -372,10 +389,10 @@
       "Boyeros": 8,
       "Cerro": 7,
       "Arroyo Naranjo": 5,
+      "Guanabacoa": 4,
       "Marianao": 4,
       "Plaza": 3,
       "Centro Habana": 3,
-      "Guanabacoa": 3,
       "Cotorro": 3,
       "Lisa": 2,
       "San Miguel Del Padrón": 1,
@@ -384,7 +401,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 43,
+    "averias_total": 44,
     "daf_total": 10,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -407,14 +424,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3300,
+    "averias_total": 3301,
     "averias_top_municipios": {
       "Boyeros": 348,
       "Playa": 281,
       "Arroyo Naranjo": 260,
       "Lisa": 238,
       "Habana Del Este": 226,
-      "Guanabacoa": 223,
+      "Guanabacoa": 224,
       "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 185,
@@ -561,7 +578,7 @@
       },
       {
         "date": "2026-07-24",
-        "peak_mw": null
+        "peak_mw": 243
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1405,7 +1422,7 @@
       },
       {
         "date": "2026-07-24",
-        "peak_mw": null
+        "peak_mw": 243
       }
     ],
     "monthly_max_peak_mw": [
