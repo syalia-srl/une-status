@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-25T17:38:44+00:00",
+  "generated_at": "2026-07-25T18:35:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-25T17:34:25+00:00",
+    "as_of": "2026-07-25T18:35:58+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,26 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-25T17:17:30+00:00",
+      "ts": "2026-07-25T17:52:44+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "las calles Domingo entre Calixto García y Amargura, Villa II 🚨",
+          "municipio": "Boyeros",
+          "direccion": "las calles 281 entre 102 y 104, Calabazar 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-25T17:17:30+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "las calles Domingo entre Calixto García y Amargura, Villa II 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-25T16:56:04+00:00",
+        "ts": "2026-07-25T17:52:44+00:00",
         "municipio": "Boyeros",
-        "direccion": "las calles Aldabó entre Cotilla y Larcada 🚨",
+        "direccion": "las calles 281 entre 102 y 104, Calabazar 🚨",
         "severity": "secundaria"
       }
     ],
@@ -287,16 +281,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Guanabacoa": 1
+      "Boyeros": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 20,
+    "averias_total": 1,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "restablecimiento": 7,
-      "otro": 9,
-      "mantenimiento": 1,
-      "averias": 3
+      "otro": 5,
+      "averias": 1,
+      "restablecimiento": 4
     }
   },
   "yesterday": {
@@ -349,13 +341,13 @@
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 2,
       "Cerro": 2,
-      "Guanabacoa": 2,
       "Boyeros": 2,
       "Cotorro": 1,
       "Marianao": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 11,
+    "averias_total": 10,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -385,10 +377,10 @@
       "Boyeros": 9,
       "Cerro": 7,
       "Arroyo Naranjo": 5,
-      "Guanabacoa": 4,
       "Marianao": 4,
       "Plaza": 3,
       "Centro Habana": 3,
+      "Guanabacoa": 3,
       "Cotorro": 3,
       "Lisa": 2,
       "San Miguel Del Padrón": 1,
@@ -397,7 +389,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 45,
+    "averias_total": 44,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -420,14 +412,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3302,
+    "averias_total": 3301,
     "averias_top_municipios": {
       "Boyeros": 349,
       "Playa": 281,
       "Arroyo Naranjo": 260,
       "Lisa": 238,
       "Habana Del Este": 226,
-      "Guanabacoa": 224,
+      "Guanabacoa": 223,
       "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 185,
