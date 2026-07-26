@@ -1,8 +1,8 @@
 {
   "date": "2026-07-26",
   "finalized": false,
-  "peak_mw_affected": 421,
-  "peak_time": "06:00",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -21,13 +21,14 @@
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
-  "cte_offline_minutes": {},
+  "cte_offline_minutes": {
+    "guiteras": 965
+  },
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 11,
+  "source_msg_count": 4,
   "by_type_counts": {
-    "otro": 5,
-    "actualizacion_bloques": 1,
-    "restablecimiento": 5
+    "otro": 3,
+    "unidad_termoelectrica": 1
   }
 }

@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-26T10:59:47+00:00",
+  "generated_at": "2026-07-26T12:03:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-26T10:16:12+00:00",
+    "as_of": "2026-07-26T11:54:22+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 421,
-    "current_mw_affected_at": "2026-07-26T10:00:38+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
@@ -70,21 +70,21 @@
       {
         "id": "guiteras",
         "name": "Antonio Guiteras",
-        "state": "assumed_online",
-        "assumed": true,
-        "last_seen_at": "2026-04-10T14:55:42+00:00",
+        "state": "offline",
+        "assumed": false,
+        "last_seen_at": "2026-07-26T11:54:22+00:00",
         "last_online_at": "2026-04-10T14:55:42+00:00",
-        "last_offline_at": "2025-12-29T16:21:54+00:00",
-        "last_change_at": "2026-01-30T03:39:27+00:00",
+        "last_offline_at": "2026-07-26T11:54:22+00:00",
+        "last_change_at": "2026-07-26T11:54:22+00:00",
         "units": [
           {
             "unidad": 1,
-            "state": "online",
-            "since": "2026-04-10T14:55:42+00:00"
+            "state": "offline",
+            "since": "2026-07-26T11:54:22+00:00"
           }
         ],
-        "online_units": 1,
-        "offline_units": 0
+        "online_units": 0,
+        "offline_units": 1
       },
       {
         "id": "maximo-gomez",
@@ -243,8 +243,8 @@
   "day": {
     "date": "2026-07-26",
     "finalized": false,
-    "peak_mw_affected": 421,
-    "peak_time": "06:00",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -263,14 +263,15 @@
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
+    "cte_offline_minutes": {
+      "guiteras": 965
+    },
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 11,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "otro": 5,
-      "actualizacion_bloques": 1,
-      "restablecimiento": 5
+      "otro": 3,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
@@ -311,7 +312,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 536.8,
+    "avg_peak_mw": 575.3,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -339,14 +340,16 @@
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {},
+    "cte_offline_minutes_total": {
+      "guiteras": 965
+    },
     "window": "7d"
   },
   "month": {
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 26,
-    "avg_peak_mw": 481.8,
+    "avg_peak_mw": 489.4,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -382,7 +385,8 @@
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
-      "cespedes": 560
+      "cespedes": 560,
+      "guiteras": 965
     }
   },
   "all_time": {
@@ -426,7 +430,7 @@
       "maximo-gomez": 6895,
       "guevara": 7064,
       "felton": 3050,
-      "guiteras": 758,
+      "guiteras": 1723,
       "nuevitas": 1812,
       "cespedes": 2185
     }
@@ -551,7 +555,7 @@
       },
       {
         "date": "2026-07-26",
-        "peak_mw": 421
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1395,7 +1399,7 @@
       },
       {
         "date": "2026-07-26",
-        "peak_mw": 421
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1797,7 +1801,7 @@
       "maximo-gomez": 6895,
       "guevara": 7064,
       "felton": 3050,
-      "guiteras": 758,
+      "guiteras": 1723,
       "nuevitas": 1812,
       "cespedes": 2185
     },
@@ -1806,7 +1810,7 @@
       "maximo-gomez": 16,
       "guevara": 19,
       "felton": 6,
-      "guiteras": 1,
+      "guiteras": 2,
       "nuevitas": 5,
       "cespedes": 5
     }

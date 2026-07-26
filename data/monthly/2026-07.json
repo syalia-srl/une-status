@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 26,
-  "avg_peak_mw": 481.8,
+  "avg_peak_mw": 489.4,
   "max_peak_mw": 686,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -38,6 +38,7 @@
   "partial_sen_collapse_total": 0,
   "partial_sen_outage_minutes_total": 0,
   "cte_offline_minutes_total": {
-    "cespedes": 560
+    "cespedes": 560,
+    "guiteras": 965
   }
 }

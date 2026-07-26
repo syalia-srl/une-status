@@ -124,15 +124,15 @@
       "name": "Antonio Guiteras",
       "units": {
         "1": {
-          "state": "online",
-          "since": "2026-04-10T14:55:42+00:00"
+          "state": "offline",
+          "since": "2026-07-26T11:54:22+00:00"
         }
       },
-      "last_seen_at": "2026-04-10T14:55:42+00:00",
+      "last_seen_at": "2026-07-26T11:54:22+00:00",
       "last_online_at": "2026-04-10T14:55:42+00:00",
-      "last_offline_at": "2025-12-29T16:21:54+00:00",
-      "last_change_at": "2026-01-30T03:39:27+00:00",
-      "state": "online"
+      "last_offline_at": "2026-07-26T11:54:22+00:00",
+      "last_change_at": "2026-07-26T11:54:22+00:00",
+      "state": "offline"
     }
   }
 }
