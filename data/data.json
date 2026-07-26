@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-26T20:44:30+00:00",
+  "generated_at": "2026-07-26T21:40:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-26T20:27:12+00:00",
+    "as_of": "2026-07-26T21:34:21+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,14 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-26T20:02:49+00:00",
-      "averias": [
-        {
-          "municipio": "Cerro",
-          "direccion": "👉 Estévez / Sierra y San Gregorio",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-26T21:17:19+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-07-26T20:02:49+00:00",
+        "ts": "2026-07-26T21:08:23+00:00",
         "municipio": "Cerro",
-        "direccion": "👉 Estévez / Sierra y San Gregorio",
+        "direccion": "👉 Calzada del Cerro / Carvajal y Consejero Arango",
         "severity": "secundaria"
       }
     ],
@@ -284,12 +278,11 @@
       "Cerro": 1
     },
     "averias_total": 1,
-    "source_msg_count": 6,
+    "source_msg_count": 9,
     "by_type_counts": {
-      "otro": 2,
-      "averias": 1,
-      "restablecimiento": 2,
-      "disparo_circuito": 1
+      "otro": 6,
+      "averias": 2,
+      "restablecimiento": 1
     }
   },
   "yesterday": {

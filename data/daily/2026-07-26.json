@@ -26,11 +26,10 @@
     "Cerro": 1
   },
   "averias_total": 1,
-  "source_msg_count": 6,
+  "source_msg_count": 9,
   "by_type_counts": {
-    "otro": 2,
-    "averias": 1,
-    "restablecimiento": 2,
-    "disparo_circuito": 1
+    "otro": 6,
+    "averias": 2,
+    "restablecimiento": 1
   }
 }
