@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-25T23:39:51+00:00",
+  "generated_at": "2026-07-26T01:12:27+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-25T23:39:41+00:00",
+    "as_of": "2026-07-26T01:07:29+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,17 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-07-26T01:00:21+00:00",
+      "averias": []
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-26T00:34:28+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +273,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Marianao": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 19,
     "by_type_counts": {
-      "otro": 3,
-      "restablecimiento": 1
+      "restablecimiento": 9,
+      "otro": 7,
+      "mantenimiento": 1,
+      "disparo_circuito": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -322,13 +336,13 @@
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 2,
       "Cerro": 2,
+      "Marianao": 2,
       "Cotorro": 1,
-      "Marianao": 1,
       "Plaza": 1,
       "Guanabacoa": 1,
       "Boyeros": 1
     },
-    "averias_total": 9,
+    "averias_total": 10,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -357,8 +371,8 @@
     "averias_count_by_municipio": {
       "Boyeros": 8,
       "Cerro": 7,
+      "Marianao": 5,
       "Arroyo Naranjo": 5,
-      "Marianao": 4,
       "Plaza": 3,
       "Centro Habana": 3,
       "Guanabacoa": 3,
@@ -370,7 +384,7 @@
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 43,
+    "averias_total": 44,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -393,7 +407,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3300,
+    "averias_total": 3301,
     "averias_top_municipios": {
       "Boyeros": 348,
       "Playa": 281,
@@ -404,7 +418,7 @@
       "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 185,
-      "Marianao": 156,
+      "Marianao": 157,
       "Cotorro": 102,
       "Centro Habana": 72,
       "De Boyeros": 50,
