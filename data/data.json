@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-26T14:55:38+00:00",
+  "generated_at": "2026-07-26T15:55:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-26T14:52:59+00:00",
+    "as_of": "2026-07-26T15:55:08+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,30 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-07-26T15:55:08+00:00",
+      "averias": [
+        {
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "👉 A / 1ra y Lindero, Luyanó Moderno",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-07-26T15:55:08+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "👉 A / 1ra y Lindero, Luyanó Moderno",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-26T15:23:54+00:00",
+        "municipio": "Lisa",
+        "direccion": "👉 310 y Autopista, Ampliación de Arroyo Arena",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +286,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 8,
+    "averias_count_by_municipio": {
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 7,
-      "otro": 1
+      "otro": 8,
+      "averias": 2,
+      "restablecimiento": 10
     }
   },
   "yesterday": {
@@ -329,9 +355,11 @@
       "Cerro": 1,
       "Guanabacoa": 1,
       "Boyeros": 1,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 7,
+    "averias_total": 9,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -364,16 +392,16 @@
       "Marianao": 4,
       "Cotorro": 4,
       "Plaza": 3,
+      "Lisa": 3,
       "Centro Habana": 3,
       "Guanabacoa": 3,
-      "Lisa": 2,
-      "San Miguel Del Padrón": 1,
+      "San Miguel Del Padrón": 2,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 44,
+    "averias_total": 46,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -396,17 +424,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3301,
+    "averias_total": 3303,
     "averias_top_municipios": {
       "Boyeros": 348,
       "Playa": 281,
       "Arroyo Naranjo": 260,
-      "Lisa": 238,
+      "Lisa": 239,
       "Habana Del Este": 226,
       "Guanabacoa": 223,
       "Cerro": 194,
       "Plaza": 187,
-      "San Miguel Del Padrón": 185,
+      "San Miguel Del Padrón": 186,
       "Marianao": 156,
       "Cotorro": 103,
       "Centro Habana": 72,
