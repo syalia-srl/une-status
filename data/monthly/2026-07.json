@@ -2,7 +2,7 @@
   "month": "2026-07",
   "finalized": false,
   "dailies_count": 27,
-  "avg_peak_mw": 485.6,
+  "avg_peak_mw": 474.6,
   "max_peak_mw": 686,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -17,12 +17,12 @@
   "averias_count_by_municipio": {
     "Boyeros": 9,
     "Cerro": 7,
-    "Marianao": 6,
+    "Marianao": 5,
     "Arroyo Naranjo": 5,
+    "Guanabacoa": 4,
     "Cotorro": 4,
     "Plaza": 3,
     "Centro Habana": 3,
-    "Guanabacoa": 3,
     "Lisa": 2,
     "San Miguel Del Padrón": 1,
     "Regla": 1,
