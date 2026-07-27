@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-27T21:00:54+00:00",
+  "generated_at": "2026-07-27T22:15:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-27T20:51:04+00:00",
+    "as_of": "2026-07-27T21:49:49+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,53 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-07-27T20:51:04+00:00",
-      "averias": [
-        {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "👉 Otero/Freyre y San Francisco 🛑 ⚡️",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-27T20:51:04+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "👉 Otero/Freyre y San Francisco 🛑 ⚡️",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-27T20:24:29+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-07-27T20:13:00+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "👉 Carretera del Anillo frente al repollo 🛑 ⚡️",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-27T20:10:11+00:00",
-        "municipio": "Cerro",
-        "direccion": "👉 Suzarte/Cepero y Arzobispo 🛑 ⚡️",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-27T20:08:29+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las siguientes direcciones: 👉 San José/Calzada de Bejucal y Meireles",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-27T20:01:20+00:00",
-        "municipio": "Boyeros",
-        "direccion": "👉 Calixto García/2da y 4ta,Miraflores Nuevo 🛑 ⚡️",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -309,21 +264,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Arroyo Naranjo": 1,
-      "Cerro": 1,
-      "Guanabacoa": 1,
-      "Habana Del Este": 1,
-      "San Miguel Del Padrón": 1
-    },
-    "averias_total": 6,
-    "source_msg_count": 10,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 3,
     "by_type_counts": {
       "restablecimiento": 2,
-      "averias": 5,
-      "disparo_circuito": 1,
-      "otro": 2
+      "otro": 1
     }
   },
   "yesterday": {
@@ -379,17 +325,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 3,
-      "Cerro": 2,
-      "Guanabacoa": 2,
+      "Boyeros": 2,
       "Plaza": 1,
+      "Cerro": 1,
+      "Guanabacoa": 1,
       "Cotorro": 1,
-      "Marianao": 1,
-      "Arroyo Naranjo": 1,
-      "Habana Del Este": 1,
-      "San Miguel Del Padrón": 1
+      "Marianao": 1
     },
-    "averias_total": 13,
+    "averias_total": 7,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -416,22 +359,22 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 10,
-      "Cerro": 8,
-      "Arroyo Naranjo": 6,
+      "Boyeros": 9,
+      "Cerro": 7,
       "Marianao": 5,
-      "Guanabacoa": 4,
+      "Arroyo Naranjo": 5,
       "Cotorro": 4,
       "Plaza": 3,
       "Centro Habana": 3,
-      "San Miguel Del Padrón": 2,
+      "Guanabacoa": 3,
       "Lisa": 2,
-      "Habana Del Este": 2,
+      "San Miguel Del Padrón": 1,
       "Regla": 1,
+      "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 52,
+    "averias_total": 46,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -454,17 +397,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3309,
+    "averias_total": 3303,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 349,
       "Playa": 281,
-      "Arroyo Naranjo": 261,
+      "Arroyo Naranjo": 260,
       "Lisa": 238,
-      "Habana Del Este": 227,
-      "Guanabacoa": 224,
-      "Cerro": 195,
+      "Habana Del Este": 226,
+      "Guanabacoa": 223,
+      "Cerro": 194,
       "Plaza": 187,
-      "San Miguel Del Padrón": 186,
+      "San Miguel Del Padrón": 185,
       "Marianao": 157,
       "Cotorro": 103,
       "Centro Habana": 72,
