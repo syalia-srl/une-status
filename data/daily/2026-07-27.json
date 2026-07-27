@@ -1,8 +1,8 @@
 {
   "date": "2026-07-27",
   "finalized": false,
-  "peak_mw_affected": 339,
-  "peak_time": "11:09",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -23,17 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Plaza": 2,
-    "Guanabacoa": 1
+    "Habana Del Este": 2,
+    "San Miguel Del Padrón": 1,
+    "Boyeros": 1
   },
-  "averias_total": 3,
-  "source_msg_count": 10,
+  "averias_total": 4,
+  "source_msg_count": 11,
   "by_type_counts": {
-    "pronostico": 1,
-    "averias": 3,
-    "actualizacion_bloques": 1,
-    "otro": 3,
-    "restablecimiento": 1,
-    "disparo_circuito": 1
+    "otro": 4,
+    "mantenimiento": 1,
+    "averias": 4,
+    "restablecimiento": 2
   }
 }

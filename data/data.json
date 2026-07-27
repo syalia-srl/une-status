@@ -1,71 +1,75 @@
 {
-  "generated_at": "2026-07-27T16:37:06+00:00",
+  "generated_at": "2026-07-27T18:11:40+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-27T16:34:34+00:00",
+    "as_of": "2026-07-27T18:07:02+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 339,
-    "current_mw_affected_at": "2026-07-27T15:09:58+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-27T15:59:22+00:00",
+      "ts": "2026-07-27T17:16:32+00:00",
       "averias": [
         {
-          "municipio": "Plaza",
-          "direccion": "👉 21/8 y 10",
+          "municipio": "Habana Del Este",
+          "direccion": "👉 Zona 4,Bloque 5 🛑 ⚡️",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-27T15:59:22+00:00",
-        "municipio": "Plaza",
-        "direccion": "👉 21/8 y 10",
+        "ts": "2026-07-27T17:16:32+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "👉 Zona 4,Bloque 5 🛑 ⚡️",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-07-27T15:06:29+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "👉 LLerena/Coco y Aguacate,La Hata",
+        "ts": "2026-07-27T17:15:15+00:00",
+        "municipio": "Boyeros",
+        "direccion": "👉 Màximo Gómez/ Morro y Calzada de Bejucal,Las Cañas 🛑 ⚡️",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-07-27T14:57:35+00:00",
-        "municipio": "Plaza",
-        "direccion": "👉 Santa Rosa/Ulloa y 26",
+        "ts": "2026-07-27T17:12:59+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "👉 1C/172 y 178 🛑 ⚡️",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-27T17:08:26+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "👉 Buena Suerte/Esperanza y Final,San Francisco de Paula",
         "severity": "secundaria"
       }
     ],
     "last_daf": null,
-    "last_pronostico": {
-      "ts": "2026-07-27T14:35:15+00:00"
-    },
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -273,8 +277,8 @@
   "day": {
     "date": "2026-07-27",
     "finalized": false,
-    "peak_mw_affected": 339,
-    "peak_time": "11:09",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -295,18 +299,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 2,
-      "Guanabacoa": 1
+      "Habana Del Este": 2,
+      "San Miguel Del Padrón": 1,
+      "Boyeros": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 10,
+    "averias_total": 4,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "pronostico": 1,
-      "averias": 3,
-      "actualizacion_bloques": 1,
-      "otro": 3,
-      "restablecimiento": 1,
-      "disparo_circuito": 1
+      "otro": 4,
+      "mantenimiento": 1,
+      "averias": 4,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
@@ -349,7 +352,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 516.2,
+    "avg_peak_mw": 575.3,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -362,14 +365,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Plaza": 3,
-      "Guanabacoa": 2,
-      "Boyeros": 2,
+      "Boyeros": 3,
+      "Habana Del Este": 2,
+      "Plaza": 1,
       "Cerro": 1,
+      "Guanabacoa": 1,
       "Cotorro": 1,
-      "Marianao": 1
+      "Marianao": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 10,
+    "averias_total": 11,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -383,7 +388,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 27,
-    "avg_peak_mw": 472.7,
+    "avg_peak_mw": 489.4,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -396,22 +401,22 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 9,
+      "Boyeros": 10,
       "Cerro": 7,
-      "Plaza": 5,
       "Marianao": 5,
       "Arroyo Naranjo": 5,
-      "Guanabacoa": 4,
       "Cotorro": 4,
+      "Plaza": 3,
       "Centro Habana": 3,
+      "Guanabacoa": 3,
+      "Habana Del Este": 3,
+      "San Miguel Del Padrón": 2,
       "Lisa": 2,
-      "San Miguel Del Padrón": 1,
       "Regla": 1,
-      "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 49,
+    "averias_total": 50,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -434,17 +439,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3306,
+    "averias_total": 3307,
     "averias_top_municipios": {
-      "Boyeros": 349,
+      "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 260,
       "Lisa": 238,
-      "Habana Del Este": 226,
-      "Guanabacoa": 224,
+      "Habana Del Este": 228,
+      "Guanabacoa": 223,
       "Cerro": 194,
-      "Plaza": 189,
-      "San Miguel Del Padrón": 185,
+      "Plaza": 187,
+      "San Miguel Del Padrón": 186,
       "Marianao": 157,
       "Cotorro": 103,
       "Centro Habana": 72,
@@ -588,7 +593,7 @@
       },
       {
         "date": "2026-07-27",
-        "peak_mw": 339
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1432,7 +1437,7 @@
       },
       {
         "date": "2026-07-27",
-        "peak_mw": 339
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
