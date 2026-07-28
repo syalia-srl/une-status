@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T21:20:04+00:00",
+  "generated_at": "2026-07-28T22:30:44+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-28T21:09:05+00:00",
+    "as_of": "2026-07-28T22:29:00+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,43 +33,25 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-28T20:46:33+00:00",
+      "ts": "2026-07-28T22:10:40+00:00",
       "averias": [
         {
-          "municipio": "Marianao",
-          "direccion": "👉 1249: Pogolotti",
-          "severity": "primaria"
+          "municipio": "Plaza",
+          "direccion": "👉 16 / 14 y Canal",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-28T20:46:33+00:00",
-        "municipio": "Marianao",
-        "direccion": "👉 1249: Pogolotti",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-07-28T20:29:11+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "👉 A1380: Villa María, Federal, Villa Haydée, Migloria, Villa Nomar, Altura de Villa María y Polvorín",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-07-28T20:26:30+00:00",
+        "ts": "2026-07-28T22:10:40+00:00",
         "municipio": "Plaza",
-        "direccion": "👉 15 / J e I",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-28T20:25:41+00:00",
-        "municipio": "Playa",
-        "direccion": "👉 23 / 46 y 48",
+        "direccion": "👉 16 / 14 y Canal",
         "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-07-28T20:48:36+00:00",
+      "ts": "2026-07-28T22:29:00+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -302,18 +284,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa": 1,
-      "Plaza": 1,
-      "Guanabacoa": 1,
-      "Marianao": 1
+      "Plaza": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 20,
+    "averias_total": 1,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "otro": 10,
-      "averias": 4,
-      "restablecimiento": 4,
-      "disparo_circuito": 1,
+      "otro": 7,
+      "restablecimiento_daf": 1,
+      "averias": 1,
       "daf": 1
     }
   },
@@ -369,14 +347,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Marianao": 3,
       "Boyeros": 2,
+      "Marianao": 2,
       "Cotorro": 1,
-      "Playa": 1,
-      "Plaza": 1,
-      "Guanabacoa": 1
+      "Plaza": 1
     },
-    "averias_total": 9,
+    "averias_total": 6,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -405,21 +381,20 @@
     "averias_count_by_municipio": {
       "Boyeros": 9,
       "Cerro": 7,
-      "Marianao": 7,
+      "Marianao": 6,
       "Arroyo Naranjo": 5,
       "Plaza": 4,
-      "Guanabacoa": 4,
       "Cotorro": 4,
       "Centro Habana": 3,
+      "Guanabacoa": 3,
       "Lisa": 2,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
-      "Plaza De La Revolución": 1,
-      "Playa": 1
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 51,
+    "averias_total": 48,
     "daf_total": 10,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -442,18 +417,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3308,
+    "averias_total": 3305,
     "averias_top_municipios": {
       "Boyeros": 349,
-      "Playa": 282,
+      "Playa": 281,
       "Arroyo Naranjo": 260,
       "Lisa": 238,
       "Habana Del Este": 226,
-      "Guanabacoa": 224,
+      "Guanabacoa": 223,
       "Cerro": 194,
       "Plaza": 188,
       "San Miguel Del Padrón": 185,
-      "Marianao": 159,
+      "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
