@@ -1,58 +1,64 @@
 {
-  "generated_at": "2026-07-28T17:07:17+00:00",
+  "generated_at": "2026-07-28T18:41:32+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-28T17:04:53+00:00",
+    "as_of": "2026-07-28T18:39:00+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 256,
-    "current_mw_affected_at": "2026-07-28T16:24:14+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-28T16:51:55+00:00",
+      "ts": "2026-07-28T18:20:14+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "👉 Ambron / Calixto García y Benito Anido",
+          "municipio": "Marianao",
+          "direccion": "👉 27 A / 120 B y 122",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-28T16:51:55+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "👉 Ambron / Calixto García y Benito Anido",
+        "ts": "2026-07-28T18:20:14+00:00",
+        "municipio": "Marianao",
+        "direccion": "👉 27 A / 120 B y 122",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-07-28T16:02:41+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "👉 Fernando / María Luisa y Unión",
+        "ts": "2026-07-28T17:55:05+00:00",
+        "municipio": "Cerro",
+        "direccion": "👉 Chaple / Armonía y Esperanza",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-28T17:41:53+00:00",
+        "municipio": "Lisa",
+        "direccion": "👉 37 A / 208 y 210",
         "severity": "secundaria"
       }
     ],
@@ -265,8 +271,8 @@
   "day": {
     "date": "2026-07-28",
     "finalized": false,
-    "peak_mw_affected": 256,
-    "peak_time": "12:24",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -287,17 +293,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1,
-      "Guanabacoa": 1
+      "Lisa": 1,
+      "Cerro": 1,
+      "Marianao": 1
     },
-    "averias_total": 2,
+    "averias_total": 3,
     "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 5,
-      "restablecimiento": 11,
-      "averias": 2,
-      "actualizacion_bloques": 1,
-      "corto": 1
+      "averias": 3,
+      "otro": 9,
+      "restablecimiento": 7,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -339,7 +345,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 459.8,
+    "avg_peak_mw": 527.7,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -352,13 +358,13 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Marianao": 3,
       "Boyeros": 2,
-      "Marianao": 2,
       "Cotorro": 1,
-      "Arroyo Naranjo": 1,
-      "Guanabacoa": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
-    "averias_total": 7,
+    "averias_total": 8,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -372,7 +378,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 28,
-    "avg_peak_mw": 461.9,
+    "avg_peak_mw": 484.8,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -386,21 +392,21 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 9,
-      "Cerro": 7,
-      "Marianao": 6,
-      "Arroyo Naranjo": 6,
-      "Guanabacoa": 4,
+      "Cerro": 8,
+      "Marianao": 7,
+      "Arroyo Naranjo": 5,
       "Cotorro": 4,
       "Plaza": 3,
+      "Lisa": 3,
       "Centro Habana": 3,
-      "Lisa": 2,
+      "Guanabacoa": 3,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 49,
+    "averias_total": 50,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -423,18 +429,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3306,
+    "averias_total": 3307,
     "averias_top_municipios": {
       "Boyeros": 349,
       "Playa": 281,
-      "Arroyo Naranjo": 261,
-      "Lisa": 238,
+      "Arroyo Naranjo": 260,
+      "Lisa": 239,
       "Habana Del Este": 226,
-      "Guanabacoa": 224,
-      "Cerro": 194,
+      "Guanabacoa": 223,
+      "Cerro": 195,
       "Plaza": 187,
       "San Miguel Del Padrón": 185,
-      "Marianao": 158,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -577,7 +583,7 @@
       },
       {
         "date": "2026-07-28",
-        "peak_mw": 256
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1421,7 +1427,7 @@
       },
       {
         "date": "2026-07-28",
-        "peak_mw": 256
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [

@@ -1,8 +1,8 @@
 {
   "date": "2026-07-28",
   "finalized": false,
-  "peak_mw_affected": 256,
-  "peak_time": "12:24",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -23,16 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 1,
-    "Guanabacoa": 1
+    "Lisa": 1,
+    "Cerro": 1,
+    "Marianao": 1
   },
-  "averias_total": 2,
+  "averias_total": 3,
   "source_msg_count": 20,
   "by_type_counts": {
-    "otro": 5,
-    "restablecimiento": 11,
-    "averias": 2,
-    "actualizacion_bloques": 1,
-    "corto": 1
+    "averias": 3,
+    "otro": 9,
+    "restablecimiento": 7,
+    "disparo_circuito": 1
   }
 }
