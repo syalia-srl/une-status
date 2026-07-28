@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T13:19:10+00:00",
+  "generated_at": "2026-07-28T15:40:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-28T13:09:45+00:00",
+    "as_of": "2026-07-28T15:37:16+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,12 +32,31 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-07-28T12:27:11+00:00",
-      "type": "restablecimiento_daf"
+    "active_averias": {
+      "ts": "2026-07-28T14:29:38+00:00",
+      "averias": [
+        {
+          "municipio": "Regla",
+          "direccion": "1ra y 10 de Octubre que afecta el servicio en: 👉 R466: Avenida del Puerto",
+          "severity": "primaria"
+        }
+      ]
     },
+    "averias_24h": [
+      {
+        "ts": "2026-07-28T14:29:38+00:00",
+        "municipio": "Regla",
+        "direccion": "1ra y 10 de Octubre que afecta el servicio en: 👉 R466: Avenida del Puerto",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-07-28T14:08:23+00:00",
+        "municipio": "Lisa",
+        "direccion": "👉 106 / 69 y 71",
+        "severity": "secundaria"
+      }
+    ],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -267,14 +286,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 14,
+    "averias_count_by_municipio": {
+      "Lisa": 1,
+      "Regla": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 5,
-      "restablecimiento": 7,
-      "restablecimiento_daf": 1,
-      "nota_diaria": 1
+      "restablecimiento": 13,
+      "averias": 2,
+      "otro": 5
     }
   },
   "yesterday": {
@@ -331,9 +352,11 @@
     "averias_count_by_municipio": {
       "Boyeros": 2,
       "Marianao": 2,
-      "Cotorro": 1
+      "Cotorro": 1,
+      "Lisa": 1,
+      "Regla": 1
     },
-    "averias_total": 5,
+    "averias_total": 7,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -366,16 +389,16 @@
       "Arroyo Naranjo": 5,
       "Cotorro": 4,
       "Plaza": 3,
+      "Lisa": 3,
       "Centro Habana": 3,
       "Guanabacoa": 3,
-      "Lisa": 2,
+      "Regla": 2,
       "San Miguel Del Padrón": 1,
-      "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1
     },
-    "averias_total": 47,
+    "averias_total": 49,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -398,12 +421,12 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3304,
+    "averias_total": 3306,
     "averias_top_municipios": {
       "Boyeros": 349,
       "Playa": 281,
       "Arroyo Naranjo": 260,
-      "Lisa": 238,
+      "Lisa": 239,
       "Habana Del Este": 226,
       "Guanabacoa": 223,
       "Cerro": 194,
@@ -414,7 +437,7 @@
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 43
+      "Regla": 44
     },
     "daf_total": 2366,
     "sen_collapse_total": 9,
