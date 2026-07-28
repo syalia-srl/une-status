@@ -1,64 +1,76 @@
 {
-  "generated_at": "2026-07-28T20:05:09+00:00",
+  "generated_at": "2026-07-28T21:20:04+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-28T20:04:13+00:00",
+    "as_of": "2026-07-28T21:09:05+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 228,
-    "current_mw_affected_at": "2026-07-28T19:28:56+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-07-28T20:03:02+00:00",
+      "ts": "2026-07-28T20:46:33+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "👉 A1217:Reparto Versalles, Ampliación de Versalles, calle 51 desde 220 hasta 212, calle 51 desde 220 hasta 57 (Reparto San Rafael)",
+          "municipio": "Marianao",
+          "direccion": "👉 1249: Pogolotti",
           "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-07-28T20:03:02+00:00",
-        "municipio": "Lisa",
-        "direccion": "👉 A1217:Reparto Versalles, Ampliación de Versalles, calle 51 desde 220 hasta 212, calle 51 desde 220 hasta 57 (Reparto San Rafael)",
+        "ts": "2026-07-28T20:46:33+00:00",
+        "municipio": "Marianao",
+        "direccion": "👉 1249: Pogolotti",
         "severity": "primaria"
       },
       {
-        "ts": "2026-07-28T19:01:08+00:00",
+        "ts": "2026-07-28T20:29:11+00:00",
         "municipio": "Guanabacoa",
-        "direccion": "👉 Callejón Julio Días y Real",
+        "direccion": "👉 A1380: Villa María, Federal, Villa Haydée, Migloria, Villa Nomar, Altura de Villa María y Polvorín",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-07-28T20:26:30+00:00",
+        "municipio": "Plaza",
+        "direccion": "👉 15 / J e I",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-07-28T20:25:41+00:00",
+        "municipio": "Playa",
+        "direccion": "👉 23 / 46 y 48",
         "severity": "secundaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-07-28T19:39:10+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-07-28T20:48:36+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -268,8 +280,8 @@
   "day": {
     "date": "2026-07-28",
     "finalized": false,
-    "peak_mw_affected": 228,
-    "peak_time": "15:28",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -290,19 +302,19 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Playa": 1,
+      "Plaza": 1,
       "Guanabacoa": 1,
-      "Lisa": 1
+      "Marianao": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 19,
+    "averias_total": 4,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 2,
-      "restablecimiento": 9,
+      "otro": 10,
       "averias": 4,
-      "actualizacion_bloques": 1,
-      "daf": 1,
+      "restablecimiento": 4,
       "disparo_circuito": 1,
-      "restablecimiento_daf": 1
+      "daf": 1
     }
   },
   "yesterday": {
@@ -344,7 +356,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 452.8,
+    "avg_peak_mw": 527.7,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -357,13 +369,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Marianao": 3,
       "Boyeros": 2,
-      "Marianao": 2,
       "Cotorro": 1,
-      "Guanabacoa": 1,
-      "Lisa": 1
+      "Playa": 1,
+      "Plaza": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 7,
+    "averias_total": 9,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -377,7 +390,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 28,
-    "avg_peak_mw": 459.1,
+    "avg_peak_mw": 484.8,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -392,20 +405,21 @@
     "averias_count_by_municipio": {
       "Boyeros": 9,
       "Cerro": 7,
-      "Marianao": 6,
+      "Marianao": 7,
       "Arroyo Naranjo": 5,
+      "Plaza": 4,
       "Guanabacoa": 4,
       "Cotorro": 4,
-      "Plaza": 3,
-      "Lisa": 3,
       "Centro Habana": 3,
+      "Lisa": 2,
       "San Miguel Del Padrón": 1,
       "Regla": 1,
       "Habana Del Este": 1,
       "Boyero": 1,
-      "Plaza De La Revolución": 1
+      "Plaza De La Revolución": 1,
+      "Playa": 1
     },
-    "averias_total": 49,
+    "averias_total": 51,
     "daf_total": 10,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -428,18 +442,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3306,
+    "averias_total": 3308,
     "averias_top_municipios": {
       "Boyeros": 349,
-      "Playa": 281,
+      "Playa": 282,
       "Arroyo Naranjo": 260,
-      "Lisa": 239,
+      "Lisa": 238,
       "Habana Del Este": 226,
       "Guanabacoa": 224,
       "Cerro": 194,
-      "Plaza": 187,
+      "Plaza": 188,
       "San Miguel Del Padrón": 185,
-      "Marianao": 158,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -582,7 +596,7 @@
       },
       {
         "date": "2026-07-28",
-        "peak_mw": 228
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1426,7 +1440,7 @@
       },
       {
         "date": "2026-07-28",
-        "peak_mw": 228
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
