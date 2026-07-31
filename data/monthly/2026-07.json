@@ -1,9 +1,9 @@
 {
   "month": "2026-07",
   "finalized": false,
-  "dailies_count": 30,
-  "avg_peak_mw": 517.5,
-  "max_peak_mw": 712,
+  "dailies_count": 31,
+  "avg_peak_mw": 516.6,
+  "max_peak_mw": 702,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
     "1": 0,
@@ -15,10 +15,10 @@
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Boyeros": 10,
-    "Cerro": 7,
+    "Boyeros": 11,
+    "Cerro": 8,
+    "Arroyo Naranjo": 7,
     "Marianao": 6,
-    "Arroyo Naranjo": 6,
     "Cotorro": 4,
     "Plaza": 3,
     "Lisa": 3,
@@ -31,8 +31,8 @@
     "Plaza De La Revolución": 1,
     "Diez De Octubre": 1
   },
-  "averias_total": 52,
-  "daf_total": 9,
+  "averias_total": 55,
+  "daf_total": 11,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
