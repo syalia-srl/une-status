@@ -1,43 +1,56 @@
 {
-  "generated_at": "2026-07-31T21:18:14+00:00",
+  "generated_at": "2026-07-31T22:30:00+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-31T21:14:33+00:00",
+    "as_of": "2026-07-31T22:24:39+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 399,
-    "current_mw_affected_at": "2026-07-31T20:11:40+00:00",
-    "active_averias": null,
-    "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-07-31T20:17:26+00:00",
-      "type": "daf"
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-07-31T21:31:31+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": ": 👉 Independencia, al lado del paradero de Ricabal 📌 ⚡️",
+          "severity": "secundaria"
+        }
+      ]
     },
+    "averias_24h": [
+      {
+        "ts": "2026-07-31T21:31:31+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": ": 👉 Independencia, al lado del paradero de Ricabal 📌 ⚡️",
+        "severity": "secundaria"
+      }
+    ],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -56,15 +69,15 @@
         "name": "Lidio Ramón Pérez (Felton)",
         "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-07-21T14:39:10+00:00",
-        "last_online_at": "2026-07-21T14:39:10+00:00",
-        "last_offline_at": "2026-07-21T12:55:47+00:00",
-        "last_change_at": "2026-07-21T14:39:10+00:00",
+        "last_seen_at": "2026-07-31T22:24:39+00:00",
+        "last_online_at": "2026-07-31T22:24:39+00:00",
+        "last_offline_at": "2026-07-31T22:23:01+00:00",
+        "last_change_at": "2026-07-31T22:24:39+00:00",
         "units": [
           {
             "unidad": 1,
             "state": "online",
-            "since": "2026-07-21T14:39:10+00:00"
+            "since": "2026-07-31T22:24:39+00:00"
           }
         ],
         "online_units": 1,
@@ -246,8 +259,8 @@
   "day": {
     "date": "2026-07-31",
     "finalized": false,
-    "peak_mw_affected": 399,
-    "peak_time": "16:11",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -259,21 +272,26 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "cte_offline_minutes": {
+      "felton": 1
+    },
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "daf": 1,
-      "otro": 2
+      "otro": 2,
+      "averias": 1,
+      "restablecimiento": 3,
+      "unidad_termoelectrica": 2
     }
   },
   "yesterday": {
@@ -310,7 +328,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 488.3,
+    "avg_peak_mw": 533.0,
     "max_peak_mw": 618,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -329,23 +347,26 @@
       "San Miguel Del Padrón": 1,
       "Lisa": 1,
       "Arroyo Naranjo": 1,
-      "Diez De Octubre": 1
+      "Diez De Octubre": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 9,
-    "daf_total": 1,
+    "averias_total": 10,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {},
+    "cte_offline_minutes_total": {
+      "felton": 1
+    },
     "window": "7d"
   },
   "month": {
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 31,
-    "avg_peak_mw": 489.1,
+    "avg_peak_mw": 498.1,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -362,11 +383,11 @@
       "Cerro": 7,
       "Marianao": 6,
       "Arroyo Naranjo": 6,
+      "Guanabacoa": 4,
       "Cotorro": 4,
       "Plaza": 3,
       "Lisa": 3,
       "Centro Habana": 3,
-      "Guanabacoa": 3,
       "San Miguel Del Padrón": 2,
       "Regla": 1,
       "Habana Del Este": 1,
@@ -374,15 +395,16 @@
       "Plaza De La Revolución": 1,
       "Diez De Octubre": 1
     },
-    "averias_total": 52,
-    "daf_total": 10,
+    "averias_total": 53,
+    "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {
-      "cespedes": 560
+      "cespedes": 560,
+      "felton": 1
     }
   },
   "all_time": {
@@ -397,14 +419,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3309,
+    "averias_total": 3310,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 261,
       "Lisa": 239,
       "Habana Del Este": 226,
-      "Guanabacoa": 223,
+      "Guanabacoa": 224,
       "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 186,
@@ -415,7 +437,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2367,
+    "daf_total": 2366,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -425,7 +447,7 @@
       "rente": 3274,
       "maximo-gomez": 6895,
       "guevara": 7064,
-      "felton": 3050,
+      "felton": 3051,
       "guiteras": 758,
       "nuevitas": 1812,
       "cespedes": 2185
@@ -551,7 +573,7 @@
       },
       {
         "date": "2026-07-31",
-        "peak_mw": 399
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1395,7 +1417,7 @@
       },
       {
         "date": "2026-07-31",
-        "peak_mw": 399
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1790,13 +1812,13 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2367,
-    "daf_last_30d": 9,
+    "daf_total": 2366,
+    "daf_last_30d": 8,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
       "guevara": 7064,
-      "felton": 3050,
+      "felton": 3051,
       "guiteras": 758,
       "nuevitas": 1812,
       "cespedes": 2185
@@ -1805,7 +1827,7 @@
       "rente": 13,
       "maximo-gomez": 16,
       "guevara": 19,
-      "felton": 6,
+      "felton": 7,
       "guiteras": 1,
       "nuevitas": 5,
       "cespedes": 5
