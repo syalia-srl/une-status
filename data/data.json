@@ -1,61 +1,42 @@
 {
-  "generated_at": "2026-07-31T00:13:35+00:00",
+  "generated_at": "2026-07-31T03:48:39+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-31T00:10:12+00:00",
+    "as_of": "2026-07-31T03:39:38+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 712,
+    "current_mw_affected_at": "2026-07-31T02:39:36+00:00",
     "active_averias": {
-      "ts": "2026-07-30T23:44:40+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": ": 👉 264 / 269 y 243 , Wajay",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-07-31T02:53:38+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-07-30T23:44:40+00:00",
-        "municipio": "Boyeros",
-        "direccion": ": 👉 264 / 269 y 243 , Wajay",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-30T23:42:35+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": ": 👉 Máximo Gómez / Apodaca y H",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -265,8 +246,8 @@
   "day": {
     "date": "2026-07-30",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 712,
+    "peak_time": "22:39",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -286,17 +267,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Boyeros": 1
-    },
-    "averias_total": 2,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 13,
-      "averias": 2,
-      "restablecimiento": 4,
-      "disparo_circuito": 1
+      "disparo_circuito": 2,
+      "restablecimiento": 9,
+      "otro": 7,
+      "actualizacion_bloques": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -338,8 +317,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 533.0,
-    "max_peak_mw": 618,
+    "avg_peak_mw": 592.7,
+    "max_peak_mw": 712,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -351,16 +330,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 3,
+      "Boyeros": 2,
       "Marianao": 2,
       "Cotorro": 1,
       "San Miguel Del Padrón": 1,
       "Lisa": 1,
       "Arroyo Naranjo": 1,
-      "Diez De Octubre": 1,
-      "Guanabacoa": 1
+      "Diez De Octubre": 1
     },
-    "averias_total": 11,
+    "averias_total": 9,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -374,8 +352,8 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 30,
-    "avg_peak_mw": 498.1,
-    "max_peak_mw": 686,
+    "avg_peak_mw": 517.5,
+    "max_peak_mw": 712,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -387,15 +365,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 11,
+      "Boyeros": 10,
       "Cerro": 7,
       "Marianao": 6,
       "Arroyo Naranjo": 6,
-      "Guanabacoa": 4,
       "Cotorro": 4,
       "Plaza": 3,
       "Lisa": 3,
       "Centro Habana": 3,
+      "Guanabacoa": 3,
       "San Miguel Del Padrón": 2,
       "Regla": 1,
       "Habana Del Este": 1,
@@ -403,7 +381,7 @@
       "Plaza De La Revolución": 1,
       "Diez De Octubre": 1
     },
-    "averias_total": 54,
+    "averias_total": 52,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -426,14 +404,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3311,
+    "averias_total": 3309,
     "averias_top_municipios": {
-      "Boyeros": 351,
+      "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 261,
       "Lisa": 239,
       "Habana Del Este": 226,
-      "Guanabacoa": 224,
+      "Guanabacoa": 223,
       "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 186,
@@ -580,7 +558,7 @@
       },
       {
         "date": "2026-07-30",
-        "peak_mw": null
+        "peak_mw": 712
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1424,7 +1402,7 @@
       },
       {
         "date": "2026-07-30",
-        "peak_mw": null
+        "peak_mw": 712
       }
     ],
     "monthly_max_peak_mw": [
@@ -1618,7 +1596,7 @@
       },
       {
         "month": "2026-07",
-        "max_peak_mw": 686
+        "max_peak_mw": 712
       }
     ],
     "monthly_total_outage_minutes": [
