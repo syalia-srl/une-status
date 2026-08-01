@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-01T07:12:00+00:00",
+  "generated_at": "2026-08-01T09:19:06+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-01T06:58:47+00:00",
+    "as_of": "2026-08-01T09:01:19+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,29 +30,23 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 673,
-    "current_mw_affected_at": "2026-08-01T05:52:29+00:00",
+    "current_mw_affected": 639,
+    "current_mw_affected_at": "2026-08-01T09:01:19+00:00",
     "active_averias": {
-      "ts": "2026-08-01T05:58:13+00:00",
+      "ts": "2026-08-01T07:35:17+00:00",
       "averias": [
         {
           "municipio": "Lisa",
-          "direccion": ": 👉 81 y 196 📌 ⚡️",
+          "direccion": ": 👉 31/212 y 216 📌 ⚡️",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-01T05:58:13+00:00",
+        "ts": "2026-08-01T07:35:17+00:00",
         "municipio": "Lisa",
-        "direccion": ": 👉 81 y 196 📌 ⚡️",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-01T05:57:27+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": ": 👉 Castillo/Blumer Ramos y Horta 📌 ⚡️",
+        "direccion": ": 👉 31/212 y 216 📌 ⚡️",
         "severity": "secundaria"
       }
     ],
@@ -265,8 +259,8 @@
   "day": {
     "date": "2026-08-01",
     "finalized": false,
-    "peak_mw_affected": 673,
-    "peak_time": "01:52",
+    "peak_mw_affected": 639,
+    "peak_time": "05:01",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -287,17 +281,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
       "Lisa": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 14,
+    "averias_total": 1,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "otro": 2,
-      "actualizacion_bloques": 1,
-      "averias": 2,
-      "restablecimiento": 8,
-      "disparo_circuito": 1
+      "restablecimiento": 2,
+      "averias": 1,
+      "otro": 6,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -340,7 +332,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 603.0,
+    "avg_peak_mw": 594.5,
     "max_peak_mw": 673,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -355,12 +347,12 @@
     "averias_count_by_municipio": {
       "Boyeros": 2,
       "Marianao": 2,
-      "San Miguel Del Padrón": 2,
       "Lisa": 2,
       "Arroyo Naranjo": 2,
+      "San Miguel Del Padrón": 1,
       "Diez De Octubre": 1
     },
-    "averias_total": 11,
+    "averias_total": 10,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -374,8 +366,8 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 1,
-    "avg_peak_mw": 673.0,
-    "max_peak_mw": 673,
+    "avg_peak_mw": 639.0,
+    "max_peak_mw": 639,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -387,10 +379,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
       "Lisa": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -411,7 +402,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3312,
+    "averias_total": 3311,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -420,8 +411,8 @@
       "Habana Del Este": 226,
       "Guanabacoa": 223,
       "Cerro": 194,
-      "San Miguel Del Padrón": 187,
       "Plaza": 187,
+      "San Miguel Del Padrón": 186,
       "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
@@ -565,7 +556,7 @@
       },
       {
         "date": "2026-08-01",
-        "peak_mw": 673
+        "peak_mw": 639
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1409,7 +1400,7 @@
       },
       {
         "date": "2026-08-01",
-        "peak_mw": 673
+        "peak_mw": 639
       }
     ],
     "monthly_max_peak_mw": [
@@ -1607,7 +1598,7 @@
       },
       {
         "month": "2026-08",
-        "max_peak_mw": 673
+        "max_peak_mw": 639
       }
     ],
     "monthly_total_outage_minutes": [
