@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-01T21:33:32+00:00",
+  "generated_at": "2026-08-01T22:34:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-01T21:32:08+00:00",
+    "as_of": "2026-08-01T22:07:01+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,17 +33,32 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-01T21:32:08+00:00",
+      "ts": "2026-08-01T21:44:10+00:00",
       "averias": [
         {
-          "municipio": "Cerro"
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "👉 Fernanda / Soto y Luz Frío",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-01T21:32:08+00:00",
-        "municipio": "Cerro"
+        "ts": "2026-08-01T21:44:10+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "👉 Fernanda / Soto y Luz Frío",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-01T21:35:52+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "👉 Central / Piedra y Soto",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-01T21:34:55+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -277,14 +292,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "San Miguel Del Padrón": 3
     },
-    "averias_total": 1,
-    "source_msg_count": 20,
+    "averias_total": 3,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "otro": 10,
+      "disparo_circuito": 2,
       "averias": 2,
-      "pinned": 4,
+      "otro": 4,
       "restablecimiento": 4
     }
   },
@@ -341,15 +356,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 4,
       "Boyeros": 2,
       "Marianao": 2,
       "Arroyo Naranjo": 2,
-      "San Miguel Del Padrón": 1,
       "Lisa": 1,
-      "Diez De Octubre": 1,
-      "Cerro": 1
+      "Diez De Octubre": 1
     },
-    "averias_total": 10,
+    "averias_total": 12,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -376,9 +390,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "San Miguel Del Padrón": 3
     },
-    "averias_total": 1,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -399,7 +413,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3311,
+    "averias_total": 3313,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -407,9 +421,9 @@
       "Lisa": 239,
       "Habana Del Este": 226,
       "Guanabacoa": 223,
-      "Cerro": 195,
+      "Cerro": 194,
+      "San Miguel Del Padrón": 189,
       "Plaza": 187,
-      "San Miguel Del Padrón": 186,
       "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
