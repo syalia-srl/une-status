@@ -1,68 +1,59 @@
 {
-  "generated_at": "2026-08-01T14:20:55+00:00",
+  "generated_at": "2026-08-01T15:33:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-01T14:14:53+00:00",
+    "as_of": "2026-08-01T15:32:12+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 417,
-    "current_mw_affected_at": "2026-08-01T14:14:53+00:00",
-    "active_averias": null,
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-08-01T15:17:05+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": "👉 5ta / 12 y 14",
+          "severity": "secundaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-08-01T14:13:56+00:00",
+        "ts": "2026-08-01T15:17:05+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "👉 5ta / 12 y 14",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-01T15:16:12+00:00",
         "municipio": "Lisa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-01T13:55:29+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-01T13:32:10+00:00",
-        "municipio": "Lisa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-01T13:27:50+00:00",
-        "municipio": "Plaza",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-01T13:26:19+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-01T13:07:52+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
+        "direccion": "👉 350 / 51 y Final",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -274,8 +265,8 @@
   "day": {
     "date": "2026-08-01",
     "finalized": false,
-    "peak_mw_affected": 417,
-    "peak_time": "10:14",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -296,17 +287,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 3,
-      "Lisa": 2,
-      "Plaza": 1
+      "Lisa": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 6,
-    "source_msg_count": 20,
+    "averias_total": 2,
+    "source_msg_count": 19,
     "by_type_counts": {
-      "disparo_circuito": 6,
-      "nota_diaria": 1,
-      "restablecimiento": 12,
-      "actualizacion_bloques": 1
+      "restablecimiento": 9,
+      "mantenimiento": 1,
+      "via_libre": 1,
+      "otro": 6,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -349,7 +340,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 539.0,
+    "avg_peak_mw": 579.7,
     "max_peak_mw": 673,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -362,15 +353,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
-      "Lisa": 3,
+      "Arroyo Naranjo": 3,
+      "Boyeros": 2,
       "Marianao": 2,
-      "Arroyo Naranjo": 2,
+      "Lisa": 2,
       "San Miguel Del Padrón": 1,
-      "Diez De Octubre": 1,
-      "Plaza": 1
+      "Diez De Octubre": 1
     },
-    "averias_total": 15,
+    "averias_total": 11,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -384,8 +374,8 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 1,
-    "avg_peak_mw": 417.0,
-    "max_peak_mw": 417,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -397,11 +387,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 3,
-      "Lisa": 2,
-      "Plaza": 1
+      "Lisa": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 6,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -422,16 +411,16 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3316,
+    "averias_total": 3312,
     "averias_top_municipios": {
-      "Boyeros": 353,
+      "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 262,
-      "Lisa": 241,
+      "Arroyo Naranjo": 263,
+      "Lisa": 240,
       "Habana Del Este": 226,
       "Guanabacoa": 223,
       "Cerro": 194,
-      "Plaza": 188,
+      "Plaza": 187,
       "San Miguel Del Padrón": 186,
       "Marianao": 158,
       "Cotorro": 103,
@@ -576,7 +565,7 @@
       },
       {
         "date": "2026-08-01",
-        "peak_mw": 417
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1420,7 +1409,7 @@
       },
       {
         "date": "2026-08-01",
-        "peak_mw": 417
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1618,7 +1607,7 @@
       },
       {
         "month": "2026-08",
-        "max_peak_mw": 417
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
