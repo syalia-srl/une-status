@@ -1,73 +1,39 @@
 {
-  "generated_at": "2026-07-31T23:30:57+00:00",
+  "generated_at": "2026-08-01T01:10:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-07-31T23:25:53+00:00",
+    "as_of": "2026-08-01T01:07:15+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 542,
-    "current_mw_affected_at": "2026-07-31T23:12:00+00:00",
-    "active_averias": {
-      "ts": "2026-07-31T23:02:49+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "las siguientes direcciones: 👉 Fernando/María Luisa y Unión 📌 ⚡️ 👉 Guasimal/Cervantes y Avenida San Juan 📌 ⚡️",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-07-31T23:02:49+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las siguientes direcciones: 👉 Fernando/María Luisa y Unión 📌 ⚡️ 👉 Guasimal/Cervantes y Avenida San Juan 📌 ⚡️",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-31T22:59:00+00:00",
-        "municipio": "Plaza",
-        "direccion": ": 👉 23/26 y 28 📌 ⚡️",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-31T22:58:16+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": ": 👉 33/Maceo y Los Pinos,Cojimar 📌 ⚡️",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-07-31T22:55:57+00:00",
-        "municipio": "Cerro",
-        "direccion": "las siguientes direcciones: 👉 Aranguren/3ra y Blanquita,Casino Deportivo 📌 ⚡️ 👉 Calzada del Cerro y Buenos Aires 📌 ⚡️",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -277,8 +243,8 @@
   "day": {
     "date": "2026-07-31",
     "finalized": false,
-    "peak_mw_affected": 542,
-    "peak_time": "19:12",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -298,19 +264,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Cerro": 1,
-      "Habana Del Este": 1,
-      "Plaza": 1,
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "source_msg_count": 9,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "otro": 3,
-      "averias": 4,
-      "actualizacion_bloques": 1
+      "otro": 6,
+      "disparo_circuito": 1,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
@@ -347,7 +307,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 536.0,
+    "avg_peak_mw": 533.0,
     "max_peak_mw": 618,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -362,16 +322,13 @@
     "averias_count_by_municipio": {
       "Boyeros": 2,
       "Marianao": 2,
-      "Arroyo Naranjo": 2,
       "Cotorro": 1,
       "San Miguel Del Padrón": 1,
       "Lisa": 1,
-      "Diez De Octubre": 1,
-      "Cerro": 1,
-      "Habana Del Este": 1,
-      "Plaza": 1
+      "Arroyo Naranjo": 1,
+      "Diez De Octubre": 1
     },
-    "averias_total": 13,
+    "averias_total": 9,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -385,7 +342,7 @@
     "month": "2026-07",
     "finalized": false,
     "dailies_count": 31,
-    "avg_peak_mw": 502.1,
+    "avg_peak_mw": 498.1,
     "max_peak_mw": 686,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -399,22 +356,22 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 10,
-      "Cerro": 8,
-      "Arroyo Naranjo": 7,
+      "Cerro": 7,
       "Marianao": 6,
-      "Plaza": 4,
+      "Arroyo Naranjo": 6,
       "Cotorro": 4,
+      "Plaza": 3,
       "Lisa": 3,
       "Centro Habana": 3,
       "Guanabacoa": 3,
       "San Miguel Del Padrón": 2,
-      "Habana Del Este": 2,
       "Regla": 1,
+      "Habana Del Este": 1,
       "Boyero": 1,
       "Plaza De La Revolución": 1,
       "Diez De Octubre": 1
     },
-    "averias_total": 56,
+    "averias_total": 52,
     "daf_total": 9,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -437,16 +394,16 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3313,
+    "averias_total": 3309,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 262,
+      "Arroyo Naranjo": 261,
       "Lisa": 239,
-      "Habana Del Este": 227,
+      "Habana Del Este": 226,
       "Guanabacoa": 223,
-      "Cerro": 195,
-      "Plaza": 188,
+      "Cerro": 194,
+      "Plaza": 187,
       "San Miguel Del Padrón": 186,
       "Marianao": 158,
       "Cotorro": 103,
@@ -591,7 +548,7 @@
       },
       {
         "date": "2026-07-31",
-        "peak_mw": 542
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1435,7 +1392,7 @@
       },
       {
         "date": "2026-07-31",
-        "peak_mw": 542
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
