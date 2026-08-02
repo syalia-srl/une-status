@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-02T17:42:10+00:00",
+  "generated_at": "2026-08-02T18:39:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-02T17:38:59+00:00",
+    "as_of": "2026-08-02T18:36:26+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-02T16:43:47+00:00",
-      "averias": [
-        {
-          "municipio": "Marianao",
-          "direccion": "51 entre 136 y 138, Coco Solo 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-02T16:43:47+00:00",
-        "municipio": "Marianao",
-        "direccion": "51 entre 136 y 138, Coco Solo 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -279,19 +263,13 @@
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {
-      "cespedes": 677
-    },
-    "averias_count_by_municipio": {
-      "Marianao": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 13,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "otro": 7,
-      "unidad_termoelectrica": 1,
-      "averias": 1,
-      "restablecimiento": 4
+      "otro": 4,
+      "restablecimiento": 7
     }
   },
   "yesterday": {
@@ -350,7 +328,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
-      "Marianao": 2,
+      "Marianao": 1,
       "San Miguel Del Padrón": 1,
       "Boyeros": 1,
       "Lisa": 1,
@@ -358,16 +336,14 @@
       "Guanabacoa": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 11,
+    "averias_total": 10,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
-    "cte_offline_minutes_total": {
-      "cespedes": 677
-    },
+    "cte_offline_minutes_total": {},
     "window": "7d"
   },
   "month": {
@@ -389,19 +365,16 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 1,
       "Habana Del Este": 1,
-      "Arroyo Naranjo": 1,
-      "Marianao": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 4,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
-    "cte_offline_minutes_total": {
-      "cespedes": 677
-    }
+    "cte_offline_minutes_total": {}
   },
   "all_time": {
     "months_count": 49,
@@ -415,7 +388,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3314,
+    "averias_total": 3313,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -426,7 +399,7 @@
       "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 186,
-      "Marianao": 159,
+      "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -446,7 +419,7 @@
       "felton": 3050,
       "guiteras": 758,
       "nuevitas": 1812,
-      "cespedes": 2862
+      "cespedes": 2185
     }
   },
   "history": {
@@ -1825,7 +1798,7 @@
       "felton": 3050,
       "guiteras": 758,
       "nuevitas": 1812,
-      "cespedes": 2862
+      "cespedes": 2185
     },
     "cte_offline_days_total": {
       "rente": 13,
@@ -1834,7 +1807,7 @@
       "felton": 6,
       "guiteras": 1,
       "nuevitas": 5,
-      "cespedes": 6
+      "cespedes": 5
     }
   },
   "meta": {
