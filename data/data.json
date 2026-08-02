@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-02T20:41:42+00:00",
+  "generated_at": "2026-08-02T21:34:40+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-02T20:41:24+00:00",
+    "as_of": "2026-08-02T21:24:52+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,35 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-08-02T21:04:29+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": "Cuervo entre Finlay y Naranjito, Los Pinos 🚨",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-02T21:04:29+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "Cuervo entre Finlay y Naranjito, Los Pinos 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-02T20:54:16+00:00",
+        "municipio": "Marianao",
+        "direccion": "94 entre 41 y 43 afectando el servicio eléctrico del siguiente circuito: 👉 A1227: Calle 146 desde avenida 31 hasta calle 130, calle 130 desde calle 146 hasta avenida 37 (Zamora)"
+      },
+      {
+        "ts": "2026-08-02T20:44:49+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "la Carretera de Arango, reparto Aranguito 🚨",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +291,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 9,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1,
+      "Marianao": 1,
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 3,
+    "source_msg_count": 13,
     "by_type_counts": {
-      "otro": 7,
-      "restablecimiento": 2
+      "otro": 9,
+      "averias": 3,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -327,16 +359,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
-      "Marianao": 1,
+      "Arroyo Naranjo": 4,
+      "Marianao": 2,
+      "Guanabacoa": 2,
       "San Miguel Del Padrón": 1,
       "Boyeros": 1,
       "Lisa": 1,
       "Diez De Octubre": 1,
-      "Guanabacoa": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 10,
+    "averias_total": 13,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -363,11 +395,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
+      "Guanabacoa": 2,
+      "Arroyo Naranjo": 2,
       "Habana Del Este": 1,
-      "Arroyo Naranjo": 1
+      "Marianao": 1
     },
-    "averias_total": 3,
+    "averias_total": 6,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -388,18 +421,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3313,
+    "averias_total": 3316,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 263,
+      "Arroyo Naranjo": 264,
       "Lisa": 239,
       "Habana Del Este": 227,
-      "Guanabacoa": 224,
+      "Guanabacoa": 225,
       "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 186,
-      "Marianao": 158,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
