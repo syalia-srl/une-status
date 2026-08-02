@@ -1,43 +1,56 @@
 {
-  "generated_at": "2026-08-02T16:34:44+00:00",
+  "generated_at": "2026-08-02T17:42:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-02T16:14:09+00:00",
+    "as_of": "2026-08-02T17:38:59+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 316,
-    "current_mw_affected_at": "2026-08-02T16:00:03+00:00",
-    "active_averias": null,
-    "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-08-02T16:14:09+00:00",
-      "type": "daf"
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-08-02T16:43:47+00:00",
+      "averias": [
+        {
+          "municipio": "Marianao",
+          "direccion": "51 entre 136 y 138, Coco Solo 🚨",
+          "severity": "secundaria"
+        }
+      ]
     },
+    "averias_24h": [
+      {
+        "ts": "2026-08-02T16:43:47+00:00",
+        "municipio": "Marianao",
+        "direccion": "51 entre 136 y 138, Coco Solo 🚨",
+        "severity": "secundaria"
+      }
+    ],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -126,12 +139,12 @@
       {
         "id": "cespedes",
         "name": "Carlos M. de Céspedes (Cienfuegos)",
-        "state": "partial",
+        "state": "offline",
         "assumed": false,
-        "last_seen_at": "2026-07-15T16:21:12+00:00",
+        "last_seen_at": "2026-08-02T16:42:32+00:00",
         "last_online_at": "2026-07-15T16:21:12+00:00",
-        "last_offline_at": "2026-07-13T18:39:11+00:00",
-        "last_change_at": "2026-07-13T18:39:11+00:00",
+        "last_offline_at": "2026-08-02T16:42:32+00:00",
+        "last_change_at": "2026-08-02T16:42:32+00:00",
         "units": [
           {
             "unidad": 3,
@@ -140,12 +153,12 @@
           },
           {
             "unidad": 4,
-            "state": "online",
-            "since": "2026-07-15T16:21:12+00:00"
+            "state": "offline",
+            "since": "2026-08-02T16:42:32+00:00"
           }
         ],
-        "online_units": 1,
-        "offline_units": 1
+        "online_units": 0,
+        "offline_units": 2
       },
       {
         "id": "nuevitas",
@@ -246,8 +259,8 @@
   "day": {
     "date": "2026-08-02",
     "finalized": false,
-    "peak_mw_affected": 316,
-    "peak_time": "12:00",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -259,21 +272,26 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 3,
+    "cte_offline_minutes": {
+      "cespedes": 677
+    },
+    "averias_count_by_municipio": {
+      "Marianao": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 13,
     "by_type_counts": {
-      "otro": 1,
-      "actualizacion_bloques": 1,
-      "daf": 1
+      "otro": 7,
+      "unidad_termoelectrica": 1,
+      "averias": 1,
+      "restablecimiento": 4
     }
   },
   "yesterday": {
@@ -318,7 +336,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 513.8,
+    "avg_peak_mw": 579.7,
     "max_peak_mw": 673,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -332,7 +350,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
-      "Marianao": 1,
+      "Marianao": 2,
       "San Miguel Del Padrón": 1,
       "Boyeros": 1,
       "Lisa": 1,
@@ -340,22 +358,24 @@
       "Guanabacoa": 1,
       "Habana Del Este": 1
     },
-    "averias_total": 10,
-    "daf_total": 1,
+    "averias_total": 11,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
-    "cte_offline_minutes_total": {},
+    "cte_offline_minutes_total": {
+      "cespedes": 677
+    },
     "window": "7d"
   },
   "month": {
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 2,
-    "avg_peak_mw": 316.0,
-    "max_peak_mw": 316,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -369,16 +389,19 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 1,
       "Habana Del Este": 1,
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 1,
+      "Marianao": 1
     },
-    "averias_total": 3,
-    "daf_total": 1,
+    "averias_total": 4,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
-    "cte_offline_minutes_total": {}
+    "cte_offline_minutes_total": {
+      "cespedes": 677
+    }
   },
   "all_time": {
     "months_count": 49,
@@ -392,7 +415,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3313,
+    "averias_total": 3314,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -403,14 +426,14 @@
       "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 186,
-      "Marianao": 158,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2367,
+    "daf_total": 2366,
     "sen_collapse_total": 9,
     "sen_outage_days_total": 7,
     "sen_outage_minutes_total": 3618,
@@ -423,7 +446,7 @@
       "felton": 3050,
       "guiteras": 758,
       "nuevitas": 1812,
-      "cespedes": 2185
+      "cespedes": 2862
     }
   },
   "history": {
@@ -546,7 +569,7 @@
       },
       {
         "date": "2026-08-02",
-        "peak_mw": 316
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1390,7 +1413,7 @@
       },
       {
         "date": "2026-08-02",
-        "peak_mw": 316
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1588,7 +1611,7 @@
       },
       {
         "month": "2026-08",
-        "max_peak_mw": 316
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1793,8 +1816,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 9,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2367,
-    "daf_last_30d": 8,
+    "daf_total": 2366,
+    "daf_last_30d": 7,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1802,7 +1825,7 @@
       "felton": 3050,
       "guiteras": 758,
       "nuevitas": 1812,
-      "cespedes": 2185
+      "cespedes": 2862
     },
     "cte_offline_days_total": {
       "rente": 13,
@@ -1811,7 +1834,7 @@
       "felton": 6,
       "guiteras": 1,
       "nuevitas": 5,
-      "cespedes": 5
+      "cespedes": 6
     }
   },
   "meta": {

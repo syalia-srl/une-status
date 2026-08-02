@@ -2,8 +2,8 @@
   "month": "2026-08",
   "finalized": false,
   "dailies_count": 2,
-  "avg_peak_mw": 316.0,
-  "max_peak_mw": 316,
+  "avg_peak_mw": null,
+  "max_peak_mw": null,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
     "1": 0,
@@ -17,14 +17,17 @@
   "averias_count_by_municipio": {
     "Guanabacoa": 1,
     "Habana Del Este": 1,
-    "Arroyo Naranjo": 1
+    "Arroyo Naranjo": 1,
+    "Marianao": 1
   },
-  "averias_total": 3,
-  "daf_total": 1,
+  "averias_total": 4,
+  "daf_total": 0,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
   "partial_sen_collapse_total": 2,
   "partial_sen_outage_minutes_total": 132,
-  "cte_offline_minutes_total": {}
+  "cte_offline_minutes_total": {
+    "cespedes": 677
+  }
 }
