@@ -15,22 +15,19 @@
   },
   "total_block_outage_minutes": 0,
   "daf_count": 0,
-  "sen_collapse_count": 1,
-  "sen_outage_minutes": 39,
+  "sen_collapse_count": 2,
+  "sen_outage_minutes": 815,
   "sen_outage": true,
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Plaza": 1
-  },
-  "averias_total": 1,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
   "source_msg_count": 4,
   "by_type_counts": {
-    "desconexion_total_sen": 1,
-    "otro": 1,
-    "restablecimiento_sen": 1,
-    "averias": 1
+    "via_libre": 1,
+    "desconexion_total_sen": 2,
+    "corto": 1
   }
 }
