@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-03T16:40:02+00:00",
+  "generated_at": "2026-08-03T18:24:03+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-03T16:26:57+00:00",
+    "as_of": "2026-08-03T18:22:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,14 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-08-03T17:59:42+00:00",
+      "averias": []
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-03T17:53:20+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": ": 👉 Carretera de Managua , Sección D",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "offline",
-      "since": "2026-08-03T16:23:56+00:00",
-      "last_outage_at": "2026-08-03T16:23:56+00:00",
+      "since": "2026-08-03T18:15:17+00:00",
+      "last_outage_at": "2026-08-03T18:15:17+00:00",
       "last_recovered_at": null,
       "partial_sen": {
         "active": false,
@@ -257,20 +267,23 @@
     },
     "total_block_outage_minutes": 0,
     "daf_count": 0,
-    "sen_collapse_count": 2,
-    "sen_outage_minutes": 815,
+    "sen_collapse_count": 1,
+    "sen_outage_minutes": 584,
     "sen_outage": true,
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "via_libre": 1,
-      "desconexion_total_sen": 2,
-      "corto": 1
+      "averias": 2,
+      "disparo_circuito": 1,
+      "desconexion_total_sen": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -326,7 +339,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 4,
       "Lisa": 2,
       "San Miguel Del Padrón": 1,
       "Boyeros": 1,
@@ -335,11 +348,11 @@
       "Habana Del Este": 1,
       "Habana Vieja": 1
     },
-    "averias_total": 11,
+    "averias_total": 12,
     "daf_total": 0,
-    "sen_collapse_total": 3,
+    "sen_collapse_total": 2,
     "sen_outage_days": 2,
-    "sen_outage_minutes_total": 879,
+    "sen_outage_minutes_total": 648,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
     "cte_offline_minutes_total": {},
@@ -362,17 +375,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 2,
       "Guanabacoa": 1,
       "Habana Del Este": 1,
-      "Arroyo Naranjo": 1,
       "Habana Vieja": 1,
       "Lisa": 1
     },
-    "averias_total": 5,
+    "averias_total": 6,
     "daf_total": 0,
-    "sen_collapse_total": 3,
+    "sen_collapse_total": 2,
     "sen_outage_days": 2,
-    "sen_outage_minutes_total": 879,
+    "sen_outage_minutes_total": 648,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
     "cte_offline_minutes_total": {}
@@ -389,11 +402,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3315,
+    "averias_total": 3316,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 263,
+      "Arroyo Naranjo": 264,
       "Lisa": 240,
       "Habana Del Este": 227,
       "Guanabacoa": 224,
@@ -408,9 +421,9 @@
       "Regla": 43
     },
     "daf_total": 2366,
-    "sen_collapse_total": 12,
+    "sen_collapse_total": 11,
     "sen_outage_days_total": 9,
-    "sen_outage_minutes_total": 4497,
+    "sen_outage_minutes_total": 4266,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
     "cte_offline_minutes_total": {
@@ -1788,8 +1801,8 @@
     ],
     "sen_outage_days_total": 9,
     "sen_outage_days_last_30d": 2,
-    "sen_collapse_total": 12,
-    "sen_collapse_last_30d": 3,
+    "sen_collapse_total": 11,
+    "sen_collapse_last_30d": 2,
     "daf_total": 2366,
     "daf_last_30d": 7,
     "cte_offline_minutes_total": {
