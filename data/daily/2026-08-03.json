@@ -16,7 +16,7 @@
   "total_block_outage_minutes": 0,
   "daf_count": 0,
   "sen_collapse_count": 2,
-  "sen_outage_minutes": 1272,
+  "sen_outage_minutes": 1157,
   "sen_outage": true,
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
@@ -24,10 +24,8 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 5,
+  "source_msg_count": 2,
   "by_type_counts": {
-    "desconexion_total_sen": 2,
-    "restablecimiento_sen": 1,
-    "corto": 2
+    "desconexion_total_sen": 2
   }
 }

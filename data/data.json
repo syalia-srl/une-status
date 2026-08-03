@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-03T08:19:49+00:00",
+  "generated_at": "2026-08-03T11:52:28+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-03T07:08:29+00:00",
+    "as_of": "2026-08-03T10:02:51+00:00",
     "bloques": [
       {
         "id": 1,
@@ -38,9 +38,9 @@
     "last_pronostico": null,
     "sen": {
       "state": "offline",
-      "since": "2026-08-03T07:08:12+00:00",
-      "last_outage_at": "2026-08-03T07:08:12+00:00",
-      "last_recovered_at": "2026-08-03T06:25:49+00:00",
+      "since": "2026-08-03T10:02:51+00:00",
+      "last_outage_at": "2026-08-03T10:02:51+00:00",
+      "last_recovered_at": null,
       "partial_sen": {
         "active": false,
         "since": null,
@@ -258,7 +258,7 @@
     "total_block_outage_minutes": 0,
     "daf_count": 0,
     "sen_collapse_count": 2,
-    "sen_outage_minutes": 1272,
+    "sen_outage_minutes": 1157,
     "sen_outage": true,
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
@@ -266,11 +266,9 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 5,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "desconexion_total_sen": 2,
-      "restablecimiento_sen": 1,
-      "corto": 2
+      "desconexion_total_sen": 2
     }
   },
   "yesterday": {
@@ -339,7 +337,7 @@
     "daf_total": 0,
     "sen_collapse_total": 3,
     "sen_outage_days": 2,
-    "sen_outage_minutes_total": 1336,
+    "sen_outage_minutes_total": 1221,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
     "cte_offline_minutes_total": {},
@@ -372,7 +370,7 @@
     "daf_total": 0,
     "sen_collapse_total": 3,
     "sen_outage_days": 2,
-    "sen_outage_minutes_total": 1336,
+    "sen_outage_minutes_total": 1221,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
     "cte_offline_minutes_total": {}
@@ -410,7 +408,7 @@
     "daf_total": 2366,
     "sen_collapse_total": 12,
     "sen_outage_days_total": 9,
-    "sen_outage_minutes_total": 4954,
+    "sen_outage_minutes_total": 4839,
     "partial_sen_collapse_total": 2,
     "partial_sen_outage_minutes_total": 132,
     "cte_offline_minutes_total": {

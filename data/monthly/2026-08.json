@@ -25,7 +25,7 @@
   "daf_total": 0,
   "sen_collapse_total": 3,
   "sen_outage_days": 2,
-  "sen_outage_minutes_total": 1336,
+  "sen_outage_minutes_total": 1221,
   "partial_sen_collapse_total": 2,
   "partial_sen_outage_minutes_total": 132,
   "cte_offline_minutes_total": {}
