@@ -24,9 +24,9 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 3,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "unidad_termoelectrica": 1,
+    "otro": 3,
     "restablecimiento_sen": 2
   }
 }
