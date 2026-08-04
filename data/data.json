@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T19:53:07+00:00",
+  "generated_at": "2026-08-04T21:00:45+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-04T19:26:45+00:00",
+    "as_of": "2026-08-04T20:59:53+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,48 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-08-04T20:56:02+00:00",
+      "averias": [
+        {
+          "municipio": "Cerro",
+          "direccion": "la siguiente dirección: 👉 2da/ Fomento y Albear",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-04T20:56:02+00:00",
+        "municipio": "Cerro",
+        "direccion": "la siguiente dirección: 👉 2da/ Fomento y Albear",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-04T20:56:02+00:00",
+        "municipio": "Plaza",
+        "direccion": "la siguiente dirección: 👉 15/ 22 y 24",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-04T20:33:39+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "la siguiente dirección: 👉 Máximo Gómez/ 20 y Arroyo,Roble",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-04T20:21:42+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "la siguiente dirección: 👉 Cambute y Doctor Díaz,reparto Cambute",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-04T19:59:43+00:00",
+        "municipio": "Cerro",
+        "direccion": "calle Albear / 1ra y Palatino se encuentra afectado el circuito : 👉 -C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,13 +304,18 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 15,
+    "averias_count_by_municipio": {
+      "Cerro": 2,
+      "San Miguel Del Padrón": 1,
+      "Guanabacoa": 1,
+      "Plaza": 1
+    },
+    "averias_total": 5,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 9,
-      "disparo_circuito": 1,
-      "restablecimiento": 5
+      "averias": 6,
+      "otro": 11,
+      "restablecimiento": 3
     }
   },
   "yesterday": {
@@ -321,13 +366,16 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
+      "Guanabacoa": 2,
+      "Cerro": 2,
       "Diez De Octubre": 1,
-      "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Lisa": 1
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1,
+      "Plaza": 1
     },
-    "averias_total": 8,
+    "averias_total": 13,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -354,13 +402,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
+      "Guanabacoa": 2,
+      "Cerro": 2,
       "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
       "Habana Vieja": 1,
-      "Lisa": 1
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1,
+      "Plaza": 1
     },
-    "averias_total": 5,
+    "averias_total": 10,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -381,17 +432,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3315,
+    "averias_total": 3320,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 263,
       "Lisa": 240,
       "Habana Del Este": 227,
-      "Guanabacoa": 224,
-      "Cerro": 194,
-      "Plaza": 187,
-      "San Miguel Del Padrón": 186,
+      "Guanabacoa": 225,
+      "Cerro": 196,
+      "Plaza": 188,
+      "San Miguel Del Padrón": 187,
       "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
