@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-03",
-  "finalized": true,
+  "date": "2026-08-04",
+  "finalized": false,
   "peak_mw_affected": null,
   "peak_time": null,
   "interruption_minutes": null,
