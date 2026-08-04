@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T21:00:45+00:00",
+  "generated_at": "2026-08-04T22:20:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-04T20:59:53+00:00",
+    "as_of": "2026-08-04T22:15:10+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,45 +33,36 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-04T20:56:02+00:00",
+      "ts": "2026-08-04T21:42:08+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "direccion": "la siguiente dirección: 👉 2da/ Fomento y Albear",
+          "municipio": "Cotorro",
+          "direccion": "la siguiente dirección: 👉 105/ 104 y 106",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-04T20:56:02+00:00",
-        "municipio": "Cerro",
-        "direccion": "la siguiente dirección: 👉 2da/ Fomento y Albear",
-        "severity": "secundaria"
+        "ts": "2026-08-04T21:55:11+00:00",
+        "municipio": "Regla",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-08-04T20:56:02+00:00",
-        "municipio": "Plaza",
-        "direccion": "la siguiente dirección: 👉 15/ 22 y 24",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-04T20:33:39+00:00",
+        "ts": "2026-08-04T21:51:48+00:00",
         "municipio": "Guanabacoa",
-        "direccion": "la siguiente dirección: 👉 Máximo Gómez/ 20 y Arroyo,Roble",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-08-04T21:42:08+00:00",
+        "municipio": "Cotorro",
+        "direccion": "la siguiente dirección: 👉 105/ 104 y 106",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-08-04T20:21:42+00:00",
+        "ts": "2026-08-04T21:19:48+00:00",
         "municipio": "San Miguel Del Padrón",
-        "direccion": "la siguiente dirección: 👉 Cambute y Doctor Díaz,reparto Cambute",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-04T19:59:43+00:00",
-        "municipio": "Cerro",
-        "direccion": "calle Albear / 1ra y Palatino se encuentra afectado el circuito : 👉 -C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
-        "severity": "primaria"
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -305,17 +296,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 2,
       "San Miguel Del Padrón": 1,
+      "Cotorro": 1,
       "Guanabacoa": 1,
-      "Plaza": 1
+      "Regla": 1
     },
-    "averias_total": 5,
+    "averias_total": 4,
     "source_msg_count": 20,
     "by_type_counts": {
-      "averias": 6,
-      "otro": 11,
-      "restablecimiento": 3
+      "otro": 2,
+      "restablecimiento": 14,
+      "disparo_circuito": 3,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -367,15 +359,15 @@
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
       "Guanabacoa": 2,
-      "Cerro": 2,
       "Diez De Octubre": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Lisa": 1,
       "San Miguel Del Padrón": 1,
-      "Plaza": 1
+      "Cotorro": 1,
+      "Regla": 1
     },
-    "averias_total": 13,
+    "averias_total": 12,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -403,15 +395,15 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
-      "Cerro": 2,
       "Habana Del Este": 1,
       "Arroyo Naranjo": 1,
       "Habana Vieja": 1,
       "Lisa": 1,
       "San Miguel Del Padrón": 1,
-      "Plaza": 1
+      "Cotorro": 1,
+      "Regla": 1
     },
-    "averias_total": 10,
+    "averias_total": 9,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -432,7 +424,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3320,
+    "averias_total": 3319,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -440,15 +432,15 @@
       "Lisa": 240,
       "Habana Del Este": 227,
       "Guanabacoa": 225,
-      "Cerro": 196,
-      "Plaza": 188,
+      "Cerro": 194,
       "San Miguel Del Padrón": 187,
+      "Plaza": 187,
       "Marianao": 158,
-      "Cotorro": 103,
+      "Cotorro": 104,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 43
+      "Regla": 44
     },
     "daf_total": 2366,
     "sen_collapse_total": 10,
