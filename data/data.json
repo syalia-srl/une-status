@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-05T21:40:09+00:00",
+  "generated_at": "2026-08-05T22:40:44+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-05T21:33:57+00:00",
+    "as_of": "2026-08-05T22:21:53+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,23 +33,33 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-05T21:22:51+00:00",
-      "averias": []
+      "ts": "2026-08-05T22:20:56+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "👉 7ma / 90 y 94",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-05T21:21:02+00:00",
+        "ts": "2026-08-05T22:20:56+00:00",
         "municipio": "Playa",
-        "kind": "disparo_circuito"
+        "direccion": "👉 7ma / 90 y 94",
+        "severity": "secundaria"
       },
       {
-        "ts": "2026-08-05T20:42:21+00:00",
-        "municipio": "Cerro",
-        "direccion": "Fomento / Primelles y 6ta que afecta el servicio en: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
+        "ts": "2026-08-05T21:59:38+00:00",
+        "municipio": "Boyeros",
+        "direccion": "el siguiente circuito: 👉 A960: Reparto Ciudad de la Construcción Alrededores de calles Cowley, Rodríguez Morine, calle Embil desde calle 2 hasta calle 12 (reparto Embil)",
         "severity": "primaria"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-08-05T22:21:53+00:00",
+      "type": "restablecimiento_daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -271,7 +281,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -280,16 +290,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1,
+      "Boyeros": 1,
       "Playa": 1
     },
     "averias_total": 2,
-    "source_msg_count": 19,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "restablecimiento": 9,
+      "otro": 6,
       "averias": 2,
-      "otro": 7,
-      "disparo_circuito": 1
+      "daf": 1,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -344,11 +354,11 @@
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Lisa": 1,
-      "Cerro": 1,
+      "Boyeros": 1,
       "Playa": 1
     },
     "averias_total": 8,
-    "daf_total": 0,
+    "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -379,11 +389,11 @@
       "Arroyo Naranjo": 1,
       "Habana Vieja": 1,
       "Lisa": 1,
-      "Cerro": 1,
+      "Boyeros": 1,
       "Playa": 1
     },
     "averias_total": 7,
-    "daf_total": 0,
+    "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -405,13 +415,13 @@
     },
     "averias_total": 3317,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 351,
       "Playa": 282,
       "Arroyo Naranjo": 263,
       "Lisa": 240,
       "Habana Del Este": 227,
       "Guanabacoa": 224,
-      "Cerro": 195,
+      "Cerro": 194,
       "Plaza": 187,
       "San Miguel Del Padrón": 186,
       "Marianao": 158,
@@ -421,7 +431,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2366,
+    "daf_total": 2367,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1804,8 +1814,8 @@
     "sen_outage_days_last_30d": 1,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
-    "daf_total": 2366,
-    "daf_last_30d": 7,
+    "daf_total": 2367,
+    "daf_last_30d": 8,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,

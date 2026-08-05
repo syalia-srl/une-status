@@ -20,11 +20,11 @@
     "Arroyo Naranjo": 1,
     "Habana Vieja": 1,
     "Lisa": 1,
-    "Cerro": 1,
+    "Boyeros": 1,
     "Playa": 1
   },
   "averias_total": 7,
-  "daf_total": 0,
+  "daf_total": 1,
   "sen_collapse_total": 1,
   "sen_outage_days": 1,
   "sen_outage_minutes_total": 64,
