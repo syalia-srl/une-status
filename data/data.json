@@ -1,41 +1,56 @@
 {
-  "generated_at": "2026-08-05T00:55:07+00:00",
+  "generated_at": "2026-08-05T03:52:15+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-05T00:53:30+00:00",
+    "as_of": "2026-08-05T03:48:28+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
+    "current_mw_affected": 582,
+    "current_mw_affected_at": "2026-08-05T02:10:23+00:00",
+    "active_averias": {
+      "ts": "2026-08-05T03:25:04+00:00",
+      "averias": [
+        {
+          "municipio": "Plaza",
+          "direccion": "la siguiente dirección: 👉 24 / 17 y 19 , Vedado",
+          "severity": "secundaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-08-05T00:11:50+00:00",
+        "ts": "2026-08-05T03:25:04+00:00",
+        "municipio": "Plaza",
+        "direccion": "la siguiente dirección: 👉 24 / 17 y 19 , Vedado",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-05T03:22:13+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
       }
@@ -249,8 +264,8 @@
   "day": {
     "date": "2026-08-04",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 582,
+    "peak_time": "22:10",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -271,13 +286,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Plaza": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 18,
+    "averias_total": 2,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "otro": 16,
+      "restablecimiento": 9,
+      "otro": 4,
+      "actualizacion_bloques": 1,
+      "averias": 2,
       "disparo_circuito": 1
     }
   },
@@ -315,7 +333,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 673.0,
+    "avg_peak_mw": 627.5,
     "max_peak_mw": 673,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -334,9 +352,10 @@
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Lisa": 1,
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Plaza": 1
     },
-    "averias_total": 9,
+    "averias_total": 10,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -350,8 +369,8 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 4,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 582.0,
+    "max_peak_mw": 582,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -368,9 +387,10 @@
       "Arroyo Naranjo": 1,
       "Habana Vieja": 1,
       "Lisa": 1,
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Plaza": 1
     },
-    "averias_total": 6,
+    "averias_total": 7,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -391,7 +411,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3316,
+    "averias_total": 3317,
     "averias_top_municipios": {
       "Boyeros": 351,
       "Playa": 281,
@@ -400,7 +420,7 @@
       "Habana Del Este": 227,
       "Guanabacoa": 224,
       "Cerro": 194,
-      "Plaza": 187,
+      "Plaza": 188,
       "San Miguel Del Padrón": 186,
       "Marianao": 158,
       "Cotorro": 103,
@@ -545,7 +565,7 @@
       },
       {
         "date": "2026-08-04",
-        "peak_mw": null
+        "peak_mw": 582
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1389,7 +1409,7 @@
       },
       {
         "date": "2026-08-04",
-        "peak_mw": null
+        "peak_mw": 582
       }
     ],
     "monthly_max_peak_mw": [
@@ -1587,7 +1607,7 @@
       },
       {
         "month": "2026-08",
-        "max_peak_mw": null
+        "max_peak_mw": 582
       }
     ],
     "monthly_total_outage_minutes": [
