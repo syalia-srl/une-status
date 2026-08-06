@@ -1,49 +1,55 @@
 {
-  "generated_at": "2026-08-06T13:43:39+00:00",
+  "generated_at": "2026-08-06T16:01:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-06T13:39:04+00:00",
+    "as_of": "2026-08-06T15:51:11+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
     "current_mw_affected": null,
-    "current_mw_affected_at": "2026-08-06T13:11:13+00:00",
-    "active_averias": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-08-06T15:40:31+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "la siguiente dirección: 72 entre 41 y 43, quedando afectado el servicio eléctrico en: L315: Avenida 21 desde calle 84 hasta calle 74, calle 80 desde avenida 17 hasta avenida 25"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-08-06T12:45:40+00:00",
-        "municipio": "Arroyo Naranjo",
-        "kind": "disparo_circuito"
+        "ts": "2026-08-06T15:40:31+00:00",
+        "municipio": "Playa",
+        "direccion": "la siguiente dirección: 72 entre 41 y 43, quedando afectado el servicio eléctrico en: L315: Avenida 21 desde calle 84 hasta calle 74, calle 80 desde avenida 17 hasta avenida 25"
       }
     ],
     "last_daf": null,
-    "last_pronostico": {
-      "ts": "2026-08-06T12:47:18+00:00"
-    },
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -273,17 +279,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Playa": 1
     },
     "averias_total": 1,
     "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 13,
-      "disparo_circuito": 1,
-      "pronostico": 1,
-      "otro": 2,
-      "actualizacion_bloques": 1,
-      "via_libre": 2
+      "restablecimiento": 6,
+      "otro": 10,
+      "mantenimiento": 1,
+      "via_libre": 2,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -341,12 +346,13 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 5,
+      "Arroyo Naranjo": 4,
       "Lisa": 2,
       "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "Playa": 1
     },
     "averias_total": 11,
     "daf_total": 0,
@@ -375,12 +381,13 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 4,
+      "Arroyo Naranjo": 3,
       "Lisa": 2,
       "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "Playa": 1
     },
     "averias_total": 10,
     "daf_total": 0,
@@ -406,8 +413,8 @@
     "averias_total": 3320,
     "averias_top_municipios": {
       "Boyeros": 350,
-      "Playa": 281,
-      "Arroyo Naranjo": 266,
+      "Playa": 282,
+      "Arroyo Naranjo": 265,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 224,
