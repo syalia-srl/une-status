@@ -1,43 +1,61 @@
 {
-  "generated_at": "2026-08-07T16:31:15+00:00",
+  "generated_at": "2026-08-07T17:30:24+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-07T16:24:04+00:00",
+    "as_of": "2026-08-07T17:23:17+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
     "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-08-07T15:48:27+00:00",
-      "type": "restablecimiento_daf"
+    "current_mw_affected_at": "2026-08-07T16:43:10+00:00",
+    "active_averias": {
+      "ts": "2026-08-07T17:21:56+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": ": Isabel / Estela y Sofía , Fraternidad , afectando : 👉 PG980 : Repartos: Fraternidad, Callejas, San Agustín y El Mamey 🚧 ⚡️",
+          "severity": "primaria"
+        }
+      ]
     },
+    "averias_24h": [
+      {
+        "ts": "2026-08-07T17:21:56+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": ": Isabel / Estela y Sofía , Fraternidad , afectando : 👉 PG980 : Repartos: Fraternidad, Callejas, San Agustín y El Mamey 🚧 ⚡️",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-08-07T16:31:37+00:00",
+        "municipio": "Guanabacoa",
+        "kind": "disparo_circuito"
+      }
+    ],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -267,13 +285,19 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 6,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1,
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 14,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "restablecimiento_daf": 1,
-      "otro": 3
+      "disparo_circuito": 2,
+      "actualizacion_bloques": 1,
+      "otro": 2,
+      "restablecimiento": 6,
+      "averias": 2,
+      "via_libre": 1
     }
   },
   "yesterday": {
@@ -324,14 +348,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 4,
+      "Guanabacoa": 2,
       "Lisa": 2,
-      "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 9,
+    "averias_total": 11,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -358,14 +382,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 4,
+      "Guanabacoa": 2,
       "Lisa": 2,
-      "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 9,
+    "averias_total": 11,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -386,14 +410,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3319,
+    "averias_total": 3321,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 265,
+      "Arroyo Naranjo": 266,
       "Lisa": 241,
       "Habana Del Este": 227,
-      "Guanabacoa": 224,
+      "Guanabacoa": 225,
       "Cerro": 195,
       "Plaza": 187,
       "San Miguel Del Padrón": 186,

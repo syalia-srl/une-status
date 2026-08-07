@@ -15,14 +15,14 @@
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Arroyo Naranjo": 3,
+    "Arroyo Naranjo": 4,
+    "Guanabacoa": 2,
     "Lisa": 2,
-    "Guanabacoa": 1,
     "Habana Del Este": 1,
     "Habana Vieja": 1,
     "Cerro": 1
   },
-  "averias_total": 9,
+  "averias_total": 11,
   "daf_total": 0,
   "sen_collapse_total": 1,
   "sen_outage_days": 1,
