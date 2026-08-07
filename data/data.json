@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T08:49:10+00:00",
+  "generated_at": "2026-08-07T09:49:31+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-07T08:44:00+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -33,13 +33,7 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [
-      {
-        "ts": "2026-08-07T08:44:00+00:00",
-        "municipio": "Cerro",
-        "kind": "disparo_circuito"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
