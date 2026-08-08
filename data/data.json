@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T05:53:47+00:00",
+  "generated_at": "2026-08-08T06:32:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-08T05:46:32+00:00",
+    "as_of": "2026-08-08T06:22:33+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-08T05:30:51+00:00",
-      "averias": [
-        {
-          "municipio": "Regla",
-          "direccion": ": 👉 Camilo Cienfuegos / Ñico López y Oscar Lunar ,Regla",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-08T05:30:51+00:00",
-        "municipio": "Regla",
-        "direccion": ": 👉 Camilo Cienfuegos / Ñico López y Oscar Lunar ,Regla",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -280,14 +264,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Regla": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 6,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "restablecimiento": 5,
-      "averias": 1
+      "restablecimiento": 4,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -343,10 +325,9 @@
       "Lisa": 2,
       "Arroyo Naranjo": 2,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "Regla": 1
+      "Cerro": 1
     },
-    "averias_total": 7,
+    "averias_total": 6,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -378,10 +359,9 @@
       "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "Regla": 1
+      "Cerro": 1
     },
-    "averias_total": 10,
+    "averias_total": 9,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -402,7 +382,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3320,
+    "averias_total": 3319,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -418,7 +398,7 @@
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 44
+      "Regla": 43
     },
     "daf_total": 2366,
     "sen_collapse_total": 10,
