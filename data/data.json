@@ -1,39 +1,45 @@
 {
-  "generated_at": "2026-08-08T16:58:53+00:00",
+  "generated_at": "2026-08-08T17:28:34+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-08T16:55:18+00:00",
+    "as_of": "2026-08-08T17:27:04+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
     "current_mw_affected": null,
-    "current_mw_affected_at": "2026-08-08T16:24:56+00:00",
+    "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-08-08T17:09:34+00:00",
+        "municipio": "Guanabacoa",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -212,8 +218,8 @@
       {
         "id": "rente",
         "name": "Antonio Maceo (Renté)",
-        "state": "online",
-        "assumed": false,
+        "state": "assumed_online",
+        "assumed": true,
         "last_seen_at": "2026-07-09T17:19:38+00:00",
         "last_online_at": "2026-07-09T17:19:38+00:00",
         "last_offline_at": "2026-03-03T00:59:50+00:00",
@@ -264,12 +270,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "otro": 2
+      "otro": 5,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -325,9 +333,10 @@
       "Lisa": 2,
       "Arroyo Naranjo": 2,
       "Habana Vieja": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 6,
+    "averias_total": 7,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -355,13 +364,13 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
+      "Guanabacoa": 2,
       "Lisa": 2,
-      "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 9,
+    "averias_total": 10,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -382,14 +391,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3319,
+    "averias_total": 3320,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 265,
       "Lisa": 241,
       "Habana Del Este": 227,
-      "Guanabacoa": 224,
+      "Guanabacoa": 225,
       "Cerro": 195,
       "Plaza": 187,
       "San Miguel Del Padrón": 186,
