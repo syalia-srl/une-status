@@ -1,38 +1,41 @@
 {
-  "generated_at": "2026-08-08T02:48:33+00:00",
+  "generated_at": "2026-08-08T04:03:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-08T02:20:20+00:00",
+    "as_of": "2026-08-08T04:03:14+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
     "current_mw_affected": null,
-    "current_mw_affected_at": "2026-08-08T01:37:56+00:00",
-    "active_averias": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-08-08T03:59:31+00:00",
+      "averias": []
+    },
     "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
@@ -185,8 +188,8 @@
         "name": "Ernesto Guevara (Santa Cruz)",
         "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-08-04T17:27:38+00:00",
-        "last_online_at": "2026-08-04T17:27:38+00:00",
+        "last_seen_at": "2026-08-08T03:31:15+00:00",
+        "last_online_at": "2026-08-08T03:31:15+00:00",
         "last_offline_at": "2026-07-09T21:01:11+00:00",
         "last_change_at": "2026-07-15T02:31:56+00:00",
         "units": [
@@ -198,7 +201,7 @@
           {
             "unidad": 2,
             "state": "online",
-            "since": "2026-08-03T19:31:53+00:00"
+            "since": "2026-08-08T03:31:15+00:00"
           },
           {
             "unidad": 3,
@@ -241,41 +244,8 @@
     ]
   },
   "day": {
-    "date": "2026-08-07",
+    "date": "2026-08-08",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 14,
-    "by_type_counts": {
-      "otro": 1,
-      "restablecimiento": 12,
-      "actualizacion_bloques": 1
-    }
-  },
-  "yesterday": {
-    "date": "2026-08-06",
-    "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
     "interruption_minutes": null,
@@ -301,7 +271,40 @@
     "averias_total": 0,
     "source_msg_count": 2,
     "by_type_counts": {
-      "restablecimiento": 1,
+      "restablecimiento": 2
+    }
+  },
+  "yesterday": {
+    "date": "2026-08-07",
+    "finalized": true,
+    "peak_mw_affected": null,
+    "peak_time": null,
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 9,
+    "by_type_counts": {
+      "otro": 2,
+      "restablecimiento": 5,
+      "unidad_termoelectrica": 1,
       "averias": 1
     }
   },
@@ -321,27 +324,25 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
       "Lisa": 2,
-      "Guanabacoa": 1,
-      "Habana Del Este": 1,
+      "Arroyo Naranjo": 2,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 9,
+    "averias_total": 6,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
-    "partial_sen_collapse_total": 2,
-    "partial_sen_outage_minutes_total": 132,
+    "partial_sen_collapse_total": 0,
+    "partial_sen_outage_minutes_total": 0,
     "cte_offline_minutes_total": {},
     "window": "7d"
   },
   "month": {
     "month": "2026-08",
     "finalized": false,
-    "dailies_count": 7,
+    "dailies_count": 8,
     "avg_peak_mw": 641.0,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
@@ -419,10 +420,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-07-09",
-        "peak_mw": null
-      },
       {
         "date": "2026-07-10",
         "peak_mw": null
@@ -538,13 +535,13 @@
       {
         "date": "2026-08-07",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-08",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-07-09",
-        "minutes": 0
-      },
       {
         "date": "2026-07-10",
         "minutes": 0
@@ -660,13 +657,13 @@
       {
         "date": "2026-08-07",
         "minutes": 0
+      },
+      {
+        "date": "2026-08-08",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-02-09",
-        "peak_mw": 382
-      },
       {
         "date": "2026-02-10",
         "peak_mw": 387
@@ -1382,6 +1379,10 @@
       {
         "date": "2026-08-07",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-08",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1785,7 +1786,7 @@
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
     "daf_total": 2366,
-    "daf_last_30d": 6,
+    "daf_last_30d": 5,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1806,9 +1807,9 @@
     }
   },
   "meta": {
-    "daily_count": 1468,
+    "daily_count": 1469,
     "monthly_count": 49,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-08-07"
+    "latest_date": "2026-08-08"
   }
 }

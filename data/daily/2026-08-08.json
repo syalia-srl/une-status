@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-07",
-  "finalized": true,
+  "date": "2026-08-08",
+  "finalized": false,
   "peak_mw_affected": null,
   "peak_time": null,
   "interruption_minutes": null,
@@ -24,11 +24,8 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 9,
+  "source_msg_count": 2,
   "by_type_counts": {
-    "otro": 2,
-    "restablecimiento": 5,
-    "unidad_termoelectrica": 1,
-    "averias": 1
+    "restablecimiento": 2
   }
 }
