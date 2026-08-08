@@ -1,59 +1,40 @@
 {
-  "generated_at": "2026-08-08T08:19:20+00:00",
+  "generated_at": "2026-08-08T09:06:52+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-08T08:08:43+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
     "current_mw_affected": null,
-    "current_mw_affected_at": "2026-08-08T07:50:59+00:00",
-    "active_averias": {
-      "ts": "2026-08-08T08:08:43+00:00",
-      "averias": [
-        {
-          "municipio": "Playa",
-          "direccion": ": 👉 240 A y 3ra C , Jaimanitas",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-08T08:08:43+00:00",
-        "municipio": "Playa",
-        "direccion": ": 👉 240 A y 3ra C , Jaimanitas",
-        "severity": "secundaria"
-      }
-    ],
-    "last_daf": {
-      "ts": "2026-08-08T08:02:29+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
