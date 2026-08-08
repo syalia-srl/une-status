@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-08-08T05:07:57+00:00",
+  "generated_at": "2026-08-08T05:53:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-08T04:57:37+00:00",
+    "as_of": "2026-08-08T05:46:32+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
     "current_mw_affected": null,
-    "current_mw_affected_at": "2026-08-08T04:26:11+00:00",
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-08T04:57:37+00:00",
+      "ts": "2026-08-08T05:30:51+00:00",
       "averias": [
         {
           "municipio": "Regla",
-          "direccion": ": 👉 Aracelio Iglesias / 3ra y Final ,Regla",
+          "direccion": ": 👉 Camilo Cienfuegos / Ñico López y Oscar Lunar ,Regla",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-08T04:57:37+00:00",
+        "ts": "2026-08-08T05:30:51+00:00",
         "municipio": "Regla",
-        "direccion": ": 👉 Aracelio Iglesias / 3ra y Final ,Regla",
+        "direccion": ": 👉 Camilo Cienfuegos / Ñico López y Oscar Lunar ,Regla",
         "severity": "secundaria"
       }
     ],
@@ -284,10 +284,9 @@
       "Regla": 1
     },
     "averias_total": 1,
-    "source_msg_count": 5,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "restablecimiento": 3,
+      "restablecimiento": 5,
       "averias": 1
     }
   },

@@ -26,10 +26,9 @@
     "Regla": 1
   },
   "averias_total": 1,
-  "source_msg_count": 5,
+  "source_msg_count": 6,
   "by_type_counts": {
-    "actualizacion_bloques": 1,
-    "restablecimiento": 3,
+    "restablecimiento": 5,
     "averias": 1
   }
 }
