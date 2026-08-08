@@ -26,6 +26,8 @@
   "averias_total": 0,
   "source_msg_count": 6,
   "by_type_counts": {
-    "otro": 6
+    "otro": 1,
+    "actualizacion_bloques": 1,
+    "restablecimiento": 4
   }
 }
