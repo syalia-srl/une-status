@@ -1,61 +1,39 @@
 {
-  "generated_at": "2026-08-09T16:20:35+00:00",
+  "generated_at": "2026-08-09T17:01:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-09T16:14:25+00:00",
+    "as_of": "2026-08-09T17:01:44+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-09T16:09:30+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": "👉 1ra / 2da y 4ta",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-09T16:09:30+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "👉 1ra / 2da y 4ta",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-09T16:03:58+00:00",
-        "municipio": "Lisa",
-        "direccion": "👉 31 / 318 y 320",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": 296,
+    "current_mw_affected_at": "2026-08-09T16:40:07+00:00",
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -265,8 +243,8 @@
   "day": {
     "date": "2026-08-09",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 296,
+    "peak_time": "12:40",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -286,15 +264,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Lisa": 1,
-      "Habana Del Este": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 5,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "otro": 3,
-      "averias": 2
+      "actualizacion_bloques": 1,
+      "otro": 4,
+      "restablecimiento": 6
     }
   },
   "yesterday": {
@@ -331,7 +307,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 641.0,
+    "avg_peak_mw": 468.5,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -345,11 +321,10 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 2,
-      "Lisa": 2,
       "Cerro": 1,
-      "Habana Del Este": 1
+      "Lisa": 1
     },
-    "averias_total": 6,
+    "averias_total": 4,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -363,7 +338,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 9,
-    "avg_peak_mw": 641.0,
+    "avg_peak_mw": 468.5,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -377,13 +352,13 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
-      "Lisa": 3,
-      "Habana Del Este": 2,
+      "Lisa": 2,
       "Guanabacoa": 1,
+      "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 11,
+    "averias_total": 9,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -404,13 +379,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3321,
+    "averias_total": 3319,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 265,
-      "Lisa": 242,
-      "Habana Del Este": 228,
+      "Lisa": 241,
+      "Habana Del Este": 227,
       "Guanabacoa": 224,
       "Cerro": 195,
       "Plaza": 187,
@@ -558,7 +533,7 @@
       },
       {
         "date": "2026-08-09",
-        "peak_mw": null
+        "peak_mw": 296
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1402,7 +1377,7 @@
       },
       {
         "date": "2026-08-09",
-        "peak_mw": null
+        "peak_mw": 296
       }
     ],
     "monthly_max_peak_mw": [
