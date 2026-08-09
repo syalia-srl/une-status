@@ -1,55 +1,39 @@
 {
-  "generated_at": "2026-08-09T00:51:31+00:00",
+  "generated_at": "2026-08-09T02:56:27+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-09T00:50:31+00:00",
+    "as_of": "2026-08-09T02:39:44+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
     "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-09T00:50:31+00:00",
-      "averias": [
-        {
-          "municipio": "Playa",
-          "direccion": ": 👉 3ra C / 244 Y 242 A",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-09T00:50:31+00:00",
-        "municipio": "Playa",
-        "direccion": ": 👉 3ra C / 244 Y 242 A",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected_at": "2026-08-09T01:00:58+00:00",
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -280,14 +264,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Playa": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "otro": 2,
-      "averias": 2
+      "otro": 6,
+      "actualizacion_bloques": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -343,10 +326,9 @@
       "Lisa": 2,
       "Arroyo Naranjo": 2,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "Playa": 1
+      "Cerro": 1
     },
-    "averias_total": 7,
+    "averias_total": 6,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -378,10 +360,9 @@
       "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "Playa": 1
+      "Cerro": 1
     },
-    "averias_total": 10,
+    "averias_total": 9,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -402,10 +383,10 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3320,
+    "averias_total": 3319,
     "averias_top_municipios": {
       "Boyeros": 350,
-      "Playa": 282,
+      "Playa": 281,
       "Arroyo Naranjo": 265,
       "Lisa": 241,
       "Habana Del Este": 227,
