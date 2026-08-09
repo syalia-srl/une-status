@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-09T18:58:17+00:00",
+  "generated_at": "2026-08-09T19:30:41+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-09T18:57:15+00:00",
+    "as_of": "2026-08-09T19:27:59+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-09T18:45:28+00:00",
+      "ts": "2026-08-09T18:59:30+00:00",
       "averias": [
         {
           "municipio": "Centro Habana",
-          "direccion": "👉 Puerta Cerrada / Águila y Arambique",
+          "direccion": "👉 Tenerife / Carmen y Figura",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-09T18:45:28+00:00",
+        "ts": "2026-08-09T18:59:30+00:00",
         "municipio": "Centro Habana",
-        "direccion": "👉 Puerta Cerrada / Águila y Arambique",
+        "direccion": "👉 Tenerife / Carmen y Figura",
         "severity": "secundaria"
       }
     ],
@@ -284,11 +284,11 @@
       "Centro Habana": 1
     },
     "averias_total": 1,
-    "source_msg_count": 13,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "otro": 8,
-      "restablecimiento": 2,
-      "averias": 3
+      "averias": 1,
+      "otro": 1,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
