@@ -2,7 +2,7 @@
   "month": "2026-08",
   "finalized": false,
   "dailies_count": 9,
-  "avg_peak_mw": 527.0,
+  "avg_peak_mw": 641.0,
   "max_peak_mw": 641,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -20,9 +20,10 @@
     "Guanabacoa": 1,
     "Habana Del Este": 1,
     "Habana Vieja": 1,
-    "Cerro": 1
+    "Cerro": 1,
+    "Boyeros": 1
   },
-  "averias_total": 9,
+  "averias_total": 10,
   "daf_total": 0,
   "sen_collapse_total": 1,
   "sen_outage_days": 1,
