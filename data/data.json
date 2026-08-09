@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-09T11:52:05+00:00",
+  "generated_at": "2026-08-09T12:25:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-09T11:21:59+00:00",
+    "as_of": "2026-08-09T12:25:06+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,8 +35,8 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-08-09T11:21:59+00:00",
-        "municipio": "San Miguel Del Padrón",
+        "ts": "2026-08-09T12:14:18+00:00",
+        "municipio": "Arroyo Naranjo",
         "kind": "disparo_circuito"
       }
     ],
@@ -271,12 +271,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1
+      "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 1,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "disparo_circuito": 1
+      "otro": 2,
+      "restablecimiento": 3,
+      "disparo_circuito": 1,
+      "nota_diaria": 1,
+      "pinned": 1
     }
   },
   "yesterday": {
@@ -326,10 +330,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 2,
+      "Arroyo Naranjo": 3,
       "Cerro": 1,
-      "Lisa": 1,
-      "San Miguel Del Padrón": 1
+      "Lisa": 1
     },
     "averias_total": 5,
     "daf_total": 0,
@@ -358,13 +361,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 4,
       "Lisa": 2,
       "Guanabacoa": 1,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "San Miguel Del Padrón": 1
+      "Cerro": 1
     },
     "averias_total": 10,
     "daf_total": 0,
@@ -391,13 +393,13 @@
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 265,
+      "Arroyo Naranjo": 266,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 224,
       "Cerro": 195,
-      "San Miguel Del Padrón": 187,
       "Plaza": 187,
+      "San Miguel Del Padrón": 186,
       "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
