@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-08",
-  "finalized": true,
+  "date": "2026-08-09",
+  "finalized": false,
   "peak_mw_affected": null,
   "peak_time": null,
   "interruption_minutes": null,
@@ -26,6 +26,6 @@
   "averias_total": 0,
   "source_msg_count": 1,
   "by_type_counts": {
-    "restablecimiento": 1
+    "actualizacion_bloques": 1
   }
 }
