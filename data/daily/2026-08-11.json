@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-10",
-  "finalized": true,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "date": "2026-08-11",
+  "finalized": false,
+  "peak_mw_affected": 585,
+  "peak_time": "00:03",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -22,15 +22,12 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Guanabacoa": 1,
-    "San Miguel Del Padrón": 1
-  },
-  "averias_total": 2,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
   "source_msg_count": 4,
   "by_type_counts": {
-    "otro": 2,
-    "averias": 1,
-    "disparo_circuito": 1
+    "actualizacion_bloques": 1,
+    "restablecimiento": 1,
+    "otro": 2
   }
 }
