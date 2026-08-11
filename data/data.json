@@ -1,39 +1,53 @@
 {
-  "generated_at": "2026-08-11T17:36:50+00:00",
+  "generated_at": "2026-08-11T18:31:27+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-11T17:31:33+00:00",
+    "as_of": "2026-08-11T18:29:06+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 328,
-    "current_mw_affected_at": "2026-08-11T16:35:26+00:00",
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-08-11T18:25:04+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "severity": "primaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-11T18:25:04+00:00",
+        "municipio": "Playa",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -243,8 +257,8 @@
   "day": {
     "date": "2026-08-11",
     "finalized": false,
-    "peak_mw_affected": 328,
-    "peak_time": "12:35",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -264,13 +278,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 10,
+    "averias_count_by_municipio": {
+      "Playa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "otro": 2,
-      "restablecimiento": 7
+      "otro": 4,
+      "restablecimiento": 2,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -312,7 +328,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 484.5,
+    "avg_peak_mw": 641.0,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -329,9 +345,10 @@
       "Cerro": 1,
       "Lisa": 1,
       "Guanabacoa": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Playa": 1
     },
-    "averias_total": 6,
+    "averias_total": 7,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -345,7 +362,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 11,
-    "avg_peak_mw": 484.5,
+    "avg_peak_mw": 641.0,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -364,9 +381,10 @@
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Playa": 1
     },
-    "averias_total": 11,
+    "averias_total": 12,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -387,10 +405,10 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3321,
+    "averias_total": 3322,
     "averias_top_municipios": {
       "Boyeros": 350,
-      "Playa": 281,
+      "Playa": 282,
       "Arroyo Naranjo": 265,
       "Lisa": 241,
       "Habana Del Este": 227,
@@ -541,7 +559,7 @@
       },
       {
         "date": "2026-08-11",
-        "peak_mw": 328
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1385,7 +1403,7 @@
       },
       {
         "date": "2026-08-11",
-        "peak_mw": 328
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
