@@ -1,57 +1,52 @@
 {
-  "generated_at": "2026-08-11T04:17:39+00:00",
+  "generated_at": "2026-08-11T05:32:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-11T04:09:28+00:00",
+    "as_of": "2026-08-11T05:29:55+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 585,
-    "current_mw_affected_at": "2026-08-11T04:03:04+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-11T03:21:45+00:00",
+      "ts": "2026-08-11T04:27:22+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "Soledad entre Crespo y Santo Domingo, Villa 2 🚨",
+          "municipio": "Arroyo Naranjo",
+          "direccion": "Menocal entre Calzada de Bejucal y Formatos, Párraga 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-11T03:27:23+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-11T03:21:45+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "Soledad entre Crespo y Santo Domingo, Villa 2 🚨",
+        "ts": "2026-08-11T04:27:22+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "Menocal entre Calzada de Bejucal y Formatos, Párraga 🚨",
         "severity": "secundaria"
       }
     ],
@@ -264,8 +259,8 @@
   "day": {
     "date": "2026-08-11",
     "finalized": false,
-    "peak_mw_affected": 585,
-    "peak_time": "00:03",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -285,12 +280,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "restablecimiento": 1,
+      "averias": 1,
+      "restablecimiento": 7,
       "otro": 2
     }
   },
@@ -333,40 +330,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 613.0,
-    "max_peak_mw": 641,
-    "total_interruption_minutes": 0,
-    "total_block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 2,
-      "Cerro": 1,
-      "Lisa": 1,
-      "Guanabacoa": 1,
-      "San Miguel Del Padrón": 1
-    },
-    "averias_total": 6,
-    "daf_total": 0,
-    "sen_collapse_total": 0,
-    "sen_outage_days": 0,
-    "sen_outage_minutes_total": 0,
-    "partial_sen_collapse_total": 0,
-    "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {},
-    "window": "7d"
-  },
-  "month": {
-    "month": "2026-08",
-    "finalized": false,
-    "dailies_count": 11,
-    "avg_peak_mw": 613.0,
+    "avg_peak_mw": 641.0,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -380,6 +344,39 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 3,
+      "Cerro": 1,
+      "Lisa": 1,
+      "Guanabacoa": 1,
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 7,
+    "daf_total": 0,
+    "sen_collapse_total": 0,
+    "sen_outage_days": 0,
+    "sen_outage_minutes_total": 0,
+    "partial_sen_collapse_total": 0,
+    "partial_sen_outage_minutes_total": 0,
+    "cte_offline_minutes_total": {},
+    "window": "7d"
+  },
+  "month": {
+    "month": "2026-08",
+    "finalized": false,
+    "dailies_count": 11,
+    "avg_peak_mw": 641.0,
+    "max_peak_mw": 641,
+    "total_interruption_minutes": 0,
+    "total_block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_emergency_mw_sum": 0,
+    "averias_count_by_municipio": {
+      "Arroyo Naranjo": 4,
       "Guanabacoa": 2,
       "Lisa": 2,
       "Habana Del Este": 1,
@@ -387,7 +384,7 @@
       "Cerro": 1,
       "San Miguel Del Padrón": 1
     },
-    "averias_total": 11,
+    "averias_total": 12,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -408,11 +405,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3321,
+    "averias_total": 3322,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 265,
+      "Arroyo Naranjo": 266,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 225,
@@ -562,7 +559,7 @@
       },
       {
         "date": "2026-08-11",
-        "peak_mw": 585
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1406,7 +1403,7 @@
       },
       {
         "date": "2026-08-11",
-        "peak_mw": 585
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
