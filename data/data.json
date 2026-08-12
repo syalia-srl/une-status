@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-12T04:57:57+00:00",
+  "generated_at": "2026-08-12T06:10:41+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-12T04:27:57+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,17 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-12T04:27:57+00:00",
-      "averias": []
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-12T03:25:00+00:00",
-        "municipio": "Arroyo Naranjo",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
