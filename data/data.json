@@ -1,39 +1,55 @@
 {
-  "generated_at": "2026-08-12T14:11:57+00:00",
+  "generated_at": "2026-08-12T15:12:31+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-12T14:06:20+00:00",
+    "as_of": "2026-08-12T15:05:29+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 501,
-    "current_mw_affected_at": "2026-08-12T13:29:57+00:00",
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-08-12T14:17:45+00:00",
+      "averias": [
+        {
+          "municipio": "Marianao",
+          "direccion": "👉 107 / 100 A y 100 B",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-12T14:17:45+00:00",
+        "municipio": "Marianao",
+        "direccion": "👉 107 / 100 A y 100 B",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -243,8 +259,8 @@
   "day": {
     "date": "2026-08-12",
     "finalized": false,
-    "peak_mw_affected": 501,
-    "peak_time": "09:29",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -264,13 +280,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 11,
+    "averias_count_by_municipio": {
+      "Marianao": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 9,
     "by_type_counts": {
-      "restablecimiento": 8,
-      "otro": 2,
-      "actualizacion_bloques": 1
+      "restablecimiento": 6,
+      "averias": 1,
+      "corto": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -310,8 +329,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 501.0,
-    "max_peak_mw": 501,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -325,9 +344,10 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 1,
+      "Marianao": 1
     },
-    "averias_total": 3,
+    "averias_total": 4,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -341,7 +361,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 12,
-    "avg_peak_mw": 571.0,
+    "avg_peak_mw": 641.0,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -360,9 +380,10 @@
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Marianao": 1
     },
-    "averias_total": 12,
+    "averias_total": 13,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -383,7 +404,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3322,
+    "averias_total": 3323,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -394,7 +415,7 @@
       "Cerro": 195,
       "San Miguel Del Padrón": 187,
       "Plaza": 187,
-      "Marianao": 158,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -537,7 +558,7 @@
       },
       {
         "date": "2026-08-12",
-        "peak_mw": 501
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1381,7 +1402,7 @@
       },
       {
         "date": "2026-08-12",
-        "peak_mw": 501
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
