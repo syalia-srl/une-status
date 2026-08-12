@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-12T19:16:57+00:00",
+  "generated_at": "2026-08-12T20:07:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-12T19:15:57+00:00",
+    "as_of": "2026-08-12T20:04:35+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,42 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-12T18:45:31+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "👉 C/ 3ra y Güinera",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-12T18:45:31+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "👉 C/ 3ra y Güinera",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-12T18:39:11+00:00",
-        "municipio": "Lisa",
-        "direccion": "👉 Finca Pacheco / 220 y Final",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-12T18:33:59+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "👉 C/ 3ra y Güinera",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-12T18:30:09+00:00",
-        "municipio": "Boyeros",
-        "direccion": "👉 373/ 178 y 182",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -298,17 +264,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 2,
-      "Boyeros": 1,
-      "Lisa": 1
-    },
-    "averias_total": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 5,
-      "averias": 4,
-      "restablecimiento": 11
+      "restablecimiento": 10,
+      "otro": 10
     }
   },
   "yesterday": {
@@ -361,13 +322,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
-      "Boyeros": 1,
-      "Lisa": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 7,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -394,16 +353,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 6,
-      "Lisa": 3,
+      "Arroyo Naranjo": 4,
       "Guanabacoa": 2,
+      "Lisa": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "San Miguel Del Padrón": 1,
-      "Boyeros": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 16,
+    "averias_total": 12,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -424,12 +382,12 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3326,
+    "averias_total": 3322,
     "averias_top_municipios": {
-      "Boyeros": 351,
+      "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 268,
-      "Lisa": 242,
+      "Arroyo Naranjo": 266,
+      "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 225,
       "Cerro": 195,
