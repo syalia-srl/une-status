@@ -1,46 +1,40 @@
 {
-  "generated_at": "2026-08-13T19:41:50+00:00",
+  "generated_at": "2026-08-13T20:18:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-13T19:35:54+00:00",
+    "as_of": "2026-08-13T20:16:10+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 392,
-    "current_mw_affected_at": "2026-08-13T19:35:54+00:00",
-    "active_averias": {
-      "ts": "2026-08-13T19:03:08+00:00",
-      "averias": []
-    },
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
     "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-08-13T18:37:21+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -249,8 +243,8 @@
   "day": {
     "date": "2026-08-13",
     "finalized": false,
-    "peak_mw_affected": 392,
-    "peak_time": "15:35",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -262,7 +256,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -272,13 +266,10 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 17,
+    "source_msg_count": 9,
     "by_type_counts": {
-      "restablecimiento": 3,
-      "otro": 11,
-      "daf": 1,
-      "averias": 1,
-      "actualizacion_bloques": 1
+      "otro": 3,
+      "restablecimiento": 6
     }
   },
   "yesterday": {
@@ -317,7 +308,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 506.0,
+    "avg_peak_mw": 620.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -335,7 +326,7 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 3,
-    "daf_total": 1,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -348,7 +339,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 551.0,
+    "avg_peak_mw": 630.5,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -370,7 +361,7 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 12,
-    "daf_total": 1,
+    "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -408,7 +399,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2367,
+    "daf_total": 2366,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -544,7 +535,7 @@
       },
       {
         "date": "2026-08-13",
-        "peak_mw": 392
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1388,7 +1379,7 @@
       },
       {
         "date": "2026-08-13",
-        "peak_mw": 392
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1791,8 +1782,8 @@
     "sen_outage_days_last_30d": 1,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
-    "daf_total": 2367,
-    "daf_last_30d": 2,
+    "daf_total": 2366,
+    "daf_last_30d": 1,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
