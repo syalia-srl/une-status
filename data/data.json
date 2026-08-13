@@ -1,70 +1,62 @@
 {
-  "generated_at": "2026-08-13T17:38:33+00:00",
+  "generated_at": "2026-08-13T18:33:34+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-13T17:13:28+00:00",
+    "as_of": "2026-08-13T18:32:23+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 201,
-    "current_mw_affected_at": "2026-08-13T16:41:21+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-13T16:39:27+00:00",
+      "ts": "2026-08-13T17:48:04+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "direccion": "Vía Blanca / Colón y Prensa que afecta el servicio en los siguientes circuitos: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
-          "severity": "primaria"
+          "municipio": "Boyeros",
+          "direccion": "👉 12 / 11 y 13",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-13T17:13:28+00:00",
-        "municipio": "Guanabacoa",
-        "kind": "disparo_circuito"
+        "ts": "2026-08-13T17:48:04+00:00",
+        "municipio": "Boyeros",
+        "direccion": "👉 12 / 11 y 13",
+        "severity": "secundaria"
       },
       {
-        "ts": "2026-08-13T16:39:27+00:00",
-        "municipio": "Cerro",
-        "direccion": "Vía Blanca / Colón y Prensa que afecta el servicio en los siguientes circuitos: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-08-13T16:32:29+00:00",
-        "municipio": "Cerro",
-        "direccion": "👉 Cerrada / Vigía y 5ta",
+        "ts": "2026-08-13T17:48:03+00:00",
+        "municipio": "Lisa",
+        "direccion": "👉 81 / 194 y 196",
         "severity": "secundaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-08-13T16:37:27+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -273,8 +265,8 @@
   "day": {
     "date": "2026-08-13",
     "finalized": false,
-    "peak_mw_affected": 201,
-    "peak_time": "12:41",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -295,16 +287,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 2,
-      "Guanabacoa": 1
+      "Lisa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 5,
+    "averias_total": 2,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "averias": 2,
-      "restablecimiento_daf": 1,
-      "actualizacion_bloques": 1,
-      "disparo_circuito": 1
+      "restablecimiento": 10,
+      "otro": 8,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -343,7 +334,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 410.5,
+    "avg_peak_mw": 620.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -356,12 +347,13 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 2,
-      "Cerro": 2,
+      "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 1,
+      "Lisa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 6,
+    "averias_total": 5,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -375,7 +367,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 487.3,
+    "avg_peak_mw": 630.5,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -389,14 +381,15 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 4,
-      "Guanabacoa": 3,
-      "Cerro": 3,
-      "Lisa": 2,
+      "Lisa": 3,
+      "Guanabacoa": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "San Miguel Del Padrón": 1
+      "Cerro": 1,
+      "San Miguel Del Padrón": 1,
+      "Boyeros": 1
     },
-    "averias_total": 15,
+    "averias_total": 14,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -417,15 +410,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3325,
+    "averias_total": 3324,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 351,
       "Playa": 281,
       "Arroyo Naranjo": 266,
-      "Lisa": 241,
+      "Lisa": 242,
       "Habana Del Este": 227,
-      "Guanabacoa": 226,
-      "Cerro": 197,
+      "Guanabacoa": 225,
+      "Cerro": 195,
       "San Miguel Del Padrón": 187,
       "Plaza": 187,
       "Marianao": 158,
@@ -571,7 +564,7 @@
       },
       {
         "date": "2026-08-13",
-        "peak_mw": 201
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1415,7 +1408,7 @@
       },
       {
         "date": "2026-08-13",
-        "peak_mw": 201
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
