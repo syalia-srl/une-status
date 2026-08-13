@@ -1,39 +1,61 @@
 {
-  "generated_at": "2026-08-13T12:05:24+00:00",
+  "generated_at": "2026-08-13T13:41:52+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-13T12:01:01+00:00",
+    "as_of": "2026-08-13T13:41:42+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": 401,
+    "current_mw_affected_at": "2026-08-13T13:41:42+00:00",
+    "active_averias": {
+      "ts": "2026-08-13T13:36:56+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": "👉 Finca El Volcán",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-13T13:36:56+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "👉 Finca El Volcán",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-13T12:30:17+00:00",
+        "municipio": "Mariano",
+        "direccion": "👉 33 / 100 y 102",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -243,8 +265,8 @@
   "day": {
     "date": "2026-08-13",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 401,
+    "peak_time": "09:41",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -264,11 +286,18 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 1,
+    "averias_count_by_municipio": {
+      "Mariano": 1,
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 19,
     "by_type_counts": {
-      "restablecimiento": 1
+      "averias": 2,
+      "restablecimiento": 12,
+      "otro": 3,
+      "nota_diaria": 1,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -307,7 +336,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 620.0,
+    "avg_peak_mw": 510.5,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -320,11 +349,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 2,
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1
+      "Mariano": 1
     },
-    "averias_total": 3,
+    "averias_total": 5,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -338,7 +368,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 630.5,
+    "avg_peak_mw": 554.0,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -351,15 +381,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 4,
+      "Arroyo Naranjo": 5,
       "Guanabacoa": 2,
       "Lisa": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Mariano": 1
     },
-    "averias_total": 12,
+    "averias_total": 14,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -380,11 +411,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3322,
+    "averias_total": 3324,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 266,
+      "Arroyo Naranjo": 267,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 225,
@@ -534,7 +565,7 @@
       },
       {
         "date": "2026-08-13",
-        "peak_mw": null
+        "peak_mw": 401
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1378,7 +1409,7 @@
       },
       {
         "date": "2026-08-13",
-        "peak_mw": null
+        "peak_mw": 401
       }
     ],
     "monthly_max_peak_mw": [
