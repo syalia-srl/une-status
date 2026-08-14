@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T23:33:40+00:00",
+  "generated_at": "2026-08-14T23:57:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-14T23:30:35+00:00",
+    "as_of": "2026-08-14T23:43:06+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,7 +35,7 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-08-14T23:22:56+00:00",
+        "ts": "2026-08-14T23:38:02+00:00",
         "municipio": "Playa",
         "kind": "disparo_circuito"
       }
@@ -276,8 +276,7 @@
     "averias_total": 1,
     "source_msg_count": 2,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "otro": 1
+      "disparo_circuito": 2
     }
   },
   "yesterday": {
