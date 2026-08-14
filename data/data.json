@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T23:10:54+00:00",
+  "generated_at": "2026-08-14T23:33:40+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-14T23:10:34+00:00",
+    "as_of": "2026-08-14T23:30:35+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,8 +35,8 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-08-14T22:52:26+00:00",
-        "municipio": "Habana Del Este",
+        "ts": "2026-08-14T23:22:56+00:00",
+        "municipio": "Playa",
         "kind": "disparo_circuito"
       }
     ],
@@ -271,14 +271,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Playa": 1
     },
     "averias_total": 1,
-    "source_msg_count": 9,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "disparo_circuito": 2,
-      "restablecimiento": 3,
-      "otro": 4
+      "disparo_circuito": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -333,7 +332,7 @@
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
       "Arroyo Naranjo": 1,
-      "Habana Del Este": 1
+      "Playa": 1
     },
     "averias_total": 4,
     "daf_total": 0,
@@ -364,11 +363,12 @@
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 4,
       "Guanabacoa": 2,
-      "Habana Del Este": 2,
       "Lisa": 2,
+      "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Playa": 1
     },
     "averias_total": 13,
     "daf_total": 0,
@@ -394,10 +394,10 @@
     "averias_total": 3323,
     "averias_top_municipios": {
       "Boyeros": 350,
-      "Playa": 281,
+      "Playa": 282,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
-      "Habana Del Este": 228,
+      "Habana Del Este": 227,
       "Guanabacoa": 225,
       "Cerro": 195,
       "San Miguel Del Padrón": 187,
