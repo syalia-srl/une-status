@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T21:41:10+00:00",
+  "generated_at": "2026-08-14T21:56:54+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-14T21:32:25+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,10 +32,7 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-14T21:32:25+00:00",
-      "averias": []
-    },
+    "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
