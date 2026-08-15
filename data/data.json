@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15T23:11:26+00:00",
+  "generated_at": "2026-08-15T23:32:51+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-15T23:10:00+00:00",
+    "as_of": "2026-08-15T23:29:41+00:00",
     "bloques": [
       {
         "id": 1,
@@ -34,10 +34,7 @@
     "current_mw_affected_at": null,
     "active_averias": null,
     "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-08-15T23:10:00+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -259,7 +256,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -269,10 +266,10 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 5,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "otro": 4,
-      "daf": 1
+      "otro": 2,
+      "pinned": 1
     }
   },
   "yesterday": {
@@ -327,7 +324,7 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 3,
-    "daf_total": 1,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -362,7 +359,7 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 12,
-    "daf_total": 1,
+    "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -400,7 +397,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2367,
+    "daf_total": 2366,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1783,8 +1780,8 @@
     "sen_outage_days_last_30d": 1,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
-    "daf_total": 2367,
-    "daf_last_30d": 2,
+    "daf_total": 2366,
+    "daf_last_30d": 1,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
