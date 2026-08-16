@@ -2,8 +2,8 @@
   "month": "2026-08",
   "finalized": false,
   "dailies_count": 15,
-  "avg_peak_mw": 630.5,
-  "max_peak_mw": 641,
+  "avg_peak_mw": 635.0,
+  "max_peak_mw": 644,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
     "1": 0,
@@ -21,10 +21,11 @@
     "Habana Del Este": 1,
     "Habana Vieja": 1,
     "Cerro": 1,
-    "San Miguel Del Padrón": 1
+    "San Miguel Del Padrón": 1,
+    "Plaza": 1
   },
-  "averias_total": 12,
-  "daf_total": 0,
+  "averias_total": 13,
+  "daf_total": 1,
   "sen_collapse_total": 1,
   "sen_outage_days": 1,
   "sen_outage_minutes_total": 64,
