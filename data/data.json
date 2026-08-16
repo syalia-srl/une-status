@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T20:09:14+00:00",
+  "generated_at": "2026-08-16T20:34:55+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-16T20:09:00+00:00",
+    "as_of": "2026-08-16T20:34:42+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,26 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-16T19:53:02+00:00",
+      "ts": "2026-08-16T20:15:37+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "direccion": "la siguiente dirección: 👉 Paradero/Marqués y Ferrer",
+          "municipio": "Arroyo Naranjo",
+          "direccion": "la siguiente dirección: 👉 Matilde/Berenguer y Angelita,reparto Vieja Linda",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-16T19:53:02+00:00",
-        "municipio": "Cerro",
-        "direccion": "la siguiente dirección: 👉 Paradero/Marqués y Ferrer",
+        "ts": "2026-08-16T20:15:37+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "la siguiente dirección: 👉 Matilde/Berenguer y Angelita,reparto Vieja Linda",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-16T20:11:34+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la siguiente dirección: 👉 Arday/F y G,El Trigal",
         "severity": "secundaria"
       }
     ],
@@ -281,13 +287,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Boyeros": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_total": 2,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento": 3
+      "otro": 3,
+      "restablecimiento": 1,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -339,12 +347,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 2,
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1,
-      "Cerro": 1
+      "Boyeros": 1
     },
-    "averias_total": 4,
+    "averias_total": 5,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -371,15 +379,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 4,
+      "Arroyo Naranjo": 5,
       "Guanabacoa": 2,
       "Lisa": 2,
-      "Cerro": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "San Miguel Del Padrón": 1
+      "Cerro": 1,
+      "San Miguel Del Padrón": 1,
+      "Boyeros": 1
     },
-    "averias_total": 13,
+    "averias_total": 14,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -400,15 +409,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3323,
+    "averias_total": 3324,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 351,
       "Playa": 281,
-      "Arroyo Naranjo": 266,
+      "Arroyo Naranjo": 267,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 225,
-      "Cerro": 196,
+      "Cerro": 195,
       "San Miguel Del Padrón": 187,
       "Plaza": 187,
       "Marianao": 158,
