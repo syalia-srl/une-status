@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-17T20:17:58+00:00",
+  "generated_at": "2026-08-17T20:49:33+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-17T20:12:33+00:00",
+    "as_of": "2026-08-17T20:45:05+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,29 +33,10 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-17T20:12:33+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "👉 María Auxiliadora / Villoldo y Porvenir",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-08-17T20:32:24+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-08-17T20:12:33+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "👉 María Auxiliadora / Villoldo y Porvenir",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-17T20:00:41+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "🛑 Calzada de Mangua y Amargura",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -286,14 +267,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 2
-    },
-    "averias_total": 2,
-    "source_msg_count": 8,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "averias": 2,
-      "otro": 6
+      "otro": 2,
+      "averias": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -344,9 +324,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 3,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -373,7 +353,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 6,
+      "Arroyo Naranjo": 4,
       "Guanabacoa": 2,
       "Lisa": 2,
       "Habana Del Este": 1,
@@ -381,7 +361,7 @@
       "Cerro": 1,
       "San Miguel Del Padrón": 1
     },
-    "averias_total": 14,
+    "averias_total": 12,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -402,11 +382,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3324,
+    "averias_total": 3322,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 268,
+      "Arroyo Naranjo": 266,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 225,
