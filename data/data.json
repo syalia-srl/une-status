@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-17T21:46:29+00:00",
+  "generated_at": "2026-08-17T22:12:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-17T21:46:07+00:00",
+    "as_of": "2026-08-17T22:12:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,25 +32,12 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-17T21:24:50+00:00",
-      "averias": [
-        {
-          "municipio": "Marianao",
-          "direccion": "88 B y 65 que afectó el servicio en los siguientes cuadrantes de direcciones: 👉 desde 90 A hasta 88 A",
-          "severity": "primaria"
-        }
-      ]
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": {
+      "ts": "2026-08-17T22:05:18+00:00",
+      "type": "daf"
     },
-    "averias_24h": [
-      {
-        "ts": "2026-08-17T21:24:50+00:00",
-        "municipio": "Marianao",
-        "direccion": "88 B y 65 que afectó el servicio en los siguientes cuadrantes de direcciones: 👉 desde 90 A hasta 88 A",
-        "severity": "primaria"
-      }
-    ],
-    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -272,7 +259,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -280,15 +267,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Marianao": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 5,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "otro": 3,
-      "averias": 1,
-      "restablecimiento": 1
+      "otro": 2,
+      "restablecimiento": 3,
+      "daf": 1
     }
   },
   "yesterday": {
@@ -339,11 +324,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1,
-      "Marianao": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 2,
-    "daf_total": 0,
+    "averias_total": 1,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -375,11 +359,10 @@
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "San Miguel Del Padrón": 1,
-      "Marianao": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 13,
-    "daf_total": 0,
+    "averias_total": 12,
+    "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -399,7 +382,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3323,
+    "averias_total": 3322,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -410,14 +393,14 @@
       "Cerro": 195,
       "San Miguel Del Padrón": 187,
       "Plaza": 187,
-      "Marianao": 159,
+      "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2366,
+    "daf_total": 2367,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1800,8 +1783,8 @@
     "sen_outage_days_last_30d": 1,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
-    "daf_total": 2366,
-    "daf_last_30d": 1,
+    "daf_total": 2367,
+    "daf_last_30d": 2,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
