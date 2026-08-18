@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-18T03:54:47+00:00",
+  "generated_at": "2026-08-18T04:23:56+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-18T03:46:36+00:00",
+    "as_of": "2026-08-18T04:11:36+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,12 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-18T03:13:24+00:00",
-      "averias": []
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": {
+      "ts": "2026-08-18T04:11:36+00:00",
+      "type": "daf"
     },
-    "averias_24h": [
-      {
-        "ts": "2026-08-18T03:22:02+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-18T03:09:20+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "👉 15 / 8va y Final",
-        "severity": "secundaria"
-      }
-    ],
-    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -256,7 +244,7 @@
     ]
   },
   "day": {
-    "date": "2026-08-17",
+    "date": "2026-08-18",
     "finalized": false,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -271,7 +259,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -279,22 +267,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
-      "Habana Del Este": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 6,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "averias": 2,
-      "disparo_circuito": 1,
       "otro": 1,
-      "restablecimiento": 2
+      "daf": 1
     }
   },
   "yesterday": {
-    "date": "2026-08-16",
-    "finalized": false,
+    "date": "2026-08-17",
+    "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
     "interruption_minutes": null,
@@ -318,9 +301,8 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 3,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento": 2,
       "otro": 1
     }
   },
@@ -339,13 +321,9 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1,
-      "San Miguel Del Padrón": 1,
-      "Habana Del Este": 1
-    },
-    "averias_total": 3,
-    "daf_total": 0,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -357,7 +335,7 @@
   "month": {
     "month": "2026-08",
     "finalized": false,
-    "dailies_count": 17,
+    "dailies_count": 18,
     "avg_peak_mw": 630.5,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
@@ -373,14 +351,14 @@
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 4,
       "Guanabacoa": 2,
-      "Habana Del Este": 2,
       "Lisa": 2,
-      "San Miguel Del Padrón": 2,
+      "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 14,
-    "daf_total": 0,
+    "averias_total": 12,
+    "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -400,16 +378,16 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3324,
+    "averias_total": 3322,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
-      "Habana Del Este": 228,
+      "Habana Del Este": 227,
       "Guanabacoa": 225,
       "Cerro": 195,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 187,
       "Plaza": 187,
       "Marianao": 158,
       "Cotorro": 103,
@@ -418,7 +396,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2366,
+    "daf_total": 2367,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -436,10 +414,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-07-19",
-        "peak_mw": 546
-      },
       {
         "date": "2026-07-20",
         "peak_mw": null
@@ -555,13 +529,13 @@
       {
         "date": "2026-08-17",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-18",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-07-19",
-        "minutes": 0
-      },
       {
         "date": "2026-07-20",
         "minutes": 0
@@ -677,13 +651,13 @@
       {
         "date": "2026-08-17",
         "minutes": 0
+      },
+      {
+        "date": "2026-08-18",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-02-19",
-        "peak_mw": 350
-      },
       {
         "date": "2026-02-20",
         "peak_mw": 261
@@ -1399,6 +1373,10 @@
       {
         "date": "2026-08-17",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-18",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1801,8 +1779,8 @@
     "sen_outage_days_last_30d": 1,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
-    "daf_total": 2366,
-    "daf_last_30d": 1,
+    "daf_total": 2367,
+    "daf_last_30d": 2,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1823,9 +1801,9 @@
     }
   },
   "meta": {
-    "daily_count": 1478,
+    "daily_count": 1479,
     "monthly_count": 49,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-08-17"
+    "latest_date": "2026-08-18"
   }
 }
