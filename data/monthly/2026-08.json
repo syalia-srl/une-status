@@ -2,7 +2,7 @@
   "month": "2026-08",
   "finalized": false,
   "dailies_count": 18,
-  "avg_peak_mw": 630.5,
+  "avg_peak_mw": 559.7,
   "max_peak_mw": 641,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -30,5 +30,7 @@
   "sen_outage_minutes_total": 64,
   "partial_sen_collapse_total": 2,
   "partial_sen_outage_minutes_total": 132,
-  "cte_offline_minutes_total": {}
+  "cte_offline_minutes_total": {
+    "rente": 864
+  }
 }
