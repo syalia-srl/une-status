@@ -1,51 +1,58 @@
 {
-  "generated_at": "2026-08-18T16:54:20+00:00",
+  "generated_at": "2026-08-18T17:17:06+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-18T16:43:16+00:00",
+    "as_of": "2026-08-18T16:59:59+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 244,
-    "current_mw_affected_at": "2026-08-18T16:23:33+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-18T16:31:45+00:00",
+      "ts": "2026-08-18T16:56:36+00:00",
       "averias": [
         {
-          "municipio": "Plaza",
-          "direccion": "las calles 25 entre M y N, afectando el servicio eléctrico en el siguiente circuito: 👉 P329: 0 desde 19 hasta 23, 21 desde O hasta K, N desde 21 hasta 27"
+          "municipio": "Guanabacoa",
+          "direccion": "las calles 3ra entre García Marrú y Valdés Pena",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-18T16:31:45+00:00",
-        "municipio": "Plaza",
-        "direccion": "las calles 25 entre M y N, afectando el servicio eléctrico en el siguiente circuito: 👉 P329: 0 desde 19 hasta 23, 21 desde O hasta K, N desde 21 hasta 27"
+        "ts": "2026-08-18T16:59:59+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-08-18T16:56:36+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "las calles 3ra entre García Marrú y Valdés Pena",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -257,8 +264,8 @@
   "day": {
     "date": "2026-08-18",
     "finalized": false,
-    "peak_mw_affected": 244,
-    "peak_time": "12:23",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -279,14 +286,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 1
+      "Guanabacoa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_total": 2,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "otro": 2,
-      "actualizacion_bloques": 1,
-      "averias": 1
+      "averias": 1,
+      "restablecimiento": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -323,7 +331,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 432.0,
+    "avg_peak_mw": 620.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -336,9 +344,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Plaza": 1
+      "Guanabacoa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -352,7 +361,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 18,
-    "avg_peak_mw": 501.7,
+    "avg_peak_mw": 630.5,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -366,15 +375,15 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Arroyo Naranjo": 4,
-      "Guanabacoa": 2,
+      "Guanabacoa": 3,
       "Lisa": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
       "San Miguel Del Padrón": 1,
-      "Plaza": 1
+      "Boyeros": 1
     },
-    "averias_total": 13,
+    "averias_total": 14,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -395,17 +404,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3323,
+    "averias_total": 3324,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 351,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
       "Habana Del Este": 227,
-      "Guanabacoa": 225,
+      "Guanabacoa": 226,
       "Cerro": 195,
-      "Plaza": 188,
       "San Miguel Del Padrón": 187,
+      "Plaza": 187,
       "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
@@ -549,7 +558,7 @@
       },
       {
         "date": "2026-08-18",
-        "peak_mw": 244
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1393,7 +1402,7 @@
       },
       {
         "date": "2026-08-18",
-        "peak_mw": 244
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
