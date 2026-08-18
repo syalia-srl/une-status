@@ -1,8 +1,8 @@
 {
   "date": "2026-08-18",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 554,
+  "peak_time": "03:25",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -26,7 +26,8 @@
   "averias_total": 0,
   "source_msg_count": 3,
   "by_type_counts": {
+    "actualizacion_bloques": 1,
     "otro": 1,
-    "restablecimiento": 2
+    "restablecimiento": 1
   }
 }
