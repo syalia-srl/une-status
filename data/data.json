@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-19T21:37:00+00:00",
+  "generated_at": "2026-08-19T21:58:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-19T21:16:39+00:00",
+    "as_of": "2026-08-19T21:53:45+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,19 +33,21 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-19T21:14:01+00:00",
+      "ts": "2026-08-19T21:49:43+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "severity": "primaria"
+          "municipio": "Marianao",
+          "direccion": ": 👉 35 / 116 y 118",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-19T21:14:01+00:00",
-        "municipio": "Cerro",
-        "severity": "primaria"
+        "ts": "2026-08-19T21:49:43+00:00",
+        "municipio": "Marianao",
+        "direccion": ": 👉 35 / 116 y 118",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -279,13 +281,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Marianao": 1
     },
     "averias_total": 1,
-    "source_msg_count": 4,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 3,
-      "averias": 1
+      "averias": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -342,7 +344,7 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 1,
       "San Miguel Del Padrón": 1,
-      "Cerro": 1
+      "Marianao": 1
     },
     "averias_total": 3,
     "daf_total": 0,
@@ -374,10 +376,11 @@
       "Arroyo Naranjo": 4,
       "Guanabacoa": 3,
       "Lisa": 2,
-      "Cerro": 2,
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
-      "Habana Vieja": 1
+      "Habana Vieja": 1,
+      "Cerro": 1,
+      "Marianao": 1
     },
     "averias_total": 15,
     "daf_total": 0,
@@ -408,10 +411,10 @@
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 226,
-      "Cerro": 196,
+      "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 187,
-      "Marianao": 158,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
