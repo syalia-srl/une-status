@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-19T02:06:13+00:00",
+  "generated_at": "2026-08-19T03:08:31+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-19T02:02:11+00:00",
+    "as_of": "2026-08-19T03:04:39+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 589,
-    "current_mw_affected_at": "2026-08-19T01:01:12+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
@@ -212,17 +212,17 @@
       {
         "id": "rente",
         "name": "Antonio Maceo (Renté)",
-        "state": "partial",
+        "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-08-18T13:35:27+00:00",
-        "last_online_at": "2026-07-09T17:19:38+00:00",
+        "last_seen_at": "2026-08-19T02:34:16+00:00",
+        "last_online_at": "2026-08-19T02:34:16+00:00",
         "last_offline_at": "2026-08-18T13:35:27+00:00",
-        "last_change_at": "2026-08-18T13:35:27+00:00",
+        "last_change_at": "2026-08-19T02:34:16+00:00",
         "units": [
           {
             "unidad": 3,
-            "state": "offline",
-            "since": "2026-08-18T13:35:27+00:00"
+            "state": "online",
+            "since": "2026-08-19T02:34:16+00:00"
           },
           {
             "unidad": 5,
@@ -235,16 +235,16 @@
             "since": "2026-02-01T19:47:21+00:00"
           }
         ],
-        "online_units": 2,
-        "offline_units": 1
+        "online_units": 3,
+        "offline_units": 0
       }
     ]
   },
   "day": {
     "date": "2026-08-18",
     "finalized": false,
-    "peak_mw_affected": 589,
-    "peak_time": "21:01",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -268,9 +268,9 @@
     "averias_total": 0,
     "source_msg_count": 13,
     "by_type_counts": {
-      "otro": 10,
-      "actualizacion_bloques": 1,
-      "restablecimiento": 2
+      "restablecimiento": 10,
+      "otro": 2,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
@@ -307,7 +307,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 604.5,
+    "avg_peak_mw": 620.0,
     "max_peak_mw": 620,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -334,7 +334,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 18,
-    "avg_peak_mw": 616.7,
+    "avg_peak_mw": 630.5,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -530,7 +530,7 @@
       },
       {
         "date": "2026-08-18",
-        "peak_mw": 589
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1374,7 +1374,7 @@
       },
       {
         "date": "2026-08-18",
-        "peak_mw": 589
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [

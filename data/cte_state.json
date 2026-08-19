@@ -12,15 +12,15 @@
           "since": "2026-03-31T00:16:22+00:00"
         },
         "3": {
-          "state": "offline",
-          "since": "2026-08-18T13:35:27+00:00"
+          "state": "online",
+          "since": "2026-08-19T02:34:16+00:00"
         }
       },
-      "last_seen_at": "2026-08-18T13:35:27+00:00",
-      "last_online_at": "2026-07-09T17:19:38+00:00",
+      "last_seen_at": "2026-08-19T02:34:16+00:00",
+      "last_online_at": "2026-08-19T02:34:16+00:00",
       "last_offline_at": "2026-08-18T13:35:27+00:00",
-      "last_change_at": "2026-08-18T13:35:27+00:00",
-      "state": "partial"
+      "last_change_at": "2026-08-19T02:34:16+00:00",
+      "state": "online"
     },
     "maximo-gomez": {
       "name": "Máximo Gómez (Mariel)",
