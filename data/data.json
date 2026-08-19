@@ -1,55 +1,39 @@
 {
-  "generated_at": "2026-08-19T15:53:21+00:00",
+  "generated_at": "2026-08-19T16:17:51+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-19T15:53:09+00:00",
+    "as_of": "2026-08-19T16:11:37+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
     "current_mw_affected": null,
-    "current_mw_affected_at": "2026-08-19T15:23:21+00:00",
-    "active_averias": {
-      "ts": "2026-08-19T15:38:50+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": ": 👉 12 / 11 y 13 , Santiago de las Vegas",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-19T15:38:50+00:00",
-        "municipio": "Boyeros",
-        "direccion": ": 👉 12 / 11 y 13 , Santiago de las Vegas",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -280,17 +264,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 20,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "restablecimiento": 15,
-      "actualizacion_bloques": 1,
-      "corto": 1,
-      "otro": 1,
-      "averias": 2
+      "restablecimiento": 1,
+      "via_libre": 1
     }
   },
   "yesterday": {
@@ -346,10 +325,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 1,
-      "San Miguel Del Padrón": 1,
-      "Boyeros": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -382,10 +360,9 @@
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "Boyeros": 1
+      "Cerro": 1
     },
-    "averias_total": 15,
+    "averias_total": 14,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -406,9 +383,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3325,
+    "averias_total": 3324,
     "averias_top_municipios": {
-      "Boyeros": 351,
+      "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
