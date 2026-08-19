@@ -14,19 +14,27 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 0,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
-  "cte_offline_minutes": {},
+  "cte_offline_minutes": {
+    "felton": 908
+  },
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 8,
+  "source_msg_count": 9,
   "by_type_counts": {
-    "otro": 4,
-    "restablecimiento": 4
+    "restablecimiento": 1,
+    "unidad_termoelectrica": 1,
+    "daf": 1,
+    "otro": 2,
+    "restablecimiento_daf": 1,
+    "pronostico": 1,
+    "disparo_circuito": 1,
+    "via_libre": 1
   }
 }

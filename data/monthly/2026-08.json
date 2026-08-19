@@ -24,11 +24,13 @@
     "Cerro": 1
   },
   "averias_total": 14,
-  "daf_total": 0,
+  "daf_total": 1,
   "sen_collapse_total": 1,
   "sen_outage_days": 1,
   "sen_outage_minutes_total": 64,
   "partial_sen_collapse_total": 2,
   "partial_sen_outage_minutes_total": 132,
-  "cte_offline_minutes_total": {}
+  "cte_offline_minutes_total": {
+    "felton": 908
+  }
 }
