@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-18T23:55:23+00:00",
+  "generated_at": "2026-08-19T00:37:38+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-08-19T00:32:46+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-08-19T00:32:46+00:00",
+      "averias": [
+        {
+          "municipio": "Plaza De La Revolución",
+          "direccion": "las calles Loma entre Tulipán y Lombillo",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-19T00:32:46+00:00",
+        "municipio": "Plaza De La Revolución",
+        "direccion": "las calles Loma entre Tulipán y Lombillo",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,11 +280,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {
+      "Plaza De La Revolución": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "otro": 3
+      "otro": 3,
+      "restablecimiento": 3,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -317,8 +337,10 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Plaza De La Revolución": 1
+    },
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -351,9 +373,10 @@
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Plaza De La Revolución": 1
     },
-    "averias_total": 12,
+    "averias_total": 13,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -374,7 +397,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3322,
+    "averias_total": 3323,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
