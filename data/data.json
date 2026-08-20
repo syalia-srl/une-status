@@ -1,39 +1,53 @@
 {
-  "generated_at": "2026-08-20T22:51:03+00:00",
+  "generated_at": "2026-08-20T23:15:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-20T22:49:16+00:00",
+    "as_of": "2026-08-20T23:07:48+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 443,
-    "current_mw_affected_at": "2026-08-20T22:30:30+00:00",
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-08-20T22:58:11+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": "la siguiente dirección: 👉 Calzada de Bejucal/3ra y Güinera,"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-20T22:58:11+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "la siguiente dirección: 👉 Calzada de Bejucal/3ra y Güinera,"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -243,8 +257,8 @@
   "day": {
     "date": "2026-08-20",
     "finalized": false,
-    "peak_mw_affected": 443,
-    "peak_time": "18:30",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -264,13 +278,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "actualizacion_bloques": 1,
-      "restablecimiento": 5,
-      "otro": 1
+      "otro": 3,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -307,8 +322,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 443.0,
-    "max_peak_mw": 443,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -321,9 +336,10 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 1,
-      "San Miguel Del Padrón": 1
+      "San Miguel Del Padrón": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 2,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -337,7 +353,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 20,
-    "avg_peak_mw": 568.0,
+    "avg_peak_mw": 630.5,
     "max_peak_mw": 641,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -350,7 +366,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 4,
+      "Arroyo Naranjo": 5,
       "Guanabacoa": 3,
       "Lisa": 2,
       "San Miguel Del Padrón": 2,
@@ -358,7 +374,7 @@
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 14,
+    "averias_total": 15,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -379,11 +395,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3324,
+    "averias_total": 3325,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 266,
+      "Arroyo Naranjo": 267,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 226,
@@ -533,7 +549,7 @@
       },
       {
         "date": "2026-08-20",
-        "peak_mw": 443
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1377,7 +1393,7 @@
       },
       {
         "date": "2026-08-20",
-        "peak_mw": 443
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
