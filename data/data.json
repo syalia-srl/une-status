@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-20T05:43:45+00:00",
+  "generated_at": "2026-08-20T06:02:14+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-20T05:12:30+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-20T05:04:59+00:00",
-      "averias": [
-        {
-          "municipio": "Marianao",
-          "direccion": ": 👉 43 / 124 y 126",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-20T05:04:59+00:00",
-        "municipio": "Marianao",
-        "direccion": ": 👉 43 / 124 y 126",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
