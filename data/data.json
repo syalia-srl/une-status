@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-21T03:13:49+00:00",
+  "generated_at": "2026-08-21T04:00:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-21T03:06:02+00:00",
+    "as_of": "2026-08-21T03:46:32+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,22 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-08-21T03:33:12+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": "la siguiente dirección: 👉 Calle A/2da y 3ra"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-21T03:33:12+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "la siguiente dirección: 👉 Calle A/2da y 3ra"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -241,39 +255,11 @@
     ]
   },
   "day": {
-    "date": "2026-08-20",
-    "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
-    "by_type_counts": {
-      "otro": 3,
-      "restablecimiento": 1
-    }
+    "date": "2026-08-21",
+    "no_data": true
   },
   "yesterday": {
-    "date": "2026-08-19",
+    "date": "2026-08-20",
     "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -296,16 +282,20 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 1,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "unidad_termoelectrica": 1
+      "averias": 1,
+      "restablecimiento": 2,
+      "otro": 1
     }
   },
   "week": {
     "finalized": false,
-    "dailies_count": 7,
+    "dailies_count": 6,
     "avg_peak_mw": null,
     "max_peak_mw": null,
     "total_interruption_minutes": 0,
@@ -319,10 +309,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
+      "Guanabacoa": 2,
       "San Miguel Del Padrón": 1
     },
-    "averias_total": 2,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -349,15 +339,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Guanabacoa": 4,
       "Arroyo Naranjo": 4,
-      "Guanabacoa": 3,
       "Lisa": 2,
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 14,
+    "averias_total": 15,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -378,14 +368,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3324,
+    "averias_total": 3325,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
       "Habana Del Este": 227,
-      "Guanabacoa": 226,
+      "Guanabacoa": 227,
       "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 187,
