@@ -24,10 +24,10 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 6,
+  "source_msg_count": 8,
   "by_type_counts": {
-    "otro": 4,
-    "disparo_circuito": 1,
-    "restablecimiento": 1
+    "averias": 1,
+    "otro": 5,
+    "restablecimiento": 2
   }
 }
