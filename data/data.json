@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-21T14:50:44+00:00",
+  "generated_at": "2026-08-21T15:22:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-21T14:47:37+00:00",
+    "as_of": "2026-08-21T15:13:40+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,10 +33,29 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-21T14:47:37+00:00",
-      "averias": []
+      "ts": "2026-08-21T15:12:49+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": "8 entre Carretera Santa María y Central, Nalón 🚨",
+          "severity": "secundaria"
+        }
+      ]
     },
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-08-21T15:12:49+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "8 entre Carretera Santa María y Central, Nalón 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-21T15:10:38+00:00",
+        "municipio": "Regla",
+        "direccion": "10 de Octubre entre Refugio y Maceo 🚨",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -267,14 +286,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 14,
+    "averias_count_by_municipio": {
+      "Regla": 1,
+      "Guanabacoa": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "otro": 7,
-      "restablecimiento": 5,
-      "disparo_circuito": 1,
-      "averias": 1
+      "otro": 2,
+      "averias": 2,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -328,10 +349,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 2,
-      "San Miguel Del Padrón": 1
+      "Guanabacoa": 3,
+      "San Miguel Del Padrón": 1,
+      "Regla": 1
     },
-    "averias_total": 3,
+    "averias_total": 5,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -358,15 +380,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 4,
+      "Guanabacoa": 5,
       "Arroyo Naranjo": 4,
       "Lisa": 2,
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "Regla": 1
     },
-    "averias_total": 15,
+    "averias_total": 17,
     "daf_total": 0,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -387,14 +410,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3325,
+    "averias_total": 3327,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
+      "Guanabacoa": 228,
       "Habana Del Este": 227,
-      "Guanabacoa": 227,
       "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 187,
@@ -403,7 +426,7 @@
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 43
+      "Regla": 44
     },
     "daf_total": 2366,
     "sen_collapse_total": 10,
