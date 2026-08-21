@@ -2,7 +2,7 @@
   "month": "2026-08",
   "finalized": false,
   "dailies_count": 21,
-  "avg_peak_mw": 574.0,
+  "avg_peak_mw": 630.5,
   "max_peak_mw": 641,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -24,7 +24,7 @@
     "Cerro": 1
   },
   "averias_total": 15,
-  "daf_total": 0,
+  "daf_total": 1,
   "sen_collapse_total": 1,
   "sen_outage_days": 1,
   "sen_outage_minutes_total": 64,
