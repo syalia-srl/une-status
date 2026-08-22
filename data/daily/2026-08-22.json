@@ -1,8 +1,8 @@
 {
   "date": "2026-08-22",
   "finalized": false,
-  "peak_mw_affected": 635,
-  "peak_time": "00:34",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 1,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -26,8 +26,7 @@
   "averias_total": 0,
   "source_msg_count": 3,
   "by_type_counts": {
-    "otro": 1,
-    "actualizacion_bloques": 1,
-    "daf": 1
+    "restablecimiento_daf": 1,
+    "otro": 2
   }
 }
