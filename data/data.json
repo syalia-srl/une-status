@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-23T03:14:04+00:00",
+  "generated_at": "2026-08-23T04:00:06+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-23T03:12:36+00:00",
+    "as_of": "2026-08-23T03:40:47+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,32 +32,10 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-23T03:12:36+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": "las calles 116 y 287",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-23T03:12:36+00:00",
-        "municipio": "Boyeros",
-        "direccion": "las calles 116 y 287",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-23T02:30:11+00:00",
-        "municipio": "Plaza",
-        "direccion": "las calles San Antonio entre Santa Rosita y Tropical",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": {
-      "ts": "2026-08-23T02:30:12+00:00",
+      "ts": "2026-08-23T03:40:47+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -266,8 +244,12 @@
     ]
   },
   "day": {
+    "date": "2026-08-23",
+    "no_data": true
+  },
+  "yesterday": {
     "date": "2026-08-22",
-    "finalized": false,
+    "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
     "interruption_minutes": null,
@@ -289,55 +271,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Plaza": 1,
-      "Boyeros": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 6,
-    "by_type_counts": {
-      "otro": 1,
-      "restablecimiento": 2,
-      "averias": 2,
-      "daf": 1
-    }
-  },
-  "yesterday": {
-    "date": "2026-08-21",
-    "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 9,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento": 5,
-      "otro": 3,
-      "restablecimiento_daf": 1
+      "daf": 1
     }
   },
   "week": {
     "finalized": false,
-    "dailies_count": 7,
+    "dailies_count": 6,
     "avg_peak_mw": null,
     "max_peak_mw": null,
     "total_interruption_minutes": 0,
@@ -352,11 +295,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
-      "San Miguel Del Padrón": 1,
-      "Plaza": 1,
-      "Boyeros": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 5,
+    "averias_total": 3,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -389,11 +330,9 @@
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "Plaza": 1,
-      "Boyeros": 1
+      "Cerro": 1
     },
-    "averias_total": 17,
+    "averias_total": 15,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -414,9 +353,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3327,
+    "averias_total": 3325,
     "averias_top_municipios": {
-      "Boyeros": 351,
+      "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
@@ -424,7 +363,7 @@
       "Guanabacoa": 227,
       "Cerro": 195,
       "San Miguel Del Padrón": 188,
-      "Plaza": 188,
+      "Plaza": 187,
       "Marianao": 158,
       "Cotorro": 103,
       "Centro Habana": 72,
