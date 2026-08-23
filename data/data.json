@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-23T14:45:31+00:00",
+  "generated_at": "2026-08-23T15:11:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-23T14:37:33+00:00",
+    "as_of": "2026-08-23T15:09:01+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,30 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-08-23T15:00:58+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "243 entre 284 y Crucero Negrín , Inav , que afecta el siguiente circuito: 👉 D860 :Repartos Wajay, INAV, Ampliación del Wajay y Santa Cecilia",
+          "severity": "primaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-23T15:00:58+00:00",
+        "municipio": "Boyeros",
+        "direccion": "243 entre 284 y Crucero Negrín , Inav , que afecta el siguiente circuito: 👉 D860 :Repartos Wajay, INAV, Ampliación del Wajay y Santa Cecilia",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-08-23T14:53:49+00:00",
+        "municipio": "Boyeros",
+        "direccion": "243 entre 284 y Crucero Negrín , Inav que afecta el servicio en el siguiente circuito : 👉 D860 :Repartos Wajay, INAV, Ampliación del Wajay y Santa Cecilia",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +286,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {
+      "Boyeros": 2
+    },
+    "averias_total": 2,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "disparo_circuito": 1
+      "disparo_circuito": 1,
+      "averias": 2,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -320,9 +345,10 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 2,
+      "Boyeros": 2,
       "San Miguel Del Padrón": 1
     },
-    "averias_total": 3,
+    "averias_total": 5,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -353,11 +379,12 @@
       "Arroyo Naranjo": 4,
       "Lisa": 2,
       "San Miguel Del Padrón": 2,
+      "Boyeros": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 15,
+    "averias_total": 17,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -378,9 +405,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3325,
+    "averias_total": 3327,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 352,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
