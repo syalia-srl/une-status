@@ -1,8 +1,8 @@
 {
   "date": "2026-08-24",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 631,
+  "peak_time": "00:56",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 0,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -24,8 +24,11 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 1,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "otro": 1
+    "otro": 1,
+    "restablecimiento": 2,
+    "daf": 1,
+    "actualizacion_bloques": 1
   }
 }
