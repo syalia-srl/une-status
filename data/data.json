@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-24T18:03:34+00:00",
+  "generated_at": "2026-08-24T18:56:29+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-24T18:03:12+00:00",
+    "as_of": "2026-08-24T18:42:16+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,34 +32,12 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-24T17:50:00+00:00",
-      "averias": [
-        {
-          "municipio": "Cerro",
-          "direccion": "👉 Lombillo e/ Santa Catalina y Falguera",
-          "severity": "secundaria"
-        }
-      ]
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-08-24T17:50:00+00:00",
-        "municipio": "Cerro",
-        "direccion": "👉 Lombillo e/ Santa Catalina y Falguera",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-24T17:47:41+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "👉 San José e/ Becquer y Calvo",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-24T17:44:18+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "👉 414 e/ 19 y 21",
-        "severity": "secundaria"
+        "ts": "2026-08-24T18:04:42+00:00",
+        "municipio": "Cerro Que Se Encuentran Afectados Por Un Disparo De Circuito",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -293,15 +271,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "Guanabacoa": 1,
-      "Cerro": 1
+      "Cerro Que Se Encuentran Afectados Por Un Disparo De Circuito": 1
     },
-    "averias_total": 3,
+    "averias_total": 1,
     "source_msg_count": 4,
     "by_type_counts": {
-      "averias": 3,
-      "restablecimiento": 1
+      "disparo_circuito": 1,
+      "restablecimiento": 2,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -352,12 +329,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 3,
+      "Guanabacoa": 2,
       "San Miguel Del Padrón": 1,
-      "Habana Del Este": 1,
-      "Cerro": 1
+      "Cerro Que Se Encuentran Afectados Por Un Disparo De Circuito": 1
     },
-    "averias_total": 6,
+    "averias_total": 4,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -384,15 +360,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 5,
+      "Guanabacoa": 4,
       "Arroyo Naranjo": 4,
-      "Habana Del Este": 2,
       "Lisa": 2,
-      "Cerro": 2,
       "San Miguel Del Padrón": 2,
-      "Habana Vieja": 1
+      "Habana Del Este": 1,
+      "Habana Vieja": 1,
+      "Cerro": 1,
+      "Cerro Que Se Encuentran Afectados Por Un Disparo De Circuito": 1
     },
-    "averias_total": 18,
+    "averias_total": 16,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -413,15 +390,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3328,
+    "averias_total": 3326,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
-      "Habana Del Este": 228,
-      "Guanabacoa": 228,
-      "Cerro": 196,
+      "Habana Del Este": 227,
+      "Guanabacoa": 227,
+      "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 187,
       "Marianao": 158,
