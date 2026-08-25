@@ -1,51 +1,53 @@
 {
-  "generated_at": "2026-08-25T04:31:14+00:00",
+  "generated_at": "2026-08-25T05:15:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-25T04:26:59+00:00",
+    "as_of": "2026-08-25T05:14:05+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 503,
+    "current_mw_affected_at": "2026-08-25T04:36:26+00:00",
     "active_averias": {
-      "ts": "2026-08-25T04:24:16+00:00",
+      "ts": "2026-08-25T05:14:05+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "severity": "primaria"
+          "municipio": "Marianao",
+          "direccion": "👉 43 e/ 80 y 82",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-25T04:24:16+00:00",
-        "municipio": "Cerro",
-        "severity": "primaria"
+        "ts": "2026-08-25T05:14:05+00:00",
+        "municipio": "Marianao",
+        "direccion": "👉 43 e/ 80 y 82",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -257,8 +259,8 @@
   "day": {
     "date": "2026-08-25",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 503,
+    "peak_time": "00:36",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -279,14 +281,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Marianao": 1
     },
     "averias_total": 1,
-    "source_msg_count": 4,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "otro": 2,
-      "averias": 1,
-      "disparo_circuito": 1
+      "actualizacion_bloques": 1,
+      "otro": 5,
+      "restablecimiento": 5,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -324,7 +327,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 652.0,
+    "avg_peak_mw": 577.5,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -338,7 +341,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 1,
-      "Cerro": 1
+      "Marianao": 1
     },
     "averias_total": 2,
     "daf_total": 1,
@@ -354,7 +357,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 25,
-    "avg_peak_mw": 637.7,
+    "avg_peak_mw": 604.0,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -370,10 +373,11 @@
       "Guanabacoa": 4,
       "Arroyo Naranjo": 4,
       "Lisa": 2,
-      "Cerro": 2,
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
-      "Habana Vieja": 1
+      "Habana Vieja": 1,
+      "Cerro": 1,
+      "Marianao": 1
     },
     "averias_total": 16,
     "daf_total": 1,
@@ -404,10 +408,10 @@
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 227,
-      "Cerro": 196,
+      "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 187,
-      "Marianao": 158,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -550,7 +554,7 @@
       },
       {
         "date": "2026-08-25",
-        "peak_mw": null
+        "peak_mw": 503
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1394,7 +1398,7 @@
       },
       {
         "date": "2026-08-25",
-        "peak_mw": null
+        "peak_mw": 503
       }
     ],
     "monthly_max_peak_mw": [
