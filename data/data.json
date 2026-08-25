@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25T20:51:48+00:00",
+  "generated_at": "2026-08-25T21:16:43+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-25T20:43:15+00:00",
+    "as_of": "2026-08-25T21:15:23+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,39 +32,9 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-25T20:36:21+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "👉 Álamo entre Valle y Mendoza",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-25T20:38:29+00:00",
-        "municipio": "Cerro",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-25T20:36:21+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "👉 Álamo entre Valle y Mendoza",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-25T20:29:00+00:00",
-        "municipio": "Boyeros",
-        "direccion": "👉 Melia entre Lima y Santa Ana",
-        "severity": "secundaria"
-      }
-    ],
-    "last_daf": {
-      "ts": "2026-08-25T20:43:15+00:00",
-      "type": "daf"
-    },
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -286,7 +256,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -294,18 +264,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Arroyo Naranjo": 1,
-      "Cerro": 1
-    },
-    "averias_total": 3,
-    "source_msg_count": 8,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "otro": 3,
-      "averias": 3,
-      "disparo_circuito": 1,
-      "daf": 1
+      "otro": 2,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -356,13 +320,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Boyeros": 1,
-      "Arroyo Naranjo": 1,
-      "Cerro": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 4,
-    "daf_total": 2,
+    "averias_total": 1,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -388,17 +349,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 5,
       "Guanabacoa": 4,
+      "Arroyo Naranjo": 4,
       "Lisa": 2,
-      "Cerro": 2,
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Boyeros": 1
+      "Cerro": 1
     },
-    "averias_total": 18,
-    "daf_total": 2,
+    "averias_total": 15,
+    "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -418,15 +378,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3328,
+    "averias_total": 3325,
     "averias_top_municipios": {
-      "Boyeros": 351,
+      "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 267,
+      "Arroyo Naranjo": 266,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 227,
-      "Cerro": 196,
+      "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 187,
       "Marianao": 158,
@@ -436,7 +396,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2368,
+    "daf_total": 2367,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1819,8 +1779,8 @@
     "sen_outage_days_last_30d": 1,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
-    "daf_total": 2368,
-    "daf_last_30d": 2,
+    "daf_total": 2367,
+    "daf_last_30d": 1,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
