@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-25T00:36:30+00:00",
+  "generated_at": "2026-08-25T02:06:46+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-25T00:35:34+00:00",
+    "as_of": "2026-08-25T01:57:26+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 489,
+    "current_mw_affected_at": "2026-08-25T01:57:26+00:00",
     "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
@@ -51,21 +51,21 @@
       {
         "id": "felton",
         "name": "Lidio Ramón Pérez (Felton)",
-        "state": "offline",
+        "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-08-19T12:51:16+00:00",
-        "last_online_at": "2026-07-31T22:24:39+00:00",
+        "last_seen_at": "2026-08-25T01:12:47+00:00",
+        "last_online_at": "2026-08-25T01:12:47+00:00",
         "last_offline_at": "2026-08-19T12:51:16+00:00",
-        "last_change_at": "2026-08-19T12:51:16+00:00",
+        "last_change_at": "2026-08-25T01:12:47+00:00",
         "units": [
           {
             "unidad": 1,
-            "state": "offline",
-            "since": "2026-08-19T12:51:16+00:00"
+            "state": "online",
+            "since": "2026-08-25T01:12:47+00:00"
           }
         ],
-        "online_units": 0,
-        "offline_units": 1
+        "online_units": 1,
+        "offline_units": 0
       },
       {
         "id": "guiteras",
@@ -243,8 +243,8 @@
   "day": {
     "date": "2026-08-24",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 489,
+    "peak_time": "21:57",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -266,10 +266,12 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 9,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "restablecimiento": 8
+      "restablecimiento": 6,
+      "unidad_termoelectrica": 1,
+      "otro": 3,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -307,7 +309,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 652.0,
+    "avg_peak_mw": 570.5,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -337,7 +339,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 24,
-    "avg_peak_mw": 637.7,
+    "avg_peak_mw": 600.5,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -533,7 +535,7 @@
       },
       {
         "date": "2026-08-24",
-        "peak_mw": null
+        "peak_mw": 489
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1377,7 +1379,7 @@
       },
       {
         "date": "2026-08-24",
-        "peak_mw": null
+        "peak_mw": 489
       }
     ],
     "monthly_max_peak_mw": [
