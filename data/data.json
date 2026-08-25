@@ -1,53 +1,39 @@
 {
-  "generated_at": "2026-08-25T14:25:20+00:00",
+  "generated_at": "2026-08-25T15:11:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-25T14:25:06+00:00",
+    "as_of": "2026-08-25T14:42:07+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 320,
-    "current_mw_affected_at": "2026-08-25T13:50:59+00:00",
-    "active_averias": {
-      "ts": "2026-08-25T14:03:41+00:00",
-      "averias": [
-        {
-          "municipio": "Diez De Octubre",
-          "direccion": "el siguiente circuito: 👉 A1009: Alrededores de los cuadrantes: Desde calle Luz a Línea de Ferrocarril y desde C hasta H (Lawton"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-25T14:03:41+00:00",
-        "municipio": "Diez De Octubre",
-        "direccion": "el siguiente circuito: 👉 A1009: Alrededores de los cuadrantes: Desde calle Luz a Línea de Ferrocarril y desde C hasta H (Lawton"
-      }
-    ],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -257,8 +243,8 @@
   "day": {
     "date": "2026-08-25",
     "finalized": false,
-    "peak_mw_affected": 320,
-    "peak_time": "09:50",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -278,19 +264,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Diez De Octubre": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 14,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "via_libre": 1,
-      "actualizacion_bloques": 1,
-      "otro": 6,
-      "averias": 1,
-      "nota_diaria": 1,
       "restablecimiento": 3,
-      "corto": 1
+      "via_libre": 1
     }
   },
   "yesterday": {
@@ -328,7 +307,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 486.0,
+    "avg_peak_mw": 652.0,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -341,10 +320,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Diez De Octubre": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -358,7 +336,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 25,
-    "avg_peak_mw": 558.2,
+    "avg_peak_mw": 637.7,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -377,10 +355,9 @@
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "Diez De Octubre": 1
+      "Cerro": 1
     },
-    "averias_total": 16,
+    "averias_total": 15,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -401,7 +378,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3326,
+    "averias_total": 3325,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -555,7 +532,7 @@
       },
       {
         "date": "2026-08-25",
-        "peak_mw": 320
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1399,7 +1376,7 @@
       },
       {
         "date": "2026-08-25",
-        "peak_mw": 320
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
