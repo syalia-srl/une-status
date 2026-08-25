@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25T11:59:54+00:00",
+  "generated_at": "2026-08-25T12:50:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-25T11:52:27+00:00",
+    "as_of": "2026-08-25T12:43:32+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,7 +33,13 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-08-25T12:37:39+00:00",
+        "municipio": "Arroyo Naranjo",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -70,8 +76,8 @@
       {
         "id": "guiteras",
         "name": "Antonio Guiteras",
-        "state": "offline",
-        "assumed": false,
+        "state": "assumed_online",
+        "assumed": true,
         "last_seen_at": "2026-07-26T11:54:22+00:00",
         "last_online_at": "2026-04-10T14:55:42+00:00",
         "last_offline_at": "2026-07-26T11:54:22+00:00",
@@ -264,11 +270,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 1,
+    "averias_count_by_municipio": {
+      "Arroyo Naranjo": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 1
+      "restablecimiento": 4,
+      "otro": 2,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -319,9 +329,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Guanabacoa": 1,
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -348,15 +359,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 5,
       "Guanabacoa": 4,
-      "Arroyo Naranjo": 4,
       "Lisa": 2,
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 15,
+    "averias_total": 16,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -377,11 +388,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3325,
+    "averias_total": 3326,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
-      "Arroyo Naranjo": 266,
+      "Arroyo Naranjo": 267,
       "Lisa": 241,
       "Habana Del Este": 227,
       "Guanabacoa": 227,
