@@ -1,69 +1,65 @@
 {
-  "generated_at": "2026-08-26T00:58:28+00:00",
+  "generated_at": "2026-08-26T02:23:10+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-26T00:51:43+00:00",
+    "as_of": "2026-08-26T02:22:49+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 479,
+    "current_mw_affected_at": "2026-08-26T01:26:25+00:00",
     "active_averias": {
-      "ts": "2026-08-26T00:25:25+00:00",
+      "ts": "2026-08-26T01:18:56+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
-          "direccion": "Embil y Sur que afecta el siguiente circuito : 👉 A820: Repartos 250, Miraflores Viejo, Embil, Altura de Embil, Ampliación de Aldabó, Capdevila, La Dolorita",
-          "severity": "primaria"
+          "municipio": "Plaza",
+          "direccion": "👉 G entre 25 y 27",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-26T00:51:43+00:00",
+        "ts": "2026-08-26T01:18:56+00:00",
         "municipio": "Plaza",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-26T00:25:25+00:00",
-        "municipio": "Boyeros",
-        "direccion": "Embil y Sur que afecta el siguiente circuito : 👉 A820: Repartos 250, Miraflores Viejo, Embil, Altura de Embil, Ampliación de Aldabó, Capdevila, La Dolorita",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-08-26T00:09:51+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "👉 3ra entre 4ta y 6ta",
+        "direccion": "👉 G entre 25 y 27",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-08-26T00:05:20+00:00",
+        "ts": "2026-08-26T01:17:52+00:00",
         "municipio": "Plaza",
-        "direccion": ": 👉 25 y 28"
+        "direccion": "👉 Avenida entre 27 y 29",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-08-26T01:16:27+00:00",
+        "municipio": "Centro Habana",
+        "direccion": "👉 Castro entre Vive y Paz",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -275,8 +271,8 @@
   "day": {
     "date": "2026-08-25",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 479,
+    "peak_time": "21:26",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -298,15 +294,15 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
       "Plaza": 2,
-      "Habana Del Este": 1,
-      "Boyeros": 1
+      "Centro Habana": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 8,
+    "averias_total": 3,
+    "source_msg_count": 16,
     "by_type_counts": {
-      "restablecimiento": 4,
+      "otro": 6,
       "averias": 3,
-      "disparo_circuito": 1
+      "actualizacion_bloques": 1,
+      "restablecimiento": 6
     }
   },
   "yesterday": {
@@ -344,7 +340,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 652.0,
+    "avg_peak_mw": 565.5,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -359,10 +355,9 @@
     "averias_count_by_municipio": {
       "Plaza": 2,
       "Guanabacoa": 1,
-      "Habana Del Este": 1,
-      "Boyeros": 1
+      "Centro Habana": 1
     },
-    "averias_total": 5,
+    "averias_total": 4,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -376,7 +371,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 25,
-    "avg_peak_mw": 637.7,
+    "avg_peak_mw": 598.0,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -391,15 +386,15 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 4,
       "Arroyo Naranjo": 4,
-      "Habana Del Este": 2,
       "Lisa": 2,
       "San Miguel Del Padrón": 2,
       "Plaza": 2,
+      "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "Boyeros": 1
+      "Centro Habana": 1
     },
-    "averias_total": 19,
+    "averias_total": 18,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -420,20 +415,20 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3329,
+    "averias_total": 3328,
     "averias_top_municipios": {
-      "Boyeros": 351,
+      "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
-      "Habana Del Este": 228,
+      "Habana Del Este": 227,
       "Guanabacoa": 227,
       "Cerro": 195,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
       "Marianao": 158,
       "Cotorro": 103,
-      "Centro Habana": 72,
+      "Centro Habana": 73,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
@@ -574,7 +569,7 @@
       },
       {
         "date": "2026-08-25",
-        "peak_mw": null
+        "peak_mw": 479
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1418,7 +1413,7 @@
       },
       {
         "date": "2026-08-25",
-        "peak_mw": null
+        "peak_mw": 479
       }
     ],
     "monthly_max_peak_mw": [
