@@ -1,64 +1,58 @@
 {
-  "generated_at": "2026-08-26T02:23:10+00:00",
+  "generated_at": "2026-08-26T03:30:11+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-26T02:22:49+00:00",
+    "as_of": "2026-08-26T03:24:45+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 479,
-    "current_mw_affected_at": "2026-08-26T01:26:25+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-26T01:18:56+00:00",
+      "ts": "2026-08-26T03:24:18+00:00",
       "averias": [
         {
-          "municipio": "Plaza",
-          "direccion": "👉 G entre 25 y 27",
+          "municipio": "Habana Del Este",
+          "direccion": "👉 Pezuela / Santo Domingo y Concha",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-26T01:18:56+00:00",
-        "municipio": "Plaza",
-        "direccion": "👉 G entre 25 y 27",
+        "ts": "2026-08-26T03:24:18+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "👉 Pezuela / Santo Domingo y Concha",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-08-26T01:17:52+00:00",
-        "municipio": "Plaza",
-        "direccion": "👉 Avenida entre 27 y 29",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-26T01:16:27+00:00",
-        "municipio": "Centro Habana",
-        "direccion": "👉 Castro entre Vive y Paz",
+        "ts": "2026-08-26T02:32:59+00:00",
+        "municipio": "Boyeros",
+        "direccion": "👉 Principal / C y D",
         "severity": "secundaria"
       }
     ],
@@ -271,8 +265,8 @@
   "day": {
     "date": "2026-08-25",
     "finalized": false,
-    "peak_mw_affected": 479,
-    "peak_time": "21:26",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -293,15 +287,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 2,
-      "Centro Habana": 1
+      "Boyeros": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 16,
+    "averias_total": 2,
+    "source_msg_count": 13,
     "by_type_counts": {
-      "otro": 6,
-      "averias": 3,
-      "actualizacion_bloques": 1,
+      "otro": 5,
+      "averias": 2,
       "restablecimiento": 6
     }
   },
@@ -340,7 +333,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 565.5,
+    "avg_peak_mw": 652.0,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -353,11 +346,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Plaza": 2,
       "Guanabacoa": 1,
-      "Centro Habana": 1
+      "Boyeros": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 4,
+    "averias_total": 3,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -371,7 +364,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 25,
-    "avg_peak_mw": 598.0,
+    "avg_peak_mw": 637.7,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -386,15 +379,14 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 4,
       "Arroyo Naranjo": 4,
+      "Habana Del Este": 2,
       "Lisa": 2,
       "San Miguel Del Padrón": 2,
-      "Plaza": 2,
-      "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "Centro Habana": 1
+      "Boyeros": 1
     },
-    "averias_total": 18,
+    "averias_total": 17,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -415,20 +407,20 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3328,
+    "averias_total": 3327,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 351,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
-      "Habana Del Este": 227,
+      "Habana Del Este": 228,
       "Guanabacoa": 227,
       "Cerro": 195,
-      "Plaza": 189,
       "San Miguel Del Padrón": 188,
+      "Plaza": 187,
       "Marianao": 158,
       "Cotorro": 103,
-      "Centro Habana": 73,
+      "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
@@ -569,7 +561,7 @@
       },
       {
         "date": "2026-08-25",
-        "peak_mw": 479
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1413,7 +1405,7 @@
       },
       {
         "date": "2026-08-25",
-        "peak_mw": 479
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
