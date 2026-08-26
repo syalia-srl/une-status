@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26T06:33:39+00:00",
+  "generated_at": "2026-08-26T07:29:55+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-26T06:31:34+00:00",
+    "as_of": "2026-08-26T07:26:09+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-08-26T07:10:24+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "👉 Vantroy y final",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-26T07:10:24+00:00",
+        "municipio": "Boyeros",
+        "direccion": "👉 Vantroy y final",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +280,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Boyeros": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 9,
     "by_type_counts": {
-      "otro": 2,
-      "restablecimiento": 2
+      "restablecimiento": 4,
+      "otro": 4,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -320,9 +339,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Guanabacoa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -355,9 +375,10 @@
       "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "Boyeros": 1
     },
-    "averias_total": 15,
+    "averias_total": 16,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -378,9 +399,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3325,
+    "averias_total": 3326,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 351,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
