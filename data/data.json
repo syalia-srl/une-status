@@ -1,53 +1,51 @@
 {
-  "generated_at": "2026-08-26T14:23:25+00:00",
+  "generated_at": "2026-08-26T15:56:46+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-26T14:22:41+00:00",
+    "as_of": "2026-08-26T15:51:22+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 384,
-    "current_mw_affected_at": "2026-08-26T13:37:07+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-26T14:18:18+00:00",
+      "ts": "2026-08-26T15:29:57+00:00",
       "averias": [
         {
-          "municipio": "Regla",
-          "direccion": "las calles: Carretera del Cristo entre Triscornia y Callejón de Ánima",
-          "severity": "secundaria"
+          "municipio": "Marianao",
+          "direccion": "la subestación Samá los siguientes circuitos: 👉 D1280: Repartos Coco Solo, Los Pocitos, Los Ángeles, El Palmar, Alturas de La Salle"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-26T14:18:18+00:00",
-        "municipio": "Regla",
-        "direccion": "las calles: Carretera del Cristo entre Triscornia y Callejón de Ánima",
-        "severity": "secundaria"
+        "ts": "2026-08-26T15:29:57+00:00",
+        "municipio": "Marianao",
+        "direccion": "la subestación Samá los siguientes circuitos: 👉 D1280: Repartos Coco Solo, Los Pocitos, Los Ángeles, El Palmar, Alturas de La Salle"
       }
     ],
     "last_daf": null,
@@ -259,8 +257,8 @@
   "day": {
     "date": "2026-08-26",
     "finalized": false,
-    "peak_mw_affected": 384,
-    "peak_time": "09:37",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -281,15 +279,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Regla": 1
+      "Marianao": 1
     },
     "averias_total": 1,
-    "source_msg_count": 10,
+    "source_msg_count": 14,
     "by_type_counts": {
+      "restablecimiento": 9,
       "otro": 2,
-      "actualizacion_bloques": 1,
-      "restablecimiento": 5,
-      "corto": 1,
+      "corto": 2,
       "averias": 1
     }
   },
@@ -328,7 +325,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 518.0,
+    "avg_peak_mw": 652.0,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -342,7 +339,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Guanabacoa": 1,
-      "Regla": 1
+      "Marianao": 1
     },
     "averias_total": 2,
     "daf_total": 1,
@@ -358,7 +355,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 26,
-    "avg_peak_mw": 574.2,
+    "avg_peak_mw": 637.7,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -378,7 +375,7 @@
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
-      "Regla": 1
+      "Marianao": 1
     },
     "averias_total": 16,
     "daf_total": 1,
@@ -412,12 +409,12 @@
       "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 187,
-      "Marianao": 158,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 44
+      "Regla": 43
     },
     "daf_total": 2367,
     "sen_collapse_total": 10,
@@ -555,7 +552,7 @@
       },
       {
         "date": "2026-08-26",
-        "peak_mw": 384
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1399,7 +1396,7 @@
       },
       {
         "date": "2026-08-26",
-        "peak_mw": 384
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
