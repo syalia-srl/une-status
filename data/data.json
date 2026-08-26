@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26T03:30:11+00:00",
+  "generated_at": "2026-08-26T04:10:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-26T03:24:45+00:00",
+    "as_of": "2026-08-26T04:09:49+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,29 +33,10 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-26T03:24:18+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": "👉 Pezuela / Santo Domingo y Concha",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-08-26T03:51:38+00:00",
+      "averias": []
     },
-    "averias_24h": [
-      {
-        "ts": "2026-08-26T03:24:18+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "👉 Pezuela / Santo Domingo y Concha",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-26T02:32:59+00:00",
-        "municipio": "Boyeros",
-        "direccion": "👉 Principal / C y D",
-        "severity": "secundaria"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -263,43 +244,7 @@
     ]
   },
   "day": {
-    "date": "2026-08-25",
-    "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Habana Del Este": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 13,
-    "by_type_counts": {
-      "otro": 5,
-      "averias": 2,
-      "restablecimiento": 6
-    }
-  },
-  "yesterday": {
-    "date": "2026-08-24",
+    "date": "2026-08-26",
     "finalized": false,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -324,10 +269,41 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 13,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 6,
-      "restablecimiento": 7
+      "otro": 1
+    }
+  },
+  "yesterday": {
+    "date": "2026-08-25",
+    "finalized": true,
+    "peak_mw_affected": null,
+    "peak_time": null,
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 4,
+    "by_type_counts": {
+      "restablecimiento": 3,
+      "averias": 1
     }
   },
   "week": {
@@ -346,11 +322,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Boyeros": 1,
-      "Habana Del Este": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 3,
+    "averias_total": 1,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -363,7 +337,7 @@
   "month": {
     "month": "2026-08",
     "finalized": false,
-    "dailies_count": 25,
+    "dailies_count": 26,
     "avg_peak_mw": 637.7,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
@@ -379,14 +353,13 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 4,
       "Arroyo Naranjo": 4,
-      "Habana Del Este": 2,
       "Lisa": 2,
       "San Miguel Del Padrón": 2,
+      "Habana Del Este": 1,
       "Habana Vieja": 1,
-      "Cerro": 1,
-      "Boyeros": 1
+      "Cerro": 1
     },
-    "averias_total": 17,
+    "averias_total": 15,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -407,13 +380,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3327,
+    "averias_total": 3325,
     "averias_top_municipios": {
-      "Boyeros": 351,
+      "Boyeros": 350,
       "Playa": 281,
       "Arroyo Naranjo": 266,
       "Lisa": 241,
-      "Habana Del Este": 228,
+      "Habana Del Este": 227,
       "Guanabacoa": 227,
       "Cerro": 195,
       "San Miguel Del Padrón": 188,
@@ -443,10 +416,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-07-27",
-        "peak_mw": 448
-      },
       {
         "date": "2026-07-28",
         "peak_mw": 618
@@ -562,13 +531,13 @@
       {
         "date": "2026-08-25",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-26",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-07-27",
-        "minutes": 0
-      },
       {
         "date": "2026-07-28",
         "minutes": 0
@@ -684,13 +653,13 @@
       {
         "date": "2026-08-25",
         "minutes": 0
+      },
+      {
+        "date": "2026-08-26",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-02-27",
-        "peak_mw": 345
-      },
       {
         "date": "2026-02-28",
         "peak_mw": 234
@@ -1406,6 +1375,10 @@
       {
         "date": "2026-08-25",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-26",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1830,9 +1803,9 @@
     }
   },
   "meta": {
-    "daily_count": 1486,
+    "daily_count": 1487,
     "monthly_count": 49,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-08-25"
+    "latest_date": "2026-08-26"
   }
 }
