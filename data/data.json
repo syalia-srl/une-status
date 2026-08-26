@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26T12:26:48+00:00",
+  "generated_at": "2026-08-26T13:31:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-26T12:21:15+00:00",
+    "as_of": "2026-08-26T13:31:08+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,10 +32,28 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-08-26T13:12:46+00:00",
+      "averias": [
+        {
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "las calles: Rocafort entre San Joaquín y San Marianao 🚨",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-08-26T13:12:46+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "las calles: Rocafort entre San Joaquín y San Marianao 🚨",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
-    "last_pronostico": null,
+    "last_pronostico": {
+      "ts": "2026-08-26T12:47:19+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -264,12 +282,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 8,
+    "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "restablecimiento": 4,
-      "otro": 4
+      "otro": 8,
+      "empty": 1,
+      "pronostico": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -320,9 +342,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Guanabacoa": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -351,13 +374,13 @@
     "averias_count_by_municipio": {
       "Guanabacoa": 4,
       "Arroyo Naranjo": 4,
+      "San Miguel Del Padrón": 3,
       "Lisa": 2,
-      "San Miguel Del Padrón": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1
     },
-    "averias_total": 15,
+    "averias_total": 16,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -378,7 +401,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3325,
+    "averias_total": 3326,
     "averias_top_municipios": {
       "Boyeros": 350,
       "Playa": 281,
@@ -387,7 +410,7 @@
       "Habana Del Este": 227,
       "Guanabacoa": 227,
       "Cerro": 195,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Plaza": 187,
       "Marianao": 158,
       "Cotorro": 103,
