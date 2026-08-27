@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26T23:49:53+00:00",
+  "generated_at": "2026-08-27T05:36:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-26T23:47:23+00:00",
+    "as_of": "2026-08-27T05:35:53+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,41 +30,34 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 265,
-    "current_mw_affected_at": "2026-08-26T22:09:55+00:00",
+    "current_mw_affected": 437,
+    "current_mw_affected_at": "2026-08-27T04:11:56+00:00",
     "active_averias": {
-      "ts": "2026-08-26T23:47:23+00:00",
+      "ts": "2026-08-27T04:46:32+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "las calles 35C entre 246 y 250, San Agustín 🚨",
-          "severity": "secundaria"
+          "municipio": "Boyeros",
+          "direccion": "la calle Calzada de Bejucal y 4ta afectando el servicio eléctrico en el siguiente circuito: 👉 D836: Trigal, Parajón, García, El Cuervo, El Trébol 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-26T23:47:23+00:00",
-        "municipio": "Lisa",
-        "direccion": "las calles 35C entre 246 y 250, San Agustín 🚨",
+        "ts": "2026-08-27T04:46:32+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la calle Calzada de Bejucal y 4ta afectando el servicio eléctrico en el siguiente circuito: 👉 D836: Trigal, Parajón, García, El Cuervo, El Trébol 🚨"
+      },
+      {
+        "ts": "2026-08-27T04:42:26+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "las calles 10 entre 3ra y Río 🚨",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-08-26T23:43:15+00:00",
-        "municipio": "Lisa",
-        "direccion": "las calles 148 entre 45 y 47, Versalles 🚨",
+        "ts": "2026-08-27T04:40:53+00:00",
+        "municipio": "Boyeros",
+        "direccion": "las calles 204 entre 397 y Final 🚨",
         "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-26T23:13:43+00:00",
-        "municipio": "Marianao",
-        "direccion": "las calles 100 entre 31B y 33, Quemados 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-08-26T22:59:16+00:00",
-        "municipio": "Arroyo Naranjo",
-        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -274,6 +267,44 @@
     ]
   },
   "day": {
+    "date": "2026-08-27",
+    "finalized": false,
+    "peak_mw_affected": 437,
+    "peak_time": "00:11",
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {
+      "Boyeros": 2,
+      "Guanabacoa": 1
+    },
+    "averias_total": 3,
+    "source_msg_count": 20,
+    "by_type_counts": {
+      "averias": 4,
+      "otro": 6,
+      "actualizacion_bloques": 1,
+      "restablecimiento": 8,
+      "via_libre": 1
+    }
+  },
+  "yesterday": {
     "date": "2026-08-26",
     "finalized": false,
     "peak_mw_affected": 265,
@@ -312,42 +343,10 @@
       "restablecimiento": 2
     }
   },
-  "yesterday": {
-    "date": "2026-08-25",
-    "finalized": true,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
-    "by_type_counts": {
-      "restablecimiento": 3,
-      "averias": 1
-    }
-  },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 458.5,
+    "avg_peak_mw": 451.3,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -361,11 +360,12 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 2,
-      "Guanabacoa": 1,
+      "Boyeros": 2,
       "Arroyo Naranjo": 1,
-      "Marianao": 1
+      "Marianao": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 5,
+    "averias_total": 7,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -378,8 +378,8 @@
   "month": {
     "month": "2026-08",
     "finalized": false,
-    "dailies_count": 26,
-    "avg_peak_mw": 544.5,
+    "dailies_count": 27,
+    "avg_peak_mw": 523.0,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -392,16 +392,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Guanabacoa": 5,
       "Arroyo Naranjo": 5,
-      "Guanabacoa": 4,
       "Lisa": 4,
       "San Miguel Del Padrón": 2,
+      "Boyeros": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
       "Cerro": 1,
       "Marianao": 1
     },
-    "averias_total": 19,
+    "averias_total": 22,
     "daf_total": 1,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -422,14 +423,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3329,
+    "averias_total": 3332,
     "averias_top_municipios": {
-      "Boyeros": 350,
+      "Boyeros": 352,
       "Playa": 281,
       "Arroyo Naranjo": 267,
       "Lisa": 243,
+      "Guanabacoa": 228,
       "Habana Del Este": 227,
-      "Guanabacoa": 227,
       "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 187,
@@ -458,10 +459,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-07-28",
-        "peak_mw": 618
-      },
       {
         "date": "2026-07-29",
         "peak_mw": null
@@ -577,13 +574,13 @@
       {
         "date": "2026-08-26",
         "peak_mw": 265
+      },
+      {
+        "date": "2026-08-27",
+        "peak_mw": 437
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-07-28",
-        "minutes": 0
-      },
       {
         "date": "2026-07-29",
         "minutes": 0
@@ -699,13 +696,13 @@
       {
         "date": "2026-08-26",
         "minutes": 0
+      },
+      {
+        "date": "2026-08-27",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-02-28",
-        "peak_mw": 234
-      },
       {
         "date": "2026-03-01",
         "peak_mw": 181
@@ -1421,6 +1418,10 @@
       {
         "date": "2026-08-26",
         "peak_mw": 265
+      },
+      {
+        "date": "2026-08-27",
+        "peak_mw": 437
       }
     ],
     "monthly_max_peak_mw": [
@@ -1845,9 +1846,9 @@
     }
   },
   "meta": {
-    "daily_count": 1487,
+    "daily_count": 1488,
     "monthly_count": 49,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-08-26"
+    "latest_date": "2026-08-27"
   }
 }
