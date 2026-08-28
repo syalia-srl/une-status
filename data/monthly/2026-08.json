@@ -2,7 +2,7 @@
   "month": "2026-08",
   "finalized": false,
   "dailies_count": 28,
-  "avg_peak_mw": 541.8,
+  "avg_peak_mw": 536.6,
   "max_peak_mw": 652,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -27,7 +27,7 @@
     "Plaza": 1
   },
   "averias_total": 21,
-  "daf_total": 4,
+  "daf_total": 2,
   "sen_collapse_total": 1,
   "sen_outage_days": 1,
   "sen_outage_minutes_total": 64,
