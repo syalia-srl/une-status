@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-29T21:13:38+00:00",
+  "generated_at": "2026-08-29T23:19:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-29T21:11:30+00:00",
+    "as_of": "2026-08-29T23:16:02+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,18 +30,27 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 405,
-    "current_mw_affected_at": "2026-08-29T19:39:43+00:00",
+    "current_mw_affected": 563,
+    "current_mw_affected_at": "2026-08-29T22:45:52+00:00",
     "active_averias": {
-      "ts": "2026-08-29T21:11:30+00:00",
-      "averias": []
+      "ts": "2026-08-29T22:28:31+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": "Carretera Peñalver y Carretera Alecrín afectando el circuito : 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-29T19:46:40+00:00",
-        "municipio": "Cerro",
-        "direccion": "los siguientes circuitos: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
-        "severity": "primaria"
+        "ts": "2026-08-29T23:05:45+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-08-29T22:28:31+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "Carretera Peñalver y Carretera Alecrín afectando el circuito : 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
       }
     ],
     "last_daf": null,
@@ -253,8 +262,8 @@
   "day": {
     "date": "2026-08-29",
     "finalized": false,
-    "peak_mw_affected": 405,
-    "peak_time": "15:39",
+    "peak_mw_affected": 563,
+    "peak_time": "18:45",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -275,15 +284,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Guanabacoa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 20,
+    "averias_total": 2,
+    "source_msg_count": 13,
     "by_type_counts": {
+      "otro": 4,
+      "restablecimiento": 6,
+      "averias": 1,
       "actualizacion_bloques": 1,
-      "averias": 4,
-      "restablecimiento": 3,
-      "otro": 12
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -324,7 +335,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 493.2,
+    "avg_peak_mw": 532.8,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -338,13 +349,13 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 2,
+      "Boyeros": 2,
       "Arroyo Naranjo": 1,
       "Marianao": 1,
-      "Boyeros": 1,
       "Plaza": 1,
-      "Cerro": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 7,
+    "averias_total": 8,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -358,7 +369,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 29,
-    "avg_peak_mw": 539.0,
+    "avg_peak_mw": 565.3,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -371,18 +382,18 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Guanabacoa": 5,
       "Arroyo Naranjo": 5,
-      "Guanabacoa": 4,
       "Lisa": 4,
-      "Cerro": 2,
       "San Miguel Del Padrón": 2,
+      "Boyeros": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
+      "Cerro": 1,
       "Marianao": 1,
-      "Boyeros": 1,
       "Plaza": 1
     },
-    "averias_total": 22,
+    "averias_total": 23,
     "daf_total": 2,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -403,15 +414,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3332,
+    "averias_total": 3333,
     "averias_top_municipios": {
-      "Boyeros": 351,
+      "Boyeros": 352,
       "Playa": 281,
       "Arroyo Naranjo": 267,
       "Lisa": 243,
+      "Guanabacoa": 228,
       "Habana Del Este": 227,
-      "Guanabacoa": 227,
-      "Cerro": 196,
+      "Cerro": 195,
       "San Miguel Del Padrón": 188,
       "Plaza": 188,
       "Marianao": 159,
@@ -557,7 +568,7 @@
       },
       {
         "date": "2026-08-29",
-        "peak_mw": 405
+        "peak_mw": 563
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1401,7 +1412,7 @@
       },
       {
         "date": "2026-08-29",
-        "peak_mw": 405
+        "peak_mw": 563
       }
     ],
     "monthly_max_peak_mw": [
