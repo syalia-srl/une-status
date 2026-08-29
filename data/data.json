@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-29T18:42:07+00:00",
+  "generated_at": "2026-08-29T21:13:38+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-29T18:41:52+00:00",
+    "as_of": "2026-08-29T21:11:30+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,36 +30,21 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 322,
-    "current_mw_affected_at": "2026-08-29T17:04:45+00:00",
+    "current_mw_affected": 405,
+    "current_mw_affected_at": "2026-08-29T19:39:43+00:00",
     "active_averias": {
-      "ts": "2026-08-29T17:59:36+00:00",
-      "averias": [
-        {
-          "municipio": "Marianao",
-          "direccion": "35 y 114 que afecta el siguiente circuito: 👉 A1227: Calle 146 desde avenida 31 hasta calle 130, calle 130 desde calle 146 hasta avenida 37 (Zamora)",
-          "severity": "primaria"
-        }
-      ]
+      "ts": "2026-08-29T21:11:30+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-08-29T17:59:36+00:00",
-        "municipio": "Marianao",
-        "direccion": "35 y 114 que afecta el siguiente circuito: 👉 A1227: Calle 146 desde avenida 31 hasta calle 130, calle 130 desde calle 146 hasta avenida 37 (Zamora)",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-08-29T17:12:16+00:00",
+        "ts": "2026-08-29T19:46:40+00:00",
         "municipio": "Cerro",
-        "direccion": "👉 Aranguren / 3ra y Blanquita",
-        "severity": "secundaria"
+        "direccion": "los siguientes circuitos: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
+        "severity": "primaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-08-29T17:57:34+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -268,8 +253,8 @@
   "day": {
     "date": "2026-08-29",
     "finalized": false,
-    "peak_mw_affected": 322,
-    "peak_time": "13:04",
+    "peak_mw_affected": 405,
+    "peak_time": "15:39",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -281,7 +266,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -290,18 +275,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1,
-      "Marianao": 1
+      "Cerro": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 10,
       "actualizacion_bloques": 1,
-      "averias": 2,
-      "daf": 1,
-      "otro": 5,
-      "restablecimiento_daf": 1
+      "averias": 4,
+      "restablecimiento": 3,
+      "otro": 12
     }
   },
   "yesterday": {
@@ -342,7 +324,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 472.5,
+    "avg_peak_mw": 493.2,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -356,14 +338,14 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 2,
-      "Marianao": 2,
       "Arroyo Naranjo": 1,
+      "Marianao": 1,
       "Boyeros": 1,
       "Plaza": 1,
       "Cerro": 1
     },
-    "averias_total": 8,
-    "daf_total": 2,
+    "averias_total": 7,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -376,7 +358,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 29,
-    "avg_peak_mw": 525.2,
+    "avg_peak_mw": 539.0,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -394,14 +376,14 @@
       "Lisa": 4,
       "Cerro": 2,
       "San Miguel Del Padrón": 2,
-      "Marianao": 2,
       "Habana Del Este": 1,
       "Habana Vieja": 1,
+      "Marianao": 1,
       "Boyeros": 1,
       "Plaza": 1
     },
-    "averias_total": 23,
-    "daf_total": 3,
+    "averias_total": 22,
+    "daf_total": 2,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -421,7 +403,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3333,
+    "averias_total": 3332,
     "averias_top_municipios": {
       "Boyeros": 351,
       "Playa": 281,
@@ -432,14 +414,14 @@
       "Cerro": 196,
       "San Miguel Del Padrón": 188,
       "Plaza": 188,
-      "Marianao": 160,
+      "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2369,
+    "daf_total": 2368,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -575,7 +557,7 @@
       },
       {
         "date": "2026-08-29",
-        "peak_mw": 322
+        "peak_mw": 405
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1419,7 +1401,7 @@
       },
       {
         "date": "2026-08-29",
-        "peak_mw": 322
+        "peak_mw": 405
       }
     ],
     "monthly_max_peak_mw": [
@@ -1822,8 +1804,8 @@
     "sen_outage_days_last_30d": 1,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
-    "daf_total": 2369,
-    "daf_last_30d": 3,
+    "daf_total": 2368,
+    "daf_last_30d": 2,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
