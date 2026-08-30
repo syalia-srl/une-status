@@ -1,56 +1,62 @@
 {
-  "generated_at": "2026-08-29T23:19:01+00:00",
+  "generated_at": "2026-08-30T01:22:02+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-29T23:16:02+00:00",
+    "as_of": "2026-08-30T01:12:58+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 563,
-    "current_mw_affected_at": "2026-08-29T22:45:52+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-08-29T22:28:31+00:00",
-      "averias": [
-        {
-          "municipio": "Guanabacoa",
-          "direccion": "Carretera Peñalver y Carretera Alecrín afectando el circuito : 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
-        }
-      ]
+      "ts": "2026-08-30T01:12:58+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-08-29T23:05:45+00:00",
-        "municipio": "Boyeros",
+        "ts": "2026-08-30T00:42:21+00:00",
+        "municipio": "Diez De Octubre",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-08-29T22:28:31+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "Carretera Peñalver y Carretera Alecrín afectando el circuito : 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
+        "ts": "2026-08-30T00:39:32+00:00",
+        "municipio": "Cerro",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-08-30T00:00:48+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-08-29T23:54:48+00:00",
+        "municipio": "Plaza",
+        "direccion": "👉 25/ E y D 🛑 ⚡️",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -262,8 +268,8 @@
   "day": {
     "date": "2026-08-29",
     "finalized": false,
-    "peak_mw_affected": 563,
-    "peak_time": "18:45",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -284,17 +290,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Boyeros": 1
+      "Plaza": 1,
+      "Habana Del Este": 1,
+      "Cerro": 1,
+      "Diez De Octubre": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 13,
+    "averias_total": 4,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "otro": 4,
-      "restablecimiento": 6,
-      "averias": 1,
-      "actualizacion_bloques": 1,
-      "disparo_circuito": 1
+      "restablecimiento": 12,
+      "averias": 2,
+      "disparo_circuito": 3
     }
   },
   "yesterday": {
@@ -335,7 +341,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 532.8,
+    "avg_peak_mw": 522.7,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -349,13 +355,15 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Lisa": 2,
-      "Boyeros": 2,
+      "Plaza": 2,
       "Arroyo Naranjo": 1,
       "Marianao": 1,
-      "Plaza": 1,
-      "Guanabacoa": 1
+      "Boyeros": 1,
+      "Habana Del Este": 1,
+      "Cerro": 1,
+      "Diez De Octubre": 1
     },
-    "averias_total": 8,
+    "averias_total": 10,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -369,7 +377,7 @@
     "month": "2026-08",
     "finalized": false,
     "dailies_count": 29,
-    "avg_peak_mw": 565.3,
+    "avg_peak_mw": 565.8,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -382,18 +390,19 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 5,
       "Arroyo Naranjo": 5,
+      "Guanabacoa": 4,
       "Lisa": 4,
+      "Habana Del Este": 2,
+      "Cerro": 2,
       "San Miguel Del Padrón": 2,
-      "Boyeros": 2,
-      "Habana Del Este": 1,
+      "Plaza": 2,
       "Habana Vieja": 1,
-      "Cerro": 1,
       "Marianao": 1,
-      "Plaza": 1
+      "Boyeros": 1,
+      "Diez De Octubre": 1
     },
-    "averias_total": 23,
+    "averias_total": 25,
     "daf_total": 2,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
@@ -414,17 +423,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3333,
+    "averias_total": 3335,
     "averias_top_municipios": {
-      "Boyeros": 352,
+      "Boyeros": 351,
       "Playa": 281,
       "Arroyo Naranjo": 267,
       "Lisa": 243,
-      "Guanabacoa": 228,
-      "Habana Del Este": 227,
-      "Cerro": 195,
+      "Habana Del Este": 228,
+      "Guanabacoa": 227,
+      "Cerro": 196,
+      "Plaza": 189,
       "San Miguel Del Padrón": 188,
-      "Plaza": 188,
       "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
@@ -568,7 +577,7 @@
       },
       {
         "date": "2026-08-29",
-        "peak_mw": 563
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1412,7 +1421,7 @@
       },
       {
         "date": "2026-08-29",
-        "peak_mw": 563
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
