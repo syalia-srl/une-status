@@ -1,64 +1,39 @@
 {
-  "generated_at": "2026-08-30T01:22:02+00:00",
+  "generated_at": "2026-08-30T06:54:12+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-30T01:12:58+00:00",
+    "as_of": "2026-08-30T06:52:49+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-08-30T01:12:58+00:00",
-      "averias": []
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-08-30T00:42:21+00:00",
-        "municipio": "Diez De Octubre",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-30T00:39:32+00:00",
-        "municipio": "Cerro",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-30T00:00:48+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-08-29T23:54:48+00:00",
-        "municipio": "Plaza",
-        "direccion": "👉 25/ E y D 🛑 ⚡️",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": 558,
+    "current_mw_affected_at": "2026-08-30T04:30:48+00:00",
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -266,6 +241,39 @@
     ]
   },
   "day": {
+    "date": "2026-08-30",
+    "finalized": false,
+    "peak_mw_affected": 558,
+    "peak_time": "00:30",
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 20,
+    "by_type_counts": {
+      "actualizacion_bloques": 1,
+      "otro": 10,
+      "restablecimiento": 9
+    }
+  },
+  "yesterday": {
     "date": "2026-08-29",
     "finalized": false,
     "peak_mw_affected": null,
@@ -303,46 +311,11 @@
       "disparo_circuito": 3
     }
   },
-  "yesterday": {
-    "date": "2026-08-28",
-    "finalized": false,
-    "peak_mw_affected": 651,
-    "peak_time": "21:19",
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 1,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 20,
-    "by_type_counts": {
-      "otro": 11,
-      "restablecimiento": 6,
-      "actualizacion_bloques": 1,
-      "daf": 1,
-      "restablecimiento_daf": 1
-    }
-  },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 522.7,
-    "max_peak_mw": 652,
+    "avg_peak_mw": 491.3,
+    "max_peak_mw": 651,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -376,8 +349,8 @@
   "month": {
     "month": "2026-08",
     "finalized": false,
-    "dailies_count": 29,
-    "avg_peak_mw": 565.8,
+    "dailies_count": 30,
+    "avg_peak_mw": 564.5,
     "max_peak_mw": 652,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -459,10 +432,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-07-31",
-        "peak_mw": 673
-      },
       {
         "date": "2026-08-01",
         "peak_mw": null
@@ -578,13 +547,13 @@
       {
         "date": "2026-08-29",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-30",
+        "peak_mw": 558
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-07-31",
-        "minutes": 0
-      },
       {
         "date": "2026-08-01",
         "minutes": 0
@@ -700,13 +669,13 @@
       {
         "date": "2026-08-29",
         "minutes": 0
+      },
+      {
+        "date": "2026-08-30",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-03-03",
-        "peak_mw": 360
-      },
       {
         "date": "2026-03-04",
         "peak_mw": 325
@@ -1422,6 +1391,10 @@
       {
         "date": "2026-08-29",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-30",
+        "peak_mw": 558
       }
     ],
     "monthly_max_peak_mw": [
@@ -1846,9 +1819,9 @@
     }
   },
   "meta": {
-    "daily_count": 1490,
+    "daily_count": 1491,
     "monthly_count": 49,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-08-29"
+    "latest_date": "2026-08-30"
   }
 }
