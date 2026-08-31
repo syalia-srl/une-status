@@ -2,7 +2,7 @@
   "month": "2026-08",
   "finalized": false,
   "dailies_count": 31,
-  "avg_peak_mw": 565.8,
+  "avg_peak_mw": 499.5,
   "max_peak_mw": 652,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -19,11 +19,11 @@
     "Guanabacoa": 4,
     "Lisa": 4,
     "Cerro": 3,
+    "San Miguel Del Padrón": 3,
     "Habana Del Este": 2,
-    "San Miguel Del Padrón": 2,
-    "Marianao": 2,
     "Plaza": 2,
     "Habana Vieja": 1,
+    "Marianao": 1,
     "Boyeros": 1,
     "Diez De Octubre": 1
   },
