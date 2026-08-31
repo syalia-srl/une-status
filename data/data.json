@@ -1,67 +1,84 @@
 {
-  "generated_at": "2026-08-31T00:33:27+00:00",
+  "generated_at": "2026-08-31T06:07:52+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-08-31T00:30:30+00:00",
+    "as_of": "2026-08-31T06:00:57+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 676,
+    "current_mw_affected_at": "2026-08-31T04:00:09+00:00",
     "active_averias": {
-      "ts": "2026-08-30T22:50:07+00:00",
+      "ts": "2026-08-31T04:55:09+00:00",
       "averias": [
         {
-          "municipio": "Cotorro",
-          "direccion": "las calles 2da entre 5ta y 7ma 🚨"
+          "municipio": "Guanabacoa",
+          "direccion": "la calle Carretera Arango"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-08-31T00:24:54+00:00",
+        "ts": "2026-08-31T05:56:14+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-08-30T23:07:05+00:00",
+        "ts": "2026-08-31T05:50:33+00:00",
+        "municipio": "Cerro Y Diez De Octubre",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-08-31T05:13:16+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-08-30T22:50:07+00:00",
-        "municipio": "Cotorro",
-        "direccion": "las calles 2da entre 5ta y 7ma 🚨"
+        "ts": "2026-08-31T05:02:00+00:00",
+        "municipio": "Cerro Y Diez De Octubre",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-08-31T04:55:09+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "la calle Carretera Arango"
+      },
+      {
+        "ts": "2026-08-31T04:33:30+00:00",
+        "municipio": "Arroyo Naranjo",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-08-31T03:39:52+00:00",
+        "municipio": "Cerro",
+        "direccion": "las calles Primelles y Avenida del Norte, afectando los siguientes circuitos: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista"
       }
     ],
-    "last_daf": {
-      "ts": "2026-08-30T22:41:32+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -268,10 +285,10 @@
     ]
   },
   "day": {
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 676,
+    "peak_time": "00:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -283,7 +300,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 2,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -292,22 +309,24 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Cerro Y Diez De Octubre": 2,
       "Boyeros": 2,
-      "Cotorro": 1
+      "Arroyo Naranjo": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 16,
+    "averias_total": 6,
+    "source_msg_count": 18,
     "by_type_counts": {
-      "otro": 10,
-      "daf": 2,
-      "averias": 1,
-      "disparo_circuito": 2,
-      "restablecimiento": 1
+      "actualizacion_bloques": 1,
+      "restablecimiento": 6,
+      "averias": 2,
+      "otro": 3,
+      "disparo_circuito": 6
     }
   },
   "yesterday": {
-    "date": "2026-08-29",
-    "finalized": false,
+    "date": "2026-08-30",
+    "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
     "interruption_minutes": null,
@@ -330,24 +349,20 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 1,
-      "Habana Del Este": 1,
-      "Cerro": 1,
-      "Diez De Octubre": 1
+      "Cerro": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 17,
+    "averias_total": 1,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "restablecimiento": 12,
-      "averias": 2,
-      "disparo_circuito": 3
+      "restablecimiento": 1,
+      "averias": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 458.0,
-    "max_peak_mw": 651,
+    "avg_peak_mw": 530.7,
+    "max_peak_mw": 676,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -361,16 +376,17 @@
     "averias_count_by_municipio": {
       "Boyeros": 3,
       "Lisa": 2,
+      "Arroyo Naranjo": 2,
       "Plaza": 2,
-      "Arroyo Naranjo": 1,
+      "Cerro": 2,
+      "Cerro Y Diez De Octubre": 2,
       "Marianao": 1,
       "Habana Del Este": 1,
-      "Cerro": 1,
       "Diez De Octubre": 1,
-      "Cotorro": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 13,
-    "daf_total": 3,
+    "averias_total": 17,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -382,9 +398,9 @@
   "month": {
     "month": "2026-08",
     "finalized": false,
-    "dailies_count": 30,
-    "avg_peak_mw": 565.8,
-    "max_peak_mw": 652,
+    "dailies_count": 31,
+    "avg_peak_mw": 584.2,
+    "max_peak_mw": 676,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -396,21 +412,21 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 5,
-      "Guanabacoa": 4,
+      "Arroyo Naranjo": 6,
+      "Guanabacoa": 5,
       "Lisa": 4,
+      "Cerro": 3,
       "Boyeros": 3,
       "Habana Del Este": 2,
-      "Cerro": 2,
       "San Miguel Del Padrón": 2,
       "Plaza": 2,
+      "Cerro Y Diez De Octubre": 2,
       "Habana Vieja": 1,
       "Marianao": 1,
-      "Diez De Octubre": 1,
-      "Cotorro": 1
+      "Diez De Octubre": 1
     },
-    "averias_total": 28,
-    "daf_total": 4,
+    "averias_total": 32,
+    "daf_total": 2,
     "sen_collapse_total": 1,
     "sen_outage_days": 1,
     "sen_outage_minutes_total": 64,
@@ -430,25 +446,25 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3338,
+    "averias_total": 3342,
     "averias_top_municipios": {
       "Boyeros": 353,
       "Playa": 281,
-      "Arroyo Naranjo": 267,
+      "Arroyo Naranjo": 268,
       "Lisa": 243,
       "Habana Del Este": 228,
-      "Guanabacoa": 227,
-      "Cerro": 196,
+      "Guanabacoa": 228,
+      "Cerro": 197,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
       "Marianao": 159,
-      "Cotorro": 104,
+      "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2370,
+    "daf_total": 2368,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -466,10 +482,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-08-01",
-        "peak_mw": null
-      },
       {
         "date": "2026-08-02",
         "peak_mw": null
@@ -585,13 +597,13 @@
       {
         "date": "2026-08-30",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-31",
+        "peak_mw": 676
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-08-01",
-        "minutes": 0
-      },
       {
         "date": "2026-08-02",
         "minutes": 0
@@ -707,13 +719,13 @@
       {
         "date": "2026-08-30",
         "minutes": 0
+      },
+      {
+        "date": "2026-08-31",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-03-04",
-        "peak_mw": 325
-      },
       {
         "date": "2026-03-05",
         "peak_mw": 433
@@ -1429,6 +1441,10 @@
       {
         "date": "2026-08-30",
         "peak_mw": null
+      },
+      {
+        "date": "2026-08-31",
+        "peak_mw": 676
       }
     ],
     "monthly_max_peak_mw": [
@@ -1626,7 +1642,7 @@
       },
       {
         "month": "2026-08",
-        "max_peak_mw": 652
+        "max_peak_mw": 676
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1831,8 +1847,8 @@
     "sen_outage_days_last_30d": 1,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 1,
-    "daf_total": 2370,
-    "daf_last_30d": 4,
+    "daf_total": 2368,
+    "daf_last_30d": 2,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1853,9 +1869,9 @@
     }
   },
   "meta": {
-    "daily_count": 1491,
+    "daily_count": 1492,
     "monthly_count": 49,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-08-30"
+    "latest_date": "2026-08-31"
   }
 }
