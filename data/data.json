@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T19:40:17+00:00",
+  "generated_at": "2026-09-01T22:00:08+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-01T19:38:14+00:00",
+    "as_of": "2026-09-01T21:47:24+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,33 +33,29 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-01T18:23:56+00:00",
+      "ts": "2026-09-01T20:17:16+00:00",
       "averias": [
         {
-          "municipio": "Cotorro",
-          "direccion": "la siguiente dirección: 👉 Calle 20/69 y 71",
+          "municipio": "Lisa",
+          "direccion": "la siguiente dirección: 👉 Calle 214/73 y 81",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-01T18:23:56+00:00",
-        "municipio": "Cotorro",
-        "direccion": "la siguiente dirección: 👉 Calle 20/69 y 71",
-        "severity": "secundaria"
+        "ts": "2026-09-01T20:30:09+00:00",
+        "municipio": "Cerro",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-09-01T18:22:41+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "la siguiente dirección: 👉 Calle 9na/494 y 500",
+        "ts": "2026-09-01T20:17:16+00:00",
+        "municipio": "Lisa",
+        "direccion": "la siguiente dirección: 👉 Calle 214/73 y 81",
         "severity": "secundaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-09-01T19:20:23+00:00",
-      "type": "daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -281,7 +277,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -290,16 +286,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "Cotorro": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
     "averias_total": 2,
     "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 15,
-      "averias": 3,
-      "restablecimiento": 1,
-      "daf": 1
+      "restablecimiento": 9,
+      "otro": 9,
+      "averias": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -357,18 +353,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Cerro": 4,
+      "Lisa": 3,
       "Arroyo Naranjo": 3,
-      "Cerro": 3,
-      "Lisa": 2,
       "Plaza": 2,
-      "Habana Del Este": 2,
       "Marianao": 1,
       "Boyeros": 1,
-      "Diez De Octubre": 1,
-      "Cotorro": 1
+      "Habana Del Este": 1,
+      "Diez De Octubre": 1
     },
     "averias_total": 16,
-    "daf_total": 2,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -394,11 +389,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "Cotorro": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
     "averias_total": 2,
-    "daf_total": 1,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -423,20 +418,20 @@
       "Boyeros": 351,
       "Playa": 281,
       "Arroyo Naranjo": 269,
-      "Lisa": 243,
-      "Habana Del Este": 229,
+      "Lisa": 244,
+      "Habana Del Este": 228,
       "Guanabacoa": 227,
-      "Cerro": 198,
+      "Cerro": 199,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
       "Marianao": 159,
-      "Cotorro": 104,
+      "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2369,
+    "daf_total": 2368,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1827,8 +1822,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2369,
-    "daf_last_30d": 3,
+    "daf_total": 2368,
+    "daf_last_30d": 2,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
