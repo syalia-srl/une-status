@@ -1,62 +1,59 @@
 {
-  "generated_at": "2026-09-02T01:50:49+00:00",
+  "generated_at": "2026-09-02T06:35:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-02T01:42:14+00:00",
+    "as_of": "2026-09-02T05:53:54+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 632,
+    "current_mw_affected_at": "2026-09-02T04:40:48+00:00",
     "active_averias": {
-      "ts": "2026-09-02T00:02:26+00:00",
+      "ts": "2026-09-02T03:24:32+00:00",
       "averias": [
         {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "👉 Calle A e/ Ángeles y Calvario",
-          "severity": "secundaria"
+          "municipio": "Boyeros",
+          "direccion": "el siguiente circuito: 👉 D836: Repartos: Trigal, Parajón, García, Cuervo, El Trébol",
+          "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-02T00:02:26+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "👉 Calle A e/ Ángeles y Calvario",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-02T00:01:47+00:00",
-        "municipio": "Playa",
-        "direccion": "la siguiente dirección: 👉 Calle 70/29C y 29D",
-        "severity": "secundaria"
+        "ts": "2026-09-02T03:24:32+00:00",
+        "municipio": "Boyeros",
+        "direccion": "el siguiente circuito: 👉 D836: Repartos: Trigal, Parajón, García, Cuervo, El Trébol",
+        "severity": "primaria"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-09-02T05:34:46+00:00",
+      "type": "daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -263,10 +260,10 @@
     ]
   },
   "day": {
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 632,
+    "peak_time": "00:40",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -278,7 +275,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -286,21 +283,19 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Playa": 1,
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 16,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 18,
     "by_type_counts": {
-      "otro": 6,
-      "averias": 3,
-      "restablecimiento": 7
+      "restablecimiento": 11,
+      "actualizacion_bloques": 1,
+      "otro": 5,
+      "daf": 1
     }
   },
   "yesterday": {
-    "date": "2026-08-31",
-    "finalized": false,
+    "date": "2026-09-01",
+    "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
     "interruption_minutes": null,
@@ -323,24 +318,19 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 2,
-      "Cerro": 1
+      "Boyeros": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 18,
+    "averias_total": 1,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "restablecimiento": 7,
-      "restablecimiento_daf": 1,
-      "averias": 2,
-      "otro": 5,
-      "disparo_circuito": 2,
-      "mantenimiento": 1
+      "averias": 1,
+      "restablecimiento": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 458.0,
+    "avg_peak_mw": 641.5,
     "max_peak_mw": 651,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -353,18 +343,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 4,
       "Cerro": 3,
-      "Lisa": 2,
+      "Boyeros": 2,
       "Plaza": 2,
-      "Marianao": 1,
-      "Boyeros": 1,
+      "Arroyo Naranjo": 2,
       "Habana Del Este": 1,
-      "Diez De Octubre": 1,
-      "Playa": 1
+      "Diez De Octubre": 1
     },
-    "averias_total": 16,
-    "daf_total": 1,
+    "averias_total": 11,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -376,9 +363,9 @@
   "month": {
     "month": "2026-09",
     "finalized": false,
-    "dailies_count": 1,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "dailies_count": 2,
+    "avg_peak_mw": 632.0,
+    "max_peak_mw": 632,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -390,11 +377,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Playa": 1,
-      "Arroyo Naranjo": 1
+      "Boyeros": 1
     },
-    "averias_total": 2,
-    "daf_total": 0,
+    "averias_total": 1,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -414,11 +400,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3341,
+    "averias_total": 3340,
     "averias_top_municipios": {
-      "Boyeros": 351,
-      "Playa": 282,
-      "Arroyo Naranjo": 270,
+      "Boyeros": 352,
+      "Playa": 281,
+      "Arroyo Naranjo": 269,
       "Lisa": 243,
       "Habana Del Este": 228,
       "Guanabacoa": 227,
@@ -432,7 +418,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2368,
+    "daf_total": 2369,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -450,10 +436,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-08-03",
-        "peak_mw": null
-      },
       {
         "date": "2026-08-04",
         "peak_mw": null
@@ -569,13 +551,13 @@
       {
         "date": "2026-09-01",
         "peak_mw": null
+      },
+      {
+        "date": "2026-09-02",
+        "peak_mw": 632
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-08-03",
-        "minutes": 0
-      },
       {
         "date": "2026-08-04",
         "minutes": 0
@@ -691,13 +673,13 @@
       {
         "date": "2026-09-01",
         "minutes": 0
+      },
+      {
+        "date": "2026-09-02",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-03-06",
-        "peak_mw": 433
-      },
       {
         "date": "2026-03-07",
         "peak_mw": 309
@@ -1413,6 +1395,10 @@
       {
         "date": "2026-09-01",
         "peak_mw": null
+      },
+      {
+        "date": "2026-09-02",
+        "peak_mw": 632
       }
     ],
     "monthly_max_peak_mw": [
@@ -1614,7 +1600,7 @@
       },
       {
         "month": "2026-09",
-        "max_peak_mw": null
+        "max_peak_mw": 632
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1823,8 +1809,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2368,
-    "daf_last_30d": 2,
+    "daf_total": 2369,
+    "daf_last_30d": 3,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1845,9 +1831,9 @@
     }
   },
   "meta": {
-    "daily_count": 1493,
+    "daily_count": 1494,
     "monthly_count": 50,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-09-01"
+    "latest_date": "2026-09-02"
   }
 }
