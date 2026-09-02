@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-09-01T23:52:01+00:00",
+  "generated_at": "2026-09-02T01:50:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-01T23:51:39+00:00",
+    "as_of": "2026-09-02T01:42:14+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 518,
-    "current_mw_affected_at": "2026-09-01T23:51:39+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-01T23:07:53+00:00",
+      "ts": "2026-09-02T00:02:26+00:00",
       "averias": [
         {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "las siguientes direcciones: 👉 Callejón Obrapia /Calzada de Güines y Pinar",
+          "municipio": "Arroyo Naranjo",
+          "direccion": "👉 Calle A e/ Ángeles y Calvario",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-01T23:07:53+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "las siguientes direcciones: 👉 Callejón Obrapia /Calzada de Güines y Pinar",
+        "ts": "2026-09-02T00:02:26+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "👉 Calle A e/ Ángeles y Calvario",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-09-01T22:02:07+00:00",
-        "municipio": "Cerro",
-        "direccion": "la salida del circuito",
-        "severity": "primaria"
+        "ts": "2026-09-02T00:01:47+00:00",
+        "municipio": "Playa",
+        "direccion": "la siguiente dirección: 👉 Calle 70/29C y 29D",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -265,8 +265,8 @@
   "day": {
     "date": "2026-09-01",
     "finalized": false,
-    "peak_mw_affected": 518,
-    "peak_time": "19:51",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -287,16 +287,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1,
-      "San Miguel Del Padrón": 1
+      "Playa": 1,
+      "Arroyo Naranjo": 1
     },
     "averias_total": 2,
-    "source_msg_count": 9,
+    "source_msg_count": 16,
     "by_type_counts": {
-      "averias": 2,
-      "otro": 5,
-      "restablecimiento": 1,
-      "actualizacion_bloques": 1
+      "otro": 6,
+      "averias": 3,
+      "restablecimiento": 7
     }
   },
   "yesterday": {
@@ -341,7 +340,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 478.0,
+    "avg_peak_mw": 458.0,
     "max_peak_mw": 651,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -354,15 +353,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 4,
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 4,
+      "Cerro": 3,
       "Lisa": 2,
       "Plaza": 2,
       "Marianao": 1,
       "Boyeros": 1,
       "Habana Del Este": 1,
       "Diez De Octubre": 1,
-      "San Miguel Del Padrón": 1
+      "Playa": 1
     },
     "averias_total": 16,
     "daf_total": 1,
@@ -378,8 +377,8 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 1,
-    "avg_peak_mw": 518.0,
-    "max_peak_mw": 518,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -391,8 +390,8 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 1,
-      "San Miguel Del Padrón": 1
+      "Playa": 1,
+      "Arroyo Naranjo": 1
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -418,14 +417,14 @@
     "averias_total": 3341,
     "averias_top_municipios": {
       "Boyeros": 351,
-      "Playa": 281,
-      "Arroyo Naranjo": 269,
+      "Playa": 282,
+      "Arroyo Naranjo": 270,
       "Lisa": 243,
       "Habana Del Este": 228,
       "Guanabacoa": 227,
-      "Cerro": 199,
-      "San Miguel Del Padrón": 189,
+      "Cerro": 198,
       "Plaza": 189,
+      "San Miguel Del Padrón": 188,
       "Marianao": 159,
       "Cotorro": 103,
       "Centro Habana": 72,
@@ -569,7 +568,7 @@
       },
       {
         "date": "2026-09-01",
-        "peak_mw": 518
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1413,7 +1412,7 @@
       },
       {
         "date": "2026-09-01",
-        "peak_mw": 518
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1615,7 +1614,7 @@
       },
       {
         "month": "2026-09",
-        "max_peak_mw": 518
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
