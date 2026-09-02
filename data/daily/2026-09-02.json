@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 1,
+  "daf_count": 2,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -28,11 +28,10 @@
   "averias_total": 1,
   "source_msg_count": 20,
   "by_type_counts": {
-    "averias": 2,
-    "via_libre": 4,
-    "restablecimiento": 6,
+    "disparo_circuito": 7,
     "otro": 6,
-    "pinned": 1,
-    "daf": 1
+    "daf": 2,
+    "restablecimiento": 3,
+    "mantenimiento": 2
   }
 }
