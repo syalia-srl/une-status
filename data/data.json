@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-02T15:17:23+00:00",
+  "generated_at": "2026-09-02T18:49:43+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-02T15:17:16+00:00",
+    "as_of": "2026-09-02T18:46:46+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,10 +32,20 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-02T17:28:44+00:00",
+      "averias": []
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-02T16:56:31+00:00",
+        "municipio": "Lisa",
+        "direccion": "la siguiente dirección: 👉 44 / 33 y 35",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": {
-      "ts": "2026-09-02T15:17:16+00:00",
+      "ts": "2026-09-02T18:44:00+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -267,14 +277,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 14,
+    "averias_count_by_municipio": {
+      "Lisa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 7,
-      "corto": 1,
-      "via_libre": 2,
-      "otro": 3,
+      "averias": 2,
+      "via_libre": 4,
+      "restablecimiento": 6,
+      "otro": 6,
+      "pinned": 1,
       "daf": 1
     }
   },
@@ -333,9 +346,10 @@
       "Plaza": 2,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 1,
-      "Diez De Octubre": 1
+      "Diez De Octubre": 1,
+      "Lisa": 1
     },
-    "averias_total": 11,
+    "averias_total": 12,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -362,9 +376,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Lisa": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -385,12 +400,12 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3340,
+    "averias_total": 3341,
     "averias_top_municipios": {
       "Boyeros": 352,
       "Playa": 281,
       "Arroyo Naranjo": 269,
-      "Lisa": 243,
+      "Lisa": 244,
       "Habana Del Este": 228,
       "Guanabacoa": 227,
       "Cerro": 198,
