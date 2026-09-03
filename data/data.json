@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-03T01:15:36+00:00",
+  "generated_at": "2026-09-03T05:59:46+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-03T01:14:29+00:00",
+    "as_of": "2026-09-03T05:42:06+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,44 +30,41 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 604,
-    "current_mw_affected_at": "2026-09-03T01:00:26+00:00",
+    "current_mw_affected": 687,
+    "current_mw_affected_at": "2026-09-03T04:00:48+00:00",
     "active_averias": {
-      "ts": "2026-09-03T00:44:32+00:00",
+      "ts": "2026-09-03T04:02:03+00:00",
       "averias": [
         {
-          "municipio": "Habana Del Este",
-          "direccion": "la siguiente dirección: Vía Blanca y 428",
+          "municipio": "Cerro",
+          "direccion": "la siguiente dirección: Aranguren / 3ra y Blanquita",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-03T00:44:32+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "la siguiente dirección: Vía Blanca y 428",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-03T00:05:37+00:00",
-        "municipio": "Playa",
-        "direccion": "6 / 1ra y 3ra",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-03T00:02:23+00:00",
-        "municipio": "Playa",
+        "ts": "2026-09-03T04:55:14+00:00",
+        "municipio": "Marianao",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-09-02T23:53:56+00:00",
-        "municipio": "Centro Habana",
-        "direccion": ": Pocito / Infanta y Final",
+        "ts": "2026-09-03T04:02:03+00:00",
+        "municipio": "Cerro",
+        "direccion": "la siguiente dirección: Aranguren / 3ra y Blanquita",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-03T02:24:17+00:00",
+        "municipio": "Cerro",
+        "direccion": "Avenida la Ceiba, esquina Avenida del Este",
         "severity": "secundaria"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-09-03T03:32:50+00:00",
+      "type": "daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -274,10 +271,10 @@
     ]
   },
   "day": {
-    "date": "2026-09-02",
+    "date": "2026-09-03",
     "finalized": false,
-    "peak_mw_affected": 604,
-    "peak_time": "21:00",
+    "peak_mw_affected": 687,
+    "peak_time": "00:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -298,23 +295,22 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa": 2,
-      "Centro Habana": 1,
-      "Habana Del Este": 1
+      "Cerro": 1,
+      "Marianao": 1
     },
-    "averias_total": 4,
-    "source_msg_count": 20,
+    "averias_total": 2,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "otro": 6,
-      "restablecimiento": 7,
-      "averias": 3,
-      "disparo_circuito": 2,
-      "mantenimiento": 1,
-      "actualizacion_bloques": 1
+      "actualizacion_bloques": 1,
+      "averias": 1,
+      "restablecimiento": 5,
+      "disparo_circuito": 1,
+      "via_libre": 1,
+      "otro": 3
     }
   },
   "yesterday": {
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -329,7 +325,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -338,20 +334,23 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Cerro": 1
     },
     "averias_total": 1,
-    "source_msg_count": 2,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento": 1
+      "averias": 2,
+      "restablecimiento_daf": 1,
+      "restablecimiento": 2,
+      "otro": 2,
+      "daf": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 627.5,
-    "max_peak_mw": 651,
+    "avg_peak_mw": 669.0,
+    "max_peak_mw": 687,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -363,17 +362,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 3,
-      "Boyeros": 2,
-      "Plaza": 2,
-      "Habana Del Este": 2,
+      "Cerro": 5,
       "Arroyo Naranjo": 2,
-      "Playa": 2,
+      "Plaza": 1,
+      "Habana Del Este": 1,
       "Diez De Octubre": 1,
-      "Centro Habana": 1
+      "Boyeros": 1,
+      "Marianao": 1
     },
-    "averias_total": 15,
-    "daf_total": 1,
+    "averias_total": 12,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -385,9 +383,9 @@
   "month": {
     "month": "2026-09",
     "finalized": false,
-    "dailies_count": 2,
-    "avg_peak_mw": 604.0,
-    "max_peak_mw": 604,
+    "dailies_count": 3,
+    "avg_peak_mw": 687.0,
+    "max_peak_mw": 687,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -399,13 +397,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Playa": 2,
+      "Cerro": 2,
       "Boyeros": 1,
-      "Centro Habana": 1,
-      "Habana Del Este": 1
+      "Marianao": 1
     },
-    "averias_total": 5,
-    "daf_total": 0,
+    "averias_total": 4,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -425,25 +422,25 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3344,
+    "averias_total": 3343,
     "averias_top_municipios": {
       "Boyeros": 352,
-      "Playa": 283,
+      "Playa": 281,
       "Arroyo Naranjo": 269,
       "Lisa": 243,
-      "Habana Del Este": 229,
+      "Habana Del Este": 228,
       "Guanabacoa": 227,
-      "Cerro": 198,
+      "Cerro": 200,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
-      "Marianao": 159,
+      "Marianao": 160,
       "Cotorro": 103,
-      "Centro Habana": 73,
+      "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2368,
+    "daf_total": 2369,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -461,10 +458,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-08-04",
-        "peak_mw": null
-      },
       {
         "date": "2026-08-05",
         "peak_mw": 641
@@ -579,14 +572,14 @@
       },
       {
         "date": "2026-09-02",
-        "peak_mw": 604
+        "peak_mw": null
+      },
+      {
+        "date": "2026-09-03",
+        "peak_mw": 687
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-08-04",
-        "minutes": 0
-      },
       {
         "date": "2026-08-05",
         "minutes": 0
@@ -702,13 +695,13 @@
       {
         "date": "2026-09-02",
         "minutes": 0
+      },
+      {
+        "date": "2026-09-03",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-03-07",
-        "peak_mw": 309
-      },
       {
         "date": "2026-03-08",
         "peak_mw": 226
@@ -1423,7 +1416,11 @@
       },
       {
         "date": "2026-09-02",
-        "peak_mw": 604
+        "peak_mw": null
+      },
+      {
+        "date": "2026-09-03",
+        "peak_mw": 687
       }
     ],
     "monthly_max_peak_mw": [
@@ -1625,7 +1622,7 @@
       },
       {
         "month": "2026-09",
-        "max_peak_mw": 604
+        "max_peak_mw": 687
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1834,8 +1831,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2368,
-    "daf_last_30d": 2,
+    "daf_total": 2369,
+    "daf_last_30d": 3,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1856,9 +1853,9 @@
     }
   },
   "meta": {
-    "daily_count": 1494,
+    "daily_count": 1495,
     "monthly_count": 50,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-09-02"
+    "latest_date": "2026-09-03"
   }
 }
