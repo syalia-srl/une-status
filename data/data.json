@@ -1,58 +1,69 @@
 {
-  "generated_at": "2026-09-04T19:35:56+00:00",
+  "generated_at": "2026-09-04T21:48:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-04T19:33:32+00:00",
+    "as_of": "2026-09-04T21:28:11+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 279,
-    "current_mw_affected_at": "2026-09-04T19:16:01+00:00",
-    "active_averias": null,
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-09-04T20:37:41+00:00",
+      "averias": [
+        {
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "el Circuito H443 el siguiente cuadrante : 👉 Callejón D y Blumer Ramos , Juanelo y Reparto La Fernanda 🚨 ⚡",
+          "severity": "primaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-09-04T19:33:32+00:00",
-        "municipio": "Cerro",
-        "kind": "disparo_circuito"
+        "ts": "2026-09-04T20:37:41+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "el Circuito H443 el siguiente cuadrante : 👉 Callejón D y Blumer Ramos , Juanelo y Reparto La Fernanda 🚨 ⚡",
+        "severity": "primaria"
       },
       {
-        "ts": "2026-09-04T19:22:58+00:00",
+        "ts": "2026-09-04T20:29:34+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": ": 👉 4ta / 1ra y 3ra, La Caridad , Santa Fé",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-04T20:24:51+00:00",
         "municipio": "Lisa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-04T18:57:06+00:00",
-        "municipio": "Cerro",
         "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
-      "ts": "2026-09-04T19:13:29+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-09-04T20:31:27+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -262,8 +273,8 @@
   "day": {
     "date": "2026-09-04",
     "finalized": false,
-    "peak_mw_affected": 279,
-    "peak_time": "15:16",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -275,7 +286,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 3,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -284,18 +295,19 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 2,
-      "Lisa": 1
+      "Lisa": 1,
+      "Guanabacoa": 1,
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 3,
     "source_msg_count": 20,
     "by_type_counts": {
-      "daf": 1,
-      "restablecimiento_daf": 2,
-      "otro": 12,
-      "disparo_circuito": 3,
-      "restablecimiento": 1,
-      "actualizacion_bloques": 1
+      "via_libre": 1,
+      "disparo_circuito": 1,
+      "daf": 3,
+      "averias": 2,
+      "otro": 11,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
@@ -336,8 +348,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 279.0,
-    "max_peak_mw": 279,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -349,17 +361,19 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 6,
+      "Cerro": 4,
       "Arroyo Naranjo": 2,
       "Boyeros": 2,
       "Plaza": 1,
       "Habana Del Este": 1,
       "Diez De Octubre": 1,
       "Marianao": 1,
-      "Lisa": 1
+      "Lisa": 1,
+      "Guanabacoa": 1,
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 15,
-    "daf_total": 2,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -372,8 +386,8 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 4,
-    "avg_peak_mw": 279.0,
-    "max_peak_mw": 279,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -385,13 +399,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 3,
       "Boyeros": 2,
+      "Cerro": 1,
       "Marianao": 1,
-      "Lisa": 1
+      "Lisa": 1,
+      "Guanabacoa": 1,
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 7,
-    "daf_total": 2,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -418,10 +434,10 @@
       "Arroyo Naranjo": 269,
       "Lisa": 244,
       "Habana Del Este": 228,
-      "Guanabacoa": 227,
-      "Cerro": 201,
+      "Guanabacoa": 228,
+      "Cerro": 199,
+      "San Miguel Del Padrón": 189,
       "Plaza": 189,
-      "San Miguel Del Padrón": 188,
       "Marianao": 160,
       "Cotorro": 103,
       "Centro Habana": 72,
@@ -429,7 +445,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2370,
+    "daf_total": 2372,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -565,7 +581,7 @@
       },
       {
         "date": "2026-09-04",
-        "peak_mw": 279
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1409,7 +1425,7 @@
       },
       {
         "date": "2026-09-04",
-        "peak_mw": 279
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1611,7 +1627,7 @@
       },
       {
         "month": "2026-09",
-        "max_peak_mw": 279
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1820,8 +1836,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2370,
-    "daf_last_30d": 4,
+    "daf_total": 2372,
+    "daf_last_30d": 6,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
