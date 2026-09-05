@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-05T20:20:48+00:00",
+  "generated_at": "2026-09-05T22:07:29+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-05T20:04:07+00:00",
+    "as_of": "2026-09-05T22:00:27+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,41 +30,61 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 338,
-    "current_mw_affected_at": "2026-09-05T19:12:40+00:00",
+    "current_mw_affected": 443,
+    "current_mw_affected_at": "2026-09-05T22:00:27+00:00",
     "active_averias": {
-      "ts": "2026-09-05T20:04:07+00:00",
+      "ts": "2026-09-05T20:32:23+00:00",
       "averias": [
         {
           "municipio": "Plaza",
-          "direccion": "👉 11/ 18 Y 20",
+          "direccion": "👉 6 / 21 Y 23",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-05T20:04:07+00:00",
-        "municipio": "Plaza",
-        "direccion": "👉 11/ 18 Y 20",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-05T19:32:12+00:00",
-        "municipio": "San Miguel Del Padrón",
+        "ts": "2026-09-05T20:51:24+00:00",
+        "municipio": "Boyeros",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-09-05T19:19:52+00:00",
-        "municipio": "Boyeros",
-        "direccion": "el siguiente circuito: 👉 2205: Repartos Residencial Almendares, Alturas de La Habana y Capdevila (hasta el semáforo) Alrededores Comunidad Arroyo Alto, calle 1ra hasta calzada de Aldabó (Altahabana) ✅",
-        "severity": "primaria"
+        "ts": "2026-09-05T20:50:10+00:00",
+        "municipio": "Guanabacoa",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-05T20:32:23+00:00",
+        "municipio": "Plaza",
+        "direccion": "👉 6 / 21 Y 23",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-05T20:30:49+00:00",
+        "municipio": "Plaza",
+        "direccion": "👉 Flores / Serafines y Tamarindo",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-05T20:29:40+00:00",
+        "municipio": "Plaza",
+        "direccion": "👉 17 / 28 y 30",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-05T20:26:50+00:00",
+        "municipio": "Plaza",
+        "direccion": "👉 14 Y Canal",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-05T20:26:01+00:00",
+        "municipio": "Plaza",
+        "direccion": "👉 Ave La Ceiba Esq",
+        "severity": "secundaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-09-05T18:48:21+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -273,8 +293,8 @@
   "day": {
     "date": "2026-09-05",
     "finalized": false,
-    "peak_mw_affected": 338,
-    "peak_time": "15:12",
+    "peak_mw_affected": 443,
+    "peak_time": "18:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -295,22 +315,19 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "San Miguel Del Padrón": 1,
-      "Plaza": 1
+      "Plaza": 5,
+      "Guanabacoa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 3,
+    "averias_total": 7,
     "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 8,
-      "restablecimiento": 4,
-      "restablecimiento_daf": 1,
-      "actualizacion_bloques": 1,
-      "averias": 2,
-      "via_libre": 1,
-      "disparo_circuito": 1,
-      "mantenimiento": 1,
-      "unidad_termoelectrica": 1
+      "unidad_termoelectrica": 1,
+      "averias": 5,
+      "disparo_circuito": 2,
+      "otro": 10,
+      "restablecimiento": 1,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -355,7 +372,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 438.0,
+    "avg_peak_mw": 490.5,
     "max_peak_mw": 538,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -368,14 +385,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Plaza": 5,
       "Cerro": 4,
       "Boyeros": 4,
       "Arroyo Naranjo": 3,
       "Marianao": 1,
-      "San Miguel Del Padrón": 1,
-      "Plaza": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 14,
+    "averias_total": 18,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -389,7 +406,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 5,
-    "avg_peak_mw": 438.0,
+    "avg_peak_mw": 490.5,
     "max_peak_mw": 538,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -402,14 +419,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Plaza": 5,
       "Boyeros": 4,
       "Cerro": 2,
       "Marianao": 1,
       "Arroyo Naranjo": 1,
-      "San Miguel Del Padrón": 1,
-      "Plaza": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 10,
+    "averias_total": 14,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -430,17 +447,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3349,
+    "averias_total": 3353,
     "averias_top_municipios": {
       "Boyeros": 355,
       "Playa": 281,
       "Arroyo Naranjo": 270,
       "Lisa": 243,
       "Habana Del Este": 228,
-      "Guanabacoa": 227,
+      "Guanabacoa": 228,
       "Cerro": 200,
-      "Plaza": 190,
-      "San Miguel Del Padrón": 189,
+      "Plaza": 194,
+      "San Miguel Del Padrón": 188,
       "Marianao": 160,
       "Cotorro": 103,
       "Centro Habana": 72,
@@ -584,7 +601,7 @@
       },
       {
         "date": "2026-09-05",
-        "peak_mw": 338
+        "peak_mw": 443
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1428,7 +1445,7 @@
       },
       {
         "date": "2026-09-05",
-        "peak_mw": 338
+        "peak_mw": 443
       }
     ],
     "monthly_max_peak_mw": [
