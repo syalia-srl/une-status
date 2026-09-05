@@ -1,7 +1,7 @@
 {
   "month": "2026-09",
   "finalized": false,
-  "dailies_count": 4,
+  "dailies_count": 5,
   "avg_peak_mw": 538.0,
   "max_peak_mw": 538,
   "total_interruption_minutes": 0,
@@ -18,10 +18,11 @@
     "Boyeros": 3,
     "Cerro": 2,
     "Marianao": 1,
-    "Arroyo Naranjo": 1
+    "Arroyo Naranjo": 1,
+    "Guanabacoa": 1
   },
-  "averias_total": 7,
-  "daf_total": 1,
+  "averias_total": 8,
+  "daf_total": 4,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
