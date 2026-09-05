@@ -1,88 +1,69 @@
 {
-  "generated_at": "2026-09-05T18:14:18+00:00",
+  "generated_at": "2026-09-05T20:20:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-05T18:12:42+00:00",
+    "as_of": "2026-09-05T20:04:07+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 338,
+    "current_mw_affected_at": "2026-09-05T19:12:40+00:00",
     "active_averias": {
-      "ts": "2026-09-05T17:14:09+00:00",
+      "ts": "2026-09-05T20:04:07+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "direccion": "👉 Camagüey / Callejón de los Perros y Pastora",
+          "municipio": "Plaza",
+          "direccion": "👉 11/ 18 Y 20",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-05T17:14:09+00:00",
-        "municipio": "Cerro",
-        "direccion": "👉 Camagüey / Callejón de los Perros y Pastora",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-05T17:11:00+00:00",
+        "ts": "2026-09-05T20:04:07+00:00",
         "municipio": "Plaza",
-        "direccion": "👉 Ayuntamiento / Lombillo y San Pedro",
+        "direccion": "👉 11/ 18 Y 20",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-09-05T17:09:42+00:00",
-        "municipio": "Plaza",
-        "direccion": "👉 Tulipan y 45",
-        "severity": "secundaria"
+        "ts": "2026-09-05T19:32:12+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-09-05T17:08:15+00:00",
-        "municipio": "Plaza",
-        "direccion": "👉 Basarrate / Neptuno y San Miguel",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-05T16:38:45+00:00",
-        "municipio": "Marianao",
-        "direccion": "👉 29 e/ 122A y 124",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-05T16:37:50+00:00",
-        "municipio": "Lisa",
-        "direccion": "👉 169 e/ 316 y 318",
-        "severity": "secundaria"
+        "ts": "2026-09-05T19:19:52+00:00",
+        "municipio": "Boyeros",
+        "direccion": "el siguiente circuito: 👉 2205: Repartos Residencial Almendares, Alturas de La Habana y Capdevila (hasta el semáforo) Alrededores Comunidad Arroyo Alto, calle 1ra hasta calzada de Aldabó (Altahabana) ✅",
+        "severity": "primaria"
       }
     ],
     "last_daf": {
-      "ts": "2026-09-05T18:04:54+00:00",
-      "type": "daf"
+      "ts": "2026-09-05T18:48:21+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -292,8 +273,8 @@
   "day": {
     "date": "2026-09-05",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 338,
+    "peak_time": "15:12",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -305,7 +286,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 3,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -314,19 +295,22 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 3,
-      "Lisa": 1,
-      "Marianao": 1,
-      "Cerro": 1
+      "Boyeros": 1,
+      "San Miguel Del Padrón": 1,
+      "Plaza": 1
     },
-    "averias_total": 6,
+    "averias_total": 3,
     "source_msg_count": 20,
     "by_type_counts": {
-      "averias": 6,
-      "daf": 3,
-      "restablecimiento": 7,
-      "restablecimiento_daf": 2,
-      "otro": 2
+      "otro": 8,
+      "restablecimiento": 4,
+      "restablecimiento_daf": 1,
+      "actualizacion_bloques": 1,
+      "averias": 2,
+      "via_libre": 1,
+      "disparo_circuito": 1,
+      "mantenimiento": 1,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
@@ -371,7 +355,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 538.0,
+    "avg_peak_mw": 438.0,
     "max_peak_mw": 538,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -384,15 +368,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 5,
+      "Cerro": 4,
+      "Boyeros": 4,
       "Arroyo Naranjo": 3,
-      "Boyeros": 3,
-      "Plaza": 3,
-      "Marianao": 2,
-      "Lisa": 1
+      "Marianao": 1,
+      "San Miguel Del Padrón": 1,
+      "Plaza": 1
     },
-    "averias_total": 17,
-    "daf_total": 4,
+    "averias_total": 14,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -405,7 +389,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 5,
-    "avg_peak_mw": 538.0,
+    "avg_peak_mw": 438.0,
     "max_peak_mw": 538,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -418,15 +402,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 3,
-      "Cerro": 3,
-      "Plaza": 3,
-      "Marianao": 2,
+      "Boyeros": 4,
+      "Cerro": 2,
+      "Marianao": 1,
       "Arroyo Naranjo": 1,
-      "Lisa": 1
+      "San Miguel Del Padrón": 1,
+      "Plaza": 1
     },
-    "averias_total": 13,
-    "daf_total": 4,
+    "averias_total": 10,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -446,25 +430,25 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3352,
+    "averias_total": 3349,
     "averias_top_municipios": {
-      "Boyeros": 354,
+      "Boyeros": 355,
       "Playa": 281,
       "Arroyo Naranjo": 270,
-      "Lisa": 244,
+      "Lisa": 243,
       "Habana Del Este": 228,
       "Guanabacoa": 227,
-      "Cerro": 201,
-      "Plaza": 192,
-      "San Miguel Del Padrón": 188,
-      "Marianao": 161,
+      "Cerro": 200,
+      "Plaza": 190,
+      "San Miguel Del Padrón": 189,
+      "Marianao": 160,
       "Cotorro": 103,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2372,
+    "daf_total": 2369,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -600,7 +584,7 @@
       },
       {
         "date": "2026-09-05",
-        "peak_mw": null
+        "peak_mw": 338
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1444,7 +1428,7 @@
       },
       {
         "date": "2026-09-05",
-        "peak_mw": null
+        "peak_mw": 338
       }
     ],
     "monthly_max_peak_mw": [
@@ -1855,8 +1839,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2372,
-    "daf_last_30d": 6,
+    "daf_total": 2369,
+    "daf_last_30d": 3,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
