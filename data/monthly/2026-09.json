@@ -2,7 +2,7 @@
   "month": "2026-09",
   "finalized": false,
   "dailies_count": 6,
-  "avg_peak_mw": 487.3,
+  "avg_peak_mw": 545.5,
   "max_peak_mw": 553,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -18,13 +18,10 @@
     "Boyeros": 4,
     "Cerro": 3,
     "Arroyo Naranjo": 2,
-    "Marianao": 1,
-    "Guanabacoa": 1,
-    "Habana Del Este": 1,
-    "Plaza": 1
+    "Marianao": 1
   },
-  "averias_total": 13,
-  "daf_total": 7,
+  "averias_total": 10,
+  "daf_total": 5,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
