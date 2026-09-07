@@ -1,8 +1,8 @@
 {
   "date": "2026-09-07",
   "finalized": false,
-  "peak_mw_affected": 211,
-  "peak_time": "15:18",
+  "peak_mw_affected": 330,
+  "peak_time": "18:01",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,19 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Habana Del Este": 1,
-    "Cotorro": 1
+    "Boyeros": 2,
+    "Centro Habana": 1
   },
-  "averias_total": 2,
+  "averias_total": 3,
   "source_msg_count": 20,
   "by_type_counts": {
-    "restablecimiento": 10,
-    "daf": 2,
-    "restablecimiento_daf": 1,
+    "restablecimiento_daf": 3,
+    "otro": 6,
+    "restablecimiento": 2,
+    "daf": 3,
     "mantenimiento": 1,
-    "otro": 3,
     "disparo_circuito": 2,
-    "actualizacion_bloques": 1
+    "actualizacion_bloques": 1,
+    "averias": 2
   }
 }
