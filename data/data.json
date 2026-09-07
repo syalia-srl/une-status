@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-07T05:12:10+00:00",
+  "generated_at": "2026-09-07T10:14:58+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-07T04:55:14+00:00",
+    "as_of": "2026-09-07T10:13:16+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,14 +30,22 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 415,
-    "current_mw_affected_at": "2026-09-07T04:41:03+00:00",
+    "current_mw_affected": 159,
+    "current_mw_affected_at": "2026-09-07T10:10:00+00:00",
     "active_averias": null,
-    "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-09-07T04:37:58+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-07T10:13:16+00:00",
+        "municipio": "Centro Habana Disparo Del Circuito",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-07T10:04:01+00:00",
+        "municipio": "Centro Habana",
+        "kind": "disparo_circuito"
+      }
+    ],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -246,8 +254,8 @@
   "day": {
     "date": "2026-09-07",
     "finalized": false,
-    "peak_mw_affected": 415,
-    "peak_time": "00:41",
+    "peak_mw_affected": 159,
+    "peak_time": "06:10",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -267,15 +275,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 19,
+    "averias_count_by_municipio": {
+      "Centro Habana": 1,
+      "Centro Habana Disparo Del Circuito": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 8,
-      "restablecimiento": 7,
-      "restablecimiento_daf": 2,
-      "actualizacion_bloques": 1,
-      "mantenimiento": 1
+      "restablecimiento": 5,
+      "otro": 12,
+      "disparo_circuito": 2,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -312,7 +322,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 502.0,
+    "avg_peak_mw": 416.7,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -328,9 +338,11 @@
       "Boyeros": 4,
       "Cerro": 3,
       "Arroyo Naranjo": 2,
-      "Marianao": 1
+      "Marianao": 1,
+      "Centro Habana": 1,
+      "Centro Habana Disparo Del Circuito": 1
     },
-    "averias_total": 10,
+    "averias_total": 12,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -344,7 +356,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 502.0,
+    "avg_peak_mw": 416.7,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -360,9 +372,11 @@
       "Boyeros": 4,
       "Cerro": 3,
       "Arroyo Naranjo": 2,
-      "Marianao": 1
+      "Marianao": 1,
+      "Centro Habana": 1,
+      "Centro Habana Disparo Del Circuito": 1
     },
-    "averias_total": 10,
+    "averias_total": 12,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -383,7 +397,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3349,
+    "averias_total": 3351,
     "averias_top_municipios": {
       "Boyeros": 355,
       "Playa": 281,
@@ -396,7 +410,7 @@
       "San Miguel Del Padrón": 188,
       "Marianao": 160,
       "Cotorro": 103,
-      "Centro Habana": 72,
+      "Centro Habana": 73,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
@@ -537,7 +551,7 @@
       },
       {
         "date": "2026-09-07",
-        "peak_mw": 415
+        "peak_mw": 159
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1381,7 +1395,7 @@
       },
       {
         "date": "2026-09-07",
-        "peak_mw": 415
+        "peak_mw": 159
       }
     ],
     "monthly_max_peak_mw": [
