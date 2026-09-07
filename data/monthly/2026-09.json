@@ -2,7 +2,7 @@
   "month": "2026-09",
   "finalized": false,
   "dailies_count": 7,
-  "avg_peak_mw": 416.7,
+  "avg_peak_mw": 545.5,
   "max_peak_mw": 553,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -20,10 +20,10 @@
     "Arroyo Naranjo": 2,
     "Marianao": 1,
     "Centro Habana": 1,
-    "Centro Habana Disparo Del Circuito": 1
+    "Habana Del Este": 1
   },
   "averias_total": 12,
-  "daf_total": 4,
+  "daf_total": 5,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
   "sen_outage_minutes_total": 0,
