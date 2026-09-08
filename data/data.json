@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-09-08T20:05:37+00:00",
+  "generated_at": "2026-09-08T22:37:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-08T20:03:31+00:00",
+    "as_of": "2026-09-08T22:36:35+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 273,
+    "current_mw_affected_at": "2026-09-08T22:02:48+00:00",
     "active_averias": {
-      "ts": "2026-09-08T19:52:09+00:00",
+      "ts": "2026-09-08T22:16:41+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "la siguiente dirección: 👉 San Joaquín / Juan Bosco y San Andrés",
-          "severity": "secundaria"
+          "municipio": "Cerro",
+          "direccion": "los siguientes circuitos: 👉 C16: Alrededores de calles Vía Blanca desde Infanta hasta Prensa, Prensa desde Vía Blanca hasta calzada del Cerro, Ferrer desde calzada del Cerro hasta Conil",
+          "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-08T19:52:09+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la siguiente dirección: 👉 San Joaquín / Juan Bosco y San Andrés",
-        "severity": "secundaria"
+        "ts": "2026-09-08T22:16:41+00:00",
+        "municipio": "Cerro",
+        "direccion": "los siguientes circuitos: 👉 C16: Alrededores de calles Vía Blanca desde Infanta hasta Prensa, Prensa desde Vía Blanca hasta calzada del Cerro, Ferrer desde calzada del Cerro hasta Conil",
+        "severity": "primaria"
       }
     ],
     "last_daf": null,
@@ -259,8 +259,8 @@
   "day": {
     "date": "2026-09-08",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 273,
+    "peak_time": "18:02",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -281,17 +281,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Cerro": 1
     },
     "averias_total": 1,
     "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 12,
-      "restablecimiento": 3,
-      "mantenimiento": 1,
-      "via_libre": 2,
-      "averias": 1,
-      "nota_diaria": 1
+      "restablecimiento": 8,
+      "actualizacion_bloques": 1,
+      "otro": 10,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -330,7 +328,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 545.5,
+    "avg_peak_mw": 454.7,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -343,11 +341,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 3,
+      "Cerro": 4,
       "Boyeros": 3,
       "Arroyo Naranjo": 2,
-      "Marianao": 1,
-      "Guanabacoa": 1
+      "Marianao": 1
     },
     "averias_total": 10,
     "daf_total": 4,
@@ -363,7 +360,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 8,
-    "avg_peak_mw": 545.5,
+    "avg_peak_mw": 454.7,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -377,10 +374,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 4,
-      "Cerro": 3,
+      "Cerro": 4,
       "Arroyo Naranjo": 2,
-      "Marianao": 1,
-      "Guanabacoa": 1
+      "Marianao": 1
     },
     "averias_total": 11,
     "daf_total": 4,
@@ -410,8 +406,8 @@
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 228,
-      "Guanabacoa": 228,
-      "Cerro": 201,
+      "Guanabacoa": 227,
+      "Cerro": 202,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
       "Marianao": 160,
@@ -557,7 +553,7 @@
       },
       {
         "date": "2026-09-08",
-        "peak_mw": null
+        "peak_mw": 273
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1401,7 +1397,7 @@
       },
       {
         "date": "2026-09-08",
-        "peak_mw": null
+        "peak_mw": 273
       }
     ],
     "monthly_max_peak_mw": [
