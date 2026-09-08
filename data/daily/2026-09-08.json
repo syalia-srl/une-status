@@ -1,8 +1,8 @@
 {
   "date": "2026-09-08",
   "finalized": false,
-  "peak_mw_affected": 72,
-  "peak_time": "12:33",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,19 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Cerro": 1
+    "Guanabacoa": 1
   },
   "averias_total": 1,
   "source_msg_count": 20,
   "by_type_counts": {
-    "daf": 2,
-    "mantenimiento": 3,
-    "restablecimiento_daf": 4,
-    "actualizacion_bloques": 1,
-    "otro": 4,
-    "pinned": 1,
+    "otro": 12,
     "restablecimiento": 3,
-    "disparo_circuito": 1,
-    "averias": 1
+    "mantenimiento": 1,
+    "via_libre": 2,
+    "averias": 1,
+    "nota_diaria": 1
   }
 }
