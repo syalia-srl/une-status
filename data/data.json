@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-09T14:00:19+00:00",
+  "generated_at": "2026-09-09T17:48:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-09T13:59:38+00:00",
+    "as_of": "2026-09-09T17:35:18+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,22 +30,29 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 147,
-    "current_mw_affected_at": "2026-09-09T13:31:13+00:00",
+    "current_mw_affected": 127,
+    "current_mw_affected_at": "2026-09-09T16:51:27+00:00",
     "active_averias": {
-      "ts": "2026-09-09T13:47:50+00:00",
+      "ts": "2026-09-09T17:35:18+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
-          "direccion": "la siguiente zona: 👉 Escuela Salvador Allende y Banco Metropolitano ( Puente de 100) y sus alrededores 🚨"
+          "municipio": "Plaza",
+          "direccion": "el siguiente circuito: 👉 1248: Calle Ave del Zoologico desde Ave",
+          "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-09T13:47:50+00:00",
-        "municipio": "Boyeros",
-        "direccion": "la siguiente zona: 👉 Escuela Salvador Allende y Banco Metropolitano ( Puente de 100) y sus alrededores 🚨"
+        "ts": "2026-09-09T17:35:18+00:00",
+        "municipio": "Plaza",
+        "direccion": "el siguiente circuito: 👉 1248: Calle Ave del Zoologico desde Ave",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-09-09T15:54:15+00:00",
+        "municipio": "Plaza",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -257,8 +264,8 @@
   "day": {
     "date": "2026-09-09",
     "finalized": false,
-    "peak_mw_affected": 147,
-    "peak_time": "09:31",
+    "peak_mw_affected": 127,
+    "peak_time": "12:51",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -279,16 +286,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Plaza": 2
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 10,
-      "via_libre": 1,
-      "otro": 7,
-      "actualizacion_bloques": 1,
-      "averias": 1
+      "averias": 3,
+      "disparo_circuito": 1,
+      "restablecimiento": 12,
+      "otro": 3,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -334,7 +341,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 335.2,
+    "avg_peak_mw": 330.2,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -347,15 +354,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
+      "Boyeros": 3,
       "Cerro": 3,
       "Arroyo Naranjo": 2,
+      "Plaza": 2,
       "Marianao": 1,
       "Habana Del Este": 1,
       "Playa": 1,
       "Cotorro": 1
     },
-    "averias_total": 13,
+    "averias_total": 14,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -369,7 +377,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 9,
-    "avg_peak_mw": 335.2,
+    "avg_peak_mw": 330.2,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -382,15 +390,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
+      "Boyeros": 4,
       "Cerro": 4,
       "Arroyo Naranjo": 2,
+      "Plaza": 2,
       "Marianao": 1,
       "Habana Del Este": 1,
       "Playa": 1,
       "Cotorro": 1
     },
-    "averias_total": 15,
+    "averias_total": 16,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -411,16 +420,16 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3354,
+    "averias_total": 3355,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 355,
       "Playa": 282,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
       "Cerro": 202,
-      "Plaza": 189,
+      "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 160,
       "Cotorro": 104,
@@ -565,7 +574,7 @@
       },
       {
         "date": "2026-09-09",
-        "peak_mw": 147
+        "peak_mw": 127
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1409,7 +1418,7 @@
       },
       {
         "date": "2026-09-09",
-        "peak_mw": 147
+        "peak_mw": 127
       }
     ],
     "monthly_max_peak_mw": [
