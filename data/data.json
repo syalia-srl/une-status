@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-09T09:46:20+00:00",
+  "generated_at": "2026-09-09T14:00:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-09T09:41:17+00:00",
+    "as_of": "2026-09-09T13:59:38+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,30 +30,22 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 278,
-    "current_mw_affected_at": "2026-09-09T07:03:05+00:00",
+    "current_mw_affected": 147,
+    "current_mw_affected_at": "2026-09-09T13:31:13+00:00",
     "active_averias": {
-      "ts": "2026-09-09T08:17:30+00:00",
+      "ts": "2026-09-09T13:47:50+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "👉 340 entre 310 y final",
-          "severity": "secundaria"
+          "municipio": "Boyeros",
+          "direccion": "la siguiente zona: 👉 Escuela Salvador Allende y Banco Metropolitano ( Puente de 100) y sus alrededores 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-09T08:17:30+00:00",
-        "municipio": "Lisa",
-        "direccion": "👉 340 entre 310 y final",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-09T06:37:30+00:00",
+        "ts": "2026-09-09T13:47:50+00:00",
         "municipio": "Boyeros",
-        "direccion": "👉 Calle 6ta entre Trébol y Lindero",
-        "severity": "secundaria"
+        "direccion": "la siguiente zona: 👉 Escuela Salvador Allende y Banco Metropolitano ( Puente de 100) y sus alrededores 🚨"
       }
     ],
     "last_daf": null,
@@ -265,8 +257,8 @@
   "day": {
     "date": "2026-09-09",
     "finalized": false,
-    "peak_mw_affected": 278,
-    "peak_time": "03:03",
+    "peak_mw_affected": 147,
+    "peak_time": "09:31",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -287,17 +279,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Lisa": 1
+      "Boyeros": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 13,
-      "otro": 3,
-      "averias": 2,
+      "restablecimiento": 10,
+      "via_libre": 1,
+      "otro": 7,
       "actualizacion_bloques": 1,
-      "pinned": 1
+      "averias": 1
     }
   },
   "yesterday": {
@@ -343,7 +334,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 368.0,
+    "avg_peak_mw": 335.2,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -362,10 +353,9 @@
       "Marianao": 1,
       "Habana Del Este": 1,
       "Playa": 1,
-      "Cotorro": 1,
-      "Lisa": 1
+      "Cotorro": 1
     },
-    "averias_total": 14,
+    "averias_total": 13,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,7 +369,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 9,
-    "avg_peak_mw": 368.0,
+    "avg_peak_mw": 335.2,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -398,10 +388,9 @@
       "Marianao": 1,
       "Habana Del Este": 1,
       "Playa": 1,
-      "Cotorro": 1,
-      "Lisa": 1
+      "Cotorro": 1
     },
-    "averias_total": 16,
+    "averias_total": 15,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -422,12 +411,12 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3355,
+    "averias_total": 3354,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 282,
       "Arroyo Naranjo": 271,
-      "Lisa": 244,
+      "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
       "Cerro": 202,
@@ -576,7 +565,7 @@
       },
       {
         "date": "2026-09-09",
-        "peak_mw": 278
+        "peak_mw": 147
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1420,7 +1409,7 @@
       },
       {
         "date": "2026-09-09",
-        "peak_mw": 278
+        "peak_mw": 147
       }
     ],
     "monthly_max_peak_mw": [
