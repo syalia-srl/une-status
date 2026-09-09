@@ -1,58 +1,71 @@
 {
-  "generated_at": "2026-09-09T00:35:58+00:00",
+  "generated_at": "2026-09-09T05:14:30+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-09T00:27:36+00:00",
+    "as_of": "2026-09-09T04:28:19+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 103,
+    "current_mw_affected_at": "2026-09-09T03:58:15+00:00",
     "active_averias": {
-      "ts": "2026-09-08T23:13:12+00:00",
+      "ts": "2026-09-09T03:53:39+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "direccion": "Albear desde Calzada de Palatino hasta 2da que afectan el servicio eléctrico en el siguiente circuito: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
-          "severity": "primaria"
+          "municipio": "Cotorro"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-08T23:13:12+00:00",
+        "ts": "2026-09-09T04:00:31+00:00",
         "municipio": "Cerro",
-        "direccion": "Albear desde Calzada de Palatino hasta 2da que afectan el servicio eléctrico en el siguiente circuito: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-09T03:53:39+00:00",
+        "municipio": "Cotorro"
+      },
+      {
+        "ts": "2026-09-09T03:32:26+00:00",
+        "municipio": "Playa",
+        "direccion": "👉 82A entre 21 y 23",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-09T03:25:38+00:00",
+        "municipio": "Cerro",
         "severity": "primaria"
       },
       {
-        "ts": "2026-09-08T22:42:02+00:00",
-        "municipio": "Boyeros",
-        "direccion": "el siguiente circuito: 👉 2205 : Repartos Residencial Almendares, Alturas de La Habana y Capdevila (hasta el semáforo)"
+        "ts": "2026-09-09T03:11:30+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "Edif 629 , Zona 17 , Alamar 💥 🛑",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -262,7 +275,7 @@
     ]
   },
   "day": {
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "finalized": false,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -286,23 +299,21 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
       "Cerro": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 18,
+    "averias_total": 1,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "otro": 12,
-      "averias": 2,
-      "mantenimiento": 1,
-      "restablecimiento": 3
+      "disparo_circuito": 1,
+      "restablecimiento": 3,
+      "otro": 2
     }
   },
   "yesterday": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "finalized": true,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 103,
+    "peak_time": "23:58",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -322,19 +333,26 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 6,
+    "averias_count_by_municipio": {
+      "Habana Del Este": 1,
+      "Cerro": 1,
+      "Playa": 1,
+      "Cotorro": 1
+    },
+    "averias_total": 4,
+    "source_msg_count": 14,
     "by_type_counts": {
+      "restablecimiento": 7,
       "otro": 1,
-      "restablecimiento": 4,
-      "averias": 1
+      "averias": 4,
+      "disparo_circuito": 1,
+      "actualizacion_bloques": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 545.5,
+    "avg_peak_mw": 398.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -348,12 +366,15 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Cerro": 4,
-      "Boyeros": 4,
+      "Boyeros": 3,
       "Arroyo Naranjo": 2,
-      "Marianao": 1
+      "Marianao": 1,
+      "Habana Del Este": 1,
+      "Playa": 1,
+      "Cotorro": 1
     },
-    "averias_total": 11,
-    "daf_total": 4,
+    "averias_total": 13,
+    "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -365,8 +386,8 @@
   "month": {
     "month": "2026-09",
     "finalized": false,
-    "dailies_count": 8,
-    "avg_peak_mw": 545.5,
+    "dailies_count": 9,
+    "avg_peak_mw": 398.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -379,12 +400,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
-      "Cerro": 4,
+      "Cerro": 5,
+      "Boyeros": 4,
       "Arroyo Naranjo": 2,
-      "Marianao": 1
+      "Marianao": 1,
+      "Habana Del Este": 1,
+      "Playa": 1,
+      "Cotorro": 1
     },
-    "averias_total": 12,
+    "averias_total": 15,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -405,19 +429,19 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3351,
+    "averias_total": 3354,
     "averias_top_municipios": {
-      "Boyeros": 356,
-      "Playa": 281,
+      "Boyeros": 355,
+      "Playa": 282,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 228,
+      "Habana Del Este": 229,
       "Guanabacoa": 227,
-      "Cerro": 202,
+      "Cerro": 203,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
       "Marianao": 160,
-      "Cotorro": 103,
+      "Cotorro": 104,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
@@ -441,10 +465,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-08-10",
-        "peak_mw": null
-      },
       {
         "date": "2026-08-11",
         "peak_mw": null
@@ -559,14 +579,14 @@
       },
       {
         "date": "2026-09-08",
+        "peak_mw": 103
+      },
+      {
+        "date": "2026-09-09",
         "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-08-10",
-        "minutes": 0
-      },
       {
         "date": "2026-08-11",
         "minutes": 0
@@ -682,13 +702,13 @@
       {
         "date": "2026-09-08",
         "minutes": 0
+      },
+      {
+        "date": "2026-09-09",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-03-13",
-        "peak_mw": 406
-      },
       {
         "date": "2026-03-14",
         "peak_mw": 343
@@ -1403,6 +1423,10 @@
       },
       {
         "date": "2026-09-08",
+        "peak_mw": 103
+      },
+      {
+        "date": "2026-09-09",
         "peak_mw": null
       }
     ],
@@ -1836,9 +1860,9 @@
     }
   },
   "meta": {
-    "daily_count": 1500,
+    "daily_count": 1501,
     "monthly_count": 50,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-09-08"
+    "latest_date": "2026-09-09"
   }
 }
