@@ -1,53 +1,58 @@
 {
-  "generated_at": "2026-09-08T22:37:20+00:00",
+  "generated_at": "2026-09-09T00:35:58+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-08T22:36:35+00:00",
+    "as_of": "2026-09-09T00:27:36+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 273,
-    "current_mw_affected_at": "2026-09-08T22:02:48+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-08T22:16:41+00:00",
+      "ts": "2026-09-08T23:13:12+00:00",
       "averias": [
         {
           "municipio": "Cerro",
-          "direccion": "los siguientes circuitos: 👉 C16: Alrededores de calles Vía Blanca desde Infanta hasta Prensa, Prensa desde Vía Blanca hasta calzada del Cerro, Ferrer desde calzada del Cerro hasta Conil",
+          "direccion": "Albear desde Calzada de Palatino hasta 2da que afectan el servicio eléctrico en el siguiente circuito: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
           "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-08T22:16:41+00:00",
+        "ts": "2026-09-08T23:13:12+00:00",
         "municipio": "Cerro",
-        "direccion": "los siguientes circuitos: 👉 C16: Alrededores de calles Vía Blanca desde Infanta hasta Prensa, Prensa desde Vía Blanca hasta calzada del Cerro, Ferrer desde calzada del Cerro hasta Conil",
+        "direccion": "Albear desde Calzada de Palatino hasta 2da que afectan el servicio eléctrico en el siguiente circuito: 👉 C7: Alrededores del cuadrante desde calles Fomento hasta Vía Banca, Primelles hasta Bella Vista",
         "severity": "primaria"
+      },
+      {
+        "ts": "2026-09-08T22:42:02+00:00",
+        "municipio": "Boyeros",
+        "direccion": "el siguiente circuito: 👉 2205 : Repartos Residencial Almendares, Alturas de La Habana y Capdevila (hasta el semáforo)"
       }
     ],
     "last_daf": null,
@@ -259,8 +264,8 @@
   "day": {
     "date": "2026-09-08",
     "finalized": false,
-    "peak_mw_affected": 273,
-    "peak_time": "18:02",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -281,15 +286,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Boyeros": 1,
       "Cerro": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 20,
+    "averias_total": 2,
+    "source_msg_count": 18,
     "by_type_counts": {
-      "restablecimiento": 8,
-      "actualizacion_bloques": 1,
-      "otro": 10,
-      "averias": 1
+      "otro": 12,
+      "averias": 2,
+      "mantenimiento": 1,
+      "restablecimiento": 3
     }
   },
   "yesterday": {
@@ -328,7 +334,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 454.7,
+    "avg_peak_mw": 545.5,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -342,11 +348,11 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Cerro": 4,
-      "Boyeros": 3,
+      "Boyeros": 4,
       "Arroyo Naranjo": 2,
       "Marianao": 1
     },
-    "averias_total": 10,
+    "averias_total": 11,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -360,7 +366,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 8,
-    "avg_peak_mw": 454.7,
+    "avg_peak_mw": 545.5,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -373,12 +379,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
+      "Boyeros": 5,
       "Cerro": 4,
       "Arroyo Naranjo": 2,
       "Marianao": 1
     },
-    "averias_total": 11,
+    "averias_total": 12,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -399,9 +405,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3350,
+    "averias_total": 3351,
     "averias_top_municipios": {
-      "Boyeros": 355,
+      "Boyeros": 356,
       "Playa": 281,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
@@ -553,7 +559,7 @@
       },
       {
         "date": "2026-09-08",
-        "peak_mw": 273
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1397,7 +1403,7 @@
       },
       {
         "date": "2026-09-08",
-        "peak_mw": 273
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
