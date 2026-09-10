@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-10T09:44:47+00:00",
+  "generated_at": "2026-09-10T13:50:27+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-10T09:14:40+00:00",
+    "as_of": "2026-09-10T13:43:06+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,38 +30,10 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 332,
-    "current_mw_affected_at": "2026-09-10T09:02:54+00:00",
-    "active_averias": {
-      "ts": "2026-09-10T09:12:17+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa",
-          "direccion": "la siguiente dirección: 👉 230/37 y 35A",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-10T09:12:17+00:00",
-        "municipio": "Lisa",
-        "direccion": "la siguiente dirección: 👉 230/37 y 35A",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-10T08:58:21+00:00",
-        "municipio": "Playa",
-        "direccion": "la siguiente dirección: 👉 27/72 y 74",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-10T08:55:38+00:00",
-        "municipio": "Marianao",
-        "direccion": "la siguiente dirección: 👉 Finca Santa Catalina",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": 210,
+    "current_mw_affected_at": "2026-09-10T13:29:09+00:00",
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -271,8 +243,8 @@
   "day": {
     "date": "2026-09-10",
     "finalized": false,
-    "peak_mw_affected": 332,
-    "peak_time": "05:02",
+    "peak_mw_affected": 210,
+    "peak_time": "09:29",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -292,18 +264,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Marianao": 1,
-      "Playa": 1,
-      "Lisa": 1
-    },
-    "averias_total": 3,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "source_msg_count": 20,
     "by_type_counts": {
-      "otro": 6,
-      "restablecimiento": 10,
-      "averias": 3,
-      "actualizacion_bloques": 1
+      "otro": 9,
+      "restablecimiento": 9,
+      "actualizacion_bloques": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -343,7 +311,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 381.5,
+    "avg_peak_mw": 351.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -359,13 +327,11 @@
       "Cerro": 3,
       "Arroyo Naranjo": 2,
       "Boyeros": 2,
-      "Playa": 2,
       "Habana Del Este": 1,
-      "Cotorro": 1,
-      "Marianao": 1,
-      "Lisa": 1
+      "Playa": 1,
+      "Cotorro": 1
     },
-    "averias_total": 13,
+    "averias_total": 10,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,7 +345,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 10,
-    "avg_peak_mw": 381.5,
+    "avg_peak_mw": 351.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -394,14 +360,13 @@
     "averias_count_by_municipio": {
       "Boyeros": 4,
       "Cerro": 4,
-      "Marianao": 2,
       "Arroyo Naranjo": 2,
-      "Playa": 2,
+      "Marianao": 1,
       "Habana Del Este": 1,
-      "Cotorro": 1,
-      "Lisa": 1
+      "Playa": 1,
+      "Cotorro": 1
     },
-    "averias_total": 17,
+    "averias_total": 14,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -422,18 +387,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3356,
+    "averias_total": 3353,
     "averias_top_municipios": {
       "Boyeros": 355,
-      "Playa": 283,
+      "Playa": 282,
       "Arroyo Naranjo": 271,
-      "Lisa": 244,
+      "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
-      "Marianao": 161,
+      "Marianao": 160,
       "Cotorro": 104,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -576,7 +541,7 @@
       },
       {
         "date": "2026-09-10",
-        "peak_mw": 332
+        "peak_mw": 210
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1420,7 +1385,7 @@
       },
       {
         "date": "2026-09-10",
-        "peak_mw": 332
+        "peak_mw": 210
       }
     ],
     "monthly_max_peak_mw": [
