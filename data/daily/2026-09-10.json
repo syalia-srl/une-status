@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-09",
-  "finalized": true,
+  "date": "2026-09-10",
+  "finalized": false,
   "peak_mw_affected": null,
   "peak_time": null,
   "interruption_minutes": null,
@@ -24,11 +24,9 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 14,
+  "source_msg_count": 6,
   "by_type_counts": {
-    "restablecimiento": 8,
-    "via_libre": 1,
-    "disparo_circuito": 1,
-    "otro": 4
+    "restablecimiento": 4,
+    "otro": 2
   }
 }
