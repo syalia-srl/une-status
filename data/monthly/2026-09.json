@@ -2,7 +2,7 @@
   "month": "2026-09",
   "finalized": false,
   "dailies_count": 9,
-  "avg_peak_mw": 398.0,
+  "avg_peak_mw": 394.5,
   "max_peak_mw": 553,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -21,10 +21,9 @@
     "Marianao": 1,
     "Habana Del Este": 1,
     "Playa": 1,
-    "Cotorro": 1,
-    "Plaza": 1
+    "Cotorro": 1
   },
-  "averias_total": 15,
+  "averias_total": 14,
   "daf_total": 4,
   "sen_collapse_total": 0,
   "sen_outage_days": 0,
