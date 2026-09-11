@@ -1,55 +1,39 @@
 {
-  "generated_at": "2026-09-11T04:32:56+00:00",
+  "generated_at": "2026-09-11T09:07:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-11T04:26:12+00:00",
+    "as_of": "2026-09-11T07:42:28+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 440,
-    "current_mw_affected_at": "2026-09-11T04:13:16+00:00",
-    "active_averias": {
-      "ts": "2026-09-11T03:08:50+00:00",
-      "averias": [
-        {
-          "municipio": "Cotorro",
-          "direccion": "la siguiente dirección: 👉 Callejón Siriaco, Edificio 10",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-11T03:08:50+00:00",
-        "municipio": "Cotorro",
-        "direccion": "la siguiente dirección: 👉 Callejón Siriaco, Edificio 10",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -259,8 +243,8 @@
   "day": {
     "date": "2026-09-11",
     "finalized": false,
-    "peak_mw_affected": 440,
-    "peak_time": "00:13",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -284,8 +268,8 @@
     "averias_total": 0,
     "source_msg_count": 10,
     "by_type_counts": {
-      "restablecimiento": 9,
-      "actualizacion_bloques": 1
+      "restablecimiento": 8,
+      "otro": 2
     }
   },
   "yesterday": {
@@ -326,7 +310,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 365.3,
+    "avg_peak_mw": 328.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -360,7 +344,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 11,
-    "avg_peak_mw": 408.5,
+    "avg_peak_mw": 398.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -556,7 +540,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": 440
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1400,7 +1384,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": 440
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
