@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 1,
+  "daf_count": 3,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -23,18 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 3,
-    "Lisa": 1,
-    "San Miguel Del Padrón": 1,
-    "Arroyo Naranjo": 1
+    "Arroyo Naranjo": 1,
+    "Guanabacoa": 1
   },
-  "averias_total": 6,
+  "averias_total": 2,
   "source_msg_count": 20,
   "by_type_counts": {
-    "otro": 5,
-    "restablecimiento": 3,
-    "disparo_circuito": 10,
-    "mantenimiento": 1,
-    "daf": 1
+    "otro": 13,
+    "daf": 3,
+    "disparo_circuito": 1,
+    "restablecimiento_daf": 1,
+    "averias": 2
   }
 }
