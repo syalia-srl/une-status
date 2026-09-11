@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T13:30:59+00:00",
+  "generated_at": "2026-09-11T17:12:05+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-11T13:26:32+00:00",
+    "as_of": "2026-09-11T17:06:20+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,27 +30,46 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 203,
-    "current_mw_affected_at": "2026-09-11T13:02:49+00:00",
+    "current_mw_affected": 35,
+    "current_mw_affected_at": "2026-09-11T16:00:11+00:00",
     "active_averias": {
-      "ts": "2026-09-11T12:44:10+00:00",
+      "ts": "2026-09-11T16:57:39+00:00",
       "averias": [
         {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "Woodbury entre San Agustín y Lindero se afecta el servicio eléctrico en los siguientes circuitos: 👉 D632: Alrededores de calles: Lourdes desde Calzada Managua hasta Trinidad (Víbora Park)",
-          "severity": "primaria"
+          "municipio": "Habana Del Este",
+          "direccion": "las calles 152 Martí Real entre 5C y 5D",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-11T12:44:10+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "Woodbury entre San Agustín y Lindero se afecta el servicio eléctrico en los siguientes circuitos: 👉 D632: Alrededores de calles: Lourdes desde Calzada Managua hasta Trinidad (Víbora Park)",
+        "ts": "2026-09-11T16:57:39+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "las calles 152 Martí Real entre 5C y 5D",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-11T16:28:57+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "el siguiente circuito: 👉 A1075: Repartos Ricabal, La Lima, Santa Fe, La Caridad, Bacuranao, Carretera Monumental desde Km 9 1/2 hasta Km 13 1/2 y Zona Industrial de Berroa"
+      },
+      {
+        "ts": "2026-09-11T16:08:08+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "Quebec entre Guatemala y Montevideo, se afecta el servicio eléctrico en el siguiente circuito: 👉 MB950: Ampliación de Marbella, Guanabo, Bello Monte, Villa del Mar"
+      },
+      {
+        "ts": "2026-09-11T15:46:09+00:00",
+        "municipio": "Boyeros",
+        "direccion": "los cuadrantes del siguiente circuito: 👉 SG314: Carretera Tirabeque, Área del Cacahual, reparto Unión 📣",
         "severity": "primaria"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-09-11T16:20:35+00:00",
+      "type": "restablecimiento_daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -259,8 +278,8 @@
   "day": {
     "date": "2026-09-11",
     "finalized": false,
-    "peak_mw_affected": 203,
-    "peak_time": "09:02",
+    "peak_mw_affected": 35,
+    "peak_time": "12:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -281,16 +300,21 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Habana Del Este": 2,
+      "Boyeros": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 12,
+    "averias_total": 4,
+    "source_msg_count": 20,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento": 8,
+      "averias": 5,
       "actualizacion_bloques": 1,
-      "corto": 1,
-      "otro": 1
+      "mantenimiento": 2,
+      "otro": 5,
+      "restablecimiento": 4,
+      "restablecimiento_daf": 1,
+      "via_libre": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -331,7 +355,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 286.3,
+    "avg_peak_mw": 230.3,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -344,14 +368,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Habana Del Este": 3,
       "Cerro": 2,
-      "Arroyo Naranjo": 2,
+      "Boyeros": 2,
       "Cotorro": 2,
-      "Boyeros": 1,
-      "Habana Del Este": 1,
-      "Playa": 1
+      "Arroyo Naranjo": 1,
+      "Playa": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 9,
+    "averias_total": 12,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -365,7 +390,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 11,
-    "avg_peak_mw": 349.2,
+    "avg_peak_mw": 307.2,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -378,15 +403,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
+      "Boyeros": 5,
       "Cerro": 4,
-      "Arroyo Naranjo": 3,
+      "Habana Del Este": 3,
+      "Arroyo Naranjo": 2,
       "Cotorro": 2,
       "Marianao": 1,
-      "Habana Del Este": 1,
-      "Playa": 1
+      "Playa": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 16,
+    "averias_total": 19,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -407,14 +433,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3355,
+    "averias_total": 3358,
     "averias_top_municipios": {
-      "Boyeros": 355,
+      "Boyeros": 356,
       "Playa": 282,
-      "Arroyo Naranjo": 272,
+      "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 229,
-      "Guanabacoa": 227,
+      "Habana Del Este": 231,
+      "Guanabacoa": 228,
       "Cerro": 202,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
@@ -561,7 +587,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": 203
+        "peak_mw": 35
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1405,7 +1431,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": 203
+        "peak_mw": 35
       }
     ],
     "monthly_max_peak_mw": [
