@@ -1,69 +1,75 @@
 {
-  "generated_at": "2026-09-11T21:54:27+00:00",
+  "generated_at": "2026-09-11T23:40:15+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-11T21:52:59+00:00",
+    "as_of": "2026-09-11T23:36:09+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 254,
+    "current_mw_affected_at": "2026-09-11T22:00:03+00:00",
     "active_averias": {
-      "ts": "2026-09-11T21:52:59+00:00",
+      "ts": "2026-09-11T23:34:08+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "Monumental y Carretera Peñalver, se afecta el servicio eléctrico en el siguiente circuito: 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
+          "municipio": "Arroyo Naranjo",
+          "direccion": "el siguiente circuito: 👉 D1100 : Escuela Lenin 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-11T21:52:59+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "Monumental y Carretera Peñalver, se afecta el servicio eléctrico en el siguiente circuito: 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
+        "ts": "2026-09-11T23:34:08+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "el siguiente circuito: 👉 D1100 : Escuela Lenin 🚨"
       },
       {
-        "ts": "2026-09-11T21:22:18+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "la calle 2da entre F y G",
-        "severity": "secundaria"
+        "ts": "2026-09-11T23:16:41+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-09-11T20:38:26+00:00",
-        "municipio": "Cotorro",
-        "direccion": "las calles 38 A entre 71 y 71A",
-        "severity": "secundaria"
+        "ts": "2026-09-11T23:05:23+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "calle B entre José María y 6ta afectando el servicio eléctrico en el siguiente circuito: 👉 A1008: Alrededores de los cuadrantes desde calle C a Portocarrero y desde 2da a Holguín (Portocarrero)"
+      },
+      {
+        "ts": "2026-09-11T22:11:28+00:00",
+        "municipio": "Playa",
+        "direccion": "la calle 7maA entre 60 y 46, afectando el servicio eléctrico en el siguiente circuito: 👉 1244: Avenida 5taA desde calle 66 hasta calle 36, avenida 7ma desde calle 40 hasta calle 24(Miramar)"
+      },
+      {
+        "ts": "2026-09-11T21:58:54+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "las Cuatro Esquina frente a la Subestación afectando el servicio eléctrico en el siguiente circuito: 👉 VC100: Repartos: Managua, Molinet y El Volcán",
+        "severity": "primaria"
       }
     ],
-    "last_daf": {
-      "ts": "2026-09-11T20:45:16+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -272,8 +278,8 @@
   "day": {
     "date": "2026-09-11",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 254,
+    "peak_time": "18:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -294,20 +300,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cotorro": 1,
-      "San Miguel Del Padrón": 1,
-      "Guanabacoa": 1
+      "Arroyo Naranjo": 3,
+      "Playa": 1,
+      "Boyeros": 1
     },
-    "averias_total": 3,
+    "averias_total": 5,
     "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento_daf": 3,
-      "otro": 9,
-      "mantenimiento": 1,
+      "otro": 6,
       "averias": 4,
-      "via_libre": 1,
-      "restablecimiento": 1,
-      "disparo_circuito": 1
+      "actualizacion_bloques": 1,
+      "disparo_circuito": 4,
+      "restablecimiento": 5
     }
   },
   "yesterday": {
@@ -348,7 +352,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 328.0,
+    "avg_peak_mw": 303.3,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -361,16 +365,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cotorro": 3,
+      "Arroyo Naranjo": 4,
       "Cerro": 2,
-      "Boyeros": 1,
-      "Arroyo Naranjo": 1,
-      "Habana Del Este": 1,
-      "Playa": 1,
-      "San Miguel Del Padrón": 1,
-      "Guanabacoa": 1
+      "Boyeros": 2,
+      "Playa": 2,
+      "Cotorro": 2,
+      "Habana Del Este": 1
     },
-    "averias_total": 11,
+    "averias_total": 13,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -384,7 +386,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 11,
-    "avg_peak_mw": 398.0,
+    "avg_peak_mw": 362.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -397,17 +399,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 4,
+      "Boyeros": 5,
+      "Arroyo Naranjo": 5,
       "Cerro": 4,
-      "Cotorro": 3,
-      "Arroyo Naranjo": 2,
+      "Playa": 2,
+      "Cotorro": 2,
       "Marianao": 1,
-      "Habana Del Este": 1,
-      "Playa": 1,
-      "San Miguel Del Padrón": 1,
-      "Guanabacoa": 1
+      "Habana Del Este": 1
     },
-    "averias_total": 18,
+    "averias_total": 20,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -428,19 +428,19 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3357,
+    "averias_total": 3359,
     "averias_top_municipios": {
-      "Boyeros": 355,
-      "Playa": 282,
-      "Arroyo Naranjo": 271,
+      "Boyeros": 356,
+      "Playa": 283,
+      "Arroyo Naranjo": 274,
       "Lisa": 243,
       "Habana Del Este": 229,
-      "Guanabacoa": 228,
+      "Guanabacoa": 227,
       "Cerro": 202,
-      "San Miguel Del Padrón": 189,
       "Plaza": 189,
+      "San Miguel Del Padrón": 188,
       "Marianao": 160,
-      "Cotorro": 106,
+      "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
@@ -582,7 +582,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": null
+        "peak_mw": 254
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1426,7 +1426,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": null
+        "peak_mw": 254
       }
     ],
     "monthly_max_peak_mw": [
