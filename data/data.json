@@ -1,74 +1,51 @@
 {
-  "generated_at": "2026-09-11T17:12:05+00:00",
+  "generated_at": "2026-09-11T19:40:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-11T17:06:20+00:00",
+    "as_of": "2026-09-11T19:40:13+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 35,
-    "current_mw_affected_at": "2026-09-11T16:00:11+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-11T16:57:39+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": "las calles 152 Martí Real entre 5C y 5D",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-09-11T18:38:43+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-09-11T16:57:39+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "las calles 152 Martí Real entre 5C y 5D",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-11T16:28:57+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "el siguiente circuito: 👉 A1075: Repartos Ricabal, La Lima, Santa Fe, La Caridad, Bacuranao, Carretera Monumental desde Km 9 1/2 hasta Km 13 1/2 y Zona Industrial de Berroa"
-      },
-      {
-        "ts": "2026-09-11T16:08:08+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "Quebec entre Guatemala y Montevideo, se afecta el servicio eléctrico en el siguiente circuito: 👉 MB950: Ampliación de Marbella, Guanabo, Bello Monte, Villa del Mar"
-      },
-      {
-        "ts": "2026-09-11T15:46:09+00:00",
-        "municipio": "Boyeros",
-        "direccion": "los cuadrantes del siguiente circuito: 👉 SG314: Carretera Tirabeque, Área del Cacahual, reparto Unión 📣",
-        "severity": "primaria"
+        "ts": "2026-09-11T19:27:58+00:00",
+        "municipio": "Lisa",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
-      "ts": "2026-09-11T16:20:35+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-09-11T19:38:12+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -278,8 +255,8 @@
   "day": {
     "date": "2026-09-11",
     "finalized": false,
-    "peak_mw_affected": 35,
-    "peak_time": "12:00",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -291,7 +268,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 4,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -300,20 +277,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 2,
-      "Boyeros": 1,
-      "Guanabacoa": 1
+      "Lisa": 1
     },
-    "averias_total": 4,
+    "averias_total": 1,
     "source_msg_count": 20,
     "by_type_counts": {
-      "averias": 5,
-      "actualizacion_bloques": 1,
-      "mantenimiento": 2,
-      "otro": 5,
-      "restablecimiento": 4,
-      "restablecimiento_daf": 1,
+      "otro": 9,
       "via_libre": 1,
+      "averias": 1,
+      "daf": 4,
+      "restablecimiento": 3,
+      "restablecimiento_daf": 1,
       "disparo_circuito": 1
     }
   },
@@ -355,7 +329,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 230.3,
+    "avg_peak_mw": 328.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -368,16 +342,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 3,
       "Cerro": 2,
-      "Boyeros": 2,
       "Cotorro": 2,
+      "Boyeros": 1,
       "Arroyo Naranjo": 1,
+      "Habana Del Este": 1,
       "Playa": 1,
-      "Guanabacoa": 1
+      "Lisa": 1
     },
-    "averias_total": 12,
-    "daf_total": 3,
+    "averias_total": 9,
+    "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -390,7 +364,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 11,
-    "avg_peak_mw": 307.2,
+    "avg_peak_mw": 398.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -403,17 +377,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
+      "Boyeros": 4,
       "Cerro": 4,
-      "Habana Del Este": 3,
       "Arroyo Naranjo": 2,
       "Cotorro": 2,
       "Marianao": 1,
+      "Habana Del Este": 1,
       "Playa": 1,
-      "Guanabacoa": 1
+      "Lisa": 1
     },
-    "averias_total": 19,
-    "daf_total": 4,
+    "averias_total": 16,
+    "daf_total": 8,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -433,14 +407,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3358,
+    "averias_total": 3355,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 355,
       "Playa": 282,
       "Arroyo Naranjo": 271,
-      "Lisa": 243,
-      "Habana Del Este": 231,
-      "Guanabacoa": 228,
+      "Lisa": 244,
+      "Habana Del Este": 229,
+      "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 189,
       "San Miguel Del Padrón": 188,
@@ -451,7 +425,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2372,
+    "daf_total": 2376,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -587,7 +561,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": 35
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1431,7 +1405,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": 35
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1842,8 +1816,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2372,
-    "daf_last_30d": 6,
+    "daf_total": 2376,
+    "daf_last_30d": 10,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
