@@ -1,56 +1,87 @@
 {
-  "generated_at": "2026-09-12T17:05:18+00:00",
+  "generated_at": "2026-09-12T19:16:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-12T17:05:08+00:00",
+    "as_of": "2026-09-12T19:15:45+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 90,
-    "current_mw_affected_at": "2026-09-12T16:18:57+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-12T16:55:51+00:00",
-      "averias": [
-        {
-          "municipio": "Cerro",
-          "direccion": "👉 Palmar / Chaple y Suzarte",
-          "severity": "secundaria"
-        }
-      ]
+      "ts": "2026-09-12T19:13:01+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-09-12T16:55:51+00:00",
+        "ts": "2026-09-12T19:15:45+00:00",
+        "municipio": "Playa",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-12T19:13:58+00:00",
         "municipio": "Cerro",
-        "direccion": "👉 Palmar / Chaple y Suzarte",
-        "severity": "secundaria"
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-12T19:08:49+00:00",
+        "municipio": "Cerro",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-12T19:07:33+00:00",
+        "municipio": "Cerro",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-12T18:59:20+00:00",
+        "municipio": "Arroyo Naranjo",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-12T18:57:22+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-12T18:53:42+00:00",
+        "municipio": "Plaza",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-12T18:28:27+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la Calle 198 entre 323 y Avenida Vantroy , afectando el siguiente circuito: 👉 M1603: Repartos 1ro de Mayo, LACETEL, Adelaida y Bedia Morales"
       }
     ],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-09-12T18:23:18+00:00",
+      "type": "restablecimiento_daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -259,8 +290,8 @@
   "day": {
     "date": "2026-09-12",
     "finalized": false,
-    "peak_mw_affected": 90,
-    "peak_time": "12:18",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -281,16 +312,20 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Cerro": 3,
+      "Boyeros": 2,
+      "Plaza": 1,
+      "Arroyo Naranjo": 1,
+      "Playa": 1
     },
-    "averias_total": 1,
+    "averias_total": 8,
     "source_msg_count": 20,
     "by_type_counts": {
-      "mantenimiento": 2,
-      "restablecimiento": 11,
-      "actualizacion_bloques": 1,
-      "otro": 5,
-      "averias": 1
+      "otro": 3,
+      "restablecimiento_daf": 1,
+      "averias": 2,
+      "disparo_circuito": 7,
+      "restablecimiento": 7
     }
   },
   "yesterday": {
@@ -337,7 +372,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 159.3,
+    "avg_peak_mw": 194.0,
     "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -350,15 +385,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 2,
-      "Playa": 2,
+      "Cerro": 4,
+      "Playa": 3,
+      "Boyeros": 3,
       "Cotorro": 2,
       "Marianao": 2,
+      "Plaza": 2,
       "Habana Del Este": 1,
-      "Boyeros": 1,
-      "Plaza": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 11,
+    "averias_total": 18,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -372,7 +408,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 12,
-    "avg_peak_mw": 313.8,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -385,16 +421,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
-      "Cerro": 5,
+      "Boyeros": 7,
+      "Cerro": 7,
       "Marianao": 3,
-      "Arroyo Naranjo": 2,
-      "Playa": 2,
+      "Arroyo Naranjo": 3,
+      "Playa": 3,
       "Cotorro": 2,
-      "Habana Del Este": 1,
-      "Plaza": 1
+      "Plaza": 2,
+      "Habana Del Este": 1
     },
-    "averias_total": 21,
+    "averias_total": 28,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -415,16 +451,16 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3367,
     "averias_top_municipios": {
-      "Boyeros": 356,
-      "Playa": 283,
-      "Arroyo Naranjo": 271,
+      "Boyeros": 358,
+      "Playa": 284,
+      "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
-      "Cerro": 203,
-      "Plaza": 190,
+      "Cerro": 205,
+      "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
@@ -569,7 +605,7 @@
       },
       {
         "date": "2026-09-12",
-        "peak_mw": 90
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1413,7 +1449,7 @@
       },
       {
         "date": "2026-09-12",
-        "peak_mw": 90
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
