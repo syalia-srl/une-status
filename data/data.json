@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T23:40:15+00:00",
+  "generated_at": "2026-09-12T01:32:00+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-11T23:36:09+00:00",
+    "as_of": "2026-09-12T01:24:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -30,43 +30,47 @@
         "state": "encendido"
       }
     ],
-    "current_mw_affected": 254,
-    "current_mw_affected_at": "2026-09-11T22:00:03+00:00",
+    "current_mw_affected": 285,
+    "current_mw_affected_at": "2026-09-12T01:00:04+00:00",
     "active_averias": {
-      "ts": "2026-09-11T23:34:08+00:00",
+      "ts": "2026-09-12T01:08:32+00:00",
       "averias": [
         {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "el siguiente circuito: 👉 D1100 : Escuela Lenin 🚨"
+          "municipio": "Marianao",
+          "direccion": "la calle 123 entre 100B y 100C, Puentes Nuevos 🚨",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-11T23:34:08+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "el siguiente circuito: 👉 D1100 : Escuela Lenin 🚨"
+        "ts": "2026-09-12T01:08:32+00:00",
+        "municipio": "Marianao",
+        "direccion": "la calle 123 entre 100B y 100C, Puentes Nuevos 🚨",
+        "severity": "secundaria"
       },
       {
-        "ts": "2026-09-11T23:16:41+00:00",
+        "ts": "2026-09-12T00:27:31+00:00",
+        "municipio": "Plaza",
+        "direccion": "la siguiente dirección: Basarrate entre Neptuno y San Miguel",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-12T00:15:35+00:00",
+        "municipio": "Marianao",
+        "direccion": "la calle 90 entre 117 y 123, Puentes Nuevos 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-12T00:05:24+00:00",
+        "municipio": "Playa",
+        "direccion": "la calle 3raA entre 96 y 96A, Querejeta 🚨",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-12T00:01:58+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-11T23:05:23+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "calle B entre José María y 6ta afectando el servicio eléctrico en el siguiente circuito: 👉 A1008: Alrededores de los cuadrantes desde calle C a Portocarrero y desde 2da a Holguín (Portocarrero)"
-      },
-      {
-        "ts": "2026-09-11T22:11:28+00:00",
-        "municipio": "Playa",
-        "direccion": "la calle 7maA entre 60 y 46, afectando el servicio eléctrico en el siguiente circuito: 👉 1244: Avenida 5taA desde calle 66 hasta calle 36, avenida 7ma desde calle 40 hasta calle 24(Miramar)"
-      },
-      {
-        "ts": "2026-09-11T21:58:54+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las Cuatro Esquina frente a la Subestación afectando el servicio eléctrico en el siguiente circuito: 👉 VC100: Repartos: Managua, Molinet y El Volcán",
-        "severity": "primaria"
       }
     ],
     "last_daf": null,
@@ -278,8 +282,8 @@
   "day": {
     "date": "2026-09-11",
     "finalized": false,
-    "peak_mw_affected": 254,
-    "peak_time": "18:00",
+    "peak_mw_affected": 285,
+    "peak_time": "21:00",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -300,18 +304,20 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 3,
+      "Marianao": 2,
+      "Boyeros": 1,
       "Playa": 1,
-      "Boyeros": 1
+      "Plaza": 1
     },
     "averias_total": 5,
     "source_msg_count": 20,
     "by_type_counts": {
+      "mantenimiento": 4,
       "otro": 6,
+      "disparo_circuito": 1,
       "averias": 4,
-      "actualizacion_bloques": 1,
-      "disparo_circuito": 4,
-      "restablecimiento": 5
+      "restablecimiento": 4,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -352,7 +358,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 303.3,
+    "avg_peak_mw": 313.7,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -365,12 +371,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 4,
       "Cerro": 2,
       "Boyeros": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Habana Del Este": 1
+      "Marianao": 2,
+      "Arroyo Naranjo": 1,
+      "Habana Del Este": 1,
+      "Plaza": 1
     },
     "averias_total": 13,
     "daf_total": 3,
@@ -386,7 +394,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 11,
-    "avg_peak_mw": 362.0,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -400,12 +408,13 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 5,
-      "Arroyo Naranjo": 5,
       "Cerro": 4,
+      "Marianao": 3,
+      "Arroyo Naranjo": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Marianao": 1,
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Plaza": 1
     },
     "averias_total": 20,
     "daf_total": 4,
@@ -432,14 +441,14 @@
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 274,
+      "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
       "Cerro": 202,
-      "Plaza": 189,
+      "Plaza": 190,
       "San Miguel Del Padrón": 188,
-      "Marianao": 160,
+      "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -582,7 +591,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": 254
+        "peak_mw": 285
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1426,7 +1435,7 @@
       },
       {
         "date": "2026-09-11",
-        "peak_mw": 254
+        "peak_mw": 285
       }
     ],
     "monthly_max_peak_mw": [
