@@ -1,8 +1,8 @@
 {
   "date": "2026-09-12",
   "finalized": false,
-  "peak_mw_affected": 212,
-  "peak_time": "06:01",
+  "peak_mw_affected": 111,
+  "peak_time": "09:29",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -22,18 +22,15 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Habana Del Este": 1,
-    "Guanabacoa": 1
-  },
-  "averias_total": 2,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
   "source_msg_count": 20,
   "by_type_counts": {
-    "mantenimiento": 1,
-    "averias": 1,
-    "disparo_circuito": 1,
+    "mantenimiento": 3,
+    "restablecimiento": 11,
+    "via_libre": 1,
+    "otro": 3,
     "actualizacion_bloques": 1,
-    "otro": 8,
-    "restablecimiento": 8
+    "disparo_circuito": 1
   }
 }
