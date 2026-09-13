@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T15:14:44+00:00",
+  "generated_at": "2026-09-13T18:12:26+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-13T14:41:39+00:00",
+    "as_of": "2026-09-13T18:01:58+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,63 +33,34 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-13T14:37:50+00:00",
+      "ts": "2026-09-13T18:01:58+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
-          "direccion": "Calzada Bejucal entre Varona y Santa Ana, afectando el servicio eléctrico en el siguiente circuito: 👉 D836:Trigal,Parajón ,García ,Cuervo y Trébol",
+          "municipio": "Guanabacoa",
+          "direccion": "la siguiente dirección: 👉 Callejón las Flores y Línea del Ferrocarril",
           "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-13T14:37:50+00:00",
-        "municipio": "Boyeros",
-        "direccion": "Calzada Bejucal entre Varona y Santa Ana, afectando el servicio eléctrico en el siguiente circuito: 👉 D836:Trigal,Parajón ,García ,Cuervo y Trébol",
+        "ts": "2026-09-13T18:01:58+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "la siguiente dirección: 👉 Callejón las Flores y Línea del Ferrocarril",
         "severity": "primaria"
       },
       {
-        "ts": "2026-09-13T14:21:48+00:00",
-        "municipio": "Cerro",
-        "direccion": "la siguiente dirección: 👉 Armonía/Parque y Recreo",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-13T14:18:48+00:00",
-        "municipio": "Cerro",
-        "direccion": "las siguientes direcciones: 👉 Calle Macedonia/San Quintín y San Gabriel",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-13T14:17:27+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "la siguiente dirección: 👉 Calzada de San Miguel / Ina y San Martín",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-13T14:10:53+00:00",
-        "municipio": "Lisa",
-        "direccion": "la siguiente dirección: 👉 Calle 153/51 y 53",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-13T13:21:33+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "el siguiente circuito: 👉 👉 VC100: Repartos: Managua, Molinet y El Volcán",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-09-13T12:55:22+00:00",
+        "ts": "2026-09-13T16:37:49+00:00",
         "municipio": "Cotorro",
-        "direccion": "la siguiente dirección: 👉 Autopista Nacional km11 Finca la Bienvenida",
-        "severity": "primaria"
+        "direccion": "la siguiente dirección: 👉 Autopista Nacional km 11 Finca las Flores",
+        "severity": "secundaria"
       }
     ],
-    "last_daf": null,
-    "last_pronostico": {
-      "ts": "2026-09-13T12:49:31+00:00"
+    "last_daf": {
+      "ts": "2026-09-13T16:10:14+00:00",
+      "type": "restablecimiento_daf"
     },
+    "last_pronostico": null,
     "sen": {
       "state": "online",
       "since": null,
@@ -310,7 +281,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 1,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -319,21 +290,19 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 2,
       "Cotorro": 1,
-      "Arroyo Naranjo": 1,
-      "Lisa": 1,
-      "San Miguel Del Padrón": 1,
-      "Boyeros": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 7,
-    "source_msg_count": 14,
+    "averias_total": 2,
+    "source_msg_count": 13,
     "by_type_counts": {
-      "pronostico": 1,
-      "averias": 7,
-      "otro": 3,
-      "mantenimiento": 1,
-      "restablecimiento": 2
+      "otro": 4,
+      "daf": 1,
+      "restablecimiento_daf": 1,
+      "averias": 2,
+      "disparo_circuito": 1,
+      "restablecimiento": 3,
+      "mantenimiento": 1
     }
   },
   "yesterday": {
@@ -385,19 +354,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 3,
       "Cotorro": 3,
       "Playa": 2,
       "Marianao": 2,
-      "Boyeros": 2,
       "Habana Del Este": 1,
+      "Cerro": 1,
+      "Boyeros": 1,
       "Plaza": 1,
-      "Arroyo Naranjo": 1,
-      "Lisa": 1,
-      "San Miguel Del Padrón": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 17,
-    "daf_total": 0,
+    "averias_total": 12,
+    "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -423,19 +390,18 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
-      "Cerro": 6,
+      "Boyeros": 5,
+      "Cerro": 4,
       "Marianao": 3,
-      "Arroyo Naranjo": 3,
       "Cotorro": 3,
+      "Arroyo Naranjo": 2,
       "Playa": 2,
       "Habana Del Este": 1,
       "Plaza": 1,
-      "Lisa": 1,
-      "San Miguel Del Padrón": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 27,
-    "daf_total": 4,
+    "averias_total": 22,
+    "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -455,17 +421,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3366,
+    "averias_total": 3361,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 272,
-      "Lisa": 244,
+      "Arroyo Naranjo": 271,
+      "Lisa": 243,
       "Habana Del Este": 229,
-      "Guanabacoa": 227,
-      "Cerro": 204,
+      "Guanabacoa": 228,
+      "Cerro": 202,
       "Plaza": 190,
-      "San Miguel Del Padrón": 189,
+      "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 106,
       "Centro Habana": 72,
@@ -473,7 +439,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2372,
+    "daf_total": 2373,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1864,8 +1830,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2372,
-    "daf_last_30d": 6,
+    "daf_total": 2373,
+    "daf_last_30d": 7,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
