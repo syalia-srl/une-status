@@ -1,61 +1,67 @@
 {
-  "generated_at": "2026-09-13T06:08:05+00:00",
+  "generated_at": "2026-09-13T11:45:11+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-13T05:39:15+00:00",
+    "as_of": "2026-09-13T11:10:54+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 71,
+    "current_mw_affected_at": "2026-09-13T06:47:17+00:00",
     "active_averias": {
-      "ts": "2026-09-13T04:43:14+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa",
-          "severity": "primaria"
-        }
-      ]
+      "ts": "2026-09-13T11:10:54+00:00",
+      "averias": []
     },
     "averias_24h": [
       {
-        "ts": "2026-09-13T05:09:11+00:00",
-        "municipio": "Cerro",
+        "ts": "2026-09-13T10:40:48+00:00",
+        "municipio": "Playa",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-09-13T05:00:11+00:00",
-        "municipio": "Cerro",
+        "ts": "2026-09-13T08:56:25+00:00",
+        "municipio": "Playa",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-09-13T04:43:14+00:00",
-        "municipio": "Lisa",
+        "ts": "2026-09-13T07:23:03+00:00",
+        "municipio": "Playa",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-13T06:47:14+00:00",
+        "municipio": "Playa",
+        "direccion": "49 y 36 que afecta el servicio eléctrico en el siguiente circuito: 👉 1160: Calle 49 desde calles 26 y 28A hasta calle 38(Kohly)",
         "severity": "primaria"
+      },
+      {
+        "ts": "2026-09-13T06:18:25+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -267,8 +273,8 @@
   "day": {
     "date": "2026-09-13",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 71,
+    "peak_time": "02:47",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -289,16 +295,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 2,
-      "Lisa": 1
+      "Playa": 4,
+      "Boyeros": 1
     },
-    "averias_total": 3,
+    "averias_total": 5,
     "source_msg_count": 20,
     "by_type_counts": {
-      "restablecimiento": 15,
-      "averias": 1,
-      "via_libre": 1,
-      "disparo_circuito": 2,
+      "disparo_circuito": 5,
+      "restablecimiento": 11,
+      "averias": 2,
+      "actualizacion_bloques": 1,
       "otro": 1
     }
   },
@@ -338,7 +344,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 194.0,
+    "avg_peak_mw": 153.0,
     "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -351,16 +357,15 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 3,
-      "Playa": 2,
+      "Playa": 6,
       "Cotorro": 2,
       "Marianao": 2,
+      "Boyeros": 2,
       "Habana Del Este": 1,
-      "Boyeros": 1,
-      "Plaza": 1,
-      "Lisa": 1
+      "Cerro": 1,
+      "Plaza": 1
     },
-    "averias_total": 13,
+    "averias_total": 15,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -374,7 +379,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 369.8,
+    "avg_peak_mw": 310.0,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -387,17 +392,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 6,
-      "Boyeros": 5,
+      "Boyeros": 6,
+      "Playa": 6,
+      "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
-      "Playa": 2,
       "Cotorro": 2,
       "Habana Del Este": 1,
-      "Plaza": 1,
-      "Lisa": 1
+      "Plaza": 1
     },
-    "averias_total": 23,
+    "averias_total": 25,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -418,15 +422,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3364,
     "averias_top_municipios": {
-      "Boyeros": 356,
-      "Playa": 283,
+      "Boyeros": 357,
+      "Playa": 287,
       "Arroyo Naranjo": 271,
-      "Lisa": 244,
+      "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
-      "Cerro": 204,
+      "Cerro": 202,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
@@ -572,7 +576,7 @@
       },
       {
         "date": "2026-09-13",
-        "peak_mw": null
+        "peak_mw": 71
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1416,7 +1420,7 @@
       },
       {
         "date": "2026-09-13",
-        "peak_mw": null
+        "peak_mw": 71
       }
     ],
     "monthly_max_peak_mw": [
