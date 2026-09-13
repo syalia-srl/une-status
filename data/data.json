@@ -1,71 +1,95 @@
 {
-  "generated_at": "2026-09-13T11:45:11+00:00",
+  "generated_at": "2026-09-13T15:14:44+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-13T11:10:54+00:00",
+    "as_of": "2026-09-13T14:41:39+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 71,
-    "current_mw_affected_at": "2026-09-13T06:47:17+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-13T11:10:54+00:00",
-      "averias": []
+      "ts": "2026-09-13T14:37:50+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "Calzada Bejucal entre Varona y Santa Ana, afectando el servicio eléctrico en el siguiente circuito: 👉 D836:Trigal,Parajón ,García ,Cuervo y Trébol",
+          "severity": "primaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-13T10:40:48+00:00",
-        "municipio": "Playa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-13T08:56:25+00:00",
-        "municipio": "Playa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-13T07:23:03+00:00",
-        "municipio": "Playa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-13T06:47:14+00:00",
-        "municipio": "Playa",
-        "direccion": "49 y 36 que afecta el servicio eléctrico en el siguiente circuito: 👉 1160: Calle 49 desde calles 26 y 28A hasta calle 38(Kohly)",
+        "ts": "2026-09-13T14:37:50+00:00",
+        "municipio": "Boyeros",
+        "direccion": "Calzada Bejucal entre Varona y Santa Ana, afectando el servicio eléctrico en el siguiente circuito: 👉 D836:Trigal,Parajón ,García ,Cuervo y Trébol",
         "severity": "primaria"
       },
       {
-        "ts": "2026-09-13T06:18:25+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
+        "ts": "2026-09-13T14:21:48+00:00",
+        "municipio": "Cerro",
+        "direccion": "la siguiente dirección: 👉 Armonía/Parque y Recreo",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-13T14:18:48+00:00",
+        "municipio": "Cerro",
+        "direccion": "las siguientes direcciones: 👉 Calle Macedonia/San Quintín y San Gabriel",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-13T14:17:27+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "la siguiente dirección: 👉 Calzada de San Miguel / Ina y San Martín",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-13T14:10:53+00:00",
+        "municipio": "Lisa",
+        "direccion": "la siguiente dirección: 👉 Calle 153/51 y 53",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-13T13:21:33+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "el siguiente circuito: 👉 👉 VC100: Repartos: Managua, Molinet y El Volcán",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-09-13T12:55:22+00:00",
+        "municipio": "Cotorro",
+        "direccion": "la siguiente dirección: 👉 Autopista Nacional km11 Finca la Bienvenida",
+        "severity": "primaria"
       }
     ],
     "last_daf": null,
-    "last_pronostico": null,
+    "last_pronostico": {
+      "ts": "2026-09-13T12:49:31+00:00"
+    },
     "sen": {
       "state": "online",
       "since": null,
@@ -273,8 +297,8 @@
   "day": {
     "date": "2026-09-13",
     "finalized": false,
-    "peak_mw_affected": 71,
-    "peak_time": "02:47",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -295,17 +319,21 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa": 4,
+      "Cerro": 2,
+      "Cotorro": 1,
+      "Arroyo Naranjo": 1,
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1,
       "Boyeros": 1
     },
-    "averias_total": 5,
-    "source_msg_count": 20,
+    "averias_total": 7,
+    "source_msg_count": 14,
     "by_type_counts": {
-      "disparo_circuito": 5,
-      "restablecimiento": 11,
-      "averias": 2,
-      "actualizacion_bloques": 1,
-      "otro": 1
+      "pronostico": 1,
+      "averias": 7,
+      "otro": 3,
+      "mantenimiento": 1,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
@@ -344,7 +372,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 153.0,
+    "avg_peak_mw": 194.0,
     "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -357,15 +385,18 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Playa": 6,
-      "Cotorro": 2,
+      "Cerro": 3,
+      "Cotorro": 3,
+      "Playa": 2,
       "Marianao": 2,
       "Boyeros": 2,
       "Habana Del Este": 1,
-      "Cerro": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Arroyo Naranjo": 1,
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 15,
+    "averias_total": 17,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,7 +410,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 13,
-    "avg_peak_mw": 310.0,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -393,15 +424,17 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 6,
-      "Playa": 6,
-      "Cerro": 4,
+      "Cerro": 6,
       "Marianao": 3,
-      "Arroyo Naranjo": 2,
-      "Cotorro": 2,
+      "Arroyo Naranjo": 3,
+      "Cotorro": 3,
+      "Playa": 2,
       "Habana Del Este": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 25,
+    "averias_total": 27,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -422,19 +455,19 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3364,
+    "averias_total": 3366,
     "averias_top_municipios": {
       "Boyeros": 357,
-      "Playa": 287,
-      "Arroyo Naranjo": 271,
-      "Lisa": 243,
+      "Playa": 283,
+      "Arroyo Naranjo": 272,
+      "Lisa": 244,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
-      "Cerro": 202,
+      "Cerro": 204,
       "Plaza": 190,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Marianao": 162,
-      "Cotorro": 105,
+      "Cotorro": 106,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
@@ -576,7 +609,7 @@
       },
       {
         "date": "2026-09-13",
-        "peak_mw": 71
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1420,7 +1453,7 @@
       },
       {
         "date": "2026-09-13",
-        "peak_mw": 71
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
