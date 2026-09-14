@@ -1,39 +1,60 @@
 {
-  "generated_at": "2026-09-14T19:11:18+00:00",
+  "generated_at": "2026-09-14T19:27:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-14T19:09:52+00:00",
+    "as_of": "2026-09-14T19:22:35+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 64,
-    "current_mw_affected_at": "2026-09-14T19:05:46+00:00",
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": {
+      "ts": "2026-09-14T19:22:35+00:00",
+      "averias": [
+        {
+          "municipio": "Cotorro",
+          "direccion": "la siguiente dirección: 97 entre 32 y 34",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-14T19:22:35+00:00",
+        "municipio": "Cotorro",
+        "direccion": "la siguiente dirección: 97 entre 32 y 34",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-14T19:17:24+00:00",
+        "municipio": "Guanabacoa",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -243,8 +264,8 @@
   "day": {
     "date": "2026-09-14",
     "finalized": false,
-    "peak_mw_affected": 64,
-    "peak_time": "15:05",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -264,13 +285,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1,
+      "Cotorro": 1
+    },
+    "averias_total": 2,
     "source_msg_count": 5,
     "by_type_counts": {
       "otro": 2,
-      "actualizacion_bloques": 1,
-      "restablecimiento": 2
+      "restablecimiento": 1,
+      "averias": 2
     }
   },
   "yesterday": {
@@ -308,7 +332,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 150.7,
+    "avg_peak_mw": 194.0,
     "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -321,15 +345,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Cotorro": 3,
       "Playa": 2,
-      "Cotorro": 2,
       "Marianao": 2,
       "Habana Del Este": 1,
       "Cerro": 1,
       "Boyeros": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 10,
+    "averias_total": 12,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -343,7 +368,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 14,
-    "avg_peak_mw": 308.6,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -359,13 +384,14 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
+      "Cotorro": 3,
       "Arroyo Naranjo": 2,
       "Playa": 2,
-      "Cotorro": 2,
       "Habana Del Este": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 20,
+    "averias_total": 22,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -386,19 +412,19 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3359,
+    "averias_total": 3361,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 229,
-      "Guanabacoa": 227,
+      "Guanabacoa": 228,
       "Cerro": 202,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
-      "Cotorro": 105,
+      "Cotorro": 106,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
@@ -540,7 +566,7 @@
       },
       {
         "date": "2026-09-14",
-        "peak_mw": 64
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1384,7 +1410,7 @@
       },
       {
         "date": "2026-09-14",
-        "peak_mw": 64
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
