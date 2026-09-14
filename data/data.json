@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T16:20:43+00:00",
+  "generated_at": "2026-09-14T16:32:55+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-14T16:18:54+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,29 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-14T16:13:09+00:00",
-      "averias": [
-        {
-          "municipio": "Centro Habana",
-          "direccion": "la siguiente dirección: Callejón Morales entre Maloja y Sitios",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-14T16:13:09+00:00",
-        "municipio": "Centro Habana",
-        "direccion": "la siguiente dirección: Callejón Morales entre Maloja y Sitios",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-14T16:10:16+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la siguiente dirección: Línea del Ferrocarril y Callejón de las Flores"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
