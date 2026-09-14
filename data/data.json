@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T16:05:20+00:00",
+  "generated_at": "2026-09-14T16:20:43+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-14T16:04:52+00:00",
+    "as_of": "2026-09-14T16:18:54+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,29 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-14T16:13:09+00:00",
+      "averias": [
+        {
+          "municipio": "Centro Habana",
+          "direccion": "la siguiente dirección: Callejón Morales entre Maloja y Sitios",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-14T16:13:09+00:00",
+        "municipio": "Centro Habana",
+        "direccion": "la siguiente dirección: Callejón Morales entre Maloja y Sitios",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-09-14T16:10:16+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "la siguiente dirección: Línea del Ferrocarril y Callejón de las Flores"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,14 +285,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1,
+      "Centro Habana": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "otro": 1,
-      "via_libre": 1,
-      "mantenimiento": 1,
-      "restablecimiento": 1
+      "averias": 2,
+      "otro": 2,
+      "restablecimiento": 1,
+      "via_libre": 1
     }
   },
   "yesterday": {
@@ -328,9 +352,11 @@
       "Habana Del Este": 1,
       "Cerro": 1,
       "Boyeros": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Guanabacoa": 1,
+      "Centro Habana": 1
     },
-    "averias_total": 10,
+    "averias_total": 12,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -364,9 +390,11 @@
       "Playa": 2,
       "Cotorro": 2,
       "Habana Del Este": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Guanabacoa": 1,
+      "Centro Habana": 1
     },
-    "averias_total": 20,
+    "averias_total": 22,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -387,20 +415,20 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3359,
+    "averias_total": 3361,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 229,
-      "Guanabacoa": 227,
+      "Guanabacoa": 228,
       "Cerro": 202,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
-      "Centro Habana": 72,
+      "Centro Habana": 73,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
