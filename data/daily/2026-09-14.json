@@ -1,8 +1,8 @@
 {
   "date": "2026-09-14",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 64,
+  "peak_time": "15:05",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -24,8 +24,10 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 1,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "disparo_circuito": 1
+    "otro": 2,
+    "actualizacion_bloques": 1,
+    "restablecimiento": 2
   }
 }
