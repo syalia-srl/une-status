@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T20:44:40+00:00",
+  "generated_at": "2026-09-14T21:00:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-14T21:00:15+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,18 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-14T21:00:15+00:00",
+      "averias": []
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-14T20:54:57+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la siguiente dirección: Calle Sur, Santa Cecilia",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +274,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 5,
+    "averias_count_by_municipio": {
+      "Boyeros": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "otro": 4
+      "averias": 2
     }
   },
   "yesterday": {
@@ -323,12 +334,12 @@
       "Playa": 2,
       "Cotorro": 2,
       "Marianao": 2,
+      "Boyeros": 2,
       "Habana Del Este": 1,
       "Cerro": 1,
-      "Boyeros": 1,
       "Plaza": 1
     },
-    "averias_total": 10,
+    "averias_total": 11,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -355,7 +366,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
+      "Boyeros": 6,
       "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
@@ -364,7 +375,7 @@
       "Habana Del Este": 1,
       "Plaza": 1
     },
-    "averias_total": 20,
+    "averias_total": 21,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -385,9 +396,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3359,
+    "averias_total": 3360,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
