@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T19:58:11+00:00",
+  "generated_at": "2026-09-14T20:13:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-14T20:07:29+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,7 +33,13 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-09-14T20:07:29+00:00",
+        "municipio": "Plaza De La Revolución",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -265,13 +271,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "Plaza De La Revolución": 1
     },
     "averias_total": 1,
     "source_msg_count": 2,
     "by_type_counts": {
       "mantenimiento": 1,
-      "averias": 1
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -329,7 +335,7 @@
       "Cerro": 1,
       "Boyeros": 1,
       "Plaza": 1,
-      "Lisa": 1
+      "Plaza De La Revolución": 1
     },
     "averias_total": 11,
     "daf_total": 0,
@@ -366,7 +372,7 @@
       "Cotorro": 2,
       "Habana Del Este": 1,
       "Plaza": 1,
-      "Lisa": 1
+      "Plaza De La Revolución": 1
     },
     "averias_total": 21,
     "daf_total": 4,
@@ -394,7 +400,7 @@
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
-      "Lisa": 244,
+      "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
       "Cerro": 202,
