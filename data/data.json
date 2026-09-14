@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T15:18:47+00:00",
+  "generated_at": "2026-09-14T15:34:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-14T15:33:17+00:00",
     "bloques": [
       {
         "id": 1,
@@ -34,7 +34,10 @@
     "current_mw_affected_at": null,
     "active_averias": null,
     "averias_24h": [],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-09-14T15:33:17+00:00",
+      "type": "restablecimiento_daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -256,7 +259,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -264,15 +267,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "daf": 1,
-      "averias": 1,
-      "restablecimiento_daf": 1
+      "restablecimiento_daf": 2
     }
   },
   "yesterday": {
@@ -329,11 +328,10 @@
       "Habana Del Este": 1,
       "Cerro": 1,
       "Boyeros": 1,
-      "Plaza": 1,
-      "Arroyo Naranjo": 1
+      "Plaza": 1
     },
-    "averias_total": 11,
-    "daf_total": 1,
+    "averias_total": 10,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -362,14 +360,14 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 2,
       "Playa": 2,
       "Cotorro": 2,
       "Habana Del Este": 1,
       "Plaza": 1
     },
-    "averias_total": 21,
-    "daf_total": 5,
+    "averias_total": 20,
+    "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -389,11 +387,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3359,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 272,
+      "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
@@ -407,7 +405,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2373,
+    "daf_total": 2372,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1798,8 +1796,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2373,
-    "daf_last_30d": 7,
+    "daf_total": 2372,
+    "daf_last_30d": 6,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
