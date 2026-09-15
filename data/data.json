@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T03:28:59+00:00",
+  "generated_at": "2026-09-15T03:44:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-15T03:27:13+00:00",
+    "as_of": "2026-09-15T03:40:00+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,29 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-15T03:19:05+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": "la siguiente dirección: 15 e/ 12 y 14, Santiago de Las Vegas",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-15T03:19:05+00:00",
-        "municipio": "Boyeros",
-        "direccion": "la siguiente dirección: 15 e/ 12 y 14, Santiago de Las Vegas",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-15T03:15:46+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "la siguiente dirección: 👉 Washintong e/ Gómez y Aranguren, Barrio Azul"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -285,16 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1,
-      "Boyeros": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 9,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 4,
-      "otro": 2,
-      "averias": 3
+      "restablecimiento": 7
     }
   },
   "yesterday": {
@@ -348,13 +322,12 @@
       "Playa": 2,
       "Cotorro": 2,
       "Marianao": 2,
-      "Boyeros": 2,
       "Habana Del Este": 1,
       "Cerro": 1,
-      "Plaza": 1,
-      "Arroyo Naranjo": 1
+      "Boyeros": 1,
+      "Plaza": 1
     },
-    "averias_total": 12,
+    "averias_total": 10,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -381,16 +354,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
+      "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 2,
       "Playa": 2,
       "Cotorro": 2,
       "Habana Del Este": 1,
       "Plaza": 1
     },
-    "averias_total": 22,
+    "averias_total": 20,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -411,11 +384,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3361,
+    "averias_total": 3359,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 272,
+      "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 229,
       "Guanabacoa": 227,
