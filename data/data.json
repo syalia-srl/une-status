@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T01:39:46+00:00",
+  "generated_at": "2026-09-15T01:55:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-15T01:48:17+00:00",
     "bloques": [
       {
         "id": 1,
@@ -264,16 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 5,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "mantenimiento": 1,
-      "disparo_circuito": 1,
-      "restablecimiento": 2,
-      "otro": 1
+      "otro": 2
     }
   },
   "yesterday": {
@@ -327,12 +322,12 @@
       "Playa": 2,
       "Cotorro": 2,
       "Marianao": 2,
-      "Boyeros": 2,
       "Habana Del Este": 1,
       "Cerro": 1,
+      "Boyeros": 1,
       "Plaza": 1
     },
-    "averias_total": 11,
+    "averias_total": 10,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -359,7 +354,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
+      "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
@@ -368,7 +363,7 @@
       "Habana Del Este": 1,
       "Plaza": 1
     },
-    "averias_total": 21,
+    "averias_total": 20,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -389,9 +384,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3359,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
