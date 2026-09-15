@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-14",
-  "finalized": true,
+  "date": "2026-09-15",
+  "finalized": false,
   "peak_mw_affected": null,
   "peak_time": null,
   "interruption_minutes": null,
@@ -22,12 +22,10 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Habana Del Este": 1
-  },
-  "averias_total": 1,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
   "source_msg_count": 1,
   "by_type_counts": {
-    "averias": 1
+    "restablecimiento": 1
   }
 }

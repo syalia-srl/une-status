@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T03:44:18+00:00",
+  "generated_at": "2026-09-15T04:00:09+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-15T03:40:00+00:00",
+    "as_of": "2026-09-15T04:00:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,22 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-15T03:45:19+00:00",
+      "averias": [
+        {
+          "municipio": "Habana Del Este",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-15T03:45:19+00:00",
+        "municipio": "Habana Del Este",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -241,7 +255,7 @@
     ]
   },
   "day": {
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "finalized": false,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -266,13 +280,13 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 7,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento": 7
+      "restablecimiento": 1
     }
   },
   "yesterday": {
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -295,18 +309,19 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 5,
+    "averias_count_by_municipio": {
+      "Habana Del Este": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento": 4,
-      "disparo_circuito": 1
+      "averias": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 194.0,
+    "avg_peak_mw": 285.0,
     "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -319,15 +334,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Playa": 2,
-      "Cotorro": 2,
       "Marianao": 2,
-      "Habana Del Este": 1,
-      "Cerro": 1,
+      "Cotorro": 1,
       "Boyeros": 1,
-      "Plaza": 1
+      "Playa": 1,
+      "Plaza": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 10,
+    "averias_total": 7,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -340,7 +354,7 @@
   "month": {
     "month": "2026-09",
     "finalized": false,
-    "dailies_count": 14,
+    "dailies_count": 15,
     "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
@@ -358,12 +372,12 @@
       "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
+      "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Habana Del Este": 1,
       "Plaza": 1
     },
-    "averias_total": 20,
+    "averias_total": 21,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -384,13 +398,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3359,
+    "averias_total": 3360,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 229,
+      "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 190,
@@ -420,10 +434,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-08-16",
-        "peak_mw": null
-      },
       {
         "date": "2026-08-17",
         "peak_mw": null
@@ -539,13 +549,13 @@
       {
         "date": "2026-09-14",
         "peak_mw": null
+      },
+      {
+        "date": "2026-09-15",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-08-16",
-        "minutes": 0
-      },
       {
         "date": "2026-08-17",
         "minutes": 0
@@ -661,13 +671,13 @@
       {
         "date": "2026-09-14",
         "minutes": 0
+      },
+      {
+        "date": "2026-09-15",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-03-19",
-        "peak_mw": 326
-      },
       {
         "date": "2026-03-20",
         "peak_mw": 322
@@ -1383,6 +1393,10 @@
       {
         "date": "2026-09-14",
         "peak_mw": null
+      },
+      {
+        "date": "2026-09-15",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1815,9 +1829,9 @@
     }
   },
   "meta": {
-    "daily_count": 1506,
+    "daily_count": 1507,
     "monthly_count": 50,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-09-14"
+    "latest_date": "2026-09-15"
   }
 }
