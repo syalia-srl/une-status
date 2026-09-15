@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T21:37:48+00:00",
+  "generated_at": "2026-09-15T21:53:08+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-15T21:35:58+00:00",
+    "as_of": "2026-09-15T21:51:11+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-15T21:35:58+00:00",
+      "ts": "2026-09-15T21:42:52+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "la calle Independencia entre Ricabal y Monumental",
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "la calle Calzada de San Miguel y Beltrán",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-15T21:35:58+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la calle Independencia entre Ricabal y Monumental",
+        "ts": "2026-09-15T21:42:52+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "la calle Calzada de San Miguel y Beltrán",
         "severity": "secundaria"
       }
     ],
@@ -281,12 +281,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 1,
-    "source_msg_count": 1,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "averias": 1
+      "averias": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -344,7 +345,7 @@
       "Playa": 1,
       "Plaza": 1,
       "Habana Del Este": 1,
-      "Guanabacoa": 1
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 8,
     "daf_total": 0,
@@ -381,7 +382,7 @@
       "Playa": 2,
       "Cotorro": 2,
       "Plaza": 1,
-      "Guanabacoa": 1
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 22,
     "daf_total": 4,
@@ -411,10 +412,10 @@
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 228,
+      "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 190,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
