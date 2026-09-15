@@ -1,8 +1,8 @@
 {
   "date": "2026-09-15",
   "finalized": false,
-  "peak_mw_affected": 384,
-  "peak_time": "18:00",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -26,10 +26,9 @@
     "Boyeros": 1
   },
   "averias_total": 1,
-  "source_msg_count": 3,
+  "source_msg_count": 2,
   "by_type_counts": {
-    "disparo_circuito": 1,
-    "otro": 1,
-    "actualizacion_bloques": 1
+    "restablecimiento": 1,
+    "disparo_circuito": 1
   }
 }

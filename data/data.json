@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T22:31:05+00:00",
+  "generated_at": "2026-09-15T22:39:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-15T22:39:11+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,7 +33,13 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-09-15T22:39:11+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -243,8 +249,8 @@
   "day": {
     "date": "2026-09-15",
     "finalized": false,
-    "peak_mw_affected": 384,
-    "peak_time": "18:00",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -268,11 +274,10 @@
       "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 3,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "otro": 1,
-      "actualizacion_bloques": 1
+      "restablecimiento": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -311,8 +316,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 334.5,
-    "max_peak_mw": 384,
+    "avg_peak_mw": 285.0,
+    "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -345,7 +350,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 15,
-    "avg_peak_mw": 372.6,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -542,7 +547,7 @@
       },
       {
         "date": "2026-09-15",
-        "peak_mw": 384
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1386,7 +1391,7 @@
       },
       {
         "date": "2026-09-15",
-        "peak_mw": 384
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
