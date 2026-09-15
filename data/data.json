@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T02:26:47+00:00",
+  "generated_at": "2026-09-15T02:42:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-15T02:25:48+00:00",
+    "as_of": "2026-09-15T02:37:58+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,41 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-15T02:25:48+00:00",
+      "ts": "2026-09-15T02:26:53+00:00",
       "averias": [
         {
           "municipio": "Guanabacoa",
-          "direccion": "la siguiente dirección: Callejón Unión, Finca el Limón",
+          "direccion": "Carretera del Asilo",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-15T02:25:48+00:00",
+        "ts": "2026-09-15T02:26:53+00:00",
         "municipio": "Guanabacoa",
-        "direccion": "la siguiente dirección: Callejón Unión, Finca el Limón",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-15T02:21:34+00:00",
-        "municipio": "Arroyo Naranjo",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-15T02:20:23+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "Entrada subestación Frank País",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-15T02:16:17+00:00",
-        "municipio": "Guanabacoa",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-15T02:12:29+00:00",
-        "municipio": "Guanabacoa",
+        "direccion": "Carretera del Asilo",
         "severity": "secundaria"
       }
     ],
@@ -302,15 +281,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 4,
-      "Arroyo Naranjo": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 5,
-    "source_msg_count": 8,
+    "averias_total": 1,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "averias": 4,
-      "otro": 2,
-      "disparo_circuito": 1,
+      "averias": 1,
+      "mantenimiento": 1,
       "restablecimiento": 1
     }
   },
@@ -362,7 +339,6 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 4,
       "Playa": 2,
       "Cotorro": 2,
       "Marianao": 2,
@@ -370,9 +346,9 @@
       "Cerro": 1,
       "Boyeros": 1,
       "Plaza": 1,
-      "Arroyo Naranjo": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 15,
+    "averias_total": 11,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -401,15 +377,15 @@
     "averias_count_by_municipio": {
       "Boyeros": 5,
       "Cerro": 4,
-      "Guanabacoa": 4,
       "Marianao": 3,
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 2,
       "Playa": 2,
       "Cotorro": 2,
       "Habana Del Este": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 25,
+    "averias_total": 21,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -430,14 +406,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3364,
+    "averias_total": 3360,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 272,
+      "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Guanabacoa": 231,
       "Habana Del Este": 229,
+      "Guanabacoa": 228,
       "Cerro": 202,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
