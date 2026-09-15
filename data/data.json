@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T21:21:57+00:00",
+  "generated_at": "2026-09-15T21:37:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-15T21:35:58+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-15T21:35:58+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": "la calle Independencia entre Ricabal y Monumental",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-15T21:35:58+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "la calle Independencia entre Ricabal y Monumental",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -265,7 +281,7 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Guanabacoa": 1
     },
     "averias_total": 1,
     "source_msg_count": 1,
@@ -328,7 +344,7 @@
       "Playa": 1,
       "Plaza": 1,
       "Habana Del Este": 1,
-      "Arroyo Naranjo": 1
+      "Guanabacoa": 1
     },
     "averias_total": 8,
     "daf_total": 0,
@@ -360,11 +376,12 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 1
+      "Plaza": 1,
+      "Guanabacoa": 1
     },
     "averias_total": 22,
     "daf_total": 4,
@@ -391,10 +408,10 @@
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 272,
+      "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 227,
+      "Guanabacoa": 228,
       "Cerro": 202,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
