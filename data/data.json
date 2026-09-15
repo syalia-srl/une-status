@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T17:45:11+00:00",
+  "generated_at": "2026-09-15T18:00:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-15T17:42:49+00:00",
+    "as_of": "2026-09-15T17:52:47+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,31 +33,24 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-15T17:34:25+00:00",
+      "ts": "2026-09-15T17:45:26+00:00",
       "averias": [
         {
-          "municipio": "Habana Del Este",
-          "direccion": "Unidad Militar Punto Cero",
-          "severity": "secundaria"
+          "municipio": "Playa",
+          "direccion": "la calle 7ma entre 38 y 40, afectando el servicio eléctrico en el siguiente circuito: 👉 1244: Avenida 5taA desde calle 66 hasta calle 36, avenida 7ma desde calle 40 hasta calle 24(Miramar)"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-15T17:42:49+00:00",
+        "ts": "2026-09-15T17:45:26+00:00",
         "municipio": "Playa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-15T17:34:25+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "Unidad Militar Punto Cero",
-        "severity": "secundaria"
+        "direccion": "la calle 7ma entre 38 y 40, afectando el servicio eléctrico en el siguiente circuito: 👉 1244: Avenida 5taA desde calle 66 hasta calle 36, avenida 7ma desde calle 40 hasta calle 24(Miramar)"
       }
     ],
     "last_daf": {
-      "ts": "2026-09-15T17:41:26+00:00",
-      "type": "restablecimiento_daf"
+      "ts": "2026-09-15T17:52:08+00:00",
+      "type": "daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -289,16 +282,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
       "Playa": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 6,
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "daf": 1,
+      "restablecimiento_daf": 1,
       "averias": 1,
-      "restablecimiento_daf": 3,
-      "disparo_circuito": 1
+      "daf": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -352,12 +344,12 @@
     "averias_count_by_municipio": {
       "Marianao": 2,
       "Playa": 2,
-      "Habana Del Este": 2,
       "Cotorro": 1,
       "Boyeros": 1,
-      "Plaza": 1
+      "Plaza": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 9,
+    "averias_total": 8,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -387,13 +379,13 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Habana Del Este": 3,
       "Playa": 3,
       "Arroyo Naranjo": 2,
+      "Habana Del Este": 2,
       "Cotorro": 2,
       "Plaza": 1
     },
-    "averias_total": 23,
+    "averias_total": 22,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -414,13 +406,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3361,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 284,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 231,
+      "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 190,
