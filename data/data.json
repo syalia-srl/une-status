@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T17:31:28+00:00",
+  "generated_at": "2026-09-16T17:47:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-16T17:27:46+00:00",
+    "as_of": "2026-09-16T17:47:10+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,10 +32,26 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-16T17:35:05+00:00",
+      "averias": [
+        {
+          "municipio": "Habana Del Este",
+          "direccion": "la Avenida 13 A y 458, Boca Ciega",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-16T17:35:05+00:00",
+        "municipio": "Habana Del Este",
+        "direccion": "la Avenida 13 A y 458, Boca Ciega",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": {
-      "ts": "2026-09-16T17:23:43+00:00",
+      "ts": "2026-09-16T17:47:10+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -94,8 +110,8 @@
         "name": "Máximo Gómez (Mariel)",
         "state": "partial",
         "assumed": false,
-        "last_seen_at": "2026-09-16T00:49:15+00:00",
-        "last_online_at": "2026-09-16T00:49:15+00:00",
+        "last_seen_at": "2026-09-16T17:34:00+00:00",
+        "last_online_at": "2026-09-16T17:34:00+00:00",
         "last_offline_at": "2026-04-21T00:06:12+00:00",
         "last_change_at": "2026-09-16T00:48:44+00:00",
         "units": [
@@ -112,7 +128,7 @@
           {
             "unidad": 6,
             "state": "online",
-            "since": "2026-09-16T00:49:15+00:00"
+            "since": "2026-09-16T17:34:00+00:00"
           },
           {
             "unidad": 8,
@@ -267,13 +283,18 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {
+      "Habana Del Este": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "restablecimiento": 3,
+      "unidad_termoelectrica": 1,
       "otro": 2,
-      "daf": 2
+      "averias": 1,
+      "restablecimiento": 3,
+      "daf": 2,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -324,13 +345,13 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Marianao": 2,
+      "Habana Del Este": 2,
       "Cotorro": 1,
       "Boyeros": 1,
       "Playa": 1,
-      "Plaza": 1,
-      "Habana Del Este": 1
+      "Plaza": 1
     },
-    "averias_total": 7,
+    "averias_total": 8,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -360,13 +381,13 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
+      "Habana Del Este": 3,
       "Arroyo Naranjo": 2,
-      "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
       "Plaza": 1
     },
-    "averias_total": 21,
+    "averias_total": 22,
     "daf_total": 6,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -387,13 +408,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3361,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 230,
+      "Habana Del Este": 231,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 190,
