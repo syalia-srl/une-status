@@ -1,59 +1,40 @@
 {
-  "generated_at": "2026-09-16T04:37:09+00:00",
+  "generated_at": "2026-09-16T04:52:28+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-16T04:35:03+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 468,
-    "current_mw_affected_at": "2026-09-16T04:22:11+00:00",
-    "active_averias": {
-      "ts": "2026-09-16T04:24:53+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": "la Vaquería Tamara Bunque , Cochiquera La Presa, Campo Florido, afectando el servicio eléctrico en el siguiente circuito: 👉 MB910: Justi, Agromar, Bajurayabo, Campo Florido, La Coca",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-16T04:24:53+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "la Vaquería Tamara Bunque , Cochiquera La Presa, Campo Florido, afectando el servicio eléctrico en el siguiente circuito: 👉 MB910: Justi, Agromar, Bajurayabo, Campo Florido, La Coca",
-        "severity": "primaria"
-      }
-    ],
-    "last_daf": {
-      "ts": "2026-09-16T04:35:03+00:00",
-      "type": "daf"
-    },
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
