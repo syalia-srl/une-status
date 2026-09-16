@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T03:50:26+00:00",
+  "generated_at": "2026-09-16T04:06:53+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-16T03:36:24+00:00",
+    "as_of": "2026-09-16T03:57:05+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,7 +35,7 @@
     "active_averias": null,
     "averias_24h": [],
     "last_daf": {
-      "ts": "2026-09-16T03:36:24+00:00",
+      "ts": "2026-09-16T03:57:05+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -244,8 +244,12 @@
     ]
   },
   "day": {
+    "date": "2026-09-16",
+    "no_data": true
+  },
+  "yesterday": {
     "date": "2026-09-15",
-    "finalized": false,
+    "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
     "interruption_minutes": null,
@@ -269,47 +273,14 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 2,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "restablecimiento_daf": 2
-    }
-  },
-  "yesterday": {
-    "date": "2026-09-14",
-    "finalized": true,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Habana Del Este": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 1,
-    "by_type_counts": {
-      "averias": 1
+      "restablecimiento_daf": 3
     }
   },
   "week": {
     "finalized": false,
-    "dailies_count": 7,
+    "dailies_count": 6,
     "avg_peak_mw": 285.0,
     "max_peak_mw": 285,
     "total_interruption_minutes": 0,
