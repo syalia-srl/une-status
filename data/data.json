@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T10:49:52+00:00",
+  "generated_at": "2026-09-16T11:04:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-16T10:57:14+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,29 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-16T10:57:14+00:00",
+      "averias": [
+        {
+          "municipio": "Cotorro",
+          "direccion": "101 / 26 y 26 A, afectando en siguiente circuito : 👉 SR840: Centro del Cotorro y Las Brisas",
+          "severity": "primaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-16T10:57:14+00:00",
+        "municipio": "Cotorro",
+        "direccion": "101 / 26 y 26 A, afectando en siguiente circuito : 👉 SR840: Centro del Cotorro y Las Brisas",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-09-16T10:54:07+00:00",
+        "municipio": "Habana Del Este",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +285,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Habana Del Este": 1,
+      "Cotorro": 1
+    },
+    "averias_total": 2,
     "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 1,
-      "empty": 1
+      "averias": 2
     }
   },
   "yesterday": {
@@ -319,14 +342,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Cotorro": 2,
       "Marianao": 2,
-      "Cotorro": 1,
+      "Habana Del Este": 2,
       "Boyeros": 1,
       "Playa": 1,
-      "Plaza": 1,
-      "Habana Del Este": 1
+      "Plaza": 1
     },
-    "averias_total": 7,
+    "averias_total": 9,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -356,13 +379,13 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
+      "Habana Del Este": 3,
+      "Cotorro": 3,
       "Arroyo Naranjo": 2,
-      "Habana Del Este": 2,
       "Playa": 2,
-      "Cotorro": 2,
       "Plaza": 1
     },
-    "averias_total": 21,
+    "averias_total": 23,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -383,19 +406,19 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3362,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 230,
+      "Habana Del Este": 231,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
-      "Cotorro": 105,
+      "Cotorro": 106,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
