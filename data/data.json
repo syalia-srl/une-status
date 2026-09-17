@@ -1,55 +1,39 @@
 {
-  "generated_at": "2026-09-17T19:13:59+00:00",
+  "generated_at": "2026-09-17T19:29:52+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-17T19:12:45+00:00",
+    "as_of": "2026-09-17T19:23:49+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 193,
-    "current_mw_affected_at": "2026-09-17T19:03:26+00:00",
-    "active_averias": {
-      "ts": "2026-09-17T19:09:44+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "las siguientes direcciones: 👉 Kessel/Lourdes y Villordo, Víbora Park 👉 Avenida San Juan/Matanzas y Camagüey, Párraga",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-17T19:09:44+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "las siguientes direcciones: 👉 Kessel/Lourdes y Villordo, Víbora Park 👉 Avenida San Juan/Matanzas y Camagüey, Párraga",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -259,8 +243,8 @@
   "day": {
     "date": "2026-09-17",
     "finalized": false,
-    "peak_mw_affected": 193,
-    "peak_time": "15:03",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -280,19 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 9,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 3,
-      "pinned": 1,
-      "empty": 1,
-      "corto": 1,
-      "actualizacion_bloques": 1,
-      "restablecimiento": 1,
-      "averias": 1
+      "otro": 2
     }
   },
   "yesterday": {
@@ -332,7 +308,7 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 239.0,
+    "avg_peak_mw": 285.0,
     "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -349,10 +325,9 @@
       "Boyeros": 1,
       "Playa": 1,
       "Plaza": 1,
-      "Habana Del Este": 1,
-      "Arroyo Naranjo": 1
+      "Habana Del Este": 1
     },
-    "averias_total": 7,
+    "averias_total": 6,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -366,7 +341,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 17,
-    "avg_peak_mw": 334.4,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -382,13 +357,13 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
       "Plaza": 1
     },
-    "averias_total": 22,
+    "averias_total": 21,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -409,11 +384,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3361,
+    "averias_total": 3360,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 272,
+      "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
@@ -563,7 +538,7 @@
       },
       {
         "date": "2026-09-17",
-        "peak_mw": 193
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1407,7 +1382,7 @@
       },
       {
         "date": "2026-09-17",
-        "peak_mw": 193
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
