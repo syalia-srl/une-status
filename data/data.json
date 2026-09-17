@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-17T02:36:17+00:00",
+  "generated_at": "2026-09-17T02:52:09+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-17T02:27:42+00:00",
+    "as_of": "2026-09-17T02:44:23+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,27 +32,17 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-17T02:27:37+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa",
-          "direccion": ": 41 entre 172 y 180 , versalles 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-09-17T02:27:37+00:00",
-        "municipio": "Lisa",
-        "direccion": ": 41 entre 172 y 180 , versalles 🚨",
-        "severity": "secundaria"
+        "ts": "2026-09-17T02:39:31+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
-      "ts": "2026-09-17T02:25:47+00:00",
-      "type": "daf"
+      "ts": "2026-09-17T02:44:23+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -284,15 +274,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 4,
+    "source_msg_count": 3,
     "by_type_counts": {
+      "disparo_circuito": 1,
       "daf": 1,
-      "averias": 1,
-      "otro": 1,
-      "pinned": 1
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -343,12 +332,11 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Marianao": 2,
+      "Boyeros": 2,
       "Cotorro": 1,
-      "Boyeros": 1,
       "Playa": 1,
       "Plaza": 1,
-      "Habana Del Este": 1,
-      "Lisa": 1
+      "Habana Del Este": 1
     },
     "averias_total": 8,
     "daf_total": 1,
@@ -377,15 +365,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
+      "Boyeros": 6,
       "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 1,
-      "Lisa": 1
+      "Plaza": 1
     },
     "averias_total": 22,
     "daf_total": 5,
@@ -410,10 +397,10 @@
     },
     "averias_total": 3361,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 271,
-      "Lisa": 244,
+      "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
