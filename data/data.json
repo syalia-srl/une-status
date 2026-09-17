@@ -1,40 +1,43 @@
 {
-  "generated_at": "2026-09-17T09:52:57+00:00",
+  "generated_at": "2026-09-17T10:08:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-17T10:03:47+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 377,
+    "current_mw_affected_at": "2026-09-17T09:53:49+00:00",
     "active_averias": null,
     "averias_24h": [],
-    "last_daf": null,
+    "last_daf": {
+      "ts": "2026-09-17T10:03:47+00:00",
+      "type": "restablecimiento_daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -243,8 +246,8 @@
   "day": {
     "date": "2026-09-17",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 377,
+    "peak_time": "05:53",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -266,12 +269,14 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 4,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "otro": 1,
+      "actualizacion_bloques": 1,
+      "otro": 2,
       "pinned": 1,
       "empty": 1,
-      "corto": 1
+      "corto": 1,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -311,8 +316,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 285.0,
-    "max_peak_mw": 285,
+    "avg_peak_mw": 331.0,
+    "max_peak_mw": 377,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -344,7 +349,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 17,
-    "avg_peak_mw": 369.8,
+    "avg_peak_mw": 371.2,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -541,7 +546,7 @@
       },
       {
         "date": "2026-09-17",
-        "peak_mw": null
+        "peak_mw": 377
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1385,7 +1390,7 @@
       },
       {
         "date": "2026-09-17",
-        "peak_mw": null
+        "peak_mw": 377
       }
     ],
     "monthly_max_peak_mw": [
