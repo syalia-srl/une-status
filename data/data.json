@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-18T15:39:08+00:00",
+  "generated_at": "2026-09-18T15:54:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-18T15:37:21+00:00",
+    "as_of": "2026-09-18T15:49:24+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,18 +33,7 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [
-      {
-        "ts": "2026-09-18T15:28:56+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-18T15:24:04+00:00",
-        "municipio": "Plaza",
-        "kind": "disparo_circuito"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -225,8 +214,8 @@
         "name": "Antonio Maceo (Renté)",
         "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-09-13T20:09:38+00:00",
-        "last_online_at": "2026-09-13T20:09:38+00:00",
+        "last_seen_at": "2026-09-18T15:44:03+00:00",
+        "last_online_at": "2026-09-18T15:44:03+00:00",
         "last_offline_at": "2026-08-18T13:35:27+00:00",
         "last_change_at": "2026-08-19T02:34:16+00:00",
         "units": [
@@ -243,7 +232,7 @@
           {
             "unidad": 6,
             "state": "online",
-            "since": "2026-09-13T20:09:38+00:00"
+            "since": "2026-09-18T15:44:03+00:00"
           }
         ],
         "online_units": 3,
@@ -275,16 +264,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Plaza": 1,
-      "Boyeros": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 6,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "disparo_circuito": 2,
-      "via_libre": 1,
-      "restablecimiento": 3
+      "unidad_termoelectrica": 1,
+      "restablecimiento": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -338,11 +324,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "Plaza": 1,
-      "Boyeros": 1
+      "Habana Del Este": 1
     },
-    "averias_total": 3,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -369,16 +353,16 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
+      "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 2
+      "Plaza": 1
     },
-    "averias_total": 23,
+    "averias_total": 21,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -399,16 +383,16 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3360,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
-      "Plaza": 191,
+      "Plaza": 190,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
