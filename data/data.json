@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-18T23:41:20+00:00",
+  "generated_at": "2026-09-18T23:56:44+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-18T23:37:41+00:00",
+    "as_of": "2026-09-18T23:49:45+00:00",
     "bloques": [
       {
         "id": 1,
@@ -38,9 +38,9 @@
     "last_pronostico": null,
     "sen": {
       "state": "online",
-      "since": "2026-09-18T23:37:41+00:00",
+      "since": null,
       "last_outage_at": "2026-08-02",
-      "last_recovered_at": "2026-09-18T23:37:41+00:00",
+      "last_recovered_at": null,
       "partial_sen": {
         "active": false,
         "since": null,
@@ -183,10 +183,10 @@
       {
         "id": "guevara",
         "name": "Ernesto Guevara (Santa Cruz)",
-        "state": "assumed_online",
-        "assumed": true,
-        "last_seen_at": "2026-08-08T03:31:15+00:00",
-        "last_online_at": "2026-08-08T03:31:15+00:00",
+        "state": "online",
+        "assumed": false,
+        "last_seen_at": "2026-09-18T23:49:45+00:00",
+        "last_online_at": "2026-09-18T23:49:45+00:00",
         "last_offline_at": "2026-07-09T21:01:11+00:00",
         "last_change_at": "2026-07-15T02:31:56+00:00",
         "units": [
@@ -198,7 +198,7 @@
           {
             "unidad": 2,
             "state": "online",
-            "since": "2026-08-08T03:31:15+00:00"
+            "since": "2026-09-18T23:49:45+00:00"
           },
           {
             "unidad": 3,
@@ -268,7 +268,7 @@
     "averias_total": 0,
     "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento_sen": 1
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
