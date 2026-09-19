@@ -23,12 +23,16 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "San Miguel Del Padrón Pertenecientes A La Subestación Melones": 1,
-    "Lisa": 1
+    "Regla": 1
   },
-  "averias_total": 2,
-  "source_msg_count": 2,
+  "averias_total": 1,
+  "source_msg_count": 9,
   "by_type_counts": {
-    "disparo_circuito": 2
+    "disparo_circuito": 1,
+    "restablecimiento": 3,
+    "otro": 2,
+    "pinned": 1,
+    "empty": 1,
+    "corto": 1
   }
 }
