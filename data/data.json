@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T01:14:48+00:00",
+  "generated_at": "2026-09-19T01:30:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-19T01:01:05+00:00",
+    "as_of": "2026-09-19T01:19:29+00:00",
     "bloques": [
       {
         "id": 1,
@@ -185,15 +185,15 @@
         "name": "Ernesto Guevara (Santa Cruz)",
         "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-09-18T23:49:45+00:00",
-        "last_online_at": "2026-09-18T23:49:45+00:00",
+        "last_seen_at": "2026-09-19T01:19:29+00:00",
+        "last_online_at": "2026-09-19T01:19:29+00:00",
         "last_offline_at": "2026-07-09T21:01:11+00:00",
         "last_change_at": "2026-07-15T02:31:56+00:00",
         "units": [
           {
             "unidad": 1,
             "state": "online",
-            "since": "2026-08-04T17:27:38+00:00"
+            "since": "2026-09-19T01:19:29+00:00"
           },
           {
             "unidad": 2,
@@ -266,12 +266,10 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 4,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 1,
-      "pinned": 1,
-      "empty": 1,
-      "corto": 1
+      "restablecimiento": 1,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
