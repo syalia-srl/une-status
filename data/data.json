@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T19:53:17+00:00",
+  "generated_at": "2026-09-19T20:09:09+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-19T19:53:10+00:00",
+    "as_of": "2026-09-19T20:06:12+00:00",
     "bloques": [
       {
         "id": 1,
@@ -123,10 +123,10 @@
       {
         "id": "cespedes",
         "name": "Carlos M. de Céspedes (Cienfuegos)",
-        "state": "assumed_online",
-        "assumed": true,
-        "last_seen_at": "2026-08-13T04:40:42+00:00",
-        "last_online_at": "2026-08-13T04:40:42+00:00",
+        "state": "partial",
+        "assumed": false,
+        "last_seen_at": "2026-09-19T20:05:47+00:00",
+        "last_online_at": "2026-09-19T20:05:47+00:00",
         "last_offline_at": "2026-08-02T16:42:32+00:00",
         "last_change_at": "2026-08-13T04:40:42+00:00",
         "units": [
@@ -138,7 +138,7 @@
           {
             "unidad": 4,
             "state": "online",
-            "since": "2026-08-13T04:40:42+00:00"
+            "since": "2026-09-19T20:05:47+00:00"
           }
         ],
         "online_units": 1,
@@ -266,11 +266,13 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 4,
+    "source_msg_count": 9,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "otro": 2,
-      "empty": 1
+      "otro": 4,
+      "pinned": 1,
+      "empty": 2,
+      "corto": 1,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
