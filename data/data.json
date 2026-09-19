@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T10:35:19+00:00",
+  "generated_at": "2026-09-19T10:50:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-19T10:43:52+00:00",
     "bloques": [
       {
         "id": 1,
@@ -89,12 +89,12 @@
       {
         "id": "maximo-gomez",
         "name": "Máximo Gómez (Mariel)",
-        "state": "partial",
+        "state": "online",
         "assumed": false,
-        "last_seen_at": "2026-09-19T03:44:08+00:00",
-        "last_online_at": "2026-09-19T03:44:08+00:00",
+        "last_seen_at": "2026-09-19T10:43:52+00:00",
+        "last_online_at": "2026-09-19T10:43:52+00:00",
         "last_offline_at": "2026-04-21T00:06:12+00:00",
-        "last_change_at": "2026-09-16T00:48:44+00:00",
+        "last_change_at": "2026-09-19T10:43:52+00:00",
         "units": [
           {
             "unidad": 3,
@@ -103,8 +103,8 @@
           },
           {
             "unidad": 5,
-            "state": "offline",
-            "since": "2026-02-25T03:14:50+00:00"
+            "state": "online",
+            "since": "2026-09-19T10:43:52+00:00"
           },
           {
             "unidad": 6,
@@ -117,8 +117,8 @@
             "since": "2026-08-20T03:56:37+00:00"
           }
         ],
-        "online_units": 3,
-        "offline_units": 1
+        "online_units": 4,
+        "offline_units": 0
       },
       {
         "id": "cespedes",
@@ -266,13 +266,9 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 5,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "otro": 1,
-      "pinned": 1,
-      "empty": 1,
-      "corto": 1
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
