@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T12:54:48+00:00",
+  "generated_at": "2026-09-19T13:06:23+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-19T13:05:35+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,22 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-19T13:02:56+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "la calle 47 entre 40 y 39A, afectando el servicio eléctrico en el siguiente circuito: 👉 1243: Alrededores de avenida 41 desde calle 42A hasta calle 30(Kohly)"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-19T13:02:56+00:00",
+        "municipio": "Playa",
+        "direccion": "la calle 47 entre 40 y 39A, afectando el servicio eléctrico en el siguiente circuito: 👉 1243: Alrededores de avenida 41 desde calle 42A hasta calle 30(Kohly)"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,14 +278,18 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Playa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 6,
     "by_type_counts": {
       "otro": 1,
       "pinned": 1,
       "empty": 1,
-      "corto": 1
+      "corto": 1,
+      "averias": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -321,9 +339,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Playa": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -353,13 +372,13 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
+      "Playa": 3,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
-      "Playa": 2,
       "Cotorro": 2,
       "Plaza": 1
     },
-    "averias_total": 21,
+    "averias_total": 22,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -380,10 +399,10 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3361,
     "averias_top_municipios": {
       "Boyeros": 356,
-      "Playa": 283,
+      "Playa": 284,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 230,
