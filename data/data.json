@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T07:47:18+00:00",
+  "generated_at": "2026-09-20T08:02:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-20T08:02:48+00:00",
     "bloques": [
       {
         "id": 1,
@@ -243,8 +243,8 @@
   "day": {
     "date": "2026-09-20",
     "finalized": false,
-    "peak_mw_affected": 124,
-    "peak_time": "03:22",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -266,11 +266,10 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 4,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "actualizacion_bloques": 1,
-      "otro": 2
+      "otro": 1,
+      "pinned": 1
     }
   },
   "yesterday": {
@@ -308,8 +307,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 124.0,
-    "max_peak_mw": 124,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -337,7 +336,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 20,
-    "avg_peak_mw": 320.6,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -534,7 +533,7 @@
       },
       {
         "date": "2026-09-20",
-        "peak_mw": 124
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1378,7 +1377,7 @@
       },
       {
         "date": "2026-09-20",
-        "peak_mw": 124
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
