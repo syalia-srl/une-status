@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T09:35:38+00:00",
+  "generated_at": "2026-09-20T09:46:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-20T09:34:25+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-20T09:34:25+00:00",
-      "averias": [
-        {
-          "municipio": "Lisa",
-          "direccion": "la calle 152 entre 51 y 53, Balcón Arimao 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-20T09:34:25+00:00",
-        "municipio": "Lisa",
-        "direccion": "la calle 152 entre 51 y 53, Balcón Arimao 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
