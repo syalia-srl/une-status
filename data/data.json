@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T13:47:31+00:00",
+  "generated_at": "2026-09-20T14:00:09+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-20T13:56:19+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,28 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-20T13:55:59+00:00",
+      "averias": [
+        {
+          "municipio": "San Miguel Del Padrón",
+          "severity": "primaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-20T13:55:59+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-09-20T13:51:11+00:00",
+        "municipio": "Cerro",
+        "direccion": "Vía Blanca entre 1ra y Primelles, afectando el siguiente circuito: 👉 C10: Alrededores del cuadrante desde calles avenida Blanquita hasta 11, 12 hasta avenida del Norte, Casino Deportivo 🚨 ⚡️",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,11 +284,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Cerro": 1,
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 2,
     "source_msg_count": 4,
     "by_type_counts": {
-      "otro": 3,
+      "averias": 2,
+      "otro": 1,
       "restablecimiento": 1
     }
   },
@@ -320,9 +344,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Cerro": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 1,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -350,15 +376,16 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 5,
-      "Cerro": 4,
+      "Cerro": 5,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 1
+      "Plaza": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 21,
+    "averias_total": 23,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,7 +406,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3362,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
@@ -387,9 +414,9 @@
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 202,
+      "Cerro": 203,
       "Plaza": 190,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
