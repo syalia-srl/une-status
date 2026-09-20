@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T23:03:44+00:00",
+  "generated_at": "2026-09-20T23:18:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-20T23:03:37+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,22 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-20T22:49:45+00:00",
-      "averias": [
-        {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "los siguientes circuitos : 👉 H442: Reparto Barrio Obrero, Guardiola, Jacomino, California, María Cristina y Carolina 👉 H443: Reparto Los Ángeles, Rocafort, La Rosalía, La Fernanda y Juanelo"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-20T22:49:45+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "los siguientes circuitos : 👉 H442: Reparto Barrio Obrero, Guardiola, Jacomino, California, María Cristina y Carolina 👉 H443: Reparto Los Ángeles, Rocafort, La Rosalía, La Fernanda y Juanelo"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
