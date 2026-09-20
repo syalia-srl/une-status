@@ -1,56 +1,51 @@
 {
-  "generated_at": "2026-09-20T01:03:07+00:00",
+  "generated_at": "2026-09-20T01:18:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-20T01:02:25+00:00",
+    "as_of": "2026-09-20T01:14:00+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 306,
-    "current_mw_affected_at": "2026-09-20T01:00:08+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-20T01:01:46+00:00",
+      "ts": "2026-09-20T01:14:00+00:00",
       "averias": [
         {
-          "municipio": "Habana Del Este",
-          "direccion": "el circuito AL57, quedando afectado el servicio eléctrico en: 👉 AL52: Zonas: 6; 7; 8; 9; 10; 11 y Micro 4"
+          "municipio": "Marianao",
+          "direccion": "la calle 114 y 49, afectando el servicio eléctrico en el siguiente circuito: 👉 1851: Reparto Zamora 📣"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-20T01:01:46+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "el circuito AL57, quedando afectado el servicio eléctrico en: 👉 AL52: Zonas: 6; 7; 8; 9; 10; 11 y Micro 4"
-      },
-      {
-        "ts": "2026-09-20T00:50:53+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
+        "ts": "2026-09-20T01:14:00+00:00",
+        "municipio": "Marianao",
+        "direccion": "la calle 114 y 49, afectando el servicio eléctrico en el siguiente circuito: 👉 1851: Reparto Zamora 📣"
       }
     ],
     "last_daf": null,
@@ -262,8 +257,8 @@
   "day": {
     "date": "2026-09-19",
     "finalized": false,
-    "peak_mw_affected": 306,
-    "peak_time": "21:00",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -284,19 +279,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 2
+      "Marianao": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 10,
+    "averias_total": 1,
+    "source_msg_count": 3,
     "by_type_counts": {
       "restablecimiento": 2,
-      "disparo_circuito": 2,
-      "actualizacion_bloques": 1,
-      "averias": 1,
-      "otro": 1,
-      "pinned": 1,
-      "empty": 1,
-      "corto": 1
+      "averias": 1
     }
   },
   "yesterday": {
@@ -333,8 +322,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 306.0,
-    "max_peak_mw": 306,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -346,9 +335,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 3
+      "Habana Del Este": 1,
+      "Marianao": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -362,7 +352,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 19,
-    "avg_peak_mw": 357.0,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -377,14 +367,14 @@
     "averias_count_by_municipio": {
       "Boyeros": 5,
       "Cerro": 4,
-      "Habana Del Este": 4,
-      "Marianao": 3,
+      "Marianao": 4,
       "Arroyo Naranjo": 2,
+      "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
       "Plaza": 1
     },
-    "averias_total": 23,
+    "averias_total": 22,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -405,18 +395,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3361,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 232,
+      "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
-      "Marianao": 162,
+      "Marianao": 163,
       "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -559,7 +549,7 @@
       },
       {
         "date": "2026-09-19",
-        "peak_mw": 306
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1403,7 +1393,7 @@
       },
       {
         "date": "2026-09-19",
-        "peak_mw": 306
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
