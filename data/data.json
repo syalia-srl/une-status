@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T19:58:17+00:00",
+  "generated_at": "2026-09-20T20:13:29+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-20T19:56:50+00:00",
+    "as_of": "2026-09-20T20:12:06+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,14 +33,21 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-20T19:47:32+00:00",
-      "averias": []
+      "ts": "2026-09-20T20:08:26+00:00",
+      "averias": [
+        {
+          "municipio": "Lisa",
+          "direccion": "👉 41 entre 172 y 180 👉 274 Y Lindero 🟢 ☑️",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-20T19:56:50+00:00",
-        "municipio": "Regla",
-        "kind": "disparo_circuito"
+        "ts": "2026-09-20T20:08:26+00:00",
+        "municipio": "Lisa",
+        "direccion": "👉 41 entre 172 y 180 👉 274 Y Lindero 🟢 ☑️",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -274,14 +281,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Regla": 1
+      "Lisa": 1
     },
     "averias_total": 1,
-    "source_msg_count": 3,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento": 1,
-      "disparo_circuito": 1
+      "otro": 7,
+      "pinned": 1,
+      "empty": 1,
+      "corto": 1,
+      "mantenimiento": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -333,7 +343,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Habana Del Este": 1,
-      "Regla": 1
+      "Lisa": 1
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -370,7 +380,7 @@
       "Playa": 2,
       "Cotorro": 2,
       "Plaza": 1,
-      "Regla": 1
+      "Lisa": 1
     },
     "averias_total": 22,
     "daf_total": 4,
@@ -398,7 +408,7 @@
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
-      "Lisa": 243,
+      "Lisa": 244,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
@@ -409,7 +419,7 @@
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 44
+      "Regla": 43
     },
     "daf_total": 2372,
     "sen_collapse_total": 10,
