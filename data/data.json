@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T20:13:29+00:00",
+  "generated_at": "2026-09-20T20:28:29+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-20T20:12:06+00:00",
+    "as_of": "2026-09-20T20:25:57+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,21 +33,22 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-20T20:08:26+00:00",
+      "ts": "2026-09-20T20:16:35+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "👉 41 entre 172 y 180 👉 274 Y Lindero 🟢 ☑️",
-          "severity": "secundaria"
+          "municipio": "Lisa"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-20T20:08:26+00:00",
-        "municipio": "Lisa",
-        "direccion": "👉 41 entre 172 y 180 👉 274 Y Lindero 🟢 ☑️",
-        "severity": "secundaria"
+        "ts": "2026-09-20T20:16:35+00:00",
+        "municipio": "Lisa"
+      },
+      {
+        "ts": "2026-09-20T20:16:25+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -281,17 +282,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "San Miguel Del Padrón": 1,
       "Lisa": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 12,
+    "averias_total": 2,
+    "source_msg_count": 10,
     "by_type_counts": {
-      "otro": 7,
-      "pinned": 1,
-      "empty": 1,
-      "corto": 1,
+      "disparo_circuito": 1,
+      "averias": 1,
+      "otro": 3,
       "mantenimiento": 1,
-      "averias": 1
+      "restablecimiento": 4
     }
   },
   "yesterday": {
@@ -343,9 +344,10 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Habana Del Este": 1,
+      "San Miguel Del Padrón": 1,
       "Lisa": 1
     },
-    "averias_total": 2,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -380,9 +382,10 @@
       "Playa": 2,
       "Cotorro": 2,
       "Plaza": 1,
+      "San Miguel Del Padrón": 1,
       "Lisa": 1
     },
-    "averias_total": 22,
+    "averias_total": 23,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -403,7 +406,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3361,
+    "averias_total": 3362,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
@@ -413,7 +416,7 @@
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 190,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
