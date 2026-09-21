@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T02:09:18+00:00",
+  "generated_at": "2026-09-21T02:24:38+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-21T02:07:36+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-21T02:02:22+00:00",
-      "averias": [
-        {
-          "municipio": "Marianao",
-          "direccion": "122 y Autopista que afecta el servicio en el siguiente circuito : 👉 A1430: Soterrado Cujae, Toledo",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-21T02:02:22+00:00",
-        "municipio": "Marianao",
-        "direccion": "122 y Autopista que afecta el servicio en el siguiente circuito : 👉 A1430: Soterrado Cujae, Toledo",
-        "severity": "primaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
