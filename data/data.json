@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T20:03:09+00:00",
+  "generated_at": "2026-09-21T20:18:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-21T20:00:43+00:00",
+    "as_of": "2026-09-21T20:05:56+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,22 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-21T20:00:43+00:00",
-      "averias": [
-        {
-          "municipio": "Plaza",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-21T20:00:43+00:00",
-        "municipio": "Plaza",
-        "severity": "primaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -278,15 +264,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Plaza": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "restablecimiento": 2,
+      "restablecimiento": 1,
       "otro": 1,
-      "averias": 1
+      "pinned": 1,
+      "empty": 1,
+      "corto": 1
     }
   },
   "yesterday": {
@@ -336,10 +322,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Plaza": 1
-    },
-    "averias_total": 1,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -373,9 +357,9 @@
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 2
+      "Plaza": 1
     },
-    "averias_total": 22,
+    "averias_total": 21,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -396,7 +380,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3361,
+    "averias_total": 3360,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
@@ -405,7 +389,7 @@
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
-      "Plaza": 191,
+      "Plaza": 190,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
