@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T06:48:09+00:00",
+  "generated_at": "2026-09-21T07:03:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-21T06:46:29+00:00",
+    "as_of": "2026-09-21T06:54:06+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,12 +32,20 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-09-21T06:48:50+00:00",
+      "averias": [
+        {
+          "municipio": "Plaza",
+          "severity": "primaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-09-21T06:46:05+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
+        "ts": "2026-09-21T06:48:50+00:00",
+        "municipio": "Plaza",
+        "severity": "primaria"
       }
     ],
     "last_daf": null,
@@ -271,14 +279,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Plaza": 1
     },
     "averias_total": 1,
-    "source_msg_count": 7,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "restablecimiento": 4,
-      "otro": 2,
-      "disparo_circuito": 1
+      "averias": 1,
+      "otro": 1,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
@@ -329,7 +337,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Plaza": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -361,11 +369,11 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Habana Del Este": 3,
       "Arroyo Naranjo": 2,
+      "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 1
+      "Plaza": 2
     },
     "averias_total": 22,
     "daf_total": 4,
@@ -394,10 +402,10 @@
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 231,
+      "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
-      "Plaza": 190,
+      "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
