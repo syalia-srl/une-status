@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-22T19:56:04+00:00",
+  "generated_at": "2026-09-22T20:11:22+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-22T19:52:29+00:00",
+    "as_of": "2026-09-22T20:07:48+00:00",
     "bloques": [
       {
         "id": 1,
@@ -263,16 +263,17 @@
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {
-      "maximo-gomez": 487
-    },
+    "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 9,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "otro": 6,
-      "restablecimiento": 2,
-      "unidad_termoelectrica": 1
+      "restablecimiento": 3,
+      "via_libre": 1,
+      "otro": 5,
+      "pinned": 1,
+      "empty": 1,
+      "corto": 1
     }
   },
   "yesterday": {
@@ -331,9 +332,7 @@
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {
-      "maximo-gomez": 487
-    },
+    "cte_offline_minutes_total": {},
     "window": "7d"
   },
   "month": {
@@ -369,9 +368,7 @@
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {
-      "maximo-gomez": 487
-    }
+    "cte_offline_minutes_total": {}
   },
   "all_time": {
     "months_count": 50,
@@ -411,7 +408,7 @@
     "partial_sen_outage_minutes_total": 132,
     "cte_offline_minutes_total": {
       "rente": 3274,
-      "maximo-gomez": 7382,
+      "maximo-gomez": 6895,
       "guevara": 7064,
       "felton": 3050,
       "guiteras": 758,
@@ -1798,7 +1795,7 @@
     "daf_last_30d": 6,
     "cte_offline_minutes_total": {
       "rente": 3274,
-      "maximo-gomez": 7382,
+      "maximo-gomez": 6895,
       "guevara": 7064,
       "felton": 3050,
       "guiteras": 758,
@@ -1807,7 +1804,7 @@
     },
     "cte_offline_days_total": {
       "rente": 13,
-      "maximo-gomez": 17,
+      "maximo-gomez": 16,
       "guevara": 19,
       "felton": 6,
       "guiteras": 1,

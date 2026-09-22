@@ -21,15 +21,16 @@
   "partial_sen_collapse_count": 0,
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
-  "cte_offline_minutes": {
-    "maximo-gomez": 487
-  },
+  "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 9,
+  "source_msg_count": 12,
   "by_type_counts": {
-    "otro": 6,
-    "restablecimiento": 2,
-    "unidad_termoelectrica": 1
+    "restablecimiento": 3,
+    "via_libre": 1,
+    "otro": 5,
+    "pinned": 1,
+    "empty": 1,
+    "corto": 1
   }
 }
