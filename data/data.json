@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-22T19:39:50+00:00",
+  "generated_at": "2026-09-22T19:56:04+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-22T19:39:46+00:00",
+    "as_of": "2026-09-22T19:52:29+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 292,
-    "current_mw_affected_at": "2026-09-22T19:39:46+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
@@ -89,12 +89,12 @@
       {
         "id": "maximo-gomez",
         "name": "Máximo Gómez (Mariel)",
-        "state": "online",
+        "state": "partial",
         "assumed": false,
-        "last_seen_at": "2026-09-19T10:43:52+00:00",
+        "last_seen_at": "2026-09-22T19:52:11+00:00",
         "last_online_at": "2026-09-19T10:43:52+00:00",
-        "last_offline_at": "2026-04-21T00:06:12+00:00",
-        "last_change_at": "2026-09-19T10:43:52+00:00",
+        "last_offline_at": "2026-09-22T19:52:11+00:00",
+        "last_change_at": "2026-09-22T19:52:11+00:00",
         "units": [
           {
             "unidad": 3,
@@ -113,12 +113,12 @@
           },
           {
             "unidad": 8,
-            "state": "online",
-            "since": "2026-08-20T03:56:37+00:00"
+            "state": "offline",
+            "since": "2026-09-22T19:52:11+00:00"
           }
         ],
-        "online_units": 4,
-        "offline_units": 0
+        "online_units": 3,
+        "offline_units": 1
       },
       {
         "id": "cespedes",
@@ -243,8 +243,8 @@
   "day": {
     "date": "2026-09-22",
     "finalized": false,
-    "peak_mw_affected": 292,
-    "peak_time": "15:39",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -263,13 +263,16 @@
     "partial_sen_collapse_count": 0,
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
+    "cte_offline_minutes": {
+      "maximo-gomez": 487
+    },
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 3,
+    "source_msg_count": 9,
     "by_type_counts": {
-      "otro": 2,
-      "actualizacion_bloques": 1
+      "otro": 6,
+      "restablecimiento": 2,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
@@ -308,8 +311,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 292.0,
-    "max_peak_mw": 292,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -328,14 +331,16 @@
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {},
+    "cte_offline_minutes_total": {
+      "maximo-gomez": 487
+    },
     "window": "7d"
   },
   "month": {
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 22,
-    "avg_peak_mw": 354.2,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -364,7 +369,9 @@
     "sen_outage_minutes_total": 0,
     "partial_sen_collapse_total": 0,
     "partial_sen_outage_minutes_total": 0,
-    "cte_offline_minutes_total": {}
+    "cte_offline_minutes_total": {
+      "maximo-gomez": 487
+    }
   },
   "all_time": {
     "months_count": 50,
@@ -404,7 +411,7 @@
     "partial_sen_outage_minutes_total": 132,
     "cte_offline_minutes_total": {
       "rente": 3274,
-      "maximo-gomez": 6895,
+      "maximo-gomez": 7382,
       "guevara": 7064,
       "felton": 3050,
       "guiteras": 758,
@@ -532,7 +539,7 @@
       },
       {
         "date": "2026-09-22",
-        "peak_mw": 292
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1376,7 +1383,7 @@
       },
       {
         "date": "2026-09-22",
-        "peak_mw": 292
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1791,7 +1798,7 @@
     "daf_last_30d": 6,
     "cte_offline_minutes_total": {
       "rente": 3274,
-      "maximo-gomez": 6895,
+      "maximo-gomez": 7382,
       "guevara": 7064,
       "felton": 3050,
       "guiteras": 758,
@@ -1800,7 +1807,7 @@
     },
     "cte_offline_days_total": {
       "rente": 13,
-      "maximo-gomez": 16,
+      "maximo-gomez": 17,
       "guevara": 19,
       "felton": 6,
       "guiteras": 1,

@@ -2,7 +2,7 @@
   "month": "2026-09",
   "finalized": false,
   "dailies_count": 22,
-  "avg_peak_mw": 354.2,
+  "avg_peak_mw": 369.8,
   "max_peak_mw": 553,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -31,5 +31,7 @@
   "sen_outage_minutes_total": 0,
   "partial_sen_collapse_total": 0,
   "partial_sen_outage_minutes_total": 0,
-  "cte_offline_minutes_total": {}
+  "cte_offline_minutes_total": {
+    "maximo-gomez": 487
+  }
 }
