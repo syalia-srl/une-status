@@ -1,39 +1,45 @@
 {
-  "generated_at": "2026-09-22T01:30:25+00:00",
+  "generated_at": "2026-09-22T01:46:08+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-22T01:28:13+00:00",
+    "as_of": "2026-09-22T01:39:18+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 335,
-    "current_mw_affected_at": "2026-09-22T01:26:33+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-09-22T01:32:01+00:00",
+        "municipio": "Guanabacoa",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -243,8 +249,8 @@
   "day": {
     "date": "2026-09-21",
     "finalized": false,
-    "peak_mw_affected": 335,
-    "peak_time": "21:26",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -264,13 +270,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 5,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "otro": 2,
-      "actualizacion_bloques": 1
+      "otro": 3,
+      "disparo_circuito": 1,
+      "restablecimiento": 3
     }
   },
   "yesterday": {
@@ -308,8 +316,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 335.0,
-    "max_peak_mw": 335,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -320,8 +328,10 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 1
+    },
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -335,7 +345,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 21,
-    "avg_peak_mw": 362.8,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -355,9 +365,10 @@
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 1
+      "Plaza": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 21,
+    "averias_total": 22,
     "daf_total": 4,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -378,14 +389,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3361,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 227,
+      "Guanabacoa": 228,
       "Cerro": 202,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
@@ -532,7 +543,7 @@
       },
       {
         "date": "2026-09-21",
-        "peak_mw": 335
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1376,7 +1387,7 @@
       },
       {
         "date": "2026-09-21",
-        "peak_mw": 335
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
