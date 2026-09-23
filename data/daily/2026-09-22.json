@@ -1,8 +1,8 @@
 {
   "date": "2026-09-22",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 475,
+  "peak_time": "21:30",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -22,14 +22,10 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {
-    "Cerro": 1
-  },
-  "averias_total": 1,
-  "source_msg_count": 4,
+  "averias_count_by_municipio": {},
+  "averias_total": 0,
+  "source_msg_count": 1,
   "by_type_counts": {
-    "corto": 1,
-    "restablecimiento": 2,
-    "averias": 1
+    "actualizacion_bloques": 1
   }
 }
