@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T18:12:49+00:00",
+  "generated_at": "2026-09-23T18:28:42+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-23T18:12:29+00:00",
+    "as_of": "2026-09-23T18:27:41+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-23T18:23:20+00:00",
+      "averias": [
+        {
+          "municipio": "Cerro",
+          "direccion": "la siguiente dirección: 👉 Callejón San Martín entre Marta Abreu y Linea de Ferrocarril",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-23T18:23:20+00:00",
+        "municipio": "Cerro",
+        "direccion": "la siguiente dirección: 👉 Callejón San Martín entre Marta Abreu y Linea de Ferrocarril",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,15 +280,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 10,
+    "averias_count_by_municipio": {
+      "Cerro": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "restablecimiento": 5,
-      "otro": 2,
+      "restablecimiento": 6,
+      "otro": 4,
       "pinned": 1,
-      "empty": 1,
-      "corto": 1
+      "averias": 1
     }
   },
   "yesterday": {
@@ -321,8 +338,10 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Cerro": 1
+    },
+    "averias_total": 1,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -350,7 +369,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 5,
-      "Cerro": 4,
+      "Cerro": 5,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
@@ -358,7 +377,7 @@
       "Cotorro": 2,
       "Plaza": 1
     },
-    "averias_total": 21,
+    "averias_total": 22,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,7 +398,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3360,
+    "averias_total": 3361,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
@@ -387,7 +406,7 @@
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 202,
+      "Cerro": 203,
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
