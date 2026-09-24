@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-24T03:33:59+00:00",
+  "generated_at": "2026-09-24T03:49:27+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-24T03:22:44+00:00",
+    "as_of": "2026-09-24T03:37:40+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,12 +32,20 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-09-24T03:37:40+00:00",
+      "averias": [
+        {
+          "municipio": "Arroyo Naranjo",
+          "direccion": "el siguiente circuito: 👉 PG930 : Reparto Averoff"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-09-24T03:21:21+00:00",
+        "ts": "2026-09-24T03:37:40+00:00",
         "municipio": "Arroyo Naranjo",
-        "kind": "disparo_circuito"
+        "direccion": "el siguiente circuito: 👉 PG930 : Reparto Averoff"
       }
     ],
     "last_daf": null,
@@ -274,11 +282,9 @@
       "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 3,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "otro": 1,
-      "pinned": 1
+      "averias": 1
     }
   },
   "yesterday": {
