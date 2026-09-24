@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-24T08:29:50+00:00",
+  "generated_at": "2026-09-24T08:45:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-24T08:23:10+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
