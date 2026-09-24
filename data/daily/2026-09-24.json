@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 3,
+  "daf_count": 1,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -24,13 +24,11 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 11,
+  "source_msg_count": 10,
   "by_type_counts": {
-    "daf": 3,
-    "restablecimiento_daf": 2,
-    "otro": 3,
+    "otro": 5,
     "pinned": 1,
-    "empty": 1,
-    "corto": 1
+    "daf": 1,
+    "restablecimiento_daf": 3
   }
 }
