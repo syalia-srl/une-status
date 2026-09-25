@@ -1,8 +1,8 @@
 {
   "date": "2026-09-25",
   "finalized": false,
-  "peak_mw_affected": 267,
-  "peak_time": "09:36",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -24,11 +24,11 @@
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {},
   "averias_total": 0,
-  "source_msg_count": 9,
+  "source_msg_count": 4,
   "by_type_counts": {
-    "otro": 3,
-    "restablecimiento": 4,
-    "actualizacion_bloques": 1,
-    "empty": 1
+    "restablecimiento": 1,
+    "via_libre": 1,
+    "empty": 1,
+    "otro": 1
   }
 }
