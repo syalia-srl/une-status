@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-25T19:31:49+00:00",
+  "generated_at": "2026-09-25T19:47:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-25T19:31:06+00:00",
+    "as_of": "2026-09-25T19:40:20+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,26 +32,9 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-25T19:30:44+00:00",
-      "averias": [
-        {
-          "municipio": "Playa",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-25T19:30:44+00:00",
-        "municipio": "Playa",
-        "severity": "primaria"
-      }
-    ],
-    "last_daf": {
-      "ts": "2026-09-25T19:31:06+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -281,16 +264,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Playa": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 1,
-      "pinned": 1,
-      "averias": 1,
-      "restablecimiento_daf": 1
+      "via_libre": 1,
+      "otro": 1
     }
   },
   "yesterday": {
@@ -340,10 +319,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Playa": 1
-    },
-    "averias_total": 1,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 1,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -373,13 +350,13 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Playa": 3,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
+      "Playa": 2,
       "Cotorro": 2,
       "Plaza": 1
     },
-    "averias_total": 22,
+    "averias_total": 21,
     "daf_total": 5,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -400,10 +377,10 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3361,
+    "averias_total": 3360,
     "averias_top_municipios": {
       "Boyeros": 356,
-      "Playa": 284,
+      "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 230,
