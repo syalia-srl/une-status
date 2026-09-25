@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-25T11:12:07+00:00",
+  "generated_at": "2026-09-25T11:27:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-25T11:11:42+00:00",
+    "as_of": "2026-09-25T11:25:46+00:00",
     "bloques": [
       {
         "id": 1,
@@ -147,10 +147,10 @@
       {
         "id": "nuevitas",
         "name": "10 de Octubre (Nuevitas)",
-        "state": "assumed_online",
-        "assumed": true,
-        "last_seen_at": "2026-08-04T13:06:15+00:00",
-        "last_online_at": "2026-08-04T13:06:15+00:00",
+        "state": "partial",
+        "assumed": false,
+        "last_seen_at": "2026-09-25T11:24:22+00:00",
+        "last_online_at": "2026-09-25T11:24:22+00:00",
         "last_offline_at": "2026-03-08T01:16:03+00:00",
         "last_change_at": "2026-03-12T00:37:41+00:00",
         "units": [
@@ -162,7 +162,7 @@
           {
             "unidad": 6,
             "state": "online",
-            "since": "2026-08-04T13:06:15+00:00"
+            "since": "2026-09-25T11:24:22+00:00"
           }
         ],
         "online_units": 1,
@@ -266,10 +266,14 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 2,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "otro": 1,
-      "mantenimiento": 1
+      "otro": 2,
+      "pinned": 2,
+      "empty": 1,
+      "corto": 1,
+      "restablecimiento": 1,
+      "unidad_termoelectrica": 1
     }
   },
   "yesterday": {
