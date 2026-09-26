@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-25T23:57:17+00:00",
+  "generated_at": "2026-09-26T00:12:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-25T23:56:03+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-25T23:56:03+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": "Vía Blanca y Callejón Van Troy que afecta el servicio eléctrico en el siguiente circuito: 👉 GC18: Zona Franca de Berroa",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-25T23:56:03+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "Vía Blanca y Callejón Van Troy que afecta el servicio eléctrico en el siguiente circuito: 👉 GC18: Zona Franca de Berroa",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
