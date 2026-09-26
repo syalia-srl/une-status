@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-26T20:13:17+00:00",
+  "generated_at": "2026-09-26T20:27:57+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-26T20:10:58+00:00",
+    "as_of": "2026-09-26T20:16:40+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,25 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-26T20:10:58+00:00",
-      "averias": []
+      "ts": "2026-09-26T20:15:35+00:00",
+      "averias": [
+        {
+          "municipio": "Cotorro",
+          "severity": "secundaria"
+        }
+      ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-26T20:06:23+00:00",
-        "municipio": "Cerro",
-        "direccion": "la siguiente dirección: 👉 Entrada entre Ceiba y Final",
+        "ts": "2026-09-26T20:15:35+00:00",
+        "municipio": "Cotorro",
         "severity": "secundaria"
       },
       {
-        "ts": "2026-09-26T20:04:05+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
+        "ts": "2026-09-26T20:15:11+00:00",
+        "municipio": "Cerro",
+        "direccion": "la siguiente dirección: 👉 Vento y Camaguey",
+        "severity": "primaria"
       }
     ],
     "last_daf": null,
@@ -280,15 +285,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "Cotorro": 1
     },
     "averias_total": 2,
-    "source_msg_count": 4,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "disparo_circuito": 1,
+      "averias": 2,
       "otro": 1,
-      "averias": 2
+      "pinned": 1,
+      "empty": 1,
+      "corto": 1
     }
   },
   "yesterday": {
@@ -339,8 +346,8 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Cerro": 1
+      "Cerro": 1,
+      "Cotorro": 1
     },
     "averias_total": 2,
     "daf_total": 1,
@@ -369,13 +376,13 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
+      "Boyeros": 5,
       "Cerro": 5,
       "Marianao": 3,
+      "Cotorro": 3,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
       "Playa": 2,
-      "Cotorro": 2,
       "Plaza": 1
     },
     "averias_total": 23,
@@ -401,7 +408,7 @@
     },
     "averias_total": 3362,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
@@ -411,7 +418,7 @@
       "Plaza": 190,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
-      "Cotorro": 105,
+      "Cotorro": 106,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
