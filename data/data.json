@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T20:04:40+00:00",
+  "generated_at": "2026-09-27T20:20:09+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-27T20:00:56+00:00",
+    "as_of": "2026-09-27T20:20:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,22 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-09-27T20:20:03+00:00",
+      "averias": [
+        {
+          "municipio": "Centro Habana",
+          "severity": "primaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-09-27T20:20:03+00:00",
+        "municipio": "Centro Habana",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,13 +278,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 6,
+    "averias_count_by_municipio": {
+      "Centro Habana": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 9,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "otro": 3,
-      "restablecimiento": 2
+      "otro": 7,
+      "pinned": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -325,9 +341,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Plaza": 1
+      "Plaza": 1,
+      "Centro Habana": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -361,9 +378,10 @@
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 2
+      "Plaza": 2,
+      "Centro Habana": 1
     },
-    "averias_total": 22,
+    "averias_total": 23,
     "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -384,7 +402,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3361,
+    "averias_total": 3362,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
@@ -397,7 +415,7 @@
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
-      "Centro Habana": 72,
+      "Centro Habana": 73,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
