@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T19:33:37+00:00",
+  "generated_at": "2026-09-27T19:49:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-27T19:32:51+00:00",
+    "as_of": "2026-09-27T19:35:55+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,26 +33,19 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-27T19:32:51+00:00",
+      "ts": "2026-09-27T19:35:55+00:00",
       "averias": [
         {
-          "municipio": "Playa",
-          "direccion": "la calle 178 entre 1ra y 5ta 🚨",
-          "severity": "secundaria"
+          "municipio": "Lisa",
+          "direccion": "el siguiente circuito: 👉 A1217: Reparto Versalles, Ampliación de Versalles, calle 51 desde 220 hasta 212, calle 51 desde 220 hasta 57 (Reparto San Rafael) 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-27T19:32:51+00:00",
-        "municipio": "Playa",
-        "direccion": "la calle 178 entre 1ra y 5ta 🚨",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-09-27T19:30:19+00:00",
-        "municipio": "Boyeros",
-        "kind": "disparo_circuito"
+        "ts": "2026-09-27T19:35:55+00:00",
+        "municipio": "Lisa",
+        "direccion": "el siguiente circuito: 👉 A1217: Reparto Versalles, Ampliación de Versalles, calle 51 desde 220 hasta 212, calle 51 desde 220 hasta 57 (Reparto San Rafael) 🚨"
       }
     ],
     "last_daf": null,
@@ -286,18 +279,11 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Playa": 1
+      "Lisa": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 11,
+    "averias_total": 1,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 4,
-      "pinned": 2,
-      "empty": 1,
-      "corto": 1,
-      "disparo_circuito": 1,
-      "restablecimiento": 1,
       "averias": 1
     }
   },
@@ -354,10 +340,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Plaza": 1,
-      "Boyeros": 1,
-      "Playa": 1
+      "Lisa": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -384,16 +369,17 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
+      "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Playa": 3,
       "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
+      "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 2
+      "Plaza": 2,
+      "Lisa": 1
     },
-    "averias_total": 24,
+    "averias_total": 23,
     "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -414,12 +400,12 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3362,
     "averias_top_municipios": {
-      "Boyeros": 357,
-      "Playa": 284,
+      "Boyeros": 356,
+      "Playa": 283,
       "Arroyo Naranjo": 271,
-      "Lisa": 243,
+      "Lisa": 244,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
