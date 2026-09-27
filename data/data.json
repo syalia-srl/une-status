@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T20:35:38+00:00",
+  "generated_at": "2026-09-27T20:51:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-27T20:35:12+00:00",
+    "as_of": "2026-09-27T20:49:38+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-27T20:24:35+00:00",
+      "ts": "2026-09-27T20:36:25+00:00",
       "averias": [
         {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "Céspedes entre Lincoln y Martí 🚨",
+          "municipio": "Boyeros",
+          "direccion": "247 entre 244 y 246, Abel Santamaría 🚨",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-27T20:24:35+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "Céspedes entre Lincoln y Martí 🚨",
+        "ts": "2026-09-27T20:36:25+00:00",
+        "municipio": "Boyeros",
+        "direccion": "247 entre 244 y 246, Abel Santamaría 🚨",
         "severity": "secundaria"
       }
     ],
@@ -281,17 +281,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 9,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "otro": 3,
-      "pinned": 2,
-      "empty": 1,
-      "corto": 1,
       "averias": 1,
-      "restablecimiento": 1
+      "restablecimiento": 2,
+      "otro": 5
     }
   },
   "yesterday": {
@@ -347,7 +344,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Plaza": 1,
-      "Arroyo Naranjo": 1
+      "Boyeros": 1
     },
     "averias_total": 2,
     "daf_total": 3,
@@ -376,10 +373,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
+      "Boyeros": 6,
       "Cerro": 4,
       "Marianao": 3,
-      "Arroyo Naranjo": 3,
+      "Arroyo Naranjo": 2,
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
@@ -408,9 +405,9 @@
     },
     "averias_total": 3362,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
-      "Arroyo Naranjo": 272,
+      "Arroyo Naranjo": 271,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
