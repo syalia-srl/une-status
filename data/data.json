@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T16:28:17+00:00",
+  "generated_at": "2026-09-27T16:43:47+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-27T16:18:39+00:00",
+    "as_of": "2026-09-27T16:38:30+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,7 +35,7 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-09-27T16:14:18+00:00",
+        "ts": "2026-09-27T16:31:53+00:00",
         "municipio": "Arroyo Naranjo",
         "kind": "disparo_circuito"
       }
@@ -276,11 +276,11 @@
     "averias_total": 1,
     "source_msg_count": 6,
     "by_type_counts": {
-      "otro": 2,
-      "disparo_circuito": 1,
+      "otro": 1,
       "pinned": 1,
-      "empty": 1,
-      "corto": 1
+      "disparo_circuito": 1,
+      "mantenimiento": 1,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
