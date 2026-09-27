@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T03:45:09+00:00",
+  "generated_at": "2026-09-27T04:01:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-27T03:43:49+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,28 +32,9 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-27T03:39:35+00:00",
-      "averias": [
-        {
-          "municipio": "Plaza",
-          "direccion": "la siguiente dirección: 👉 Infanta entre Pedroso y Universidad",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-09-27T03:39:35+00:00",
-        "municipio": "Plaza",
-        "direccion": "la siguiente dirección: 👉 Infanta entre Pedroso y Universidad",
-        "severity": "secundaria"
-      }
-    ],
-    "last_daf": {
-      "ts": "2026-09-27T03:43:49+00:00",
-      "type": "daf"
-    },
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -260,6 +241,10 @@
     ]
   },
   "day": {
+    "date": "2026-09-27",
+    "no_data": true
+  },
+  "yesterday": {
     "date": "2026-09-26",
     "finalized": false,
     "peak_mw_affected": null,
@@ -295,41 +280,9 @@
       "averias": 1
     }
   },
-  "yesterday": {
-    "date": "2026-09-25",
-    "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 2,
-    "by_type_counts": {
-      "otro": 1,
-      "restablecimiento": 1
-    }
-  },
   "week": {
     "finalized": false,
-    "dailies_count": 7,
+    "dailies_count": 6,
     "avg_peak_mw": null,
     "max_peak_mw": null,
     "total_interruption_minutes": 0,
