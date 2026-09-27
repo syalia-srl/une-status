@@ -1,8 +1,8 @@
 {
   "date": "2026-09-27",
   "finalized": false,
-  "peak_mw_affected": 63,
-  "peak_time": "12:06",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -23,14 +23,15 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "San Miguel Del Padrón": 1
+    "Arroyo Naranjo": 1
   },
   "averias_total": 1,
-  "source_msg_count": 7,
+  "source_msg_count": 6,
   "by_type_counts": {
-    "averias": 1,
-    "restablecimiento": 4,
-    "actualizacion_bloques": 1,
-    "nota_diaria": 1
+    "otro": 2,
+    "disparo_circuito": 1,
+    "pinned": 1,
+    "empty": 1,
+    "corto": 1
   }
 }

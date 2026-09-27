@@ -1,53 +1,43 @@
 {
-  "generated_at": "2026-09-27T16:12:49+00:00",
+  "generated_at": "2026-09-27T16:28:17+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-27T16:12:32+00:00",
+    "as_of": "2026-09-27T16:18:39+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 63,
-    "current_mw_affected_at": "2026-09-27T16:06:39+00:00",
-    "active_averias": {
-      "ts": "2026-09-27T15:58:39+00:00",
-      "averias": [
-        {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": "la calle América entre San José y Artola",
-          "severity": "secundaria"
-        }
-      ]
-    },
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-09-27T15:58:39+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "la calle América entre San José y Artola",
-        "severity": "secundaria"
+        "ts": "2026-09-27T16:14:18+00:00",
+        "municipio": "Arroyo Naranjo",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -259,8 +249,8 @@
   "day": {
     "date": "2026-09-27",
     "finalized": false,
-    "peak_mw_affected": 63,
-    "peak_time": "12:06",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -281,15 +271,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1
+      "Arroyo Naranjo": 1
     },
     "averias_total": 1,
-    "source_msg_count": 7,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "averias": 1,
-      "restablecimiento": 4,
-      "actualizacion_bloques": 1,
-      "nota_diaria": 1
+      "otro": 2,
+      "disparo_circuito": 1,
+      "pinned": 1,
+      "empty": 1,
+      "corto": 1
     }
   },
   "yesterday": {
@@ -331,8 +322,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 63.0,
-    "max_peak_mw": 63,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -345,7 +336,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Plaza": 1,
-      "San Miguel Del Padrón": 1
+      "Arroyo Naranjo": 1
     },
     "averias_total": 2,
     "daf_total": 3,
@@ -361,7 +352,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 27,
-    "avg_peak_mw": 308.4,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -377,12 +368,11 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
-      "Arroyo Naranjo": 2,
+      "Arroyo Naranjo": 3,
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 2,
-      "San Miguel Del Padrón": 1
+      "Plaza": 2
     },
     "averias_total": 23,
     "daf_total": 7,
@@ -409,13 +399,13 @@
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 271,
+      "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 189,
+      "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
@@ -559,7 +549,7 @@
       },
       {
         "date": "2026-09-27",
-        "peak_mw": 63
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1403,7 +1393,7 @@
       },
       {
         "date": "2026-09-27",
-        "peak_mw": 63
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
