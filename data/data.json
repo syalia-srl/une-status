@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T22:09:19+00:00",
+  "generated_at": "2026-09-27T22:25:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-09-27T22:21:24+00:00",
     "bloques": [
       {
         "id": 1,
@@ -243,8 +243,8 @@
   "day": {
     "date": "2026-09-27",
     "finalized": false,
-    "peak_mw_affected": 285,
-    "peak_time": "18:00",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -264,15 +264,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Boyeros": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "averias": 1,
-      "actualizacion_bloques": 1,
-      "restablecimiento": 1
+      "otro": 8,
+      "pinned": 1,
+      "empty": 1,
+      "corto": 1
     }
   },
   "yesterday": {
@@ -314,8 +313,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 285.0,
-    "max_peak_mw": 285,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -327,10 +326,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Plaza": 1,
-      "Boyeros": 1
+      "Plaza": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -344,7 +342,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 27,
-    "avg_peak_mw": 352.8,
+    "avg_peak_mw": 369.8,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -357,7 +355,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
+      "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 2,
@@ -366,7 +364,7 @@
       "Cotorro": 2,
       "Plaza": 2
     },
-    "averias_total": 23,
+    "averias_total": 22,
     "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -387,9 +385,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3361,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
@@ -541,7 +539,7 @@
       },
       {
         "date": "2026-09-27",
-        "peak_mw": 285
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1385,7 +1383,7 @@
       },
       {
         "date": "2026-09-27",
-        "peak_mw": 285
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
