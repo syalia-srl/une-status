@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-28T01:47:19+00:00",
+  "generated_at": "2026-09-28T02:03:08+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-28T01:46:46+00:00",
+    "as_of": "2026-09-28T01:56:15+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,27 +32,12 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-28T01:34:22+00:00",
-      "averias": [
-        {
-          "municipio": "Diez De Octubre",
-          "direccion": "la calle Acosta entre Porvenir y 7ma 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-09-28T01:37:24+00:00",
+        "ts": "2026-09-28T01:56:15+00:00",
         "municipio": "Regla",
         "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-09-28T01:34:22+00:00",
-        "municipio": "Diez De Octubre",
-        "direccion": "la calle Acosta entre Porvenir y 7ma 🚨",
-        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -286,17 +271,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Diez De Octubre": 1,
       "Regla": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 7,
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "otro": 2,
-      "pinned": 1,
-      "averias": 1,
-      "disparo_circuito": 1,
-      "restablecimiento": 2
+      "restablecimiento": 3,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -352,10 +333,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Plaza": 1,
-      "Diez De Octubre": 1,
       "Regla": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -390,10 +370,9 @@
       "Playa": 2,
       "Cotorro": 2,
       "Plaza": 2,
-      "Diez De Octubre": 1,
       "Regla": 1
     },
-    "averias_total": 24,
+    "averias_total": 23,
     "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -414,7 +393,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3362,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
