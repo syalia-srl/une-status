@@ -1,42 +1,47 @@
 {
-  "generated_at": "2026-09-28T01:00:58+00:00",
+  "generated_at": "2026-09-28T01:16:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-28T01:00:18+00:00",
+    "as_of": "2026-09-28T01:11:46+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 334,
+    "current_mw_affected_at": "2026-09-28T01:08:55+00:00",
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-09-28T01:00:18+00:00",
-        "municipio": "San Miguel Del Padrón",
+        "ts": "2026-09-28T01:10:31+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-09-28T01:07:08+00:00",
+        "municipio": "Guanabacoa",
         "kind": "disparo_circuito"
       }
     ],
@@ -249,8 +254,8 @@
   "day": {
     "date": "2026-09-27",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 334,
+    "peak_time": "21:08",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -271,14 +276,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1
+      "Guanabacoa": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_total": 2,
+    "source_msg_count": 6,
     "by_type_counts": {
       "otro": 2,
-      "pinned": 1,
-      "disparo_circuito": 1
+      "disparo_circuito": 2,
+      "actualizacion_bloques": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -320,8 +327,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 334.0,
+    "max_peak_mw": 334,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -334,9 +341,10 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Plaza": 1,
-      "San Miguel Del Padrón": 1
+      "Guanabacoa": 1,
+      "Habana Del Este": 1
     },
-    "averias_total": 2,
+    "averias_total": 3,
     "daf_total": 3,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -350,7 +358,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 27,
-    "avg_peak_mw": 369.8,
+    "avg_peak_mw": 362.6,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -366,14 +374,14 @@
       "Boyeros": 5,
       "Cerro": 4,
       "Marianao": 3,
+      "Habana Del Este": 3,
       "Arroyo Naranjo": 2,
-      "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
       "Plaza": 2,
-      "San Miguel Del Padrón": 1
+      "Guanabacoa": 1
     },
-    "averias_total": 23,
+    "averias_total": 24,
     "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -394,17 +402,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3363,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 271,
       "Lisa": 243,
-      "Habana Del Este": 230,
-      "Guanabacoa": 227,
+      "Habana Del Este": 231,
+      "Guanabacoa": 228,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 189,
+      "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
@@ -548,7 +556,7 @@
       },
       {
         "date": "2026-09-27",
-        "peak_mw": null
+        "peak_mw": 334
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1392,7 +1400,7 @@
       },
       {
         "date": "2026-09-27",
-        "peak_mw": null
+        "peak_mw": 334
       }
     ],
     "monthly_max_peak_mw": [
