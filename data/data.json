@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-29T10:57:10+00:00",
+  "generated_at": "2026-09-29T11:12:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-29T10:54:11+00:00",
+    "as_of": "2026-09-29T10:59:50+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,10 +32,7 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-09-29T10:54:11+00:00",
-      "averias": []
-    },
+    "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
@@ -269,12 +266,9 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 6,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 3,
-      "restablecimiento": 1,
-      "corto": 1,
-      "averias": 1
+      "otro": 2
     }
   },
   "yesterday": {
