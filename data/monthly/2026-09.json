@@ -2,7 +2,7 @@
   "month": "2026-09",
   "finalized": false,
   "dailies_count": 30,
-  "avg_peak_mw": 343.0,
+  "avg_peak_mw": 341.2,
   "max_peak_mw": 553,
   "total_interruption_minutes": 0,
   "total_block_outage_minutes": {
@@ -15,8 +15,8 @@
   },
   "total_emergency_mw_sum": 0,
   "averias_count_by_municipio": {
-    "Boyeros": 5,
-    "Cerro": 5,
+    "Boyeros": 6,
+    "Cerro": 4,
     "Marianao": 3,
     "Arroyo Naranjo": 3,
     "Habana Del Este": 2,

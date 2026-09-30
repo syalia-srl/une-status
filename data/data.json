@@ -1,50 +1,52 @@
 {
-  "generated_at": "2026-09-30T22:45:22+00:00",
+  "generated_at": "2026-09-30T23:00:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-30T22:45:06+00:00",
+    "as_of": "2026-09-30T22:59:03+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 352,
-    "current_mw_affected_at": "2026-09-30T22:34:34+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-30T22:29:56+00:00",
+      "ts": "2026-09-30T22:50:44+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
+          "municipio": "Boyeros",
+          "direccion": "la siguiente dirección: 👉 Aldabó e/ 100 y 4ta, Aldabó",
           "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-30T22:29:56+00:00",
-        "municipio": "Cerro",
+        "ts": "2026-09-30T22:50:44+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la siguiente dirección: 👉 Aldabó e/ 100 y 4ta, Aldabó",
         "severity": "primaria"
       }
     ],
@@ -257,8 +259,8 @@
   "day": {
     "date": "2026-09-30",
     "finalized": false,
-    "peak_mw_affected": 352,
-    "peak_time": "18:34",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -279,18 +281,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 12,
+    "source_msg_count": 5,
     "by_type_counts": {
+      "otro": 2,
       "averias": 1,
-      "empty": 1,
-      "corto": 1,
-      "otro": 4,
-      "pinned": 3,
-      "restablecimiento": 1,
-      "actualizacion_bloques": 1
+      "restablecimiento": 2
     }
   },
   "yesterday": {
@@ -331,8 +329,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 289.5,
-    "max_peak_mw": 352,
+    "avg_peak_mw": 227.0,
+    "max_peak_mw": 227,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -346,7 +344,7 @@
     "averias_count_by_municipio": {
       "Plaza": 1,
       "Arroyo Naranjo": 1,
-      "Cerro": 1
+      "Boyeros": 1
     },
     "averias_total": 3,
     "daf_total": 2,
@@ -362,7 +360,7 @@
     "month": "2026-09",
     "finalized": false,
     "dailies_count": 30,
-    "avg_peak_mw": 343.0,
+    "avg_peak_mw": 341.2,
     "max_peak_mw": 553,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
@@ -375,8 +373,8 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
-      "Cerro": 5,
+      "Boyeros": 6,
+      "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 3,
       "Habana Del Este": 2,
@@ -407,13 +405,13 @@
     },
     "averias_total": 3363,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 203,
+      "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
@@ -559,7 +557,7 @@
       },
       {
         "date": "2026-09-30",
-        "peak_mw": 352
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1403,7 +1401,7 @@
       },
       {
         "date": "2026-09-30",
-        "peak_mw": 352
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
