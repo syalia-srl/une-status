@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-30T14:26:50+00:00",
+  "generated_at": "2026-09-30T14:42:21+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-30T14:23:58+00:00",
+    "as_of": "2026-09-30T14:42:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,12 +32,25 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-09-30T14:42:03+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "la siguiente dirección: Vento y 2da, Altahabana"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-09-30T14:12:05+00:00",
+        "ts": "2026-09-30T14:42:03+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la siguiente dirección: Vento y 2da, Altahabana"
+      },
+      {
+        "ts": "2026-09-30T14:26:54+00:00",
         "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
+        "direccion": "la: Zona 6, Alamar"
       }
     ],
     "last_daf": null,
@@ -271,14 +284,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 3,
+    "averias_total": 2,
+    "source_msg_count": 8,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "otro": 1,
-      "corto": 1
+      "averias": 2,
+      "otro": 2,
+      "pinned": 1,
+      "empty": 1,
+      "corto": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -334,9 +351,10 @@
     "averias_count_by_municipio": {
       "Plaza": 1,
       "Arroyo Naranjo": 1,
-      "Habana Del Este": 1
+      "Habana Del Este": 1,
+      "Boyeros": 1
     },
-    "averias_total": 3,
+    "averias_total": 4,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -363,7 +381,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
+      "Boyeros": 6,
       "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 3,
@@ -372,7 +390,7 @@
       "Cotorro": 2,
       "Plaza": 2
     },
-    "averias_total": 24,
+    "averias_total": 25,
     "daf_total": 7,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -393,9 +411,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3364,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
