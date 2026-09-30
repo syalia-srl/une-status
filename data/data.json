@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-30T23:00:59+00:00",
+  "generated_at": "2026-09-30T23:16:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-30T22:59:03+00:00",
+    "as_of": "2026-09-30T23:05:38+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,18 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-09-30T22:50:44+00:00",
+      "ts": "2026-09-30T23:05:38+00:00",
       "averias": [
         {
-          "municipio": "Boyeros",
-          "direccion": "la siguiente dirección: 👉 Aldabó e/ 100 y 4ta, Aldabó",
+          "municipio": "Cerro",
           "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-09-30T22:50:44+00:00",
-        "municipio": "Boyeros",
-        "direccion": "la siguiente dirección: 👉 Aldabó e/ 100 y 4ta, Aldabó",
+        "ts": "2026-09-30T23:05:38+00:00",
+        "municipio": "Cerro",
         "severity": "primaria"
       }
     ],
@@ -281,14 +279,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Cerro": 1
     },
     "averias_total": 1,
-    "source_msg_count": 5,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 2,
-      "averias": 1,
-      "restablecimiento": 2
+      "otro": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -344,7 +341,7 @@
     "averias_count_by_municipio": {
       "Plaza": 1,
       "Arroyo Naranjo": 1,
-      "Boyeros": 1
+      "Cerro": 1
     },
     "averias_total": 3,
     "daf_total": 2,
@@ -373,8 +370,8 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 6,
-      "Cerro": 4,
+      "Boyeros": 5,
+      "Cerro": 5,
       "Marianao": 3,
       "Arroyo Naranjo": 3,
       "Habana Del Este": 2,
@@ -405,13 +402,13 @@
     },
     "averias_total": 3363,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 202,
+      "Cerro": 203,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
