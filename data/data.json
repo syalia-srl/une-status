@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-30T10:32:59+00:00",
+  "generated_at": "2026-09-30T10:48:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-09-30T10:27:27+00:00",
+    "as_of": "2026-09-30T10:43:08+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,8 +35,8 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-09-30T10:27:12+00:00",
-        "municipio": "Guanabacoa",
+        "ts": "2026-09-30T10:43:08+00:00",
+        "municipio": "Boyeros",
         "kind": "disparo_circuito"
       }
     ],
@@ -271,16 +271,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 5,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "disparo_circuito": 1,
       "otro": 1,
       "pinned": 1,
-      "empty": 1,
-      "corto": 1
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -336,7 +334,7 @@
     "averias_count_by_municipio": {
       "Plaza": 1,
       "Arroyo Naranjo": 1,
-      "Guanabacoa": 1
+      "Boyeros": 1
     },
     "averias_total": 3,
     "daf_total": 2,
@@ -365,15 +363,14 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 5,
+      "Boyeros": 6,
       "Cerro": 4,
       "Marianao": 3,
       "Arroyo Naranjo": 3,
       "Habana Del Este": 2,
       "Playa": 2,
       "Cotorro": 2,
-      "Plaza": 2,
-      "Guanabacoa": 1
+      "Plaza": 2
     },
     "averias_total": 24,
     "daf_total": 7,
@@ -398,12 +395,12 @@
     },
     "averias_total": 3363,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 228,
+      "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
