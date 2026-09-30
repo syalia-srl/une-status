@@ -26,8 +26,7 @@
   "averias_total": 0,
   "source_msg_count": 11,
   "by_type_counts": {
-    "restablecimiento": 5,
-    "otro": 5,
-    "pinned": 1
+    "otro": 8,
+    "restablecimiento": 3
   }
 }
