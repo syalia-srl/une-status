@@ -23,14 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Playa": 1
+    "Boyeros": 1
   },
   "averias_total": 1,
-  "source_msg_count": 13,
+  "source_msg_count": 4,
   "by_type_counts": {
-    "otro": 5,
-    "pinned": 2,
-    "restablecimiento": 5,
-    "disparo_circuito": 1
+    "disparo_circuito": 1,
+    "restablecimiento": 1,
+    "otro": 2
   }
 }
