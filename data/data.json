@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-01T17:59:40+00:00",
+  "generated_at": "2026-10-01T18:15:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-01T17:59:37+00:00",
+    "as_of": "2026-10-01T18:13:49+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,28 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-01T17:55:13+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "el siguiente circuito: 👉 A1007 : Alrededores de calles Alegría, María Auxiliadora, San Gregorio, Hatuey, Georgia Rivera y Maceo (Víbora Park)"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-01T17:55:13+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "el siguiente circuito: 👉 A1007 : Alrededores de calles Alegría, María Auxiliadora, San Gregorio, Hatuey, Georgia Rivera y Maceo (Víbora Park)"
-      },
-      {
-        "ts": "2026-10-01T17:54:42+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la calle A y Carretera Vieja de Cojimar, Roble, afectando el servicio eléctrico en el siguiente circuito: 👉 GC19: Repartos Roble, Militar, Fuentes Bancas, La Hata, Naranjo y Pomo de Oro",
-        "severity": "primaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -284,18 +264,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 9,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 13,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "otro": 3,
-      "pinned": 1,
-      "averias": 2,
-      "empty": 2
+      "restablecimiento": 2,
+      "empty": 6,
+      "otro": 5
     }
   },
   "yesterday": {
@@ -347,11 +322,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 2,
       "Plaza": 1,
-      "Guanabacoa": 1
+      "Arroyo Naranjo": 1
     },
-    "averias_total": 4,
+    "averias_total": 2,
     "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -377,11 +351,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 2,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -402,14 +373,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3364,
+    "averias_total": 3362,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 273,
+      "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 228,
+      "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
