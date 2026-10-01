@@ -27,9 +27,6 @@
   "source_msg_count": 12,
   "by_type_counts": {
     "restablecimiento": 7,
-    "otro": 2,
-    "empty": 1,
-    "corto": 1,
-    "pinned": 1
+    "otro": 5
   }
 }
