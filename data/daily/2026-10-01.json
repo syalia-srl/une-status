@@ -26,7 +26,9 @@
   "averias_total": 0,
   "source_msg_count": 4,
   "by_type_counts": {
-    "otro": 3,
+    "empty": 1,
+    "corto": 1,
+    "otro": 1,
     "pinned": 1
   }
 }
