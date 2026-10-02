@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-01T23:57:39+00:00",
+  "generated_at": "2026-10-02T00:13:07+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-01T23:55:46+00:00",
+    "as_of": "2026-10-02T00:10:04+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,10 +33,16 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [],
+    "averias_24h": [
+      {
+        "ts": "2026-10-02T00:10:04+00:00",
+        "municipio": "Regla",
+        "kind": "disparo_circuito"
+      }
+    ],
     "last_daf": {
-      "ts": "2026-10-01T23:45:36+00:00",
-      "type": "daf"
+      "ts": "2026-10-02T00:03:11+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -259,7 +265,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 2,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -267,13 +273,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 6,
+    "averias_count_by_municipio": {
+      "Regla": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "daf": 2,
-      "otro": 3,
-      "pinned": 1
+      "otro": 2,
+      "restablecimiento_daf": 1,
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -326,10 +334,11 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Plaza": 1,
-      "Arroyo Naranjo": 1
+      "Arroyo Naranjo": 1,
+      "Regla": 1
     },
-    "averias_total": 2,
-    "daf_total": 4,
+    "averias_total": 3,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -354,9 +363,11 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "daf_total": 2,
+    "averias_count_by_municipio": {
+      "Regla": 1
+    },
+    "averias_total": 1,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -376,7 +387,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3363,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
@@ -392,9 +403,9 @@
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 43
+      "Regla": 44
     },
-    "daf_total": 2377,
+    "daf_total": 2375,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1793,8 +1804,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2377,
-    "daf_last_30d": 9,
+    "daf_total": 2375,
+    "daf_last_30d": 7,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
