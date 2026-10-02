@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T21:14:19+00:00",
+  "generated_at": "2026-10-02T21:29:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-02T21:11:12+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,28 +32,9 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-02T21:08:10+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "los siguientes circuitos : 👉 2203 : Reparto Alturas del Sevillano",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-02T21:08:10+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "los siguientes circuitos : 👉 2203 : Reparto Alturas del Sevillano",
-        "severity": "primaria"
-      }
-    ],
-    "last_daf": {
-      "ts": "2026-10-02T21:09:18+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "active_averias": null,
+    "averias_24h": [],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
