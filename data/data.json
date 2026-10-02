@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T02:02:08+00:00",
+  "generated_at": "2026-10-02T02:11:16+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-02T01:55:57+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-02T01:55:43+00:00",
-      "averias": [
-        {
-          "municipio": "Plaza",
-          "direccion": "la calle Calzada y J",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-02T01:55:43+00:00",
-        "municipio": "Plaza",
-        "direccion": "la calle Calzada y J",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
