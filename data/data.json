@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-04T04:22:30+00:00",
+  "generated_at": "2026-10-04T04:38:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": null,
+    "as_of": "2026-10-04T04:31:17+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 380,
+    "current_mw_affected_at": "2026-10-04T04:24:39+00:00",
     "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
@@ -242,7 +242,35 @@
   },
   "day": {
     "date": "2026-10-04",
-    "no_data": true
+    "finalized": false,
+    "peak_mw_affected": 380,
+    "peak_time": "00:24",
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 5,
+    "by_type_counts": {
+      "actualizacion_bloques": 1,
+      "restablecimiento": 4
+    }
   },
   "yesterday": {
     "date": "2026-10-03",
@@ -277,9 +305,9 @@
   },
   "week": {
     "finalized": false,
-    "dailies_count": 6,
-    "avg_peak_mw": 227.0,
-    "max_peak_mw": 227,
+    "dailies_count": 7,
+    "avg_peak_mw": 303.5,
+    "max_peak_mw": 380,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -306,9 +334,9 @@
   "month": {
     "month": "2026-10",
     "finalized": false,
-    "dailies_count": 3,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "dailies_count": 4,
+    "avg_peak_mw": 380.0,
+    "max_peak_mw": 380,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -377,10 +405,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-09-04",
-        "peak_mw": 538
-      },
       {
         "date": "2026-09-05",
         "peak_mw": 553
@@ -496,13 +520,13 @@
       {
         "date": "2026-10-03",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-04",
+        "peak_mw": 380
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-09-04",
-        "minutes": 0
-      },
       {
         "date": "2026-09-05",
         "minutes": 0
@@ -618,13 +642,13 @@
       {
         "date": "2026-10-03",
         "minutes": 0
+      },
+      {
+        "date": "2026-10-04",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-04-07",
-        "peak_mw": 358
-      },
       {
         "date": "2026-04-08",
         "peak_mw": 312
@@ -1340,6 +1364,10 @@
       {
         "date": "2026-10-03",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-04",
+        "peak_mw": 380
       }
     ],
     "monthly_max_peak_mw": [
@@ -1545,7 +1573,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": null
+        "max_peak_mw": 380
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1780,9 +1808,9 @@
     }
   },
   "meta": {
-    "daily_count": 1525,
+    "daily_count": 1526,
     "monthly_count": 51,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-10-03"
+    "latest_date": "2026-10-04"
   }
 }
