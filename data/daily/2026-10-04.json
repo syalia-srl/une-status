@@ -28,7 +28,7 @@
   "averias_total": 1,
   "source_msg_count": 6,
   "by_type_counts": {
-    "disparo_circuito": 1,
-    "restablecimiento": 5
+    "restablecimiento": 5,
+    "disparo_circuito": 1
   }
 }
