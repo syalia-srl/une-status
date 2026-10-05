@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-05T03:57:20+00:00",
+  "generated_at": "2026-10-05T04:13:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-05T03:56:32+00:00",
+    "as_of": "2026-10-05T04:12:08+00:00",
     "bloques": [
       {
         "id": 1,
@@ -241,8 +241,40 @@
     ]
   },
   "day": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "finalized": false,
+    "peak_mw_affected": null,
+    "peak_time": null,
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 6,
+    "by_type_counts": {
+      "otro": 4,
+      "restablecimiento": 2
+    }
+  },
+  "yesterday": {
+    "date": "2026-10-04",
+    "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
     "interruption_minutes": null,
@@ -268,45 +300,14 @@
     "averias_total": 0,
     "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 1
-    }
-  },
-  "yesterday": {
-    "date": "2026-10-03",
-    "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 2,
-    "by_type_counts": {
-      "restablecimiento": 2
+      "restablecimiento": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 227.0,
-    "max_peak_mw": 227,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -333,7 +334,7 @@
   "month": {
     "month": "2026-10",
     "finalized": false,
-    "dailies_count": 4,
+    "dailies_count": 5,
     "avg_peak_mw": null,
     "max_peak_mw": null,
     "total_interruption_minutes": 0,
@@ -404,10 +405,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-09-05",
-        "peak_mw": 553
-      },
       {
         "date": "2026-09-06",
         "peak_mw": null
@@ -523,13 +520,13 @@
       {
         "date": "2026-10-04",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-05",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-09-05",
-        "minutes": 0
-      },
       {
         "date": "2026-09-06",
         "minutes": 0
@@ -645,13 +642,13 @@
       {
         "date": "2026-10-04",
         "minutes": 0
+      },
+      {
+        "date": "2026-10-05",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-04-08",
-        "peak_mw": 312
-      },
       {
         "date": "2026-04-09",
         "peak_mw": 361
@@ -1367,6 +1364,10 @@
       {
         "date": "2026-10-04",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-05",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1786,7 +1787,7 @@
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
     "daf_total": 2375,
-    "daf_last_30d": 6,
+    "daf_last_30d": 4,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1807,9 +1808,9 @@
     }
   },
   "meta": {
-    "daily_count": 1526,
+    "daily_count": 1527,
     "monthly_count": 51,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-10-04"
+    "latest_date": "2026-10-05"
   }
 }
