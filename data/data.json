@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-05T15:38:22+00:00",
+  "generated_at": "2026-10-05T15:53:48+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-05T15:36:38+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-05T15:36:06+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "Calixto García entre Güinera y Pinar del Río 🚨",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-05T15:36:06+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "Calixto García entre Güinera y Pinar del Río 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
