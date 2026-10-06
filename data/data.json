@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-06T03:47:18+00:00",
+  "generated_at": "2026-10-06T04:02:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-06T03:44:17+00:00",
+    "as_of": "2026-10-06T04:01:58+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 249,
+    "current_mw_affected_at": "2026-10-06T04:01:58+00:00",
     "active_averias": null,
     "averias_24h": [],
     "last_daf": null,
@@ -241,6 +241,37 @@
     ]
   },
   "day": {
+    "date": "2026-10-06",
+    "finalized": false,
+    "peak_mw_affected": 249,
+    "peak_time": "00:01",
+    "interruption_minutes": null,
+    "emergency_mw": null,
+    "block_outage_minutes": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "total_block_outage_minutes": 0,
+    "daf_count": 0,
+    "sen_collapse_count": 0,
+    "sen_outage_minutes": 0,
+    "sen_outage": false,
+    "partial_sen_collapse_count": 0,
+    "partial_sen_reconnect_count": 0,
+    "partial_sen_outage_minutes": 0,
+    "cte_offline_minutes": {},
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 1,
+    "by_type_counts": {
+      "actualizacion_bloques": 1
+    }
+  },
+  "yesterday": {
     "date": "2026-10-05",
     "finalized": false,
     "peak_mw_affected": null,
@@ -271,42 +302,11 @@
       "restablecimiento": 3
     }
   },
-  "yesterday": {
-    "date": "2026-10-04",
-    "finalized": true,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 1,
-    "by_type_counts": {
-      "restablecimiento": 1
-    }
-  },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 249.0,
+    "max_peak_mw": 249,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -317,10 +317,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 1,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -333,9 +331,9 @@
   "month": {
     "month": "2026-10",
     "finalized": false,
-    "dailies_count": 5,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "dailies_count": 6,
+    "avg_peak_mw": 249.0,
+    "max_peak_mw": 249,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -404,10 +402,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-09-06",
-        "peak_mw": null
-      },
       {
         "date": "2026-09-07",
         "peak_mw": null
@@ -523,13 +517,13 @@
       {
         "date": "2026-10-05",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-06",
+        "peak_mw": 249
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-09-06",
-        "minutes": 0
-      },
       {
         "date": "2026-09-07",
         "minutes": 0
@@ -645,13 +639,13 @@
       {
         "date": "2026-10-05",
         "minutes": 0
+      },
+      {
+        "date": "2026-10-06",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-04-09",
-        "peak_mw": 361
-      },
       {
         "date": "2026-04-10",
         "peak_mw": 353
@@ -1367,6 +1361,10 @@
       {
         "date": "2026-10-05",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-06",
+        "peak_mw": 249
       }
     ],
     "monthly_max_peak_mw": [
@@ -1572,7 +1570,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": null
+        "max_peak_mw": 249
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1786,7 +1784,7 @@
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
     "daf_total": 2375,
-    "daf_last_30d": 4,
+    "daf_last_30d": 3,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1807,9 +1805,9 @@
     }
   },
   "meta": {
-    "daily_count": 1527,
+    "daily_count": 1528,
     "monthly_count": 51,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-10-05"
+    "latest_date": "2026-10-06"
   }
 }
