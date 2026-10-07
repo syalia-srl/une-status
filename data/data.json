@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-07T23:13:50+00:00",
+  "generated_at": "2026-10-07T23:29:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-07T23:08:51+00:00",
+    "as_of": "2026-10-07T23:28:33+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,11 +32,32 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-10-07T23:28:33+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "la siguiente dirección: 👉 203 e/ 278 y 280,El Chico",
+          "severity": "secundaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-10-07T23:04:22+00:00",
+        "ts": "2026-10-07T23:28:33+00:00",
         "municipio": "Boyeros",
+        "direccion": "la siguiente dirección: 👉 203 e/ 278 y 280,El Chico",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-10-07T23:27:26+00:00",
+        "municipio": "Arroyo Naranjo",
+        "direccion": "la siguiente dirección: 👉 2da e/ Camilo Cienfuegos y Adelaida",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-10-07T23:22:07+00:00",
+        "municipio": "Arroyo Naranjo",
         "kind": "disparo_circuito"
       }
     ],
@@ -271,14 +292,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 2,
       "Boyeros": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 3,
+    "averias_total": 3,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "otro": 1,
+      "otro": 2,
       "disparo_circuito": 1,
-      "restablecimiento": 1
+      "averias": 2
     }
   },
   "yesterday": {
@@ -328,9 +350,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 2,
       "Boyeros": 1
     },
-    "averias_total": 1,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -357,9 +380,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Arroyo Naranjo": 2,
       "Boyeros": 1
     },
-    "averias_total": 1,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -380,11 +404,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3365,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
-      "Arroyo Naranjo": 272,
+      "Arroyo Naranjo": 274,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
