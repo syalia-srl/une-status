@@ -1,8 +1,8 @@
 {
   "date": "2026-10-07",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 88,
+  "peak_time": "15:20",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -27,6 +27,6 @@
   "source_msg_count": 4,
   "by_type_counts": {
     "otro": 3,
-    "corto": 1
+    "actualizacion_bloques": 1
   }
 }
