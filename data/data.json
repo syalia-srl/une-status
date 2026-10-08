@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-08T22:20:08+00:00",
+  "generated_at": "2026-10-08T22:25:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-08T22:16:23+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-08T22:07:42+00:00",
-      "averias": [
-        {
-          "municipio": "Playa",
-          "direccion": "la siguiente dirección: 👉 9na e/ 216 y 216A, Siboney",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-08T22:07:42+00:00",
-        "municipio": "Playa",
-        "direccion": "la siguiente dirección: 👉 9na e/ 216 y 216A, Siboney",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
