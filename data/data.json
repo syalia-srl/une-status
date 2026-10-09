@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-09T03:46:37+00:00",
+  "generated_at": "2026-10-09T04:02:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-09T03:40:56+00:00",
+    "as_of": "2026-10-09T03:57:59+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,13 +33,7 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": null,
-    "averias_24h": [
-      {
-        "ts": "2026-10-09T03:39:21+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
-      }
-    ],
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -247,41 +241,11 @@
     ]
   },
   "day": {
-    "date": "2026-10-08",
-    "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
-    "interruption_minutes": null,
-    "emergency_mw": null,
-    "block_outage_minutes": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
-    },
-    "total_block_outage_minutes": 0,
-    "daf_count": 0,
-    "sen_collapse_count": 0,
-    "sen_outage_minutes": 0,
-    "sen_outage": false,
-    "partial_sen_collapse_count": 0,
-    "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
-    "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Habana Del Este": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 6,
-    "by_type_counts": {
-      "restablecimiento": 5,
-      "disparo_circuito": 1
-    }
+    "date": "2026-10-09",
+    "no_data": true
   },
   "yesterday": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -306,14 +270,15 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 1,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "restablecimiento": 1
+      "restablecimiento": 2,
+      "otro": 1
     }
   },
   "week": {
     "finalized": false,
-    "dailies_count": 7,
+    "dailies_count": 6,
     "avg_peak_mw": null,
     "max_peak_mw": null,
     "total_interruption_minutes": 0,
@@ -326,10 +291,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Habana Del Este": 1
-    },
-    "averias_total": 1,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -355,10 +318,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Habana Del Este": 1
-    },
-    "averias_total": 1,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -379,13 +340,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3362,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
-      "Habana Del Este": 231,
+      "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
