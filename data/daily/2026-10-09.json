@@ -26,9 +26,11 @@
     "Lisa": 1
   },
   "averias_total": 1,
-  "source_msg_count": 2,
+  "source_msg_count": 8,
   "by_type_counts": {
-    "restablecimiento": 1,
+    "restablecimiento": 4,
+    "via_libre": 1,
+    "otro": 2,
     "disparo_circuito": 1
   }
 }
