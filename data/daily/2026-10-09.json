@@ -1,8 +1,8 @@
 {
   "date": "2026-10-09",
   "finalized": false,
-  "peak_mw_affected": null,
-  "peak_time": null,
+  "peak_mw_affected": 216,
+  "peak_time": "15:09",
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -14,7 +14,7 @@
     "6": 0
   },
   "total_block_outage_minutes": 0,
-  "daf_count": 2,
+  "daf_count": 0,
   "sen_collapse_count": 0,
   "sen_outage_minutes": 0,
   "sen_outage": false,
@@ -26,12 +26,12 @@
     "Lisa": 1
   },
   "averias_total": 1,
-  "source_msg_count": 7,
+  "source_msg_count": 5,
   "by_type_counts": {
-    "restablecimiento_daf": 2,
-    "disparo_circuito": 1,
-    "daf": 2,
+    "actualizacion_bloques": 1,
     "otro": 1,
+    "restablecimiento_daf": 1,
+    "disparo_circuito": 1,
     "restablecimiento": 1
   }
 }
