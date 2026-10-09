@@ -1,43 +1,51 @@
 {
-  "generated_at": "2026-10-09T15:58:21+00:00",
+  "generated_at": "2026-10-09T16:13:58+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-09T15:56:24+00:00",
+    "as_of": "2026-10-09T16:12:10+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
+    "current_mw_affected": 192,
+    "current_mw_affected_at": "2026-10-09T16:10:48+00:00",
+    "active_averias": {
+      "ts": "2026-10-09T16:07:38+00:00",
+      "averias": [
+        {
+          "municipio": "Marianao",
+          "direccion": "la calle 130 y 63, afectando el servicio eléctrico en el siguiente circuito: 👉 D1280: Repartos Coco Solo, Los Pocitos, Los Ángeles, El Palmar, Alturas de La Salle 📣"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-10-09T15:52:42+00:00",
-        "municipio": "Lisa",
-        "kind": "disparo_circuito"
+        "ts": "2026-10-09T16:07:38+00:00",
+        "municipio": "Marianao",
+        "direccion": "la calle 130 y 63, afectando el servicio eléctrico en el siguiente circuito: 👉 D1280: Repartos Coco Solo, Los Pocitos, Los Ángeles, El Palmar, Alturas de La Salle 📣"
       }
     ],
     "last_daf": null,
@@ -249,8 +257,8 @@
   "day": {
     "date": "2026-10-09",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 192,
+    "peak_time": "12:10",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -271,15 +279,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "Marianao": 1
     },
     "averias_total": 1,
-    "source_msg_count": 8,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "restablecimiento": 4,
-      "via_libre": 1,
-      "otro": 2,
-      "disparo_circuito": 1
+      "averias": 1,
+      "actualizacion_bloques": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -317,8 +324,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 192.0,
+    "max_peak_mw": 192,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -330,7 +337,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "Marianao": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -346,8 +353,8 @@
     "month": "2026-10",
     "finalized": false,
     "dailies_count": 9,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 192.0,
+    "max_peak_mw": 192,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -359,7 +366,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "Marianao": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -387,13 +394,13 @@
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 272,
-      "Lisa": 244,
+      "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
-      "Marianao": 162,
+      "Marianao": 163,
       "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
@@ -536,7 +543,7 @@
       },
       {
         "date": "2026-10-09",
-        "peak_mw": null
+        "peak_mw": 192
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1380,7 +1387,7 @@
       },
       {
         "date": "2026-10-09",
-        "peak_mw": null
+        "peak_mw": 192
       }
     ],
     "monthly_max_peak_mw": [
@@ -1586,7 +1593,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": null
+        "max_peak_mw": 192
       }
     ],
     "monthly_total_outage_minutes": [
