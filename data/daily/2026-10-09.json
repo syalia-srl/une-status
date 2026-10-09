@@ -22,10 +22,18 @@
   "partial_sen_reconnect_count": 0,
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
-  "averias_count_by_municipio": {},
-  "averias_total": 0,
-  "source_msg_count": 2,
+  "averias_count_by_municipio": {
+    "Guanabacoa": 1,
+    "Marianao": 1
+  },
+  "averias_total": 2,
+  "source_msg_count": 14,
   "by_type_counts": {
-    "otro": 2
+    "otro": 6,
+    "mantenimiento": 2,
+    "pinned": 1,
+    "averias": 1,
+    "restablecimiento": 3,
+    "disparo_circuito": 1
   }
 }
