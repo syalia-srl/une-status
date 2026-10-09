@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-09T20:22:36+00:00",
+  "generated_at": "2026-10-09T20:38:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-09T20:21:56+00:00",
+    "as_of": "2026-10-09T20:37:55+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,26 +33,24 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-10-09T20:11:20+00:00",
+      "ts": "2026-10-09T20:32:05+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "la calle: Camarera entre Venus y Bertemati, Villa 2",
-          "severity": "secundaria"
+          "municipio": "Lisa",
+          "direccion": "la calle 81 y 226, afectando el servicio eléctrico del siguiente circuito: 👉 2073: Calle 256 hasta 51 y 234 hasta 51 entre 244 y 232 (San Agustín), Arroyo Arenas 🚨"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-10-09T20:18:03+00:00",
-        "municipio": "Marianao",
+        "ts": "2026-10-09T20:35:42+00:00",
+        "municipio": "Cerro",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-10-09T20:11:20+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la calle: Camarera entre Venus y Bertemati, Villa 2",
-        "severity": "secundaria"
+        "ts": "2026-10-09T20:32:05+00:00",
+        "municipio": "Lisa",
+        "direccion": "la calle 81 y 226, afectando el servicio eléctrico del siguiente circuito: 👉 2073: Calle 256 hasta 51 y 234 hasta 51 entre 244 y 232 (San Agustín), Arroyo Arenas 🚨"
       }
     ],
     "last_daf": null,
@@ -286,17 +284,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Marianao": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
     "averias_total": 2,
-    "source_msg_count": 14,
+    "source_msg_count": 8,
     "by_type_counts": {
       "otro": 6,
-      "mantenimiento": 2,
-      "pinned": 1,
       "averias": 1,
-      "restablecimiento": 3,
       "disparo_circuito": 1
     }
   },
@@ -348,8 +343,8 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Marianao": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -378,8 +373,8 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Marianao": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -407,13 +402,13 @@
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 272,
-      "Lisa": 243,
+      "Lisa": 244,
       "Habana Del Este": 230,
-      "Guanabacoa": 228,
-      "Cerro": 202,
+      "Guanabacoa": 227,
+      "Cerro": 203,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
-      "Marianao": 163,
+      "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
