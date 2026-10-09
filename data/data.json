@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-09T02:44:58+00:00",
+  "generated_at": "2026-10-09T03:00:21+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-09T02:33:49+00:00",
+    "as_of": "2026-10-09T02:59:32+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,20 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-10-09T02:33:49+00:00",
+      "ts": "2026-10-09T02:59:32+00:00",
       "averias": [
         {
-          "municipio": "Cerro",
-          "direccion": "👉 Pila entre Monte y Omoa",
+          "municipio": "Boyeros",
+          "direccion": "la siguiente dirección: 👉 Carretera de Vento km 8½",
           "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-10-09T02:33:49+00:00",
-        "municipio": "Cerro",
-        "direccion": "👉 Pila entre Monte y Omoa",
+        "ts": "2026-10-09T02:59:32+00:00",
+        "municipio": "Boyeros",
+        "direccion": "la siguiente dirección: 👉 Carretera de Vento km 8½",
         "severity": "secundaria"
       }
     ],
@@ -281,11 +281,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 1,
+    "source_msg_count": 3,
     "by_type_counts": {
+      "otro": 1,
+      "restablecimiento": 1,
       "averias": 1
     }
   },
@@ -336,7 +338,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -365,7 +367,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -390,13 +392,13 @@
     },
     "averias_total": 3363,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 203,
+      "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
