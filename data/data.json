@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-10T16:53:04+00:00",
+  "generated_at": "2026-10-10T17:08:18+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-10T16:51:55+00:00",
+    "as_of": "2026-10-10T17:00:11+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,14 +35,14 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-10T16:48:51+00:00",
-        "municipio": "Diez De Octubre Pertenecientes A La Subestación Melones",
+        "ts": "2026-10-10T16:55:30+00:00",
+        "municipio": "Playa",
         "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
-      "ts": "2026-10-10T16:51:55+00:00",
-      "type": "daf"
+      "ts": "2026-10-10T17:00:11+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -274,16 +274,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Diez De Octubre Pertenecientes A La Subestación Melones": 1
+      "Playa": 1
     },
     "averias_total": 1,
     "source_msg_count": 6,
     "by_type_counts": {
-      "restablecimiento": 2,
+      "daf": 1,
+      "restablecimiento_daf": 2,
       "otro": 1,
-      "pinned": 1,
       "disparo_circuito": 1,
-      "daf": 1
+      "pinned": 1
     }
   },
   "yesterday": {
@@ -335,7 +335,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Diez De Octubre Pertenecientes A La Subestación Melones": 1
+      "Playa": 1
     },
     "averias_total": 1,
     "daf_total": 1,
@@ -364,7 +364,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Diez De Octubre Pertenecientes A La Subestación Melones": 1
+      "Playa": 1
     },
     "averias_total": 1,
     "daf_total": 1,
@@ -390,7 +390,7 @@
     "averias_total": 3363,
     "averias_top_municipios": {
       "Boyeros": 356,
-      "Playa": 283,
+      "Playa": 284,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
