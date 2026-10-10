@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-10T17:23:59+00:00",
+  "generated_at": "2026-10-10T17:39:49+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-10T17:23:58+00:00",
+    "as_of": "2026-10-10T17:39:01+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,7 +35,7 @@
     "active_averias": null,
     "averias_24h": [],
     "last_daf": {
-      "ts": "2026-10-10T17:23:58+00:00",
+      "ts": "2026-10-10T17:25:03+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -45,8 +45,8 @@
       "last_outage_at": "2026-08-02",
       "last_recovered_at": null,
       "partial_sen": {
-        "active": false,
-        "since": null,
+        "active": true,
+        "since": "2026-10-10T17:29:26+00:00",
         "last_recovered_at": null
       }
     },
@@ -259,23 +259,22 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 2,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
-    "partial_sen_collapse_count": 0,
+    "partial_sen_collapse_count": 1,
     "partial_sen_reconnect_count": 0,
-    "partial_sen_outage_minutes": 0,
+    "partial_sen_outage_minutes": 630,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 13,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "otro": 8,
-      "pinned": 1,
-      "daf": 2,
-      "restablecimiento": 1,
-      "restablecimiento_daf": 1
+      "restablecimiento_daf": 1,
+      "otro": 2,
+      "caida_parcial_sen": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -328,12 +327,12 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "daf_total": 2,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
-    "partial_sen_collapse_total": 0,
-    "partial_sen_outage_minutes_total": 0,
+    "partial_sen_collapse_total": 1,
+    "partial_sen_outage_minutes_total": 630,
     "cte_offline_minutes_total": {},
     "window": "7d"
   },
@@ -355,12 +354,12 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "daf_total": 2,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
-    "partial_sen_collapse_total": 0,
-    "partial_sen_outage_minutes_total": 0,
+    "partial_sen_collapse_total": 1,
+    "partial_sen_outage_minutes_total": 630,
     "cte_offline_minutes_total": {}
   },
   "all_time": {
@@ -393,12 +392,12 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2377,
+    "daf_total": 2375,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
-    "partial_sen_collapse_total": 2,
-    "partial_sen_outage_minutes_total": 132,
+    "partial_sen_collapse_total": 3,
+    "partial_sen_outage_minutes_total": 762,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
@@ -1792,8 +1791,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2377,
-    "daf_last_30d": 5,
+    "daf_total": 2375,
+    "daf_last_30d": 3,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
