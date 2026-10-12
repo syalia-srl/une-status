@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T19:31:46+00:00",
+  "generated_at": "2026-10-12T19:47:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-12T19:31:02+00:00",
+    "as_of": "2026-10-12T19:42:14+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,21 +33,19 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-10-12T19:27:54+00:00",
+      "ts": "2026-10-12T19:39:01+00:00",
       "averias": [
         {
-          "municipio": "Lisa",
-          "direccion": "el siguiente circuito : 👉 2072: Calle 226 desde 87 hasta 95, calle 95 desde 226 hasta 240 (Bello 26) y reparto El Cano",
-          "severity": "primaria"
+          "municipio": "San Miguel Del Padrón",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-10-12T19:27:54+00:00",
-        "municipio": "Lisa",
-        "direccion": "el siguiente circuito : 👉 2072: Calle 226 desde 87 hasta 95, calle 95 desde 226 hasta 240 (Bello 26) y reparto El Cano",
-        "severity": "primaria"
+        "ts": "2026-10-12T19:39:01+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -281,16 +279,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 1,
-    "source_msg_count": 13,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "via_libre": 1,
-      "otro": 7,
-      "pinned": 1,
-      "averias": 2,
-      "restablecimiento": 2
+      "restablecimiento": 4,
+      "otro": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -342,7 +338,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -371,7 +367,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Lisa": 1
+      "San Miguel Del Padrón": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -399,12 +395,12 @@
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 272,
-      "Lisa": 244,
+      "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
