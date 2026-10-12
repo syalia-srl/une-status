@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T01:22:01+00:00",
+  "generated_at": "2026-10-12T01:37:32+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-12T01:17:16+00:00",
+    "as_of": "2026-10-12T01:33:48+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,20 +32,17 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-12T01:06:54+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Vieja",
-          "direccion": "👉 Compostela e/ Teniente Rey y Muralla"
-        }
-      ]
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-12T01:06:54+00:00",
-        "municipio": "Habana Vieja",
-        "direccion": "👉 Compostela e/ Teniente Rey y Muralla"
+        "ts": "2026-10-12T01:33:48+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-10-12T01:23:25+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -279,14 +276,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Vieja": 1
+      "San Miguel Del Padrón": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_total": 2,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "averias": 1,
-      "otro": 2,
-      "pinned": 1
+      "disparo_circuito": 2
     }
   },
   "yesterday": {
@@ -339,9 +335,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Vieja": 1
+      "San Miguel Del Padrón": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -368,9 +365,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Vieja": 1
+      "San Miguel Del Padrón": 1,
+      "Boyeros": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -391,9 +389,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3364,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
@@ -401,7 +399,7 @@
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
