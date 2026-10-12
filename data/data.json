@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T13:49:57+00:00",
+  "generated_at": "2026-10-12T14:05:43+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-12T13:49:30+00:00",
+    "as_of": "2026-10-12T14:04:43+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,21 +32,26 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-10-12T14:04:43+00:00",
+      "averias": [
+        {
+          "municipio": "Cerro",
+          "direccion": "👉 Tulipán entre Calzada del Cerro y Santa Catalina",
+          "severity": "secundaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-10-12T13:49:30+00:00",
-        "municipio": "Playa",
-        "kind": "disparo_circuito"
+        "ts": "2026-10-12T14:04:43+00:00",
+        "municipio": "Cerro",
+        "direccion": "👉 Tulipán entre Calzada del Cerro y Santa Catalina",
+        "severity": "secundaria"
       },
       {
-        "ts": "2026-10-12T13:48:31+00:00",
-        "municipio": "Guanabacoa",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-10-12T13:35:47+00:00",
-        "municipio": "Playa",
+        "ts": "2026-10-12T14:01:02+00:00",
+        "municipio": "Lisa",
         "kind": "disparo_circuito"
       }
     ],
@@ -281,17 +286,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Playa": 2,
-      "Guanabacoa": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
-    "averias_total": 3,
-    "source_msg_count": 14,
+    "averias_total": 2,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "restablecimiento": 7,
-      "disparo_circuito": 3,
-      "mantenimiento": 1,
-      "otro": 2,
-      "pinned": 1
+      "disparo_circuito": 1,
+      "via_libre": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -343,10 +346,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Playa": 2,
-      "Guanabacoa": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -373,10 +376,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Playa": 2,
-      "Guanabacoa": 1
+      "Lisa": 1,
+      "Cerro": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -397,15 +400,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3365,
+    "averias_total": 3364,
     "averias_top_municipios": {
       "Boyeros": 356,
-      "Playa": 285,
+      "Playa": 283,
       "Arroyo Naranjo": 272,
-      "Lisa": 243,
+      "Lisa": 244,
       "Habana Del Este": 230,
-      "Guanabacoa": 228,
-      "Cerro": 202,
+      "Guanabacoa": 227,
+      "Cerro": 203,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
