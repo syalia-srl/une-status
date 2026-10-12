@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T03:07:58+00:00",
+  "generated_at": "2026-10-12T03:11:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-12T03:07:00+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-12T02:56:42+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": "👉 2205: Repartos Alturas de La Habana y Capdevila (hasta el semáforo)",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-12T02:56:42+00:00",
-        "municipio": "Boyeros",
-        "direccion": "👉 2205: Repartos Alturas de La Habana y Capdevila (hasta el semáforo)",
-        "severity": "primaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
