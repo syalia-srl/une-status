@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T05:30:01+00:00",
+  "generated_at": "2026-10-12T05:45:15+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-12T05:19:26+00:00",
+    "as_of": "2026-10-12T05:43:59+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,30 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-12T05:19:26+00:00",
-      "averias": [
-        {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "la siguiente dirección: 👉 Pasaje E e/ Enrique y Pilar",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-12T05:19:26+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "la siguiente dirección: 👉 Pasaje E e/ Enrique y Pilar",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-10-12T05:14:55+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": "la siguiente dirección: 👉 I e/ 1ra y 2da",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -286,16 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 2,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "averias": 2,
-      "otro": 1,
-      "pinned": 1
+      "otro": 1
     }
   },
   "yesterday": {
@@ -346,11 +319,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 2,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -376,11 +346,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1,
-      "Arroyo Naranjo": 1
-    },
-    "averias_total": 2,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -401,17 +368,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3364,
+    "averias_total": 3362,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
-      "Arroyo Naranjo": 273,
+      "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 189,
+      "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
