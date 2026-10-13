@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T03:33:10+00:00",
+  "generated_at": "2026-10-13T03:48:55+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-13T03:26:49+00:00",
+    "as_of": "2026-10-13T03:40:39+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,18 +32,10 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-13T03:20:50+00:00",
-      "averias": []
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-13T03:26:24+00:00",
-        "municipio": "Cerro",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-10-13T03:21:43+00:00",
+        "ts": "2026-10-13T03:40:39+00:00",
         "municipio": "Cerro",
         "kind": "disparo_circuito"
       }
@@ -279,16 +271,12 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Cerro": 2
+      "Cerro": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 8,
+    "averias_total": 1,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 2,
-      "pinned": 1,
-      "averias": 1,
-      "disparo_circuito": 2,
-      "restablecimiento": 2
+      "disparo_circuito": 1
     }
   },
   "yesterday": {
@@ -340,9 +328,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 2
+      "Cerro": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -369,9 +357,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Cerro": 2
+      "Cerro": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -392,7 +380,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3364,
+    "averias_total": 3363,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
@@ -400,7 +388,7 @@
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 204,
+      "Cerro": 203,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
