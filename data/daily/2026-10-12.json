@@ -26,9 +26,11 @@
     "Cerro": 2
   },
   "averias_total": 2,
-  "source_msg_count": 5,
+  "source_msg_count": 8,
   "by_type_counts": {
-    "mantenimiento": 1,
+    "otro": 2,
+    "pinned": 1,
+    "averias": 1,
     "disparo_circuito": 2,
     "restablecimiento": 2
   }
