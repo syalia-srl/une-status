@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-14T03:34:20+00:00",
+  "generated_at": "2026-10-14T03:50:00+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-14T03:33:30+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,29 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-14T03:29:29+00:00",
-      "averias": [
-        {
-          "municipio": "Diez De Octubre",
-          "direccion": "la calle 19 entre Tejar y Pocito se afecta el servicio eléctrico en parte del circuito: 👉 A1009 : Vista Alegre y parte de Lawton",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-14T03:29:29+00:00",
-        "municipio": "Diez De Octubre",
-        "direccion": "la calle 19 entre Tejar y Pocito se afecta el servicio eléctrico en parte del circuito: 👉 A1009 : Vista Alegre y parte de Lawton",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-10-14T03:18:50+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "la calle Parqueo Itabo Santa María del Mar, afectando el servicio eléctrico en el siguiente circuito: 👉 MB920: Alturas de Boca Ciega, Santa María del Mar, Villa Mégano"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
