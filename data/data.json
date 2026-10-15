@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T18:26:50+00:00",
+  "generated_at": "2026-10-15T18:37:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-15T18:24:12+00:00",
+    "as_of": "2026-10-15T18:34:59+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-10-15T18:32:12+00:00",
+      "averias": [
+        {
+          "municipio": "Cotorro",
+          "direccion": "la siguiente dirección: 👉 59A e/ 8 y Final",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-10-15T18:32:12+00:00",
+        "municipio": "Cotorro",
+        "direccion": "la siguiente dirección: 👉 59A e/ 8 y Final",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,13 +280,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Cotorro": 1
+    },
+    "averias_total": 1,
     "source_msg_count": 10,
     "by_type_counts": {
-      "restablecimiento": 3,
-      "otro": 6,
-      "pinned": 1
+      "otro": 7,
+      "restablecimiento": 2,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -319,8 +337,10 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Cotorro": 1
+    },
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -346,8 +366,10 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Cotorro": 1
+    },
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -368,7 +390,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3363,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
@@ -380,7 +402,7 @@
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
-      "Cotorro": 105,
+      "Cotorro": 106,
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
