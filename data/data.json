@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T14:18:01+00:00",
+  "generated_at": "2026-10-15T14:30:56+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-15T14:15:01+00:00",
+    "as_of": "2026-10-15T14:23:56+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,21 +33,21 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-10-15T14:09:29+00:00",
+      "ts": "2026-10-15T14:18:50+00:00",
       "averias": [
         {
-          "municipio": "Arroyo Naranjo",
-          "direccion": "el siguiente circuito : 👉 A1006: Repartos Santa Amalia y Barrio Azul",
-          "severity": "primaria"
+          "municipio": "Boyeros",
+          "direccion": "👉 A1440: 166 e/ 379 y 377",
+          "severity": "secundaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-10-15T14:09:29+00:00",
-        "municipio": "Arroyo Naranjo",
-        "direccion": "el siguiente circuito : 👉 A1006: Repartos Santa Amalia y Barrio Azul",
-        "severity": "primaria"
+        "ts": "2026-10-15T14:18:50+00:00",
+        "municipio": "Boyeros",
+        "direccion": "👉 A1440: 166 e/ 379 y 377",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -281,13 +281,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 3,
+    "source_msg_count": 5,
     "by_type_counts": {
       "averias": 1,
-      "restablecimiento": 2
+      "otro": 2,
+      "restablecimiento": 1,
+      "pinned": 1
     }
   },
   "yesterday": {
@@ -337,7 +339,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -366,7 +368,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -391,9 +393,9 @@
     },
     "averias_total": 3363,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
-      "Arroyo Naranjo": 273,
+      "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
