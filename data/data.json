@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T14:30:56+00:00",
+  "generated_at": "2026-10-15T14:33:26+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-15T14:23:56+00:00",
+    "as_of": null,
     "bloques": [
       {
         "id": 1,
@@ -32,24 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-15T14:18:50+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": "👉 A1440: 166 e/ 379 y 377",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-15T14:18:50+00:00",
-        "municipio": "Boyeros",
-        "direccion": "👉 A1440: 166 e/ 379 y 377",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
