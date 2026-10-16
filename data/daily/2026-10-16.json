@@ -1,8 +1,8 @@
 {
   "date": "2026-10-16",
   "finalized": false,
-  "peak_mw_affected": 365,
-  "peak_time": "16:24",
+  "peak_mw_affected": null,
+  "peak_time": null,
   "interruption_minutes": null,
   "emergency_mw": null,
   "block_outage_minutes": {
@@ -23,16 +23,13 @@
   "partial_sen_outage_minutes": 0,
   "cte_offline_minutes": {},
   "averias_count_by_municipio": {
-    "Boyeros": 1
+    "Arroyo Naranjo": 1,
+    "Habana Del Este": 1
   },
-  "averias_total": 1,
-  "source_msg_count": 13,
+  "averias_total": 2,
+  "source_msg_count": 4,
   "by_type_counts": {
-    "actualizacion_bloques": 1,
-    "otro": 4,
-    "pinned": 1,
-    "restablecimiento": 4,
-    "mantenimiento": 2,
-    "disparo_circuito": 1
+    "restablecimiento": 2,
+    "disparo_circuito": 2
   }
 }
