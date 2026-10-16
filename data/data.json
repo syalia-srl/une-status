@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-16T09:29:48+00:00",
+  "generated_at": "2026-10-16T09:45:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-16T09:25:08+00:00",
+    "as_of": "2026-10-16T09:43:08+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,12 +32,22 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-10-16T09:43:08+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "el siguiente circuito: 👉 A820 : Repartos 250, Miraflores Viejo, Embil, Altura de Embil, Ampliación de Aldabó, Capdevila, La Dolorita",
+          "severity": "primaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-10-16T09:19:47+00:00",
+        "ts": "2026-10-16T09:43:08+00:00",
         "municipio": "Boyeros",
-        "kind": "disparo_circuito"
+        "direccion": "el siguiente circuito: 👉 A820 : Repartos 250, Miraflores Viejo, Embil, Altura de Embil, Ampliación de Aldabó, Capdevila, La Dolorita",
+        "severity": "primaria"
       }
     ],
     "last_daf": null,
@@ -274,11 +284,9 @@
       "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 4,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 2,
-      "disparo_circuito": 1,
-      "pinned": 1
+      "averias": 1
     }
   },
   "yesterday": {
