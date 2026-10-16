@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-16T16:14:43+00:00",
+  "generated_at": "2026-10-16T16:30:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-16T16:13:49+00:00",
+    "as_of": "2026-10-16T16:26:01+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,26 +32,16 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-16T16:12:49+00:00",
-      "averias": [
-        {
-          "municipio": "Habana Del Este",
-          "direccion": "la siguiente dirección: Edificio 16, zona 10",
-          "severity": "secundaria"
-        }
-      ]
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-16T16:12:49+00:00",
-        "municipio": "Habana Del Este",
-        "direccion": "la siguiente dirección: Edificio 16, zona 10",
-        "severity": "secundaria"
+        "ts": "2026-10-16T16:17:39+00:00",
+        "municipio": "Cerro",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
-      "ts": "2026-10-16T15:59:46+00:00",
+      "ts": "2026-10-16T16:21:51+00:00",
       "type": "daf"
     },
     "last_pronostico": null,
@@ -284,16 +274,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Cerro": 1
     },
     "averias_total": 1,
-    "source_msg_count": 10,
+    "source_msg_count": 9,
     "by_type_counts": {
+      "restablecimiento": 1,
       "otro": 5,
+      "disparo_circuito": 1,
       "daf": 1,
-      "via_libre": 1,
-      "restablecimiento": 2,
-      "averias": 1
+      "pinned": 1
     }
   },
   "yesterday": {
@@ -345,7 +335,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Cerro": 1
     },
     "averias_total": 1,
     "daf_total": 1,
@@ -374,7 +364,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1
+      "Cerro": 1
     },
     "averias_total": 1,
     "daf_total": 1,
@@ -403,9 +393,9 @@
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
-      "Habana Del Este": 231,
+      "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 202,
+      "Cerro": 203,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
