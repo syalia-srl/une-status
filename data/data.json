@@ -1,43 +1,40 @@
 {
-  "generated_at": "2026-10-16T04:17:21+00:00",
+  "generated_at": "2026-10-16T04:32:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-16T04:07:58+00:00",
+    "as_of": "2026-10-16T04:24:49+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 2,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 3,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 4,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 5,
-        "state": "encendido"
+        "state": "desconocido"
       },
       {
         "id": 6,
-        "state": "encendido"
+        "state": "desconocido"
       }
     ],
-    "current_mw_affected": 449,
-    "current_mw_affected_at": "2026-10-16T04:03:12+00:00",
+    "current_mw_affected": null,
+    "current_mw_affected_at": null,
     "active_averias": null,
     "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-10-16T04:07:58+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -246,8 +243,8 @@
   "day": {
     "date": "2026-10-16",
     "finalized": false,
-    "peak_mw_affected": 449,
-    "peak_time": "00:03",
+    "peak_mw_affected": null,
+    "peak_time": null,
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -259,7 +256,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 4,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -269,12 +266,11 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 8,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "daf": 4,
-      "via_libre": 1,
-      "actualizacion_bloques": 1,
-      "restablecimiento_daf": 2
+      "restablecimiento": 1,
+      "otro": 1,
+      "pinned": 1
     }
   },
   "yesterday": {
@@ -313,8 +309,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": 449.0,
-    "max_peak_mw": 449,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -327,7 +323,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "daf_total": 4,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -340,8 +336,8 @@
     "month": "2026-10",
     "finalized": false,
     "dailies_count": 16,
-    "avg_peak_mw": 449.0,
-    "max_peak_mw": 449,
+    "avg_peak_mw": null,
+    "max_peak_mw": null,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -354,7 +350,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "daf_total": 4,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -392,7 +388,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2379,
+    "daf_total": 2375,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -528,7 +524,7 @@
       },
       {
         "date": "2026-10-16",
-        "peak_mw": 449
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1372,7 +1368,7 @@
       },
       {
         "date": "2026-10-16",
-        "peak_mw": 449
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1578,7 +1574,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": 449
+        "max_peak_mw": null
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1791,8 +1787,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2379,
-    "daf_last_30d": 7,
+    "daf_total": 2375,
+    "daf_last_30d": 3,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
