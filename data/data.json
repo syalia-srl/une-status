@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-16T13:54:22+00:00",
+  "generated_at": "2026-10-16T14:09:31+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-16T13:52:08+00:00",
+    "as_of": "2026-10-16T14:07:50+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
+    "current_mw_affected": 262,
+    "current_mw_affected_at": "2026-10-16T13:57:16+00:00",
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-16T13:51:02+00:00",
-        "municipio": "Centro Habana",
+        "ts": "2026-10-16T13:57:16+00:00",
+        "municipio": "Plaza",
         "kind": "disparo_circuito"
       }
     ],
@@ -249,8 +249,8 @@
   "day": {
     "date": "2026-10-16",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 262,
+    "peak_time": "09:57",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -271,14 +271,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Centro Habana": 1
+      "Plaza": 1
     },
     "averias_total": 1,
-    "source_msg_count": 9,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "disparo_circuito": 4,
-      "via_libre": 1,
-      "restablecimiento": 4
+      "restablecimiento": 11,
+      "otro": 2,
+      "pinned": 1,
+      "disparo_circuito": 1,
+      "actualizacion_bloques": 1,
+      "via_libre": 1
     }
   },
   "yesterday": {
@@ -317,8 +320,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 262.0,
+    "max_peak_mw": 262,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -330,7 +333,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Centro Habana": 1
+      "Plaza": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -346,8 +349,8 @@
     "month": "2026-10",
     "finalized": false,
     "dailies_count": 16,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 262.0,
+    "max_peak_mw": 262,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -359,7 +362,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Centro Habana": 1
+      "Plaza": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -391,11 +394,11 @@
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
-      "Plaza": 191,
+      "Plaza": 192,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
-      "Centro Habana": 73,
+      "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
       "Regla": 43
@@ -536,7 +539,7 @@
       },
       {
         "date": "2026-10-16",
-        "peak_mw": null
+        "peak_mw": 262
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1380,7 +1383,7 @@
       },
       {
         "date": "2026-10-16",
-        "peak_mw": null
+        "peak_mw": 262
       }
     ],
     "monthly_max_peak_mw": [
@@ -1586,7 +1589,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": null
+        "max_peak_mw": 262
       }
     ],
     "monthly_total_outage_minutes": [
