@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-17T16:02:20+00:00",
+  "generated_at": "2026-10-17T16:17:39+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-17T15:57:34+00:00",
+    "as_of": "2026-10-17T16:17:02+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,9 +32,33 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
-    "last_daf": null,
+    "active_averias": {
+      "ts": "2026-10-17T16:03:46+00:00",
+      "averias": [
+        {
+          "municipio": "San Miguel Del Padrón",
+          "direccion": "la calle 1ra entre 5ta y 6ta",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-10-17T16:03:46+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "direccion": "la calle 1ra entre 5ta y 6ta",
+        "severity": "secundaria"
+      },
+      {
+        "ts": "2026-10-17T16:01:45+00:00",
+        "municipio": "Lisa",
+        "direccion": "el siguiente circuito: 👉 A1223: Repartos Los Avioncitos, Cuadrante 23 por 230 hasta avenida 51 y 222 hasta 230 (La Coronela), calle 230 hasta 33 y 33 hasta 35 (San Agustín) 📣"
+      }
+    ],
+    "last_daf": {
+      "ts": "2026-10-17T16:14:42+00:00",
+      "type": "daf"
+    },
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -256,7 +280,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 0,
+    "daf_count": 2,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -264,12 +288,16 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 2,
+    "averias_count_by_municipio": {
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "otro": 1,
-      "pinned": 1
+      "averias": 2,
+      "daf": 2,
+      "otro": 3
     }
   },
   "yesterday": {
@@ -319,9 +347,12 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "daf_total": 0,
+    "averias_count_by_municipio": {
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 2,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -346,9 +377,12 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "daf_total": 0,
+    "averias_count_by_municipio": {
+      "Lisa": 1,
+      "San Miguel Del Padrón": 1
+    },
+    "averias_total": 2,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -368,17 +402,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3364,
     "averias_top_municipios": {
       "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 272,
-      "Lisa": 243,
+      "Lisa": 244,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
@@ -386,7 +420,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2375,
+    "daf_total": 2377,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1785,8 +1819,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2375,
-    "daf_last_30d": 3,
+    "daf_total": 2377,
+    "daf_last_30d": 5,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
