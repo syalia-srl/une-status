@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-17T23:47:49+00:00",
+  "generated_at": "2026-10-18T00:03:21+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-17T23:46:50+00:00",
+    "as_of": "2026-10-18T00:01:03+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,8 +35,13 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-17T23:34:11+00:00",
-        "municipio": "Boyeros",
+        "ts": "2026-10-18T00:01:03+00:00",
+        "municipio": "Marianao",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-10-17T23:59:45+00:00",
+        "municipio": "Lisa",
         "kind": "disparo_circuito"
       }
     ],
@@ -271,14 +276,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Lisa": 1,
+      "Marianao": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "source_msg_count": 5,
     "by_type_counts": {
-      "disparo_circuito": 1,
-      "restablecimiento": 3,
-      "otro": 1
+      "restablecimiento": 1,
+      "otro": 1,
+      "pinned": 1,
+      "disparo_circuito": 2
     }
   },
   "yesterday": {
@@ -329,9 +336,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Lisa": 1,
+      "Marianao": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -358,9 +366,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Lisa": 1,
+      "Marianao": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -381,18 +390,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3364,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 356,
       "Playa": 283,
       "Arroyo Naranjo": 272,
-      "Lisa": 243,
+      "Lisa": 244,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
-      "Marianao": 162,
+      "Marianao": 163,
       "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
