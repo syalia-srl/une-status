@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-18T16:07:01+00:00",
+  "generated_at": "2026-10-18T16:22:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-18T16:06:39+00:00",
+    "as_of": "2026-10-18T16:21:24+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,23 +32,35 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-10-18T16:16:32+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "el siguiente circuito : 👉 1241: Avenida 1ra desde calle 38 hasta calle A, cuadrante de avenida 3ra desde calle 22 hasta calle 12 y de avenida 1ra hasta avenida 5ta(Miramar)",
+          "severity": "primaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-10-18T15:57:26+00:00",
-        "municipio": "Habana Del Este",
+        "ts": "2026-10-18T16:17:16+00:00",
+        "municipio": "Boyeros",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-10-18T15:50:56+00:00",
+        "ts": "2026-10-18T16:16:32+00:00",
+        "municipio": "Playa",
+        "direccion": "el siguiente circuito : 👉 1241: Avenida 1ra desde calle 38 hasta calle A, cuadrante de avenida 3ra desde calle 22 hasta calle 12 y de avenida 1ra hasta avenida 5ta(Miramar)",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-10-18T16:10:47+00:00",
         "municipio": "Boyeros",
         "kind": "disparo_circuito"
       }
     ],
-    "last_daf": {
-      "ts": "2026-10-18T16:06:39+00:00",
-      "type": "restablecimiento_daf"
-    },
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -270,7 +282,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 1,
+    "daf_count": 0,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -279,18 +291,17 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Habana Del Este": 1
+      "Boyeros": 2,
+      "Playa": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 17,
+    "averias_total": 3,
+    "source_msg_count": 13,
     "by_type_counts": {
-      "disparo_circuito": 2,
-      "restablecimiento": 8,
-      "restablecimiento_daf": 3,
-      "otro": 2,
+      "restablecimiento": 4,
+      "otro": 5,
       "pinned": 1,
-      "daf": 1
+      "disparo_circuito": 2,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -341,11 +352,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Habana Del Este": 1
+      "Boyeros": 2,
+      "Playa": 1
     },
-    "averias_total": 2,
-    "daf_total": 1,
+    "averias_total": 3,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -371,11 +382,11 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Habana Del Este": 1
+      "Boyeros": 2,
+      "Playa": 1
     },
-    "averias_total": 2,
-    "daf_total": 1,
+    "averias_total": 3,
+    "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -395,13 +406,13 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3364,
+    "averias_total": 3365,
     "averias_top_municipios": {
-      "Boyeros": 357,
-      "Playa": 283,
+      "Boyeros": 358,
+      "Playa": 284,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
-      "Habana Del Este": 231,
+      "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
@@ -413,7 +424,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2376,
+    "daf_total": 2375,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -1812,8 +1823,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2376,
-    "daf_last_30d": 4,
+    "daf_total": 2375,
+    "daf_last_30d": 3,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
