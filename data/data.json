@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-18T19:59:20+00:00",
+  "generated_at": "2026-10-18T20:15:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-18T19:58:44+00:00",
+    "as_of": "2026-10-18T20:07:27+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,20 +33,18 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-10-18T19:53:24+00:00",
+      "ts": "2026-10-18T20:07:27+00:00",
       "averias": [
         {
-          "municipio": "Plaza",
-          "direccion": "el siguiente circuito completo: 👉 PZ6: Calle 4 desde 27 hasta 11, cuadrante 21 hasta 19 y 12 hasta 4, 6 desde 23 hasta 15, 13 hasta 17, 6 hasta A, A desde 17 hasta 7",
+          "municipio": "Guanabacoa",
           "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-10-18T19:53:24+00:00",
-        "municipio": "Plaza",
-        "direccion": "el siguiente circuito completo: 👉 PZ6: Calle 4 desde 27 hasta 11, cuadrante 21 hasta 19 y 12 hasta 4, 6 desde 23 hasta 15, 13 hasta 17, 6 hasta A, A desde 17 hasta 7",
+        "ts": "2026-10-18T20:07:27+00:00",
+        "municipio": "Guanabacoa",
         "severity": "primaria"
       }
     ],
@@ -281,13 +279,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 1
+      "Guanabacoa": 1
     },
     "averias_total": 1,
-    "source_msg_count": 8,
+    "source_msg_count": 4,
     "by_type_counts": {
-      "restablecimiento": 2,
-      "otro": 5,
+      "otro": 2,
+      "pinned": 1,
       "averias": 1
     }
   },
@@ -339,7 +337,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Plaza": 1
+      "Guanabacoa": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -368,7 +366,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Plaza": 1
+      "Guanabacoa": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -398,9 +396,9 @@
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 227,
+      "Guanabacoa": 228,
       "Cerro": 202,
-      "Plaza": 192,
+      "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
