@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-18T15:51:19+00:00",
+  "generated_at": "2026-10-18T16:07:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-18T15:49:56+00:00",
+    "as_of": "2026-10-18T16:06:39+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,32 +32,22 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-18T15:45:45+00:00",
-      "averias": [
-        {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": ": A 425: Avenida del Río desde Dolores hasta calle 6ta, carretera El Cuervo",
-          "severity": "primaria"
-        }
-      ]
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-18T15:45:45+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": ": A 425: Avenida del Río desde Dolores hasta calle 6ta, carretera El Cuervo",
-        "severity": "primaria"
+        "ts": "2026-10-18T15:57:26+00:00",
+        "municipio": "Habana Del Este",
+        "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-10-18T15:40:15+00:00",
-        "municipio": "Habana Del Este",
+        "ts": "2026-10-18T15:50:56+00:00",
+        "municipio": "Boyeros",
         "kind": "disparo_circuito"
       }
     ],
     "last_daf": {
-      "ts": "2026-10-18T15:43:46+00:00",
-      "type": "daf"
+      "ts": "2026-10-18T16:06:39+00:00",
+      "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
     "sen": {
@@ -289,18 +279,18 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "San Miguel Del Padrón": 1
+      "Boyeros": 1,
+      "Habana Del Este": 1
     },
     "averias_total": 2,
-    "source_msg_count": 13,
+    "source_msg_count": 17,
     "by_type_counts": {
-      "otro": 6,
-      "pinned": 3,
-      "disparo_circuito": 1,
-      "daf": 1,
-      "averias": 1,
-      "restablecimiento": 1
+      "disparo_circuito": 2,
+      "restablecimiento": 8,
+      "restablecimiento_daf": 3,
+      "otro": 2,
+      "pinned": 1,
+      "daf": 1
     }
   },
   "yesterday": {
@@ -351,8 +341,8 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "San Miguel Del Padrón": 1
+      "Boyeros": 1,
+      "Habana Del Este": 1
     },
     "averias_total": 2,
     "daf_total": 1,
@@ -381,8 +371,8 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "San Miguel Del Padrón": 1
+      "Boyeros": 1,
+      "Habana Del Este": 1
     },
     "averias_total": 2,
     "daf_total": 1,
@@ -407,7 +397,7 @@
     },
     "averias_total": 3364,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
@@ -415,7 +405,7 @@
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 189,
+      "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
