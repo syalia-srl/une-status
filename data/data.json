@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-19T10:00:59+00:00",
+  "generated_at": "2026-10-19T10:16:54+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-19T09:57:06+00:00",
+    "as_of": "2026-10-19T10:15:18+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,22 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-19T09:55:28+00:00",
-      "averias": [
-        {
-          "municipio": "Regla",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-19T09:55:28+00:00",
-        "municipio": "Regla",
-        "severity": "primaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -278,15 +264,12 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Regla": 1
-    },
-    "averias_total": 1,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
+    "source_msg_count": 6,
     "by_type_counts": {
-      "otro": 2,
-      "averias": 1,
-      "restablecimiento": 1
+      "otro": 4,
+      "pinned": 2
     }
   },
   "yesterday": {
@@ -338,10 +321,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Regla": 1
+      "Boyeros": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -368,10 +350,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Regla": 1
+      "Boyeros": 1
     },
-    "averias_total": 2,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -392,7 +373,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3364,
+    "averias_total": 3363,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
@@ -408,7 +389,7 @@
       "Centro Habana": 72,
       "De Boyeros": 50,
       "De Playa": 49,
-      "Regla": 44
+      "Regla": 43
     },
     "daf_total": 2375,
     "sen_collapse_total": 10,
