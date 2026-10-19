@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T01:10:45+00:00",
+  "generated_at": "2026-10-19T01:25:21+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
@@ -183,8 +183,8 @@
       {
         "id": "guevara",
         "name": "Ernesto Guevara (Santa Cruz)",
-        "state": "online",
-        "assumed": false,
+        "state": "assumed_online",
+        "assumed": true,
         "last_seen_at": "2026-09-19T01:19:29+00:00",
         "last_online_at": "2026-09-19T01:19:29+00:00",
         "last_offline_at": "2026-07-09T21:01:11+00:00",
