@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-19T04:32:22+00:00",
+  "generated_at": "2026-10-19T04:48:00+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-19T04:31:45+00:00",
+    "as_of": "2026-10-19T04:45:23+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,28 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-10-19T04:40:15+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": "Carretera Peñalver afectando el circuito : 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-10-19T04:40:15+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "Carretera Peñalver afectando el circuito : 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
+      },
+      {
+        "ts": "2026-10-19T04:37:53+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "Carretera Peñalver afectando el circuito : 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,13 +284,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {
+      "Guanabacoa": 2
+    },
+    "averias_total": 2,
+    "source_msg_count": 3,
     "by_type_counts": {
-      "restablecimiento": 3,
-      "otro": 2,
-      "pinned": 2
+      "averias": 2,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -322,9 +343,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Guanabacoa": 2,
       "Boyeros": 1
     },
-    "averias_total": 1,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -351,9 +373,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
+      "Guanabacoa": 2,
       "Boyeros": 1
     },
-    "averias_total": 1,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -374,14 +397,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3365,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 227,
+      "Guanabacoa": 229,
       "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
