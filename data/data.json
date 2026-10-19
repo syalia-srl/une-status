@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-19T03:45:20+00:00",
+  "generated_at": "2026-10-19T04:01:01+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-19T03:32:43+00:00",
+    "as_of": "2026-10-19T04:00:09+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-10-19T03:59:58+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "👉 Calle 194 entre 401 y 403",
+          "severity": "secundaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-10-19T03:59:58+00:00",
+        "municipio": "Boyeros",
+        "direccion": "👉 Calle 194 entre 401 y 403",
+        "severity": "secundaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -241,7 +257,7 @@
     ]
   },
   "day": {
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "finalized": false,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -266,15 +282,13 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 3,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 1,
-      "pinned": 1,
       "restablecimiento": 1
     }
   },
   "yesterday": {
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
@@ -297,12 +311,13 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 2,
+    "averias_count_by_municipio": {
+      "Boyeros": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "otro": 1,
-      "pinned": 1
+      "averias": 1
     }
   },
   "week": {
@@ -320,8 +335,10 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Boyeros": 1
+    },
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -334,7 +351,7 @@
   "month": {
     "month": "2026-10",
     "finalized": false,
-    "dailies_count": 18,
+    "dailies_count": 19,
     "avg_peak_mw": null,
     "max_peak_mw": null,
     "total_interruption_minutes": 0,
@@ -347,8 +364,10 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Boyeros": 1
+    },
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -369,9 +388,9 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3362,
+    "averias_total": 3363,
     "averias_top_municipios": {
-      "Boyeros": 356,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
@@ -405,10 +424,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-09-19",
-        "peak_mw": null
-      },
       {
         "date": "2026-09-20",
         "peak_mw": null
@@ -524,13 +539,13 @@
       {
         "date": "2026-10-18",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-19",
+        "peak_mw": null
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-09-19",
-        "minutes": 0
-      },
       {
         "date": "2026-09-20",
         "minutes": 0
@@ -646,13 +661,13 @@
       {
         "date": "2026-10-18",
         "minutes": 0
+      },
+      {
+        "date": "2026-10-19",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-04-22",
-        "peak_mw": null
-      },
       {
         "date": "2026-04-23",
         "peak_mw": null
@@ -1368,6 +1383,10 @@
       {
         "date": "2026-10-18",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-19",
+        "peak_mw": null
       }
     ],
     "monthly_max_peak_mw": [
@@ -1808,9 +1827,9 @@
     }
   },
   "meta": {
-    "daily_count": 1540,
+    "daily_count": 1541,
     "monthly_count": 51,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-10-18"
+    "latest_date": "2026-10-19"
   }
 }
