@@ -1,55 +1,39 @@
 {
-  "generated_at": "2026-10-19T04:01:01+00:00",
+  "generated_at": "2026-10-19T04:16:31+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-19T04:00:09+00:00",
+    "as_of": "2026-10-19T04:13:25+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-19T03:59:58+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": "👉 Calle 194 entre 401 y 403",
-          "severity": "secundaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-19T03:59:58+00:00",
-        "municipio": "Boyeros",
-        "direccion": "👉 Calle 194 entre 401 y 403",
-        "severity": "secundaria"
-      }
-    ],
+    "current_mw_affected": 368,
+    "current_mw_affected_at": "2026-10-19T04:06:17+00:00",
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -259,8 +243,8 @@
   "day": {
     "date": "2026-10-19",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 368,
+    "peak_time": "00:06",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -282,9 +266,12 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 1,
+    "source_msg_count": 9,
     "by_type_counts": {
-      "restablecimiento": 1
+      "otro": 3,
+      "pinned": 2,
+      "actualizacion_bloques": 1,
+      "restablecimiento": 3
     }
   },
   "yesterday": {
@@ -323,8 +310,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 368.0,
+    "max_peak_mw": 368,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -352,8 +339,8 @@
     "month": "2026-10",
     "finalized": false,
     "dailies_count": 19,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 368.0,
+    "max_peak_mw": 368,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -542,7 +529,7 @@
       },
       {
         "date": "2026-10-19",
-        "peak_mw": null
+        "peak_mw": 368
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1386,7 +1373,7 @@
       },
       {
         "date": "2026-10-19",
-        "peak_mw": null
+        "peak_mw": 368
       }
     ],
     "monthly_max_peak_mw": [
@@ -1592,7 +1579,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": null
+        "max_peak_mw": 368
       }
     ],
     "monthly_total_outage_minutes": [
