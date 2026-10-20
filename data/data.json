@@ -1,57 +1,42 @@
 {
-  "generated_at": "2026-10-20T10:11:20+00:00",
+  "generated_at": "2026-10-20T10:26:40+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-20T10:08:48+00:00",
+    "as_of": "2026-10-20T10:24:46+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-20T10:06:02+00:00",
-      "averias": [
-        {
-          "municipio": "Boyeros",
-          "direccion": "la siguiente dirección: 👉 Calle 271/152 y 160,Río Verde",
-          "severity": "secundaria"
-        }
-      ]
-    },
+    "current_mw_affected": 285,
+    "current_mw_affected_at": "2026-10-20T10:16:00+00:00",
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-20T10:06:02+00:00",
-        "municipio": "Boyeros",
-        "direccion": "la siguiente dirección: 👉 Calle 271/152 y 160,Río Verde",
-        "severity": "secundaria"
-      },
-      {
-        "ts": "2026-10-20T10:02:50+00:00",
-        "municipio": "Habana Del Este",
+        "ts": "2026-10-20T10:11:19+00:00",
+        "municipio": "San Miguel Del Padrón",
         "kind": "disparo_circuito"
       }
     ],
@@ -264,8 +249,8 @@
   "day": {
     "date": "2026-10-20",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 285,
+    "peak_time": "06:16",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -286,17 +271,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Habana Del Este": 1,
-      "Boyeros": 1
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 11,
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "restablecimiento": 1,
-      "otro": 7,
       "disparo_circuito": 1,
-      "pinned": 1,
-      "averias": 1
+      "otro": 2,
+      "restablecimiento": 3,
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
@@ -333,8 +316,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 285.0,
+    "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -346,10 +329,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 2,
-      "Habana Del Este": 1
+      "Boyeros": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -363,8 +346,8 @@
     "month": "2026-10",
     "finalized": false,
     "dailies_count": 20,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 285.0,
+    "max_peak_mw": 285,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -376,10 +359,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 2,
-      "Habana Del Este": 1
+      "Boyeros": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -400,17 +383,17 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3365,
+    "averias_total": 3364,
     "averias_top_municipios": {
-      "Boyeros": 358,
+      "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
-      "Habana Del Este": 231,
+      "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 188,
+      "San Miguel Del Padrón": 189,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
@@ -554,7 +537,7 @@
       },
       {
         "date": "2026-10-20",
-        "peak_mw": null
+        "peak_mw": 285
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1398,7 +1381,7 @@
       },
       {
         "date": "2026-10-20",
-        "peak_mw": null
+        "peak_mw": 285
       }
     ],
     "monthly_max_peak_mw": [
@@ -1604,7 +1587,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": null
+        "max_peak_mw": 285
       }
     ],
     "monthly_total_outage_minutes": [
