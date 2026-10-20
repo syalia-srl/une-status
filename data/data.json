@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-20T18:29:22+00:00",
+  "generated_at": "2026-10-20T18:44:59+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-20T18:27:09+00:00",
+    "as_of": "2026-10-20T18:36:43+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-10-20T18:32:31+00:00",
+      "averias": [
+        {
+          "municipio": "Playa",
+          "direccion": "el siguiente circuito : 👉 L323: Cuadrante de avenida 5taF desde calle 118 hasta calle 96 con avenida 3ra y 3raA; calle 90 desde avenida 5taB hasta avenida 11 con avenida 7maA (Querejeta)",
+          "severity": "primaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-10-20T18:32:31+00:00",
+        "municipio": "Playa",
+        "direccion": "el siguiente circuito : 👉 L323: Cuadrante de avenida 5taF desde calle 118 hasta calle 96 con avenida 3ra y 3raA; calle 90 desde avenida 5taB hasta avenida 11 con avenida 7maA (Querejeta)",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +280,17 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {
+      "Playa": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 11,
     "by_type_counts": {
-      "restablecimiento": 4,
-      "otro": 3
+      "mantenimiento": 1,
+      "otro": 5,
+      "averias": 1,
+      "pinned": 2,
+      "restablecimiento": 2
     }
   },
   "yesterday": {
@@ -319,9 +340,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Playa": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -348,9 +370,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Playa": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -371,10 +394,10 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3364,
     "averias_top_municipios": {
       "Boyeros": 357,
-      "Playa": 283,
+      "Playa": 284,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
