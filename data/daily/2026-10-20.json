@@ -26,9 +26,7 @@
   "averias_total": 0,
   "source_msg_count": 5,
   "by_type_counts": {
-    "otro": 2,
-    "via_libre": 1,
-    "restablecimiento": 1,
-    "pinned": 1
+    "otro": 4,
+    "mantenimiento": 1
   }
 }
