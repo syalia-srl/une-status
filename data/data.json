@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T18:04:03+00:00",
+  "generated_at": "2026-10-21T18:19:32+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-21T17:59:15+00:00",
+    "as_of": "2026-10-21T18:18:37+00:00",
     "bloques": [
       {
         "id": 1,
@@ -268,7 +268,7 @@
     "averias_total": 0,
     "source_msg_count": 4,
     "by_type_counts": {
-      "otro": 1,
+      "mantenimiento": 1,
       "restablecimiento": 3
     }
   },
