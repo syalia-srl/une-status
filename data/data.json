@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T00:27:31+00:00",
+  "generated_at": "2026-10-21T00:42:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-21T00:25:06+00:00",
+    "as_of": "2026-10-21T00:42:14+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,8 +35,13 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-21T00:24:16+00:00",
-        "municipio": "Guanabacoa",
+        "ts": "2026-10-21T00:42:14+00:00",
+        "municipio": "San Miguel Del Padrón",
+        "kind": "disparo_circuito"
+      },
+      {
+        "ts": "2026-10-21T00:41:34+00:00",
+        "municipio": "Marianao",
         "kind": "disparo_circuito"
       }
     ],
@@ -271,14 +276,16 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Marianao": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 1,
-    "source_msg_count": 7,
+    "averias_total": 2,
+    "source_msg_count": 13,
     "by_type_counts": {
+      "disparo_circuito": 3,
       "restablecimiento": 5,
-      "otro": 1,
-      "disparo_circuito": 1
+      "otro": 3,
+      "pinned": 2
     }
   },
   "yesterday": {
@@ -329,9 +336,10 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 1,
-      "Guanabacoa": 1
+      "Marianao": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 2,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -359,9 +367,10 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 1,
-      "Guanabacoa": 1
+      "Marianao": 1,
+      "San Miguel Del Padrón": 1
     },
-    "averias_total": 2,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -382,18 +391,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3364,
+    "averias_total": 3365,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 228,
+      "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 188,
-      "Marianao": 162,
+      "San Miguel Del Padrón": 189,
+      "Marianao": 163,
       "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
