@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T00:42:50+00:00",
+  "generated_at": "2026-10-21T00:58:21+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-21T00:42:14+00:00",
+    "as_of": "2026-10-21T00:54:52+00:00",
     "bloques": [
       {
         "id": 1,
@@ -35,12 +35,12 @@
     "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-21T00:42:14+00:00",
+        "ts": "2026-10-21T00:54:52+00:00",
         "municipio": "San Miguel Del Padrón",
         "kind": "disparo_circuito"
       },
       {
-        "ts": "2026-10-21T00:41:34+00:00",
+        "ts": "2026-10-21T00:43:03+00:00",
         "municipio": "Marianao",
         "kind": "disparo_circuito"
       }
@@ -280,12 +280,10 @@
       "San Miguel Del Padrón": 1
     },
     "averias_total": 2,
-    "source_msg_count": 13,
+    "source_msg_count": 4,
     "by_type_counts": {
       "disparo_circuito": 3,
-      "restablecimiento": 5,
-      "otro": 3,
-      "pinned": 2
+      "restablecimiento": 1
     }
   },
   "yesterday": {
