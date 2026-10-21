@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T16:45:42+00:00",
+  "generated_at": "2026-10-21T17:01:25+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-21T16:43:32+00:00",
+    "as_of": "2026-10-21T16:58:32+00:00",
     "bloques": [
       {
         "id": 1,
@@ -212,8 +212,8 @@
       {
         "id": "rente",
         "name": "Antonio Maceo (Renté)",
-        "state": "online",
-        "assumed": false,
+        "state": "assumed_online",
+        "assumed": true,
         "last_seen_at": "2026-09-21T16:46:03+00:00",
         "last_online_at": "2026-09-21T16:46:03+00:00",
         "last_offline_at": "2026-08-18T13:35:27+00:00",
@@ -266,12 +266,11 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 8,
+    "source_msg_count": 5,
     "by_type_counts": {
-      "mantenimiento": 1,
-      "otro": 4,
-      "pinned": 1,
-      "restablecimiento": 2
+      "otro": 3,
+      "restablecimiento": 1,
+      "via_libre": 1
     }
   },
   "yesterday": {
