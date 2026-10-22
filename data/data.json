@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-22T15:35:21+00:00",
+  "generated_at": "2026-10-22T15:51:13+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-22T15:31:22+00:00",
+    "as_of": "2026-10-22T15:48:15+00:00",
     "bloques": [
       {
         "id": 1,
@@ -33,21 +33,21 @@
     "current_mw_affected": null,
     "current_mw_affected_at": null,
     "active_averias": {
-      "ts": "2026-10-22T15:19:53+00:00",
+      "ts": "2026-10-22T15:44:17+00:00",
       "averias": [
         {
-          "municipio": "Guanabacoa",
-          "direccion": "la siguiente dirección: 1ra entre A y Final, Reparto Villa Oliva",
-          "severity": "secundaria"
+          "municipio": "Playa",
+          "direccion": "la siguiente dirección del circuito: 👉 1160: 3ra e/ 2 y 0, Miramar",
+          "severity": "primaria"
         }
       ]
     },
     "averias_24h": [
       {
-        "ts": "2026-10-22T15:19:53+00:00",
-        "municipio": "Guanabacoa",
-        "direccion": "la siguiente dirección: 1ra entre A y Final, Reparto Villa Oliva",
-        "severity": "secundaria"
+        "ts": "2026-10-22T15:44:17+00:00",
+        "municipio": "Playa",
+        "direccion": "la siguiente dirección del circuito: 👉 1160: 3ra e/ 2 y 0, Miramar",
+        "severity": "primaria"
       }
     ],
     "last_daf": null,
@@ -281,15 +281,14 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1
+      "Playa": 1
     },
     "averias_total": 1,
     "source_msg_count": 4,
     "by_type_counts": {
-      "averias": 1,
       "otro": 1,
-      "pinned": 1,
-      "via_libre": 1
+      "restablecimiento": 2,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -341,7 +340,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 1,
-      "Guanabacoa": 1
+      "Playa": 1
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -371,7 +370,7 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 1,
-      "Guanabacoa": 1
+      "Playa": 1
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -397,11 +396,11 @@
     "averias_total": 3364,
     "averias_top_municipios": {
       "Boyeros": 357,
-      "Playa": 283,
+      "Playa": 284,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
-      "Guanabacoa": 228,
+      "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
