@@ -27,8 +27,9 @@
   "source_msg_count": 8,
   "by_type_counts": {
     "mantenimiento": 1,
-    "restablecimiento": 3,
-    "otro": 3,
-    "daf": 1
+    "restablecimiento": 4,
+    "otro": 1,
+    "daf": 1,
+    "restablecimiento_daf": 1
   }
 }
