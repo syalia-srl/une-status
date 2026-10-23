@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-23T08:59:20+00:00",
+  "generated_at": "2026-10-23T09:15:21+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-23T08:44:29+00:00",
+    "as_of": "2026-10-23T09:13:01+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,11 +32,14 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-10-23T09:03:36+00:00",
+      "averias": []
+    },
     "averias_24h": [
       {
-        "ts": "2026-10-23T08:44:29+00:00",
-        "municipio": "Plaza",
+        "ts": "2026-10-23T09:11:46+00:00",
+        "municipio": "Boyeros",
         "kind": "disparo_circuito"
       }
     ],
@@ -271,12 +274,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Plaza": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
-    "source_msg_count": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "disparo_circuito": 1
+      "averias": 2,
+      "otro": 3,
+      "disparo_circuito": 1,
+      "restablecimiento": 1
     }
   },
   "yesterday": {
@@ -327,8 +333,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Plaza": 1
+      "Boyeros": 2
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -357,8 +362,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Plaza": 1
+      "Boyeros": 2
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -383,14 +387,14 @@
     },
     "averias_total": 3364,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 358,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
       "Cerro": 202,
-      "Plaza": 192,
+      "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
