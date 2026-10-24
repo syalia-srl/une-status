@@ -1,41 +1,59 @@
 {
-  "generated_at": "2026-10-24T19:42:51+00:00",
+  "generated_at": "2026-10-24T19:58:50+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-24T19:36:11+00:00",
+    "as_of": "2026-10-24T19:57:46+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "current_mw_affected": 155,
+    "current_mw_affected_at": "2026-10-24T19:49:03+00:00",
+    "active_averias": {
+      "ts": "2026-10-24T19:57:46+00:00",
+      "averias": [
+        {
+          "municipio": "Guanabacoa",
+          "direccion": "avería por Primario Partido en Prensa la Palma circuito: 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-10-24T19:57:46+00:00",
+        "municipio": "Guanabacoa",
+        "direccion": "avería por Primario Partido en Prensa la Palma circuito: 👉 A318: Alecrín, Peñalver, Carretera Monumental desde el Km 13 1/2 hasta las 8 vías"
+      },
+      {
+        "ts": "2026-10-24T19:52:10+00:00",
+        "municipio": "Lisa"
+      }
+    ],
     "last_daf": {
-      "ts": "2026-10-24T19:36:06+00:00",
+      "ts": "2026-10-24T19:55:38+00:00",
       "type": "restablecimiento_daf"
     },
     "last_pronostico": null,
@@ -246,8 +264,8 @@
   "day": {
     "date": "2026-10-24",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 155,
+    "peak_time": "15:49",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -259,7 +277,7 @@
       "6": 0
     },
     "total_block_outage_minutes": 0,
-    "daf_count": 4,
+    "daf_count": 2,
     "sen_collapse_count": 0,
     "sen_outage_minutes": 0,
     "sen_outage": false,
@@ -267,13 +285,19 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 7,
+    "averias_count_by_municipio": {
+      "Lisa": 1,
+      "Guanabacoa": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 12,
     "by_type_counts": {
-      "daf": 4,
-      "restablecimiento_daf": 2,
-      "mantenimiento": 1
+      "otro": 2,
+      "restablecimiento": 4,
+      "daf": 2,
+      "actualizacion_bloques": 1,
+      "averias": 2,
+      "restablecimiento_daf": 1
     }
   },
   "yesterday": {
@@ -310,8 +334,8 @@
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 155.0,
+    "max_peak_mw": 155,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -323,10 +347,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Lisa": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 1,
-    "daf_total": 4,
+    "averias_total": 3,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -339,8 +365,8 @@
     "month": "2026-10",
     "finalized": false,
     "dailies_count": 24,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 155.0,
+    "max_peak_mw": 155,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -352,10 +378,12 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Lisa": 1,
+      "Guanabacoa": 1
     },
-    "averias_total": 1,
-    "daf_total": 4,
+    "averias_total": 3,
+    "daf_total": 2,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
     "sen_outage_minutes_total": 0,
@@ -375,14 +403,14 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3365,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
-      "Lisa": 243,
+      "Lisa": 244,
       "Habana Del Este": 230,
-      "Guanabacoa": 227,
+      "Guanabacoa": 228,
       "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
@@ -393,7 +421,7 @@
       "De Playa": 49,
       "Regla": 43
     },
-    "daf_total": 2379,
+    "daf_total": 2377,
     "sen_collapse_total": 10,
     "sen_outage_days_total": 8,
     "sen_outage_minutes_total": 3682,
@@ -529,7 +557,7 @@
       },
       {
         "date": "2026-10-24",
-        "peak_mw": null
+        "peak_mw": 155
       }
     ],
     "daily_outage_minutes_last_30d": [
@@ -1373,7 +1401,7 @@
       },
       {
         "date": "2026-10-24",
-        "peak_mw": null
+        "peak_mw": 155
       }
     ],
     "monthly_max_peak_mw": [
@@ -1579,7 +1607,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": null
+        "max_peak_mw": 155
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1792,8 +1820,8 @@
     "sen_outage_days_last_30d": 0,
     "sen_collapse_total": 10,
     "sen_collapse_last_30d": 0,
-    "daf_total": 2379,
-    "daf_last_30d": 6,
+    "daf_total": 2377,
+    "daf_last_30d": 4,
     "cte_offline_minutes_total": {
       "rente": 3274,
       "maximo-gomez": 6895,
