@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-24T16:37:21+00:00",
+  "generated_at": "2026-10-24T16:52:32+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-24T16:32:06+00:00",
+    "as_of": "2026-10-24T16:52:04+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,17 +32,22 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
+    "active_averias": {
+      "ts": "2026-10-24T16:44:43+00:00",
+      "averias": [
+        {
+          "municipio": "Marianao",
+          "direccion": "la siguiente dirección: 👉 35 /118 y 120",
+          "severity": "secundaria"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-10-24T16:32:06+00:00",
-        "municipio": "Habana Del Este",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-10-24T16:23:07+00:00",
-        "municipio": "Guanabacoa",
-        "kind": "disparo_circuito"
+        "ts": "2026-10-24T16:44:43+00:00",
+        "municipio": "Marianao",
+        "direccion": "la siguiente dirección: 👉 35 /118 y 120",
+        "severity": "secundaria"
       }
     ],
     "last_daf": null,
@@ -276,13 +281,15 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Guanabacoa": 1,
-      "Habana Del Este": 1
+      "Marianao": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 2,
+    "averias_total": 1,
+    "source_msg_count": 16,
     "by_type_counts": {
-      "disparo_circuito": 2
+      "otro": 9,
+      "pinned": 2,
+      "restablecimiento": 4,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -333,10 +340,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 1,
-      "Guanabacoa": 1,
-      "Habana Del Este": 1
+      "Marianao": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -364,10 +370,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 1,
-      "Guanabacoa": 1,
-      "Habana Del Este": 1
+      "Marianao": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -388,18 +393,18 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3365,
+    "averias_total": 3364,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
-      "Habana Del Este": 231,
-      "Guanabacoa": 228,
+      "Habana Del Este": 230,
+      "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
-      "Marianao": 162,
+      "Marianao": 163,
       "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
