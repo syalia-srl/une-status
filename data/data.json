@@ -1,48 +1,51 @@
 {
-  "generated_at": "2026-10-25T03:58:42+00:00",
+  "generated_at": "2026-10-25T04:14:11+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-25T03:55:17+00:00",
+    "as_of": "2026-10-25T04:12:01+00:00",
     "bloques": [
       {
         "id": 1,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 2,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 3,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 4,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 5,
-        "state": "desconocido"
+        "state": "encendido"
       },
       {
         "id": 6,
-        "state": "desconocido"
+        "state": "encendido"
       }
     ],
-    "current_mw_affected": null,
-    "current_mw_affected_at": null,
-    "active_averias": null,
+    "current_mw_affected": 384,
+    "current_mw_affected_at": "2026-10-25T04:12:01+00:00",
+    "active_averias": {
+      "ts": "2026-10-25T04:05:14+00:00",
+      "averias": [
+        {
+          "municipio": "Cerro",
+          "direccion": "Ave Independencia y Camaguey"
+        }
+      ]
+    },
     "averias_24h": [
       {
-        "ts": "2026-10-25T03:47:16+00:00",
+        "ts": "2026-10-25T04:05:14+00:00",
         "municipio": "Cerro",
-        "kind": "disparo_circuito"
-      },
-      {
-        "ts": "2026-10-25T03:42:26+00:00",
-        "municipio": "Arroyo Naranjo",
-        "kind": "disparo_circuito"
+        "direccion": "Ave Independencia y Camaguey"
       }
     ],
     "last_daf": null,
@@ -252,10 +255,10 @@
     ]
   },
   "day": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "finalized": false,
-    "peak_mw_affected": null,
-    "peak_time": null,
+    "peak_mw_affected": 384,
+    "peak_time": "00:12",
     "interruption_minutes": null,
     "emergency_mw": null,
     "block_outage_minutes": {
@@ -276,22 +279,20 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "Arroyo Naranjo": 1,
       "Cerro": 1
     },
-    "averias_total": 2,
-    "source_msg_count": 14,
+    "averias_total": 1,
+    "source_msg_count": 7,
     "by_type_counts": {
-      "disparo_circuito": 2,
-      "otro": 4,
+      "corto": 4,
+      "averias": 1,
       "mantenimiento": 1,
-      "restablecimiento": 5,
-      "pinned": 2
+      "actualizacion_bloques": 1
     }
   },
   "yesterday": {
-    "date": "2026-10-23",
-    "finalized": false,
+    "date": "2026-10-24",
+    "finalized": true,
     "peak_mw_affected": null,
     "peak_time": null,
     "interruption_minutes": null,
@@ -315,16 +316,16 @@
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {},
     "averias_total": 0,
-    "source_msg_count": 2,
+    "source_msg_count": 1,
     "by_type_counts": {
-      "restablecimiento": 2
+      "restablecimiento": 1
     }
   },
   "week": {
     "finalized": false,
     "dailies_count": 7,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "avg_peak_mw": 384.0,
+    "max_peak_mw": 384,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -336,11 +337,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Arroyo Naranjo": 1,
       "Cerro": 1
     },
-    "averias_total": 3,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -353,9 +352,9 @@
   "month": {
     "month": "2026-10",
     "finalized": false,
-    "dailies_count": 24,
-    "avg_peak_mw": null,
-    "max_peak_mw": null,
+    "dailies_count": 25,
+    "avg_peak_mw": 384.0,
+    "max_peak_mw": 384,
     "total_interruption_minutes": 0,
     "total_block_outage_minutes": {
       "1": 0,
@@ -368,10 +367,9 @@
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
       "Boyeros": 1,
-      "Arroyo Naranjo": 1,
       "Cerro": 1
     },
-    "averias_total": 3,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -392,11 +390,11 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3365,
+    "averias_total": 3364,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
-      "Arroyo Naranjo": 273,
+      "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
@@ -428,10 +426,6 @@
   },
   "history": {
     "daily_peak_mw_last_30d": [
-      {
-        "date": "2026-09-25",
-        "peak_mw": null
-      },
       {
         "date": "2026-09-26",
         "peak_mw": null
@@ -547,13 +541,13 @@
       {
         "date": "2026-10-24",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-25",
+        "peak_mw": 384
       }
     ],
     "daily_outage_minutes_last_30d": [
-      {
-        "date": "2026-09-25",
-        "minutes": 0
-      },
       {
         "date": "2026-09-26",
         "minutes": 0
@@ -669,13 +663,13 @@
       {
         "date": "2026-10-24",
         "minutes": 0
+      },
+      {
+        "date": "2026-10-25",
+        "minutes": 0
       }
     ],
     "daily_peak_mw_last_180d": [
-      {
-        "date": "2026-04-28",
-        "peak_mw": 171
-      },
       {
         "date": "2026-04-29",
         "peak_mw": 167
@@ -1391,6 +1385,10 @@
       {
         "date": "2026-10-24",
         "peak_mw": null
+      },
+      {
+        "date": "2026-10-25",
+        "peak_mw": 384
       }
     ],
     "monthly_max_peak_mw": [
@@ -1596,7 +1594,7 @@
       },
       {
         "month": "2026-10",
-        "max_peak_mw": null
+        "max_peak_mw": 384
       }
     ],
     "monthly_total_outage_minutes": [
@@ -1831,9 +1829,9 @@
     }
   },
   "meta": {
-    "daily_count": 1546,
+    "daily_count": 1547,
     "monthly_count": 51,
     "earliest_date": "2022-08-01",
-    "latest_date": "2026-10-24"
+    "latest_date": "2026-10-25"
   }
 }
