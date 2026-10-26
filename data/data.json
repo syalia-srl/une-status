@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-26T03:34:51+00:00",
+  "generated_at": "2026-10-26T03:50:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-26T03:33:32+00:00",
+    "as_of": "2026-10-26T03:43:44+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,28 +32,8 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-26T03:33:32+00:00",
-      "averias": [
-        {
-          "municipio": "Cerro",
-          "severity": "primaria"
-        }
-      ]
-    },
-    "averias_24h": [
-      {
-        "ts": "2026-10-26T03:33:32+00:00",
-        "municipio": "Cerro",
-        "severity": "primaria"
-      },
-      {
-        "ts": "2026-10-26T03:20:38+00:00",
-        "municipio": "Marianao",
-        "direccion": "la calle 29 entre 142 y 144, Zamora 🚨",
-        "severity": "secundaria"
-      }
-    ],
+    "active_averias": null,
+    "averias_24h": [],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -284,15 +264,11 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {
-      "Marianao": 1,
-      "Cerro": 1
-    },
-    "averias_total": 2,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "source_msg_count": 3,
     "by_type_counts": {
-      "averias": 2,
-      "restablecimiento": 1
+      "restablecimiento": 3
     }
   },
   "yesterday": {
@@ -341,11 +317,8 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {
-      "Marianao": 1,
-      "Cerro": 1
-    },
-    "averias_total": 2,
+    "averias_count_by_municipio": {},
+    "averias_total": 0,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -372,11 +345,9 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "Marianao": 1,
-      "Cerro": 1
+      "Boyeros": 1
     },
-    "averias_total": 3,
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -397,7 +368,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3365,
+    "averias_total": 3363,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
@@ -405,10 +376,10 @@
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 203,
+      "Cerro": 202,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
-      "Marianao": 163,
+      "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
       "De Boyeros": 50,
