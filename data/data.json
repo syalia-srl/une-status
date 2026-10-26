@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-26T19:23:00+00:00",
+  "generated_at": "2026-10-26T19:32:38+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-26T19:22:32+00:00",
+    "as_of": "2026-10-26T19:30:09+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,20 +32,12 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": {
-      "ts": "2026-10-26T19:17:24+00:00",
-      "averias": [
-        {
-          "municipio": "San Miguel Del Padrón",
-          "direccion": ": 👉 H443: Reparto Los Ángeles, Rocafort, La Rosalía, La Fernanda y Juanelo 🚨 🚧"
-        }
-      ]
-    },
+    "active_averias": null,
     "averias_24h": [
       {
-        "ts": "2026-10-26T19:17:24+00:00",
-        "municipio": "San Miguel Del Padrón",
-        "direccion": ": 👉 H443: Reparto Los Ángeles, Rocafort, La Rosalía, La Fernanda y Juanelo 🚨 🚧"
+        "ts": "2026-10-26T19:30:09+00:00",
+        "municipio": "Boyeros",
+        "kind": "disparo_circuito"
       }
     ],
     "last_daf": null,
@@ -279,14 +271,13 @@
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
     "source_msg_count": 6,
     "by_type_counts": {
-      "restablecimiento": 1,
       "otro": 4,
-      "averias": 1
+      "disparo_circuito": 2
     }
   },
   "yesterday": {
@@ -336,7 +327,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "San Miguel Del Padrón": 1
+      "Boyeros": 1
     },
     "averias_total": 1,
     "daf_total": 0,
@@ -365,8 +356,7 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1,
-      "San Miguel Del Padrón": 1
+      "Boyeros": 2
     },
     "averias_total": 2,
     "daf_total": 0,
@@ -391,7 +381,7 @@
     },
     "averias_total": 3364,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 358,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
@@ -399,7 +389,7 @@
       "Guanabacoa": 227,
       "Cerro": 202,
       "Plaza": 191,
-      "San Miguel Del Padrón": 189,
+      "San Miguel Del Padrón": 188,
       "Marianao": 162,
       "Cotorro": 105,
       "Centro Habana": 72,
