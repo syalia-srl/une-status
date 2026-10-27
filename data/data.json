@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-27T20:45:51+00:00",
+  "generated_at": "2026-10-27T21:01:20+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-27T20:36:28+00:00",
+    "as_of": "2026-10-27T20:53:48+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,8 +32,24 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
+    "active_averias": {
+      "ts": "2026-10-27T20:53:48+00:00",
+      "averias": [
+        {
+          "municipio": "Cerro",
+          "direccion": "el siguiente circuito: 👉 C16: Alrededores de calles Vía Blanca desde Infanta hasta Prensa, Prensa desde Vía Blanca hasta calzada del Cerro, Ferrer desde calzada del Cerro hasta Conill",
+          "severity": "primaria"
+        }
+      ]
+    },
+    "averias_24h": [
+      {
+        "ts": "2026-10-27T20:53:48+00:00",
+        "municipio": "Cerro",
+        "direccion": "el siguiente circuito: 👉 C16: Alrededores de calles Vía Blanca desde Infanta hasta Prensa, Prensa desde Vía Blanca hasta calzada del Cerro, Ferrer desde calzada del Cerro hasta Conill",
+        "severity": "primaria"
+      }
+    ],
     "last_daf": null,
     "last_pronostico": null,
     "sen": {
@@ -264,12 +280,14 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 3,
+    "averias_count_by_municipio": {
+      "Cerro": 1
+    },
+    "averias_total": 1,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 2,
-      "restablecimiento": 1
+      "otro": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -318,8 +336,10 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Cerro": 1
+    },
+    "averias_total": 1,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -346,9 +366,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Boyeros": 1,
+      "Cerro": 1
     },
-    "averias_total": 1,
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -369,7 +390,7 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3364,
     "averias_top_municipios": {
       "Boyeros": 357,
       "Playa": 283,
@@ -377,7 +398,7 @@
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 202,
+      "Cerro": 203,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
