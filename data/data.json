@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-27T00:34:00+00:00",
+  "generated_at": "2026-10-27T00:49:19+00:00",
   "source_channel": "EmpresaElectricaDeLaHabana",
   "timezone": "America/Havana",
   "current": {
-    "as_of": "2026-10-27T00:26:43+00:00",
+    "as_of": "2026-10-27T00:41:42+00:00",
     "bloques": [
       {
         "id": 1,
@@ -32,12 +32,30 @@
     ],
     "current_mw_affected": null,
     "current_mw_affected_at": null,
-    "active_averias": null,
-    "averias_24h": [],
-    "last_daf": {
-      "ts": "2026-10-27T00:26:43+00:00",
-      "type": "restablecimiento_daf"
+    "active_averias": {
+      "ts": "2026-10-27T00:41:42+00:00",
+      "averias": [
+        {
+          "municipio": "Boyeros",
+          "direccion": "Lili Loy y Rosita , se afecta el siguiente circuito: 👉 A1545: Repartos Gran Boulevard, Nueva Fortuna, Fortuna, El Trigal, Comunidad Arday, José Antonio Saco",
+          "severity": "primaria"
+        }
+      ]
     },
+    "averias_24h": [
+      {
+        "ts": "2026-10-27T00:41:42+00:00",
+        "municipio": "Boyeros",
+        "direccion": "Lili Loy y Rosita , se afecta el siguiente circuito: 👉 A1545: Repartos Gran Boulevard, Nueva Fortuna, Fortuna, El Trigal, Comunidad Arday, José Antonio Saco",
+        "severity": "primaria"
+      },
+      {
+        "ts": "2026-10-27T00:37:55+00:00",
+        "municipio": "Cerro",
+        "kind": "disparo_circuito"
+      }
+    ],
+    "last_daf": null,
     "last_pronostico": null,
     "sen": {
       "state": "online",
@@ -267,12 +285,15 @@
     "partial_sen_reconnect_count": 0,
     "partial_sen_outage_minutes": 0,
     "cte_offline_minutes": {},
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
-    "source_msg_count": 4,
+    "averias_count_by_municipio": {
+      "Cerro": 1,
+      "Boyeros": 1
+    },
+    "averias_total": 2,
+    "source_msg_count": 2,
     "by_type_counts": {
-      "otro": 2,
-      "restablecimiento_daf": 2
+      "disparo_circuito": 1,
+      "averias": 1
     }
   },
   "yesterday": {
@@ -321,8 +342,11 @@
       "6": 0
     },
     "total_emergency_mw_sum": 0,
-    "averias_count_by_municipio": {},
-    "averias_total": 0,
+    "averias_count_by_municipio": {
+      "Cerro": 1,
+      "Boyeros": 1
+    },
+    "averias_total": 2,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -349,9 +373,10 @@
     },
     "total_emergency_mw_sum": 0,
     "averias_count_by_municipio": {
-      "Boyeros": 1
+      "Boyeros": 2,
+      "Cerro": 1
     },
-    "averias_total": 1,
+    "averias_total": 3,
     "daf_total": 0,
     "sen_collapse_total": 0,
     "sen_outage_days": 0,
@@ -372,15 +397,15 @@
       "5": 70848,
       "6": 72939
     },
-    "averias_total": 3363,
+    "averias_total": 3365,
     "averias_top_municipios": {
-      "Boyeros": 357,
+      "Boyeros": 358,
       "Playa": 283,
       "Arroyo Naranjo": 272,
       "Lisa": 243,
       "Habana Del Este": 230,
       "Guanabacoa": 227,
-      "Cerro": 202,
+      "Cerro": 203,
       "Plaza": 191,
       "San Miguel Del Padrón": 188,
       "Marianao": 162,
